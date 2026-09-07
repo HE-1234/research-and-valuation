@@ -1,0 +1,176 @@
+# Example assumptions.yaml following AGENTS.md section 18.4.
+# The numbers are made up but plausible for a mid-size semiconductor company; the file
+# doubles as documentation of every key the engine reads.  Rates are decimals.
+schema: 1
+ticker: EXMP
+company: Example Semiconductor, Inc.
+as_of_quarter: FY2027-Q2
+as_of_date: 2026-08-28
+drafted: 2026-09-07
+currency: USD
+units: millions
+horizon: 5                       # explicit years; the 10-year-fade reference is always computed too
+
+base_year:
+  period: "Q3 FY2026 - Q2 FY2027 (TTM)"
+  revenue:                      {value: 8000, source: "[10-Q Q2 FY2027, Item 1]"}
+  operating_income_gaap:        {value: 1200, source: "[10-Q Q2 FY2027, Item 1]"}
+  one_time_items:
+    - {name: "Restructuring charge", value: 80, source: "[10-Q Q2 FY2027, Note 9]",
+       reason: "A facility closure booked once; the plan is complete per the filing."}
+    - {name: "Gain on divestiture", value: -30, source: "[10-Q Q1 FY2027, Note 3]",
+       reason: "Sale of a product line; removed so the base year shows only continuing operations."}
+  amortization_of_acquired_intangibles: {value: 900, source: "[10-Q Q2 FY2027, Note 5]"}
+  stock_based_compensation:     {value: 650, source: "[10-Q Q2 FY2027, Note 7]"}
+  rnd_expense:                  {value: 2100, source: "[10-Q Q2 FY2027, Item 1]"}
+  effective_tax_rate:           {value: 0.08, source: "[10-Q Q2 FY2027, Note 8]",
+                                 reason: "TTM provision over pre-tax income; low because of foreign structures."}
+  invested_capital:             {value: 16000, source: "[10-Q Q2 FY2027, Item 1]",
+                                 reason: "book equity + debt + leases - cash; for the ROIC check"}
+switches:
+  addback_acquired_amortization: false
+  capitalize_rnd: false
+  rnd_amortization_years: 5
+  rnd_history: [1200, 1400, 1600, 1800, 1950]   # oldest first; only used if capitalize_rnd
+
+bridge:
+  cash_and_marketable_securities: {value: 1500, source: "[10-Q Q2 FY2027, Balance sheet]"}
+  debt:                           {value: 4200, source: "[10-Q Q2 FY2027, Note 6]"}
+  operating_lease_liabilities:    {value: 300, source: "[10-Q Q2 FY2027, Note 4]"}
+  non_operating_assets:
+    - {name: "Equity stake in a private foundry", value: 200, source: "[10-K FY2026, Note 3]",
+       reason: "Carried at cost; not part of operating income."}
+  minority_interests:             {value: 0, source: "[10-Q Q2 FY2027, Balance sheet]"}
+  other_claims:
+    - {name: "Contingent consideration from the 2025 acquisition", value: 100, source: "[10-Q Q2 FY2027, Note 5]"}
+  probability_of_failure:         {value: 0.0, reason: "Investment-grade balance sheet; no near-term maturities."}
+  distress_proceeds:              {value: 0, reason: "Not used while probability of failure is zero."}
+  diluted_shares:                 {value: 870, source: "[10-Q Q2 FY2027, Item 1]",
+                                   reason: "latest-quarter diluted weighted average"}
+  dilution_note: "Stock awards add roughly one percent to the share count each year, net of buybacks."
+
+market:
+  price: auto                    # 'auto' = Yahoo chart at compute time, or a number
+  risk_free_rate: auto           # 'auto' = FRED DGS10 latest, or a decimal
+  equity_risk_premium: auto      # 'auto' = latest row of Damodaran's ERPbymonth.xlsx (cached), or a decimal
+  mature_market_erp: 0.045
+  marginal_tax_rate: 0.25
+
+cost_of_capital:
+  method: build                  # build | pinned
+  pinned_value: null
+  build:
+    damodaran_industry:     {value: "Semiconductor", reason: "Damodaran's US industry grouping for chip designers."}
+    unlevered_beta:         {value: 1.50, source: "[Damodaran betas.xls 2026-01-05, Semiconductor]",
+                             reason: "Industry unlevered beta corrected for cash."}
+    debt_to_equity_market:  {value: 0.08, source: "[10-Q Q2 FY2027, Note 6]",
+                             reason: "debt + leases over market cap at the as-of date"}
+    pretax_cost_of_debt:    {value: 0.055, source: "[10-Q Q2 FY2027, Note 6]",
+                             reason: "Weighted coupon on the outstanding notes."}
+  terminal:
+    method: mature               # mature | hold | value
+    value: null
+    reason: "A mature company earns the mature-market rate: risk-free plus 4.5 points."
+
+diagnostics:
+  final_year_market_size:     {value: 60000, source: "[Q2 FY2027 slides, p.6]",
+                               reason: "Management's data-center silicon market estimate for 2031, used as the year-5 size."}
+  historical_revenue_cagr:    {value: 0.14, source: "[10-K FY2026, Item 7]",
+                               reason: "Five-year compound revenue growth from the ten-year table."}
+  historical_operating_margin: {value: 0.11, source: "[10-K FY2026, Item 7]",
+                               reason: "Five-year average GAAP operating margin."}
+
+scenarios:
+  bear:
+    weight: 0.25
+    story: |
+      The custom-chip business loses its biggest customer to an in-house design after two years.
+      Growth slows to the pace of the wider chip market and margins stay where they are today.
+      Reinvestment stays heavy because the company keeps chasing the next design win.
+    revenue_growth:        {values: [0.10, 0.06, 0.04, 0.04, 0.04],
+                            reason: "Year one follows the order book; then market-rate growth. See outlook.md section 4.",
+                            source: "[Q2 FY2027 call]"}
+    operating_margin:      {values: [0.16, 0.16, 0.16, 0.16, 0.16],
+                            reason: "Today's adjusted margin holds; acquired amortization rolls off but pricing weakens.",
+                            source: "[10-Q Q2 FY2027, Item 2]"}
+    sales_to_capital:      {value: 1.2, value_late: 1.2, reason: "Industry average; see business.md section 3.",
+                            source: "[Damodaran capex.xls 2026-01-05, Semiconductor]"}
+    reinvestment_override: {values: [null, null, null, null, null],
+                            reason: "No explicit guidance; sales-to-capital rule throughout."}
+    tax_rate:              {start: 0.08, terminal: 0.25, reason: "Effective rate today, marginal rate in perpetuity."}
+    cost_of_capital_override: null
+    terminal:
+      growth:              {value: riskfree, allow_above_riskfree: false,
+                            reason: "Damodaran's default: growth forever equals the risk-free rate used in the run."}
+      roic_premium:        {value: 0.0, allow_large_premium: false, reason: "points above terminal WACC; bear is 0"}
+  base:
+    weight: 0.50
+    story: |
+      The company keeps its two big custom-chip customers and adds a third by year three.
+      Revenue grows well above the market for two years and then settles toward it.
+      Margins widen as acquired amortization rolls off and fixed costs are spread over more revenue.
+    revenue_growth:        {values: [0.20, 0.20, 0.20, 0.20, 0.20],
+                            reason: "Backlog plus one new program per year; see outlook.md section 3.",
+                            source: "[Q2 FY2027 call]"}
+    operating_margin:      {values: [0.18, 0.20, 0.22, 0.24, 0.26],
+                            reason: "Two points a year as amortization rolls off and scale builds; business.md section 4.",
+                            source: "[10-K FY2026, Item 7]"}
+    sales_to_capital:      {value: 1.5, value_late: 1.2,
+                            reason: "Fabless model needs less capital than the industry average early on.",
+                            source: "[Damodaran capex.xls 2026-01-05, Semiconductor]"}
+    reinvestment_override: {values: [null, null, null, null, null],
+                            reason: "No explicit guidance; sales-to-capital rule throughout."}
+    tax_rate:              {start: 0.08, terminal: 0.25, reason: "Effective rate today, marginal rate in perpetuity."}
+    cost_of_capital_override: null
+    terminal:
+      growth:              {value: riskfree, allow_above_riskfree: false,
+                            reason: "Damodaran's default: growth forever equals the risk-free rate used in the run."}
+      roic_premium:        {value: 0.03, allow_large_premium: false,
+                            reason: "Design wins are sticky for a product generation; business.md section 5."}
+  bull:
+    weight: 0.25
+    story: |
+      Every hyperscaler that talks to the company signs up, and the optical business doubles.
+      Growth stays far above the market for the whole five years.
+      Margins reach the level of the best fabless peers.
+    revenue_growth:        {values: [0.30, 0.30, 0.25, 0.20, 0.15],
+                            reason: "Management's total-addressable-market path; outlook.md section 3.",
+                            source: "[Q2 FY2027 slides, p.8]"}
+    operating_margin:      {values: [0.20, 0.24, 0.28, 0.32, 0.34],
+                            reason: "Peer-level margins by year five.",
+                            source: "[10-K FY2026, Item 7]"}
+    sales_to_capital:      {value: 1.8, value_late: 1.5, reason: "Best-in-class capital efficiency.",
+                            source: "[Damodaran capex.xls 2026-01-05, Semiconductor]"}
+    reinvestment_override: {values: [400, null, null, null, null],
+                            reason: "Year one uses the capital-spending guidance from the call.",
+                            source: "[Q2 FY2027 call]"}
+    tax_rate:              {start: 0.08, terminal: 0.25, reason: "Effective rate today, marginal rate in perpetuity."}
+    cost_of_capital_override: null
+    terminal:
+      growth:              {value: 0.04, allow_above_riskfree: false,
+                            reason: "A decimal is also allowed; 4% sits at or below the risk-free rate."}
+      roic_premium:        {value: 0.05, allow_large_premium: false,
+                            reason: "At the ceiling; the owner prefers to err low."}
+  management:
+    computable: true
+    reason: "Management gave a three-year revenue target and a long-term margin target."
+    guidance:
+      - {item: "FY2028 revenue target", quote: "we expect to reach $12 billion in revenue in fiscal 2028",
+         source: "[Q2 FY2027 call]", used_as: "revenue_growth years 1-2"}
+      - {item: "Long-term operating margin", quote: "operating margin in the low 30s over the long term",
+         source: "[Q2 FY2027 slides, p.12]", used_as: "operating_margin year 5"}
+      - {item: "Capital spending", quote: "capex will be up significantly next year",
+         source: "[Q2 FY2027 call]", used_as: "not numeric"}
+    revenue_growth:        {values: [0.22, 0.22, 0.18, 0.15, 0.12],
+                            reason: "Two years at the pace implied by the FY2028 target, then fading. Fiscal years mapped to the nearest model year.",
+                            source: "[Q2 FY2027 call]"}
+    operating_margin:      {values: [0.18, 0.21, 0.24, 0.28, 0.32],
+                            reason: "Straight line to the low-30s target by year five.",
+                            source: "[Q2 FY2027 slides, p.12]"}
+    sales_to_capital:      {value: 1.5, value_late: 1.2, reason: "Base-case assumption; management gave none."}
+    reinvestment_override: {values: [null, null, null, null, null], reason: "Capex guidance is qualitative."}
+    tax_rate:              {start: 0.08, terminal: 0.25, reason: "Effective rate today, marginal rate in perpetuity."}
+    cost_of_capital_override: null
+    terminal:
+      growth:              {value: 0.04, allow_above_riskfree: false, reason: "At the risk-free rate."}
+      roic_premium:        {value: 0.03, allow_large_premium: false, reason: "Base-case premium."}

@@ -58,7 +58,12 @@ finance/
 ├── CLAUDE.md                 ← two-line pointer to AGENTS.md
 ├── .claude/skills/
 │   ├── research-company/SKILL.md
-│   └── refresh-company/SKILL.md
+│   ├── refresh-company/SKILL.md
+│   ├── draft-valuation/SKILL.md      ← §18: write assumptions.yaml, stop for owner review
+│   └── compute-valuation/SKILL.md    ← §18: run the engine, write valuation.md
+├── pyproject.toml / uv.lock          ← uv project for the valuation engine (§18.9)
+├── tools/
+│   └── valuation/                    ← the DCF engine, its tests, and cached Damodaran datasets
 └── companies/
     └── <TICKER>/
         ├── business.md       ← Section A: the stable understanding of the business
@@ -74,8 +79,13 @@ finance/
         │       ├── press-release.txt
         │       ├── slides.txt
         │       └── notes-*.md        ← gatherer notes (structured, cited)
-        └── review/
-            └── <QLABEL>-review.md    ← reviewer's rubric check and citation spot-check
+        ├── review/
+        │   ├── <QLABEL>-review.md    ← reviewer's rubric check and citation spot-check
+        │   └── <QLABEL>-valuation-draft-review.md   ← §18 reviewer's check of assumptions.yaml
+        └── valuation/                ← §18
+            ├── assumptions.yaml      ← the single source of valuation inputs; owner edits this
+            ├── valuation.md          ← rendered by the engine: stories, tables, results
+            └── history/<date>/       ← previous assumptions.yaml + valuation.md pairs
 ```
 
 Ticker is the folder name, uppercase. Only extracted text is cached, never PDFs or HTML binaries.
@@ -371,6 +381,7 @@ Given a ticker with an existing report and a new quarter:
 ## 16. Git
 
 - The repo root is `finance/`. Commit after each completed research run or refresh: `research(GOOGL): initial report as of 2026-Q1`, `refresh(MRVL): FY2027-Q2`.
+- Valuation (§18): `value(GOOGL): draft assumptions as of 2026-Q2` after `draft-valuation`; `value(GOOGL): compute 2026-Q2 rev N` after each `compute-valuation` (N counts computes for that as-of quarter, starting at 1). Owner edits to `assumptions.yaml` may ride along with the compute commit that follows them.
 - Owner edits to `business.md` (indicator lock, flag resolution) are their own commits.
 - Do not commit binaries.
 
@@ -392,4 +403,235 @@ Append here whenever the owner gives feedback that changes how reports should be
 - 2026-09-07 — (pipeline) Segment definitions changed mid-window at LITE (twice), MU (FY2025 reorg) and NBIS (basis changes); as with Marvell, the writers used the consistent series (product or technology line) and footnoted the reorg rather than forcing a five-year table.
 - 2026-09-07 — (pipeline) Length: when writer and reviewer ran the same counting script their counts agreed within a few words and no review cycle was length-driven. Reviewer glosses add about 5%, so a draft near 2,800 leaves no room; the one single-cycle PASS (AVGO) came from a hard 2,000–2,500 aim. Pipelines each rewrote a counter in `/tmp` and one was overwritten by another pipeline mid-run; a canonical script committed to the repo (e.g. `tools/wc_prose.py`) would end the re-derivation. Owner to decide.
 - 2026-09-07 — (pipeline) Reviewer gotcha in two pipelines (PINS, NBIS): truncating grep output (`| head`, character cut) hid the end of a long proxy line and produced a false FAIL. Print full lines before ruling a fact unsourced. Treat "n/d" cells like any other number and check the alternate-basis filing used for that column. Reviewer withdrawals must be recorded in the review file with the evidence.
+- 2026-09-07 — (valuation) §18 designed in a second grill-me interview and built the same day: engine `tools/valuation/` (63 tests; reproduces Damodaran's Alphabet 2018 and Nvidia 2023 workbooks to the dollar), skills `draft-valuation` and `compute-valuation`, drafts for GOOGL and MRVL. Lessons: (1) his Alphabet 2018 sheet has no reinvestment lag while ginzu does; `switches.reinvestment_lag` records the choice, default 1 per §18.3. (2) FRED timed out once for the engine builder and worked before and after; the CLI names the `--set market.risk_free_rate=` fallback. (3) Both drafts needed two review cycles. Reviewers caught a preferred-stock arithmetic slip (19,000 vs 19,250, Alphabet), a bear path whose half-year arithmetic did not match its reason (Marvell), and, most usefully, a capex-versus-margin inconsistency: sales-to-capital alone made Alphabet's 2027 capex fall below 2026's against explicit guidance, so year-2 overrides were added and the bull margin lowered. Rule for future analysts: whenever guidance names a spending level, check what the sales-to-capital path implies for gross capex in every explicit year and override where they disagree. (4) A hard-coded terminal growth goes stale; `value: riskfree` is now the default written into drafts. (5) The engine derives unlevered beta and market debt-to-equity when the analyst leaves them null, with a warning; the runner still fills them explicitly so the owner sees the numbers and dates.
 - 2026-09-07 — (pipeline) Host quirks: a stray `/tmp/inspect.py` shadows a stdlib module and breaks BeautifulSoup for any Python run with cwd `/tmp` (use `python3 -P` or another cwd); `/tmp` is shared across pipelines, so use pipeline-specific file names; host `grep` is ugrep and rejects long regex alternations (use `grep -F`); filings use curly apostrophes that defeat ASCII greps; two-column PDFs need a reading-order `pdftotext` copy; image-only pages need OCR or the release. A large gatherer died on an API error after caching but before writing notes (MU); relaunching against the cache recovered it, hence the fetch-then-notes order in §13.
+
+## 18. Valuation (`draft-valuation`, `compute-valuation`)
+
+Valuation is a separate layer on top of the research library. It never edits `business.md`, `outlook.md`, or `scorecard.md`. It reads them, plus the cached filings, and produces one editable file of assumptions and one rendered document of results. The owner's judgment lives in the assumptions file; the engine only does arithmetic.
+
+### 18.1 Method in one paragraph
+
+We follow Aswath Damodaran's free-cash-flow-to-the-firm model as implemented in his public `fcffsimpleginzu.xlsx`. Operating profit after tax, minus the reinvestment needed to grow, gives the cash the whole firm produces each year. Those cash flows are discounted at the firm's cost of capital (the blended return lenders and owners require). A terminal value captures everything after the forecast, under strict rules: growth capped at the risk-free rate, and a return on capital that by default equals the cost of capital, so the moat is assumed gone. Cash and non-operating assets are added, debt and other claims subtracted, and the result divided by diluted shares. Everything stays firm-side until that last step (§18.6).
+
+Reader rules from §3 apply to every prose sentence in `valuation.md`: the scenario stories are written for the 16-year-old, numbers live in tables, and the glossary holds only unavoidable terms (cost of capital, terminal value, reinvestment, enterprise value, and the like), one sentence each.
+
+### 18.2 Horizon and structure
+
+- **Default horizon: 5 explicit years, then terminal value.** With identical terminal rules, a 10-year model with a growth fade values a fast grower 15–45% higher than a 5-year cutoff, because it credits five extra years of above-economy growth. The owner chose the structure less likely to overvalue. `horizon: 10` is allowed in `assumptions.yaml`.
+- **The 10-year-fade reference value is always computed and shown** next to each case, so the cost of that choice is visible. In the fade: years 6–10 growth moves linearly from year-5 growth to terminal growth; margin holds at the year-5 level; sales-to-capital uses `value_late`; tax rate and cost of capital move linearly to their terminal values; terminal value at year 10.
+- **In the 5-year model** the explicit years use the starting tax rate and the company's own cost of capital; the terminal year uses the terminal values (this matches years 1–5 of Damodaran's sheet plus his terminal year).
+- End-of-year discounting, as in his sheet.
+
+### 18.3 Formulas (the engine implements exactly these; tests reproduce his workbooks)
+
+All money in USD millions. `T` = horizon. For year `t = 1..T`:
+
+```
+Rev_t      = Rev_{t-1} × (1 + g_t)                       Rev_0 = base-year TTM revenue
+EBIT_t     = Rev_t × m_t                                  m_t = operating margin path
+Tax_t      = effective rate (years 1..T in the 5-year model; see §18.2 for the fade)
+Reinv_t    = (Rev_{t+1} − Rev_t) / SC        (one-year lag: money spent in t buys growth in t+1)
+             where Rev_{T+1} = Rev_T × (1 + g_T), and an explicit per-year override replaces the S/C figure when given
+FCFF_t     = EBIT_t × (1 − Tax_t) − Reinv_t
+DF_t       = Π_{k=1..t} 1 / (1 + WACC_k)                  (cumulative, so a fading rate is handled)
+
+Terminal (year T+1, growing at g_T forever):
+EBIT_{T+1}  = Rev_T × (1 + g_T) × m_T
+ROIC_T      = WACC_T + premium                            premium defaults to 0
+FCFF_{T+1}  = EBIT_{T+1} × (1 − Tax_T) × (1 − g_T / ROIC_T)     (reinvestment = g / ROIC)
+TV          = FCFF_{T+1} / (WACC_T − g_T)
+PV(TV)      = TV × DF_T
+
+Operating assets  = Σ FCFF_t × DF_t + PV(TV)
+                    × (1 − p_fail) + distress_proceeds × p_fail        (p_fail defaults to 0)
+Equity            = Operating assets + cash & marketable securities + non-operating assets
+                    − debt − operating-lease liabilities − minority interests − other claims
+Per share         = Equity / diluted shares
+Enterprise value  = price × diluted shares + debt + leases + minorities + other claims
+                    − cash − non-operating assets            (the like-for-like comparison to Operating assets)
+```
+
+Cost of capital build (when `method: build`):
+
+```
+levered beta   = unlevered beta × (1 + (1 − marginal tax) × D/E)
+cost of equity = risk-free + levered beta × equity risk premium
+WACC           = E/(D+E) × cost of equity + D/(D+E) × pre-tax cost of debt × (1 − marginal tax)
+terminal WACC  = risk-free + mature-market ERP   (method `mature`, default)
+               | the company's own WACC          (method `hold`)
+               | a given number                   (method `value`)
+```
+
+Return on invested capital is after-tax EBIT divided by invested capital (book equity + debt + leases − cash), tracked each year by rolling invested capital forward with reinvestment; it is printed as a check, never used as an input.
+
+### 18.4 `assumptions.yaml` — the single source of inputs
+
+Every input cell is a mapping with `value`, `reason`, and where the number comes from a document, `source` (a §3-style tag). Per-year inputs use `values` (a list of `horizon` numbers). Any cell may be `null` where the analyst has nothing defensible; the engine refuses to compute a scenario with a `null` in a required cell and says which. Rates are decimals (`0.12`, not `12%`). Reasons are one to three plain sentences that point at the report (`business.md §3`, `outlook.md §4`) and, where a number is involved, at a source.
+
+```yaml
+schema: 1
+ticker: MRVL
+company: Marvell Technology, Inc.
+as_of_quarter: FY2027-Q2         # the library's latest outlook quarter
+as_of_date: 2026-08-28           # that quarter's cutoff date
+drafted: 2026-09-07
+currency: USD
+units: millions
+horizon: 5                       # explicit years; the 10-year-fade reference is always computed too
+
+base_year:                       # trailing twelve months ending at as_of_quarter
+  period: "Q3 FY2026 – Q2 FY2027 (TTM)"
+  revenue:                      {value: 0, source: "[...]"}
+  operating_income_gaap:        {value: 0, source: "[...]"}
+  one_time_items:               # each: positive = a charge to add back, negative = a gain to remove
+    - {name: "...", value: 0, source: "[...]", reason: "why this is genuinely one-time"}
+  amortization_of_acquired_intangibles: {value: 0, source: "[...]"}   # memo row; deducted unless the switch is on
+  stock_based_compensation:     {value: 0, source: "[...]"}           # memo row; never added back
+  rnd_expense:                  {value: 0, source: "[...]"}           # memo row; used only if capitalize_rnd
+  effective_tax_rate:           {value: 0.0, source: "[...]", reason: "..."}
+  invested_capital:             {value: 0, source: "[...]", reason: "book equity + debt + leases − cash; for the ROIC check"}
+switches:
+  addback_acquired_amortization: false
+  capitalize_rnd: false
+  rnd_amortization_years: 5
+  rnd_history: []               # oldest first, at least rnd_amortization_years entries, if capitalize_rnd
+  reinvestment_lag: 1           # 1 = money spent in year t buys growth in t+1 (§18.3, his ginzu sheet); 0 = same-year (his Alphabet 2018 sheet)
+
+bridge:                          # firm value → equity; all as of the latest balance sheet
+  cash_and_marketable_securities: {value: 0, source: "[...]"}
+  debt:                           {value: 0, source: "[...]"}
+  operating_lease_liabilities:    {value: 0, source: "[...]"}
+  non_operating_assets:           # named, at carrying value
+    - {name: "...", value: 0, source: "[...]", reason: "..."}
+  minority_interests:             {value: 0, source: "[...]"}
+  other_claims:                   # e.g. contingent consideration, earn-outs
+    - {name: "...", value: 0, source: "[...]"}
+  probability_of_failure:         {value: 0.0, reason: "..."}
+  distress_proceeds:              {value: 0, reason: "what the assets would fetch in a failure"}
+  diluted_shares:                 {value: 0, source: "[...]", reason: "latest-quarter diluted weighted average"}
+  dilution_note: "known future dilution sources, one sentence"
+
+market:
+  price: auto                    # 'auto' = fetched at compute time (Yahoo chart endpoint), or a number
+  risk_free_rate: auto           # 'auto' = FRED DGS10 latest, or a decimal
+  equity_risk_premium: auto      # 'auto' = latest row of Damodaran's ERPbymonth.xlsx (cached), or a decimal
+  mature_market_erp: 0.045       # Damodaran's mature-market default
+  marginal_tax_rate: 0.25
+
+cost_of_capital:
+  method: build                  # build | pinned
+  pinned_value: null
+  build:
+    damodaran_industry:     {value: "Semiconductor", reason: "..."}
+    unlevered_beta:         {value: 0.0, source: "[Damodaran betas.xls <date>, <industry>]", reason: "..."}
+    debt_to_equity_market:  {value: 0.0, source: "[...]", reason: "debt + leases over market cap"}
+    pretax_cost_of_debt:    {value: 0.0, source: "[...]", reason: "actual coupon / synthetic rating"}
+  terminal:
+    method: mature               # mature | hold | value
+    value: null
+    reason: "..."
+
+diagnostics:
+  final_year_market_size:   {value: null, source: "[...]", reason: "the 'big market' test: total spend the company could address in year T"}
+  historical_revenue_cagr:  {value: null, source: "[...]", reason: "optional: the company's own five-year revenue growth, for the 'vs own history' check"}
+  historical_operating_margin: {value: null, source: "[...]", reason: "optional: the company's own five-year average GAAP operating margin"}
+
+scenarios:
+  bear:
+    weight: 0.25
+    story: |
+      Three to five plain sentences: what has to be true for this case.
+    revenue_growth:        {values: [0, 0, 0, 0, 0], reason: "...", source: "[...]"}
+    operating_margin:      {values: [0, 0, 0, 0, 0], reason: "...", source: "[...]"}
+    sales_to_capital:      {value: 0.0, value_late: 0.0, reason: "...", source: "[...]"}
+    reinvestment_override: {values: [null, null, null, null, null], reason: "explicit net reinvestment in USD millions where guidance is specific; null = use sales-to-capital"}
+    tax_rate:              {start: 0.0, terminal: 0.25, reason: "..."}
+    cost_of_capital_override: null          # a decimal pins this scenario's WACC; null = shared
+    terminal:
+      growth:              {value: riskfree, allow_above_riskfree: false, reason: "..."}   # 'riskfree' = the run's risk-free rate (Damodaran's default), or a decimal
+      roic_premium:        {value: 0.0, allow_large_premium: false, reason: "points above terminal WACC; bear is 0"}
+  base:  { ... same keys ..., weight: 0.50 }
+  bull:  { ... same keys ..., weight: 0.25 }
+  management:
+    computable: false            # true only when at least one multi-year revenue or margin target exists
+    reason: "..."
+    guidance:                    # every quantitative or qualitative item management has given, whether used or not
+      - {item: "...", quote: "verbatim", source: "[...]", used_as: "revenue_growth year 1 | reinvestment year 1 | not numeric"}
+    revenue_growth:        {values: [null, null, null, null, null], reason: "...", source: "[...]"}
+    operating_margin:      {values: [null, null, null, null, null], reason: "...", source: "[...]"}
+    sales_to_capital:      {value: null, value_late: null, reason: "..."}
+    reinvestment_override: {values: [null, null, null, null, null], reason: "..."}
+    tax_rate:              {start: null, terminal: 0.25, reason: "..."}
+    cost_of_capital_override: null
+    terminal:
+      growth:              {value: null, allow_above_riskfree: false, reason: "..."}
+      roic_premium:        {value: null, allow_large_premium: false, reason: "..."}
+```
+
+**Rules for the analyst filling it in:**
+
+1. **Base year is GAAP.** Operating income as reported, minus items the analyst can source as genuinely one-time (a gain on a divestiture, a termination charge). Recurring-at-intervals charges are not one-time. Stock-based pay stays expensed, always. Amortization of acquired intangibles stays deducted; it is recorded as a memo row and its roll-off must be addressed in the margin-path reasoning. The `switches` exist so the owner can change either treatment for a specific company; the analyst leaves them off.
+2. **Interest income and interest expense are not in operating income.** Cash is valued in the bridge, not in the cash flows.
+3. **Sources first, reports second, nothing new.** Base-year and bridge numbers come from the cached 10-Q/10-K text in `sources/<QLABEL>/`, tagged. Scenario reasoning points to `business.md` and `outlook.md` sections and to the sources they cite. The analyst fetches nothing from the internet. Market data and Damodaran's datasets are the engine's job.
+4. **Management case.** Guidance ranges become midpoints. Qualitative guidance ("capex up significantly") is recorded in `guidance` with `used_as: not numeric` and never turned into a number. Long-term targets already captured in the reports count. `computable` is true only when management has given at least one multi-year revenue or margin target; otherwise fill what exists and leave `computable: false`. The management case is never weighted. Guidance is mapped to the nearest model year and the approximation noted, since fiscal years and trailing-twelve-month windows do not line up.
+5. **Terminal discipline.** Terminal growth defaults to the risk-free rate: write `value: riskfree` and the engine uses the rate fetched for that run. A number above the run's risk-free rate is a validation error for that scenario unless `allow_above_riskfree: true` is set with a reason, in which case the engine computes and prints a warning. It may be lower or negative with a reason. Terminal return on capital equals terminal cost of capital in the bear case (`roic_premium: 0`). Base and bull may carry a premium justified from `business.md` §5; a premium above 0.05 requires `allow_large_premium: true` and a reason, and the engine prints a warning. Damodaran's own overrides were 4 points (Alphabet 2018) and 11 points (Nvidia 2023); the ceiling exists because the owner prefers to err low.
+6. **Cost of capital is shared** across scenarios unless a scenario sets `cost_of_capital_override` with a reason. Scenarios vary the business story, not the market's price of risk.
+7. **Weights** default 0.25 / 0.50 / 0.25 and must sum to 1.
+8. **Every story passes Damodaran's 3P test** in the reviewer's hands: is it possible (year-T revenue below the market size), plausible (margins and reinvestment consistent with the economics in `business.md` §3–§4), probable (consistent with what the scorecard shows management actually delivering)?
+9. **Stories are prose for the 16-year-old**, three to five sentences, no numbers except the one or two that define the case.
+
+### 18.5 Outputs (`valuation.md`, rendered by the engine)
+
+In this order:
+
+1. Header: ticker, as-of quarter, price and its date, risk-free rate and its date, equity risk premium and its date, compute timestamp, engine version.
+2. **Results table**, one row per case (bear, base, bull, management if computable, weighted expected): value of operating assets, enterprise value today, equity value, value per share, price, upside or downside, terminal-value share of operating assets, 10-year-fade reference value per share.
+3. **The stories**, one short section per scenario, verbatim from the YAML.
+4. **Assumptions table**: rows are inputs, columns are cases, per-year lists shown as five columns; followed by a reasoning list per scenario (each cell's `reason` and `source`).
+5. **Base year, bridge, cost of capital, and terminal tables** with sources and the derived numbers (adjusted operating income, levered beta, cost of equity, WACC, terminal WACC, terminal ROIC).
+6. **Base-case year-by-year table**: revenue, growth, margin, after-tax operating income, reinvestment, free cash flow, discount factor, present value, implied ROIC.
+7. **Sensitivity grids** for the base case: cost of capital × terminal growth; average 5-year revenue growth × year-5 margin. Value per share in each cell; the base-case cell marked.
+8. **Reverse DCF**: the constant annual revenue growth over the horizon that, with base-case margins, reinvestment, cost of capital, and terminal settings, makes operating assets equal today's enterprise value. Also the year-5 margin that does the same at base-case growth.
+9. **Diagnostics** (Damodaran's six): revenue growth vs industry average and the company's own five-year history; year-T revenue vs `final_year_market_size`; year-5 margin vs industry average and own history; implied ROIC path vs cost of capital; terminal-value share; a flag when value per share is above 2× or below 0.5× the price. Industry figures come from the cached datasets (§18.8) and are labelled with their dataset date.
+10. **Warnings**: every rule override, every `null` that stopped a scenario, any fetch that fell back to a manual value.
+11. Glossary and Sources (the YAML's source tags mapped to cached files, plus dataset and feed URLs with fetch dates).
+
+### 18.6 Firm-side consistency
+
+Cash flows are to the firm (before interest), discounted at the cost of capital, never at the cost of equity. Cash and marketable securities are excluded from the cash flows and added in the bridge; Damodaran's reason is that cash earns the riskless rate and discounting it at an operating cost of capital misvalues it. Debt is excluded from the cash flows and subtracted in the bridge; the interest tax shield sits in the after-tax cost of debt, not in the cash flows. The like-for-like market comparison is operating assets against enterprise value; the reverse DCF solves on enterprise value. Return on capital, never return on equity.
+
+### 18.7 Procedures
+
+**`draft-valuation <TICKER>`** (stops for owner review; computes nothing):
+
+1. Preconditions: `business.md` and `outlook.md` exist; `valuation/assumptions.yaml` does not (else tell the owner to edit it or pass `--redraft`, which archives the old pair to `history/`).
+2. Launch one **analyst** subagent with AGENTS.md (§3, §18), `business.md`, `outlook.md`, `scorecard.md` if present, and read access to `sources/`. It writes `valuation/assumptions.yaml` per §18.4. Cells that need Damodaran's datasets or the market price (unlevered beta, market debt-to-equity) it leaves `null`, stating the industry or the numerator in the reason.
+3. The runner fills those cells from the cached datasets (§18.8) and the fetched price, recording dataset and price dates in each cell's `source`, then runs `uv run value <TICKER> --validate` until it passes.
+4. Launch one **reviewer** subagent. It writes `review/<QLABEL>-valuation-draft-review.md` with: (a) every base-year and bridge number re-checked against the cached source, listing failures; (b) the 3P test on each story with one line each; (c) consistency checks: growth vs reinvestment (implied sales-to-capital against history), margin path vs the economics in `business.md` §3–§4, amortization roll-off addressed, management case built only from recorded guidance, terminal rules respected, weights sum to 1; (d) reader check on the stories; (e) PASS or REVISE with a list. Maximum two cycles.
+5. Commit `value(<TICKER>): draft assumptions as of <QLABEL>`.
+6. Report to the owner: the four stories in one line each, the five inputs most worth their attention, anything the analyst could not source, and the exact command to compute.
+
+**`compute-valuation <TICKER> [--set path=value ...]`**:
+
+1. Preconditions: `valuation/assumptions.yaml` exists and validates.
+2. If `valuation.md` exists, copy it and `assumptions.yaml` to `history/<YYYY-MM-DD-HHMM>/`.
+3. Run `uv run value <TICKER>`; it fetches market data, computes every case, writes `valuation.md`, prints the results table and warnings.
+4. Commit `value(<TICKER>): compute <QLABEL> rev N`.
+5. Report to the owner in a few lines: per-share value per case against price, weighted value, terminal-value share, the reverse-DCF growth, and every warning. No interpretation beyond that; the owner reads `valuation.md`.
+
+The refresh skill never re-values. When `refresh-company` runs on a company that has a `valuation/` folder, its report tells the owner the valuation is now as of an older quarter.
+
+### 18.8 Market data and Damodaran datasets
+
+- Risk-free rate: FRED series DGS10, `https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10`, latest non-empty row.
+- Price: Yahoo chart endpoint `https://query1.finance.yahoo.com/v8/finance/chart/<TICKER>?range=1d&interval=1d` with a browser User-Agent; `regularMarketPrice` and its timestamp.
+- Damodaran datasets, cached as CSV under `tools/valuation/data/damodaran/` with a `MANIFEST.md` (URL, fetch date, his "last updated" date), refreshed only by `uv run value --refresh-data`: `pc/implprem/ERPbymonth.xlsx` (implied ERP), `pc/datasets/betas.xls` (industry unlevered betas), `wacc.xls`, `capex.xls` (sales-to-capital), `margin.xls`, `taxrate.xls`, `histgr.xls` (historical revenue growth by industry), all under `https://pages.stern.nyu.edu/~adamodar/`.
+- Any fetch failure falls back to the YAML's manual value if given, else stops with a clear message. Fetched values and dates are printed in the header of `valuation.md`; the engine never writes into `assumptions.yaml`.
+
+### 18.9 Engine
+
+- uv project at the repo root; package `tools/valuation/` (module name `valuation`); Python ≥ 3.12; dependencies limited to PyYAML, openpyxl, xlrd; pytest for tests. `.venv/` is gitignored.
+- Console script `value`: `uv run value <TICKER> [--validate] [--dry-run] [--set a.b.c=1.2 ...] [--json] [--refresh-data]`. `--set` takes dotted paths into the YAML (`scenarios.base.sales_to_capital.value=2.0`, `scenarios.base.operating_margin.values.4=0.34`) and applies them in memory only.
+- Python API: `valuation.load(ticker)`, `valuation.compute(assumptions, market=None)`, `valuation.render(result)`.
+- Tests: the engine in 10-year mode must reproduce Damodaran's `AlphabetApr2018.xlsx` and `NVIDIA2023.xlsx` values of operating assets and per-share values to within 0.1% from their input sheets; a hand-worked 5-year case; every validation rule; the reverse DCF round-trips.

@@ -1,0 +1,98 @@
+{
+  "fetched": "2026-09-07 21:29 UTC",
+  "datasets": {
+    "erp": {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPbymonth.xlsx",
+      "file": "ERPbymonth.csv",
+      "fetched": "2026-09-07 21:29 UTC",
+      "date_updated": "2026-09-01",
+      "rows": 216,
+      "header_row": 0,
+      "sheet": "Historical ERP",
+      "columns_used": {
+        "date": "Start of month",
+        "tbond": "T.Bond Rate",
+        "erp": "ERP (T12m)"
+      },
+      "note": null
+    },
+    "betas": {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/betas.xls",
+      "file": "betas.csv",
+      "fetched": "2026-09-07 21:29 UTC",
+      "date_updated": "2026-01-05",
+      "rows": 96,
+      "header_row": 9,
+      "sheet": "Industry Averages",
+      "columns_used": {
+        "unlevered_beta_cash_corrected": "Unlevered beta corrected for cash"
+      },
+      "note": null
+    },
+    "wacc": {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/wacc.xls",
+      "file": "wacc.csv",
+      "fetched": "2026-09-07 21:29 UTC",
+      "date_updated": "2026-01-05",
+      "rows": 96,
+      "header_row": 18,
+      "sheet": "Industry Averages",
+      "columns_used": {
+        "cost_of_capital": "Cost of Capital"
+      },
+      "note": null
+    },
+    "capex": {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/capex.xls",
+      "file": "capex.csv",
+      "fetched": "2026-09-07 21:29 UTC",
+      "date_updated": "2026-01-05",
+      "rows": 96,
+      "header_row": 7,
+      "sheet": "Industry Averages",
+      "columns_used": {
+        "sales_to_capital": "Sales/ Invested Capital (LTM)"
+      },
+      "note": null
+    },
+    "margin": {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/margin.xls",
+      "file": "margin.csv",
+      "fetched": "2026-09-07 21:29 UTC",
+      "date_updated": "2026-01-05",
+      "rows": 96,
+      "header_row": 8,
+      "sheet": "Industry Averages",
+      "columns_used": {
+        "pretax_operating_margin": "Pre-tax Unadjusted Operating Margin"
+      },
+      "note": null
+    },
+    "taxrate": {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/taxrate.xls",
+      "file": "taxrate.csv",
+      "fetched": "2026-09-07 21:29 UTC",
+      "date_updated": "2026-01-05",
+      "rows": 96,
+      "header_row": 8,
+      "sheet": "Industry Averages",
+      "columns_used": {
+        "effective_tax_rate": "Aggregate tax rate"
+      },
+      "note": null
+    },
+    "histgr": {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/histgr.xls",
+      "file": "histgr.csv",
+      "fetched": "2026-09-07 21:29 UTC",
+      "date_updated": "2026-01-05",
+      "rows": 96,
+      "header_row": 7,
+      "sheet": "Industry Averages",
+      "columns_used": {
+        "revenue_cagr_5y": "CAGR in Revenues- Last 5 years"
+      },
+      "note": null
+    }
+  }
+}

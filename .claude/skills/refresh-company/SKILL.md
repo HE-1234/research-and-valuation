@@ -32,4 +32,4 @@ Read `AGENTS.md` in the repo root before anything else. It defines everything; t
 
 7. **Commit.** `refresh(<TICKER>): <new QLABEL>`.
 
-8. **Report to the user** in a few lines: the running tally change, any ❌ or 🔇 verdicts with one line each, the tone-shift headline, any FLAGs raised, transcript source tier, and reviewer verdict.
+8. **Report to the user** in a few lines: the running tally change, any ❌ or 🔇 verdicts with one line each, the tone-shift headline, any FLAGs raised, transcript source tier, and reviewer verdict. If `companies/<TICKER>/valuation/` exists, add one line saying the valuation is now as of an older quarter (AGENTS.md §18.7); this skill never re-values.
