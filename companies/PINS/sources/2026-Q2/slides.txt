@@ -1,0 +1,809 @@
+Q2 2026
+Earnings
+Presentation
+
+
+
+© 2026 Pinterest. All rights reserved.
+About non -GAAP                                                                                              Limitation of key metrics
+financial measures                                                                                           and other data
+To supplement our condensed consolidated            financial statements, which are                          The numbers for our key metrics, which include our monthly active users (MAUs)
+prepared and presented in accordance           with generally accepted accounting                            and average revenue per user (ARPU), are calculated using internal company data
+principles in the United States ("GAAP"), we use the following non -GAAP financial                           based on the activity of user accounts . We define an MAU as an authenticated
+measures : Adjusted EBITDA, Adjusted EBITDA margin, non -GAAP costs and                                      Pinterest user who visits our website, opens our mobile application or interacts with
+expenses (including non -GAAP cost of revenue, research and development, sales                               Pinterest through one of our browser or site extensions, such as the Save button, at
+and marketing, and general and administrative), non -GAAP income (loss) from                                 least once during the 30 -day period ending on the date of measurement . The number
+operations, non -GAAP net income (loss), non -GAAP net income (loss) per share,                              of MAUs does not include Shuffles users unless they would otherwise qualify as
+constant currency revenue, non -GAAP operating expense, and free cash flow . The                             MAUs . Unless otherwise indicated, we present MAUs based on the number of MAUs
+presentation of these financial measures is not intended to be considered in                                 measured on the last day of the current period . We measure monetization of our
+isolation, as a substitute for or superior to the financial information prepared and                         platform through our ARPU metric . We define ARPU as our total revenue in a given
+presented in accordance with GAAP . Investors are cautioned that there are material                          geography during a period divided by the average of the number of MAUs in that
+limitations associated with the use of non -GAAP financial measures as an analytical                         geography during the period . We calculate average MAUs based on the average of
+tool . In addition, these measures may be different from non -GAAP financial                                 the number of MAUs measured on the last day of the current period and the last day
+measures used by other companies, limiting their usefulness for comparative                                  prior to the beginning of the current period . We calculate ARPU by geography based
+purposes . We compensate for these limitations by providing specific information                             on our estimate of the geography in which revenue -generating activities occur . We
+regarding GAAP amounts excluded from these non -GAAP financial measures .                                    use these metrics to assess the growth and health of the overall business and believe
+                                                                                                             that MAUs and ARPU best reflect our ability to attract, retain, engage and monetize
+For a reconciliation of these non -GAAP financial measures to the most directly                              our users, and thereby drive revenue . While these numbers are based on what we
+comparable GAAP financial measures, please see the Appendix . All information                                believe to be reasonable estimates of our user base for the applicable period of
+provided in this presentation is unaudited .                                                                 measurement, there are inherent challenges in measuring usage of our products
+                                                                                                             across large online and mobile populations around the world . In addition, we are
+                                                                                                             continually seeking to improve our estimates of our user base, and such estimates
+                                                                                                             may change due to improvements or changes in technology or our methodology .
+
+
+
+
+                                                                                © 2026 Pinterest. All rights reserved.                                                                           2
+Forward -looking statements
+This presentation contains forward -looking statements within the meaning of Section 27A of the Securities Act of 1933 , as amended, and Section 21E of the Exchange Act of 1934 , as
+amended, about us and our industry that involve substantial risks and uncertainties . Forward -looking statements can be identified by the fact that they do not relate strictly to
+historical or current facts and are often characterized by the use of words such as "believes," "estimates," "expect," "may," "will," "can," "could," "would", "might," "continue,"
+"intends," "plans," "forecasts," "strategy," "projections," "goals," "trends," "projects," "targets," "anticipates," "potential," "looking ahead," "long -term" or and similar expressions, or by
+discussions of strategy, plans or intentions . Such forward -looking statements involve known and unknown risks, uncertainties, assumptions and other important factors that could
+cause our actual results, performance or achievements, or industry results, to differ materially from historical results or any future results, performance or achievements expressed,
+suggested or implied by such forward -looking statements . These risks and uncertainties include, but are not limited to, statements about : general economic uncertainty in global
+markets and a worsening of global economic conditions or low levels of economic growth, including inflation, tariffs and related retaliatory actions and other trade protection
+measures, stress in the banking industry, foreign exchange fluctuations and supply -chain issues ; the effect of general economic and political conditions ; our financial performance,
+including revenue, cost and expenses and cash flows ; our ability to attract, retain and recover users and maintain and grow their level of engagement ; our ability to provide content
+that is useful and relevant to users' personal taste and interests ; our ability to develop successful new products or improve existing ones ; our ability to maintain and enhance our
+brand and reputation ; potential harm caused by compromises in security, including our cybersecurity protections and resources and costs required to prevent, detect and remediate
+potential security breaches ; potential harm caused by changes in online application stores or internet search engines' methodologies, particularly search engine optimization
+methodologies and policies ; discontinuation, disruptions or outages in third -party single sign -on access ; our ability to compete effectively in our industry ; our ability to scale our
+business, including our monetization efforts ; our ability to attract and retain advertisers and scale our revenue model ; our ability to attract and retain creators and publishers that
+create relevant and engaging content ; our ability to develop effective products and tools for advertisers, including measurement tools ; our ability to expand and monetize our
+platform internationally ; our ability to effectively manage the growth of our business ; our ability to continue to use and develop artificial intelligence ("AI") as well as managing the
+challenges and risks posed by AI ; our ability to successfully manage our flexible work model with a more distributed workforce ; our ability to sustain profitability ; decisions that
+reduce short -term revenue or profitability or do not produce the long -term benefits we expect ; fluctuations in our operating results ; our ability to raise additional capital on favorable
+terms or at all; our ability to realize anticipated benefits from mergers and acquisitions, joint ventures, strategic partnerships and other investments ; our ability to protect our
+intellectual property ; our ability to receive, process, store, use and share data, and compliance with laws and regulations related to data privacy and content ; current or potential
+litigation and regulatory actions involving us ; our ability to comply with modified or new laws and regulations applying to our business, and potential harm to our business as a result
+of those laws and regulations ; real or perceived inaccuracies in metrics related to our business ; disruption of, degradation in or interference with our use of Amazon Web Services
+and our infrastructure ; our ability to implement our restructuring plan effectively ; and our ability to attract and retain personnel . These and other potential risks and uncertainties that
+could cause actual results to differ from the results predicted are more fully detailed in our Quarterly Report on Form 10-Q for the fiscal quarter ended June 30 , 2026 , which is
+available on our investor relations website at investor .pinterestinc .com and on the SEC website at www .sec .gov . All information provided in this presentation and in the earnings
+materials is as of August 4 , 2026 . Undue reliance should not be placed on the forward -looking statements in this presentation, which are based on information available to us on the
+date hereof . We undertake no duty to update this information unless required by law .
+
+
+                                                                                     © 2026 Pinterest. All rights reserved.                                                                     3
+Q2’26: Pinterest is turning AI -powered engagement into more durable monetization
+
+     Revenue and Adjusted EBITDA exceed guidance, 11th consecutive quarter of double                                                                                          -digit user growth
+     Q2’26 highlights                                                •     Revenue of $1,180 million, up 18% Y/Y (17% constant currency)
+                                                                     •     UCAN revenue growth accelerated five points from Q1’26 to 18% Y/Y in Q2’26
+                                                                     •     640 million global monthly active users (MAU), up 11% Y/Y; 12th straight quarter of record users; 100% of reported users are                 log ged in
+                                                                     •     Winning the next generation of      users in particular, with Gen Z, our largest and fastest growing cohort, representing over half of our user base
+                                                                     •     Adjusted EBITDA of $311 million, 26% margin, up 130 basis points versus Q2’25
+
+
+
+     Bringing AI to the forefront of the user experience and advancing performance ads platform
+     Pinterest Assistant                                             • New AI conversational layer, now available to  the vast majority of US users, improving actionability across the commercial journey                                                                                                                     – new personalized
+                                                                       experiences such as visual -first recommendations and product comparisons to help users answer later           -stage research questions
+                                                                     • Powered by open -source models trained on our proprietary Taste Graph to drive efficient performance at scale
+                                                                     • Taste -based recommendations informed by unique feedback loop from 80B+ monthly searches and 16B+ boards created
+     Performance ads platform                                        • Improving advertiser ROAS and measurement & bidding capabilities, expanding AI bidding pilot to small number of additional ad                                                                                                                      ver tisers in Q3’26
+     enhancements                                                    • Scaling Pinterest Performance+ to a broader group of advertisers, including creative optimization with Smart Assembly, for ad                                                                                                                    ver tisers without catalogs
+                                                                     • Continuing to broaden advertiser offerings, including Business Assistant in beta and            tvScientific
+     Go -to -market transformation                                   • Increased rigor and discipline supporting UCAN performance; new international leadership focused on greater consistency and e                                                                                                                         xec ution
+     Capital allocation initiatives                                  • $2 billion+ share repurchases year       -to -date (111 million shares); entered into capped call to raise effective dilution breakpoint on Convertible Notes to $30.59
+                                                                     • ~$1.3 billion of trailing 12 months free cash flow (FCF) (94% FCF conversion); $1.3 billion cash, cash equivalents and market                abl e securities as of Q2’26
+
+
+
+     Forward -looking outlook
+     Q3’26 guidance                                                  • Q3’26 revenue guidance: $1,190 million     - $1,210 million (13% - 15% growth Y/Y ); includes a modest headwind from foreign exchange
+                                                                     • Q3’26 Adjusted EBITDA guidance: $335 million        - $355 million
+     Full -year margin outlook                                       • Raising full -year Adjusted EBITDA margin outlook to approximately 30%, versus prior outlook of 29%                                                                                              as a result of H1’26 outperformance
+
+
+Note: We have not provided the forward        -looking GAAP equivalent for forward      -looking Adjusted EBITDA or Adjusted EBITDA Margin, or        a GAAP reconciliation of either,    as a result of the uncertainty regarding, and the potential variability of, reconciling items such as share            -based compensation
+expense and income taxes. Accordingly, a reconciliation of these non           -GAAP guidance metrics to their corresponding GAAP equivalen         ts is not available without unreasonable effort. However, it is important to note that material changes to reconciling items                 cou ld have a significant effect on
+future GAAP results and, as such, we also believe that any reconciliations provided would imply a degree of precision that co             uld be confusing or misleading to investors.
+
+
+                                                                                                                                                                      © 2026 Pinterest. All rights reserved.                                                                                                                                          4
+Since 2023, Pinterest has delivered consistent user and revenue growth while expanding profitability
+
+
+                                                 Global MAU and Revenue growth                                                                                                                                        Twelve months ended Adjusted EBITDA Margin
+
+
+                                                                                                                                                                                                                                                                                                          29%          30%     30%    30%    30%
+                                                                                                                                                                                                                                                                                   28%      29%
+                                                                                                                                                                                                                                                           26%         27%
+                                                                                                                                                                                                                                               25%
+                                                                                                                                                                                                                                   23%
+
+                                                                                                                                                                                                                       18%
+                                                         23%                                                                                                                                     15%       15%
+                                                                     21%
+                                                                                 18%         18%         16%         17%         17%                    18%         18%
+                                             12%                                                                                            14%
+                                 11%
+          5%          6%
+                                             11%         12%         12%         11%         11%         10%         11%         12%        12%          11%         11%
+          7%          8%          8%
+
+
+
+
+         Q123        Q223        Q323        Q423        Q124        Q224        Q324       Q424         Q125       Q225        Q325        Q425        Q126        Q226                         Q123      Q223        Q323        Q423        Q124        Q224        Q324        Q424      Q125         Q225          Q325   Q425   Q126   Q226
+
+
+
+                                                MAU Y/Y growth rate                                    Revenue Y/Y growth rate                                                                                                    Twelve months ended Adjusted EBITDA Margin %
+
+
+Note: We define Adjusted EBITDA as net income (loss) adjusted to exclude depreciation and amortization expense, share                -based comp ensation expense, payroll tax expense related to share         -based compensation, interest income (expense), net, other income (expens         e), net, provision for
+(benefit from) income taxes and certain other non     -recurring or non -cash items impacting net income (loss) that we do not conside        r indicative of our ongoing business performance. We define Adjusted EBITDA Margin as Adjusted EBITDA divided by GAAP revenue                 . F or a reconciliation of these
+non -GAAP financial measures to the most directly comparable GAAP financial measures, please see the tables included in the Appen                 dix at the end of this release.
+
+
+                                                                                                                                                                 © 2026 Pinterest. All rights reserved.                                                                                                                                             5
+Scaling Pinterest’s
+visual -first, taste -driven
+AI conversational layer
+Advancing actionability with
+broader Pinterest Assistant
+capabilities to help users move
+from inspiration to decision
+
+Now available to the vast majority of US users
+
+
+
+
+                                                 © 2026 Pinterest. All rights reserved.   6
+Driving automation and performance for advertisers with Pinterest Performance+
+over a multi-year product cycle
+
+  Workflow & buying
+  Bidding & optimization                                                                                                                Future of
+  Targeting & audiences                                                                                                         Pinterest Performance+
+  Creative                                                                                                                             Campaigns
+  Reporting & measurement
+
+                                                                                                                                   Target ROAS bidding
+
+
+   Pinterest Performance+                                                                          New Customer                    Simplified lower -funnel
+   campaigns                                                                                       Acquisition                     objectives
+
+                                                                                                                                   Value Rules (age,
+   Creative Optimization       ROAS bidding                                                        A/B Testing (beta)
+                                                                                                                                   gender, geo, device)
+
+
+   Background Generation       Image Resizing         Creative Preview                             Smart Assembly (beta)           Audience Prioritization
+
+
+                               Account -level
+   Promotions                                         Expanded reporting                          Priority Products (beta)         Landing page duration
+                               negative keywords
+
+   Lead + sign -up             Include/exclude                                                     Title and call -to -action
+   optimization                audiences
+                                                      Metro/ZIP geo exclusions
+                                                                                                   Optimization (beta)
+                                                                                                                                        and more…
+
+
+H2'24   Launch              H1'25                  H2'25                                        H1'26                           Coming soon
+
+
+                                                       © 2026 Pinterest. All rights reserved.                                                                 7
+                                                                                                     Revenue                                                                                         Q2 2026
+                                                                                                               (in millions)
+
+
+
+
+                                           17%                                   17%
+                                                                                                                       14%
+                                                                                                                                                              18%                    18%         +18%Global Y/Y
+
+                                                                                                                       $1,319
+                                                                                                                        $96
+                                                                                                                                                                                     $1,180
+
+
+                                                                                                                                                                                                 +18%
+                                                                               $1,049                                                                                                 $87
+                                         $998                                                                                                               $1,008
+                                                                                 $70                                   $245
+                                           $63                                                                                                                 $72
+                                                                                                                                                                                      $213       US & Canada Y/Y
+                                                                                 $193
+                                           $191                                                                                                                $186
+
+
+
+
+                                          $745                                  $786
+                                                                                                                       $979
+                                                                                                                                                              $750
+                                                                                                                                                                                     $880
+                                                                                                                                                                                                 +12%
+                                                                                                                                                                                                    Europe Y/Y
+
+
+
+
+                                          Q225                                  Q325                                   Q425                                   Q126                   Q226
+
+
+
+                                       US & Canada                                        Europe                                     Rest of World                             Y/Y growth rate
+                                                                                                                                                                                                 +38%
+                                                                                                                                                                                                 Rest of World Y/Y
+
+
+Note: Revenue is geographically apportioned based on our estimate of the geographic location of our users when they perform a                  revenue -generating activity.
+Geographic breakdown may not sum to Global due to rounding; quarterly amounts may not sum to annual due to rounding.
+
+
+                                                                                                      © 2026 Pinterest. All rights reserved.                                                                         8
+                                                                      Monthly active users                                                                                                                          Q2 2026
+                                                                                                               (in millions)
+
+
+
+
+                                           11%
+                                                                                 12%                                   12%
+                                                                                                                                                            11%                                   11%
+                                                                                                                                                                                                                +11%Global Y/Y
+
+
+                                                                                                                                                             631                                  640
+                                                                                                                        619
+                                                                                600
+                                          578
+
+
+
+
+                                                                                                                                                             367                                   377
+                                                                                                                                                                                                                +4%
+                                                                                                                                                                                                                US & Canada Y/Y
+                                                                                 347                                    356
+                                          329
+
+
+
+
+                                           146                                   150                                    158                                  159                                   157          +8%Europe Y/Y
+
+                                           102                                   103                                    105                                  106                                   106
+
+
+                                         Q225                                  Q325                                   Q425                                 Q126                                  Q226
+
+
+
+                                       US & Canada                                        Europe                                     Rest of World                                    Y/Y growth rate
+                                                                                                                                                                                                                +15%
+                                                                                                                                                                                                                Rest of World Y/Y
+
+Note: We define a monthly active user as an authenticated Pinterest user who visits our website, opens our mobile application           or interacts with Pinterest through one of our browser or site
+extensions, such as the Save button, at least once during the 30       -day period ending on the date of measurement. The number of MAU         s does not include Shuffles users unless they would otherwise
+qualify as MAUs. We present MAUs based on the number of MAUs measured on the last day of the current period. Geographic break                  dow n may not sum to Global due to rounding.
+
+
+                                                                                                      © 2026 Pinterest. All rights reserved.                                                                                        9
+                                                           Average revenue per user                                                                                                                                               Q2 2026
+
+
+
+
+      Global                                                                                                                         US & Canada
+
+                                                                                                                                                               $7.64
+                                                                                                                                                                                      $9.41
+                                                                                                                                                                                                                      $8.30
+                                                                                                                                                                                                                              +7% Global Y/Y
+                                                                                                                                            $7.29                                                           $7.12
+
+
+
+
+                                                         $2.16
+
+                                                                                                                                                                                                                              +14%
+             $1.74                 $1.78                                                             $1.86
+                                                                                $1.61
+
+
+                                                                                                                                                                                                                              US & Canada Y/Y
+             Q225                  Q325                  Q425                  Q126                  Q226                                   Q225                Q325                  Q425                  Q126      Q226
+
+
+
+      Europe                                                                                                                         Rest of World
+                                                                                                                                                                                                                              +4%Europe Y/Y
+                                    $1.31                $1.59                  $1.17              $1.35
+             $1.30
+                                                                                                                                           $0.19                $0.21                $0.27                 $0.20      $0.23
+
+             Q225                  Q325                  Q425                  Q126                  Q226                                  Q225                 Q325                  Q425                  Q126      Q226
+
+
+                                                                                                                                                                                                                              +21%
+                                                                                                                                                                                                                              Rest of World Y/Y
+
+Note: We measure monetization of our platform through our average revenue per user metric. We define ARPU as our total revenu                 e in a given geography during a period divided by average MAUs
+in that geography during the period. We calculate average MAUs based on the average of the number of MAUs measured on the las                  t d ay of the current period and the last day prior to the beginning
+of the current period. We calculate ARPU by geography based on our estimate of the geography in which revenue              -generating activit ies occur.
+
+
+                                                                                                        © 2026 Pinterest. All rights reserved.                                                                                                    10
+                                             Non -GAAP costs and expenses                                                                                                                                                                 Q2 2026
+                                                                                                               (in millions)
+
+
+      Cost of Revenue
+
+              20%                  20%                    17%                  23%
+                                                                                      % of revenue
+
+
+                                                                                                     21%
+                                                                                                                                   R&D*
+
+                                                                                                                                           21%                 21%                                        23%
+                                                                                                                                                                                                                 % of revenue
+
+
+                                                                                                                                                                                                                               20%
+                                                                                                                                                                                                                                         +25 %
+                                                                                                                                                                                                                                          COR Y/Y
+                                                                                                                                                                                     16%
+
+
+
+
+                                                                                                    $245
+
+                                                                                                                                                                                                                                         +11%
+                                    $206                  $221                 $232
+                $197                                                                                                                           $209             $215                 $213                 $233                 $232
+
+
+                                                                                                                                                                                                                                          R&D Y/Y
+               Q225                 Q325                 Q425                 Q126                 Q226                                    Q225                Q325                 Q425                 Q126                 Q226
+
+
+
+      S&M*                                                                            % of revenue                                 G&A*                                                                          % of revenue
+
+              27%                   24%                  20%                   27%                  27%
+                                                                                                                                               7%               7%                    7%                   6%                    7%
+                                                                                                                                                                                                                                         +17%
+                                                                                                                                                                                                                                          S&M Y/Y
+
+
+
+                                                                                                    $319
+               $272                  $255                 $262                 $277
+
+
+                                                                                                                                               $74               $73                  $87                  $64                  $78      +5%
+                                                                                                                                                                                                                                          G&A Y/Y
+               Q225                 Q325                 Q425                 Q126                 Q226                                    Q225                Q325                 Q425                 Q126                 Q226
+*Comprise Non -GAAP Operating Expenses
+Note: Costs and expenses are non       -GAAP financial measures, which exclude share          -based compensation (SBC), amortization of acquired       intangible assets, payroll tax expense related to share   -based compensation,
+legal settlement expense, restructuring charges, and non          -cash charitable contributions. For a reconciliation of these non    -GAAP f inancial measures to the most directly comparable GAAP financial measures, please
+see the tables included in the Appendix at the end of this release.
+
+
+                                                                                                      © 2026 Pinterest. All rights reserved.                                                                                                        11
+                                                                               Adjusted EBITDA                                                                                                                                   Q2 2026
+                                                                                                              (in millions)
+
+
+
+
+                                                                                                                        41%
+                                             25%                                  29%                                                                                                             26%
+                                                                                                                                                            20%
+
+
+
+                                                                                                                      $542
+
+
+                                                                                                                                                                                                                          +24 %
+                                                                                                                                                                                                                             Adj. EBITDA Y/Y
+
+
+                                                                               $306                                                                                                              $311
+
+                                          $251
+                                                                                                                                                           $207
+                                                                                                                                                                                                                            +130
+                                                                                                                                                                                                                       bps of Margin Expansion Y/Y
+
+
+
+
+                                         Q225                                 Q325                                   Q425                                 Q126                                  Q226
+
+
+                                                                          Adjusted EBITDA                                        Adjusted EBITDA Margin %
+
+
+Note: We define Adjusted EBITDA as net income (loss) adjusted to exclude depreciation and amortization expense, share              -based comp ensation expense, payroll tax expense related to share         -based
+compensation, interest income (expense), net, other income (expense), net, provision for (benefit from) income taxes and cer             tain other non -recurring or non -cash items impacting net income (loss)
+that we do not consider indicative of our ongoing business performance.          We define Adjusted EBITDA Margin as Adjusted EBITDA divided by GAAP revenue.             For a reconciliation of these non  -GAAP
+financial measures to the most directly comparable GAAP financial measures, please see the tables included in the Appendix at              the end of this release.
+
+
+                                                                                                     © 2026 Pinterest. All rights reserved.                                                                                                          12
+                                                                                   Twelve months ended Adjusted EBITDA
+                                                                                                                                                                           (in millions)
+
+
+
+
+                                                                                                                                            30%                                   30%                                  30%                                  30%
+                                                                                                      29%
+
+
+
+
+                                                                                                                                                                                                                    $1,305                               $1,365
+                                                                                                                                                                              $1,270
+                                                                                                                                        $1,199
+                                                                                                 $1,140
+
+
+
+
+                                                                                                  Q225                                  Q325                                   Q425                                  Q126                                  Q226
+
+
+                                                                                                                                    Adjusted EBITDA                                        Adjusted EBITDA Margin %
+
+
+Note: We define Adjusted EBITDA as net income (loss) adjusted to exclude depreciation and amortization expense, share                -based comp ensation expense, payroll tax expense related to share         -based compensation, interest income (expense), net, other income (expens         e), net, provision for
+(benefit from) income taxes and certain other non     -recurring or non -cash items impacting net income (loss) that we do not conside        r indicative of our ongoing business performance. We define Adjusted EBITDA Margin as Adjusted EBITDA divided by GAAP revenue                 . F or a reconciliation of these
+non -GAAP financial measures to the most directly comparable GAAP financial measures, please see the tables included in the Appen                 dix at the end of this release.
+
+
+                                                                                                                                                                 © 2026 Pinterest. All rights reserved.                                                                                                                        13
+                                                                                         Twelve months ended free cash flow
+                                                                                                                                                                          (in millions)
+
+
+
+
+                                                                                                                                                                                99%
+                                                                                                                                          94%                                                                         93%                         94%
+                                                                                                    92%
+
+
+
+                                                                                                                                                                                                                                              $1,280
+                                                                                                                                                                             $1,252
+                                                                                                                                                                                                                  $1,207
+                                                                                                                                       $1,122
+                                                                                                $1,047
+
+
+
+
+                                                                                                Q225                                   Q325                                   Q425                                  Q126                        Q226
+
+
+                                                                                                                                    Free cash flow                                     Free cash flow conversion
+
+
+
+Note: We define   Free cash flow conversion   as free cash flow divided   by Adjusted EBITDA.   For a reconciliation of these non   -GAAP financial measures to the most directly comparable GAAP financial measures, please see th   e tables included in the Appendix at the end of this release.
+
+
+                                                                                                                                                                © 2026 Pinterest. All rights reserved.                                                                                                14
+Appendix
+
+
+
+  © 2026 Pinterest. All rights reserved.   15
+         Illustrative table of potential dilutive impact of Convertible Senior Notes due 2031 and Capped Calls
+                                                                                                                                                                      ($ and shares in millions)
+
+ In March 2026, Pinterest, Inc. (the “Company”) issued 1 billion in aggregate principal amount                                                                      Hypothetical                                                                                                                                                                  Total Expected
+                                                                                                                                                                                                         Total Value at                                                    Net Shares from                     Net Shares from
+                                                                                                                                                               Quarterly Average                                                         Cash Delivered                                    2                                   3              Dilution at Maturity
+ of 1.75% Convertible Senior Notes due in 2031 (the “Notes”). The initial conversion rate                                                                                        1                             Maturity                                                             Notes                       Capped Calls                                       4
+                                                                                                                                                                     Stock Price                                                                                                                                                                         of Notes
+ applicable to the Notes is 44.0063 shares of our common stock per 1,000 principal amount
+                                                                                                                                                                               $ 17.48                           $ 1,000                             $ 1,000                                      --                                 –                                  –
+ of Notes, which is equivalent to an initial conversion price of approximately $22.72 per share
+                                                                                                                                                                                20.00                               1,000                              1,000                                      --                                 –                                  –
+ of our common stock. In June 2026, we                          entered into privately negotiated capped call
+                                                                                                                                                                                 22.72                              1,000                              1,000                                      --                                 –                                  –
+ transactions (the “Capped Calls”) with certain financial institutions. The Capped Calls have a
+ strike price of approximately $22.72, which corresponds to the initial conversion price of the                                                                                  25.00                               1,100                             1,000                                  4.01                             (4.01)                                   –
+
+ Notes, and an initial cap price of $30.59 per share, each subject to certain adjustments; and                                                                                   27.50                               1,210                             1,000                                 7.64                              (7.64)                                   –
+ mature on March 1, 2031. If the average market price of our Class A common stock is greater                                                                                    30.00                                1,320                             1,000                                10.67                            (10.67)                                    –
+ than the strike price of the Capped Calls upon any conversion of the Notes, we expect the                                                                                       32.50                               1,430                             1,000                                13.24                            (10.65)                               2.59
+ Capped Calls to reduce the potential dilution to our Class A common stock for any
+                                                                                                                                                                                 35.00                               1,540                             1,000                                15.43                             (9.89)                               5.54
+ conversion value in excess of the principal amount of the Notes, subject to a cap based on
+                                                                                                                                                                                 37.50                               1,650                             1,000                                17.34                             (9.23)                                8.11
+ the cap price. The Capped Calls are not included in the calculation of diluted GAAP net
+                                                                                                                                                                                40.00                                1,760                             1,000                                19.01                             (8.65)                              10.35
+ income per share as the effect of the Capped Calls is anti                                -dilutive.
+                                                                                                                                                                                 42.50                               1,870                             1,000                               20.48                               (8.14)                             12.33
+
+                                                                                                                                                                                 45.00                              1,980                              1,000                                21.78                             (7.69)                              14.09
+ The following table illustrates the potential dilutive shares that would be included in the
+                                                                                                                                                                                 47.50                              2,090                              1,000                               22.95                               (7.29)                             15.67
+ calculation of our future reported GAAP net income per share assuming various hypothetical
+ quarterly average market prices of our common stock (NYSE: PINS). The total actual dilution                                                                                    50.00                               2,200                              1,000                                24.01                             (6.92)                              17.08
+
+ at maturity is reduced by the effect of the Capped Calls.                                                                                                                       52.50                               2,310                             1,000                               24.96                              (6.59)                              18.37
+
+                                                                                                                                                                                 55.00                              2,420                              1,000                               25.82                              (6.29)                              19.53
+
+                                                                                                                                                                                 57.50                              2,530                              1,000                               26.62                              (6.02)                             20.59
+
+                                                                                                                                                                                60.00                               2,640                              1,000                                27.34                              (5.77)                             21.57
+
+                                                                                                                                                          The table above is for illustrative purposes and does not represent our forecast of future stock performance.
+Note: This slide contains forward        -looking statements, including regarding the total potential dilutive shares that would be incl       uded in the calculation of GAAP net income per share. Actual results may differ materially. Please refer to the Current Repor              ts on Form 8 -K filed on March 3, 2026 and March 5, 2026 which include
+information regarding the Notes, and other filings made by the Company with the Securities and Exchange Commission, including                       ou r most recent Quarterly Reports on Form 10       -Q with information regarding, and risks relating to, the Capped Calls. These document           s contain and identify important factors that could cause actual
+results to differ materially from those contained in the forward            -looking statements in this slide.
+1: The prices listed in the table are illustrative. Although dilution continues beyond $60 per share, we have not presented f              urther data.
+2: These are the number of shares to be used for calculating diluted net income per share, pursuant to GAAP.
+3: The Capped Calls only offset the actual dilution from the Notes upon conversion or settlement.
+4: These are the number of shares that represent the actual dilution from the Notes upon conversion or settlement, assuming c                   onc urrent settlement of the Capped Calls.
+
+
+                                                                                                                                                                        © 2026 Pinterest. All rights reserved.                                                                                                                                                              16
+                                                GAAP to non -GAAP costs and expenses reconciliation
+                                                                                                                                  (in millions)
+
+                                                                                                                 Quarter ended June 30, 2026
+
+                                                                                                                                                                                                                    % of Revenue
+                                                                                                       Share -based          Payroll tax                                                           1
+                                                                                          GAAP                                                                   Amortization    Other expense         Non -GAAP    GAAP           Non -GAAP
+                                                                                                     compensation      expense on SBC
+               Cost of revenue                                                             257.4                8.5                             0.2                        3.7               0.0           245.0      22%                21%
+
+               Research and development*                                                   451.0              212.5                              6.2                       0.0               0.0           232.2      38%               20%
+
+               Sales and marketing*                                                        374.3               52.2                              2.3                       0.9               0.0            318.9     32%                27%
+
+               General and administrative*                                                 137.9               46.6                               1.3                      0.2              12.2             77.7     12%                 7%
+
+               Restructuring                                                                  14.3              0.0                             0.0                        0.0              14.3             0.0        1%               0%
+
+        Total costs and expenses                                                        1,234.9               319.7                           10.0                         4.8              26.5           873.8     105%                74%
+
+                                                                                                                Quarter ended March 31, 2026
+                                                                                                                                                                                                                    % of Revenue
+                                                                                                       Share -based          Payroll tax                                                           1
+                                                                                          GAAP                                                                   Amortization    Other expense         Non -GAAP    GAAP           Non -GAAP
+                                                                                                     compensation      expense on SBC
+               Cost of revenue                                                            238.6                 4.6                              0.2                       1.7               0.0            232.1     24%                23%
+
+               Research and development*                                                  380.8               140.7                             6.9                        0.0               0.0           233.2      38%                23%
+
+               Sales and marketing*                                                        317.9               38.9                               1.7                      0.4               0.0           276.8      32%                27%
+
+               General and administrative*                                                 103.5               37.9                               1.2                      0.2               0.0             64.1     10%                 6%
+
+               Restructuring                                                                  47.1              0.0                             0.0                        0.0              47.1             0.0       5%                0%
+
+        Total costs and expenses                                                       1,087.8                222.1                             10.1                       2.3              47.1           806.2     108%               80%
+*Comprise Non -GAAP Operating Expenses
+Note: Totals may not sum due to rounding.
+1: Other expense is comprised of Restructuring charges and Non   -cash charitable contributions.
+
+
+                                                                                                                        © 2026 Pinterest. All rights reserved.                                                                                 17
+                                            GAAP to non -GAAP costs and expenses reconciliation
+                                                                                          (in millions)
+
+                                                                       Quarter ended December 31, 2025
+
+                                                                                                                                                                        % of Revenue
+                                                                 Share -based         Payroll tax
+                                                     GAAP                                                                Amortization     Other expense    Non -GAAP    GAAP           Non -GAAP
+                                                               compensation     expense on SBC
+              Cost of revenue                         226.9               5.3                            0.1                       0.8               0.0       220.7      17%                17%
+
+              Research and development*               364.9             149.2                            2.2                       0.0               0.0        213.4     28%                16%
+
+              Sales and marketing*                    303.0              40.2                           0.9                        0.1               0.0        261.8     23%               20%
+
+              General and administrative*             123.3              35.9                            0.5                       0.2               0.0        86.8       9%                 7%
+
+       Total costs and expenses                      1,018.2            230.7                            3.7                        1.1              0.0       782.7      77%               59%
+
+
+
+                                                                      Quarter ended September 30, 2025
+                                                                                                                                                                        % of Revenue
+                                                                 Share -based         Payroll tax
+                                                     GAAP                                                                Amortization     Other expense    Non -GAAP    GAAP           Non -GAAP
+                                                               compensation     expense on SBC
+              Cost of revenue                         212.3               5.2                            0.1                       0.8               0.0       206.3      20%               20%
+
+              Research and development*               371.3             152.9                             3.1                      0.0               0.0        215.3     35%                21%
+
+              Sales and marketing*                    296.7              40.3                             1.3                      0.1               0.0       254.9      28%               24%
+
+              General and administrative*             110.4              36.7                            0.7                       0.2               0.0         72.8      11%                7%
+
+       Total costs and expenses                       990.7             235.1                            5.2                        1.1              0.0       749.2      94%                71%
+
+
+
+*Comprise Non -GAAP Operating Expenses
+Note: Totals may not sum due to rounding.
+
+
+                                                                                © 2026 Pinterest. All rights reserved.                                                                             18
+                                                GAAP to non -GAAP costs and expenses reconciliation
+                                                                                                                 (in millions)
+
+                                                                                                Quarter ended June 30, 2025
+
+                                                                                                                                                                                                   % of Revenue
+                                                                                      Share -based          Payroll tax                                                           1
+                                                                           GAAP                                                                 Amortization    Other expense         Non -GAAP    GAAP           Non -GAAP
+                                                                                    compensation      expense on SBC
+               Cost of revenue                                             203.0               5.0                              0.1                       1.3               0.0            196.5     20%               20%
+
+               Research and development*                                   359.6             145.9                              4.9                       0.0               0.0           208.8      36%                21%
+
+               Sales and marketing*                                         313.1             38.7                              2.0                       0.1               0.0            272.3     31%                27%
+
+               General and administrative*                                  126.8             37.6                               1.3                      0.2              13.5             74.3     13%                 7%
+
+        Total costs and expenses                                          1,002.6            227.2                              8.3                       1.7              13.5            751.9    100%                75%
+
+
+
+
+*Comprise Non -GAAP Operating Expenses
+Note: Totals may not sum due to rounding.
+1: Other expense is comprised of Non    -cash charitable contributions.
+
+
+                                                                                                       © 2026 Pinterest. All rights reserved.                                                                                 19
+                                                                    Adjusted EBITDA reconciliation: Reconciliation
+                                                                       of net income (loss) to Adjusted EBITDA
+                                                                                                                                                                           (in millions)
+
+
+                                                                                                                                                          Three months ended
+
+                                                                                                                                                    June 30, 2025                      September 30, 2025                              December 31, 2025                            March 31, 2026    June 30, 2026
+
+                 Net income (loss)                                                                                                                                    38.8                                           92.1                                        277.1                       (73.6)            (46.7)
+
+                 Depreciation and amortization                                                                                                                           6.1                                           7.2                                          6.0                         7.5              10.2
+
+                 Share -based compensation                                                                                                                          227.2                                          235.1                                        230.7                         222.1            319.7
+
+                 Payroll tax expense related to share                             -based compensation                                                                   8.3                                            5.2                                           3.7                       10.1             10.0
+
+                 Interest (income) expense, net                                                                                                                    (28.0)                                         (28.5)                                        (26.6)                       (17.8)             (7.3)
+
+                 Other (income) expense, net                                                                                                                         (11.0)                                         (0.1)                                            0.1                        1.0               1.3
+
+                 Provision for (benefit from) income taxes                                                                                                            (4.1)                                         (4.9)                                         50.6                         10.1             (2.5)
+
+                 Restructuring charges                                                                                                                                  0.0                                           0.0                                           0.0                        47.1              14.3
+
+                 Non -cash charitable contributions                                                                                                                    13.5                                           0.0                                           0.0                        0.0               12.2
+
+          Adjusted EBITDA                                                                                                                                          250.8                                          306.1                                          541.5                       206.5              311.3
+
+
+
+
+          Revenue                                                                                                                                                  998.2                                       1,049.2                                        1,319.3                      1,007.5            1,179.7
+
+          Net Income (Loss) Margin                                                                                                                                      4%                                            9%                                           21%                        (7%)              (4%)
+
+          Adjusted EBITDA Margin                                                                                                                                      25%                                           29%                                            41%                        20%               26%
+
+Note: We define Adjusted EBITDA as net income (loss) adjusted to exclude depreciation and amortization expense, share               -based comp ensation expense, payroll tax expense related to share           -based compensation, interest income (expense), net, other
+income (expense), net, provision for (benefit from) income taxes and certain other non        -recurring or non -cash items impacting net    income (loss) that we do not consider indicative of our ongoing business performance.            We define Adjusted EBITDA Margin as
+Adjusted EBITDA divided by GAAP revenue.          Totals may not sum due to rounding.
+
+
+                                                                                                                                                                 © 2026 Pinterest. All rights reserved.                                                                                                                 20
+                                                                     Adjusted EBITDA reconciliation: Reconciliation
+                                                                           of net income to Adjusted EBITDA
+                                                                                                                                                                            (in millions)
+
+
+                                                                                                                                                          Twelve months ended
+
+                                                                                                                                                     June 30, 2025                      September 30, 2025                               December 31, 2025                             March 31, 2026    June 30, 2026
+
+                 Net income                                                                                                                                        1,925.7                                       1,987.3                                           416.9                        334.3             248.9
+
+                 Depreciation and amortization                                                                                                                          23.4                                          25.2                                           25.2                        26.8              30.9
+
+                 Share -based compensation                                                                                                                            821.5                                         848.7                                         880.5                          915.2          1,007.7
+
+                 Payroll tax expense related to share                              -based compensation                                                                  31.4                                           31.7                                          31.0                         27.3             29.0
+
+                 Interest (income) expense, net                                                                                                                     (116.4)                                        (112.4)                                       (110.5)                       (101.0)           (80.3)
+
+                 Other (income) expense, net                                                                                                                           (5.4)                                          (2.3)                                        (15.5)                       (10.0)               2.3
+
+                 Provision for (benefit from) income taxes                                                                                                      (1,588.1)                                      (1,592.2)                                             29.0                         51.7             53.3
+
+                 Legal s ettlement                                                                                                                                      34.7                                            0.0                                            0.0                        0.0               0.0
+
+                 Restructuring charges                                                                                                                                   0.0                                            0.0                                            0.0                        47.1             61.4
+
+                 Non -cash charitable contributions                                                                                                                      13.5                                          13.5                                           13.5                        13.5              12.2
+
+          Adjusted EBITDA                                                                                                                                          1,140.4                                        1,199.4                                       1,270.0                       1,304.8           1,365.4
+
+
+
+          Revenue                                                                                                                                                 3,905.7                                       4,056.6                                         4,221.8                       4,374.3           4,555.7
+
+          Net Income Margin                                                                                                                                            49%                                            49%                                            10%                           8%               5%
+
+          Adjusted EBITDA Margin                                                                                                                                       29%                                            30%                                           30%                          30%               30%
+
+Note: We define Adjusted EBITDA as net income (loss) adjusted to exclude depreciation and amortization expense, share                 -based comp ensation expense, payroll tax expense related to share           -based compensation, interest income (expense), net, other income
+(expense), net, provision for (benefit from) income taxes and certain other non        -recurring or non -cash items impacting net income      (loss) that we do not consider indicative of our ongoing business performance.         We define Adjusted EBITDA Margin as Adjusted
+EBITDA divided by GAAP revenue.          Totals may not sum due to rounding.
+
+
+                                                                                                                                                                  © 2026 Pinterest. All rights reserved.                                                                                                                   21
+                                                                                                                  Free cash flow conversion
+                                                                                                                                                                        (in millions)
+
+                                                                                                                                                       Three months ended
+
+                                                                                                                       June 30, 2025                           September 30, 2025                                     December 31, 2025                                   March 31, 2026             June 30, 2026
+
+               Net cash provided by operating activities                                                                               207.7                                                  321.7                                   391.2                                                 328.0              292.9
+               Less:
+
+               Purchases of property and equipment                                                                                      (11.0)                                                 (3.2)                                 (10.8)                                                 (16.3)            (23.0)
+
+       Free cash flow                                                                                                                  196.7                                                 318.4                                  380.4                                                    311.7             269.9
+
+
+
+                                                                                                                                                     Twelve months ended
+                                                                                                                      June 30, 2025                           September 30, 2025                                    December 31, 2025                                   March 31, 2026               June 30, 2026
+
+               Net cash provided by operating activities                                                                          1,073.4                                                1,147.0                                 1,284.3                                                  1,248.6           1,333.8
+               Less:
+
+               Purchases of property and equipment                                                                                  (26.0)                                                 (25.3)                                  (32.4)                                                  (41.4)             (53.4)
+
+        Free cash flow                                                                                                            1,047.4                                                 1,121.7                                1,251.9                                                  1,207.2           1,280.4
+
+        Adjusted EBITDA                                                                                                            1,140.4                                              1,199.4                                  1,270.0                                                  1,304.8           1,365.4
+
+       Free cash flow conversion (% of Adj. EBITDA)                                                                                    92%                                                   94%                                     99%                                                     93%               94%
+
+
+
+
+Note: We define Free cash flow conversion    as free cash flow divided by Adjusted EBITDA   . For a reconciliation of these non   -GAAP financial measures to the most directly comparable GAAP financial measures, please see   the tables included in the Appendix at the end of this
+release. Totals may not sum due to rounding.
+
+
+                                                                                                                                                              © 2026 Pinterest. All rights reserved.                                                                                                                   22
+© 2026 Pinterest. All rights reserved.
+

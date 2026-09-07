@@ -1,0 +1,903 @@
+MANAGEMENT DISCUSSION SECTION
+Operator
+Hello, everyone. Thank you for joining us. Welcome to Pinterest’s Second Quarter 2026 Earnings Conference Call.
+After today’s prepared remarks, we will host a question-and-answer session.
+
+I will now hand the conference over to Andrew Somberg, Vice President of Investor Relations and Treasury. Please
+go ahead.
+
+Andrew Somberg, Vice President, Investor Relations & Treasury
+
+Good afternoon, and thank you for joining us. Welcome to Pinterest’s earnings call for the second quarter ended
+June 30, 2026. Joining me on today’s call are Bill Ready, Pinterest’s CEO, and Julia Donnelly, our CFO.
+
+The statements we make on this call reflect management’s view as of today and will include forward-looking
+statements. Such statements involve a number of assumptions, risks and uncertainties, and actual results may differ
+materially. We disclaim any obligation to update these statements. For information about assumptions, risks,
+uncertainties and other factors that could affect our results, please refer to our earnings press releases and the
+periodic reports we file with the SEC and that are available on our Investor Relations website.
+
+During this call, we will present both GAAP and non-GAAP financial measures. A reconciliation of non-GAAP to
+GAAP measures is included in today’s earnings press release and presentation, which are distributed and available to
+the public through our Investor Relations website.
+
+Lastly, all growth rates discussed today are on a year-over-year basis unless otherwise specified.
+
+And now I’ll turn the call over to Bill.
+
+Bill Ready, Chief Executive Officer
+
+Thanks, Andrew. Good afternoon, and thank you for joining our second quarter 2026 earnings call.
+
+Our strong Q2 results reflect the progress we’re making against our strategic priorities. We ended the quarter with
+640 million monthly active users and delivered revenue growth of 18% globally and in UCAN, a 5-point
+acceleration in our largest market.
+
+We continued to build momentum across our three strategic priorities. First, continuing to build a differentiated
+visual search, discovery, and shopping experience for users. Second, keeping AI at the core of everything we do,
+from powering the user experience to our ads platform and our internal operations. And third, accelerating
+monetization through improved go-to-market and measurement capabilities.
+
+At the center of our strategy is a simple idea. Pinterest helps people discover what they want and then go do it in the
+real world. That idea comes through clearly in our new brand campaign, built around the line, “The best thing you
+can find online is a reason to go offline.” It reflects what makes Pinterest different. People come here with intent.
+They find inspiration that is personalized for them, refine their style and taste, and can take action directly from our
+platform. The human curation that is so unique to Pinterest is the highly differentiated signal that trains our AI to
+make exceptionally relevant recommendations to users.
+
+Today, I will focus my remarks on two topics that cut across those priorities: how AI is powering our user
+momentum and how we’re turning that strong engagement into more durable monetization.
+
+With that, let me start with the user side of the story.
+
+Q2 marked our 12th consecutive quarter of record users and our 11th straight quarter of double-digit user growth. In
+our core UCAN market, users grew 4%. We’re also winning significantly with the next generation of users, as Gen Z
+
+
+
+                                                                                                                      1
+continues to be our largest and fastest-growing cohort, representing over half of our user base.
+
+AI has been at the heart of this momentum. We’ve transformed Pinterest into an AI-powered shopping assistant.
+Effectively, every Pin a user sees is personalized and served by AI. We were early to move on AI and its enabling
+technologies, having completed our full transition to GPU serving more than two years ago, we materially improved
+relevance and personalization using larger models and more data.
+
+Our scale and the unique human curation that occurs on our platform have fueled our proprietary Taste Graph, with
+more than 80 billion monthly searches on Pinterest. The vast majority of searches are visual, and over half are
+commercial. There are also more than 16 billion boards created on our platform. We have a uniquely valuable signal
+of human taste and curation at scale. This enables us to train our AI with a deep understanding of taste, context, and
+intent that gets more personalized every time a user comes back. This powerful feedback loop is what helps users
+discover what they want before they have the exact words, brand, or product in mind. That’s why so many
+commercial journeys begin on Pinterest.
+
+Today, over 96% of text-based searches on our platform are unbranded. For instance, “cool running shoes” or “new
+fall wardrobe ideas.” This is a great moment for marketers to meet prospective customers when they have clear
+commercial intent, but haven’t yet decided what to buy.
+
+As users move from inspiration to a more specific decision, their needs evolve from discovery to research with
+questions like, “Do these shoes run true to size?” or “Can you compare these two brands?” To handle this part of the
+commercial journey, we’re bringing AI further into the foreground of the user experience with our AI conversational
+layer, Pinterest Assistant.
+
+This intelligence layer, which we made available to the vast majority of U.S. users as of the end of July, helps our
+users answer those later-stage research questions, enabling them to move from an idea to a finished plan or purchase
+entirely on Pinterest. Pinterest Assistant is now woven throughout the user experience. Users can engage with it
+where they already explore and plan, with contextual entry points and prompt suggestions across the experience. It
+will be able to generate product comparisons, step-by-step instructions, and visual-forward guidance.
+
+For example, someone planning a living room refresh can ask what styles work in their space, get help finding the
+right rug, and explore ways to pull it all together within their budget, all without leaving Pinterest.
+
+What makes Pinterest intelligence differentiated is that it’s built on our Taste Graph. Years of visual curation signals
+from users, searches, saves, and boards give it a deep understanding of products and style that is highly relevant to
+how people shop and to each individual’s taste and interests. Notably, it’s also visual-first, consistent with the
+experience that users expect from Pinterest. We are also beginning to introduce memory and conversational history,
+creating an even more personalized experience.
+
+Importantly, we are building this capability in a highly differentiated, effective, and cost-efficient way. Our approach
+to model deployment includes our own compact, fit-for-purpose models built for Pinterest-specific use cases, and
+suitable open-source models post-trained in our own environment within our secure cloud infrastructure. When we
+leverage open-source models, such as with Pinterest Assistant, we are seeing superior performance for our use cases
+compared with closed third-party models because we are able to post-train open models on our highly unique data.
+With open models, we are achieving cost per transaction at less than 8% of the cost of comparable closed proprietary
+models. This gives us substantial headroom to deepen and extend these capabilities over time in a way that is
+differentiated, highly effective, and cost-efficient.
+
+Stepping back, this is the next iteration of work we’ve been doing for years: taking the discovery and intent that
+already exists on Pinterest and making it even more actionable for users, helping them move seamlessly from
+dreaming to deciding, doing, and buying.
+
+With the launch of our AI conversational layer, we are taking the next step to enhance that actionability even further
+and make it even more seamless for our users to move through their entire commercial journey on Pinterest.
+
+This is what sets up the monetization story I’ll turn to next.
+
+
+
+                                                                                                                      2
+On the monetization side, AI is helping us improve advertiser performance across the funnel, from better targeting
+and bidding to more automated creative and stronger measurement. As we shared last quarter, advertisers using
+Pinterest Performance+ campaigns see meaningfully better ROAS and grow spend faster than those who have not
+yet adopted it.
+
+That uplift comes from automating more of the campaign setup, bidding, budgeting, targeting, and creative
+optimization that advertisers historically had to manage manually, while still giving them clear controls. As part of
+our efforts to serve a broader group of advertisers with Pinterest Performance+ campaigns, this quarter we launched
+Smart Assembly to help more advertisers benefit from creative optimization tools. This is a new Pinterest
+Performance+ creative capability for advertisers promoting brands, services, or content who do not have existing
+shopping product catalogs. Advertisers can upload multiple images, and Pinterest automatically builds and serves
+the best-performing ad for each impression. In early alpha testing, Smart Assembly delivered a 6% improvement in
+click-through rate on average, demonstrating that creative testing and diversification can meaningfully improve
+performance.
+
+Over time, our goal is for nearly every lower-funnel campaign on Pinterest to start in an AI-powered best-practice
+setup, with added controls for more complex buyers who need them. Our near-term roadmap, including a simpler
+campaign-creation flow, more sophisticated bidding, and more automated creative, is designed to drive the next leg
+of Pinterest Performance+ adoption, including among advertisers that require both performance and increased
+control.
+
+We’re also investing in Business Assistant, our conversational AI collaborator for advertisers, which is currently in
+beta. Business Assistant combines an advertiser’s business context with Pinterest platform insights to surface
+actionable recommendations, including relevant trends, top-performing Pins, and optimization opportunities. The
+goal is to help advertisers understand what is resonating on Pinterest, decide where to put the next dollar, and make
+Pinterest easier to use and scale, especially for advertisers that do not have large, dedicated teams.
+
+At the same time, we are upgrading our bidding and measurement systems so we can do two things better: help
+advertisers find the highest-value impressions on Pinterest and prove that value through the metrics and
+measurement systems advertisers already use.
+
+With a small initial group of some of our largest and most sophisticated advertisers, we are continuing to pilot
+integrations between their in-house measurement systems and our AI bidding systems, allowing us to optimize
+bidding toward their unique set of desired outcomes. That initial group is seeing strong performance, partially
+contributing to our strong Q2 results. We are now expanding testing to a small number of additional advertisers over
+the course of the third quarter. The learnings are also informing broader bidding enhancements across the platform
+that can scale to many more advertisers.
+
+We are always working on making our core ads delivery engine better by adapting new and better signals and
+driving enhancements in our AI modeling work. This quarter, we have made our shopping ads delivery systems
+better at deciding which products to show, when to show them, and how to allocate budgets against the highest-value
+advertiser opportunities. That includes improving product selection for advertisers with large catalogs and increasing
+the variety of relevant products users see. This package of changes is designed to improve lower-funnel performance
+across both large enterprises and smaller advertisers. The early results are encouraging, helping drive stronger and
+more consistent rollouts.
+
+Finally, we are continuing to extend Pinterest’s unique consumer intent signal and audience to connected TV
+through tvScientific, and early advertiser reception continues to be strong. In 2027, we expect to fully integrate
+tvScientific capabilities directly into Pinterest Performance+, turning Pinterest into a full-funnel search, social, and
+CTV performance solution and opening access to larger and incremental budget pools. We’re pairing this progress
+across our ad platform with a more disciplined, performance-oriented sales and go-to-market motion, helping us
+better monetize the strong engagement and commercial intent on Pinterest.
+
+Early progress on sales and go-to-market transformation was reflected in our strong Q2 results, particularly in
+UCAN. Our focus on clear seller accountability, better packaging of commercial moments, and a tighter connection
+between product performance and advertiser conversations are supporting strong UCAN demand. We’re also
+
+
+
+                                                                                                                      3
+making progress on our mid-market and managed SMB go-to-market efforts, including restructuring
+account-coverage teams and realigning incentives to better serve this cohort over time. We’re now applying our
+UCAN playbook internationally, where we see significant opportunity to close the gap between engagement and
+revenue. We’re earlier in this work, but our progress in UCAN gives us confidence in the opportunity. With new
+international leadership, we’re sharpening our global go-to-market approach and bringing more global discipline to
+how we drive performance selling internationally. We’re also testing the expansion of third-party demand in Europe.
+
+Taken together, the product-led improvements across our ad platform and a more disciplined go-to-market engine
+are strengthening monetization and helping revenue better reflect the value of the engagement we’re seeing on
+Pinterest.
+
+In closing, Q2 shows that we are making progress on the priorities that matter most. We are building an even more
+differentiated visual search, discovery, and shopping experience. AI is improving both the user experience and
+advertiser performance, and stronger go-to-market and measurement capabilities are helping revenue better reflect
+the engagement we see on Pinterest. We are still early on many of these initiatives, but the initial results indicate we
+are on the right path.
+
+As we build for the long term, we remain focused on making Pinterest a positive platform centered on time well
+spent. As the global conversation around online safety and youth well-being continues to grow, we believe that
+foundation matters more than ever. We will keep making deliberate choices that put user trust and well-being at the
+center of the experience, and we remain confident that building a positive platform and building a strong business
+reinforce each other.
+
+With that, I’ll turn it over to Julia to walk through the Q2 financials and our outlook in more detail.
+
+Julia Donnelly, Chief Financial Officer
+
+Thanks, Bill, and good afternoon, everyone. Today I’ll be discussing our second quarter 2026 financial results and
+provide an update on our third quarter 2026 outlook. All financial metrics, except for revenue, will be discussed in
+non-GAAP terms unless otherwise specified, and all comparisons will be discussed on a year-over-year basis unless
+otherwise noted.
+
+Q2 was a strong quarter. We’ve transformed Pinterest into a scaled, AI-powered shopping destination for 106
+million users in the U.S. and Canada and 640 million users globally.
+
+Importantly, we have a direct relationship with our users. One hundred percent of our reported users are logged in,
+and 85% come to Pinterest directly through our mobile app, meaning we are not heavily reliant on third parties for
+traffic.
+
+Revenue exceeded $1 billion for the fourth consecutive quarter, growing 18% year-over-year. This growth was led
+by strength in UCAN, our core market, where revenue growth accelerated to 18% year-over-year. This performance
+reflects a number of our initiatives coming together. First, our ongoing ad platform enhancements to improve return
+on ad spend and advance our bidding and measurement capabilities are driving advertiser performance and spend. In
+addition, we are seeing the early results of our sales and go-to-market transformation take hold in UCAN. Increased
+rigor and discipline in how we go to market are beginning to show up in our results.
+
+As we discussed entering 2026, we have more work to do so our revenue consistently reflects the strength of our
+user activity. While this will take some time to fully take hold, particularly internationally, our results in UCAN give
+us confidence that we are moving in the right direction.
+
+Now I’ll move to the details of our second quarter results.
+
+We ended the quarter with 640 million global monthly active users, or MAUs, growing 11% and reaching another
+record high. We continue to demonstrate user growth across all of our geographic regions.
+
+In Q2, our U.S. and Canada region had 106 million MAUs, growing 4%. Our Europe region had 157 million MAUs,
+
+
+                                                                                                                      4
+growing 8%. In the Rest of World markets, we had 377 million MAUs, growing 15%.
+
+Shifting to revenue, in Q2, our global revenue was $1.180 billion, up 18%, or up 17% on a constant-currency basis,
+with strength led by our conversion and consideration objectives. Across verticals, we continued to see strength in
+retail, as well as smaller but faster-growing emerging verticals on our platform, including financial services, travel,
+and health.
+
+Turning to our geographical breakouts for Q2, revenue in the U.S. and Canada was $880 million, growing 18%.
+Growth came from retail and emerging verticals, including financial services, travel, and health. In Europe, revenue
+was $213 million, growing 12% on a reported basis, or 7% on a constant-currency basis. Growth in Europe was
+driven by retail. Revenue from Rest of World was $87 million, growing 38% on a reported basis, or 32% on a
+constant-currency basis.
+
+In Q2, overall ad impressions grew 16%. The deceleration from prior quarters was partly driven by lapping the ramp
+in ad impressions from previously under-monetized international markets. Ad pricing in Q2 increased 1%
+year-over-year. This was driven in part by stronger demand in our UCAN region, as well as the higher relative mix
+of UCAN ad impressions, which carry higher average pricing overall.
+
+Moving to expenses, in Q2, cost of revenue was $245 million, up 25% year-over-year and up 6% versus Q1, driven
+by the full-quarter impact from tvScientific and our investment in additional GPU capacity.
+
+Our non-GAAP operating expense was $629 million, up 13%. The increase was primarily driven by sales and
+marketing due to our brand campaign and sales headcount investments, as well as R&D to support our AI and
+product initiatives.
+
+In Q2, we delivered $311 million in Adjusted EBITDA, with an Adjusted EBITDA margin of 26%, up 130 basis
+points versus Q2 last year. The higher-than-expected Adjusted EBITDA was driven by flow-through from higher
+revenue.
+
+We also delivered Q2 free cash flow of $270 million. On a trailing 12-month basis, we generated nearly $1.3 billion
+of free cash flow, representing 94% free cash flow conversion in Q2.
+
+We allocated $58 million toward share repurchases. Separately, we entered into a capped-call transaction for total
+consideration of $99 million, which protects against dilution from our previously issued convertible notes up to a
+price of $30.59 per share.
+
+As a reminder, year to date, we repurchased over $2 billion of stock, retiring nearly 111 million shares. We ended the
+quarter with cash, cash equivalents, and marketable securities of $1.3 billion.
+
+Now, I’ll discuss our guidance for the third quarter. We expect Q3 revenue to be in the range of $1.190 billion to
+$1.210 billion, representing 13% to 15% growth year-over-year. As we move from Q2 to Q3, there are a few
+sequential factors to keep in mind. First, based on current spot rates, we expect foreign exchange to be a modest
+headwind in Q3 after providing a 1-point tailwind in Q2. Second, the shift of Prime Day from Q3 last year into Q2
+this year resulted in an approximately 0.5-point benefit to Q2 and will represent a roughly 0.5-point headwind to Q3,
+as multiple brands and retailers increased their advertising spend around that moment. Lastly, in Q2, we saw a nearly
+1-point benefit from World Cup-related spend that will not repeat in Q3.
+
+Moving down the P&L, we expect Q3 Adjusted EBITDA to be in the range of $335 million to $355 million.
+
+We anticipate Q3 non-GAAP cost of revenue expense to be roughly flat versus Q2 2026 due to the accelerated
+recognition of certain contractual benefits in Q3 associated with our recently executed multiyear infrastructure
+agreement. In Q3, within non-GAAP operating expense, our primary areas of year-over-year investment will be
+sales and marketing and R&D to support our AI and product initiatives.
+
+As we saw in the first half of 2026, we continue to expect modest headwinds from cost of revenue as a percentage of
+revenue in the second half as a result of investments in areas such as additional GPU capacity, as well as the impact
+
+
+
+                                                                                                                     5
+from the inclusion of tvScientific.
+
+Given our first-half revenue outperformance, we now expect full-year 2026 Adjusted EBITDA margins of
+approximately 30%, versus our prior expectation of approximately 29%.
+
+In closing, I’m proud of our teams for yet another strong quarter of results as we execute against our strategic
+priorities. I’m encouraged by our performance in the first half of the year as we continue to deliver for our users and
+advertisers.
+
+With that, I’ll hand it over to Bill for some final words.
+
+Bill Ready, Chief Executive Officer
+
+Thanks, Julia. I want to thank our teams at Pinterest, our advertising partners, and all the people that come to
+Pinterest to find inspiration and take action.
+
+And with that, we can open up the call for questions.
+
+
+
+
+                                                                                                                     6
+QUESTION AND ANSWER SECTION
+Operator
+
+We will now begin the question-and-answer session. Please limit yourself to one question.
+
+Your first question comes from the line of Mark Shmulik from Bernstein. Please go ahead.
+
+Mark Shmulik
+Bernstein Institutional Services LLC
+
+Yes. Thanks for taking the question, Julia. You gave a little bit of color on the revenue guide and the puts and takes,
+but I’m hoping we can get a little bit more color on perhaps some of the regional differences you might be seeing. I
+noticed a little bit of a slowdown in Europe. Is that just tougher comparisons? Thanks.
+
+Julia Donnelly
+Chief Financial Officer
+
+Sure. Thanks, Mark. Overall, we’re really pleased with a very strong Q2. On a global basis for Q3, the high end of
+our Q3 guidance range is consistent with what we just delivered in Q2 when you adjust for the 3-point sequential
+impact I called out in my prepared remarks from foreign currency, Prime Day, and World Cup spend.
+
+At the core of our Q2 outperformance is our ongoing strength in users and engagement. We continue to win
+shopping demand from consumers globally and in UCAN, and that multiyear trend gives us the most conviction in
+the trajectory of our business. We’re now making it easier for advertisers to tap into that consumer behavior through
+our AI-driven ad platform improvements and the early dividends from our go-to-market transformation. That’s
+really what is translating into the strong revenue performance that you saw in Q2, particularly in UCAN.
+
+Let’s start with UCAN, since that was the biggest revenue driver in Q2. We drove a 5-point sequential acceleration
+to 18% year-over-year in UCAN, and this reflects a few different things coming together.
+
+First, as a result of our ad platform improvements, we began to see pockets of large-retailer spend accelerate, with
+certain retailers leaning in as a result of our ongoing ROAS enhancements and AI-driven bidding optimizations, as
+well as Asia-based cross-border retailer spend into UCAN. Second, in UCAN in Q2, strong year-over-year growth
+outside of our largest retailers continued across mid-market, managed SMB, and emerging verticals, as many of
+these advertisers are benefiting from our ad platform improvements, including Pinterest Performance+ campaigns
+specifically. Lastly, UCAN in Q2 also benefited from Prime Day shifting from Q3 to Q2, World Cup spend, and a
+full-quarter contribution from tvScientific. Overall, as we look to Q3, we expect strong growth in UCAN to
+continue.
+
+For Europe and Rest of World, we noted on the last earnings call that we expected growth to moderate in Q2 as a
+result of the deliberate leadership and structural changes we’re making to our go-to-market organization and more
+difficult prior-year comparisons in certain markets.
+
+In Q2, we were lapping the ramp of resellers in Rest of World last year and lapping a significant influx of
+cross-border spend into Europe last year following changes in the U.S. tariff environment. That moderation was
+generally consistent with our expectations. In addition, we faced incremental pressure mid-quarter from Asia-based
+cross-border retailers impacted by regulatory actions, particularly in Europe, and that pressure is continuing in the
+third quarter. We have more work to do to fully realize the benefits of our go-to-market transformation in Europe
+and Rest of World, and we expect some level of disruption to continue in Q3.
+
+As we look to the third quarter, it is also worth noting that Q3 represents the most difficult comparison of the year
+for our Europe region in particular.
+
+Stepping back, the underlying trends in our business remain healthy. We’re pleased with the strong Q2 overall, led
+by growth in our core UCAN market, which continues to be underpinned by our durable user and engagement
+
+
+                                                                                                                     7
+strength.
+
+Operator
+
+Your next question comes from the line of Colin Sebastian from Baird. Please go ahead.
+
+Colin Sebastian
+Robert W. Baird & Co., Inc
+
+Great. Thanks, and good afternoon. Bill, you talked about the evolution of Pinterest Assistant and updates there as
+usage takes hold. As the competitive landscape continues to evolve, what are you seeing in terms of early
+engagement signals there, and how are you innovating on the broader Pinterest user-experience side? Thank you.
+
+Bill Ready
+Chief Executive Officer
+
+Thanks for the question, Colin. Over the last three years, we’ve effectively turned Pinterest into an AI-driven
+shopping assistant. Even today, every Pin you see on Pinterest is personalized and served by our AI. That has been at
+the core of the significant acceleration in our user growth over that roughly three-year period.
+
+What we’re doing now is bringing more of those AI capabilities into the foreground of the experience for users to
+interact with directly. We’re leveraging AI to make Pinterest more personalized, more actionable, and more valuable
+to users. That advantage continues to compound, particularly through the human curation on the platform.
+
+We’ve been applying AI at scale for years. We completed our migration to GPU serving over two years ago. Every
+Pin you see on Pinterest is effectively served by AI, but it’s really the human curation from the more than 640
+million users on our platform—creating hundreds of billions of unique connections across our Taste Graph—that
+gives us proprietary signal we can use to train our AI and personalize the experience with every interaction. That
+feedback loop has accelerated over the past three years. As consumers are responding, that’s what has led to 12
+consecutive quarters of record users and 11 straight quarters of double-digit user growth.
+
+On the competitive landscape, we have long believed search will continue to fragment, with a small number of
+horizontal, general-purpose platforms, but more vertical-specific experiences that solve distinct consumer needs.
+That trend of the search market fragmenting has been happening for more than two decades. Think of how many
+product searches start on large retailers or travel searches at online travel companies, versus a general-purpose
+search engine. As AI becomes more widely available and open-source models continue to improve, we believe there
+can be many winners, particularly in vertical-specific search. The user growth on our platform alongside the growth
+in AI over these last few years is clear evidence of that. You’re also seeing general-purpose AI applications discover
+what those of us that have built much larger platforms have known for a long time: it’s very hard to be all things to
+all people. You’ve seen them pull back from many of their vertical-specific experiences.
+
+At Pinterest, we’re very focused on visual search, particularly around shopping, and we’re using AI to make the
+experience more actionable across the shopping journey. People already come to Pinterest to discover products,
+ideas, and aesthetics they love. Research shows that shoppers find AI chatbots most valuable when researching and
+comparing products and narrowing their choices.
+
+Pinterest Assistant, our AI conversational layer that we have now made available for the vast majority of U.S. users,
+brings those LLM capabilities into our visual, personalized, and proactive experience. It helps users move from
+inspiration through consideration and decision-making and allows them to complete more of their shopping journey
+on Pinterest.
+
+By combining our proprietary signals with cost-efficient open-source models that we can run securely in our own
+environment, we are able to keep improving the experience and scale those innovations with strong ROI. The result
+is a better product today and a compounding advantage as more people use Pinterest.
+
+Lastly, it has been really exciting to see just how much the open-source ecosystem is expanding. We have been very
+
+
+                                                                                                                    8
+early on that. It has been woven into our experience and is core to what we’re doing and how we’re doing that very
+effectively. It’s great to see that momentum building. This is one good example of how we’re using it, but I think
+you’re going to see more of that across the ecosystem as well.
+
+Operator
+
+Your next question comes from the line of Brian Nowak from Morgan Stanley. Please go ahead.
+
+Brian Nowak
+Morgan Stanley & Co. LLC
+
+Great. Thanks for taking my question. I want to ask about UCAN. It seems like you’ve made a lot of progress on the
+improvement in attribution and the entire go-to-market motion in UCAN. Bill, as you look ahead over the next 12
+months, what are the next sources of innovation or unlocks that you’re looking for to drive even faster and more
+durable growth out of the UCAN business?
+
+Bill Ready
+Chief Executive Officer
+
+Thanks for the question, Brian. The first thing I’d say is that we’ve talked about this previously: we’re still a long
+way from having fully monetized all the commercial intent that already exists on our platform.
+
+While user growth and engagement continue to be one of the highlights of our platform, especially as you look
+across the social media landscape where platforms are generally having a harder time growing, 11 straight quarters
+of double-digit user growth is a significant achievement.
+
+That user growth, and the fact that more than half of users are here to shop, continues to be the strongest part of that.
+As we shared on the last call, clicks to advertisers are up 5x over the last three-year period, but we certainly didn’t
+find 5x revenue. The things that we’ve talked about in terms of aligning our AI bidding systems with measurement
+systems, getting more integrated into a broader set of measurement systems so advertisers can measure those
+outcomes, and our AI-driven ad platform are all making it easier and easier for advertisers to tap into the very high
+commercial intent on the platform.
+
+We see that flywheel continuing to spin through users and engagement. The user and engagement growth is coming
+in the ways that we want it—with high intent, with search, and with actionability—and advertisers are leaning in
+more and more as we give them a better ability to access that commercial intent.
+
+Operator
+
+Your next question comes from the line of Ross Sandler from Barclays. Please go ahead.
+
+Ross Sandler
+Barclays Capital, Inc.
+
+Hey, guys. Bill, you mentioned the integrations with first-party measurement and AI-optimized bidding as a growth
+driver at some of these larger accounts. Could you elaborate on where we are in that progression and what you’re
+seeing thus far? Thanks a lot.
+
+Bill Ready
+Chief Executive Officer
+
+Definitely. Thanks for the question, Ross. We’re still early in the work, but the initial results from the pilot are very
+encouraging and contributed to our outperformance in Q2.
+
+The small number of advertisers participating in the pilot are seeing meaningful performance improvements, which
+is giving them greater confidence to increase their spend on Pinterest. We’re expanding this work to a limited
+
+
+                                                                                                                       9
+number of additional advertisers in Q3. By integrating with advertisers’ measurement sources of truth, we’re able to
+align our AI bidding systems to optimize for the highly specific outcomes each advertiser values most, whether
+that’s customer lifetime value, incremental ROAS, or another metric they use internally to evaluate performance.
+The more precisely we line up with what they’re looking for, the more we can make sure the AI is delivering their
+exact outcome. They see more value captured from Pinterest, and they are seeing that across the funnel—upper,
+middle, and lower.
+
+While we started this work with some of our most sophisticated advertisers because they have the data,
+measurement infrastructure, and technical resources required to deploy it, our most customized solutions will remain
+focused on that relatively smaller number of advertisers with that level of sophistication. As we move beyond that
+initial group of advertisers, it is reasonable to expect the full adoption curve to take place across the rest of our
+advertisers, but it will take some time to play out. You’re seeing the industry shift beyond last-click attribution to
+recognize value earlier in the funnel, where more than just the last click matters. Great marketers have always
+known that.
+
+The ability to take action on that is most sophisticated in the early deployments, but we’re seeing it take hold
+through a broader swath of advertisers through third-party measurement platforms. As those capabilities become
+easier to deploy through third-party measurement systems, we’re making sure that we tie in closely to those things.
+
+That adoption cycle takes time. Advertisers have cycles they go through in terms of how they adjust their
+measurement, and they are cautious and methodical about that. But we absolutely see that happening across the
+industry, not just with us but with other platforms. We think that general trend bodes quite well for us.
+
+As I mentioned already, clicks to advertisers on Pinterest are up well over 5x over the last three years. All of these
+things help us capture more of the value that we’re already creating. The feedback we’re getting is encouraging.
+Simply stated, when advertisers can see the full picture and we can tune our bidding to what matters most to them,
+they have more confidence and they increase their investment in Pinterest.
+
+Operator
+
+Your next question comes from the line of John Blackledge from TD Cowen. Please go ahead.
+
+John Blackledge
+TD Cowen
+
+Great. Thank you. As you expand your AI product offerings, how are you managing token-spend usage and
+AI-compute costs, and what KPIs are you tracking to make sure those choices translate into real productivity gains
+for your teams? Thank you.
+
+Julia Donnelly
+Chief Financial Officer
+
+Thanks, John. I can take that one. In 2026, we’ve expanded our AI capabilities across our product, both for users and
+advertisers, and also for internal productivity-related use cases.
+
+We also just raised our margin outlook for the year. I think that demonstrates our ability to invest in these
+capabilities while continuing to improve profitability by managing AI and compute costs efficiently. We’ve
+discussed our incremental investment in GPU capacity throughout 2026, which is reflected in our cost-of-revenue
+line item. We are already seeing returns through ROAS gains for advertisers and improvements to our user-facing
+experiences, as Bill just noted. In general, GPU investments have a relatively short payback period because
+increased compute capacity can be deployed quickly to enable rapid improvements to our AI models, which
+translate quickly into business outcomes. As we’ve said, we use a blended model approach that includes our own
+compact, fit-for-purpose proprietary models, open-source models, and, in very limited cases, select closed
+third-party models.
+
+We evaluate models across the ecosystem constantly and leverage our centralized model-routing layer to optimize
+
+
+                                                                                                                   10
+production traffic for the right balance of quality, cost, latency, and reliability. This allows us to reserve more
+capable, higher-cost models for complex work while using lighter, lower-cost options for routine tasks.
+
+In the second half, we’re expanding this model-routing infrastructure to even more internal use cases, including
+tools to increase productivity across engineering, sales, and other functions. These costs appear in our OpEx line
+item. Here, we’re tracking adoption, developer throughput, cycle time, incident rates, and service uptime to ensure
+that greater speed does not come at the expense of reliability.
+
+For example, in July, weekly pull requests per engineer increased 45% versus last year, while incident rates and
+service uptime remained relatively consistent. That gives us confidence that we’re improving velocity without
+compromising reliability.
+
+As AI adoption continues to grow, we expect both AI-related compute and token spend to grow over time. We see
+that these investments are ROI-positive, and that investment growth is planned and included in the outlook we’ve
+provided. We’re scaling AI deliberately: expanding user capabilities, driving advertiser outcomes, and improving
+employee productivity, all while maintaining a disciplined approach to profitability.
+
+Operator
+
+Your next question comes from the line of Justin Patterson from KeyBanc. Please go ahead.
+
+Justin Patterson
+KeyBanc Capital Markets, Inc.
+
+Great. Thank you. Good afternoon. You’ve talked about broadening your revenue base beyond your largest retailers.
+Can you update us on that progress, particularly with SMBs, and discuss Performance+ adoption and the product
+roadmap supporting this effort? Thank you.
+
+Bill Ready
+Chief Executive Officer
+
+Certainly. Thanks for the question. We’re really pleased with our continued progress in broadening the revenue base.
+
+As Julia noted, in Q2 and UCAN, we saw strong growth outside our largest retailers across mid-market, managed
+SMB, and emerging verticals. Ongoing ad platform improvements, notably Pinterest Performance+, have been a key
+driver of this strength across those areas. Performance+ gives advertisers an automated best-practice setup across
+bidding, budgeting, targeting, and creative. That is especially valuable for smaller advertisers that do not have large
+teams. We’re also adding the controls that more sophisticated advertisers need so they can take advantage of these
+capabilities as well.
+
+As we shared last quarter, approximately 30% of our lower-funnel revenue was running through Performance+
+campaigns as of Q1. Adopters also grew their lower-funnel spend more than twice as fast as non-adopters. We’re
+really seeing that be effective for our advertisers.
+
+More recently, updates to our ad-delivery models drove a 28% improvement in ROAS during testing for SMB
+advertisers using Performance+ with ROAS bidding. These improvements continue to help smaller advertisers
+achieve better outcomes with less manual work.
+
+As we look ahead, we continue to make our best-performing automation the default for lower-funnel campaigns,
+while also improving bidding, creative, and measurement and adding controls for more complex buyers. A simpler
+campaign flow targeted for early next year will put best-practice setup in place from the very start. We want to
+continue moving toward that type of experience, where we give advertisers a really simple setup with best practices
+baked in. As we’ve consistently said, this is a multiyear product and customer-adoption cycle. Part of that is
+managing customers through not only their adoption, but also how they think about leveraging these tools.
+
+We continue to release new functionality every quarter, and we see good adoption happening across our advertiser
+
+
+                                                                                                                    11
+base. Other platforms that have deployed AI-driven automation suites saw adoption play out over several years.
+Even some of the earliest to have done this are still working through their adoption cycles. We expect a similar
+dynamic for ours as well. We’ve created a lot of capability, but there is a lot more in front of us than behind us.
+
+Lastly, on the go-to-market aspect of this, we are also evolving how we go to market for mid-market and SMB
+advertisers. We’re restructuring account coverage and realigning incentives so we can provide direct support where
+it can unlock growth and scaled support where that is the better fit. Broadening our revenue base, including
+internationally, is a multiyear journey, and we’re still relatively early. But we’re building the product foundation,
+coverage model, and go-to-market discipline required to serve a much broader range of advertisers. Again, we
+believe there is more opportunity ahead of us.
+
+Operator
+
+Your next question comes from the line of Nitin Bansal from Bank of America. Please go ahead.
+
+Nitin Bansal
+BofA Securities, Inc.
+
+Thank you for taking questions. Julia, can you provide some color on the increase in SBC expense this quarter? As
+you continue to invest in AI talent, how should we think about the trajectory of SBC for the second half and next
+year? Thank you.
+
+Julia Donnelly
+Chief Financial Officer
+
+Sure. We do not guide stock-based compensation expense specifically, but it is certainly an area we’re focused on.
+
+Q2 had some unique factors and, as a result, should be the highest quarter for stock-based compensation expense in
+2026. The increase in Q2 stock-based compensation expense was driven by the annual equity-grant cycle for our
+employees and the lower stock price at the time of grant, which meant we needed to issue more shares to remain
+competitive on compensation. Equity is an important part of how we attract and retain our strong talent while also
+aligning employees with long-term shareholder value. We also saw some timing impact in Q2, as a greater portion of
+our annual grant expense was recognized this quarter.
+
+While stock-based compensation will remain elevated in 2026, starting in Q3, we do expect both stock-based
+compensation expense dollars and the year-over-year growth in stock-based compensation to step down versus Q2.
+
+As in recent years, we also expect to be profitable on a full-year GAAP net-income basis.
+
+I’ll also note that we’ve leaned in opportunistically to manage dilution, particularly this year, at a moment of
+dislocation in our stock price. We’ve repurchased over $2 billion of stock at an average price of $18 per share. As a
+result, net dilution for Q2 was down 12% year-over-year, leading to growth in Q2 non-GAAP EPS of 30%. We have
+a growing, highly profitable, and cash-generative business, and we’ll continue to be thoughtful in balancing
+employee retention and incentive alignment with opportunistic capital return and ongoing dilution management
+going forward, just as we’ve done in the past.
+
+Operator
+
+Your next question comes from the line of Jason Helfstein from Oppenheimer. Please go ahead.
+
+Jason Helfstein
+Oppenheimer & Co., Inc.
+
+Thanks. First question for Bill: You touched on the capabilities of open-source AI models. How does Pinterest
+leverage that today, and how does that fit into your broader AI strategy?
+
+
+
+
+                                                                                                                     12
+Second, just a quick one: Is MAU really the best KPI for UCAN, or is there another metric that you could share with
+us over time to help us better understand engagement in the business? Thanks.
+
+Bill Ready
+Chief Executive Officer
+
+Thanks for the question, Jason. On open-source AI, it is an area that we’re really excited about. I’ve been talking
+with you all about this since right after the DeepSeek moment, roughly a year and a half ago.
+
+As we’ve discussed before, we take a model-agnostic approach. We use the right model for the task, whether that is
+one of our in-house compact, fit-for-purpose models, an open-source model that is post-trained on our own data, or,
+in some very limited cases, a selected closed third-party model. We’re one of the largest practitioners of applied AI
+at scale, serving more than 640 million users. We have been at the forefront of leveraging open source. It has
+become an increasingly important part of our strategy because it gives us three important advantages: cost,
+customization, and control.
+
+Starting with cost, for our use cases, with open models, we are achieving cost per transaction at less than 8% of the
+cost of comparable closed proprietary models. That is a substantial advantage.
+
+It becomes even more compelling as open-source models, including those from U.S.-based labs, continue to
+improve. Our early adoption of open source has enabled us to scale AI efficiently to serve our 640 million users
+while also expanding margins and generating significant free cash flow. It is the combination of our in-house
+compact models and leveraging open source effectively. With open source, it is not only much lower cost; the fact
+that we can post-train on our own data makes it more effective.
+
+When you look at what is happening in the open-source ecosystem as models continue to improve, it is not just how
+they do on benchmarks. It is how they work in your own environment. When you can post-train on your own data,
+that makes them much more effective.
+
+You are then looking at something that is more effective than what you get from closed models and at less than
+one-tenth of the cost. At this point, any CEO who is not taking advantage of open-source models is almost certainly
+wasting a lot of shareholder money.
+
+That is especially true now that hyperscalers are making it really easy to take advantage of open source in a secure
+environment. You can leverage open source in your own cloud environment so that it is safe and secure. You do not
+have to worry that it is phoning home, and you do not have to worry that you are giving your company’s most
+important data to somebody who might potentially use it against you.
+
+Again, we’re very excited about the progress in open source. It pairs with our own work on compact models that
+serve our use cases. We’re encouraged by the advancement of the ecosystem, and I think there is going to be much
+more of that to come.
+
+I think it is a great democratizing agent. Most of Silicon Valley, most of the web, and most of mobile was built on
+top of open-source software. U.S. tech needs a thriving open-source ecosystem, and I think, with the hyperscalers
+and U.S. labs showing up, we’re getting exactly that. We have been one of the largest practitioners of it, but we think
+it is a really great thing for the industry.
+
+Julia Donnelly
+Chief Financial Officer
+
+To take the second part of the question on UCAN, MAUs, and engagement, we always internally look at various
+baskets of metrics to measure engagement across the platform. We continue to add new users, and we’re continuing
+to maintain strong engagement with those users that we’re adding. For example, in UCAN, searches and boards
+created continued to grow faster than users in Q2. Across the platform, as we’re looking at overall strength, we’re
+seeing strength across a number of those baskets of metrics that gives us confidence that we’re really resonating
+with users, and in UCAN in particular, with Gen Z.
+
+
+                                                                                                                    13
+Operator
+
+Your next question comes from the line of Eric Sheridan from Goldman Sachs. Please go ahead.
+
+Eric Sheridan
+Goldman Sachs & Co. LLC
+
+Thanks so much for taking the question. Julia, maybe building on some of the commentary you’ve given so far with
+respect to EBITDA margins and the performance of EBITDA in the quarter, can you put a finer point on two
+questions: First, how are you thinking about the highest-return areas for incremental growth investments when you
+look out over the next couple of years? Second, when you think about flexing the EBITDA margin beyond 2026,
+how do you think about the scope for headcount reductions, productivity gains, and/or increased growth investments
+in the ad platform as different variables that could play into how margin evolves going forward? Thanks so much.
+
+Julia Donnelly
+Chief Financial Officer
+
+Sure. Thanks, Eric. In general, we’re internally becoming an ever more AI-native company over time, and we’re
+continuing to move further in that direction. AI is embedded now in how we build every single product, operate the
+business, and allocate resources internally.
+
+The restructuring actions we took in Q1 were really about aligning the organization with our highest-priority
+opportunities and creating capacity to invest in the areas where we see the greatest potential returns, including AI.
+You’re seeing that reflected in how we’re rebalancing our cost structure in 2026. We are directing more investment
+capacity toward GPUs and internal AI tools, while being thoughtful and disciplined about where we add headcount.
+Reported headcount was up 3% year-over-year in Q2, which includes employees who joined Pinterest through the
+tvScientific acquisition. If you exclude that acquisition, headcount was down year-over-year in Q2 and is down 6%
+since the end of 2025.
+
+To be clear, we’ll continue to invest in specialized talent where we see a clear and compelling ROI. But an ongoing
+focus for us is finding the right mix of talent, infrastructure, and AI-enabled productivity tooling to produce durable
+growth and expand margins over time.
+
+For 2026, as I noted in my prepared remarks, we are increasing our full-year 2026 projection for EBITDA margin to
+30%, given the strong revenue performance that we saw in the first half. That is up from 29% that we had noted
+previously.
+
+As we look forward to 2027 and beyond, I think it is still too early to talk through specifics. But I will reiterate my
+prior commentary on the appropriate near- to medium-term margins for the business, consistent with the long-term
+range we gave at Investor Day a few years ago of 30% to 34%. We still feel those are the right levels to be tracking,
+but we have no specific commentary yet on 2027.
+
+Operator
+
+Your next question comes from the line of Michael Morris from Guggenheim Securities. Please go ahead.
+
+Michael Morris
+Guggenheim Securities LLC
+
+Thank you. Good afternoon. I wanted to follow up on the Pinterest Assistant comments and am hoping you can
+expand a bit more on the path to monetization of the product. I understand how it further strengthens the user
+experience, but are all the pieces in place from advertisers to be on that monetization journey, or do you need more
+there?
+
+If I could ask one more, on the deceleration in non-U.S. international growth that is driven by decisions made by the
+new leadership team, can you expand a little bit on what is changing in go-to-market and when we will see the fruit
+
+
+                                                                                                                    14
+of that labor? Thank you.
+
+Bill Ready
+Chief Executive Officer
+
+On monetization for our assistant, one of the things I talked about on the call is that we have woven it throughout
+our existing app. That means it has monetization built in right from the start. We do not think of this as a “build it
+now and monetize it later” product. With our assistant capabilities woven throughout the app, it is alongside the
+monetization already baked in there.
+
+As you look at our journey over the last few years, as we made Pinterest an AI-driven shopping assistant, you have
+seen us do that while having pretty consistent margin expansion through that time. That has been twofold. First, it
+has been about using AI for highly commercial moments where monetization is baked in right from the start.
+Second, it has been about the cost efficiency we have discussed with compact models and using open-source or
+open-weight models. Those are the things we have been doing to make sure we have not only the monetization but
+also the margin profile we want from leveraging AI. That is exactly what we have been doing for the last several
+years in the background. Now, as we bring it to the foreground, we are taking the same approach: it is woven right in
+with monetization.
+
+Of course, there are always things we will do to keep adding to that. We have talked about our Business Assistant
+for advertisers and similar capabilities, where we are bringing more assistive capabilities to advertisers. Those things
+will continue to enhance that. But we think about monetization from the beginning of our product design.
+
+On the second point, regarding go-to-market changes, these can be a multiquarter journey. The thing I would point
+you to is that we had work to do in UCAN as well. When you look at the reacceleration of UCAN, the things that we
+did to reaccelerate UCAN, particularly around our go-to-market and sales approach, showed up in Q2. That is what
+we are deploying internationally. While it can take a little bit of time to take hold, you are already seeing it happen
+for us in UCAN, and that is what gives us confidence for Europe. There is still more for us to do, and it can be a
+multiquarter journey, but we feel quite confident in the approach.
+
+Julia Donnelly
+Chief Financial Officer
+
+That is spot on. I would add a little more color. Our new head of international sales is in place now and is focused on
+improving market prioritization and coverage, deepening senior relationships with advertisers and agencies in the
+region, and bringing greater consistency overall to measurement and cross-functional support across regions.
+
+We are also testing the expansion of third-party demand into Europe as we work to broaden demand. Again, as Bill
+said, we are seeing nice results from the UCAN playbook and are looking to extend those internationally over time.
+
+Operator
+
+Our last question comes from the line of Shweta Khajuria from Wolfe Research. Please go ahead.
+
+Shweta Khajuria
+Wolfe Research LLC
+
+Okay. Thanks for taking my question. I have one on engagement. What specifically is driving engagement strength
+to continue to remain strong, particularly among Gen Z? What gives you confidence in these trends being durable?
+Thank you.
+
+Bill Ready
+Chief Executive Officer
+
+Thanks for the question. On the durability of these trends, it is 12 straight quarters of record-high users. Through all
+12 of those quarters, it has been the same things that we have been talking about in terms of really making Pinterest
+
+
+                                                                                                                     15
+a highly shoppable platform with great personalization and AI powering great recommendations. But it is not AI
+alone. It is AI powered by human taste and curation—that unique signal that we get. Stated very simply, AI by itself
+does not have style or taste. People have style and taste.
+
+The 640 million people who come to our platform create a flywheel effect that gives us a really unique signal that
+we can use to train our AI or post-train open models. That lets us give better and better results to users. As I
+mentioned in my prepared remarks, we see that flywheel continuing to accelerate.
+
+When we think about how differentiated that is, I have shared on prior calls that, when we look at our latest
+multimodal models and the relevancy of the shopping recommendations we make, we have seen those outperform
+closed models by 34 percentage points on the relevancy of shopping recommendations. That is not on everything
+that a model could do, but on the relevancy of shopping recommendations. Those are things that give us confidence
+in durability.
+
+I would also point to what has been happening over the last three years. We are several years into AI chatbots. Gen Z
+is more than half of our platform and is our largest, fastest-growing demographic. They have almost certainly used
+chatbots, and they see something different from Pinterest.
+
+With Pinterest, it is not only the visual-first nature. It is how we are bringing human taste and curation, which is
+completely unique to our platform and that we do not see happening anyplace else in the Western world. There is a
+lot more for us to do to make that better and better. But with Gen Z, they absolutely are thinking of us that way. You
+see that not just in our user growth and engagement; you see it in third-party research as well.
+
+We have previously cited an Adobe study, independent of us, that found 39% of Gen Z now thinks of Pinterest as a
+first place to go to search. The reason for that is more than 70% of Gen Z sees Pinterest as more personalized. I think
+those are places where you can look and see that flywheel really taking effect.
+
+As models become commoditized, which they clearly are with open source, we are able to take those capabilities,
+train on our totally unique signal, and give really great recommendations to users. We have great distribution to
+those users and have become a beloved platform for them. As Julia noted in some of her earlier comments, more
+than 85% of our users come to our mobile app directly. We are not dependent on others for that traffic. Pinterest is a
+destination that is beloved by its users, and I think that has proven to be quite durable as well.
+
+Operator
+
+We have reached the end of the question-and-answer session. I will now turn the call back to Bill Ready for closing
+remarks.
+
+Bill Ready
+Chief Executive Officer
+
+Thanks again to all of you for joining the call and for your questions. We look forward to keeping this dialogue
+going, and we hope you all enjoy the rest of your day.
+
+Operator
+
+This concludes today’s call. Thank you for attending. You may now disconnect.
+
+
+
+
+                                                                                                                    16
+

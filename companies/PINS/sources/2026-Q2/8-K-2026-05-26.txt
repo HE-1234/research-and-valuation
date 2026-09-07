@@ -1,0 +1,135 @@
+pins-20260521
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, D.C. 20549
+
+________________________
+
+FORM 8-K
+
+________________________
+
+CURRENT REPORT
+
+Pursuant to Section 13 or 15(d) of
+
+The Securities Exchange Act of 1934
+
+Date of Report (Date of Earliest Event Reported): May 21, 2026
+
+_________________________
+
+Pinterest, Inc.
+
+(Exact Name of Registrant as Specified in its Charter)
+
+_________________________
+
+Delaware | 001-38872 | 26-3607129
+
+(State or Other Jurisdiction of Incorporation) | (Commission File Number) | (IRS Employer Identification No.)
+
+651 Brannan Street
+
+San Francisco, California 94107
+
+(Address of principal executive offices, including zip code)
+
+(415) 762-7100
+
+(Registrant’s telephone number, including area code)
+
+Not Applicable
+
+(Former name or former address, if changed since last report)
+
+_________________________
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):
+
+☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+
+☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+
+☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of each class | Trading Symbol | Name of each exchange on which registered
+
+Class A Common Stock, $0.00001 par value | PINS | New York Stock Exchange
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 ((§240.12b-2 of this chapter).
+
+Emerging growth company ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+
+Item 5.07 Submission of Matters to a Vote of Security Holders.
+
+On May 21, 2026, Pinterest, Inc. (the “Company”) held its annual meeting of stockholders (the “Annual Meeting”). At the Annual Meeting, the stockholders voted on the following proposals:
+
+1.To elect the four Class I director nominees to the Board of Directors (the “Board”) named in the proxy statement to hold office until the 2029 annual meeting of stockholders and until their successors have been duly elected and qualified, or until their office is otherwise vacated.
+
+2.To approve, on a non-binding advisory basis, the compensation of the Company’s named executive officers.
+
+3.To approve, on a non-binding advisory basis, the frequency of future advisory votes to approve the Company’s named executive officers' compensation.
+
+4.To ratify the audit and risk committee’s selection of Ernst & Young LLP as the Company’s independent registered public accounting firm for the fiscal year 2026.
+
+Holders of the shares of Class A common stock were entitled to one vote per share held as of the close of business on March 27, 2026 (the “Record Date”) and holders of the shares of Class B common stock were entitled to 20 votes per share held as of the Record Date. Holders of the shares of Class A common stock and holders of the shares of Class B common stock voted together as a single class on all matters submitted to a vote of stockholders at the Annual Meeting. The number of votes cast for and against and the number of abstentions and broker non-votes with respect to each matter voted upon are set forth below.
+
+1.Elect Class I nominees for director to hold office until the 2029 annual meeting and until their successors have been duly elected and qualified, or until their office is otherwise vacated
+
+Nominee | For | Against | Abstain | Broker Non-Votes
+
+Chip Bergh | 1,795,684,711 | 152,462,358 | 346,546 | 47,220,520
+
+Gokul Rajaram | 1,906,257,236 | 41,887,444 | 348,935 | 47,220,520
+
+Emily Reuter | 1,945,691,087 | 2,451,265 | 351,263 | 47,220,520
+
+Marc Steinberg | 1,939,563,390 | 8,587,510 | 342,715 | 47,220,520
+
+Based on the votes set forth above, each director nominee was duly elected to serve until the 2029 annual meeting of stockholders and until their successors have been duly elected and qualified, or until their office is otherwise vacated.
+
+2.Approve, on a non-binding advisory basis, the compensation of the Company's named executive officers
+
+For | Against | Abstain | Broker Non-Votes
+
+1,872,585,095 | 75,176,625 | 731,895 | 47,220,520
+
+Based on the votes set forth above, the stockholders approved, on an advisory non-binding basis, the compensation of the Company’s named executive officers.
+
+3.Approve, on a non-binding advisory basis, the frequency of future advisory votes to approve the Company's named executive officers' compensation
+
+One Year | Two Years | Three Years | Abstain
+
+1,940,750,588 | 136,194 | 7,018,838 | 587,995
+
+In accordance with the votes set forth above, in which "one year" received the highest number of votes, the Company has decided to hold future advisory votes to approve the compensation of the Company’s named executive officers every year until the next required vote on the frequency of advisory votes to approve the compensation of the Company’s named executive officers.
+
+4.Ratify the audit and risk committee's selection of Ernst & Young LLP as the company's independent registered public accounting firm for the fiscal year 2026
+
+For | Against | Abstain
+
+1,980,724,813 | 14,669,424 | 319,898
+
+Based on the votes set forth above, the stockholders ratified the appointment of Ernst & Young LLP as the Company’s independent registered public accounting firm for the fiscal year 2026.
+
+SIGNATURE
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+
+PINTEREST, INC.
+
+Date: May 22, 2026 | By: | /s/ Wanji Walcott
+
+Wanji Walcott
+
+Chief Legal and Business Affairs Officer and Corporate Secretary

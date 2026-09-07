@@ -1,0 +1,157 @@
+8-K
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, D.C. 20549
+
+FORM 8-K
+
+CURRENT REPORT
+
+Pursuant to Section 13 or 15(d)
+
+of The Securities Exchange Act of 1934
+
+Date of Report (Date of Earliest Event Reported): March 2, 2026
+
+Pinterest, Inc.
+
+(Exact Name of Registrant as Specified in its Charter)
+
+Delaware | 001-38872 | 26-3607129
+
+(State or Other Jurisdiction of Incorporation) | (Commission File Number) | (IRS Employer Identification No.)
+
+651 Brannan Street
+
+San Francisco, California 94107
+
+(Address of principal executive offices, including zip code)
+
+(415) 762-7100
+
+(Registrant’s telephone number, including area code)
+
+Not Applicable
+
+(Former name or former address, if changed since last report)
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):
+
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of each class | Trading Symbol | Name of each exchange on which registered
+
+Class A Common Stock, $0.00001 par value | PINS | New York Stock Exchange
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+
+Emerging growth company ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+
+Item 1.01 Entry into a Material Definitive Agreement.
+
+Issuance and Sale of 1.75% Convertible Senior Notes due 2031
+
+On March 3, 2026, Pinterest, Inc. (the “Company”) entered into an investment agreement (the “Investment Agreement”) with Elliott Associates, L.P. and Elliott International, L.P. (collectively, “Elliott”), relating to the issuance and sale to Elliott of $1 billion in aggregate principal amount of the Company’s 1.75% Convertible Senior Notes due 2031 (the “Notes”). The transactions contemplated by the Investment Agreement are expected to close on or about March 5, 2026 (the date on which the closing occurs, the “Closing”), subject to customary closing conditions.
+
+Issuance of the Notes
+
+The Notes are expected to be governed by an indenture (the “Indenture”) between the Company and U.S. Bank Trust Company, National Association, as trustee. The Notes will bear interest at a rate of 1.75% per annum. Interest on the Notes will be payable semi-annually in arrears on March 1 and September 1, commencing on September 1, 2026. It is expected that the Notes will mature on March 1, 2031, subject to earlier conversion, redemption or repurchase.
+
+Prior to the close of business on the business day immediately preceding December 1, 2030, the Notes will be convertible only under the following circumstances: (1) from and after the 41st business day of any fiscal quarter until the last business day of such fiscal quarter commencing after the fiscal quarter ending on June 30, 2026 (and only during such fiscal quarter), if the last reported sale price of the Company’s Class A common stock for at least 20 trading days (whether or not consecutive) during a period of 30 consecutive trading days ending on, and including, the last trading day of the immediately preceding fiscal quarter is greater than 150% of the conversion price on each applicable trading day (provided that, if Elliott and its affiliates no longer own a majority of the then-outstanding aggregate principal amount of Notes prior to the beginning of such 30 consecutive trading day period, the Notes will be convertible at any time during such fiscal quarter and the stock price threshold will be 130% of the conversion price); (2) if the Company calls the Notes for optional redemption, at any time until the close of business on the second scheduled trading day prior to the redemption date; (3) upon the occurrence of specified corporate events; or (4) during the 5 business day period immediately after any 10 consecutive trading day period in which the trading price per $1,000 principal amount of Notes, as determined following a request by a holder of Notes in accordance with the Indenture, for each trading day during such period was less than 98% of the product of the last reported sale price of the Company’s Class A common stock and the conversion rate on each such trading day. On or after December 1, 2030, holders may convert all or any portion of their Notes at any time prior to the close of business on the scheduled trading day immediately preceding the maturity date regardless of the foregoing conditions. Upon conversion of any Note, the Company will pay or deliver, as the case may be, cash and shares of the Company’s Class A common stock, if any.
+
+The Notes will be convertible into shares of the Company’s Class A common stock based on an initial conversion rate of 44.0063 shares of Class A common stock per $1,000 principal amount of Notes (which is equal to an initial conversion price of approximately $22.72 per share of the Company’s Class A common stock), in each case subject to customary anti-dilution and other adjustments, including in connection with any make-whole adjustment (as described in the Indenture) as a result of certain extraordinary transactions.
+
+On or after March 5, 2029, the Notes will be redeemable at the option of the Company for cash, in whole or in part, if the last reported sale price of the Company’s Class A common stock has been at least 130% of the conversion price then in effect for at least 20 trading days (whether or not consecutive) during any 30 consecutive trading day period (including the last trading day of such period) ending on, and including, the trading day immediately preceding the date on which the Company provides the redemption notice at a
+
+redemption price of 100% of the principal amount of such Notes, plus accrued and unpaid interest to, but excluding, the redemption date; provided that the Company may not call less than all of the outstanding Notes for optional redemption unless at least $100 million aggregate principal amount of Notes are outstanding and not called for optional redemption as of the date of the related redemption notice.
+
+With certain exceptions, upon a change of control of the Company or the failure of the Company’s Class A common stock to be listed on certain stock exchanges (a “Fundamental Change”), the holders of the Notes may require that the Company repurchase all or part of the principal amount of the Notes at a repurchase price of 100% of the principal amount of the Notes, plus accrued and unpaid interest to, but excluding, the Fundamental Change repurchase date.
+
+The Indenture will include customary “events of default,” which may result in the acceleration of the maturity of the Notes under the Indenture. The Indenture will also include customary covenants for convertible notes of this type.
+
+Transfer Restrictions; Registration Rights
+
+The Investment Agreement contains a customary lock-up restricting Elliott’s ability to transfer the Notes and shares of Class A common stock issued upon conversion for a period ending on the second anniversary of the Closing (or earlier if the Company undergoes a change of control), subject to certain exceptions specified in the Investment Agreement. Subject to customary limitations, the Investment Agreement also provides Elliott with customary registration rights.
+
+Governance Rights; Standstill and Voting Obligations
+
+Pursuant to the Investment Agreement, the Company has agreed that (i) Marc Steinberg, a designee of Elliott, will continue to serve as on the Company’s Board of Directors (the “Board”) through the Company’s 2026 annual meeting of stockholders, (ii) the Company will include Mr. Steinberg in the Company’s slate of nominees at such meeting to stand for election at the 2026 annual meeting as a Class I director with a term expiring at the Company’s 2029 annual meeting of stockholders and (iii) the Company and Elliott will cooperate to select a mutually acceptable successor director in the event Mr. Steinberg ceases to serve as a director during his term. The Company’s obligations under the foregoing sentence will automatically terminate, among other circumstances, if Elliott ceases to beneficially own a net long position of at least 4.3% of the then-outstanding shares of the Company’s Class A common stock.
+
+Pursuant to the Investment Agreement, Elliott has agreed to abide by certain voting commitments and standstill restrictions until the later of (i) 20 days after such time as Mr. Steinberg (or any replacement director) has ceased to serve on the Board and (ii) the two-year anniversary of the Closing.
+
+The foregoing summaries of the Indenture, the Notes and the Investment Agreement do not purport to be complete and are subject to, and qualified in their entirety by, the full text of the Investment Agreement, which is filed as Exhibit 10.1 to this Current Report on Form 8-K and incorporated herein by reference.
+
+Accelerated Share Repurchase
+
+On March 3, 2026, the Company entered into a master confirmation (the “Master Confirmation”) and supplemental confirmation (together with the Master Confirmation, collectively, the “ASR Agreements”), with Goldman Sachs & Co. LLC (“Goldman Sachs”). Under the ASR Agreements, the Company will repurchase an aggregate of $1 billion of the Company’s Class A common stock (such transaction, the “ASR”) as part of a new share repurchase program of $3.5 billion (the “2026 Share Repurchase Program”)
+
+approved by the Board on March 2, 2026. Pursuant to the ASR Agreements, the Company will make a payment of $1 billion to Goldman Sachs on March 5, 2026, and receive on March 5, 2026 the initial delivery of approximately 80% of the total shares that are expected to be repurchased under the ASR, measured based on the closing price of the Company’s Class A common stock on March 4, 2026. The final number of shares to be repurchased will be based on the average of the daily volume-weighted average prices of the Company’s Class A common stock during the term of the ASR Agreements, less a discount and subject to adjustments pursuant to the terms and conditions of the ASR Agreements. Upon final settlement of the ASR, under certain circumstances, Goldman Sachs may be required to deliver additional shares of Class A common stock, or the Company may be required to deliver shares of Class A common stock or to make a cash payment, at its election, to Goldman Sachs. The final settlement of the ASR is scheduled to occur no later than May 1, 2026 and may be accelerated at the option of Goldman Sachs.
+
+Each of the ASR Agreements contains customary terms for these types of transactions, including, among others, the mechanisms to determine the number of shares or the amount of cash that will be delivered at settlement, the required timing of delivery upon settlement, the specific circumstances under which adjustments may be made to the transactions, the specific circumstances under which the transactions may be cancelled prior to the scheduled maturity and various acknowledgments, representations and warranties made by the Company and Goldman Sachs to one another.
+
+The foregoing summary of the ASR Agreements does not purport to be complete and is subject to, and qualified in its entirety by, the full text of the form of the ASR Agreements, which is filed as Exhibit 10.2 to this Current Report on Form 8-K and incorporated herein by reference.
+
+Item 2.03 Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of the Registrant.
+
+The information related to the issuance of the Notes contained in Item 1.01 of this Current Report on Form 8-K is incorporated herein by reference.
+
+Item 3.02 Unregistered Sales of Equity Securities.
+
+On March 3, 2026, the Company entered into the Investment Agreement, pursuant to which it agreed to sell $1 billion in aggregate principal amount of the Notes to Elliott. The Company intends to offer and sell the Notes to Elliott in reliance on the exemption from registration provided by Section 4(a)(2) of the Securities Act of 1933, as amended. The Company will rely on this exemption from registration based in part on representations made by Elliott in the Investment Agreement.
+
+The information related to the issuance of the Notes contained in Item 1.01 of this Current Report on Form 8-K is incorporated herein by reference.
+
+Item 8.01 Other Events.
+
+On March 2, 2026, the Board authorized the 2026 Share Repurchase Program and canceled the November 2024 stock repurchase program under which the Company completed $473 million of share repurchases year to date. Under the 2026 Share Repurchase Program, the Company is authorized to repurchase, from time to time, shares of its Class A common stock through open market purchases, block transactions, privately negotiated purchase transactions or in such other manner as deemed advisable by management. In addition, the Company may establish one or more trading plans pursuant to Rule 10b5-1 under the Securities Exchange Act of 1934, as amended, or enter into arrangements with brokers or other third parties for accelerated purchases of its Class A common stock. After giving effect to the ASR, the aggregate remaining authorization under the 2026 Share Repurchase Program is approximately $2.5 billion. The 2026
+
+Share Repurchase Program does not obligate the Company to repurchase any specific number of shares and may be modified, suspended or discontinued at any time. The timing, manner, price and amount of any repurchases will be determined by the Company in its discretion and depend on a variety of factors, including legal requirements, price and economic and market conditions.
+
+On March 3, 2026, the Company issued a press release announcing the entry into the Investment Agreement and the ASR Agreements and the share repurchase authorization. A copy of the press release is filed as Exhibit 99.1 to this Current Report on Form 8-K and is incorporated herein by reference.
+
+Item 9.01 Financial Statements and Exhibits.
+
+(d) Exhibits
+
+Exhibit Number | Description
+
+10.1 | Investment Agreement, dated March 3, 2026.*
+
+10.2 | Form of ASR Agreements.
+
+99.1 | Press Release issued by Pinterest, Inc., dated March 3, 2026.
+
+104 | Cover Page Interactive Data File (embedded within the Inline XBRL document).
+
+* | Certain schedules have been omitted in reliance on Instruction 4 of Item 1.01 of Form 8-K and Item 601(a)(5) of Regulation S-K. The Company agrees to furnish supplementally a copy of any omitted schedule to the SEC upon request; provided, however, that the Company may request confidential treatment pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended, for any schedules so furnished.
+
+Note Regarding Forward-Looking Statements
+
+This report contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended, about the Company and its industry that involve substantial risks and uncertainties. Forward-looking statements can be identified by the fact that they do not relate strictly to historical or current facts and are often characterized by the use of words such as “believes,” “estimates,” “expects,” “projects,” “may,” “will,” “can,” “intends,” “plans,” “targets,” “forecasts,” “anticipates,” “looking ahead,” “long-term” and similar expressions, or by discussions of strategy, plans or intentions. Such forward-looking statements involve known and unknown risks, uncertainties, assumptions and other important factors that could cause the Company’s actual results, performance or achievements, or industry results, to differ materially from historical results or any future results, performance or achievements expressed, suggested or implied by such forward-looking statements. These risks and uncertainties include, but are not limited to, statements about: general economic uncertainty in global markets and a worsening of global economic conditions or low levels of economic growth, including inflation, stress in the banking industry, foreign exchange fluctuations and supply-chain issues; the effect of general economic and political conditions; the Company’s financial performance, including revenue, cost and expenses and cash flows; the Company’s ability to attract, retain and recover users and maintain and grow their level of engagement; the Company’s ability to provide content that is useful and relevant to users’ personal taste and interests; the Company’s ability to develop successful new products or improve existing ones; the Company’s ability to maintain and enhance the Company’s brand and reputation; potential harm caused by compromises in security, including the Company’s cybersecurity protections and resources and costs required to prevent, detect and remediate potential security breaches; potential harm caused by changes in online application stores or internet search engines’ methodologies, particularly search engine optimization methodologies and policies; discontinuation, disruptions or outages in third-party single sign-on access; the Company’s ability to
+
+compete effectively in the Company’s industry; the Company’s ability to scale the Company’s business, including the Company’s monetization efforts; the Company’s ability to attract and retain advertisers and scale the Company’s revenue model; the Company’s ability to attract and retain creators and publishers that create relevant and engaging content; the Company’s ability to develop effective products and tools for advertisers, including measurement tools; the Company’s ability to expand and monetize the Company’s platform internationally; the Company’s ability to effectively manage the growth of the Company’s business; the Company’s ability to continue to use and develop artificial intelligence (“AI”) as well as managing the challenges and risks posed by AI; the Company’s ability to successfully manage the Company’s flexible work model with a more distributed workforce; the Company’s ability to sustain profitability; decisions that reduce short-term revenue or profitability or do not produce the long-term benefits the Company expects; fluctuations in the Company’s operating results; the Company’s ability to raise additional capital on favorable terms or at all; the Company’s ability to realize anticipated benefits from mergers and acquisitions, joint ventures, strategic partnerships and other investments; the Company’s ability to protect the Company’s intellectual property; the Company’s ability to receive, process, store, use and share data, and compliance with laws and regulations related to data privacy and content; current or potential litigation and regulatory actions involving the Company; the Company’s ability to comply with modified or new laws and regulations applying to the Company’s business, and potential harm to the Company’s business as a result of those laws and regulations; real or perceived inaccuracies in metrics related to the Company’s business; disruption of, degradation in or interference with the Company’s use of Amazon Web Services and the Company’s infrastructure; the Company’s ability to implement the Company’s restructuring plan effectively; and the Company’s ability to attract and retain personnel. These and other potential risks and uncertainties that could cause actual results to differ from the results predicted are more fully detailed in the Company’s Annual Report on Form 10-K for the fiscal year ended December 31, 2025, which is available on the Company’s investor relations website at investor.pinterestinc.com and on the SEC website at www.sec.gov. All information provided in this report is as of the date of this report. Undue reliance should not be placed on the forward-looking statements in this report, which are based on information available to the Company on the date of this report. The Company undertakes no duty to update this information unless required by law.
+
+SIGNATURE
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+
+PINTEREST, INC.
+
+Date: March 3, 2026 | By: | /s/ Julia Brau Donnelly
+
+Julia Brau Donnelly
+
+Chief Financial Officer (Principal Financial Officer)

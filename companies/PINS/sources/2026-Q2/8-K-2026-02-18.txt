@@ -1,0 +1,99 @@
+pins-20260217
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, D.C. 20549
+
+________________________
+
+FORM 8-K
+
+________________________
+
+CURRENT REPORT
+
+Pursuant to Section 13 or 15(d) of
+
+The Securities Exchange Act of 1934
+
+Date of Report (Date of Earliest Event Reported): February 17, 2026
+
+_________________________
+
+Pinterest, Inc.
+
+(Exact Name of Registrant as Specified in its Charter)
+
+_________________________
+
+Delaware | 001-38872 | 26-3607129
+
+(State or Other Jurisdiction of Incorporation) | (Commission File Number) | (IRS Employer Identification No.)
+
+651 Brannan Street
+
+San Francisco, California 94107
+
+(Address of principal executive offices, including zip code)
+
+(415) 762-7100
+
+(Registrant’s telephone number, including area code)
+
+Not Applicable
+
+(Former name or former address, if changed since last report)
+
+_________________________
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):
+
+☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+
+☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+
+☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of each class | Trading Symbol | Name of each exchange on which registered
+
+Class A Common Stock, $0.00001 par value | PINS | New York Stock Exchange
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 ((§240.12b-2 of this chapter).
+
+Emerging growth company ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+
+Item 7.01. Regulation FD Disclosure
+
+On February 17, 2026, Pinterest, Inc. (the “Company”), closed its previously announced acquisition of tvScientific, Inc. ("tvScientific").
+
+As a result of the closing of the acquisition, the Company is updating its first quarter 2026 guidance to $958 million to $978 million in revenue and $163 million to $183 million in Adjusted EBITDA to include, in each case, the expected partial-quarter contribution of tvScientific to the Company's consolidated financials.
+
+Note Regarding Non-GAAP to GAAP Reconciliation for Adjusted EBITDA
+
+The Company has not provided the forward-looking GAAP equivalent for forward-looking Adjusted EBITDA or a GAAP reconciliation as a result of the uncertainty regarding, and the potential variability of, reconciling items such as share-based compensation expense and income taxes. Accordingly, a reconciliation of this non-GAAP guidance metric to its corresponding GAAP equivalent is not available without unreasonable effort. However, it is important to note that material changes to reconciling items could have a significant effect on future GAAP results and, as such, the Company also believes that any reconciliations provided would imply a degree of precision that could be confusing or misleading to investors.
+
+Note Regarding Forward-Looking Statements
+
+This report contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Exchange Act of 1934, as amended, about the Company and its industry that involve substantial risks and uncertainties. Forward-looking statements can be identified by the fact that they do not relate strictly to historical or current facts and include the Company's expectations for its first quarter 2026 financial results. Such forward-looking statements involve known and unknown risks, uncertainties, assumptions and other important factors that could cause the Company's actual results or performance to differ materially from historical results or any future results or performance expressed, suggested or implied by such forward-looking statements. These risks and uncertainties include, but are not limited to, statements about: general economic uncertainty in global markets and a worsening of global economic conditions or low levels of economic growth, including inflation, stress in the banking industry, foreign exchange fluctuations and supply-chain issues; the effect of general economic and political conditions; the Company's financial performance, including revenue, cost and expenses and cash flows; the Company's ability to attract, retain and recover users and maintain and grow their level of engagement; the Company's ability to provide content that is useful and relevant to users' personal taste and interests; the Company's ability to develop successful new products or improve existing ones; the Company's ability to maintain and enhance the Company's brand and reputation; potential harm caused by compromises in security, including the Company's cybersecurity protections and resources and costs required to prevent, detect and remediate potential security breaches; potential harm caused by changes in online application stores or internet search engines' methodologies, particularly search engine optimization methodologies and policies; discontinuation, disruptions or outages in third-party single sign-on access; the Company's ability to compete effectively in the Company's industry; the Company's ability to scale the Company's business, including the Company's monetization efforts; the Company's ability to attract and retain advertisers and scale the Company's revenue model; the Company's ability to attract and retain creators and publishers that create relevant and engaging content; the Company's ability to develop effective products and tools for advertisers, including measurement tools; the Company's ability to expand and monetize the Company's platform internationally; the Company's ability to effectively manage the growth of the Company's business; the Company's ability to continue to use and develop artificial intelligence ("AI") as well as managing the challenges and risks posed by AI; the Company's ability to successfully manage the Company's flexible work model with a more distributed workforce; the Company's ability to sustain profitability; decisions that reduce short-term revenue or profitability or do not produce the long-term benefits the Company expects; fluctuations in the Company's operating results; the Company's ability to raise additional capital on favorable terms or at all; the Company's ability to realize anticipated benefits from mergers and acquisitions, joint ventures, strategic partnerships and other investments; the Company's ability to protect the Company's intellectual property; the Company's ability to receive, process, store, use and share data, and compliance with laws and regulations related to data privacy and content; current or potential litigation and regulatory actions involving the Company; the Company's ability to comply with modified or new laws and regulations applying to the Company's business, and potential harm to the Company's business as a result of those laws and regulations; real or perceived inaccuracies in metrics related to the Company's business; disruption of, degradation in or interference with the Company's use of Amazon Web Services and the Company's infrastructure; the Company's ability to implement the Company's restructuring plan effectively; the Company's ability to attract and retain personnel; and the Company's ability to realize the benefits of its combination with tvScientific. These and other
+
+potential risks and uncertainties that could cause actual results to differ from the results predicted are more fully detailed in the Company's Annual Report on Form 10-K for the fiscal year ended December 31, 2025, which is available on the Company's investor relations website at investor.pinterestinc.com and on the SEC website at www.sec.gov. All information provided in this release and in the earnings materials is as of the date of this report. Undue reliance should not be placed on the forward-looking statements in this report, which are based on information available to the Company on the date of this report. The Company undertakes no duty to update this information unless required by law.
+
+SIGNATURE
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, as amended, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+
+PINTEREST, INC.
+
+Date: February 18, 2026 | By: | /s/ Wanji Walcott
+
+Wanji Walcott
+
+Chief Legal and Business Affairs Officer and Corporate Secretary

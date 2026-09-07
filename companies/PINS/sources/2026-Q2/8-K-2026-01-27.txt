@@ -1,0 +1,93 @@
+pins-20260122
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, D.C. 20549
+
+________________________
+
+FORM 8-K
+
+________________________
+
+CURRENT REPORT
+
+Pursuant to Section 13 or 15(d) of
+
+The Securities Exchange Act of 1934
+
+Date of Report (Date of Earliest Event Reported): January 22, 2026
+
+_________________________
+
+Pinterest, Inc.
+
+(Exact Name of Registrant as Specified in its Charter)
+
+_________________________
+
+Delaware | 001-38872 | 26-3607129
+
+(State or Other Jurisdiction of Incorporation) | (Commission File Number) | (IRS Employer Identification No.)
+
+651 Brannan Street
+
+San Francisco, California 94107
+
+(Address of principal executive offices, including zip code)
+
+(415) 762-7100
+
+(Registrant’s telephone number, including area code)
+
+Not Applicable
+
+(Former name or former address, if changed since last report)
+
+_________________________
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):
+
+☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+
+☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+
+☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of each class | Trading Symbol | Name of each exchange on which registered
+
+Class A Common Stock, $0.00001 par value | PINS | New York Stock Exchange
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 ((§240.12b-2 of this chapter).
+
+Emerging growth company ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+
+Item 2.05. Costs Associated with Exit or Disposal Activities.
+
+On January 26, 2026, the Company announced the board-approved global restructuring plan (the “Plan”) that includes a reduction in force that is expected to affect less than 15% of the Company’s workforce as well as office space reductions. The Company anticipates incurring total pre-tax restructuring charges of approximately $35 million to $45 million, which are expected to be primarily cash-related expenditures. The Company intends to exclude the restructuring charges from its non-GAAP financial measures, including Adjusted EBITDA.
+
+The Company is taking these actions to support its transformation initiatives, including but not limited to (i) reallocating resources to AI-focused roles and teams that drive AI adoption and execution, (ii) prioritizing AI‑powered products and capabilities, and (iii) accelerating the transformation of its sales and go-to-market approach. Although the Company is reducing its overall staffing levels with these actions in the near term, the Company plans to reinvest in key development areas and strategic opportunities. The Company expects to complete the Plan by the end of its third quarter ending September 30, 2026, subject to local law and consultation requirements.
+
+Note Regarding Forward-Looking Statements
+
+This report contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended and Section 21E of the Exchange Act of 1934, as amended, about the Company that involve substantial risks and uncertainties, including, among other things, statements about the Plan and the related charges to be incurred, as well as the Company’s strategy to support its transformation initiatives and reinvestment plans. Words such as “anticipates,” “expects,” “intends,” “plans,” and similar expressions are intended to identify forward-looking statements. These forward-looking statements are only predictions and may differ materially from actual results or outcomes due to a variety of factors including: the risk that the costs, charges and impacts to cash flows in connection with the Plan may be greater or less than anticipated; the risk that the Plan may adversely affect the Company’s internal programs and the Company’s ability to recruit and retain skilled and motivated personnel, and may be distracting to employees and management; the risk that the Plan may negatively impact the Company’s business operations and reputation with or ability to serve customers; the risk that the Company may not be able to exit or reduce office space as anticipated; and the risk that the Plan may not generate the intended benefits to the extent or as quickly as anticipated. These and other potential risks and uncertainties that could cause actual results or outcomes to differ from those predicted are more fully detailed in the Company’s Annual Report on Form 10-K for the year ended December 31, 2024 and the Company’s subsequent quarterly and current reports filed with the SEC, which are available on the Company’s investor relations website at investor.pinterestinc.com and on the Securities Exchange Commission website at www.sec.gov. All information provided in this report is as of the date of this report. Undue reliance should not be placed on the forward-looking statements in this report, which are based on information available to the Company on the date hereof. The Company undertakes no duty or obligation to update this information unless required by law.
+
+SIGNATURE
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, as amended, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+
+PINTEREST, INC.
+
+Date: January 27, 2026 | By: | /s/ Wanji Walcott
+
+Wanji Walcott
+
+Chief Legal and Business Affairs Officer and Corporate Secretary
