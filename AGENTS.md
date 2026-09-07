@@ -217,7 +217,7 @@ Flags stay until the owner resolves them by editing the section and deleting the
 
 | Source | Where | Notes |
 |---|---|---|
-| 10-K, 10-Q, 8-K, proxy (DEF 14A) | SEC EDGAR | `https://data.sec.gov/submissions/CIK<10 digits>.json` lists filings. Documents under `https://www.sec.gov/Archives/edgar/data/<CIK>/<accession-no-dashes>/<filename>`. **SEC requires a User-Agent header** with a contact, e.g. `-A "company-research-skill contact: <owner email>"`. Keep requests under 10/sec. |
+| 10-K, 10-Q, 8-K, proxy (DEF 14A) | SEC EDGAR | `https://data.sec.gov/submissions/CIK<10 digits>.json` lists filings. Documents under `https://www.sec.gov/Archives/edgar/data/<CIK>/<accession-no-dashes>/<filename>`. **SEC requires a User-Agent header** shaped like `AppName email@domain.tld`; SEC rejects anything else as an "Undeclared Automated Tool". Use `-A "company-research-skill owner@example.com"` (owner: replace with your real email). Keep requests under 10/sec. |
 | Earnings call transcript | see tiers below | |
 | Earnings press release | company IR page or 8-K exhibit 99.1 | The 8-K exhibit is the most reliable path. |
 | Earnings slides / investor deck | company IR page | |
@@ -317,3 +317,5 @@ Given a ticker with an existing report and a new quarter:
 Append here whenever the owner gives feedback that changes how reports should be written. Date, what was wrong, what rule changed.
 
 - 2026-09-07 — Initial spec written from the design interview. No feedback yet.
+- 2026-09-07 — (pipeline) SEC rejected the User-Agent `company-research-skill contact: owner@localhost` on www.sec.gov/Archives; an email-shaped UA works. §12.1 updated.
+- 2026-09-07 — (pipeline) Marvell stopped reporting five end markets in Q4 FY2026; now only "data center" and "communications and other". Five-year end-market tables must note the definition change rather than force old categories.
