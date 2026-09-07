@@ -1,0 +1,251 @@
+           Q4 FY26
+           Conference Call
+           August 11, 2026
+
+
+
+
+© 2026 Lumentum Holdings Inc. | 1
+Forward Looking Statements and
+Financial Presentation
+
+This presentation and our earnings call contain forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934. These include
+statements regarding: our revenue, profitability, revenue growth in aggregate and in certain product categories, momentum and ramp across product lines, growth catalysts and drivers, the potential for our products,
+demand for our products and shipment growth and timing, opportunities and growth prospects in our product markets and for our products, the transition to optical links in data center architecture, customer CPO scale-up
+deployments, adoption of CPO, NPO momentum, 1.6T transceiver and other technology adoption, growth with our primary customer in connection with expanding 3D sensing applications, product ramps and their timing
+and magnitude, total addressable market, product offerings and mix, product type growth, market share, product strategy, product features, manufacturing ramp, production capabilities, capacity and capacity expansion,
+investments to scale our operations, supply constraints, long-term supply agreements, R&D investment, gross and operating margins and margin expansion, product margins, contribution and profitability, our target model
+for operating margin guidance, operating leverage, earnings power, conversion and equitization of convertible notes, and our guidance with respect to future net revenue, non-GAAP diluted earnings per share, and non-
+GAAP operating margins, and related assumptions. These forward-looking statements involve risks and uncertainties that could cause actual results to differ materially from those projected. Among the factors that could
+cause actual results to differ from those contemplated are: (a) uncertainty and volatility in the global markets, including uncertainty and volatility in the macroeconomic environment, volatility and uncertainty with respect to
+economic growth, inflationary pressures, changes in the political or economic environment, such as geopolitical conflicts, war, international trade and restrictions (including tariffs, duties and export controls to be
+implemented by the U.S. and other countries), including for certain rare earth minerals, and the effect of such market disruptions on demand for our products, technology spending by our customers, our costs and expenses
+and our ability to obtain components for our products; (b) quarter-over-quarter product mix fluctuations, which can materially impact profitability measures due to the broad gross margin ranges across our portfolio; (c)
+decline of average selling prices across our businesses or increase in costs, either of which will also decrease our margins; (d) effects of seasonality; (e) our ability to increase our manufacturing capacity and our ability and
+the ability of our suppliers and contract manufacturers to meet production, quality, and delivery requirements for our forecasted demand; (f) changes in customer demand, including due to changes in inventory practices and
+end-customer demand, and potential order cancellations, reductions or delays and their effects; (g) our ability to attract and retain new customers, particularly in the cloud photonics and imaging and sensing markets; (h)
+the risk that our markets will not grow or develop as expected or that our strategies and ability to compete in those markets are not successful, (i) the risk that our financing or operating strategies will not be successful; (j)
+risks related to our restructuring initiatives and changes to our operations, (k) failure to successfully integrate acquisitions into our business or that we will not achieve the expected benefits; and (l) risks related to servicing
+our current and future debt and compliance with the covenants under our revolving credit facility and term loans. A detailed discussion of these and other risks and uncertainties that could cause actual results and events to
+differ materially from such forward-looking statements is included in the Company’s Quarterly Report on Form 10-Q for the quarter ended March 28, 2026 filed with the Securities and Exchange Commission (the “SEC”),
+and in the Company’s other filings with the SEC, including the Annual Report on Form 10-K for the fiscal year ended June 27, 2026, which will be filed with the SEC, available at www.sec.gov, under the caption “Risk
+Factors” and elsewhere. The forward-looking statements contained in this presentation are made as of the date hereof and the Company assumes no obligation to update such statements, except as required by applicable
+law.
+
+Unless otherwise stated, all financial results and projections are on a non-GAAP basis. Our GAAP results, details about our non-GAAP financial measures, and a reconciliation between GAAP and non-GAAP results can be
+found in our fourth quarter of fiscal year 2026 earnings press release which is available on our web site, www.lumentum.com, under the Investors section.
+
+We have not provided reconciliations from GAAP to non-GAAP measures for our outlook. A large portion of non-GAAP adjustments, such as stock-based compensation and related payroll expenses, acquisition related
+costs, integration related costs, amortization of acquired intangibles, restructuring and related charges, intangible assets write-off, gain on sale of facility, foreign exchange gains and losses, net, escrow settlement and
+related charges, loss on debt extinguishment, inducement expenses, non-cash interest expenses, non-GAAP income tax reconciling adjustments, and other charges or income related to non-recurring activities, are by their
+nature highly volatile and we have low visibility as to the range that may be incurred in the future.
+
+
+© 2026 Lumentum Holdings Inc. | 2
+Q4 FY26 Key Points
+
+Revenue & Performance
+   ▪    Cloud and AI business drove Q4 total company revenue up >100% YoY and expanded operating margin >2,150 bps YoY
+   ▪    Q4 revenue landed at the high end of the guided range
+   ▪    8th consecutive quarter of top-line growth and 3rd consecutive quarter of >20% QoQ growth
+   ▪    Non-GAAP operating margin and EPS above high end of guided ranges, fueled by product momentum and strong operating leverage
+
+Components
+   ▪    Revenue up 22% QoQ and 103% YoY, driven by exceptional strength in scale-out and scale-across components
+   ▪    Set new company records for 100G and 200G EML shipments; 200G EMLs comprised >25% of total EML revenue
+   ▪    Expanded 200G lane-speed CW laser sales across multiple transceiver customers
+   ▪    Grew ultra-high-power laser shipments for CPO solutions; on track to deliver meaningful revenue exiting CY 2026
+   ▪    Achieved 10th consecutive quarter of sequential growth in narrow linewidth lasers for DCI/scale-across installations (up >130% YoY)
+   ▪    Pump lasers grew 80% YoY with multiple long-term supply agreements now in place for scale-across deployments
+
+Systems
+   ▪ Revenue up 30% QoQ and 123% YoY, led by record cloud transceiver shipments
+   ▪ Began initial shipments of 1.6T transceivers, with a portion utilizing internal CW lasers
+   ▪ OCS ramp remains on track, backed by strengthening demand across our multi-year, multi-billion-dollar purchase agreement
+© 2026 Lumentum Holdings Inc. | 3
+Revenue by Product Type
+
+
+                                       Q4 FY26            Q3 FY26           Q4 FY25
+ $ in millions
+
+
+ Components                          $649.4    64.5%    $533.3   66.0%    $320.4   66.7%
+
+
+ Systems                              356.9    35.5%     275.1   34.0%     160.3   33.3%
+
+
+ Total                              $1,006.3   100.0%   $808.4   100.0%   $480.7   100.0%
+
+
+
+
+© 2026 Lumentum Holdings Inc. | 4
+Q4 FY26 Results (Non-GAAP) (1)
+
+                                                                     Q4 FY26                                Q3 FY26                                 Q4 FY25
+ $ in millions, except for EPS
+
+ Revenue                                                      $1,006.3                                  $808.4                                  $480.7
+
+ Gross Margin                                                      506.9        50.4%                     386.9         47.9%                    181.6         37.8%
+
+ Operating Expenses                                                138.1        13.7%                     126.2         15.6%                    109.3         22.7%
+
+ Operating Income                                                  368.8        36.6%                     260.7         32.2%                      72.3        15.0%
+
+ Diluted EPS                                                       $3.23                                  $2.37                                  $0.88
+
+ Diluted Shares-M                                                  101.1                                    95.2                                   72.0
+(1) GAAP to Non-GAAP reconciliation in Appendix
+
+    Q4 FY26 GAAP: Gross Margin $477.3 (47.4%), Operating Expenses $198.0 (19.7%), Operating Income $279.3 (27.8%), Diluted Net Loss Per Share $84.65 and Diluted Shares 84.6M
+    Q3 FY26 GAAP: Gross Margin $357.0 (44.2%), Operating Expenses $182.5 (22.6%), Operating Income $174.5 (21.6%), Diluted Net Income Per Share $1.50 and Diluted Shares 96.2M
+    Q4 FY25 GAAP: Gross Margin $159.9 (33.3%), Operating Expenses $168.3 (35.0%), Operating Loss $8.4 (1.7%), Diluted Net Income Per Share $2.96 and Diluted Shares 72.0M
+
+© 2026 Lumentum Holdings Inc. | 5
+Balance Sheet
+
+                               Selected Items                                          Q4 FY26    Q3 FY26
+      $ in millions
+
+         Cash and Short-Term Investments                                               $2,738.4   $3,172.3
+
+         Working Capital (1)                                                            539.9      596.7
+
+         Property, Plant & Equipment, Net                                              1,159.1     964.3
+
+      Total Assets                                                                     $7,307.5   $7,027.9
+
+      Total Liabilities                                                                $2,663.6   $4,054.5
+
+      Shareholder’s Equity                                                             $4,643.9   $2,973.4
+
+
+(1)    Working capital excluding cash and short-term investments and short-term debt
+
+
+ © 2026 Lumentum Holdings Inc. | 6
+Q1 FY27 Guidance (Non-GAAP)
+Guidance is based on our expectations as of today and will not be updated or confirmed
+
+
+
+                                                                                         Q4 FY26                                  Q1 FY27
+$ in millions, except for EPS
+                                                                                          Actual                                 Guidance(1)
+
+Revenue                                                                                  $1,006.3                             $1,225 – $1,275
+
+Operating Margin                                                                           36.6%                               39.5% – 40.5%
+
+Diluted EPS                                                                                $3.23                                $4.05 – $4.35
+
+Diluted Shares – M                                                                         101.1                                     102.0
+
+
+
+ (1) Guidance assumes effective tax rate of 16.5%
+ We have not provided reconciliations from GAAP to non-GAAP financial measures or the equivalent GAAP measure for non-GAAP financial measures in
+ our outlook, as they cannot be provided without unreasonable effort.
+© 2026 Lumentum Holdings Inc. | 7
+           Appendix
+
+
+
+© 2026 Lumentum Holdings Inc. | 8
+Reconciliation of GAAP to Non-GAAP
+Financial Measures
+
+
+
+
+© 2026 Lumentum Holdings Inc. | 9
+Reconciliation of GAAP to Non-GAAP
+Financial Measures
+
+
+
+
+© 2026 Lumentum Holdings Inc. | 10
+Reconciliation of GAAP to Non-GAAP
+Financial Measures
+
+
+
+
+© 2026 Lumentum Holdings Inc. | 11
+Reconciliation of GAAP to Non-GAAP
+Financial Measures
+
+
+
+
+© 2026 Lumentum Holdings Inc. | 12
+           Thank you
+
+
+
+© 2026 Lumentum Holdings Inc. | 13
+=== OCR APPENDIX ===
+Pages 9-12 of the deck ("Reconciliation of GAAP to Non-GAAP Financial Measures") are images with no extractable text. The block below is tesseract OCR (pdftoppm -r 200, tesseract --psm 6) of those four pages, NOT pdftotext output, filtered to table rows. Every figure was cross-checked against the reconciliation tables in press-release.txt, which is the authoritative source for these numbers. Known OCR artifacts: "$" rendered as "§"; decimal points dropped in "477.3" (p.9, read "4773"), "182.5" (p.9, read "1825") and "2.5" (p.10, read "25"); "—" sometimes rendered as "_", and the p.12 row label "Shares used in per share calculation - diluted on non-GAAP basis" wraps onto two lines.
+
+--- OCR of slide page 9 ---
+Q4 FY26 Q3 FY26 Q4 FY25
+Gross profit on GAAP basis $ 4773 § 357.0 § 159.9
+Stock-based compensation and related payroll taxes 10.5 10.5 8.8
+Integration related costs — 0.2 0.6
+Amortization of acquired intangibles 19.2 19.3 19.3
+Other charges, net (0.1) (0.1) (7.0)
+Gross profit on non-GAAP basis $ 506.9 §$ 386.9 § 181.6
+Operating Expenses on GAAP basis $ 198.0 § 1825 $ 168.3
+Stock-based compensation and related payroll taxes (39.6) (36.3) (31.2)
+Acquisition related costs, net — (0.4) (0.7)
+Integration related costs (0.5) (1.2) (0.7)
+Amortization of acquired intangibles (14.3) (14.5) (15.3)
+Intangible assets write-off (2.5) — (0.1)
+Restructuring and related charges (2.4) (1.1) (5.2)
+Other charges, net (0.6) (2.8) (5.8)
+Operating Expenses on non-GAAP basis $ 138.1 $ 126.2 §$ 109.3
+
+--- OCR of slide page 10 ---
+Q4 FY26 Q3 FY26 Q4 FY25
+Income (loss) from operations on GAAP basis $ 279.3 $ 174.5 $ (8.4)
+Stock-based compensation and related payroll taxes 50.1 46.8 40.0
+Acquisition related costs, net — 0.4 0.7
+Integration related costs 0.5 1.4 1.3
+Amortization of acquired intangibles 33.5 33.8 34.6
+Restructuring and related charges 2.4 1.1 5.2
+Intangible assets write-off 25 — 0.1
+Other charges, net 0.5 2.7 (1.2)
+Income from operations on non-GAAP basis $ 368.8 §$ 260.7 §$ 72.3
+Operating margin on non-GAAP basis 36.6 % 32.2 % 15.0 %
+
+--- OCR of slide page 11 ---
+Q4 FY26 Q3 FY26 Q4 FY25
+Net (loss) income on GAAP basis $_ (7,161.7) _ $ 144.2 $ 213.3
+Net (loss) income per share on GAAP basis $ (84.65) _ $ 1.50 § 2.96
+Net (loss) income on GAAP basis $ (7,161.7) $ 144.2 $ 213.3
+Stock-based compensation and related payroll taxes 50.1 46.8 40.0
+Acquisition related costs _ 0.4 0.7
+Integration related costs 0.5 1.4 1.3
+Amortization of acquired intangibles 33.5 33.8 34.6
+Restructuring and related charges 2.4 1.1 5.2
+Intangible assets write-off 2.5 — 0.1
+Foreign exchange losses (gains), net 2.2 (0.8) 5.8
+Loss on debt extinguishment 7,756.6 — —
+Non-cash interest expense 0.8 1.1 0.7
+Other charges (income), net 0.5 2.7 (1.2)
+Non-GAAP income tax reconciling adjustments (361.1) (5.0) (237.2)
+Net income on non-GAAP basis $ 326.3. § 225.7 §$ 63.3
+Net income per share on non-GAAP basis $ 3.23. §$ 2.37 = § 0.88
+
+--- OCR of slide page 12 ---
+Q4 FY26 Q3 FY26 Q4 FY25
+Shares used in per share calculation - diluted on GAAP basis 84.6 96.2 72.0
+Effect of dilutive securities from stock-based benefit plans 3.1 — —
+Shares issuable assuming conversion of the convertible notes 14.0 _ _
+Effect of capped call options (0.6) (1.0) —
+Shares used in per share calculation - diluted on non-GAAP
+basis 101.1 95.2 72.0
