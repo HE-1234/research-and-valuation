@@ -42,12 +42,12 @@ This does not mean baby talk or a pile of analogies. It means the core ideas req
 **Rules, in priority order:**
 
 1. **Never invent a number.** If a source does not give it, write "not disclosed" and say so. If you infer something, label it as an inference ("this suggests", "our inference:"). No estimates presented as facts.
-2. **Every factual sentence gets a source tag** in square brackets at the end: `[10-K FY2025, Item 7]`, `[Q1 2026 call]`, `[Q1 2026 slides, p.4]`. Each file ends with a **Sources** list mapping tags to the cached file in `sources/`.
+2. **Every factual sentence gets a source tag** in square brackets at the end: `[10-K FY2025, Item 7]`, `[Q1 2026 call]`, `[Q1 2026 slides, p.4]`. Each file ends with a **Sources** list mapping tags to the cached file in `sources/`. If a transcript PDF has no printed page numbers, page tags refer to PDF pages and the Sources list must say so. For third-party machine transcripts, take numbers from the press release or slides and quote the transcript only for wording.
 3. **Jargon:** avoid unless the term is genuinely important to understanding the business. If a term can be replaced by a plain phrase, replace it. If a term's meaning is inferable from its name (e.g., "data center", "cloud storage"), use it without explanation.
 4. **Glossary:** each `business.md` ends with a short **Glossary** containing only the very important terms that cannot be avoided (examples: TPU, CPO, SRAM, ASIC). One sentence each: what it is and what it is used for. Nothing else goes in the glossary.
 5. **Numbers live in small tables, meaning lives in prose.** Never write a paragraph that is mostly numbers. Tables cover five fiscal years where history is relevant.
 6. **Quote management verbatim** where the exact wording matters (guidance, commitments, vision statements). Paraphrase everywhere else.
-7. **Length targets:** `business.md` 2,000–3,000 words. `outlook.md` 800–1,200 words. Over the target is a sign of padding, not thoroughness.
+7. **Length targets:** `business.md` 2,000–3,000 words. `outlook.md` 800–1,200 words. Over the target is a sign of padding, not thoroughness. **Counting method:** prose words only, excluding tables, headings, the glossary, the Sources list, and the bracketed source tags. Writers and reviewers must both use this definition. Aim for the lower half of the range on a first draft; first drafts in the pilot ran 30–40% over.
 8. **Language:** English.
 
 ## 4. File layout
@@ -154,6 +154,7 @@ _Transcript source tier: <company-published | 8-K exhibit | third-party (name) |
 - The owner reviews and edits them. After that they are **locked**.
 - The refresh skill must use exactly the locked set in `outlook.md` §1 so quarters are comparable.
 - If the refresh skill believes an indicator should be added or replaced, it writes a **flag** (see §11) and continues using the locked set.
+- Anchor each indicator to a disclosure that recurs every quarter (a balance-sheet or income-statement line, a segment table row, a KPI the company has reported for several quarters). Indicators that depend on a number management happened to give on one call (a dollar target, a growth percentage) tend to go undisclosed the next quarter; in the pilot Marvell dropped three such figures in one quarter. Prefer the recurring line, and track the one-off target as a claim instead.
 
 ## 9. Claims and verdicts
 
@@ -166,6 +167,9 @@ Rules for writing a claim (`outlook.md` §5):
 - Prefer claims about the **fundamental signals** (the locked indicators, product milestones, margin structure, customer wins, capacity) over headline revenue and EPS. Include headline guidance too, but it should not dominate the list.
 - Target 6–12 claims per quarter. Fewer, sharper claims beat a long vague list.
 - Vague management statements ("we see strong momentum") are not claims. Either sharpen them into something checkable or leave them out.
+- **Single direction, no either/or.** A claim must be able to fail. "Management reaffirms or raises X" is fine; "management reaffirms X or explains why not" can never be missed and is not a claim.
+- **Label sharpenings.** If the claim turns a soft phrase ("modest margin pressure") into a number, say so in the claim: "our sharpening of ..., not management's number".
+- **Disclosure checks** (e.g., "the 10-Q shows Distributor A at or above 45%") are allowed but must be labelled as disclosure checks, not management claims, and must state whether the threshold refers to the quarter or the year-to-date column.
 
 Verdict scale, used by the refresh skill when grading last quarter's claims:
 
@@ -283,6 +287,8 @@ Reads AGENTS.md, the draft(s), and the cached sources. Produces `review/<QLABEL>
 
 The reviewer may directly fix jargon, missing tags, and typos. Anything structural or factual goes back to the writer for a second pass. Maximum two review cycles; if still failing, stop and report to the owner.
 
+**On a refresh run, the reviewer must blind re-grade.** Before opening `scorecard.md`, the reviewer reads last quarter's claims and grades each one independently against the new sources, then compares. Every disagreement is written up with both verdicts and the evidence. In the pilot this caught one wrong ✅ that the writer's own checks had missed.
+
 ## 14. Rubric (self-check and reviewer check)
 
 After reading `business.md` + `outlook.md`, the owner should be able to say yes to all five:
@@ -319,3 +325,8 @@ Append here whenever the owner gives feedback that changes how reports should be
 - 2026-09-07 — Initial spec written from the design interview. No feedback yet.
 - 2026-09-07 — (pipeline) SEC rejected the User-Agent `company-research-skill contact: owner@localhost` on www.sec.gov/Archives; an email-shaped UA works. §12.1 updated.
 - 2026-09-07 — (pipeline) Marvell stopped reporting five end markets in Q4 FY2026; now only "data center" and "communications and other". Five-year end-market tables must note the definition change rather than force old categories.
+- 2026-09-07 — (pipeline) Both first drafts ran 30–40% over length and both needed two review cycles. Writers and reviewers had counted words differently; §3 rule 7 now fixes the method and asks first drafts to aim low.
+- 2026-09-07 — (pipeline) Common first-draft claim failures: either/or constructions that can never be missed, double-barreled claims with one unobservable half, soft phrases hardened into numbers without saying so. §9 now bans the first two and requires labelling the third.
+- 2026-09-07 — (pipeline) Blind re-grade by the refresh reviewer caught one wrong ✅ (GOOGL claim 8: "supply constrained" is not the same as "Cloud revenue was limited"). Made standard in §13.
+- 2026-09-07 — (pipeline) Alphabet's Q1 2026 transcript PDF has printed page numbers; the Q2 2026 one does not. Motley Fool machine transcripts for Marvell contain garbled numbers. §3 rule 2 now says how to tag and what to trust.
+- 2026-09-07 — (pipeline) Marvell's 10-Q Note 9 changed shape between Q1 and Q2 FY2027 (capacity deposits no longer itemized). §8 now asks that indicators anchor to recurring disclosures.
