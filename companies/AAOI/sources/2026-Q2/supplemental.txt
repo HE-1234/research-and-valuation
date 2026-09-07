@@ -1,0 +1,312 @@
+Non-GAAP Financial Measures
+We provide non-GAAP gross margin, non-GAAP net income (loss), and non-GAAP earnings per share to eliminate the impact of items that we do not
+consider indicative of our overall operating performance. To arrive at our non-GAAP gross margin, we exclude stock-based compensation and related
+expenses, expenses associated with discontinued products, and non-recurring (income) expenses, if any, from our GAAP gross margin. To arrive at our non-
+GAAP net income (loss), we exclude all amortization of intangible assets, stock-based compensation expense and related expenses, non-recurring expenses,
+unrealized foreign exchange loss (gain), losses from the disposal of idle assets, if any, non-GAAP tax benefit (expenses), and losses from the disposal of idle
+assets, if any, from our GAAP net income (loss). Included in our non-recurring expenses in Q2 2026 and Q2 2025 are employee severance expenses (if any),
+legal expenses associated with litigation and certain legal and advisory expenses associated with purchase termination or patent protection (if any). In
+computing our non-GAAP income tax benefit (expense), we have applied an annual effective tax rate for the year to date and applied it to our net income
+before income taxes. Our adjusted EBITDA is calculated by excluding depreciation expense, non-GAAP tax benefit (expense), and interest (income)
+expense, as well as the items excluded from non-GAAP net income (loss), from our GAAP net loss. Our non-GAAP diluted net loss per share is calculated
+by dividing our non-GAAP net loss by the fully diluted share count (for periods in which non-GAAP net income is positive) or basic share count (for periods
+in which our non-GAAP net income is negative).
+
+      • We believe that elimination of items such as amortization of intangible assets, stock-based compensation expense, non-recurring revenue and
+      expenses, losses from the disposal of idle assets, unrealized foreign exchange gain or loss, and depreciation on certain equipment undergoing
+      reconfiguration is appropriate because treatment of these items may vary for reasons unrelated to our overall operating performance;
+
+      • We believe that elimination of expenses associated with discontinued products, including depreciation and inventory obsolescence is appropriate
+      because these expenses are not indicative of our ongoing operations;
+
+      • We believe that estimating non-GAAP income taxes allows comparison with prior periods and provides additional information regarding the
+      generation of potential future deferred tax assets;
+
+      • We believe that non-GAAP measures provide better comparability with our past financial performance, period-to-period results and with our peer
+      companies, many of which also use similar non-GAAP financial measures; and
+
+      • We anticipate that investors and securities analysts will utilize non-GAAP measures as a supplement to GAAP measures to evaluate our overall
+      operating performance.
+
+
+
+
+                                                                            Page 1
+Applied Optoelectronics, Inc.
+Consolidated Balance Sheet
+
+
+(In thousands)
+
+Preliminary Unaudited
+                                                          3/31/2024    6/30/2024    9/30/2024     12/31/2024    3/31/2025     6/30/2025     9/30/2025    12/31/2025    3/31/2026    6/30/2026
+
+ASSETS
+CURRENT ASSETS
+   Cash and Cash Equivalents                                  8,433       10,653       34,124         67,428       51,144        64,699       136,961      206,140       439,705      499,737
+   Restricted Cash                                            8,972        5,465        7,243         11,705       15,667        22,496        13,756        9,895         9,672        9,021
+Total Cash, Cash Equivalents and Short Term Investments      17,405       16,118       41,367         79,133       66,811        87,195       150,717      216,035       449,377      508,758
+Accounts Receivable, Net                                     57,476       57,661       75,154        116,801      171,101       211,452       224,028      244,404       298,996      314,009
+Notes Receivable                                                352          435           47               -            -             -             -            -             -            -
+Inventories                                                  54,322       54,322       64,382         88,135      102,313       138,867       170,214      183,105       206,246      278,791
+Prepaid Income Tax                                                2            4            4              4            4             8             8          914           911          914
+Prepaid Expenses and Other Current Assets                     4,078        4,429        7,409         17,195       18,613        20,816        30,345       31,269        37,047       87,402
+Total Current Assets                                        133,635      132,969      188,363        301,268      358,842       458,338       575,312      675,727       992,577    1,189,874
+
+Property, Plant And Equipment, Net                          199,941      197,781      205,303        219,235      241,453       269,386       310,303       376,050      419,003      697,086
+Land Use Rights, Net                                          4,991        4,939        4,993          4,837        4,814         4,798         4,804         4,825        4,871        4,917
+Right of use asset                                            4,552        4,249        4,102          9,646        9,216        22,106        42,048        49,697       71,949       75,168
+Intangible Assets, Net                                        3,610        3,616        3,663          3,680        3,634         3,639         3,640         3,623        3,614        3,633
+Other Assets                                                  4,187        4,486        3,548          8,366       26,709        38,583        42,421        58,501       73,865      330,514
+TOTAL ASSETS                                                350,916      348,040      409,972        547,032      644,668       796,850       978,528     1,168,423    1,565,879    2,301,192
+
+LIABILITIES AND STOCKHOLDERS' EQUITY
+
+CURRENT LIABILITIES
+   Accounts Payable                                          23,639       33,518       55,991        104,969      124,866       132,962       150,145      143,932       148,160      286,088
+   Bank Acceptance Payable                                   10,712        5,048        9,934         19,259       23,992        32,107        34,046       33,363        35,766       33,940
+   Accrued Expenses                                          13,345       17,210       19,140         22,091       20,488        27,686        34,135       42,491        31,345       46,939
+   Deferred Revenue                                           1,689        1,570        1,439               -            -             -             -            -             -            -
+   Current Lease Liability                                    1,095        1,087        1,115          1,380        1,349         1,905         2,838        3,522         2,932        4,223
+   Current Portion of Notes Payable and Long Term Debt       24,129       22,506       29,483         22,370       20,312        22,183        27,978       33,975        41,225       57,258
+Total Current Liabilities                                    74,609       80,939      117,102        170,069      191,007       216,843       249,142      257,283       259,428      428,448
+
+  Convertible Senior Notes                                   76,331       76,690       77,053        134,497      134,229       133,936       130,120      129,829       129,516      129,142
+  Other Long-Term Liabilities                                 4,250        3,917        3,731         13,354       10,419        21,090        40,181       47,393        70,983       75,577
+TOTAL LIABILITIES                                           155,190      161,546      197,886        317,920      335,655       371,869       419,443      434,505       459,927      633,167
+
+STOCKHOLDERS' EQUITY
+  Common Stock                                                   39           41           45             49            53            62           68            75           79           84
+  Additional Paid-in Capital                                484,663      502,387      543,492        683,462       772,738       893,927    1,045,986     1,224,538    1,610,439    2,192,682
+  Cumulative Translation Adjustment                            (688)      (1,531)         709         (2,548)       (2,755)        1,113        1,088          (617)        (207)       2,399
+  Retained Earnings (Accumulated Deficit)                  (288,288)    (314,403)    (332,160)      (451,851)     (461,023)     (470,121)    (488,057)     (490,078)    (504,359)    (527,140)
+TOTAL STOCKHOLDERS' EQUITY                                  195,726      186,494      212,086        229,112       309,013       424,981      559,085       733,918    1,105,952    1,668,025
+
+TOTAL LIABILITIES AND STOCKHOLDERS' EQUITY                  350,916      348,040      409,972        547,032      644,668       796,850       978,528     1,168,423    1,565,879    2,301,192
+
+
+
+
+                                                                                                 Page 2
+Applied Optoelectronics, Inc.
+Consolidated Statement of Operations
+
+
+
+(In thousands, except percentages and per share data)
+
+
+
+
+Revenue                                      1Q24         2Q24         3Q24         4Q24       CY2024         1Q25            2Q25         3Q25         4Q25         CY2025        1Q26         2Q26
+   CATV                                       8,736        5,818       20,947        52,212       87,713      64,501           56,019       70,602       54,002      245,124        66,841       80,578
+   Datacenter                                28,986       34,352       40,945        44,242      148,525      32,049           44,791       43,935       74,876      195,651        81,404      107,662
+   Telecom                                    2,269        2,379        2,798         3,535       10,981       2,937            1,940        3,742        5,111       13,730         2,559        3,411
+   Other                                        682          721          461           279        2,143         372              202          351          285        1,210           340          271
+Total Revenues                               40,673       43,270       65,151       100,271      249,365      99,859          102,952      118,630      134,274      455,715       151,144      191,922
+                          YOY Growth %       -23.3%         4.0%         4.2%         65.9%        14.6%      145.5%           137.9%        82.1%        33.9%        82.8%         51.4%        86.4%
+
+Cost of Goods Sold                            33,082       33,708       49,234       71,542      187,565      69,315          71,790        85,367       92,329      318,802       107,228      138,715
+                  COGS % of Revenue           81.3%        77.9%        75.6%        71.3%        75.2%        69.4%           69.7%         72.0%        68.8%        70.0%         70.9%        72.3%
+
+Gross Profit                                  7,591        9,562       15,917       28,729       61,800       30,544          31,162        33,263       41,945      136,913       43,916       53,207
+                          Gross Margin        18.7%        22.1%        24.4%        28.7%        24.8%        30.6%           30.3%         28.0%        31.2%        30.0%        29.1%        27.7%
+
+Operating Expenses:
+   Research and Development                  11,712       13,078       13,428       16,737       54,954       17,810           20,612       21,265       25,820        85,507      25,656       34,871
+                     R&D % of Revenue         28.8%        30.2%        20.6%        16.7%        22.0%        17.8%           20.0%        17.9%        19.2%          18.8%       17.0%        18.2%
+   Sales and Marketing                        3,798        5,910        4,796        3,652       18,154        5,357            8,135        9,871        6,904        30,267       6,347       11,490
+                     S&M % of Revenue          9.3%        13.7%         7.4%         3.6%         7.3%         5.4%             7.9%         8.3%         5.1%          6.6%        4.2%         6.0%
+   General and Administrative                13,727       16,818       14,240       14,813       59,600       16,314           18,391       20,314       20,722       75,741       24,904       31,573
+                     G&A % of Revenue         33.7%        38.9%        21.8%        14.8%        23.9%        16.3%           17.9%        17.1%        15.4%          16.6%       16.5%        16.5%
+Total Operating Expenses                      29,237       35,806       32,464       35,202      132,708       39,481          47,138       51,450       53,446       191,515       56,907       77,934
+     Operating Expenses % of Revenue          71.8%        82.8%        49.8%        35.1%        53.2%        71.8%            45.8%        71.8%        71.8%         42.0%       71.8%       171.8%
+
+Operating Income (Loss)                      (21,646)     (26,244)     (16,547)      (6,473)     (70,908)      (8,937)        (15,976)     (18,187)     (11,501)      (54,602)     (12,991)     (24,727)
+                    Operating Margin          -53.2%       -60.7%       -25.4%        -6.5%       -28.4%        -8.9%          -15.5%       -15.3%        -8.6%        -12.0%        -8.6%       -12.9%
+
+Other Income (Expense):
+   Interest Income                               260           93          156       365       873                224            286           450          830         1,792        1,737       3,248
+   Interest Expense                           (1,676)      (1,693)      (1,702)   (1,754)   (6,825)              (934)          (818)         (901)        (843)       (3,497)        (863)       (927)
+   Other Income (Expense)                       (108)       1,729          336 (111,828) (109,871)                475          7,410           702        1,016         9,603       (1,115)        914
+Total Other Income (Expense):                 (1,524)         129       (1,210) (113,217) (115,823)              (235)         6,878           251        1,003         7,898         (241)      3,235
+             Other Income % of Revenue         -3.7%         0.3%        -1.9%   -112.9%    -46.4%              -0.2%           6.7%          0.2%         0.7%          1.7%        -0.2%        1.7%
+
+Net Income (Loss) before Income Taxes        (23,170)     (26,115)     (17,757) (119,690) (186,731)            (9,172)         (9,098)     (17,936)     (10,498)      (46,704)     (13,232)     (21,492)
+                           Net Margin         -57.0%       -60.4%       -27.3%   -119.4%    -74.9%              -9.2%           -8.8%       -15.1%        -7.8%        -10.2%        -8.8%       -11.2%
+
+Income Tax Benefit (Expense)                        -            -            -          (2)          (2)            -               -            -       8,476        8,476        (1,049)      (1,289)
+
+Net Income (Loss)                            (23,170)     (26,115)     (17,757) (119,692) (186,733)            (9,172)         (9,098)     (17,936)      (2,022)      (38,228)     (14,281)     (22,781)
+               Net Margin after Taxes         -57.0%       -60.4%       -27.3%   -119.4%    -74.9%              -9.2%           -8.8%       -15.1%        -1.5%         -8.4%        -9.4%       -11.9%
+
+Earnings per share (Basic)               $     (0.60) $     (0.66) $     (0.42) $     (2.60) $     (4.50) $     (0.18) $        (0.16) $     (0.28) $     (0.03) $      (0.64) $     (0.19) $     (0.28)
+Earnings per share (Diluted)             $     (0.60) $     (0.66) $     (0.42) $     (2.60) $     (4.50) $     (0.18) $        (0.16) $     (0.28) $     (0.03) $      (0.64) $     (0.19) $     (0.28)
+
+ Shares used to compute GAAP basic
+earnings per share                           38,362       38,864       42,312       46,057       41,539       50,041          56,772        63,329       70,336       60,184       75,980       81,568
+ Shares used to compute GAAP diluted
+earnings per share                           38,362       38,864       42,312       46,057       41,539       50,041          56,772        63,329       70,336       60,184       75,980       81,568
+
+
+
+
+                                                                                                                     Page 3
+Applied Optoelectronics, Inc.
+GAAP to Non-GAAP Reconciliation
+(In thousands)
+Preliminary Unaudited                                              1Q 2024        2Q 2024        3Q 2024       4Q2024        CY2024        1Q 2025        2Q 2025        3Q 2025       4Q 2025       CY2025         1Q 2026        2Q 2026
+  GAAP total gross profit                                             7,591          9,562         15,918        28,729       61,800         30,544         31,162         33,263        41,945       136,914         43,916         53,207
+      Share-based compensation expense                                   102            137           116           118          473              83             94             87            97          361            156            170
+      Non-recurring expense                                                6             32            29            15            82              0             41              7            25            73            16            282
+      Expenses associated with discontinued products                        -              -          202            98          -                  -              -        3,372           129           -                    -      3,594
+  Non-GAAP income from gross profit                                   7,699          9,731         16,265        28,960       62,655         30,627         31,297         36,729        42,196       140,849         44,088         57,253
+
+ GAAP research and development expense                               11,712         13,078         13,428       16,737        54,955         17,810         20,612         21,265        25,820        85,507         25,656         34,871
+   Share-based compensation expense                                      280            478           356          341         1,455             275            331            293           292        1,191            452            495
+   Non-recurring expense                                                  3             84              -           30           117               -           114             21             4           139              -            337
+ Non-GAAP research and development expense                           11,429         12,516         13,072       16,366        53,383         17,535         20,167         20,951        25,524        84,177         25,204         34,039
+
+ GAAP sales and marketing expense                                     3,798          5,910          4,796         3,652       18,156          5,357          8,135          9,872         6,904        30,268          6,347         11,490
+   Share-based compensation expense                                     286            541            335           352        1,514            323            499            275           361         1,458            451            439
+   Non-recurring expense                                                -            1,842             20        (1,025)         837              -             75             11             1            87              -            449
+ Non-GAAP sales and marketing expense                                 3,512          3,527          4,441         4,325       15,805          5,034          7,561          9,586         6,542        28,723          5,896         10,602
+
+ GAAP general and administrative expense                             13,727         16,818         14,240       14,813        59,598         16,314         18,391         20,314        20,721        75,740         24,904         31,573
+   Share-based compensation expense                                   2,173          4,902          2,137        2,137        11,349          1,880          2,240          2,460         2,118         8,698          3,333          3,759
+   Amortization expense                                                  129            100           103          106           438            108            110            113           117           448            121            123
+   Non-recurring expense                                                 513            818           498          743         2,572            393            632            116           252         1,393            260          3,676
+   Non-cash expenses associated with discontinued products             1028           1061          1,074        1,038         4,201          1,045          1,073          1,107         1,042         4,267            916          1,101
+ Non-GAAP general and administrative expense                          9,884          9,937         10,428       10,789        41,037         12,888         14,336         16,518        17,192        60,933         20,274         22,914
+
+ GAAP total operating expense                                        29,237         35,806         32,464       35,202       132,709         39,481         47,138         51,451        53,445       191,515         56,907         77,934
+   Share-based compensation expense                                   2,738          5,921          2,828        2,830        14,317          2,478          3,070          3,028         2,771        11,347          4,236          4,693
+   Amortization expense                                                  129            100           103          106           438            108            110            113           117           448            121            123
+   Non-recurring expense                                                516          2,744            518         (252)        3,526            393            821            148           257         1,619            260          4,462
+   Non-cash expenses associated with discontinued products            1,028          1,061          1,074        1,039         4,202          1,045          1,073          1,107         1,042         4,267            916          1,101
+ Non-GAAP total operating expense                                    24,826         25,980         27,941       31,479       110,225         35,457         42,064         47,055        49,258       173,834         51,374         67,555
+
+ GAAP operating income (loss)                                       (21,646)       (26,244)       (16,547)       (6,473)      (70,910)        (8,937)      (15,976)       (18,187)      (11,501)      (54,601)       (12,991)       (24,727)
+   Non-recurring customer credit                                            -              -              -             -             -              -             -              -             -             -              -              -
+   Share-based compensation expense                                   2,840          6,058          2,944         2,949        14,791          2,561         3,164          3,115         2,868        11,708          4,392          4,863
+   Amortization expense                                                 129            100            103           106           438            108           110            113           117           448            121            123
+   Non-recurring expense                                                522          2,776            547          (237)        3,608            393           862            155           282         1,692            276          4,744
+   Expenses associated with discontinued products                           -              -          202            98           300                -             -        3,372           129         3,501                -        3,594
+   Non-cash expenses associated with discontinued products            1,028          1,061          1,074         1,039         4,202          1,045         1,073          1,107         1,043         4,267            916          1,101
+ Non-GAAP operating income (loss)                                   (17,127)       (16,249)       (11,677)       (2,518)      (47,570)        (4,830)      (10,767)       (10,325)       (7,062)      (32,985)        (7,286)       (10,302)
+
+ GAAP other income (loss)                                             (1,524)           129        (1,210)     (113,217)     (115,822)          (235)         6,878           251         1,003         7,897           (241)         3,235
+   Unrealized exchange loss (gain)                                        383           -107          -260           576           592            218        (5,278)        5,550          (282)          208          1,177           (432)
+   Non-recurring expense (income)                                           -        (1,200)         (139)      111,962       110,623               -               -         (69)              -         (69)               -              -
+ Non-GAAP other income (loss)                                         (1,141)        (1,178)       (1,609)         (679)       (4,608)           (17)         1,600         5,732           721         8,036            936          2,803
+
+ GAAP net income (loss)                                             (23,170)       (26,115)       (17,757)     (119,692)     (186,734)        (9,172)        (9,098)      (17,936)       (2,022)      (38,228)       (14,281)       (22,781)
+   Share-based compensation expense                                   2,840          6,058          2,944         2,949        14,791          2,561          3,164         3,116         2,868        11,709          4,392          4,863
+   Expenses associated with discontinued products                           -              -          202            98           300                -              -       3,372           129         3,501                -        3,594
+   Non-cash expenses associated with discontinued products            1,028          1,061          1,074         1,039         4,202          1,045          1,073         1,106         1,043         4,267            916          1,101
+   Amortization of intangible assets                                    129            100            103           106           438            108            110           113           117           448            121            123
+   Non-recurring expense (income)                                       522          1,576            408       111,725       114,231            393            862            85           282         1,622            276          4,744
+   Unrealized exchange loss (gain)                                      383           (107)          (260)          576           592            218         (5,278)        5,550          (282)          208          1,177           (432)
+   Non-GAAP Tax Benefit                                               6,236          6,571          4,504         2,152        19,463          3,988            337          (806)       (2,770)          750          2,459         14,262
+ Non-GAAP net income (loss)                                         (12,032)       (10,856)        (8,782)       (1,047)      (32,717)          (859)        (8,830)       (5,400)         (635)      (15,723)        (4,940)         5,475
+
+ GAAP net income (loss)                                             (23,170)       (26,115)       (17,757)     (119,692)     (186,734)        (9,172)        (9,098)      (17,936)       (2,022)      (38,228)       (14,281)       (22,781)
+    Share-based compensation expense                                  2,840          6,058                        2,949        11,847          2,561          3,164         3,116         2,868        11,709          4,392          4,863
+    Expenses associated with discontinued products                          -              -          202            98           300                -              -       3,372           129         3,501              --         3,594
+    Non-cash expenses associated with discontinued products           1,028          1,061          1,074        1,039         4,202          1,045           1,073         1,106         1,043         4,267            916          1,101
+    Amortization of intangible assets                                   129            100            103          106           438            108             110           113           117           448            121            123
+    Non-recurring expense (income)                                      522          1,576            408      111,725       114,231            393             862            85           282         1,622            276          4,744
+    Unrealized exchange loss (gain)                                      383          (107)          (260)         576           592             218         (5,278)        5,550          (282)          208           1177           (432)
+    Tax (benefit) expense related to the above                             -             -              -             - -                          -              -             -        (8,477)          750          1,049          1,289
+    Depreciation expense                                              3,837          3,907          4,055        4,213         16,012         4,573           5,217         6,148         7,045        22,983          8,191          9,276
+    Interest (income) expense, net                                    1,416          1,600          1,546        1,390          5,952           709             532           451            13         1,705           (874)        (2,321)
+ Adjusted EBITDA                                                    (13,015)       (11,920)       (10,629)       2,404        (33,160)          435          (3,418)        2,005           716          (262)           966           (543)
+
+GAAP diluted net income (loss) per share                       $       (0.60) $       (0.66) $      (0.42) $      (2.60) $      (4.50) $       (0.18) $       (0.16) $      (0.28) $      (0.03) $       (0.64) $      (0.19) $       (0.28)
+   Share-based compensation expense                                      0.07           0.15          0.07          0.06          0.36           0.05           0.06          0.05          0.04           0.20          0.06           0.06
+   Expenses associated with discontinued products                        0.00           0.00          0.00          0.00          0.01           0.00           0.00          0.05          0.00           0.06          0.00           0.04
+     Non-cash expenses associated with discontinued products             0.03           0.02          0.03          0.02          0.10           0.02           0.02          0.02          0.01           0.07          0.01           0.01
+   Amortization of intangible assets                                     0.01           0.00          0.00          0.00          0.01           0.00           0.00          0.00          0.00           0.01          0.00           0.00
+   Non-recurring expense (income)                                        0.01           0.04          0.01          2.43          2.75           0.01           0.01          0.00          0.01           0.03          0.00           0.05
+   Unrealized exchange loss (gain)                                       0.01           0.00        (0.01)          0.01          0.01           0.00         (0.10)          0.08          0.00           0.00          0.02           0.00
+   Non-GAAP Tax Benefit                                                  0.16           0.17          0.11          0.06          0.47           0.08           0.01        (0.01)        (0.04)           0.01          0.03           0.18
+Non-GAAP diluted net income (loss) per share                   $       (0.31) $       (0.28) $      (0.21) $      (0.02) $      (0.79) $       (0.02) $       (0.16) $      (0.09) $      (0.01) $       (0.26) $      (0.07) $        0.06
+
+Shares used to compute diluted loss per share                         38,362         39,365        42,312        46,057        41,539         50,041         56,772        63,329        70,336         60,183        75,980         81,568
+Shares used to compute diluted earnings per share                     44,116         44,629        47,576        49,737        46,385         56,472         62,037        74,954        81,961         71,808        87,605         88,152
+
+
+
+
+                                                                                                                                                              Page 4
+Applied Optoelectronics, Inc.
+Consolidated Statement of Operations
+
+
+
+NON GAAP
+(In thousands, except percentages and
+per share data)
+Preliminary Unaudited
+
+
+Revenue                                      1Q24         2Q24         3Q24         4Q24       CY2024         1Q25        2Q25         3Q25         4Q25       CY2025         1Q26          2Q26
+  CATV                                         8,736       5,818       20,947        52,212      87,713       64,501      56,019       70,602       54,002      245,124       66,841        80,578
+  Datacenter                                  28,986      34,352       40,945        44,242     148,525       32,049      44,791       43,935       74,876      195,651       81,404       107,662
+  Telecom                                      2,269       2,379        2,798         3,535      10,981        2,937       1,940        3,742        5,111       13,730        2,559         3,411
+  Other                                          682         721          461           279       2,143          372         202          351          285        1,210          340           271
+Total Revenues                               40,673       43,270       65,151       100,271      249,365      99,859      102,952      118,630      134,274      455,715      151,144      191,922
+                         YOY Growth %        -23.3%         4.0%         4.2%         65.9%        14.6%      145.5%       137.9%        82.1%        33.9%        82.8%        51.4%        86.4%
+
+Cost of Goods Sold                           32,974       33,539       48,887       71,310       186,710      69,232      71,655       81,901       92,078       314,866      107,056      134,669
+                  COGS % of Revenue           81.1%        77.5%        75.0%        71.1%         74.9%       69.3%       69.6%        69.0%        68.6%         69.1%        70.8%        70.2%
+
+Gross Profit                                  7,699        9,731       16,264       28,961       62,655       30,627      31,297       36,729       42,196       140,849      44,088        57,253
+                          Gross Margin        18.9%        22.5%        25.0%        28.9%        25.1%        30.7%       30.4%        31.0%        31.4%         30.9%       29.2%         29.8%
+
+Operating Expenses:
+   Research and Development                  11,429       12,516       13,072       16,366        53,383      17,535      20,167       20,951       25,524        84,177      25,204        34,039
+                     R&D % of Revenue         28.1%        28.9%        20.1%        16.3%         21.4%       17.6%       19.6%        17.7%        19.0%         18.5%       16.7%         17.7%
+   Sales and Marketing                        3,512        3,527        4,441        4,325        15,805       5,034       7,561        9,586        6,542        28,723       5,896        10,602
+                     S&M % of Revenue          8.6%         8.2%         6.8%         4.3%          6.3%        5.0%        7.3%         8.1%         4.9%          6.3%        3.9%          5.5%
+   General and Administrative                 9,885        9,937       10,429       10,789        41,037      12,888      14,336       16,518       17,192        60,934      20,274        22,914
+                     G&A % of Revenue         24.3%        23.0%        16.0%        10.8%         16.5%       12.9%       13.9%        13.9%        12.8%         13.4%       13.4%         11.9%
+Total Operating Expenses                     24,826       25,980       27,942       31,480       110,225      35,457      42,064       47,055       49,258       173,834      51,374        67,555
+    Operating Expenses % of Revenue           61.0%        60.0%        42.9%        31.4%         44.2%       35.5%       40.9%        39.7%        36.7%         38.1%       34.0%         35.2%
+
+Operating Income (Loss)                      (17,127)     (16,249)     (11,678)      (2,519)     (47,570)     (4,830)     (10,767)     (10,326)      (7,062)     (32,985)      (7,286)     (10,302)
+                    Operating Margin          -42.1%       -37.6%       -17.9%        -2.5%       -19.1%       -4.8%        -10.5%       -8.7%         -5.3%       -7.2%         -4.8%       -5.4%
+
+Other Income (Expense):
+     Interest Income                             261           93          156          365          874         224         286          450          830         1,790       1,737         3,248
+     Interest Expense                         (1,676)      (1,693)      (1,702)      (1,754)      (6,825)       (933)       (818)        (901)        (843)       (3,495)       (863)         (927)
+     Other Income (Expense)                      274          422          (63)         710        1,343         692       2,132        6,184          733         9,741          61           483
+Total Other Income (Expense):                 (1,141)      (1,178)      (1,609)        (679)      (4,608)        (17)      1,600        5,733          720         8,036         935         2,804
+            Other Income % of Revenue          -2.8%        -2.7%        -2.5%        -0.7%        -1.8%        0.0%        1.6%         4.8%         0.5%          1.8%        0.6%          1.5%
+
+Net Income (Loss) before Income Taxes        (18,268)     (17,427)     (13,287)      (3,197)     (52,178)     (4,847)      (9,167)      (4,593)      (6,342)     (24,948)      (6,351)      (7,498)
+                           Net Margin         -44.9%       -40.3%       -20.4%        -3.2%       -20.9%       -4.9%         -8.9%        -3.9%        -4.7%       -5.5%         -4.2%        -3.9%
+
+Income Tax Benefit (Expense)                  6,236        6,571        4,505        2,150       19,462        3,988         337         (806)       5,707        9,225        1,410        12,973
+
+Net Income (Loss)                            (12,032)     (10,856)      (8,782)      (1,047)     (32,716)       (859)      (8,830)      (5,399)        (635)     (15,723)      (4,941)       5,475
+          Net Margin after Income Tax         -29.6%       -25.1%       -13.5%        -1.0%       -13.1%       -0.9%        -8.6%        -4.6%        -0.5%        -3.5%        -3.3%         2.9%
+
+Interest Income (Expense)                     (1,416)      (1,600)      (1,547)      (1,389)      (5,952)       (709)        (532)       (451)         (13)      (1,705)         874         2,321
+Depreciation and Amortization                  3,837        3,907        4,055        4,212       16,010       4,573        5,217       6,147        7,045       22,981        8,191         9,276
+Adjusted EBITDA                              (13,015)     (11,920)      (7,685)       2,404      (30,216)        435       (3,418)      2,005          716         (262)         966          (543)
+                        EBITDA Margin         -32.0%       -27.5%       -11.8%         2.4%       -12.1%        0.4%        -3.3%        1.7%         0.5%        -0.1%         0.6%         -0.3%
+
+Earnings per share (Basic)               $     (0.31) $     (0.28) $     (0.21) $     (0.02) $     (0.79) $    (0.02) $     (0.16) $     (0.09) $     (0.01) $     (0.26) $     (0.07) $      0.07
+Earnings per share (Diluted)             $     (0.31) $     (0.28) $     (0.21) $     (0.02) $     (0.79) $    (0.02) $     (0.16) $     (0.09) $     (0.01) $     (0.26) $     (0.07) $      0.06
+
+ Shares used to compute Non-GAAP
+basic earnings per share                      38,362       39,365       42,312       46,057       41,539      50,041       56,772       63,329       70,336       60,183       75,980       81,568
+ Shares used to compute Non-GAAP
+diluted earnings per share                    38,362       39,365       42,312       46,057       41,539      50,041       56,772       63,329       70,336       60,183       75,980       88,152
+
+
+
+
+                                                                                                                              Page 5
+
