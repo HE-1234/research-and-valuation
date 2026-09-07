@@ -1,0 +1,1001 @@
+SOURCE: Rocket Lab Corporation "Q2 2026 Investor Update" earnings presentation (36 slides), August 10, 2026. Footer on each slide: "Rocket Lab | Q2 2026 Financial Results Update".
+ORIGIN: https://investors.rocketlabcorp.com/static-files/3dde8e68-7ce6-4685-8c0b-17afc94dbb86 (linked as "Presentation" for 2026 Q2 on https://investors.rocketlabcorp.com/financial-information/quarterly-results and as "Second Quarter 2026 Financial Results Presentation, August 10, 2026" on https://investors.rocketlabcorp.com/events-presentations/presentations). PDF metadata: created 2026-08-10 18:04 UTC, Acrobat PDFMaker for PowerPoint.
+FETCHED: 2026-09-07. EXTRACTION METHOD: the PDF has NO text layer (every page is a single 1280x720 raster image; pdffonts lists no fonts; pdftotext returns nothing). Text was produced by OCR: pdftoppm -r 300 -png, then tesseract 5.3.4 (eng, --psm 3). OCR prose is reliable; chart labels, pie percentages and some display-font headlines were missed or garbled. The gatherer therefore viewed the slide images and added blocks marked [GATHERER VISUAL READ] / [GATHERER CORRECTION] / [GATHERER NOTE] after the OCR text of the affected pages; those blocks are transcriptions from the image, not OCR. One OCR error was corrected in-line (p.17: '$966M' -> '$266M', see note). Form-feed (\f) characters separate slide pages; "[SLIDE PAGE N]" = printed slide number N.
+====================================================================================================
+[SLIDE PAGE 1]
+Q2 2026
+INVESTOR
+UPDATE
+
+ae SIR PETER BECK
+
+ROCKETLULAB
+
+[GATHERER VISUAL READ] Title slide: 'Q2 2026 INVESTOR UPDATE', Sir Peter Beck (founder and CEO) pictured; Rocket Lab logo. OCR 'ROCKETLULAB' = Rocket Lab logo.
+[SLIDE PAGE 2]
+FORWARD
+LOOKING
+STATEMENTS
+
+Forward Looking Statements
+
+This presentation may contain certain “forward-looking statements” within the meaning of the Private Securities
+Litigetion Reform Act of 1995, Section 27A of the Securities Act of 1933, es amended, and Section 2IE of the
+Securities Exchange Act of 1934 8s amended. All ststements other than statements of historicel facts, contained
+in this presentation including ststements regarding our expectations of financial results for the third quarter of
+2026, strategy, future operations future financial position projected costs prospects plans and objectives of
+management, are forward-looking ststements Words such es but not limited to, “anticipate” “sim” “believe,”
+“contemplate,” “continue,” “could,” “design” “estimate” “expect” “intend” “may,” “might” “plan” “possible,”
+“potentia,” “predict,” “project” “seek” “should” “suggest” “strategy” “target” “will” “would” and similar
+expressions or phrases or the negative of those expressions or phrases are intended to identify forward-looking
+ststements, sithough not all forward-looking ststements contain these identifying words. These forward-looking
+stetements are based on Rocket Lab's current expectations and beliefs concerning future developments and
+their potential effects These fonvard-looking statements involve 8 number of risks uncertainties (many of which
+are beyond Rocket Lab’s control), or other sssumptions thet may cause actual results or performance to be
+materially different from those expressed or implied by these forward-looking statements Many factors could
+cause actus! future events to differ materially from the forward-looking statements in this releese, includingrisks
+related to delays and disruptions in expansion efforts: delays in the development of our Neutron rocket; risks and
+uncertainties associated with the Iridjum transaction: dependence on a limited number of customers; the harsh
+and unpredictable environment of space in which our products operate; increased competition and rapid
+technological change: average selling price trends; general economic uncertainty and turbulence which could
+impect our customers’ ability to pay: failure of lsunch vehicles spacecraft and components to operste es
+intended including lsunch failures and releted operational or regulatory impacts; launch schedule disruptions;
+supply chain disruptions product delays or failures; design and engineering flaws natural disasters and
+epidemics or pandemics: any inability to effectively integrate recently ecquired essets a US government
+shutdown or delays in government funding; changes in governments! regulations including with respect to trade
+and export restrictions or regulatory approvals and epplicetions; risks releted to government-contracting
+compliance; cybersecurity risks; intellectua property protection: retention of key personnel geopolitica
+instability; or other events that force us to cancel or reschedule launches including customer contractual
+rescheduling and termination rights; risks thet acquisitions may not be completed on the anticipsted time frame
+or atall or donot achieve the anticipated benefits and results: and the other risks detailed from time to time in
+Rocket Lab's filings with the Securities and Exchange Commission (the “SEC™), including under the heading “Risk
+Factors” in Rocket Lab's Annual Report on Form |0-K for the fiscal year ended December 3], 2025, as such
+factors may be updsted from time to time in our other filings with the SEC, eocessible on the SEC's website at
+www.sec.gov and the Investor Relations section of our website st https/|/investorsrocketiabcorp.com There can
+be no essurance thet the future developments affecting Rocket Lab will be those that we heve anticipsted
+Except as required by law Rocket Lab is not underteking any obligstion to update or revise any forward-looking
+stetements whether es 8 result of new information future events or othenvse
+
+Use of Non-GAAP Financial Measures
+
+To supplement our unsudited consolidated financial ststements presented on s basis consistent with GAAP, we
+disclose certain non-GAAP financial measures, Includingmon-GAAP gross margin non-GAAP operating expenses,
+non-GAAP research and development expenses, non-GAAP net selling, genera! and administrative expenses, and
+non~GAAP Free Cash Flow These supplemental measures exclude the effects of (i) stock-based compensation
+expense; (ii) amortization of purchased intangible essets and favorable lease: (iii) non-cash income tax benefits
+and expenses (iv) gain (loss) on extinguishment of debt: (v) transaction costs: (vi) change in fair value of
+= consideration, (vil) performance reserve escrovy (viii) provision for income taxes; (i) (Gain) loss on
+foreign exchange: (x) accretion of marketable securities purchased at e discount (xi) (gain) loss on disposal of
+assets: and (xii) employee retention credit We also supplement our unsudited historical statements and
+forward-looking guidance with the messure of adjusted EBITDA, where adjustments to EBITDA include share-
+based compensation foreign exchange gains or losses, acquisition related performance reserve and escrow loss
+on extinguishment of debt, sind other non-recurring gains or losses These non-GAAP measures should only be
+viewed in conjunction with corresponding G GAAP measures. We compensate for the limitations of non-GAAP
+financial messures by relying upon GAAP results to gsin e complete picture of our performance. Non-GAAP
+financial messures ere not in accordance with and do not serve es an siternative for the presentation of our
+GAAP financial results We are providing this information to enable investors to perform more meaningful
+comparisons of our opersting results in s manner similar to management's analysis of our business We believe
+that these non-GAAP measures have limitations in thet they do not reflect all of the amounts essocisted with our
+GAAP results of operstions We encourage investors to review the detailed reconciliation of our GAAP and non-
+3 AAP presentations in our Earnings Release dated on August 10, 2026 eveilable on our website at
+investorsrocketiabusacom. We have not provided e reconciliation for the forward-looking non-GAAP financial
+
+meesures because, without unressonable efforts, we are unable to predict with reasonable certainty the amount
+and timing of adjustments thet are used to calculste these non-GAAP financial measures, particularly related to
+stock-based compensstion and its related tax effects
+
+Additional Information and Where to FindIt
+
+This communication is being made in respect of s proposed transaction involving Rocket Lab
+Corporstion (Rocket Lab”) and Iridium Communications Inc. (“Iridium”). in connection with the proposed
+transaction Rocket Lab will file with the Securities and Exchange Commission (the “SEC") s Registration
+Statement on Form S-4 that includes the proxy ststement of Iridium that will siso constitute 6
+prospectus of Rocket Lab. When the proxy ststement/prospectus is finalized it will be sent to the
+stockholders of Iridjum seeking their spprova of certain transaction-eleted proposals This
+communicstion is not 8 substitute for the proxy ststement/prospectus or any other documents which
+Rocket Lab or iridium mayfile with the SEC in connection with the proposed transaction Rocket Lab may
+not sell the common stock referenced in the proxy ststement/prospectus until the Registration
+Statement on Form S-4 filed with the SEC becomes effectwe The preliminary proxy
+ststement/prospectus and this communication are not offers to sell any securities, are not soliciting an
+offer to buy any securities in any stste where the offer and sale is not permitted and are not
+solicitation of any vote or approval ROCKET LAB AND IRIDIUM URGE INVESTORS AND SECURITY HOLDERS
+TO READ THE REGISTRATION STATEMENT ON FORM S-4 THE RELATED PROXY STATEMENT/ PROSPECTUS
+INCLUDED THEREIN AND OTHER DOCUMENTS FILED WITH THE SEC CAREFULLY AND IN THEIR ENTIRETY
+WHEN THEY BECOME AVAILABLE BECAUSE THEY WILL CONTAIN IMPORTANT INFORMATION ABOUT THE
+PROPOSED TRANSACTION Investors and security holders will be able to obtain these materials (when
+they are eveilable and filed) free of charge at the SEC's website, wwwesec gov. Copies of documents filed
+with the SEC by Rocket Lab (when they become available) may be obtained free of charge on Rocket
+Lab's website at https)//investors rocketiaboorp. com/financial-information/sec-filings or by contacting
+Rocket Lab's Investor Relations Department at investors@rocketlabuss.com Copies of documents filed
+with the SEC by Iridium (when they become eveilable) may be obtained free of charge on Iridjum’s
+website st https,// investor iridjumcom/sec-filings by contacting Iridjum’s Investor Relations Department
+at investor relations @iridium.com.
+
+Participants in the Solicitation
+
+Robert H_ Niehaus, Louis M Alterman, Thomas C. Canfield Matthew J Desch, Thomas J. Fitzpatrick, L
+Anthony Frazier, Suzanne E McBride, Eric T. Olson Kay N. Sears Monique S. Shivanandan and Jacqueline
+E Yeaney, all of whom sre members of Iridiun’s board of directors and Vincent J O'Neill Iridiunis chief
+financial officer, may be considered participants in Iridjum’s solicitation Information regarding such
+Derticipants, including their direct or indirect interests, by security holdings or otherwise, will be included
+in the proxy stetement/ prospectus and other relevant documents to be filed with the SEC in connection
+with the transaction Additional information ebout such participants is available under the captions
+“Proposal |— Election of Directors,” “Director Compensation” and “Security Ownership of Certain
+Beneficial Owners and Management” in Iridjum’s definitive proxy statement in connection with its 2026
+Annual Meeting of Stockholders (the “2026 Proxy Statement”) which wes filed with the SEC on April 2
+2026 (which is available at
+
+https? Avwenwsec.gov/i? doc=/Archives/edger /data/O0014188 18 /000141881926000022/irdm-
+20260402htm), as well as on Iridium’s Annual Report on Form 10-K for the fiscal year ended December
+31, 2025, which was filed with the SEC on February 12, 2026 (the “2025 10-K") and certain of Iridium’s
+Quarterly Reports on Form 10-Q and Current Reports on Form 8-K To the extent that holdings of
+iridjum’s securities have changed since the amounts printed in the 2026 Proxy Stetement, such changes
+have been or will be reflected on Statements of Change in Ownership on Form 4 filed with the SEC
+(which ere eveilable at https //wewesec. gow! cgi-bin/owndisp Zaction=getis suer&C IK=O001418819)
+information regarding Iridjum’s transactions with relsted persons is set forth in the 2026 Proxy
+Stetement under the caption “Transactions with Related Parties,” es well es on the 2025 1O-K and certain
+of Iridium’s Quarterly Reports on Form 10-Q and Current Reports on Form 8-K Certain illustrative
+information regarding the payments to that may be owed, and the circumstances in which they may be
+owed by Iridium to its named executive officers ine change of control of Iridium is set forth in the 2026
+Proxy Statement under the caption “Severance and Change in Control-Related Benefits,” as well es on
+the 2025 10-K and certain of Iridium’s Quarterly Reports on Form 10-Q and Current Reports on Form 8-K
+Rocket Leb may siso be deemed to be s participant in Iridjum’s solicitetion: informetion regarding Rocket
+Lab will be included in the proxy statement! prospectus and other relevant documents to be filed with
+the SEC in connection with the transaction Copies of these documents may be obtained, free of charge,
+from the SEC or Iridium es described in the preceding paragraph
+
+[GATHERER NOTE] Forward-looking statements and non-GAAP disclaimer boilerplate (full page of small text; OCR is complete enough to search but contains minor character errors).
+[SLIDE PAGE 3]
+® OVERVIEW
+
+RECORD QUARTER + POST QUARTER WINS
+
+\
+
+| i. O8IM+ ; «+ | TRANSFORMATIONAL
+234M N SPACE $437M+ 23368 | ACQUISITIONS
+ECORD SYSTEMS N LAUNCH RECORD Q2 UNLOCKING NEW TAMs
+REVENUE CONTRACTS CONTRACTS BACKLOG  & CAPABILITIES
+
+», 5
+
+“a
+\¢8
+3
+
+Q2 2026 revenue Across Q2 and post Across Q2 and post Plus more than $800M lridium acquisition announced - our boldest
+up 62% ($89.6M) YoY quarter. quarter. of new bookings post- expansion yet that is expected to unlock our future
+vs Q2 2025 quarter. in space applications. Mynaric and Motiv
+
+; 3 acquisitions closed, vertically integrating robotics
+wn foo and laser comms into our capabilities and expanding
+
+our reach into new programs.
+
+[GATHERER VISUAL READ of the five tiles on this page; OCR above is jumbled because the tiles are laid out in columns]
+Headline: RECORD QUARTER + POST QUARTER WINS
+Tile 1: "$234M RECORD REVENUE" - "Q2 2026 revenue up 62% ($89.6M) YoY vs Q2 2025, with 16.8% growth over Q1 2026."
+Tile 2: "$581M+* IN SPACE SYSTEMS CONTRACTS" - "Across Q2 and post quarter."
+Tile 3: "$437M+* IN LAUNCH CONTRACTS" - "Across Q2 and post quarter."
+Tile 4: "$2.36B RECORD Q2 BACKLOG" - "Plus more than $800M of new bookings post-quarter."
+Tile 5: "TRANSFORMATIONAL ACQUISITIONS UNLOCKING NEW TAMs & CAPABILITIES" - "Iridium acquisition announced - our boldest expansion yet that is expected to unlock our future in space applications. Mynaric and Motiv acquisitions closed, vertically integrating robotics and laser comms into our capabilities and expanding our reach into new programs."
+Footer footnote: "*Includes options across various contracts."
+[SLIDE PAGE 4]
+APPLICATIONS
+
+, 1
+: x
+r Ol
+in UW]
+
+[GATHERER VISUAL READ] Section divider: 'SECTION 01 SPACE APPLICATIONS' (image of a satellite over Earth). No other text.
+[SLIDE PAGE 5]
+Ean) £& Ri N G
+
+SPAGE APPLICATIONS
+
+——
+
+ROCKETLAB
+
+ROCKET LAB IS ACQUIRING IRIDIUM
+Combines Rocket Lab's launch capability and satellite manufacturing with
+lridium’s global satellite communications network and rare spectrum.
+
+Rocket Lab becomes a fully-integrated, self-launching, tier-1 space power,
+delivering critical communications capability to millions of users worldwide.
+
+Rocket Lab 2 2020 bre a Result
+
+[GATHERER NOTE] Iridium section. Headline OCR is garbled ('Ean) £& Ri N G SPAGE APPLICATIONS'); not visually verified. Body text (verified against the 29 June 2026 Iridium deck, p.4) reads correctly.
+[SLIDE PAGE 6]
+ROCKET LAB BECOMES AN
+INTEGRATED SPACE POWERHOUSE
+
+COMPLETE } COMPLETE
+
+i
+
+=
+guia G
+
+LAUNCH = SPACECRAFT a SPACE APPLICATIONS
+
+Global voice, data, and PNT services
+
+Rocket Lab 32 2026 Financia
+[SLIDE PAGE 7]
+IRIDIUM ACQUISITION
+
+OUR FUTURE IN
+SPACE APPLICATIONS
+
+WILL BE
+UNLOCKED AND
+ACCELERATED
+
+This is our entrance into recurring applications
+revenue from space, but it's not the finish line.
+
+Rather than simply continuing Iridium’s
+network, we will build upon it to scale into
+untapped markets and pioneer new
+space-based services.
+
+J Rocket Lab 2 2026 Firancial Results
+
+AVIATION
+& MARINE
+
+1OT
+
+DIRECT TO
+DEVICE
+
+DEFENSE
+& GOVT
+
+a
+
+MISSION
+SERVICES
+[SLIDE PAGE 8]
+B IRIDIUM ACQUISITION
+
+mene
+
+THE ULTIMATE COMBINATION FOR GROWTH
+
+EXPANDING | STREAMLING DEPLOYMENT MORE EFFICIENT
+CAPABILITIES OF NEW INFRASTRUCTURE USE OF SPECTRUM
+
+Build upon Iridium’s existing network Eliminate third party costs Leverage new technology and
+
+to scale into untapped markets, and fast-track deployment of new capabilities to put lridium’s spectrum
+pioneer new space-based services, on-orbit infrastructure to deliver to effective use, extracting
+
+and deliver enhanced services new, advanced capabilities. substantially greater capacity and
+across loT, D2D, PNT, defense and throughput from the same finite
+national security, and aviation and | spectrum allocation.
+
+marine safety.
+
+8 Rocket Lab 32 2026 Francia Result
+[SLIDE PAGE 9]
+SECTION
+
+SPACE
+SYSTEMS
+
+[GATHERER NOTE] Section divider: 'SPACE SYSTEMS'.
+[SLIDE PAGE 10]
+SPACE SYSTEMS
+
+$397M CONTRACT
+TO BUILD AND iff -s
+LAUNCH FLATELLITES oy
+FOR SPACE FORCE
+SB-AMTI PROGRAM
+
+* Space-Based Airborne Moving Target Indicator:
+A large Space Force constellation to detect,
+track, and monitor airborne threats from space.
+
+* Includes multiple Flatellite spacecraft (+ options
+for more) launched on Neutron.
+
+* Compelling recognition of Rocket Lab's strategic
+vertical integration model.
+
+10 Rocket Lab 2 2026 Sirancial Hesults
+[SLIDE PAGE 11]
+11
+
+8 SPACE SYSTEMS
+
+NEW MARKET
+UNLOCKED:
+SELECTED 10 BUILD
+GEO SATELLITES FOR
+SPACE FORGE
+
+* Selected to build multiple geostationary satellites to deliver Space
+Domain Awareness for Space Systems Command across multiple
+contracts totalling more than $160M.
+
+* M&A synergy realized with integration of Heimdall payload from
+GEOST acauisition.
+
+* Rocket Lab's first entrance into satellite production for
+geostationary orbit, unlocking a new market.
+
+Rocket Lab §=O2 2026 Francia Results
+
+|
+
+[GATHERER VISUAL READ] Headline: 'NEW MARKET UNLOCKED: SELECTED TO BUILD GEO SATELLITES FOR SPACE FORCE' (OCR wrote 'SELECTED 10 BUILD ... SPACE FORGE'). Bullets verified as OCR'd: 'Selected to build multiple geostationary satellites to deliver Space Domain Awareness for Space Systems Command across multiple contracts totalling more than $160M.' / 'M&A synergy realized with integration of Heimdall payload from GEOST acquisition.' / 'Rocket Lab's first entrance into satellite production for geostationary orbit, unlocking a new market.'
+[SLIDE PAGE 12]
+® ELECTRON
+
+VICTUS HAZE: RECORD BREAKING
+RESPONSIVE SPACE MISSION
+
+LAUNCH RECORD: RAPID SPACECRAFT OPS: ON-ORBIT PURSUIT:
+16 HRS 42 MINS 34 HRS EARLY 25 HRS EARLY
+
+Launch on Electron with just 16 hours Spacecraft commissioning complete in Tracked and photographed a target adversary
+42 minutes’ notice — fastest response just 38 hours (34 hours faster than Space satellite in under 59 hours, well before the 84-
+
+ever for a TacRS mission. Force’s set target). hour cutoff.
+
+Rocket Lab = O2 2026 Francia Results
+
+[GATHERER VISUAL READ] Verified: 'LAUNCH RECORD: 16 HRS 42 MINS' / 'RAPID SPACECRAFT OPS: 34 HRS EARLY' / 'ON-ORBIT PURSUIT: 25 HRS EARLY'; captions as OCR'd ('...commissioning complete in just 38 hours (34 hours faster than Space Force's set target)'; '...in under 59 hours, well before the 84-hour cutoff').
+[SLIDE PAGE 13]
+13
+
+B SPACE SYSTEMS
+
+ROCKET LAB GERMANY
+
+DELIVERING EUROPEAN SOVEREIGN SPACE CAPABILITIES
+
+v
+
+SATELLITE MANUFACTURING
+
+Rocket Lab Germany is pursuing opportunities that could
+lead to the establishment of satellite bus, payload, and
+spacecraft components manufacturing in Germany.
+
+Potential for establishment of regional hub for constellation-
+class manufacturing of components, as well as spacecraft
+assembly, integration, and test.
+
+Would enable Rocket Lab to serve commercial, civil,
+and defense space programs across Europe as a
+domestic provider.
+
+Rocket Lab «= Q2 2026 Financial Results
+
+ASSURED ACCESS TO SPACE
+
+Addresses Europe's launch deficit by
+bringing a domestic, mission-tested
+launch partner to the region to
+eliminate space access bottlenecks.
+
+Provides Europe with resilient and
+responsive launch capabilities tailored
+to the region's unique needs.
+
+AND SPACE :
+
+=
+
+Europe faces glaring gaps across
+
+both launch and spacecraft
+manufacturing. Rocket Lab Germany
+addresses these directly, providing the
+region with new domestic strength to
+secure, defend, and discover ina
+rapidly evolving new space era.
+[SLIDE PAGE 14]
+SECTION
+
+if | Ss HASTE
+
+[GATHERER NOTE] Section divider; OCR garbled ('if | Ss HASTE'). By deck structure this is the 'ELECTRON & HASTE' section (pages 15-18 carry the 'ELECTRON & HASTE' or 'LAUNCH' header). Not visually verified.
+[SLIDE PAGE 15]
+15
+
+®@ LAUNCH
+
+RECORD DEMAND
+& BACKLOG
+
+Q2 2026 plus post-quarter launch contracts
+across Electron, HASTE, and Neutron.*
+
+$437M+ RECORD NEW LAUNCH CONTRACTS
+
+26 NEW LAUNCHES BOOKED
+
+90+ LAUNCHES IN BACKLOG
+
+Highest in company history.
+
+Rocket Lab «= Q2 2026 Financial Results “Includes six optional launches under the US. Space Force's suborital launch contract
+
+[GATHERER VISUAL READ] Verified: '$437M+ RECORD NEW LAUNCH CONTRACTS' / '26 NEW LAUNCHES BOOKED' / '90+ LAUNCHES IN BACKLOG - Highest in company history.' Sub-head: 'Q2 2026 plus post-quarter launch contracts across Electron, HASTE, and Neutron.*' Footnote: '*Includes six optional launches under the U.S. Space Force's suborbital launch contract.'
+[SLIDE PAGE 16]
+B@ ELECTRON S HASTE
+
+NEW
+MULTI- --- ---
+LAUNCH
+CONTRACTS ...
+SIGNED ie
+
+| bE
+|b
+
+mauno4rt L
+mawnotrtl 4
+
+é
+—
+4
+—
+-—
+> fk
+Cc
+“
+5
+é
+[
+>
+5
+k
+Dee
+
+— DEFENSE
+iOzs PRIME
+
+[GATHERER VISUAL READ] Graphic-only slide. Headline: 'NEW MULTI-LAUNCH CONTRACTS SIGNED'. Three panels of rocket illustrations with customer logos beneath: NASA (three Electron vehicles pictured), iQPS (three Electron vehicles pictured), 'DEFENSE PRIME' (two HASTE vehicles pictured). Vehicle counts are the gatherer's count of the pictured rockets, not stated numerals on the slide.
+[SLIDE PAGE 17]
+8 ELECTRON S HASTE
+
+LARGEST LAUNCH
+CONTRACT YET:
+$266M FROM
+U.S. SPACE FORCE
+
+Landmark agreement with ~18 suborbital launches,* first
+Space Force’s Space Systems launch within 6 months.
+Command solidifies Rocket
+Lab as a flight test leader for
+missile defense.
+
+* Two new launch pads and a new
+location — Launch Complex 4 —
+coming to Kodiak, Alaska.
+
+|) SPIES te etn
+uw
+
+[GATHERER CORRECTION] OCR read the headline figure as '$966M'. The slide image reads: 'LARGEST LAUNCH CONTRACT YET: $266M FROM U.S. SPACE FORCE'. The OCR text above has been corrected to $266M. Left box: 'Landmark agreement with Space Force's Space Systems Command solidifies Rocket Lab as a flight test leader for missile defense.' Bullets: '~18 suborbital launches,* first launch within 6 months.' / 'Two new launch pads and a new location - Launch Complex 4 - coming to Kodiak, Alaska.' Footnote: '*Includes six optional launches under the U.S. Space Force's suborbital launch contract.'
+[SLIDE PAGE 18]
+BM ELECTRON S HASTE
+
+INTRODUCING
+
+GrOoOSsT
+
+GLOBAL HYPERSONIC & ORBITAL SPACEPORT TECHNOLOGY
+
+LAUNCH BACK-T0 SOVEREIGN
+ANYWHERE, BACK LAUNCH ©
+ANYTIME MISSIONS EXPORT ~~
+Rockets, launch GHOST supports Bringing a one-
+infrastructure, Electron and stop shop for full
+ground support, HASTE, bringing end-to-end test
+
+and range control
+systems — delivered
+in shipping
+containers, ready
+
+to launch on rapid
+timelines.
+
+18 Rocket Lab ©2 2026 Financial Results
+
+dual-launch
+options
+
+to responsive
+launch, national
+security, and
+missile defense.
+
+regimes and
+orbital missions
+to America’s
+partners and
+allies.
+
+[GATHERER VISUAL READ] Headline: 'INTRODUCING GHOST - GLOBAL HYPERSONIC & ORBITAL SPACEPORT TECHNOLOGY' (OCR 'GrOoOSsT' = GHOST). Three columns: 'LAUNCH ANYWHERE, ANYTIME' / 'BACK-TO-BACK MISSIONS' / 'SOVEREIGN LAUNCH EXPORT'; column text as OCR'd (read down each column, not across).
+[SLIDE PAGE 19]
+SECTION
+
+Cj) <—
+
+NEW TRON
+
+[GATHERER NOTE] Section divider: 'NEUTRON' (OCR 'NEW TRON').
+[SLIDE PAGE 20]
+B® NEUTRON
+
+FLIGHT HARDWARE COMING TOGETHER
+
+ot ott } os as + -2—- -__ «- —_-0-__-e —__0-__ o- —-» —_ 0-—_e —_+ -—. he 7 a RS Ss si
+t p33 = ) i
+¢
+aio 7
+pi 7 ry 7 UW 4
+] — Oo
+
+1
+; ; ua
+a Sos \ Ci 4 :
+Pee r# s ~~ =
+SL g 7
+ARCHIMEDES ENGINES THRUST MODULE STAGE 1 STAGE 2 HUNGRY HIPPO FAIRING
+400+ hotfires completed. Final fluids and avionics integration. Assembly underway. Final integration. In pre-flight testing.
+20 Rocket Lab 2 2026 Srancial Fesult=
+
+[GATHERER VISUAL READ] Verified headline 'FLIGHT HARDWARE COMING TOGETHER' and the five captions: 'ARCHIMEDES ENGINES - 400+ hotfires completed.' / 'THRUST MODULE - Final fluids and avionics integration.' / 'STAGE 1 - Assembly underway.' / 'STAGE 2 - Final integration.' / 'HUNGRY HIPPO FAIRING - In pre-flight testing.' Line drawings of the vehicle sections above the photos.
+[SLIDE PAGE 21]
+rh i
+
+STAG GE
+IN Fl
+ASSE
+
+Stage 1: Production making progress following
+transition from hand layup to automated fiber
+placement, with barrel section and propellant
+tank domes moving into assembly and fitout.
+
+Production of the Stage 1 tank currently aligns
+with target delivery of Neutron to the launch
+pad in Q4 2026.
+
+interstage: Completed qualification load tests
+to validate design and performance. Now
+moving into flight assembly for first launch.
+
+—
+
+Rocket Lab =O2 2026 Financial
+
+[GATHERER VISUAL READ] Headline: 'STAGE 1 IN FINAL ASSEMBLY'. Body text verified as OCR'd.
+[SLIDE PAGE 22]
+® NEUTRON
+
+STAGE |
+INTEGRATIC
+HEN SHIPF
+
+T0 LC
+a
+
+Stage 2: Completing fluids and avionics
+integration and checkouts.
+
+Stage 2 being prepared to ship directly
+to Launch Complex 3 for final test
+campaign before first launch.
+
+[GATHERER VISUAL READ] Headline: 'STAGE 2: INTEGRATION THEN SHIPPING TO LC-3'. Body text verified as OCR'd.
+[SLIDE PAGE 23]
+NEUTRON
+
+Final avionics and fluids
+integration as well as engine k
+fit-checks completed ahead
+of testing on the launch pad.
+
+af
+aint
+SY \ 2
+e tT .
+i \
+
+23 Rocket Lab O2 2026 Sreancia Fesults
+
+[GATHERER VISUAL READ] Headline: 'THRUST MODULE: INTEGRATION THEN SHIPPING TO LC-3'. Body: 'Final avionics and fluids integration as well as engine fit-checks completed ahead of testing on the launch pad.'
+[SLIDE PAGE 24]
+400+ hotfire tests completed across Stage 1 and
+Stage 2 engines, including beyond the power and
+mission duty cycle required.
+
+Control and durability validated across flight
+hardware for all major engine components.
+
+Full engine set for Neutron’s first launch are in
+production. Once qualification program is completed,
+these will enter the acceptance test program before
+being shipped to LC-3 for integration.
+
+[GATHERER VISUAL READ] Headline: 'ENGINE TESTING: HEADING INTO FINAL STRETCH'. Body text verified as OCR'd.
+[SLIDE PAGE 25]
+wi i
+
+HUNGRY HIP
+PRE-FLIGHT
+
+Hungry Hippo reusable fairing:
+Final checkouts underway before
+Hungry Hippo is ready for flight
+and attached to the rest of the
+first stage.
+
+Rocket Lab «= Q2 2026 Financial Results
+
+[GATHERER VISUAL READ] Headline: 'HUNGRY HIPPO IN PRE-FLIGHT TESTING'. Body text verified as OCR'd.
+[SLIDE PAGE 26]
+® NEUTRON
+
+NEW COMMERCIAL
+AND DEFENSE
+LAUNCHES
+
+SIGNED
+
+Constellation launch for
+
+Kepler Communications —
+
+the first time Kepler has
+
+booked a dedicated mission Dedicated launch with
+
+ona commercial launch multiple Rocket Lab
+
+vehicle. Flatellites for Space Force's
+SB-AMTI program to detect
+
+Launching NET 2028. airborne threats from space.
+
+26 Rocket Lab 2 2026 Francia Results
+
+[GATHERER VISUAL READ] Headline: 'NEW COMMERCIAL AND DEFENSE LAUNCHES SIGNED'. Left box: 'Constellation launch for Kepler Communications - the first time Kepler has booked a dedicated mission on a commercial launch vehicle. Launching NET 2028.' Right box: 'Dedicated launch with multiple Rocket Lab Flatellites for Space Force's SB-AMTI program to detect airborne threats from space.'
+[SLIDE PAGE 27]
+m@ NEUTRON ES
+
+HIGH DEMAND FOR EARLY
+NEUTRON LAUNCH SLO
+
+COMMERCIAL ; DEFENSE IRIDIUM @)
+
+1x launch for Kepler Communications. Dedicated launch for Space Force’s Neutron capacity will be reserved for
+
+SB-AMTI program. launching Iridium's next-gen constellation
+; ; under a self-launching space applications
+
+National Security Space Launch (NSSL) business model once the acquisition is
+
+provider. complete.
+
+7x confidential customer launches.
+
+Launching U.S. Air Force point-to-point
+delivery experiment.
+
+[GATHERER VISUAL READ] Headline: 'HIGH DEMAND FOR EARLY NEUTRON LAUNCH SLOTS'. COMMERCIAL: '1x launch for Kepler Communications.' / '7x confidential customer launches.' DEFENSE: 'Dedicated launch for Space Force's SB-AMTI program.' / 'National Security Space Launch (NSSL) provider.' / 'Launching U.S. Air Force point-to-point delivery experiment.' IRIDIUM: 'Neutron capacity will be reserved for launching Iridium's next-gen constellation under a self-launching space applications business model once the acquisition is complete.'
+[SLIDE PAGE 28]
+SECTION
+
+FINANCIAL
+FIGHLIGH TS
+AND OUTLOOK
+
+[GATHERER NOTE] Section divider: 'FINANCIAL HIGHLIGHTS AND OUTLOOK'.
+[SLIDE PAGE 29]
+BM FINANCIAL HIGHLIGHTS
+
+REVIEW OF REVENUE
+AND GROSS MARGINS
+
+$234M 62%
+
+REVENUE AND GAAP / NON-GAAP GROSS MARGIN
+
+$950M $234.1
+
+$200.3
+pasa $144.5
+$136.7
+
+Revenue increase 62% or $89.6M year-on-year, driven
+by growth in our Space Systems business, primarily due
+to increased contribution from our SDA Tranche II and
+Tranche Ill contracts and our components businesses.
+
+Sequential revenue increase of 16.8% quarter-over-
+quarter, or $33.7M, driven by strong growth in
+
+our satellite platforms business, paired with growth
+
+in our components business, particularly laser
+communications as we integrate the Mynaric
+acquisition.
+
+Year-on-Year GAAP gross margin increase was
+driven by anincrease in Electron fixed cost
+absorption due to increased launch cadence and
+increased ASP, paired with a favorable product mix
+within our space systems business.
+
+Quarter-on-Quarter Q2 gross margin decrease was
+driven by a shift in mix within our space systems
+business, as our slightly lower gross margin satellite
+platforms business begins to take more share.
+
+[GATHERER VISUAL READ of the chart "REVENUE AND GAAP / NON-GAAP GROSS MARGIN"; chart labels were not captured by OCR]
+Stacked bars ($M), Space Systems (black) + Launch (red) = total:
+  Q2 2025: total $144.5 = Space Systems $97.9 + Launch $46.6
+  Q1 2026: total $200.3 = Space Systems $136.7 + Launch $63.7
+  Q2 2026: total $234.1 = Space Systems $189.5 + Launch $44.6
+Lines: GAAP GM (light grey) 32.1% (Q2 2025), 38.2% (Q1 2026), 36.1% (Q2 2026); Non-GAAP GM (dark grey) 36.9% (Q2 2025), 43.0% (Q1 2026), 41.5% (Q2 2026).
+Legend: Space Systems ($M) / Launch ($M) / GAAP GM / Non-GAAP GM. Left axis $0M-$250M, right axis 0%-60%.
+Footnote: "Note: Non-GAAP gross margin reconciliations can be found in our Earnings Release dated August 10, 2026."
+Big-number callouts: "$234M Revenue in Q2 2026" and "62% Year-on-Year revenue increase".
+Cross-check: GAAP GM values equal gross profit / revenue from the press releases (84,576/234,066 = 36.1%; 76,493/200,348 = 38.2%; 46,388/144,498 = 32.1%).
+[SLIDE PAGE 30]
+MW FINANCIAL HIGHLIGHTS
+
+REVIEW OF BACKLOG
+$2.36 BILLION
+
+Q1'26 ENDING BACKLOG: $2.2B Q2'26 ENDING BACKLOG: $2.36B
+
+BACKLOG BY SEGMENT BACKLOG BY SEGMENT
+
+BACKLOG BY CUSTOMER BACKLOG BY CUSTOMER
+
+Sequential backlog increase of 6.1%
+quarter-over-quarter, or $136M, driven by
+significant bookings within both our launch
+segment and space systems segment.
+
+We expect approximately 45.5% of our
+ending Q2 backlog to be recognized within
+12 months with the remaining 54.5% to be
+recognized beyond 12 months.
+
+Healthy pipeline including multi-launch
+deals and large Satellite Manufacturing
+contracts can create lumpiness in backlog
+growth given the size and complexities of
+these opportunities.
+
+[GATHERER VISUAL READ of the four pie charts; percentages were not captured by OCR]
+Left panel "Q1'26 ENDING BACKLOG: $2.2B": BACKLOG BY SEGMENT - Space Systems 58% (red), Launch 42% (black). BACKLOG BY CUSTOMER - Commercial 51% (red), Government 49% (black).
+Right panel "Q2'26 ENDING BACKLOG: $2.36B": BACKLOG BY SEGMENT - Space Systems 60% (red), Launch 40% (black). BACKLOG BY CUSTOMER - Commercial 57% (red), Government 43% (black).
+Sub-head: "$2.36 BILLION - Backlog as of Q2 2026." Right-hand text boxes as OCR'd above.
+[SLIDE PAGE 31]
+MW FINANCIAL HIGHLIGHTS
+
+REVIEW OF OPERATING EXPENSES
+
+QUARTER-ON-QUARTER
+
+GAAP & NON-GAAP OPERATING EXPENSES
+GAAP and Non-GAAP SG&A expense
+— increased sequentially primarily due to
+the integration of the Mynaric acquisition
+
+$132.5
+
+GAAP and Non-GAAP R&D expense
+increased primarily due to the integration
+of the Mynaric acquisition, paired with
+continued investment within our Neutron
+program.
+
+212
+
+mGAAPR&D ($M) mGAAPSG&A($M) Non-GAAP R&D($M) -# Non-GAAP SG&A($M)
+
+Note: Non-GAAP R&D and SG&A expense reconciliations can be found in our Earnings Release dated August 10, 2026
+
+[GATHERER VISUAL READ of the chart "GAAP & NON-GAAP OPERATING EXPENSES" ($M); OCR captured only the totals]
+Q1 2026: GAAP total $132.5 = GAAP R&D $80.5 (red) + GAAP SG&A $51.9 (black); Non-GAAP total $105.1 = Non-GAAP R&D $74.7 + Non-GAAP SG&A $30.4.
+Q2 2026: GAAP total $142.1 = GAAP R&D $82.4 + GAAP SG&A $59.7; Non-GAAP total $115.7 = Non-GAAP R&D $75.5 + Non-GAAP SG&A $40.2 (the $40.2 label is partly obscured on the slide; it matches the release's $40,246 thousand).
+Footnote: "Note: Non-GAAP R&D and SG&A expense reconciliations can be found in our Earnings Release dated August 10, 2026."
+[SLIDE PAGE 32]
+BM FINANCIAL HIGHLIGHTS
+
+EPS NON-GAAP FREE CASH FLOW GAAP EPS loss declined sequentially,
+| | primarily due to the inclusion of Mynaric results
+AN D ADJ EB TDA following the acquisition close during the
+
+quarter, which we expect to meaningfully
+
+QUARTER-ON-QUARTER improve as we look to scale the business and
+realize synergies.
+
+$2.4B in cash and cash equivalents, marketable securities and restricted cash,
+enables continued investment in strategic growth opportunities.
+
+Purchases of property, equipment and
+capitalized software decreased $1M
+GAAP EPS NON-GAAP FREE CASH FLOW AD) EBITDA sequentially to $26M as we continue to invest
+in the Return on Investment barge, as well as
+Q2 2026 QI 2026 Q2 2026 launch and test infrastructure.
+
+Negative GAAP Operating Cash Flow
+decreased $33.7M sequentially, as we
+continue to invest in scaling Neutron beyond
+flight 1 and invest in inventory for future flights,
+paired with fees related to the announced
+transaction of Iridium.
+
+-$77.4
+
+-$110.1
+
+Adj. EBITDA loss improved $2.9M sequentially
+due to a strong increase in revenue paired with
+strong gross margin.
+
+[GATHERER VISUAL READ of the three charts; bar labels were only partly captured by OCR]
+Headline: "EPS, NON-GAAP FREE CASH FLOW, AND ADJ EBITDA - QUARTER-ON-QUARTER". Banner: "$2.4B in cash and cash equivalents, marketable securities and restricted cash, enables continued investment in strategic growth opportunities."
+GAAP EPS chart: Q1 2026 -$0.07; Q2 2026 -$0.08.
+NON-GAAP FREE CASH FLOW chart ($M): Q1 2026 = Purchases of property, equipment and software -$27.1 (red) + GAAP Operating Cash Flow -$50.3 (black) = -$77.4. Q2 2026 = -$26.0 (red) + -$84.1 (black) = -$110.1.
+ADJ EBITDA chart ($M): Q1 2026 -$11.8; Q2 2026 -$8.8.
+Footnote: "Note: Non-GAAP free cash flow is defined as GAAP operating cash flow reduced by purchases of property, equipment and software. Consistent with past practice, we have defined adjusted EBITDA to reflect adjustments for stock-based compensation, transaction costs, depreciation and amortization, FX gains and losses, interest expense, taxes, change in fair value of contingent consideration, and other recurring and non-recurring items. A reconciliation of our GAAP and non-GAAP presentations is included in our Earnings Release dated August 10, 2026"
+Right-hand text boxes as OCR'd above (GAAP EPS loss; Purchases of property, equipment and capitalized software decreased $1M sequentially to $26M; Negative GAAP Operating Cash Flow decreased $33.7M sequentially; Adj. EBITDA loss improved $2.9M sequentially).
+[SLIDE PAGE 33]
+BM FINANCIAL HIGHLIGHTS
+
+Q3 2026 OUTLOOK
+
+Q3 2026
+REVENUE OUTLOOK
+
+¢ Expect revenue to
+range between
+$250 million to
+$265 million.
+
+¢ Expect year-over-year
+increases in both
+Space Systems and
+Launch revenue.
+
+Q3 2026 GAAP
+AND NON-GAAP
+GROSS MARGINS
+
+¢« Expect GAAP gross
+margin to range
+between 29 - 31%,
+driven by weaker mix
+within several of our
+product lines.
+
+Expect Non-GAAP
+gross margin of
+
+Q3 2026 GAAP
+AND NON-GAAP
+OPERATING EXPENSE
+
+« Expect GAAP Operating
+
+Expenses of $143 million
+to $149 million.
+
+¢« Expect Non-GAAP
+Operating Expenses of
+$121 million
+to $127 million.
+
+Q3 2026
+ADJUSTED EBITDA
+
+¢ Expect Interest Income,
+net of $21 million.
+
+« Adjusted EBITDA loss of
+$17 million to $23 million."
+
+* Weighted Average Shares
+Outstanding of 641
+million.
+
+[GATHERER VISUAL READ; OCR truncated the second gross-margin bullet and the footnotes]
+Q3 2026 REVENUE OUTLOOK: "Expect revenue to range between $250 million to $265 million." / "Expect year-over-year increases in both Space Systems and Launch revenue."
+Q3 2026 GAAP AND NON-GAAP GROSS MARGINS: "Expect GAAP gross margin to range between 29 - 31%, driven by weaker mix within several of our product lines." / "Expect Non-GAAP gross margin of 35 - 37%."
+Q3 2026 GAAP AND NON-GAAP OPERATING EXPENSE: "Expect GAAP Operating Expenses of $143 million to $149 million." / "Expect Non-GAAP Operating Expenses of $121 million to $127 million."
+Q3 2026 ADJUSTED EBITDA: "Expect Interest Income, net of $21 million." / "Adjusted EBITDA loss of $17 million to $23 million.(1)" / "Weighted Average Shares Outstanding of 641 million."
+Note: "Stock-based compensation is currently expected to range from $18 million to $20 million in Q3 2026."
+Footnote 1: "Consistent with past practice, we have defined adjusted EBITDA to reflect adjustments for stock-based compensation, transaction costs, depreciation and amortization, FX gains and losses, interest expense, taxes, acquisition related performance reserve escrow, and other recurring and non-recurring items. Note: For a description of other Non-GAAP measures used herein, see our Earnings Release dated August 10, 2026 contained on our website at investors.rocketlabcorp.com. We have not provided a reconciliation for the forward-looking non-GAAP financial measures because, without unreasonable efforts, we are unable to predict with reasonable certainty the amount and timing of adjustments that are used to calculate these non-GAAP financial measures, particularly related to stock-based compensation and its related tax effects."
+[SLIDE PAGE 34]
+W GENERAL
+
+UPCOMING INVESTOR EVENTS
+
+WORLD
+SPACE
+
+BUSINESS
+WEEK
+
+WORLD SPACE
+BUSINESS
+WEEK
+
+Sep. 14-17, 2026
+
+Adam Spice
+
+CFO
+
+14" ANNUAL
+LAGUNA
+CONFERENCE
+
+Sep. 15-17, 2026
+
+Stephen Ananias
+
+VP — Finance
+
+inte
+
+GLOBAL SPACE
+AND DEFENSE
+TECH SUMMIT
+
+Nov. 17-18, 2026
+
+Adam Spice
+
+CFO
+
+ee ecdham
+
+7" ANNUAL
+
+NEEDHAM VIRTUAL
+
+_ TECH WEEK
+
+Nov. 18-20, 2026
+
+Adam Spice
+CFO
+
+P
+
+|
+
+[GATHERER NOTE] 'UPCOMING INVESTOR EVENTS': World Space Business Week, Sep. 14-17, 2026 (Adam Spice, CFO); 14th Annual Laguna Conference, Sep. 15-17, 2026 (Stephen Ananias, VP - Finance); Global Space and Defense Tech Summit, Nov. 17-18, 2026 (Adam Spice, CFO); 7th Annual Needham Virtual Tech Week, Nov. 18-20, 2026 (Adam Spice, CFO). OCR 'ee ecdham' = Needham logo.
+[SLIDE PAGE 35]
+(image-only page)
+
+[GATHERER NOTE] Image-only page (photo); no text. OCR output for this page was noise and has been removed.
+[SLIDE PAGE 36]
+“TRANK YOU
+
+rocketlabcorp.com
+
+ROCKS TuANsS
+
+[GATHERER VISUAL READ] Closing slide: 'THANK YOU' / rocketlabcorp.com / Rocket Lab logo.

@@ -1,0 +1,2486 @@
+Table of Contents
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, DC 20549
+
+_________________________________________________________
+
+FORM 10-Q
+
+_________________________________________________________
+
+(Mark One)
+
+x QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+For the quarterly period ended June 30, 2026
+
+OR
+
+o TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+For the transition period from___________to
+
+Commission File Number: 001-39560
+
+_________________________________________________________
+
+ROCKET LAB CORPORATION
+
+(Exact Name of Registrant as Specified in its Charter)
+
+_________________________________________________________
+
+Delaware | 39-2182599
+
+(State or other jurisdiction of incorporation or organization) | (I.R.S. Employer Identification No.)
+
+3881 McGowen Street Long Beach , California | 90808
+
+(Address of principal executive offices) | (Zip Code)
+
+Registrant’s telephone number, including area code: (714) 465-5737
+
+_________________________________________________________
+
+Securities registered or to be registered pursuant to Section 12(b) of the Act.
+
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+
+Common Stock, par value $0.0001 per share | RKLB | Nasdaq Global Select Market
+
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes x No o
+
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§ 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes x No o
+
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+
+Large accelerated filer | x | Accelerated filer | o
+
+Non-accelerated filer | o | Smaller reporting company | o
+
+Emerging growth company | o
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. o
+
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes o No x
+
+As of August 5, 2026, the registrant had 598,350,482 shares of common stock, $0.0001 par value per share, outstanding.
+
+Table of Contents
+
+CAUTIONARY NOTE REGARDING FORWARD-LOOKING STATEMENTS
+
+Certain statements in this Quarterly Report on Form 10-Q may constitute “forward-looking statements” for purposes of the federal securities laws. The information included in this Quarterly Report on Form 10-Q has been provided by us and our management, and such forward-looking statements include statements relating to the expectations, hopes, beliefs, intentions or strategies regarding the future of Rocket Lab Corporation and its consolidated subsidiaries (the “Company” or "Rocket Lab") and its management team. In addition, any statements that refer to projections, forecasts or other characterizations of future events or circumstances, including any underlying assumptions, are forward-looking statements. The words “anticipate,” “believe,” “could,” “estimate,” “expect,” “intends,” “may,” “might,” “plan,” “potential,” “predict,” “project,” “should,” “will,” “would” and similar expressions may identify forward-looking statements, but the absence of these words does not mean that a statement is not forward-looking. The forward-looking statements contained in this Quarterly Report on Form 10-Q are based on current expectations and beliefs concerning future developments and their potential effects on Rocket Lab. There can be no assurance that future developments affecting us will be those that we have anticipated. These forward-looking statements involve a number of risks, uncertainties (some of which are beyond our control) or other assumptions that may cause actual results or performance to be materially different from those expressed or implied by these forward-looking statements. These risks and uncertainties include, but are not limited to, those factors described below and under the heading “Risk Factors.”
+
+•Our ability to effectively manage future growth and achieve operational efficiencies;
+
+•any inability of us to operate our Electron Launch Vehicle (“Electron”) at its anticipated launch rate, including due to any government action related to launch failure and our ability to operate, could adversely impact our business, financial condition and results of operations;
+
+•our inability to develop our Neutron Launch Vehicle (“Neutron”) or significant delays in developing Neutron could adversely impact our business, financial condition and results of operations;
+
+•risks and uncertainties associated with the Iridium Transaction (as defined below);
+
+•success in retaining or recruiting, or changes required in, officers, key employees or directors, and our ability to attract and retain key personnel, including Sir Peter Beck, our President, Chief Executive Officer and Chairman;
+
+•our inability to utilize our launch pads at our private launch complex in Mahia, New Zealand or at NASA’s Wallops Flight Facility, at Wallops Island, Virginia with sufficient frequency to support our launch cadence and future related revenue growth expectations could adversely impact our business, financial condition and results of operations;
+
+•our spacecraft, space systems or space system components failing to operate as intended could have a material adverse effect on our business, financial condition and results of operations;
+
+•the ability to implement our business plans, forecasts and other expectations, including the integration of recently acquired businesses, and to identify and realize additional opportunities;
+
+•changes in the competitive and highly regulated industries in which we operate, variations in operating performance across competitors, changes in laws and regulations affecting our business and changes in our capital structure;
+
+•changes in governmental policies, priorities, regulations, mandates or funding for programs in which we or our customers participate, which could negatively impact our business;
+
+•changes in trade policies, including tariffs;
+
+•loss of, or default by, one or more of our key customers or inability of customers to fund contractual commitments, which could result in a decline in future revenues, cancellation of contracted launches or space systems orders or termination or default of existing agreements;
+
+•the inability to comply with, and costs associated with complying with, any contractual requirements, covenants and applicable regulations, and specifically, United States (“U.S.”) government contract regulations, which could result in loss of contract opportunities, contract modifications or termination, assessment of penalties and fines, and suspension or debarment from U.S. government contracting or subcontracting;
+
+•defects in or failure of our products to operate in the expected manner, including any launch failure, which could result in a loss of revenue, impact our business, prospects and profitability, increase our insurance rates and damage our reputation and ability to obtain future customers;
+
+Table of Contents
+
+•any significant disruption in or unauthorized access to our computer systems or those of third parties that we utilize in our operations, including those relating to cybersecurity or arising from cyber-attacks;
+
+•inability or failure to protect intellectual property;
+
+•disruptions in the supply of key raw materials or components used to produce our products or increases in prices of raw materials, including restrictions on our ability to obtain rare earth minerals;
+
+•the diversion of management’s attention and consumption of resources as a result of acquisitions of other companies and success in integrating and otherwise achieving the benefits of recent and potential acquisitions;
+
+•global inflation and interest rates, and fluctuations in foreign exchange rates;
+
+•impacts of the wars in Ukraine, Israel, Iran or other global conflicts;
+
+•the risk of downturns in government and commercial launch services and spacecraft industries;
+
+•our ability to anticipate changes in the markets for rocket launch services, mission services, spacecraft and spacecraft components;
+
+•failure to maintain adequate operational and financial resources or raise additional capital or generate sufficient cash flows; and
+
+•other factors detailed under the section of this Quarterly Report on Form 10-Q entitled “Risk Factors.”
+
+Should one or more of these risks or uncertainties materialize, or should any of our assumptions prove incorrect, actual results may vary in material respects from those projected in these forward-looking statements. Some of these risks and uncertainties may in the future be amplified by a global crisis and/or any response to such a crisis and there may be additional risks that we consider immaterial or which are unknown. It is not possible to predict or identify all such risks. We do not undertake any obligation to update or revise any forward-looking statements, whether as a result of new information, future events or otherwise, except as may be required under applicable securities laws.
+
+You should read this Quarterly Report on Form 10-Q and the documents that we reference in this Quarterly Report on Form 10-Q and have filed with the Securities and Exchange Commission (the “SEC”) as exhibits to this Quarterly Report on Form 10-Q with the understanding that our actual future results, levels of activity, performance and events and circumstances may be materially different from what we expect. All forward-looking statements are qualified in their entirety by this cautionary statement.
+
+You should also note that we may announce material business and financial information to our investors using our website (including at https://investors.rocketlabcorp.com), filings with the SEC, webcasts, press releases, and conference calls. We use these mediums, as well as our official corporate accounts on social media outlets such as X (formerly Twitter), Facebook, LinkedIn, Instagram, Bluesky and YouTube, to broadcast our launches and other significant events, and to communicate with the public about our company, our products, and other matters. It is possible that the information that we make available may be deemed to be material information. We therefore encourage investors and others interested in our company to review the information that we make available on our website and through our other official social media channels. The information contained on, or that can be accessed through, our website or our social media channels is not a part of this Quarterly Report on Form 10-Q.
+
+Unless the context requires otherwise, references in this Quarterly Report to “Rocket Lab,” “Company,” “we,” “us” and “our” refer to Rocket Lab Corporation and our subsidiaries.
+
+Table of Contents
+
+ROCKET LAB CORPORATION AND SUBSIDIARIES
+
+FORM 10-Q
+
+June 30, 2026
+
+Table of Contents
+
+Page
+
+PART I. | FINANCIAL INFORMATION | 5
+
+Item 1. | Condensed Consolidated Financial Statements (Unaudited) | 5
+
+Condensed Consolidated Balance Sheets as of June 30, 2026 and December 31, 2025 | 5
+
+Condensed Consolidated Statements of Operations and Comprehensive Loss for the Three and Six Months Ended June 30, 2026 and 2025 | 6
+
+Condensed Consolidated Statements of Changes in Stockholders’ Equity for the Three and Six Months Ended June 30, 2026 and 2025 | 7
+
+Condensed Consolidated Statements of Cash Flows for the Six Months Ended June 30, 2026 and 2025 | 8
+
+Notes to Condensed Consolidated Financial Statements | 9
+
+Item 2. | Management’s Discussion and Analysis of Financial Condition and Results of Operations | 34
+
+Item 3. | Quantitative and Qualitative Disclosures About Market Risk | 46
+
+Item 4. | Controls and Procedures | 47
+
+PART II. | OTHER INFORMATION | 48
+
+Item 1. | Legal Proceedings | 48
+
+Item 1A. | Risk Factors | 48
+
+Item 2. | Unregistered Sales of Equity Securities | 52
+
+Item 3. | Defaults Upon Senior Securities | 52
+
+Item 4. | Mine Safety Disclosures | 52
+
+Item 5. | Other Information | 52
+
+Item 6. | Exhibits | 53
+
+Signatures | 54
+
+4
+
+Table of Contents
+
+PART I. FINANCIAL INFORMATION
+
+ITEM 1. CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+
+ROCKET LAB CORPORATION AND SUBSIDIARIES
+
+CONDENSED CONSOLIDATED BALANCE SHEETS
+
+AS OF JUNE 30, 2026 AND DECEMBER 31, 2025
+
+(unaudited; in thousands, except share and per share values)
+
+June 30, 2026 | December 31, 2025
+
+Assets
+
+Current assets:
+
+Cash and cash equivalents | $2,129,485 | $828,660
+
+Marketable securities, current | 172,700 | 187,917
+
+Accounts receivable, net | 112,889 | 39,001
+
+Contract assets | 94,245 | 61,606
+
+Inventories | 266,931 | 158,407
+
+Prepaids and other current assets | 119,509 | 89,953
+
+Total current assets | 2,895,759 | 1,365,544
+
+Non-current assets:
+
+Property, plant and equipment, net | 393,946 | 319,473
+
+Intangible assets, net | 320,415 | 224,746
+
+Goodwill | 299,072 | 205,750
+
+Right-of-use assets - operating leases | 113,690 | 90,371
+
+Right-of-use assets - finance leases | 12,349 | 13,895
+
+Marketable securities, non-current | 85,405 | 82,247
+
+Restricted cash | 8,413 | 4,885
+
+Deferred income tax assets, net | 1,057 | 1,895
+
+Other non-current assets | 57,268 | 15,672
+
+Total assets | $4,187,374 | $2,324,478
+
+Liabilities and Stockholders’ Equity
+
+Current liabilities:
+
+Trade payables | $74,512 | $72,699
+
+Accrued expenses | 44,206 | 19,299
+
+Employee benefits payable | 29,118 | 25,803
+
+Contract liabilities | 351,193 | 195,438
+
+Other current liabilities | 29,167 | 21,237
+
+Total current liabilities | 528,196 | 334,476
+
+Non-current liabilities:
+
+Convertible senior notes, net | 13,129 | 152,395
+
+Long-term borrowings, net | 1,716 | 1,716
+
+Non-current operating lease liabilities | 104,378 | 85,191
+
+Non-current finance lease liabilities | 14,468 | 14,653
+
+Deferred income tax liabilities | 10,146 | 1,241
+
+Other non-current liabilities | 23,188 | 12,952
+
+Total liabilities | 695,221 | 602,624
+
+COMMITMENTS AND CONTINGENCIES (Note 15)
+
+Stockholders’ equity:
+
+Preferred stock, $ 0.0001 par value; authorized shares: 100,000,000 ; issued and outstanding shares: 40,951,250 and 45,951,250 at June 30, 2026 and December 31, 2025, respectively | 4 | 5
+
+Common stock, $ 0.0001 par value; authorized shares: 2,500,000,000 ; issued shares: 639,131,688 and 589,525,802 at June 30, 2026 and December 31, 2025, respectively; outstanding shares: 598,180,438 and 543,574,552 at June 30, 2026 and December 31, 2025, respectively | 60 | 54
+
+Treasury stock, at cost; shares: 40,951,250 and 45,951,250 at June 30, 2026 and December 31, 2025, respectively | — | —
+
+Additional paid-in capital | 4,606,854 | 2,735,669
+
+Accumulated deficit | ( 1,106,190 ) | ( 1,011,910 )
+
+Accumulated other comprehensive loss | ( 8,575 ) | ( 1,964 )
+
+Total stockholders’ equity | 3,492,153 | 1,721,854
+
+Total liabilities and stockholders’ equity | $4,187,374 | $2,324,478
+
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+
+5
+
+Table of Contents
+
+ROCKET LAB CORPORATION AND SUBSIDIARIES
+
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE LOSS
+
+FOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2026 AND 2025
+
+(unaudited; in thousands, except share and per share data)
+
+Three Months Ended June 30, | Six Months Ended June 30,
+
+2026 | 2025 | 2026 | 2025
+
+Revenues:
+
+Product revenues | $181,347 | $92,725 | $308,835 | $173,529
+
+Service revenues | 52,719 | 51,773 | 125,579 | 93,538
+
+Total revenues | 234,066 | 144,498 | 434,414 | 267,067
+
+Cost of revenues:
+
+Cost of product revenues | 117,439 | 61,692 | 198,523 | 115,561
+
+Cost of service revenues | 32,051 | 36,418 | 74,822 | 69,871
+
+Total cost of revenues | 149,490 | 98,110 | 273,345 | 185,432
+
+Gross profit | 84,576 | 46,388 | 161,069 | 81,635
+
+Operating expenses:
+
+Research and development, net | 82,429 | 66,134 | 162,942 | 121,243
+
+Selling, general and administrative | 59,661 | 39,893 | 111,610 | 79,219
+
+Total operating expenses | 142,090 | 106,027 | 274,552 | 200,462
+
+Operating loss | ( 57,514 ) | ( 59,639 ) | ( 113,483 ) | ( 118,827 )
+
+Other income (expense):
+
+Interest expense | ( 581 ) | ( 7,390 ) | ( 1,855 ) | ( 14,185 )
+
+Interest income | 16,486 | 5,019 | 26,635 | 9,228
+
+Loss on foreign exchange | ( 1,954 ) | ( 489 ) | ( 1,798 ) | ( 623 )
+
+Other expense, net | ( 368 ) | ( 977 ) | ( 244 ) | ( 498 )
+
+Total other income (expense), net | 13,583 | ( 3,837 ) | 22,738 | ( 6,078 )
+
+Loss before income taxes | ( 43,931 ) | ( 63,476 ) | ( 90,745 ) | ( 124,905 )
+
+Provision for income taxes | ( 5,327 ) | ( 2,938 ) | ( 3,535 ) | ( 2,125 )
+
+Net loss | $( 49,258 ) | $( 66,414 ) | $( 94,280 ) | $( 127,030 )
+
+Other comprehensive loss, net of tax:
+
+Foreign currency translation (loss) gain | ( 5,358 ) | 3,095 | ( 5,739 ) | 3,471
+
+Unrealized (loss) gain on available-for-sale marketable securities | ( 247 ) | ( 20 ) | ( 872 ) | 39
+
+Comprehensive loss | $( 54,863 ) | $( 63,339 ) | $( 100,891 ) | $( 123,520 )
+
+Net loss per share attributable to Rocket Lab Corporation:
+
+Basic and diluted | $( 0.08 ) | $( 0.13 ) | $( 0.15 ) | $( 0.25 )
+
+Weighted-average common shares outstanding:
+
+Basic and diluted | 629,681,803 | 515,086,631 | 617,625,210 | 510,376,584
+
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+
+6
+
+Table of Contents
+
+ROCKET LAB CORPORATION AND SUBSIDIARIES
+
+CONDENSED CONSOLIDATED STATEMENTS OF CHANGES IN STOCKHOLDERS’ EQUITY
+
+FOR THE THREE AND SIX MONTHS ENDED JUNE 30, 2026 AND 2025
+
+(unaudited; in thousands, except share and per share data)
+
+Preferred Stock | Common Stock | Treasury Stock | Additional Paid-In Capital | Accumulated Deficit | Accumulated Other Comprehensive Loss
+
+Shares | Amount | Shares | Amount | Shares | Amount | Total
+
+December 31, 2025 | 45,951,250 | $5 | 589,525,802 | $54 | ( 45,951,250 ) | $— | $2,735,669 | $( 1,011,910 ) | $( 1,964 ) | $1,721,854
+
+Net loss | — | — | — | — | — | — | — | ( 45,022 ) | — | ( 45,022 )
+
+Issuance of common stock under equity plans | — | — | 2,801,601 | 1 | — | — | 1,080 | — | — | 1,081
+
+Stock-based compensation expense | — | — | — | — | — | — | 26,666 | — | — | 26,666
+
+Issuance of common stock under ATM Equity Offering, net of issuance costs | — | — | 6,358,097 | 1 | — | — | 444,921 | — | — | 444,922
+
+Issuance of common stock upon conversion of convertible senior notes | — | — | 23,033,250 | 2 | — | — | 115,870 | — | — | 115,872
+
+Other comprehensive loss | — | — | — | — | — | — | — | — | ( 1,006 ) | ( 1,006 )
+
+March 31, 2026 | 45,951,250 | 5 | 621,718,750 | 58 | ( 45,951,250 ) | — | 3,324,206 | ( 1,056,932 ) | ( 2,970 ) | 2,264,367
+
+Net loss | — | — | — | — | — | — | — | ( 49,258 ) | — | ( 49,258 )
+
+Issuance of common stock under equity plans | — | — | 2,256,184 | — | — | — | 8,519 | — | — | 8,519
+
+Stock-based compensation expense | — | — | — | — | — | — | 21,516 | — | — | 21,516
+
+Issuance of common stock under ATM Equity Offering, net of issuance costs | — | — | 8,152,223 | 1 | — | — | 1,067,831 | — | — | 1,067,832
+
+Preferred Stock conversion | ( 5,000,000 ) | ( 1 ) | — | 1 | 5,000,000 | — | — | — | — | —
+
+Issuance of common stock for acquisition | — | — | 2,277,002 | — | — | — | 160,802 | — | — | 160,802
+
+Issuance of common stock upon conversion of convertible senior notes | — | — | 4,727,529 | — | — | — | 23,980 | — | — | 23,980
+
+Other comprehensive loss | — | — | — | — | — | — | — | — | ( 5,605 ) | ( 5,605 )
+
+June 30, 2026 | 40,951,250 | $4 | 639,131,688 | $60 | ( 40,951,250 ) | $— | $4,606,854 | $( 1,106,190 ) | $( 8,575 ) | $3,492,153
+
+Preferred Stock | Common Stock | Treasury Stock | Additional Paid-In Capital | Accumulated Deficit | Accumulated Other Comprehensive Income (Loss)
+
+Shares | Amount | Shares | Amount | Shares | Amount | Total
+
+December 31, 2024 | — | $— | 504,453,785 | $50 | — | $— | $1,198,909 | $( 813,701 ) | $( 2,805 ) | $382,453
+
+Net loss | — | — | — | — | — | — | — | ( 60,616 ) | — | ( 60,616 )
+
+Issuance of common stock under equity plans | — | — | 2,179,607 | — | — | — | 48 | — | — | 48
+
+Stock-based compensation expense | — | — | — | — | — | — | 18,871 | — | — | 18,871
+
+Issuance of common stock under ATM Equity Offering, net of issuance costs | — | — | 4,858,839 | 1 | — | — | 90,102 | — | — | 90,103
+
+Preferred Stock Exchange | 50,951,250 | 5 | — | ( 5 ) | ( 50,951,250 ) | — | — | — | — | —
+
+Other comprehensive income | — | — | — | — | — | — | — | — | 435 | 435
+
+March 31, 2025 | 50,951,250 | 5 | 511,492,231 | 46 | ( 50,951,250 ) | — | 1,307,930 | ( 874,317 ) | ( 2,370 ) | 431,294
+
+Net loss | — | — | — | — | — | — | — | ( 66,414 ) | — | ( 66,414 )
+
+Issuance of common stock under equity plans | — | — | 3,502,374 | 1 | — | — | 4,862 | — | — | 4,863
+
+Stock-based compensation expense | — | — | — | — | — | — | 18,707 | — | — | 18,707
+
+Issuance of common stock under ATM Equity Offering, net of issuance costs | — | — | 10,283,294 | 1 | — | — | 296,959 | — | — | 296,960
+
+Preferred Stock conversion | ( 5,000,000 ) | — | — | — | 5,000,000 | — | — | — | — | —
+
+Other comprehensive income | — | — | — | — | — | — | — | — | 3,075 | 3,075
+
+June 30, 2025 | 45,951,250 | $5 | 525,277,899 | $48 | ( 45,951,250 ) | $— | $1,628,458 | $( 940,731 ) | $705 | $688,485
+
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+
+7
+
+Table of Contents
+
+ROCKET LAB CORPORATION AND SUBSIDIARIES
+
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+
+FOR THE SIX MONTHS ENDED JUNE 30, 2026 AND 2025
+
+(unaudited; in thousands)
+
+For the Six Months Ended June 30,
+
+2026 | 2025
+
+CASH FLOWS FROM OPERATING ACTIVITIES:
+
+Net loss | $( 94,280 ) | $( 127,030 )
+
+Adjustments to reconcile net loss to net cash used in operating activities:
+
+Depreciation and amortization | 35,933 | 17,465
+
+Stock-based compensation expense | 47,677 | 37,167
+
+(Gain) loss on disposal of assets | ( 403 ) | 1,503
+
+Lower of cost or market inventory valuation adjustment | 5,802 | —
+
+Amortization of debt issuance costs and discount | 179 | 1,691
+
+Noncash lease expense | 5,629 | 3,565
+
+Change in the fair value of contingent consideration | 386 | —
+
+Accretion of marketable securities purchased at a discount | ( 873 ) | ( 1,099 )
+
+Deferred income taxes | 1,409 | 1,454
+
+Changes in operating assets and liabilities:
+
+Accounts receivable, net | ( 63,023 ) | ( 25,317 )
+
+Contract assets | ( 30,057 ) | 11,193
+
+Inventories | ( 73,331 ) | ( 11,513 )
+
+Prepaids and other current assets | ( 6,881 ) | ( 18,037 )
+
+Other non-current assets | ( 40,337 ) | 11,879
+
+Trade payables | ( 3,124 ) | 11,149
+
+Accrued expenses | 8,963 | 4,024
+
+Employee benefits payables | ( 3,375 ) | 3,289
+
+Contract liabilities | 78,835 | 7,217
+
+Other current liabilities | 2,788 | 98
+
+Non-current lease liabilities | ( 6,467 ) | ( 6,547 )
+
+Other non-current liabilities | 143 | 382
+
+Net cash used in operating activities | ( 134,407 ) | ( 77,467 )
+
+CASH FLOWS FROM INVESTING ACTIVITIES:
+
+Purchases of property, equipment and software | ( 53,112 ) | ( 60,719 )
+
+Proceeds on disposal of assets | 715 | 144
+
+Cash paid for business combinations, net of acquired cash | ( 44,271 ) | —
+
+Purchases of marketable securities | ( 149,519 ) | ( 128,325 )
+
+Maturities of marketable securities | 161,579 | 149,495
+
+Sale of marketable securities | — | 3,383
+
+Net cash used in investing activities | ( 84,608 ) | ( 36,022 )
+
+CASH FLOWS FROM FINANCING ACTIVITIES:
+
+Proceeds from ATM Equity Offerings | 1,529,639 | 396,647
+
+Issuance costs related to ATM Equity Offerings | ( 16,722 ) | ( 9,496 )
+
+Proceeds from the exercise of stock options | 1,278 | 379
+
+Proceeds from Employee Stock Purchase Plan | 8,792 | 4,836
+
+Proceeds from sale of employees restricted stock units to cover taxes | 151,719 | 40,715
+
+Minimum tax withholding paid on behalf of employees for restricted stock units | ( 151,154 ) | ( 40,421 )
+
+Proceeds from secured term loans | — | 25,000
+
+Repayments on secured term loan | — | ( 11,208 )
+
+Payment of debt issuance costs | — | ( 278 )
+
+Finance lease principal payments | ( 149 ) | ( 126 )
+
+Net cash provided by financing activities | 1,523,403 | 406,048
+
+Effect of exchange rate changes on cash and cash equivalents | ( 35 ) | 1,127
+
+Net increase in cash and cash equivalents and restricted cash | 1,304,353 | 293,686
+
+Cash and cash equivalents, and restricted cash, beginning of period | 833,545 | 275,302
+
+Cash and cash equivalents, and restricted cash, end of period | $2,137,898 | $568,988
+
+SUPPLEMENTAL DISCLOSURE OF CASH FLOW INFORMATION:
+
+Cash paid for interest | $3,402 | $12,299
+
+Cash paid for income taxes | 464 | 428
+
+SUPPLEMENTAL DISCLOSURE OF NONCASH INVESTING AND FINANCING ACTIVITIES:
+
+Unpaid purchases of property, equipment and software | 15,371 | 14,009
+
+Right-of-use assets obtained in exchange for new operating lease liabilities | 3,865 | 19,602
+
+Issuance of common stock for payment of accrued bonus | 2,515 | 1,798
+
+Issuance of common stock in connection with acquisition, at fair value | 160,802 | —
+
+Accrued issuance costs in connection with ATM Equity Offerings | 163 | 88
+
+Accrued issuance costs in connection with Bridge Loan | 12,600 | —
+
+Convertible senior notes, net and accrued interest settled by issuance of common stock | 139,852 | —
+
+Payable to sellers in connection with business combinations | 800 | —
+
+Contingent consideration assumed at acquisition | 5,654 | —
+
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+
+8
+
+Table of Contents
+
+ROCKET LAB CORPORATION AND SUBSIDIARIES
+
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+
+AS OF JUNE 30, 2026 AND DECEMBER 31, 2025 AND FOR THE
+
+THREE AND SIX MONTHS ENDED JUNE 30, 2026 AND 2025
+
+(unaudited; in thousands, except share and per share data)
+
+1.DESCRIPTION OF THE BUSINESS
+
+Rocket Lab Corporation (“Rocket Lab” and, together with its consolidated subsidiaries, the “Company,” “we,” “us” or “our”) is an end-to-end space company with an established track record of mission success headquartered in Long Beach, California and is the parent company for several wholly owned operating subsidiaries located in the United States, New Zealand, Germany, Canada and Australia. We deliver reliable launch services, spacecraft design services, spacecraft components, spacecraft manufacturing and other spacecraft and on-orbit management solutions that make it faster, easier and more affordable to access space. We operate one of the only private orbital launch ranges in the world, located in Mahia, New Zealand, enabling a unique degree of operational flexibility and control of customer launch manifests and mission assurance. While our business has historically been centered on the manufacture of small-class launch vehicles and related sale of launch services, we are currently innovating in the areas of medium-class launch vehicle and launch services, space systems design and manufacturing, on-orbit management solutions, and space data applications.
+
+Merger and Consummation of Holding Company Reorganization
+
+On May 8, 2025, Rocket Lab USA, Inc., a Delaware corporation (“Rocket Lab USA”), announced plans to implement a holding company reorganization (the “Reorganization”). On May 23, 2025, Rocket Lab USA implemented the Reorganization pursuant to an Agreement and Plan of Merger (the “Merger Agreement”) dated as of May 23, 2025, among Rocket Lab USA, Rocket Lab and Rocket Lab Merger Sub, Inc., a Delaware corporation and direct, wholly owned subsidiary of Rocket Lab (“Merger Sub”). Pursuant to the terms of the Merger Agreement, Merger Sub merged with and into Rocket Lab USA, with Rocket Lab USA continuing as the surviving corporation and a wholly owned subsidiary of Rocket Lab (the “Merger”). Following the Merger, Rocket Lab became the successor issuer to Rocket Lab USA.
+
+Iridium Merger Agreement
+
+On June 28, 2026, the Company entered into an Agreement and Plan of Merger (the “Iridium Merger Agreement”) with Iridium Communications Inc. (“Iridium”), Ion Merger Sub I, Inc. and Ion Merger Sub II, LLC. Pursuant to the Iridium Merger Agreement, and subject to the satisfaction or waiver of the conditions set forth therein, Merger Sub I will merge with and into Iridium (the “First Merger”) with Iridium continuing as the surviving corporation and an indirect wholly owned subsidiary of the Company, and immediately following the First Merger, the surviving corporation in the First Merger will merge with and into Merger Sub II, with Merger Sub II continuing as the surviving entity (the “Subsequent Merger” and together with the First Merger, the “Iridium Transaction”). The Iridium Transaction unites the Company’s leading launch and satellite manufacturing capabilities with Iridium's global network, spectrum, and experience to unlock critical space applications.
+
+The Iridium Merger Agreement provides for, among other things, each outstanding share of Iridium to be converted into the right to receive (i) $27.00 in cash (the “Cash Consideration”) and (ii) a number of shares (the “Stock Consideration” and, together with the Cash Consideration, the “Merger Consideration”) of the Company’s common stock, par value $0.0001 per share (“Rocket Lab Common Stock”), equal to the Exchange Ratio (as defined below), in each case without interest. The “Exchange Ratio” will be the following: (i) if the Rocket Lab Common Stock Price (as defined below) is equal to or less than $67.50, then the Exchange Ratio will be 0.4000; (ii) if the Rocket Lab Common Stock Price is greater than $67.50 but less than $112.50, then the Exchange Ratio will be the quotient obtained by dividing $27.00 by the Rocket Lab Common Stock Price, rounded to four decimal places; and (iii) if the Rocket Lab Common Stock Price is equal to or greater than $112.50, then the Exchange Ratio will be 0.2400. “Rocket Lab Common Stock Price” is defined as the volume weighted average price per share of Rocket Lab Common Stock on the Nasdaq Global Select Market for the period of the ten consecutive trading days ending on and including the second full trading day prior to the First Effective Time.
+
+9
+
+Table of Contents
+
+The closing of the Iridium Transaction is subject to customary conditions set forth in the Iridium Merger Agreement, including (i) the adoption of the Iridium Merger Agreement and the Iridium Transaction by the affirmative vote of the holders of a majority of the outstanding Iridium Common Stock; (ii) the expiration or termination of applicable waiting periods under the Hart-Scott-Rodino Antitrust Improvements Act of 1976 and consent of the U.S. Federal Communications Commission to the transfer of control of certain telecommunication authorizations held by Iridium; (iii) receipt of clearances or approvals under other specified foreign investment and satellite and telecommunications laws; (iv) the absence of any order or law issued, enforced or enacted by a governmental authority in certain specified jurisdictions that prevents, makes illegal or enjoins the consummation of the Mergers; (v) there having not occurred a Company Material Adverse Effect or a Parent Material Adverse Effect, each as defined in the Iridium Merger Agreement; and (vi) the effectiveness of a registration statement on Form S-4 with respect to shares of Rocket Lab Common Stock to be issued in the Iridium Transaction and approval of such shares for listing on the Nasdaq Global Select Market. The Iridium Transaction is expected to close in 2027.
+
+In connection with the Iridium Merger Agreement, Rocket Lab entered into a commitment letter, as well as related fee letters with Deutsche Bank Securities Inc., Wells Fargo Bank, National Association and Wells Fargo Securities, LLC and Deutsche Bank AG New York Branch, pursuant to which Deutsche Bank AG New York Branch and Wells Fargo Bank, National Association have committed to provide, subject to the terms and conditions thereof, a 364-day senior secured bridge term loan facility (“Bridge Loan”) in an aggregate principal amount of $3,600,000.
+
+2.SIGNIFICANT ACCOUNTING POLICIES
+
+Principles of Consolidation and Basis of Presentation
+
+The accompanying unaudited condensed consolidated financial statements are presented in conformity with accounting standards generally accepted in the United States of America (“U.S. GAAP”) and the requirements of the SEC for interim financial information and include the accounts of Rocket Lab Corporation and its wholly owned subsidiaries after elimination of intercompany accounts and transactions. As permitted under those rules, certain footnotes or other financial information that are normally required by U.S. GAAP can be condensed or omitted. The Reorganization was accounted for as a reorganization of entities under common control, and as such, the consolidated financial statements reflect the Reorganization as if it had occurred at the beginning of the earliest period presented. These condensed consolidated financial statements have been prepared on the same basis as the annual consolidated financial statements and, in the opinion of management, reflect all adjustments, consisting only of normal recurring adjustments, which are necessary for the fair statement of the Company’s financial information. Certain amounts in the prior period condensed consolidated financial statements have been reclassified to conform to the current period presentation. These interim results are not necessarily indicative of the results to be expected for the fiscal year ending December 31, 2026, or for any other interim period or for any other future year.
+
+Use of Estimates
+
+The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the condensed consolidated financial statements and the reported amounts of revenues and expenses during the reporting period.
+
+On an ongoing basis, our management evaluates estimates and assumptions including those related to revenue recognition, contract costs, loss reserves, valuation of stock-based compensation, deferred tax valuation allowances, goodwill, intangible assets and contingent consideration. We based our estimates on historical data and experience, as well as various other factors that our management believes to be reasonable under the circumstances, the results of which form the basis for making judgments about the carrying value of assets and liabilities. Actual results could differ from these estimates and assumptions.
+
+Other Significant Accounting Policies
+
+There have been no significant changes to the Company’s significant accounting policies during the six months ended June 30, 2026. Refer to Note 2 - Significant Accounting Policies disclosed in the “Notes to Consolidated Financial Statements” in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025, as filed with the SEC on February 26, 2026.
+
+10
+
+Table of Contents
+
+Recent Accounting Pronouncements
+
+In November 2024, the Financial Accounting Standards Board (“FASB”) issued Accounting Standards Update (“ASU”) No. 2024-03, Disaggregation of Income Statement Expenses (DISE) (“ASU 2024-03”), which requires disclosures about specific types of expenses included in the expense captions presented on the face of the income statement as well as disclosures about selling expenses. The new guidance is effective for annual reporting periods beginning after December 15, 2026, and interim reporting periods beginning after December 15, 2027. The amendments in ASU 2024-03 will be applied prospectively with the option for retrospective application and early adoption is permitted. The Company is assessing the potential impact of adopting ASU 2024-03 on its financial statements.
+
+In September 2025, the FASB issued ASU No. 2025-06, Intangibles—Goodwill and Other—Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software (“ASU 2025-06”), which modernizes the accounting for internal-use software. ASU 2025-06 removes all references to software development stages and requires capitalization of software costs when management has committed to the software project and it is probable the software will be completed and perform its intended use. ASU 2025-06 is effective for annual reporting periods beginning after December 15, 2027, with early adoption permitted and can be applied on either a prospective, modified, or retrospective basis. The Company is assessing the potential impact of adopting ASU 2025-06 on its financial statements.
+
+In December 2025, the FASB issued ASU No. 2025-10, Government Grants (Topic 832): Accounting for Government Grants Received by Business Entities (“ASU 2025-10”). ASU 2025-10 establishes guidance for the recognition, measurement, and presentation of government grants received by business entities. Under the new standard, a government grant is recognized only when it is probable that (i) the entity will satisfy the grant’s conditions and (ii) the grant will be received. If those conditions are met, the grant is classified either as a grant related to income or as a grant related to an asset, and the classification determines the appropriate accounting treatment. ASU No. 2025-10 retains the existing disclosure requirements in Topic 832, Government Assistance. The amendments are effective for annual reporting periods beginning after December 15, 2028, and for interim reporting periods within those annual reporting periods, with early adoption permitted. Entities may adopt the amendments using a modified-prospective, modified-retrospective, or full-retrospective approach for all government grants. We are currently evaluating the impact of the ASU on our disclosures and financial statements, including the approach and the timing of adoption.
+
+3.REVENUES
+
+The following table provides information about revenue by recognition model for the three and six months ended June 30, 2026 and 2025:
+
+Three Months Ended June 30,
+
+2026 | 2025
+
+Revenues by recognition model | Launch Services | Space Systems | Total | Launch Services | Space Systems | Total
+
+Point-in-time | $37,703 | $56,623 | $94,326 | $39,256 | $31,070 | $70,326
+
+Over-time | 6,883 | 132,857 | 139,740 | 7,390 | 66,782 | 74,172
+
+Total revenue by recognition model | $44,586 | $189,480 | $234,066 | $46,646 | $97,852 | $144,498
+
+Six Months Ended June 30,
+
+2026 | 2025
+
+Revenues by recognition model | Launch Services | Space Systems | Total | Launch Services | Space Systems | Total
+
+Point-in-time | $93,268 | $88,772 | $182,040 | $74,731 | $50,334 | $125,065
+
+Over-time | 14,981 | 237,393 | 252,374 | 7,507 | 134,495 | 142,002
+
+Total revenue by recognition model | $108,249 | $326,165 | $434,414 | $82,238 | $184,829 | $267,067
+
+The timing of revenue recognition, billings, and cash collections results in billed accounts receivable, unbilled receivables (presented within contract assets) and customer advances and deposits (presented within contract liabilities) on the condensed consolidated balance sheets, where applicable. Amounts are generally billed as work progresses in accordance with agreed-upon milestones. These individual contract assets and liabilities are reported in a net position on a contract-by-contract basis on the condensed consolidated balance sheets at the end of each reporting period.
+
+11
+
+Table of Contents
+
+The following table presents the balances related to enforceable contracts as of June 30, 2026 and December 31, 2025:
+
+June 30, 2026 | December 31, 2025
+
+Contract balances
+
+Accounts receivable, net | $112,889 | $39,001
+
+Contract assets | 94,245 | 61,606
+
+Contract liabilities | ( 351,193 ) | ( 195,438 )
+
+Changes in contract liabilities for the three months ended June 30, 2026 were as follows:
+
+Contract liabilities, at March 31, 2026 | $241,412
+
+Contract liabilities assumed at acquisitions | 75,790
+
+Customer advances received or billed, net | 75,314
+
+Recognition of earned revenue | ( 41,323 )
+
+Contract liabilities, at June 30, 2026 | $351,193
+
+Changes in contract liabilities for the six months ended June 30, 2026 were as follows:
+
+Contract liabilities, at December 31, 2025 | $195,438
+
+Contract liabilities assumed at acquisitions | 76,015
+
+Customer advances received or billed, net | 206,284
+
+Recognition of earned revenue | ( 126,544 )
+
+Contract liabilities, at June 30, 2026 | $351,193
+
+The revenue recognized from the contract liabilities consisted of the Company satisfying performance obligations during the normal course of business.
+
+The net amount of revenue recognized in the aggregate from changes in the transaction price or estimated costs to complete associated with performance obligations satisfied in prior periods during the three and six months ended June 30, 2026, was an net upward adjustment to revenue of $8,089 and of $6,967, respectively. For the three and six months ended June 30, 2025, the net impact was not material.
+
+Included in the upward adjustment for the three and six months ended June 30, 2026, the Company recorded an upward adjustment to revenue of $5,948 and $7,260 related to an individual contract, respectively. This cumulative catch-up adjustment was recorded as a result of changes in the estimated costs to complete the contract. During the three months ended June 30, 2025, the Company recorded a downward adjustment to revenue of $6,421 related to an individual contract. This cumulative catch-up adjustment resulted from a change in the estimated costs to complete the contract.
+
+In February 2022, the Company entered into a procurement agreement with MDA Corporation to design and manufacture of 17 spacecraft buses (the “MDA Contract”). The Company has determined that the projected delivery dates for certain deliverables will be later than the dates originally set out under the MDA Contract. This delay is the result of a number of factors, including delays that have arisen in the Company’s supply chain. Under the terms of the MDA Contract, the customer is potentially entitled to claim liquidated damages as a result of this delivery delay. The Company is similarly entitled to claim liquidated damages against certain suppliers that have contributed to these delays. At this time, it is not possible to determine with certainty the net amount, if any, of actual liquidated damages that could ultimately be incurred.
+
+Backlog
+
+The Company’s backlog represents the estimated transaction prices on performance obligations to the Company’s customers for which work remains to be performed. The amount of backlog increases with new contracts or additions to existing contracts and decreases as revenue is recognized on existing contracts. Contracts are included in the amount of backlog when an enforceable agreement has been reached. Remaining backlog totaled $2,355,949 as of June 30, 2026, of which approximately 45% is expected to be recognized within 12 months, with the remaining 55% to be recognized beyond 12 months.
+
+12
+
+Table of Contents
+
+Concentration of Credit Risk and Significant Customers
+
+As of June 30, 2026, the Company’s customer that accounted for 10% or more of the total accounts receivable, net, was as follows:
+
+June 30, 2026
+
+MDA Corporation | 11%
+
+For the six months ended June 30, 2026, the Company’s customer that accounted for 10% or more of the total revenue, was:
+
+Six Months Ended June 30, 2026
+
+Government customer | 42%
+
+Customer Financing
+
+In connection with the signing of three separate multi-launch agreements with commercial customers, the Company entered into subordinated loan and security agreements. The commercial customers may choose to have certain milestone payments financed under the terms of the subordinated loan and security agreements. The receivables will bear no interest until the initial launch date passes, after which interest will accrue at a fixed rate of 9.5%, 10.8% or 12.6%, based on the commercial customer. Principal and interest payments will be made over 12 quarterly payments from the launch date.
+
+In July 2025, the Company received a full payoff of $7,489 and terminated the subordinated loan and security agreement with one of the commercial customers.
+
+As of June 30, 2026 and December 31, 2025, the Company had $9,000 and $6,750 customer financing receivable in prepaids and other current assets, respectively, and $23,150 and $16,138 customer financing receivable in other non-current assets, respectively, on the condensed consolidated balance sheets. Customer financing interest income for the three and six months ended June 30, 2026 was $656 and $1,218, respectively. Customer financing interest income for the three and six months ended June 30, 2025 was $497 and $877, respectively.
+
+4.BUSINESS COMBINATIONS
+
+Motiv
+
+On May 26, 2026, the Company closed the acquisition of Motiv Space Systems, Inc. (“Motiv”) pursuant to an Equity Purchase Agreement (together with the ancillary documents thereto, the “Motiv Purchase Agreement”) by and among the Company, Motiv and certain other equity holders of Motiv, which provided for, among other things, the Company’s purchase and acquisition of all of the issued and outstanding equity interests of Motiv. The Motiv acquisition addresses a critical gap in the Company’s vertical integration strategy by bringing in-house costly and supply-constrained satellite components like solar array drive assemblies (SADAs) and other precision mechanisms and adding Mars-proven robotics capability for advanced planetary and national security missions.
+
+Pursuant to the terms of the Motiv Purchase Agreement, all of the issued and outstanding equity interests of Motiv were purchased in exchange for aggregate consideration of $40,000 in cash, subject to adjustments at closing, plus up to $20,000 in potential additional post-closing earnout payments in common stock.
+
+13
+
+Table of Contents
+
+Acquisition Consideration
+
+The following table presents the purchase consideration and the estimates of the preliminary fair value of the assets acquired and the liabilities assumed by the Company in the acquisition:
+
+May 26, 2026
+
+Cash consideration | $38,885
+
+Contingent consideration | 5,654
+
+Purchase consideration | $44,539
+
+Description
+
+Cash and cash equivalents | $3,867
+
+Accounts receivable | 2,020
+
+Contract assets | 2,590
+
+Inventories | 148
+
+Prepaids and other current assets | 340
+
+Property, plant and equipment | 3,137
+
+Intangible assets | 14,000
+
+Right-of-use assets - operating leases | 2,100
+
+Other non-current assets | 141
+
+Trade payables | ( 299 )
+
+Employee benefits payable | ( 3,631 )
+
+Contract liabilities | ( 6,709 )
+
+Other current liabilities | ( 680 )
+
+Non-current operating lease liabilities | ( 1,460 )
+
+Identifiable net assets acquired | 15,564
+
+Goodwill | 28,975
+
+Total purchase price | $44,539
+
+The following is a summary of preliminary identifiable intangible assets acquired and the related expected lives for the finite-lived intangible assets:
+
+Type | Estimated Life in Years | Fair Value
+
+Developed technology | 17 | $13,300
+
+Backlog | 1.5 | 700
+
+Total identifiable intangible assets acquired | $14,000
+
+Goodwill of $28,975 was recorded for the Motiv acquisition, representing the excess of the purchase price over the fair value of the identifiable net assets. The goodwill has been allocated to the space systems operating segment, reflecting the strategic operations of this operating segment. Goodwill recognized primarily represents the future revenue and earnings potential and certain other assets which were acquired, but that do not meet the recognition criteria, such as assembled workforce. The goodwill is expected to be deductible for income tax purposes.
+
+The Company’s condensed consolidated statements of operations for the three months ended June 30, 2026 include revenues and operating loss of $1,420 and $219, respectively, related to the Motiv acquisition.
+
+14
+
+Table of Contents
+
+Mynaric
+
+On April 14, 2026, the Company completed the acquisition of 100% of the issued and outstanding ordinary shares of Mynaric AG (“Mynaric”), a stock corporation incorporated under the laws of Germany, thereby obtaining control. The acquisition strengthens the Company’s position as a leading provider of launch services, spacecraft manufacturing, and satellite components by adding high-performing laser optical communications technology. The acquisition addresses a critical supply chain constraint for satellite constellation operators and establishes the Company's first European footprint.
+
+The Company paid an aggregate consideration value of $155,300 at the closing of the acquisition, consisting of a nominal cash payment and 2,277,002 shares of the Company’s common stock.
+
+Acquisition Consideration
+
+The following table presents the purchase consideration and the estimates of the preliminary fair value of the assets acquired and the liabilities assumed by the Company in the acquisition:
+
+April 14, 2026
+
+Fair value of common stock issued (1) | $160,802
+
+Purchase consideration | $160,802
+
+Description
+
+Cash and cash equivalents | $1,304
+
+Accounts receivable | 8,591
+
+Inventories | 41,088
+
+Prepaids and other current assets | 17,862
+
+Property, plant and equipment | 31,192
+
+Intangible assets | 99,073
+
+Right-of-use assets - operating leases | 21,992
+
+Other non-current assets | 1,350
+
+Trade payables | ( 10,466 )
+
+Accrued expenses | ( 2,441 )
+
+Employee benefits payable | ( 3,716 )
+
+Contract liabilities | ( 69,081 )
+
+Other current liabilities | ( 3,367 )
+
+Non-current operating lease liabilities | ( 19,622 )
+
+Deferred income tax liabilities | ( 8,905 )
+
+Other non-current liabilities | ( 4,058 )
+
+Identifiable net assets acquired | 100,796
+
+Goodwill | 60,006
+
+Total purchase price | $160,802
+
+_____________________________________
+
+(1) The Company issued 2,277,002 shares of common stock, with the fair value determined based on the Company’s common stock closing price of $70.62 on April 13, 2026.
+
+15
+
+Table of Contents
+
+The following is a summary of preliminary identifiable intangible assets acquired and the related expected lives for the finite-lived intangible assets:
+
+Type | Estimated Life in Years | Fair Value
+
+Developed technology | 11 | $51,996
+
+Customer relationships | 12 | 32,439
+
+Trademarks and tradenames | 18 | 7,495
+
+Backlog | 1 | 7,143
+
+Total identifiable intangible assets acquired | $99,073
+
+Goodwill of $60,006 was recorded for the Mynaric acquisition, representing the excess of the purchase price over the fair value of the identifiable net assets. The goodwill has been allocated to the space systems operating segment, reflecting the strategic operations of this operating segment. Goodwill recognized primarily represents the future revenue and earnings potential and certain other assets which were acquired, but that do not meet the recognition criteria, such as assembled workforce. The goodwill is not expected to be deductible for income tax purposes.
+
+The Company’s condensed consolidated statements of operations for the three months ended June 30, 2026 include revenues and operating loss of $13,195 and $13,245, respectively, related to the Mynaric acquisition.
+
+GEOST
+
+In August 2025, the Company closed the acquisition of GEOST LLC ( “GEOST”) pursuant to a Stock Purchase Agreement (the “GEOST Purchase Agreement”), by and among Rocket Lab USA, LightRidge Solutions Holdings LP ("LightRidge Solutions"), and LightRidge Interco Solutions Holdings, Inc. (“LightRidge Interco”), which provided for, among other things, the Company’s purchase and acquisition of all of the issued and outstanding shares of common stock of LightRidge Interco, the owner of GEOST.
+
+Pursuant to the terms of the GEOST Purchase Agreement, all of the issued and outstanding shares of LightRidge Interco were purchased in exchange for aggregate consideration of $275,000, consisting of approximately $125,000 in cash and 3,057,588 shares of common stock, subject in each case to customary adjustments at closing, including for cash, working capital, transaction expenses and indebtedness. Additionally, the GEOST Purchase Agreement provides for up to $50,000 in potential additional post-closing cash earnout payments to LightRidge Solutions tied to revenue targets of the GEOST business for 2026 and 2027.
+
+16
+
+Table of Contents
+
+Acquisition Consideration
+
+The following table presents the purchase consideration and the estimates of the preliminary fair value of the assets acquired and the liabilities assumed by the Company in the acquisition:
+
+August 12, 2025
+
+Cash consideration | $136,178
+
+Fair value of common stock issued (1) | 137,653
+
+Contingent consideration (2) | 18,258
+
+Purchase consideration | $292,089
+
+Description
+
+Cash and cash equivalents | $1,280
+
+Accounts receivable | 3,196
+
+Contract assets | 787
+
+Inventories | 402
+
+Prepaids and other current assets | 1,079
+
+Property, plant and equipment | 4,267
+
+Intangible assets | 183,300
+
+Right-of-use assets - operating leases | 6,553
+
+Other non-current assets | 424
+
+Trade payables | ( 2,467 )
+
+Accrued expenses | ( 142 )
+
+Employee benefits payable | ( 3,407 )
+
+Contract liabilities | ( 842 )
+
+Other current liabilities | ( 1,340 )
+
+Non-current operating lease liabilities | ( 5,256 )
+
+Deferred income tax liabilities | ( 31,997 )
+
+Identifiable net assets acquired | 155,837
+
+Goodwill | 136,252
+
+Total purchase price | $292,089
+
+_____________________________________
+
+(1) The Company issued 3,057,588 shares of common stock, with the fair value determined based on the Company’s common stock closing price of $45.02 on August 11, 2025.
+
+(2) The contingent consideration, to be paid in cash, was classified as a liability and included in other non-current liabilities on the condensed consolidated balance sheets. To estimate the fair value of the contingent consideration liability, management valued the earn-out based on the likelihood of reaching certain revenue targets. At the acquisition date, the fair value of the contingent consideration payable was measured based on a Monte Carlo simulation utilizing projections about future performance. Significant inputs at acquisition include revenue volatility of 29%, discount rate of 10% and projected financial information.
+
+17
+
+Table of Contents
+
+The following is a summary of preliminary identifiable intangible assets acquired and the related expected lives for the finite-lived intangible assets:
+
+Type | Estimated Life in Years | Fair Value
+
+Developed technology | 10 | $172,300
+
+Backlog | 5 | 11,000
+
+Total identifiable intangible assets acquired | $183,300
+
+Goodwill of $136,252 was recorded for the GEOST acquisition, representing the excess of the purchase price over the fair value of the identifiable net assets. The goodwill has been allocated to the space systems operating segment, reflecting the strategic operations of this operating segment. Goodwill recognized primarily represents the future revenue and earnings potential and certain other assets which were acquired, but that do not meet the recognition criteria, such as assembled workforce. The majority of goodwill is not expected to be deductible for income tax purposes.
+
+Measurement Period
+
+During the measurement period (a period not to exceed 12 months from acquisition date), the Company will continue to obtain information to assist in determining the fair value of net assets acquired, which could differ materially from those preliminary estimates. Specifically, the Company is evaluating outstanding matters, including but not limited to, legal contingencies, other receivables, tax-related items and other assets. Measurement period adjustments, if applicable, were applied in the reporting period in which the adjustment amounts were determined. Measurement period adjustments for the three and six months ended June 30, 2026 did not have a material impact.
+
+Unaudited Pro Forma Information
+
+The unaudited consolidated financial information summarized in the following table gives effect to the GEOST, Mynaric and Motiv acquisitions assuming they occurred on January 1, 2025. These unaudited consolidated pro forma operating results do not assume any impact from revenue, cost or other operating synergies that are expected as a result of the acquisitions. These unaudited consolidated pro forma operating results are presented for illustrative purposes only and are not indicative of the operating results that would have been achieved had the acquisition occurred on January 1, 2025, nor does the information project results for any future period.
+
+Three Months Ended June 30, | Six Months Ended June 30,
+
+2026 | 2025 | 2026 | 2025
+
+Total revenues | $237,842 | $173,064 | $455,880 | $313,875
+
+Net loss | $( 55,043 ) | $( 82,520 ) | $( 118,883 ) | $( 168,135 )
+
+18
+
+Table of Contents
+
+5.CASH AND CASH EQUIVALENTS AND MARKETABLE SECURITIES
+
+Cash and cash equivalents and marketable securities consisted of the following as of June 30, 2026 and December 31, 2025:
+
+June 30, 2026 | December 31, 2025
+
+Cash and cash equivalents | $2,129,485 | $828,660
+
+Marketable securities, current | 172,700 | 187,917
+
+Marketable securities, non-current | 85,405 | 82,247
+
+Total cash and cash equivalents and marketable securities | $2,387,590 | $1,098,824
+
+As of June 30, 2026, cash equivalents and marketable securities consisted of the following:
+
+Amortized Cost | Gross Unrealized Gains | Gross Unrealized Losses | Fair Value | Cash Equivalents | Marketable Securities
+
+Money market accounts | $2,039,015 | $— | $— | $2,039,015 | $2,039,015 | $—
+
+Certificates of deposit | 32,148 | 2 | ( 20 ) | 32,130 | — | 32,130
+
+Commercial paper | 36,345 | 3 | ( 46 ) | 36,302 | — | 36,302
+
+Corporate debt securities | 95,475 | 13 | ( 190 ) | 95,298 | — | 95,298
+
+Yankee bonds | 4,872 | 1 | ( 1 ) | 4,872 | — | 4,872
+
+U.S. Treasury securities | 54,554 | 4 | ( 255 ) | 54,303 | — | 54,303
+
+Asset-backed securities | 35,188 | 28 | ( 16 ) | 35,200 | — | 35,200
+
+Total | $2,297,597 | $51 | $( 528 ) | $2,297,120 | $2,039,015 | $258,105
+
+The following table presents the Company’s marketable securities with unrealized losses by investment category and the length of time the marketable securities have been in a continuous loss position as of June 30, 2026:
+
+In Loss Position for Less than 12 Months
+
+Fair Value | Unrealized Losses
+
+Certificates of deposit | $27,801 | $( 20 )
+
+Commercial paper | 32,857 | ( 46 )
+
+Corporate debt securities | 65,554 | ( 190 )
+
+Yankee bonds | 3,093 | ( 1 )
+
+U.S. Treasury securities | 36,344 | ( 255 )
+
+Asset-backed securities | 19,769 | ( 16 )
+
+Total | $185,418 | $( 528 )
+
+The Company has not observed a significant deterioration in credit quality of these securities, which are highly rated with moderate to low credit risk. Declines in value are largely attributable to current global economic conditions. The securities continue to make timely principal and interest payments, and the fair values are expected to recover as they approach maturity. The Company does not intend to sell the securities, and it is not more likely than not that the Company will be required to sell the securities, before the respective recoveries of their amortized cost bases, which may be maturity. As of June 30, 2026, the Company had not recognized an allowance for credit losses on any marketable securities in an unrealized loss position.
+
+The following table summarizes the contractual maturities of the Company’s cash equivalents and marketable securities as of June 30, 2026:
+
+Amortized Cost | Fair Value
+
+Due within one year | $2,211,898 | $2,211,715
+
+Due within one to two years | 85,699 | 85,405
+
+Total | $2,297,597 | $2,297,120
+
+19
+
+Table of Contents
+
+6.FAIR VALUE OF FINANCIAL INSTRUMENTS
+
+As of June 30, 2026 and December 31, 2025 the following financial assets and liabilities are measured at fair value on a recurring basis and are categorized using the fair value hierarchy as follows:
+
+June 30, 2026
+
+Level 1 | Level 2 | Level 3 | Total
+
+Assets:
+
+Cash equivalents:
+
+Money market accounts | $2,039,015 | $— | $— | $2,039,015
+
+Marketable securities, current:
+
+Certificates of deposit | — | 32,130 | — | 32,130
+
+Commercial paper | — | 36,302 | — | 36,302
+
+Corporate debt securities | — | 82,669 | — | 82,669
+
+Yankee bonds | — | 2,140 | — | 2,140
+
+U.S. Treasury securities | 19,460 | — | — | 19,460
+
+Marketable securities, non-current
+
+Corporate debt securities | — | 12,629 | — | 12,629
+
+Yankee bonds | — | 2,732 | — | 2,732
+
+U.S. Treasury securities | 34,843 | — | — | 34,843
+
+Asset-backed securities | — | 35,200 | — | 35,200
+
+Total | $2,093,318 | $203,802 | $— | $2,297,120
+
+Liabilities:
+
+Other non-current liabilities:
+
+Contingent consideration | $— | $— | $13,674 | $13,674
+
+Total | $— | $— | $13,674 | $13,674
+
+20
+
+Table of Contents
+
+December 31, 2025
+
+Level 1 | Level 2 | Level 3 | Total
+
+Assets:
+
+Cash equivalents:
+
+Money market accounts | $741,498 | $— | $— | $741,498
+
+Certificates of deposit | — | 1,556 | — | 1,556
+
+Marketable securities, current:
+
+Certificates of deposit | — | 9,294 | — | 9,294
+
+Commercial paper | — | 27,776 | — | 27,776
+
+Corporate debt securities | — | 103,077 | — | 103,077
+
+Yankee bonds | — | 5,351 | — | 5,351
+
+U.S. Treasury securities | 40,576 | — | — | 40,576
+
+Asset-backed securities | — | 1,843 | — | 1,843
+
+Marketable securities, non-current
+
+Certificates of deposit | — | 2,327 | — | 2,327
+
+Corporate debt securities | — | 33,509 | — | 33,509
+
+U.S. Treasury securities | 8,492 | — | — | 8,492
+
+Asset-backed securities | — | 37,919 | — | 37,919
+
+Total | $790,566 | $222,652 | $— | $1,013,218
+
+Liabilities:
+
+Other non-current liabilities:
+
+Contingent consideration | $— | $— | $7,634 | $7,634
+
+Total | $— | $— | $7,634 | $7,634
+
+The estimated fair value amounts shown above are not necessarily indicative of the amounts that the Company would realize upon disposition, nor do they indicate the Company’s intent or ability to dispose of the financial instrument.
+
+There were no transfers between fair value measurement levels for the six months ended June 30, 2026.
+
+Contingent Consideration
+
+The Company recorded contingent consideration liabilities related to potential earnout payments based on revenue targets pursuant to the GEOST Purchase Agreement and the Motiv Purchase Agreement. The estimated fair value of the contingent consideration is recorded using significant unobservable measures and other fair value inputs and is therefore classified as a Level 3 financial instrument.
+
+The following table presents contingent consideration obligations measured on a recurring basis using Level 3 inputs as of June 30, 2026 and December 31, 2025:
+
+December 31, 2025 | $7,634
+
+Addition | 5,654
+
+Fair value adjustments | 386
+
+June 30, 2026 | $13,674
+
+Convertible Senior Notes
+
+The Company measures the fair value of its convertible senior notes on a quarterly basis for disclosure purposes. The Company considers the fair value of its convertible senior notes as of June 30, 2026 to be a Level 2 measurement due to limited trading activity of the convertible senior notes. As of June 30, 2026, the net carrying amount of the convertible senior notes was $13,129, with unamortized discount and debt issuance costs of $237. As of June 30, 2026, the total estimated fair value (Level 2) of the convertible senior notes was $280,789. The fair value was determined based on the closing trading price of the convertible senior notes as of the last day of trading for the period.
+
+21
+
+Table of Contents
+
+7.INVENTORIES
+
+Inventories as of June 30, 2026 and December 31, 2025 consisted of the following:
+
+June 30, 2026 | December 31, 2025
+
+Raw materials | $119,662 | $76,739
+
+Work in process | 129,529 | 68,712
+
+Finished goods | 17,740 | 12,956
+
+Total inventories | $266,931 | $158,407
+
+8.PREPAIDS AND OTHER CURRENT ASSETS
+
+Prepaids and other current assets as of June 30, 2026 and December 31, 2025 consisted of the following:
+
+June 30, 2026 | December 31, 2025
+
+Prepaid expenses and deposits | $70,576 | $57,738
+
+Government grant receivables | 19,756 | 15,629
+
+Customer financing receivables | 9,000 | 6,750
+
+Other current assets | 20,177 | 9,836
+
+Total prepaids and other current assets | $119,509 | $89,953
+
+9.PROPERTY, PLANT AND EQUIPMENT, NET
+
+Property, plant and equipment, net, as of June 30, 2026 and December 31, 2025 consisted of the following:
+
+June 30, 2026 | December 31, 2025
+
+Buildings and improvements | $92,829 | $78,564
+
+Machinery, equipment, vehicles and office furniture | 215,447 | 174,526
+
+Computer equipment, hardware and software | 25,594 | 20,751
+
+Launch site assets | 26,360 | 25,330
+
+Construction in process | 138,908 | 111,167
+
+Property, plant and equipment—gross | 499,138 | 410,338
+
+Less accumulated depreciation and amortization | ( 105,192 ) | ( 90,865 )
+
+Property, plant and equipment—net | $393,946 | $319,473
+
+Depreciation expense recorded in the condensed consolidated statements of operations and comprehensive loss for the three and six months ended June 30, 2026 and 2025 consisted of the following:
+
+Three Months Ended June 30, | Six Months Ended June 30,
+
+Depreciation expense | 2026 | 2025 | 2026 | 2025
+
+Cost of revenues | $3,434 | $3,062 | $6,618 | $6,123
+
+Research and development, net | 3,377 | 1,935 | 6,491 | 3,674
+
+Selling, general and administrative | 1,821 | 761 | 3,035 | 1,526
+
+Total depreciation expense | $8,632 | $5,758 | $16,144 | $11,323
+
+22
+
+Table of Contents
+
+10.GOODWILL AND INTANGIBLE ASSETS, NET
+
+Goodwill
+
+The carrying amount of goodwill was $299,072 and $205,750 as of June 30, 2026 and December 31, 2025, respectively. Substantially all goodwill is allocated to the Space Systems reportable segment. For all reporting units, there have been no events or changes in circumstances which indicate that it is more likely than not that the fair value of the reporting unit is below its carrying value.
+
+The following table presents goodwill as of June 30, 2026 and December 31, 2025:
+
+December 31, 2025 | $205,750
+
+Acquisitions | 92,054
+
+Measurement period adjustments | 1,522
+
+Foreign currency translation adjustments | ( 254 )
+
+June 30, 2026 | $299,072
+
+Intangible Assets
+
+The components of intangible assets consisted of the following as of June 30, 2026 and December 31, 2025:
+
+June 30, 2026
+
+Gross Carrying Amount | Accumulated Amortization | Net Carrying Amount
+
+Finite-Lived Intangible Assets
+
+Developed technology | $296,114 | $( 50,497 ) | $245,617
+
+Capitalized software | 14,574 | ( 11,599 ) | 2,975
+
+Customer relationships | 48,591 | ( 6,956 ) | 41,635
+
+Trademarks and tradenames | 17,600 | ( 3,950 ) | 13,650
+
+Backlog | 22,150 | ( 6,957 ) | 15,193
+
+Other | 1,502 | ( 657 ) | 845
+
+Indefinite-Lived Intangible Assets
+
+In-process technology | 500 | — | 500
+
+Total | $401,031 | $( 80,616 ) | $320,415
+
+December 31, 2025
+
+Gross Carrying Amount | Accumulated Amortization | Net Carrying Amount
+
+Finite-Lived Intangible Assets
+
+Developed technology | $230,165 | $( 37,238 ) | $192,927
+
+Capitalized software | 14,558 | ( 11,164 ) | 3,394
+
+Customer relationships | 16,114 | ( 5,786 ) | 10,328
+
+Trademarks and tradenames | 10,102 | ( 3,443 ) | 6,659
+
+Backlog | 14,491 | ( 4,343 ) | 10,148
+
+Other | 1,399 | ( 609 ) | 790
+
+Indefinite-Lived Intangible Assets
+
+In-process technology | 500 | — | 500
+
+Total | $287,329 | $( 62,583 ) | $224,746
+
+23
+
+Table of Contents
+
+Amortization expense recorded in the condensed consolidated statements of operations and comprehensive loss for the three and six months ended June 30, 2026 and 2025, respectively consisted of the following:
+
+Three Months Ended June 30, | Six Months Ended June 30,
+
+2026 | 2025 | 2026 | 2025
+
+Cost of revenues | $7,227 | $1,808 | $13,363 | $3,620
+
+Research and development, net | 7 | 3 | 14 | 5
+
+Selling, general and administrative | 3,537 | 760 | 4,870 | 1,659
+
+Total amortization expense | $10,771 | $2,571 | $18,247 | $5,284
+
+The following table outlines the estimated future amortization expense related to intangible assets held as of June 30, 2026:
+
+2026 (for the remaining period) | $23,205
+
+2027 | 39,749
+
+2028 | 36,526
+
+2029 | 34,275
+
+2030 | 30,497
+
+Thereafter | 155,663
+
+Total | $319,915
+
+11.LOAN AGREEMENTS
+
+Indenture and Notes
+
+In February 2024, Rocket Lab USA issued $355,000 aggregate principal amount of its 4.250% Convertible Senior Notes due 2029 (the “Notes”). The Notes were issued pursuant to, and are governed by, an indenture (the “Indenture”), dated as of February 6, 2024, between Rocket Lab USA and U.S. Bank Trust Company, National Association, as trustee (the “Trustee”). In connection with the Reorganization, on May 23, 2025, the Company, Rocket Lab USA and the Trustee entered a first supplemental indenture to the Indenture in order to, among other things, provide for the full and unconditional guarantee by the Company of the obligations of Rocket Lab USA under the Notes and the Indenture.
+
+The Notes are the Company’s senior, unsecured obligations and are (i) equal in right of payment with the Company’s existing and future senior, unsecured indebtedness; (ii) senior in right of payment to the Company’s future indebtedness that is expressly subordinated to the Notes in right of payment; (iii) effectively subordinated to the Company’s existing and future secured indebtedness to the extent of the value of the collateral securing that indebtedness; and (iv) structurally subordinated to all existing and future indebtedness and other liabilities, including trade payables, and (to the extent the Company is not a holder thereof) preferred equity, if any, of the Company’s subsidiaries.
+
+24
+
+Table of Contents
+
+The Notes accrue interest at a rate of 4.250% per annum, payable semi-annually in arrears on February 1 and August 1 of each year, beginning on August 1, 2024. The Notes mature on February 1, 2029, unless earlier converted, redeemed or repurchased. Before November 1, 2028, noteholders have the right to convert their Notes only during the following circumstances: (i) during any calendar quarter (and only during such calendar quarter) if the last reported sale price of the Company’s common stock exceeds 130% of the conversion price for each of at least 20 trading days (whether or not consecutive) during a period of 30 consecutive trading days ending on, and including, the last trading day of the immediately preceding calendar quarter, (ii) during the five consecutive business day period after any 10 consecutive trading day period, or the measurement period, in which the trading price per $1 principal amount of Notes for each trading day of the measurement period was less than 98% of the product of the last reported sale price of the Company’s common stock and the applicable conversion rate on each such trading day, (iii) upon the occurrence of certain corporate events or distributions specified in the Indenture or (iv) if the Company calls such Notes for redemption. From and after November 1, 2028, noteholders may convert their Notes at any time at their election until the close of business on the second scheduled trading day immediately before the maturity date. The Company will settle conversions by paying or delivering, as applicable, cash, shares of its common stock or a combination of cash and shares of its common stock, at the Company’s election. The initial conversion rate is 195.1029 shares of common stock per $1 principal amount of Notes, which represents an initial conversion price of approximately $5.13 per share of common stock. The conversion rate and conversion price are subject to customary adjustments upon the occurrence of certain events. In addition, if certain corporate events that constitute a “Make-Whole Fundamental Change” (as defined in the Indenture) occur, then the conversion rate will, in certain circumstances, be increased for a specified period of time. As of June 30, 2026, holders of the Notes have the right to convert between July 1, 2026 and September 30, 2026 because the Company’s common stock price exceeded the applicable conversion price by 130% for the specified period of time during the quarter ended June 30, 2026.
+
+When a conversion notice is received, the Company has the option to pay or deliver cash, shares of the Company’s common stock, or a combination thereof. For the six months ended June 30, 2026, the Company received conversion notices from holders for $142,288 aggregate principal amount of Notes. These conversions resulted in the issuance of 27,760,779 shares of common stock in accordance with the terms of the Indenture governing the Notes. As of June 30, 2026, the Company cannot be required to settle the Notes in cash and has the intent and ability to settle in common stock, therefore, the Notes were classified as non-current liabilities on the condensed consolidated balance sheet.
+
+As of June 30, 2026, there was $13,366 outstanding under the Notes, before unamortized discount and debt issuance costs of $237. As of June 30, 2026, the effective interest rate under the Notes was 5.0%.
+
+Capped Call Transactions
+
+In connection with the pricing of the Notes, on February 1, 2024 and February 2, 2024, Rocket Lab USA entered into privately negotiated capped call transactions (the “Capped Call Transactions”) with certain financial institutions. Collectively, the Capped Call Transactions cover, subject to customary adjustments, the number of shares of common stock initially underlying the Notes. The cost of the Capped Call Transactions was $43,168. The Capped Call Transactions are expected generally to reduce or offset the potential dilution to the Company’s common stock upon exercise of the Notes and/or the Company’s election to offset the cash payments the Company is required to make in excess of the principal amount of the Notes upon conversion of the Notes in the event that the market price per share of the Company’s common stock is greater than the strike price of the Capped Call Transactions (which initially corresponds to the initial conversion price of the Notes and is subject to certain adjustments under the terms of the Capped Call Transactions), with such reduction and/or offset subject to a cap based on the cap price of the Capped Call Transactions. The Capped Call Transactions have an initial cap price of $8.04 per share of the Company’s common stock, which represents a premium of 100% over the last reported sale price of the Company's common stock on February 1, 2024.
+
+The Capped Call Transactions do not meet the criteria for separate accounting as a derivative as they are indexed to the Company’s stock. The premiums paid for the Capped Call Transactions have been included as a net reduction to additional paid-in capital within shareholders’ equity.
+
+25
+
+Table of Contents
+
+Trinity Master Equipment Financing Agreement
+
+On December 29, 2023 (the “Effective Date”), the Company and certain of its subsidiaries (the “Subsidiaries”, together with the Company, the “Borrowers”), entered into a Master Equipment Financing Agreement (the “Trinity Loan Agreement”) with Trinity Capital, Inc., a Maryland corporation (the “Lender”) to provide financing for certain equipment and other property (the “Equipment”). The Trinity Loan Agreement provides that the Lender shall provide equipment financing in the aggregate of up to $120,000 (the “Conditional Commitment”), with advances (“Draws”) to be made as follows: (i) $70,000 on the Effective Date (the “Effective Date Draw”); and (ii) $40,000 to be drawn on the Effective Date (the “Blanket Lien Draw”), with each of the Effective Date Draw and Blanket Lien Draw payable over sixty (60) months beginning January 2024, with the final payments due in January 2029. After the Blanket Lien Draw was repaid in full, Borrowers were able to make Draws as follows: (x) $30,000 to be drawn in not more than three advances of at least $10,000 each at the Borrowers’ option no later than the date that is 18 months after the Effective Date; and (y) $20,000 to be drawn at Borrower’s option between January 1, 2025 and June 30, 2025, subject to customary conditions.
+
+The monthly payment factors under the Trinity Loan Agreement and Blanket Lien Draw had a term of 60 months and a rate factor of 0.022266.
+
+In March 2025, the Company made a draw of $25,000 under the Trinity Loan Agreement (the “March 2025 Draw”). This March 2025 Draw has a term of sixty (60) months and a rate factor of 0.022266.
+
+In December 2025, the Company paid off all obligations under the Trinity Loan Agreement. As a result, the Trinity Loan Agreement was terminated.
+
+12.STOCKHOLDERS’ EQUITY
+
+Preferred Stock
+
+The Company entered into an exchange agreement dated December 3, 2024 with The Equatorial Trust (the “Trust”), a family trust established by Sir Peter Beck (“Sir Peter”), the Company’s Founder, President, Chief Executive Officer and Chairman, to exchange (the “Preferred Stock Exchange”) 50,951,250 shares of the Company’s common stock into 50,951,250 shares of the Company’s Series A Convertible Participating Preferred Stock, $0.0001 par value per share (the “Preferred Stock”). On January 7, 2025, the Preferred Stock Exchange was consummated (the “Closing”) and the Company filed the Certificate of Designation for the Preferred Stock (the “Certificate of Designation”) with the Secretary of State of the State of Delaware, which became effective upon filing. At the Closing, the Company issued 50,951,250 shares of Preferred Stock to the Trust. On June 17, 2025, the Trust converted 5,000,000 shares of the Preferred Stock to common stock on a one-for-one basis in accordance with the Certificate of Designation. On May 26, 2026, the Trust converted 5,000,000 shares of the Preferred Stock to common stock on a one-for-one basis in accordance with the Certificate of Designation.
+
+The common stock exchanged in the Preferred Stock Exchange were reacquired at no cost and held in treasury stock until they are reissued or retired. The fair value of the Preferred Stock issued was determined to be equal to the fair value of the common stock exchanged.
+
+The Preferred Stock has the rights and restrictions set forth in a Certificate of Designation. Each share of Preferred Stock is convertible at any time at the option of the holder of the Preferred Stock (a “Holder”) into a number of shares of common stock at the then-applicable conversion rate (the “Conversion Rate”). In addition, each share of Preferred Stock automatically converts into a number of shares of common stock at the Conversion Rate upon the earliest to occur of (a) a transfer of such share (other than to a Permitted Transferee), (b) the first date on which Sir Peter no longer serves as (i) the Chief Executive Officer of the Company or (ii) such other executive officer position of the Company as approved by the Board, (c) Sir Peter’s death or permanent disability, or (d) the first date on which the outstanding shares of Preferred Stock no longer represent a minimum beneficial ownership by Sir Peter of five percent. A “Permitted Transferee” is defined in the Certificate of Designation and includes Sir Peter and his controlled affiliates. The Preferred Stock is not redeemable by the Company at any time.
+
+The Certificate of Designation also provides that for so long as any shares of Preferred Stock are outstanding, the Holders, voting exclusively and as a separate class, will be entitled to designate and elect at least one individual to serve on the Board as a director (a “Preferred Stock Director”). In the event the Board increases its size to more than 10 members, the Holders are entitled to designate and elect, voting exclusively and as a separate class, one or more additional Preferred Stock Directors in order to maintain the right to elect ten percent of the total number of authorized directorships, rounded up to the nearest whole number. The right to designate a Preferred Stock Director is nontransferable.
+
+26
+
+Table of Contents
+
+Upon any liquidation, dissolution or winding-up of the Company, whether voluntary or involuntary, after the satisfaction in full of the Company’s debts and the payment of any liquidation preference ranking senior to the Preferred Stock, Holders are entitled to receive an amount equal to $0.0001 per share of Preferred Stock. Following the payment of the full amount of the liquidation preference in respect of all outstanding shares of Preferred Stock, Holders participate pari passu with the holders of the common stock (on an as-if-converted-to-common-stock basis) in the net assets of the Company.
+
+The Preferred Stock is not entitled to any scheduled dividend payments. Holders will be entitled to receive dividends on shares of Preferred Stock equal (on an as-if-converted-to-common-stock basis) to, and in the same form as dividends actually paid on, all or substantially all of the shares of common stock when, as and if such dividends (other than dividends in the form of common stock) are paid on shares of the common stock, subject to certain exceptions specified in the Certificate of Designation.
+
+The Preferred Stock will have the right to vote on all matters submitted for a vote of the holders of the common stock, voting together as a single class with the common stock. Each Holder will be entitled to cast a number of votes per share equal to the number of shares of common stock into which a share of Preferred Stock is convertible. In addition, the Company may not, without the affirmative vote of the Holders of a majority of the then outstanding shares of Preferred Stock: (a) alter, amend or repeal any provision of the Company’s certificate of incorporation if it would alter or change the powers, preferences or special rights of the Preferred Stock so as to affect them adversely, (b) alter or amend the Certificate of Designation, or (c) increase the authorized number of shares of Preferred Stock or authorize the issuance of additional shares of Preferred Stock.
+
+At-The-Market Offerings
+
+In March 2025, the Company entered into an ATM Equity Offering Sales Agreement (the “March 2025 Sales Agreement”) with BofA Securities, Inc., Cantor Fitzgerald & Co., Stifel, Nicolaus & Company, Incorporated and TD Securities (USA) LLC (collectively, the “March 2025 Sales Agents”), pursuant to which the Company offered and sold, from time to time, shares of its common stock having an aggregate offering price of up to $500,000 through the March 2025 Sales Agents, acting as its agents, or directly to the March 2025 Sales Agents, acting as principal (the “March 2025 ATM Equity Offering”).
+
+In September 2025, the Company entered into an ATM Equity Offering Sales Agreement (the “September 2025 Sales Agreement”) with BofA Securities, Inc., Cantor Fitzgerald & Co., BTIG, LLC, KeyBanc Capital Markets Inc., Citizens JMP Securities, LLC, Needham & Company, LLC and Roth Capital Partners, LLC (collectively, the “September 2025 Sales Agents”), pursuant to which the Company may offer and sell, from time to time, the shares of its common stock having an aggregate offering price of up to $750,000 through the September 2025 Sales Agents, acting as its agents, or directly to the September 2025 Sales Agents, acting as principal (the “September 2025 ATM Equity Offering”). In connection with entering into the September 2025 Sales Agreement, the Company terminated the March 2025 ATM Equity Offering and the March 2025 Sales Agreement.
+
+On March 17, 2026, the Company entered into an equity distribution agreement (the “March 2026 Equity Distribution Agreement”) with BofA Securities, Inc., BTIG, LLC, Cantor Fitzgerald & Co., Citizens JMP Securities, LLC, Deutsche Bank Securities Inc., Goldman Sachs & Co. LLC, KeyBanc Capital Markets Inc., Morgan Stanley & Co. LLC, Needham & Company, LLC, Roth Capital Partners, LLC and Stifel Nicolaus & Company, Incorporated, as sales agents (collectively, the “March 2026 Sales Agents”), the March 2026 Forward Sellers (as defined below) and the March 2026 Forward Purchasers (as defined below). Under the March 2026 Equity Distribution Agreement, the Company may offer and sell, from time to time, the shares of its common stock through or to the March 2026 Sales Agents, acting as the Company’s agents or principal, having an aggregate offering price of up to $1,000,000 or by the March 2026 Forward Sellers, acting as sales agents for the relevant March 2026 Forward Purchasers. In connection with entering into the March 2026 Equity Distribution Agreement, the Company terminated the September 2025 ATM Equity Offering and the September 2025 Sales Agreement.
+
+27
+
+Table of Contents
+
+The March 2026 Equity Distribution Agreement provided that, in addition to the issuance and sale of shares of common stock through the March 2026 Sales Agents acting as sales agents or directly to the March 2026 Sales Agents acting as principals, the Company also may enter into forward sale agreements under separate forward sale confirmations between the Company and BofA Securities, Inc., Citizens JMP Securities, LLC, Deutsche Bank Securities Inc., Goldman Sachs & Co. LLC, KeyBanc Capital Markets Inc., Morgan Stanley & Co. LLC, Nomura Global Financial Products, Inc. and Stifel Nicolaus & Company, Incorporated or one or more of their respective affiliates. These entities, when acting in such capacity, are defined as “March 2026 Forward Purchasers.” In connection with each forward sale agreement, the relevant Forward Purchaser (or its affiliate or agent) will, at the Company’s request, attempt to borrow from third-party stock lenders and, through the relevant Sales Agent, sell a number of shares of common stock equal to the number of shares that underlie the forward sale agreement to hedge such forward sale agreement. Each of the March 2026 Sales Agents, when acting as the agent for a March 2026 Forward Purchaser, is defined as “March 2026 Forward Seller,” except in the case of BTIG, LLC, for which references to the March 2026 Forward Seller refer instead to Nomura Securities International, Inc. (acting through BTIG, LLC).
+
+On May 20, 2026, the Company entered into an equity distribution agreement (the “May 2026 Equity Distribution Agreement”, and together with the March 2025 ATM Equity Offering, the September 2025 ATM Equity Offering and the March 2026 Equity Distribution Agreement, the “ATM Equity Offerings”) with BofA Securities, Inc., BTIG, LLC, Cantor Fitzgerald & Co., Citizens JMP Securities, LLC, Craig-Hallum Capital Group LLC, Deutsche Bank Securities Inc., Goldman Sachs & Co. LLC, KeyBanc Capital Markets Inc., Morgan Stanley & Co. LLC, Needham & Company, LLC, Nomura Securities International, Inc. (acting through BTIG, LLC as agent), Robert W. Baird & Co. Incorporated, Roth Capital Partners, LLC, Stifel, Nicolaus & Company, Incorporated, TD Securities (USA) LLC and Wells Fargo Securities, LLC, as sales agents (collectively, the “May 2026 Sales Agents”), the May 2026 Forward Sellers (as defined below) and the May 2026 Forward Purchasers (as defined below). Under the May 2026 Equity Distribution Agreement, the Company may offer and sell, from time to time, the shares of its common stock through or to the May 2026 Sales Agents, acting as the Company’s agents or principal, having an aggregate offering price of up to $3,000,000 or by the May 2026 Forward Sellers, acting as sales agents for the relevant Forward Purchasers. In connection with entering into the May 2026 Equity Distribution Agreement, the Company terminated the March 2026 Equity Distribution Agreement.
+
+The May 2026 Equity Distribution Agreement provides that, in addition to the issuance and sale of shares of common stock through the May 2026 Sales Agents acting as sales agents or directly to the May 2026 Sales Agents acting as principals, the Company also may enter into forward sale agreements under separate forward sale confirmations between the Company and Bank of America, N.A., Citizens JMP Securities, LLC, Deutsche Bank AG, London Branch, Goldman Sachs & Co. LLC, KeyBanc Capital Markets Inc., Morgan Stanley & Co. LLC, Nomura Global Financial Products, Inc., Robert W. Baird & Co. Incorporated, Stifel, Nicolaus & Company, Incorporated, The Toronto-Dominion Bank and Wells Fargo Bank, National Association or one or more of their respective affiliates. These entities, when acting in such capacity, are referred to herein as “May 2026 Forward Purchasers.” In connection with each forward sale agreement, the relevant May 2026 Forward Purchaser (or its affiliate or agent) will, at the Company’s request, attempt to borrow from third-party stock lenders and, through the relevant May 2026 Sales Agent, sell a number of shares of common stock equal to the number of shares that underlie the forward sale agreement to hedge such forward sale agreement. Each of the May 2026 Sales Agents, when acting as the agent for a May 2026 Forward Purchaser, is referred to herein as a “May 2026 Forward Seller,” except in the case of BTIG, LLC, for which references to the May 2026 Forward Seller refer instead to Nomura Securities International, Inc. (acting through BTIG, LLC).
+
+For the six months ended June 30, 2026, the Company sold 6,726,862 shares of common stock, generating $474,009 in gross proceeds, before deducting $5,662 in underwriting discounts, commissions and other expenses under the terminated March 2026 Equity Distribution Agreement. For the six months ended June 30, 2026, the Company sold 7,783,458 shares of common stock, generating $1,055,630 in gross proceeds, before deducting $11,223 in underwriting discounts, commissions and other expenses under the May 2026 Equity Distribution Agreement.
+
+For the six months ended June 30, 2025, the Company sold 15,142,133 shares of common stock, generating $396,647 in gross proceeds, before deducting $9,584 in underwriting discounts, commissions and other expenses under the terminated March ATM Equity Offering.
+
+28
+
+Table of Contents
+
+Collared Forward Transactions
+
+Pursuant to the March 2026 Equity Distribution Agreement, the Company entered into collared forward transactions and sold an aggregate of 7,451,200 shares of common stock for minimum expected proceeds of approximately $474,000 and maximum expected proceeds of approximately $642,000. The minimum and maximum expected proceeds are based on maturity dates scheduled to occur in April 2028. Actual proceeds will depend on, among other things, if the Company elects to settle the collared forward transactions prior to the scheduled maturity dates, as well as the cap price and floor price set forth in each collared forward transaction. No proceeds were received during the three or six months ended June 30, 2026.
+
+13.STOCK-BASED COMPENSATION EXPENSE
+
+Equity Incentive Plans
+
+The Company has a single active equity incentive plan, the Rocket Lab 2021 Stock Option and Incentive Plan (the “2021 Plan”), with the objective of attracting and retaining available employees and directors by providing stock-based and other performance-based compensation. The Rocket Lab 2013 Stock Option and Grant Plan (the “2013 Plan”) was terminated, but outstanding awards granted thereunder remain governed by it. The 2021 Plan authorizes the Company’s Compensation Committee to grant equity awards to officers, employees, directors, and other key personnel, as well as service providers. The available awards include incentive stock options, non‑qualified stock options, restricted stock awards, unrestricted stock awards, and restricted stock units, any of which may be performance‑based. An aggregate of 59,875,000 shares were initially reserved for the issuance of awards under the 2021 Plan. The number of shares reserved for issuance under the 2021 Plan automatically increases each January 1, beginning on January 1, 2022, by 5% of the outstanding number of shares of common stock on the immediately preceding December 31, or such lesser amount as determined by the plan administrator. The Company was authorized to issue and has registered with the SEC 100,995,637 shares of common stock as equity awards to participants under the 2021 Plan as of June 30, 2026. There were 91,439,071 shares of common stock available for grant as of June 30, 2026.
+
+Total stock-based compensation expense recorded in the condensed consolidated statements of operations and comprehensive loss for the three and six months ended June 30, 2026 and 2025 consisted of the following:
+
+Three Months Ended June 30, | Six Months Ended June 30,
+
+Stock-based compensation expense | 2026 | 2025 | 2026 | 2025
+
+Cost of revenues | $5,090 | $4,892 | $8,596 | $8,812
+
+Research and development, net | 6,934 | 5,573 | 12,780 | 10,467
+
+Selling, general and administrative | 7,537 | 7,468 | 26,301 | 17,888
+
+Total stock-based compensation expense | $19,561 | $17,933 | $47,677 | $37,167
+
+Options
+
+Options issued to all optionees under the 2013 Plan vested over four years from the date of issuance (or earlier vesting start date, as determined by the board of directors) as follows: 25% on the first anniversary of date of grant and the remaining vest monthly over the remaining vesting term. All outstanding options had vested as of June 2023.
+
+Restricted Stock Units
+
+For the six months ended June 30, 2026 and 2025, the Company granted 1,563,748 and 1,104,778 restricted stock units, respectively, to certain key employees and directors pursuant to the 2021 Plan. The time-based service vesting condition is generally satisfied over periods of approximately four years as the employees provide service.
+
+On March 30, 2026, following approval by the Compensation Committee of the Board of Directors of the Company, Rocket Lab Limited, a New Zealand limited company and wholly-owned subsidiary of the Company, entered into an amendment to the amended and restated employment agreement, dated December 3, 2024, with Sir Peter Beck, the Company’s Chairman and Chief Executive Officer.
+
+29
+
+Table of Contents
+
+In addition, on March 30, 2026, Mr. Beck and the Company entered into a restricted stock unit (“RSU”) cancellation agreement pursuant to which Mr. Beck voluntarily forfeited and cancelled all unvested RSUs held by Mr. Beck, representing an aggregate of 392,155 shares of the Company’s common stock. Mr. Beck’s focus is the long-term appreciation of shareholder value rather than short-term cash or equity incentives. At Mr. Beck’s request, the capital previously allocated for this compensation will be redirected toward Company priorities and strategic R&D initiatives, reinforcing a shared commitment to disciplined fiscal management and growth. For the six months ended June 30, 2026, the cancellations resulted in a one-time stock-based compensation expense of $11,180 recorded in selling, general and administrative. No portion of the cancelled RSUs will vest or become outstanding shares, and as a result, there will be no dilution to shareholders. The Company will not incur any additional stock-based compensation expense related to these cancelled RSUs in future periods.
+
+As of June 30, 2026, the total unrecognized compensation expense related to unvested performance-based restricted stock units granted under the 2021 Plan was $191,188 and will be recognized upon vesting.
+
+2021 Employee Stock Purchase Plan
+
+In August 2021, the 2021 Employee Stock Purchase Plan (the “2021 ESPP”) was approved to reserve 9,980,000 shares of common stock for issuance for awards in accordance with the terms of the 2021 ESPP. In addition, the number of shares reserved for issuance will ultimately increase on January 1 of each year from 2022 to 2031 by the lesser of (i) 9,980,000 shares of common stock, (ii) 1% of the number of shares of common stock outstanding as of the close of business on the immediately preceding December 31 or (iii) the number of common stock shares as determined by the Company’s board of directors. The purpose of the 2021 ESPP is to enable eligible employees to use payroll deductions to purchase shares of common stock and thereby acquire an interest in the Company. Eligible employees are offered shares through a 12-month offering period, which consists of two consecutive 6-month purchase periods. Employees may purchase a limited amount of shares of our stock at a discount of up to 15% of the lesser of the fair market value at the beginning of the offering period or the end of each 6-month purchase period.
+
+For the six months ended June 30, 2026 and 2025, 265,164 shares and 321,734 shares of common stock were issued under the 2021 ESPP, respectively. As of June 30, 2026, 19,315,464 shares of common stock authorized and registered with the SEC remain available for issuance under the 2021 ESPP. Total ESPP stock-based compensation expense recorded in the condensed consolidated statements of operations and comprehensive loss for the three and six months ended June 30, 2026 was $2,395 and $4,653, respectively. Total ESPP stock-based compensation expense recorded in the condensed consolidated statements of operations and comprehensive loss for the three and six months ended June 30, 2025 was $1,519 and $3,093, respectively. As of June 30, 2026, the total unrecognized compensation expense related to the 2021 ESPP was $4,545 and will be recognized over the remaining offering period.
+
+14.LEASES
+
+The Company has operating and finance leases for properties, vehicles and equipment. The Company’s leases have remaining lease terms of less than one year to twenty-four years, some of which include options to extend the lease term, and some of which include options to terminate the lease prior to the end of the agreed upon lease term. For purposes of calculating lease liabilities, lease terms include options to extend or terminate the lease when it is reasonably certain that the Company will exercise such options.
+
+In connection with the Mynaric acquisition, the Company assumed operating leases in the aggregate of $21,992. There have been no other material changes in the Company’s lease portfolio since December 31, 2025.
+
+15.COMMITMENTS AND CONTINGENCIES
+
+Litigation and Claims
+
+The Company is, and from time to time may be, a party to claims and legal proceedings generally incidental to its business that are principally covered under contracts with its customers and insurance policies. In the opinion of management, there are no legal matters or claims likely to have a material adverse effect on the Company’s financial position, results of operations or cash flows.
+
+Other Commitments
+
+The Company has commitments under its lease obligations (see Note 14).
+
+30
+
+Table of Contents
+
+Contingencies
+
+The Company records a contingent liability when it is both probable that a loss has been incurred, and the amount can be reasonably estimated. If these estimates and assumptions change or prove to be incorrect, it could have a material impact on the condensed consolidated financial statements. Contingencies are inherently unpredictable, and the assessments of the value can involve a series of complex judgments about future events and can rely heavily on estimates and assumptions.
+
+In connection with the acquisition of SolAero Holdings, Inc. in January 2022, the Company assumed a contract with a customer to provide solar panel modules at a fixed price. The Company determined that it was probable that the costs to complete the solar panel modules as stipulated by the contract would exceed the firm fixed price of the solar panel modules. Accordingly, the Company recorded a provision for contract losses to recognize the contract at fair value at acquisition. As of June 30, 2026, the provision for contract losses outstanding on the contract was $4,657 and is recorded within other current liabilities on the condensed consolidated balance sheet.
+
+16.INCOME TAXES
+
+The provision for income taxes and effective tax rate for the three and six months ended June 30, 2026 and 2025 were as follows:
+
+Three Months Ended June 30, | Six Months Ended June 30,
+
+2026 | 2025 | 2026 | 2025
+
+Provision for income taxes | $( 5,327 ) | $( 2,938 ) | $( 3,535 ) | $( 2,125 )
+
+Effective tax rate | ( 12.1 )% | ( 4.6 )% | ( 3.9 )% | ( 1.7 )%
+
+The provision for income taxes for the three and six months ended June 30, 2026 and 2025 were computed using the estimated effective tax rates projected to be applicable for domestic and international taxable jurisdictions for the full year as adjusted for discrete items arising during each quarter.
+
+The effective tax rate differs from the federal statutory rate due primarily to a full valuation allowance against our U.S. deferred tax assets, as well as the impact of discrete items that may occur in any given year but which are not consistent from year-to-year.
+
+Due to its net operating loss carryforwards, the Company remains subject to examination for U.S. federal and state jurisdictions for all years beginning with the year ended March 31, 2017. The Company's foreign subsidiaries are generally subject to examination within four years of the end of the tax year during which the tax return was filed.
+
+17.NET LOSS PER SHARE
+
+Common Stock
+
+The holder of each share of common stock has the right to one vote for each share and is entitled to notice of any stockholders’ meeting and to vote upon certain events.
+
+Preferred Stock
+
+The holder of the Preferred Stock has similar rights and characteristics to common stock and for the purposes of the calculation of earnings per share, the Preferred Stock is treated as common stock.
+
+Earnings Per Share Calculation
+
+Basic net loss per share is computed by dividing net loss attributable to common stockholders by the weighted average number of common shares outstanding during each period.
+
+Diluted net loss per share is computed by dividing net loss attributable to common stockholders by the weighted average number of common and dilutive common equivalent shares outstanding for the period using the treasury-stock method and the if-converted method, whichever is more dilutive. Potentially dilutive shares are comprised of restricted stock units, stock options, shares underlying our convertible senior notes and shares underlying our collared forward transactions. For the three and six months ended June 30, 2026 and 2025, there is no difference in the number of shares used to calculate basic and diluted shares outstanding due to the Company’s net loss and potentially dilutive shares being anti-dilutive.
+
+31
+
+Table of Contents
+
+The following table summarizes the computation of basic and diluted net loss per share attributable to common stockholders of the Company for the three and six months ended June 30, 2026 and 2025:
+
+Three Months Ended June 30, | Six Months Ended June 30,
+
+2026 | 2025 | 2026 | 2025
+
+Numerator
+
+Net loss attributable to common stockholders-basic and diluted | $( 49,258 ) | $( 66,414 ) | $( 94,280 ) | $( 127,030 )
+
+Denominator
+
+Weighted average common shares outstanding-basic and diluted | 629,681,803 | 515,086,631 | 617,625,210 | 510,376,584
+
+Net loss per share attributable to stockholders-basic and diluted | $( 0.08 ) | $( 0.13 ) | $( 0.15 ) | $( 0.25 )
+
+The following equity shares were excluded from the calculation of diluted net loss per share attributable to common stockholders because their effect would have been anti-dilutive:
+
+June 30,
+
+2026 | 2025
+
+Stock options and restricted stock units | 13,095,520 | 23,616,300
+
+Shares underlying our convertible senior notes | 2,607,745 | 69,261,530
+
+Shares underlying our collared forward transactions | 7,451,200 | —
+
+18.SEGMENTS
+
+The Company’s Chief Operating Decision Maker reviews financial information presented based on a management approach for the purposes of making operating decisions, assessing financial performance and allocating resources. The Company manages its business primarily based upon two operating segments, launch services and space systems. Each of these operating segments represents a reportable segment. Launch Services provides launch and launch related services to customers on a dedicated mission or ride share basis. Space systems is predominately comprised of spacecraft components and spacecraft manufacturing. Although some of the Company’s contracts with customers contain elements of space systems and launch services, each reporting segment is managed separately to better align with customer’s needs and the Company’s growth plans. For contracts with customers that contain both space systems and launch services elements, revenues for each reporting segment are generally allocated based upon the overall costs incurred for each of the reporting segments in comparison to total overall costs of the contract. The following table shows information by reportable segment for the three and six months ended June 30, 2026 and 2025:
+
+Three Months Ended June 30,
+
+2026 | 2025
+
+Launch Services | Space Systems | Launch Services | Space Systems
+
+Revenues | $44,586 | $189,480 | $46,646 | $97,852
+
+Cost of revenues | 25,476 | 124,014 | 32,426 | 65,684
+
+Gross profit | $19,110 | $65,466 | $14,220 | $32,168
+
+Six Months Ended June 30,
+
+2026 | 2025
+
+Launch Services | Space Systems | Launch Services | Space Systems
+
+Revenues | $108,249 | $326,165 | $82,238 | $184,829
+
+Cost of revenues | 60,916 | 212,429 | 60,801 | 124,631
+
+Gross profit | $47,333 | $113,736 | $21,437 | $60,198
+
+32
+
+Table of Contents
+
+The following table shows information by reportable segment by products and services for the three and six months ended June 30, 2026 and 2025:
+
+Three Months Ended June 30,
+
+2026 | 2025
+
+Launch Services | Space Systems | Launch Services | Space Systems
+
+Products:
+
+Revenues | $— | $181,347 | $— | $92,725
+
+Cost of revenues | — | 117,439 | — | 61,692
+
+Gross profit | $— | $63,908 | $— | $31,033
+
+Services:
+
+Revenues | $44,586 | $8,133 | $46,646 | $5,127
+
+Cost of revenues | 25,476 | 6,575 | 32,426 | 3,992
+
+Gross profit | $19,110 | $1,558 | $14,220 | $1,135
+
+Six Months Ended June 30,
+
+2026 | 2025
+
+Launch Services | Space Systems | Launch Services | Space Systems
+
+Products:
+
+Revenues | $— | $308,835 | $— | $173,529
+
+Cost of revenues | — | 198,523 | — | 115,561
+
+Gross profit | $— | $110,312 | $— | $57,968
+
+Services:
+
+Revenues | $108,249 | $17,330 | $82,238 | $11,300
+
+Cost of revenues | 60,916 | 13,906 | 60,801 | 9,070
+
+Gross profit | $47,333 | $3,424 | $21,437 | $2,230
+
+Management does not regularly review either reporting segment’s total assets or operating expenses. This is because in general, the Company’s long-lived assets, facilities, and equipment are shared by each reporting segment.
+
+19.RELATED PARTY TRANSACTIONS
+
+In January 2025, the Preferred Stock Exchange was consummated and the Company filed the Certificate of Designation with the Secretary of State of the State of Delaware, which became effective upon filing. At the Closing, the Company issued 50,951,250 shares of Preferred Stock to the Trust. In June 2025, the Trust converted 5,000,000 shares of the Preferred Stock to common stock on a one-for-one basis in accordance with the Certificate of Designation. On May 26, 2026, the Trust converted 5,000,000 shares of the Preferred Stock to common stock on a one-for-one basis in accordance with the Certificate of Designation. See Note 12 for additional information on the Preferred Stock Exchange.
+
+As of June 30, 2026 and December 31, 2025, there are no amounts due to or from related parties.
+
+33
+
+Table of Contents
+
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations.
+
+The following discussion and analysis provides information that management believes is relevant to an assessment and understanding of our condensed consolidated results of operations and financial condition. You should read this discussion and analysis in conjunction with the unaudited condensed consolidated financial statements and notes thereto included elsewhere in this Quarterly Report on Form 10-Q. For additional context with which to understand our financial condition and results of operations, see the audited consolidated financial statements and accompanying notes contained therein as of December 31, 2025 and 2024 and related notes in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025 as filed with the SEC on February 26, 2026 (our “Form 10-K”). Certain amounts may not foot due to rounding. Certain information in this discussion and analysis or set forth elsewhere in this Quarterly Report on Form 10-Q contains forward-looking statements that involve numerous risks and uncertainties, including, but not limited to, those described under the sections entitled “Cautionary Note Regarding Forward-Looking Statements” and Part II, Item 1A. “Risk Factors” included in this Quarterly Report on Form 10-Q and under the heading “Risk Factors” in our Form 10-K. We assume no obligation to update any of these forward-looking statements. Actual results may differ materially from those contained in any forward-looking statements.
+
+Overview
+
+Rocket Lab is an end-to-end space company with an established track record of mission success. We deliver reliable launch services, spacecraft design services, spacecraft components, spacecraft manufacturing and other spacecraft and on-orbit management solutions that make it faster, easier and more affordable to access space.
+
+While our business has historically been centered on the manufacture of small-class launch vehicles and the related sale of launch services, we are currently innovating in the areas of medium-class launch vehicle and launch services, space systems design and manufacturing, on-orbit management solutions and space data applications. Each of these initiatives addresses a critical component of the end-to-end solution and our value proposition for the space economy:
+
+•Launch Services is the design, manufacture, and launch of orbital rockets to deploy payloads to various Earth orbits and interplanetary destinations.
+
+•Space Systems is the design and manufacture of components and spacecraft program management services, space data applications, mission operations, optical systems, laser optical communications and space robotics.
+
+Electron is our orbital small launch vehicle that was designed from the ground up to accommodate a high launch rate business model to meet the growing and dynamic needs of our customers for small launch services. Since its maiden launch in 2017, Electron has become the leading small spacecraft launch vehicle delivering over 250 spacecraft to orbit for government and commercial customers across 87 successful missions through June 30, 2026. In 2025, Electron was the second most frequently launched orbital rocket. Our launch services program has seen us develop many industry-leading innovations, including 3D printed electric turbo-pump rocket engines, fully carbon composite first stage fuel tanks, a private orbital launch complex, a rocket stage that can be configured to convert into a highly capable spacecraft on orbit, and the potential ability to successfully recover a stage from space, providing a path to reusability.
+
+In March 2021, we announced plans to develop our reusable-ready medium-capacity Neutron launch vehicle that will increase the payload capacity of our space launch vehicles to approximately 13,000 kg for reusable configuration launches to low Earth orbit and support lighter payloads for higher orbits. Neutron will be tailored for commercial and U.S. government constellation launches and ultimately configurable for and capable of human space flight, enabling us to provide crew and cargo resupply to space stations. Neutron will also provide a dedicated service to orbit for larger civil, defense and commercial payloads that need a high level of schedule control and high-flight cadence. We expect to be able to leverage Electron’s flight heritage across various vehicle subsystems designs, launch complexes and ground station infrastructure.
+
+34
+
+Table of Contents
+
+Our space systems initiatives are supported by the design and manufacture of our spacecraft family along with a range of components, software and services for spacecraft, including reaction wheels, star trackers, radios, separation systems, solar solutions, command and control spacecraft software, high voltage space grade battery solutions, optical systems and additional products in development to serve a wide variety of sub-system functions. We entered this market in 2020 with our acquisition of leading spacecraft components manufacturer Sinclair Interplanetary, and have since expanded our market participation with the acquisitions of Planetary Systems Corporation, SolAero Technologies Corp., Advanced Solutions, Incorporated, GEOST LLC (“GEOST”), Mynaric AG (“Mynaric”) and Motiv Space Systems, LLC (“Motiv”). Each of these strategic acquisitions brought incremental vertically-integrated capabilities for our own spacecraft family and also enabled Rocket Lab to deliver high-volume manufacturing of critical spacecraft components and software solutions at scale prices to the broader spacecraft merchant market. Our spacecraft family, which are configurable for a range of low Earth orbit, medium Earth orbit, geosynchronous orbit and interplanetary missions enable us to offer an end-to-end mission solution encompassing launch, full spacecraft manufacturing, ground services, mission operations and optical systems to provide customers with streamlined access to orbit with Rocket Lab as a single mission partner.
+
+Recent Developments
+
+Neutron Update
+
+We continue to make significant progress in the development of the Neutron launch vehicle. Neutron qualification testing from large structures through to component level systems is ongoing. During Q2, we achieved significant milestones across the Neutron program with ongoing integration and readiness of first-flight hardware, continued progress on Archimedes engine testing, and advancement of the second stage and reusable fairing systems.
+
+Production of the Stage 1 tank is currently aligned with the target delivery of Neutron to the launch pad in Q4 2026. While the window for an end-of-year launch date is narrowing, we are balancing the schedule of the first launch with entering Neutron into service as a system ready for full-scale production and high-cadence launch beyond flight one. Exact launch timing will also depend on the outcome of first stage qualification and other critical tests occurring later in 2026.
+
+Risk and uncertainty remains in the complex development cycle of a new launch vehicle which could impact our current best estimate of a targeted timeline for first launch.
+
+Pending Acquisition
+
+On June 28, 2026, we entered into a definitive agreement to acquire Iridium Communications Inc. The transaction is subject to customary closing conditions, including regulatory approval, and, if approved, is expected to close in 2027. Additional information regarding the transaction is included in Note 1 – Description of the Business to the condensed consolidated financial statements.
+
+Space Force Missile Defense Suborbital Launch Program
+
+On July 21, 2026, we entered into an agreement with the U.S. Space Force Space Systems Command’s Rocket Systems Launch Program to execute 12 suborbital launches supporting missile defense programs, with options for up to six additional launches. The contract has a total potential value of $266 million.
+
+Space Force Space-Based Airborne Moving Target Indicator Program
+
+On July 30, 2026, we entered into an agreement with the United States Space Force to design, manufacture, launch, and operate Flatellite satellites for the Space-Based Airborne Moving Target Indicator program. The contract has a total potential value of $397 million, including options.
+
+35
+
+Table of Contents
+
+Key Factors Affecting Our Performance
+
+Ability to timely develop and successfully deploy Neutron launch vehicle
+
+Our future results will depend on the success of the development and commercial acceptance of our Neutron medium-capacity launch vehicle. While we have made significant progress across Neutron’s structures and infrastructure to date, including engine testing and initial production execution, the commercial development of a new launch vehicle is inherently time consuming and involves numerous risks throughout the engineering and manufacturing development cycle, hardware and systems testing, and infrastructure readiness, any of which could create further delays in reaching the initial launch and future launches of the completed vehicle. In addition, even if we succeed in developing Neutron to a successful initial launch, we could be unsuccessful in developing the ability to produce these launch vehicles in quantities and with the necessary quality manufacturing system that ensures each vehicle and engines perform as required or meet our expectations for future launch cadence. Any delay in the production of the Neutron launch vehicle or in our ability to produce these launch vehicles at our expected rate of production and with a reliable quality management system could have a material impact on customer acceptance as well as our future revenue, financial condition and results of operations. Additional delays or setbacks in Neutron development may require more research, development and capital expenditures than we currently anticipate, which could adversely affect our liquidity and capital resources in future periods.
+
+Ability to sell additional launch services, space systems service and spacecraft components to new and existing customers
+
+Our results will be impacted by our ability to sell our launch services, space systems services, and spacecraft components to new and existing customers. We have successfully launched Electron 87 times delivering over 250 spacecraft to orbit, including suborbital launches, through June 30, 2026. We have flight hardware and spacecraft with an extensive flight heritage, including legacy missions enabled by Sinclair Interplanetary (acquired April 2020), Advanced Solutions, Incorporated (acquired October 2021), Planetary Systems Corporation (acquired November 2021), SolAero Technologies Corp. (acquired January 2022), GEOST (acquired August 2025), Mynaric (acquired April 2026) and Motiv (acquired May 2026). Our growth opportunity is dependent on our ability to expand our addressable launch services market with larger volumetric and higher mass payload capabilities of our in-development medium-capacity Neutron launch vehicle, which will address large commercial and government constellation launch opportunities. Our growth opportunity is also dependent on our ability to win spacecraft constellation missions and expand our portfolio of strategic spacecraft components. Our ability to sell additional products to existing customers is a key part of our success, as follow-on purchases indicate customer satisfaction and decrease the likelihood of competitive substitution. To sell additional products and services to new and existing customers, we will need to continue to invest significant resources in our products and services.
+
+Ability to improve profit margins and scale our business
+
+We intend to continue to invest in initiatives to improve our operating leverage and significantly ramp production. We believe continued reduction in costs and an increase in production volumes will enable the cost of launch vehicles to decline and improve our gross margins. Our ability to achieve our production-efficiency objectives could be negatively impacted by a variety of factors including, among other things, lower-than-expected facility utilization rates, manufacturing and production cost overruns, increased purchased material costs and unexpected supply-chain quality issues or interruptions.
+
+Government expenditures and private enterprise investment into the space economy
+
+Government expenditures and private enterprise investment has fueled the growth in our target markets. We expect the continued availability of government expenditures and private investment for our customers to help fund purchases of our products and services will remain. This is an important factor in our company’s growth prospects.
+
+Key Metrics and Select Financial Data
+
+We monitor the following key financial and operational metrics that assist us in evaluating our business, measuring our performance, identifying trends and making strategic decisions.
+
+36
+
+Table of Contents
+
+Launch Vehicle Build-Rate and Launch Cadence
+
+We built approximately 14 Electron launch vehicles in 2024 and approximately 24 Electron launch vehicles in 2025. We built approximately 11 Electron launch vehicles during the six months ended June 30, 2026. We launched 16 Electron vehicles in 2024 and 21 Electron vehicles in 2025. We launched 12 Electron vehicles during the six months ended June 30, 2026. Growth rates between launches and total launch service revenue are not perfectly correlated because our total revenue is affected by other variables, such as the revenue per launch, which can vary considerably based on factors such as unique orbit and insertion requirements, payload handling needs, launch location, time sensitivity of mission completion, method of revenue recognition and other factors.
+
+Revenue Growth
+
+Three Months Ended June 30, 2026 and 2025
+
+We generated $234.1 million and $144.5 million in revenue for the three months ended June 30, 2026 and 2025, respectively, representing a year-on-year increase in revenue of approximately 62%. This year-on-year increase resulted from space systems revenue growth of $91.6 million, primarily driven by satellite manufacturing and acquisitions, partially offset by a decrease in launch revenue of $2.1 million. Launch revenue declined despite six Electron launch missions completed for the three months ended June 30, 2026 versus five Electron launch missions completed for the three months ended June 30, 2025, primarily due to revenue recognition timing. Two of the six Electron launch missions completed for the three months ended June 30, 2026 were Hypersonic Accelerator Suborbital Test Electron (“HASTE”) launch missions, for which revenue was recognized over time and was partially recognized in prior quarters. All five Electron launch missions completed for the three months ended June 30, 2025 were point-in-time launches. The decrease was partially offset by increased other launch revenue of $5.7 million, which includes contract termination and study revenue.
+
+Six months ended June 30, 2026 and 2025
+
+We generated $434.4 million and $267.1 million in revenue for the six months ended June 30, 2026 and 2025, respectively, representing a year-on-year increase in revenue of approximately 63%. This year-on-year increase resulted from space systems revenue growth of $141.3 million, primarily driven by satellite manufacturing and acquisitions, and an increase in launch revenue of $26.0 million. Launch revenue growth was due to a higher revenue per launch on point-in-time Electron launch missions, an increase in other launch revenue of $7.3 million, which includes contract termination and study revenue and revenue recognized on over-time HASTE launch missions.
+
+Revenue and Cost Per Launch
+
+Revenue per launch represents the average transaction price attributable to launch contract performance obligations during the period in which the launch occurs, regardless of whether the revenue is recognized using the point-in-time or over-time method of revenue recognition. This metric provides insight into general competitiveness and price sensitivity in the marketplace. Revenue per launch can vary considerably, based on factors such as unique orbit and insertion requirements, payload handling needs, launch location, time sensitivity of mission completion and other factors, and as such may not provide absolute clarity with regards to pricing and competitive dynamics in the marketplace. Cost per launch is calculated by taking actual costs of the launch vehicles that occur in the period, regardless of whether the costs were recognized using the point-in-time or over-time method and all period costs in the period of launch.
+
+Three Months Ended June 30, 2026 and 2025
+
+For the three months ended June 30, 2026 and 2025, revenue per launch was $9.1 million and $7.9 million, respectively. Meanwhile, cost per launch for the three months ended June 30, 2026 and 2025 was $4.4 million and $5.0 million, respectively. The increase in revenue per launch reflects changes in customer mix and mission complexity during the period in which the launches occurred.
+
+Six months ended June 30, 2026 and 2025
+
+For the six months ended June 30, 2026 and 2025, revenue per launch was $9.2 million and $7.5 million, respectively. Meanwhile, cost per launch for the six months ended June 30, 2026 and 2025 was $4.9 million and $5.3 million, respectively. The increase in revenue per launch reflects changes in customer mix and mission complexity during the period in which the launches occurred.
+
+37
+
+Table of Contents
+
+Backlog
+
+Backlog represents future revenues that we would recognize in connection with the completion of all contracts and purchase orders that have been entered into by our customers but have not yet been fulfilled, excluding any customer options for future products or services that have not yet been exercised. Contracts for launch services and spacecraft builds typically include termination rights that may be exercised by customers upon advanced notice and payment of a specified termination fee. Backlog increased from $1,847.3 million as of December 31, 2025 to $2,355.9 million as of June 30, 2026, of which $1,415.8 million is related to space systems and $940.2 million is related to launch services. The increase was primarily a result of continued bookings and backlog added through acquisitions, partially offset by revenue recognized on contracts during the period.
+
+Components of Results of Operations
+
+Revenue
+
+Our revenues are derived from a combination of long-term fixed price contracts for launch services and spacecraft builds, and purchase order based spacecraft components sales. Revenues from long-term contracts are recognized using either the “point-in-time” or “over-time” method of revenue recognition. Point-in-time revenue recognition results in cash payments being initially accrued to the balance sheet as deferred revenue as contractual milestones are accomplished and then recognized as revenue once the final contractual obligation is completed. Over-time revenue recognition is generally based on an input measure of progress based on costs incurred compared to estimated total costs at completion. Each project has a contractual revenue value and an estimated cost. The over-time revenue is recognized based on the percentage of the total project cost that has been realized.
+
+Estimating future revenues and associated costs and profit is a process requiring a high degree of management judgment, including management’s assumptions regarding our future operational performance as well as general economic conditions. Frequently, the period of performance of a contract extends over a long period of time and, as such, revenue recognition and our profitability from a particular contract may be affected to the extent that estimated costs to complete are revised, delivery schedules are delayed, performance-based milestones are not achieved or progress under a contract is otherwise impeded. Accordingly, our recorded revenues and operating profit from period to period can fluctuate significantly depending on when the point-in-time or over-time contractual obligations are achieved. In the event cost estimates indicate a loss on a contract, the total amount of such loss is recorded in the period in which the loss is first estimated.
+
+Cost of Revenues
+
+Cost of revenues consists primarily of direct material and labor costs, manufacturing overhead, freight expense, depreciation and amortization and other personnel-related expenses, which include salaries, bonuses, benefits and stock-based compensation expense, directly associated with generating revenues. We expect our cost of revenues to increase in absolute dollars in future periods as we sell more launch services and space systems. As we grow into our current capacity and execute on cost-reduction initiatives, we expect our cost of revenues as a percentage of revenue to decrease over time.
+
+Because direct labor costs and manufacturing overhead comprise a significant portion of cost of revenues, increasing our production rate resulting in greater absorption of these costs is our most critical cost reduction initiative. Increasing our production rate is a cross-functional effort involving sales and business development, manufacturing, engineering, supply chain and finance.
+
+Operating Expenses
+
+Our operating expenses consist of research and development and selling, general and administrative expenses.
+
+Research and Development, Net
+
+Research and development expenses consist primarily of labor, prototype, professional services, materials, facilities and depreciation expense. We intend to continue to make significant investments in developing new products and enhancing existing products, including but not limited to our medium capacity Neutron launch vehicle and spacecraft features and capabilities, as well as expanding our portfolio of spacecraft components and subsystems. Research and development expenses will be variable relative to the number of products that are in development, validation or testing. However, we expect it to decline as a percentage of total revenue over time.
+
+38
+
+Table of Contents
+
+Selling, General and Administrative
+
+Selling, general and administrative expenses consist primarily of personnel-related expenses for our sales, marketing, supply chain, finance, legal, human resources and administrative personnel, as well as the costs of customer service, information technology, risk management and related insurance, travel, allocated overhead, other marketing, communications, administrative and transaction expenses. We also expect to further invest in our corporate infrastructure and incur additional expenses associated with operating as a public company, including increased legal and accounting costs, investor relations and compliance costs. As a result, we expect that selling, general and administrative expenses will increase in absolute dollars in future periods but decline as a percentage of total revenue over time.
+
+Interest Expense
+
+Interest expense consists primarily of interest expense on our loan agreements, amortization of debt issuance costs and finance lease interest.
+
+Interest Income
+
+Interest income consists primarily of interest income on our cash and cash equivalents, marketable securities and customer financing.
+
+Gain (Loss) on Foreign Exchange
+
+Gain (loss) on foreign exchange relates to currency fluctuations that generate foreign exchange gains or losses on invoices denominated in currencies other than the U.S. Dollar.
+
+Other Income (Expense), Net
+
+Other income (expense) consists primarily of changes in the fair value of contingent consideration, loss on extinguishment of debt, gain or loss on disposal of assets and accretion of marketable securities purchased at a discount.
+
+Results of Operations
+
+Comparison of the Three Months Ended June 30, 2026 and 2025
+
+The following table sets forth our consolidated statements of operations and comprehensive loss information and data as a percentage of revenue for the three months ended June 30, 2026 and 2025 (in thousands, except percentages):
+
+Three Months Ended June 30,
+
+2026 | 2025
+
+$% | $%
+
+Revenues | $234,066 | 100.0% | $144,498 | 100.0%
+
+Cost of revenues | 149,490 | 63.9% | 98,110 | 67.9%
+
+Gross profit | 84,576 | 36.1% | 46,388 | 32.1%
+
+Operating expenses:
+
+Research and development, net | 82,429 | 35.2% | 66,134 | 45.8%
+
+Selling, general and administrative | 59,661 | 25.5% | 39,893 | 27.6%
+
+Total operating expenses | 142,090 | 60.7% | 106,027 | 73.4%
+
+Operating loss | (57,514) | (24.6)% | (59,639) | (41.3)%
+
+Other income (expense):
+
+Interest expense | (581) | (0.2)% | (7,390) | (5.1)%
+
+Interest income | 16,486 | 7.0% | 5,019 | 3.5%
+
+Loss on foreign exchange | (1,954) | (0.8)% | (489) | (0.3)%
+
+Other expense, net | (368) | (0.2)% | (977) | (0.7)%
+
+Total other income (expense), net | 13,583 | 5.8% | (3,837) | (2.6)%
+
+Loss before income taxes | (43,931) | (18.8)% | (63,476) | (43.9)%
+
+Provision for income taxes | (5,327) | (2.3)% | (2,938) | (2.0)%
+
+Net loss | $(49,258) | (21.1)% | $(66,414) | (45.9)%
+
+39
+
+Table of Contents
+
+Revenues
+
+Three Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Revenues | $234,066 | $144,498 | $89,568 | 62%
+
+Revenue increased by $89.6 million, or 62%, for the three months ended June 30, 2026 as compared to the three months ended June 30, 2025. Space systems revenue was $189.5 million for the three months ended June 30, 2026, an increase of $91.6 million, or 94%, primarily due to spacecraft manufacturing growth and acquisitions. Launch services revenue was $44.6 million for the three months ended June 30, 2026, a decrease of $2.1 million, or 4%, primarily due to revenue recognition timing. Two of the six Electron launch missions completed for the three months ended June 30, 2026 were HASTE launch missions, for which revenue was recognized over time and was partially recognized in prior quarters. All five Electron launch missions completed for the three months ended June 30, 2025 were point-in-time launches. The decrease was partially offset by increased other launch revenue of $5.7 million, which includes contract termination and study revenue.
+
+Cost of Revenues
+
+Three Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Cost of revenues | $149,490 | $98,110 | $51,380 | 52%
+
+Cost of revenues increased by $51.4 million, or 52%, for the three months ended June 30, 2026 as compared to the three months ended June 30, 2025. Space systems cost of revenue was $124.0 million for the three months ended June 30, 2026, an increase of $58.3 million, or 89%, primarily due to acquisitions and spacecraft manufacturing growth. Launch services cost of revenues was $25.5 million for the three months ended June 30, 2026, a decrease of $7.0 million, or 21%, primarily due to a decrease in point-in-time launches and timing of over time costs on HASTE launch missions.
+
+Research and Development, Net
+
+Three Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Research and development, net | $82,429 | $66,134 | $16,295 | 25%
+
+Research and development expenses increased by $16.3 million, or 25%, for the three months ended June 30, 2026 as compared to the three months ended June 30, 2025, primarily due to Neutron development progress, incremental research and development spend at recently acquired businesses, increased staff and staff-related expenses as a result of hiring and prototype spend focused on expanding our spacecraft and spacecraft components product portfolio.
+
+Selling, General and Administrative
+
+Three Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Selling, general and administrative | $59,661 | $39,893 | $19,768 | 50%
+
+Selling, general and administrative expenses increased by $19.8 million, or 50%, for the three months ended June 30, 2026 as compared to the three months ended June 30, 2025, primarily due to incremental selling, general and administrative spend at recently acquired businesses, increased staff and staff-related expenses to support revenue growth and increased transaction expenses related to managing an active acquisition pipeline.
+
+Interest Expense
+
+Three Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Interest expense | $(581) | $(7,390) | $6,809 | (92)%
+
+Interest expense decreased by $6.8 million, or 92%, for the three months ended June 30, 2026 as compared to the three months ended June 30, 2025, primarily due to conversions of the Convertible Senior Notes and the extinguishment of the Trinity Loan Agreement.
+
+40
+
+Table of Contents
+
+Interest Income
+
+Three Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Interest income | $16,486 | $5,019 | $11,467 | 228%
+
+Interest income increased by $11.5 million, or 228%, for the three months ended June 30, 2026 as compared to the three months ended June 30, 2025, primarily due to higher cash and cash equivalents balances held in interest bearing accounts.
+
+Loss on Foreign Exchange
+
+Three Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Loss on foreign exchange | $(1,954) | $(489) | $(1,465) | 300%
+
+Loss on foreign exchange increased by $1.5 million, or 300%, for the three months ended June 30, 2026 as compared to the three months ended June 30, 2025, primarily due to fluctuations on the foreign exchange rates of the New Zealand Dollar, Euro and Canadian Dollar as compared to the U.S. Dollar.
+
+Other Expense, Net
+
+Three Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Other expense, net | $(368) | $(977) | $609 | (62 | %)
+
+Other expense decreased by $0.6 million, or 62%, for the three months ended June 30, 2026 as compared to the three months ended June 30, 2025, primarily due to a decrease in loss on disposal of assets for the three months ended June 30, 2026 compared to the three months ended June 30, 2025.
+
+Provision for Income Taxes
+
+Three Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Provision for income taxes | $(5,327) | $(2,938) | $(2,389) | 81%
+
+Provision for income taxes increased by $2.4 million for the three months ended June 30, 2026 as compared to the three months ended June 30, 2025. The effective tax rate was (12.1)% for the three months ended June 30, 2026, compared to (4.6)% for the three months ended June 30, 2025. The effective tax rate differs from the federal statutory rate due primarily to a full valuation allowance against our U.S. deferred tax assets, as well as the impact of discrete items that may occur in any given year but which are not consistent from year-to-year.
+
+41
+
+Table of Contents
+
+Comparison of the Six Months Ended June 30, 2026 and 2025
+
+The following table sets forth our consolidated statements of operations and comprehensive loss information and data as a percentage of revenue for the six months ended June 30, 2026 and 2025 (in thousands, except percentages):
+
+Six Months Ended June 30,
+
+2026 | 2025
+
+$% | $%
+
+Revenues | $434,414 | 100.0% | $267,067 | 100.0%
+
+Cost of revenues | 273,345 | 62.9% | 185,432 | 69.4%
+
+Gross profit | 161,069 | 37.1% | 81,635 | 30.6%
+
+Operating expenses:
+
+Research and development, net | 162,942 | 37.5% | 121,243 | 45.4%
+
+Selling, general and administrative | 111,610 | 25.7% | 79,219 | 29.7%
+
+Total operating expenses | 274,552 | 63.2% | 200,462 | 75.1%
+
+Operating loss | (113,483) | (26.1)% | (118,827) | (44.5)%
+
+Other income (expense):
+
+Interest expense | (1,855) | (0.4)% | (14,185) | (5.3)%
+
+Interest income | 26,635 | 6.1% | 9,228 | 3.4%
+
+Loss on foreign exchange | (1,798) | (0.4)% | (623) | (0.2)%
+
+Other expense, net | (244) | (0.1)% | (498) | (0.2)%
+
+Total other income (expense), net | 22,738 | 5.2% | (6,078) | (2.3)%
+
+Loss before income taxes | (90,745) | (20.9)% | (124,905) | (46.8)%
+
+Provision for income taxes | (3,535) | (0.8)% | (2,125) | (0.8)%
+
+Net loss | $(94,280) | (21.7)% | $(127,030) | (47.6)%
+
+Revenues
+
+Six Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Revenues | $434,414 | $267,067 | $167,347 | 63%
+
+Revenue increased by $167.3 million, or 63%, for the six months ended June 30, 2026 as compared to the six months ended June 30, 2025. Space systems revenue was $326.2 million for the six months ended June 30, 2026, an increase of $141.3 million, or 76%, primarily due to spacecraft manufacturing growth and acquisitions. Launch services revenue was $108.2 million for the six months ended June 30, 2026, an increase of $26.0 million, or 32%, primarily due to a higher launch cadence with 12 Electron launch missions completed for the six months ended June 30, 2026, versus 10 launch missions completed in the six months ended June 30, 2025, higher revenue per launch, an increase in other launch revenue of $7.3 million, which includes contract termination and study revenue and revenue recognized on over-time HASTE launch missions.
+
+Cost of Revenues
+
+Six Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Cost of revenues | $273,345 | $185,432 | $87,913 | 47%
+
+Cost of revenues increased by $87.9 million, or 47%, for the six months ended June 30, 2026 as compared to the six months ended June 30, 2025. Space systems cost of revenue was $212.4 million for the six months ended June 30, 2026, an increase of $87.8 million, or 70%, primarily due to acquisitions and spacecraft manufacturing growth. Launch services cost of revenues was $60.9 million for the six months ended June 30, 2026, an increase of $0.1 million.
+
+42
+
+Table of Contents
+
+Research and Development, Net
+
+Six Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Research and development, net | $162,942 | $121,243 | $41,699 | 34%
+
+Research and development expenses increased by $41.7 million, or 34%, for the six months ended June 30, 2026 as compared to the six months ended June 30, 2025, primarily due to Neutron development progress, incremental research and development spend at recently acquired businesses, increased staff and staff-related expenses as a result of hiring and prototype spend focused on expanding our spacecraft and spacecraft components product portfolio.
+
+Selling, General and Administrative
+
+Six Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Selling, general and administrative | $111,610 | $79,219 | $32,391 | 41%
+
+Selling, general and administrative expenses increased by $32.4 million, or 41%, for the six months ended June 30, 2026 as compared to the six months ended June 30, 2025, primarily due to incremental selling, general and administrative spend at recently acquired businesses, cancellations of RSUs resulting in a one-time stock-based compensation expense of $11.2 million, increased staff and staff-related expenses to support revenue growth and increased transaction expenses related to managing an active acquisition pipeline.
+
+Interest Expense
+
+Six Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Interest expense | $(1,855) | $(14,185) | $12,330 | (87)%
+
+Interest expense decreased by $12.3 million, or 87%, for the six months ended June 30, 2026 as compared to the six months ended June 30, 2025, primarily due to conversions of the Convertible Senior Notes and the extinguishment of the Trinity Loan Agreement.
+
+Interest Income
+
+Six Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Interest income | $26,635 | $9,228 | $17,407 | 189%
+
+Interest income increased by $17.4 million, or 189%, for the six months ended June 30, 2026 as compared to the six months ended June 30, 2025, primarily due to higher cash and cash equivalents balances held in interest bearing accounts.
+
+Loss on Foreign Exchange
+
+Six Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Loss on foreign exchange | $(1,798) | (623) | $(1,175) | 189%
+
+Loss on foreign exchange increased by $1.2 million, or 189%, for the six months ended June 30, 2026 as compared to the six months ended June 30, 2025, primarily due to fluctuations on the foreign exchange rates of the New Zealand Dollar, Euro and Canadian Dollar as compared to the U.S. Dollar.
+
+43
+
+Table of Contents
+
+Other Expense, Net
+
+Six Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Other expense, net | $(244) | $(498) | $254 | (51 | %)
+
+Other expense decreased by $0.3 million, or 51%, for the six months ended June 30, 2026 as compared to the six months ended June 30, 2025, primarily due to a decrease in loss on disposal of assets for the six months ended June 30, 2026 compared to the six months ended June 30, 2025.
+
+Provision for Income Taxes
+
+Six Months Ended June 30,
+
+(in thousands, except percentages) | 2026 | 2025 | $ Change | % Change
+
+Provision for income taxes | $(3,535) | $(2,125) | $(1,410) | 66%
+
+Provision for income taxes increased by $1.4 million for the six months ended June 30, 2026 as compared to the six months ended June 30, 2025. The effective tax rate was (3.9)% for the six months ended June 30, 2026, compared to (1.7)% for the six months ended June 30, 2025. The effective tax rate differs from the federal statutory rate due primarily to a full valuation allowance against our U.S. deferred tax assets, as well as the impact of discrete items that may occur in any given year but which are not consistent from year-to-year.
+
+Liquidity and Capital Resources
+
+Since inception, we have funded our operations with proceeds from sales of our capital stock, convertible senior notes, term note debt, equipment financing, research and development grant proceeds, and cash flows from the sale of our products and services. As of June 30, 2026, we had $2.1 billion of cash and cash equivalents and $258.1 million of marketable securities. Our primary requirements for liquidity and capital are for investment in new products and technologies, the expansion of existing manufacturing facilities, working capital, debt service, acquisitions of complementary businesses, products or technologies and general corporate needs. Historically, these cash requirements have been met through the net proceeds we received through private sales of equity securities and convertible senior notes, borrowings under our credit and equipment financing facilities, net proceeds received in our business combination, net proceeds received from our ATM Equity Offerings and payments received from customers.
+
+We believe that our existing cash and cash equivalents and marketable securities and payments from customers will be sufficient to meet our working capital and capital expenditure needs for at least the next twelve months, although we may choose to take advantage of opportunistic capital raising or refinancing transactions at any time primarily for the purposes noted above. We will continue to invest in increasing production and expanding our product offerings through acquisitions.
+
+On June 28, 2026, we entered into a definitive agreement to acquire all outstanding shares of Iridium for $54 per share in a cash and stock transaction. This represents an enterprise value of approximately $8.0 billion. The Iridium Transaction is expected to require over $3.0 billion in cash related to share consideration payments, repayment of certain outstanding Iridium acquisition indebtedness and payment of transaction fees and expenses, and approximately $1.8 billion of additional cash to repay or refinance Iridium term loan indebtedness, if necessary. The transaction is expected to close in 2027, subject to customary closing conditions, including approval by Iridium’s stockholders and regulatory approval.
+
+In connection with the definitive agreement, we entered into a commitment letter, as well as related fee letters with Deutsche Bank Securities Inc., Wells Fargo Bank, National Association and Wells Fargo Securities, LLC and Deutsche Bank AG New York Branch, pursuant to which Deutsche Bank AG New York Branch and Wells Fargo Bank, National Association have committed to provide, subject to the terms and conditions thereof, a 364-day senior secured bridge term loan facility in an aggregate principal amount of $3.6 billion.
+
+Material Cash Requirements
+
+As of June 30, 2026, our total minimum lease payments were $178.5 million, of which $23.6 million is due in the following twelve months. For details regarding our indebtedness and lease obligations as of June 30, 2026, refer to Note 11 and Note 14, respectively, to our condensed consolidated financial statements included elsewhere in this Quarterly Report on Form 10-Q.
+
+44
+
+Table of Contents
+
+Our capital expenditures for the six months ended June 30, 2026 were $53.1 million. Our future capital requirements will depend on many factors, including our launch cadence, traction in the market with our space systems offerings, the expansion of sales and marketing activities, the timing and extent of spending to support product development efforts, the introduction of new and enhanced products, the continuing market adoption of our products, the timing and extent of additional capital expenditures to invest in existing and new office spaces and the number of acquisitions of complementary businesses, including the acquisition of Iridium, products or technologies we pursue, if any. We may be required to seek additional equity or debt financing or we may choose to take advantage of opportunistic capital raising or financing transactions primarily for the purposes noted above. In the event that we require additional financing, we may not be able to raise such financing on terms acceptable to us or at all. If we are unable to raise additional capital or generate cash flows necessary to expand our operations and invest in continued product innovation, we may not be able to compete successfully, which would harm our business, operations and financial condition.
+
+Additionally, we expect our capital and operating expenditures will increase significantly in connection with ongoing activities as we:
+
+•increase our investment in marketing, advertising, sales and distribution infrastructure for our existing and future products and services;
+
+•develop additional new products and enhancements to existing products, integrate acquisitions and seek new growth opportunities, including additional acquisitions and investments;
+
+•obtain, maintain and improve our operational, financial and management performance;
+
+•hire additional personnel;
+
+•obtain, maintain, expand and protect our and our customer’s intellectual property.
+
+Indebtedness
+
+As of June 30, 2026, there was $13.4 million outstanding under our 4.250% Convertible Senior Notes due 2029 (the “Convertible Notes”), before unamortized discount and debt issuance costs of $0.2 million. For details regarding our outstanding loan agreements, refer to Note 11 of our condensed consolidated financial statements included elsewhere in this Quarterly Report on Form 10-Q.
+
+In connection with the pricing of the Convertible Notes, on February 1, 2024 and February 2, 2024, we entered into privately negotiated capped call transactions (the “Capped Call Transactions”) with certain financial institutions. These transactions are designed to offset potential dilution from the Convertible Notes and provide a non-dilutive source of liquidity under certain conditions. The Capped Call Transactions have a strike price of $5.1255 per share with a cap price of $8.04 per share, covering approximately 69.3 million shares of common stock.
+
+The Capped Call Transactions are scheduled to expire in tranches over a series of dates, beginning on December 1, 2028, and ending on January 30, 2029. If our stock price equals or exceeds the strike price on any given expiration date, we would be entitled to receive payments for the corresponding tranche without issuing additional shares, up to a maximum aggregate payment of approximately $201.9 million across all tranches on the settlement date. However, if the stock price is below the cap price (but is above the strike price) on any expiration date, the payment received for that tranche would be reduced, and the Company may receive less than the maximum potential payment.
+
+If the Capped Call Transactions are unwound prior to the maturity dates, the settlement terms would depend on the prevailing market conditions, including our stock price at the time of the unwind, the time remaining until maturity on the date of the unwind, and the expiration schedule of the tranches.
+
+Cash Flows
+
+The following table summarizes our cash flows for the periods presented:
+
+Six Months Ended June 30,
+
+(in thousands) | 2026 | 2025
+
+Net cash provided by (used in):
+
+Operating activities | $(134,407) | $(77,467)
+
+Investing activities | (84,608) | (36,022)
+
+Financing activities | 1,523,403 | 406,048
+
+Effect of exchange rate changes | (35) | 1,127
+
+Net increase in cash, cash equivalents, and restricted cash | $1,304,353 | $293,686
+
+45
+
+Table of Contents
+
+Cash Flows from Operating Activities
+
+For the six months ended June 30, 2026, net cash used in operating activities of $134.4 million consisted of $94.3 million in net loss, $95.7 million in non-cash activities and $135.9 million in cash used in operating assets and liabilities. Included in the non-cash activities are $47.7 million in stock-based compensation expense and $35.9 million in depreciation and amortization. Included in the cash used in operating assets and liabilities are $73.3 million in inventories, $63.0 million in accounts receivable, $40.3 million in other non-current assets, $30.1 million in contract assets, $6.9 million in prepaids and other current assets, $6.5 million in non-current lease liabilities, partially offset by cash provided by operating assets and liabilities of $78.8 million in contract liabilities and $9.0 million in accrued expenses.
+
+Cash Flows from Investing Activities
+
+For the six months ended June 30, 2026, net cash used in investing activities of $84.6 million consisted of $53.1 million of capital equipment and infrastructure investments and $44.3 million of cash paid for business combinations, partially offset by net maturities of marketable securities of $12.1 million.
+
+Cash Flows from Financing Activities
+
+For the six months ended June 30, 2026, net cash provided by financing activities of $1,523.4 million consisted of $1,512.9 million of net proceeds from the issuance of common stock under the ATM Equity Offerings and $8.8 million of proceeds from Employee Stock Purchase Plan.
+
+Critical Accounting Policies and Estimates
+
+There have been no material changes to our critical accounting policies and estimates as disclosed in our audited financial statements included in our Form 10-K.
+
+Off-Balance Sheet Arrangements
+
+During the periods presented, we did not have, and we do not currently have, any off-balance sheet arrangements, as defined under applicable SEC rules.
+
+Guarantor Information
+
+In connection with the Reorganization, on May 23, 2025, the Company, Rocket Lab USA and U.S. Bank Trust Company, National Association (the “Trustee”) entered a first supplemental indenture (the “Supplemental Indenture”) to the indenture, dated as of February 6, 2024, between Rocket Lab USA and the Trustee (the “Indenture”), governing the Convertible Notes in order to (i) provide for subsequent conversions of the Convertible Notes in the manner set forth in Section 5.09 of the Indenture, (ii) provide for subsequent adjustments to the Conversion Rate pursuant to Section 5.05(A) of the Indenture in a manner consistent with Section 5.09 of the Indenture, (iii) provide for the full and unconditional guarantee of the obligations of Rocket Lab USA under the Convertible Notes and the Indenture and (iv) make such other changes as are appropriate to preserve the economic interests of the holders and to give effect to the provisions of Section 5.09(A) of the Indenture.
+
+As of June 30, 2026, there was $13.4 million aggregate principal amount of issued and outstanding convertible senior notes of Rocket Lab USA that are fully and unconditionally guaranteed by the Company. Accordingly, pursuant to Rule 3-10 of Regulation S-X, separate condensed consolidated financial statements of Rocket Lab USA have not been presented. As permitted under Rule 13-01(a)(4)(vi) of Regulation S-X, we have excluded summarized financial information for Rocket Lab USA because the assets, liabilities and results of operations of Rocket Lab USA are not materially different than the corresponding amounts in the Company’s condensed consolidated financial statements.
+
+Item 3. Quantitative and Qualitative Disclosures About Market Risk
+
+We are exposed to market risks in the ordinary course of our business. Market risk represents the risk of loss that may impact our financial position due to adverse changes in financial market prices and rates. Our market risk exposure is primarily the result of fluctuations in foreign currency exchange rates and interest rates and inflation. In addition, we are subject to broader market risk that is created by the global market disruptions and uncertainties resulting from macroeconomic challenges, geopolitical events, tariffs, trade and other international disputes.
+
+46
+
+Table of Contents
+
+Foreign Currency Exchange Risk
+
+Our reporting currency is the U.S. dollar, and the functional currency of each of our subsidiaries is either its local currency or the U.S. dollar. The assets and liabilities of each of our subsidiaries are translated into U.S. dollars at exchange rates in effect at each balance sheet date and operations accounts are translated using the average exchange rate for the relevant period. Increases or decreases in the relative value of the U.S. dollar to other currencies may positively or negatively affect revenue and other operating results as expressed in U.S. dollars. Foreign currency translation adjustments are accounted for as a component of accumulated other comprehensive income (loss) within stockholders’ equity. Gains or losses due to transactions in foreign currencies are reflected in the condensed consolidated statements of operations and comprehensive loss within loss on foreign exchange. Materially all of our revenues are denominated in U.S. dollars and we have not engaged in the hedging of foreign currency risk to date, although we may choose to do so in the future. As such, a 10% or greater move in exchange rates versus the U.S. dollar could have a material impact on our financial results or position.
+
+Interest Rate Risk
+
+As of June 30, 2026, we had cash and cash equivalents of $2.1 billion, comprised primarily of operating accounts and money market instruments and $258.1 million invested in marketable securities, comprised of commercial paper, corporate debt securities, bank certificates of deposit, U.S. Treasury bills and notes and asset backed securities. We do not enter into investments for trading or speculative purposes and have not used any derivative financial instruments to manage our interest rate risk exposure.
+
+Impact of Inflation
+
+We do not believe that inflation has had a material effect on our business, results of operations, or financial condition. Nonetheless, if our costs were to become subject to significant inflationary pressures it could diminish our margin thereby limiting our profits, especially if we are not able to fully offset such higher costs. Our inability or failure to do so could harm our business, financial condition, and results of operations.
+
+Item 4. Controls and Procedures
+
+Evaluation of Disclosure Controls and Procedures
+
+We maintain “disclosure controls and procedures,” as defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934, as amended ("Exchange Act"), that are designed to ensure that information required to be disclosed in the reports that we file or submit under the Exchange Act is (1) recorded, processed, summarized and reported within the time periods specified in the SEC’s rules and forms and (2) accumulated and communicated to our management, including our principal executive and principal financial officer, as appropriate to allow timely decisions regarding required disclosure.
+
+As required by paragraph (b) of Rules 13a-15 and 15d-15 under the Exchange Act, our management, with the participation of our principal executive officer and principal financial officer, evaluated the effectiveness of our disclosure controls and procedures as of the end of the period covered by this Quarterly Report on Form 10-Q. Based upon such evaluation, our principal executive officer and principal financial officer have concluded that our disclosure controls and procedures were effective as of June 30, 2026.
+
+Changes in Internal Control over Financial Reporting
+
+During the period covered by this Quarterly Report on Form 10-Q, there were no changes in our internal control over financial reporting (“ICFR”) identified in connection with the evaluation required by paragraph (d) of Rules 13a-15 or 15d-15 of the Exchange Act that has materially affected, or is reasonably likely to materially affect, the Company’s ICFR.
+
+47
+
+Table of Contents
+
+PART II. OTHER INFORMATION
+
+Item 1. Legal Proceedings
+
+From time to time, we may become involved in litigation relating to claims arising from the ordinary course of business. Our management believes that there are currently no claims or actions pending against us, the ultimate disposition of which could have a material adverse effect on our results of operations or financial condition. Nevertheless, the Company and certain of its officers had been named as defendants in a putative securities class action filed in February 2025 in the United States District Court for the Central District of California. The case was purportedly filed on behalf of persons who claim to have suffered damages as a result of alleged misstatements concerning the progress of the Company’s Neutron rocket development. The Company filed a Motion to Dismiss the Complaint in August 2025. While the Court granted the Motion to Dismiss in November 2025, the Plaintiff subsequently filed an amended Complaint, and in response the Company again filed a new Motion to Dismiss this Complaint in January 2026. On April 16, 2026, our Motion to Dismiss the securities class action was granted with prejudice. Plaintiffs did not appeal the dismissal to the Ninth Circuit Court of Appeals.
+
+Relying on many of the same allegations as the securities class action, in April 2025, two shareholders filed putative shareholder derivative actions on behalf of the Company against its directors and certain of its officers in the United States District Court for the Central District of California. The two consolidated derivative actions remained stayed pending final resolution of the motion to dismiss in the securities case. On May 28, 2026, the Court granted the parties’ joint stipulation to dismiss the consolidated derivative action in its entirety.
+
+Item 1A. Risk Factors
+
+Other than as set forth below, there have been no material changes from the risk factors previously disclosed in Part I, Item 1A of our Annual Report on Form 10-K, as filed with the SEC on February 26, 2026.
+
+The Iridium Transaction is subject to conditions, some or all of which may not be satisfied or completed on a timely basis, if at all, and the Iridium Merger Agreement may be terminated in accordance with its terms if such conditions are not satisfied.
+
+The completion of the Iridium Transaction is subject to a number of conditions, including, among others, (i) the adoption of the Iridium Merger Agreement and the Iridium Transaction by the affirmative vote of the holders of a majority of the outstanding shares of Iridium’s common stock, (ii) the receipt of any regulatory approvals required to consummate the Iridium Transaction, (iii) the absence of any order or law prohibiting consummation of the Iridium Transaction, (iv) there having not occurred a Company Material Adverse Effect or a Parent Material Adverse Effect, each as defined in the Iridium Merger Agreement, (v) the effectiveness of a registration statement on Form S-4 with respect to shares of our common stock to be issued in the Iridium Transaction and (vi) approval of such shares for listing on the Nasdaq Global Select Market. These conditions make the completion and timing of the Iridium Transaction uncertain.
+
+Although we and Iridium have agreed in the Iridium Merger Agreement to use our reasonable best efforts to complete the Iridium Transaction as promptly as practicable, many of the closing conditions are not within our or Iridium's control, and neither company can predict when or if these conditions will be satisfied. In addition, if the Iridium Transaction is not completed by the end date (which is June 28, 2027), subject to up to two automatic extensions (to September 28, 2027, and then to December 28, 2027) if on each applicable date all of the closing conditions, except those relating to regulatory approvals and governmental orders, have been satisfied or waived (or would be satisfied or capable of being satisfied if the closing were to occur), either we or Iridium may choose not to proceed with the Iridium Transaction by terminating the Iridium Merger Agreement, and the parties may mutually agree to terminate the Iridium Merger Agreement at any time. The failure to satisfy all of the required closing conditions could delay the completion of the Iridium Transaction for a significant period of time or prevent it from occurring. Any delay in completing the Iridium Transaction could cause us not to realize some or all of the benefits that we expect to achieve if the Iridium Transaction is successfully completed within the expected time frame. There can be no assurance that the closing conditions will be satisfied or waived or that the Iridium Transaction will be completed. Further, either we or Iridium may elect to terminate the Iridium Merger Agreement in certain other circumstances. If the Iridium Transaction is not completed, whether because of our failure to receive required regulatory approvals in a timely fashion or for any other reason, the price of our common stock may be affected to the extent that the current market price reflects a market assumption that the Iridium Transaction will be completed.
+
+48
+
+Table of Contents
+
+We have secured committed debt financing to finance the Cash Consideration. Although obtaining financing is not a condition to the completion of the Iridium Transaction, the failure of that financing to be available when required could delay or prevent completion of the Iridium Transaction.
+
+We have received commitments for bridge debt financing sufficient, together with cash on hand, to fund the aggregate Cash Consideration payable in the Iridium Transaction. We intend to seek permanent debt or equity financing to replace the bridge facility commitment. The completion of the Iridium Transaction is not conditioned on our obtaining any financing. As a result, if the anticipated committed debt financing (or any alternative debt or equity financing) is not available at the time required, we will nonetheless remain obligated to complete the Iridium Transaction and pay the Cash Consideration, subject to the terms of the Iridium Merger Agreement, and Iridium may seek to enforce that obligation, including, in specified circumstances, through an action for specific performance. However, if we are unable to obtain sufficient funds when required, the completion of the Iridium Transaction could be delayed or might not occur, and the remedies available to Iridium may not fully compensate Iridium for the resulting harm. In addition, the obligation to complete the Iridium Transaction regardless of the availability of financing could require us to obtain financing on terms that are less favorable than anticipated.
+
+We expect to incur or assume substantial additional indebtedness in connection with the Iridium Transaction, which could adversely affect the combined company's financial condition and limit its operational and financial flexibility.
+
+To finance the Cash Consideration and related fees and expenses, we have obtained financing commitments for a $3.6 billion senior secured bridge facility and expect to incur or assume a significant amount of new indebtedness. We expect to replace all or a portion of the bridge facility with permanent financing, which may consist of debt, equity or a combination of the two. The amount, composition and terms of that permanent financing have not yet been determined and will depend on market conditions and other factors at the relevant time. This increased level of indebtedness and the related debt service obligations and collateral arrangements could have important consequences for the combined company, including requiring it to dedicate a substantial portion of its cash flow from operations to the payment of principal and interest on its indebtedness, thereby reducing the funds available for operations, capital expenditures and other purposes, including our development and growth programs (including Neutron) and Iridium's constellation replacement; increasing its vulnerability to rising interest rates and adverse general economic and industry conditions; limiting its ability to obtain additional financing, incur additional indebtedness, make investments, pursue strategic acquisitions or other strategic opportunities or fund future capital requirements; placing it at a competitive disadvantage compared with less leveraged competitors; and resulting in a downgrade of, or other adverse action with respect to, its credit ratings. If we are unable to complete permanent financing on favorable terms or at all, we may be required to retain or draw on the bridge facility, which is short-term and secured, or to accept less favorable terms. The combined company's ability to service its indebtedness will depend on its future operating performance, which is subject to economic, financial, competitive and other factors, many of which are beyond its control. If the combined company is unable to generate sufficient cash flow to service its indebtedness, or to refinance its indebtedness on commercially reasonable terms or at all, its business, financial condition and results of operations could be materially and adversely affected. The agreements governing the new indebtedness are also expected to contain covenants that impose operating and financial restrictions on the combined company.
+
+The Iridium Transaction is subject to the requirements of the Hart-Scott-Rodino Antitrust Improvements Act of 1976 (the “HSR Act”), and regulatory authorities may impose conditions that could have an adverse effect on Iridium and/or us following the Iridium Transaction or that could delay, prevent or increase the costs associated with completion of the Iridium Transaction.
+
+Before the Iridium Transaction may be completed, the applicable waiting period (including any extensions thereof) under the HSR Act must have expired or been terminated. In deciding whether to grant the required approvals, consents, registrations, permits, expirations or terminations of waiting periods, authorizations or other confirmations, the relevant governmental entities may impose requirements, limitations or restrictions on the conduct of our business following the Iridium Transaction. Under the Iridium Merger Agreement, we and Iridium have agreed to use our respective reasonable best efforts to obtain, as promptly as practicable, all permits, approvals, clearances, expirations, consents, notices, waivers or terminations of applicable waiting periods, authorizations, qualifications and orders from any governmental authority required to be obtained to consummate the Iridium Transaction.
+
+However, notwithstanding the foregoing, we are not required to take, agree to or propose any divestiture or behavioral remedy that (i) would reasonably be expected to be material to Iridium and its subsidiaries, taken as a whole, to us and our subsidiaries, taken as a whole, or to the combined company following the Iridium Transaction, taken as a whole, and (ii) is not conditioned on the completion of the Iridium Transaction. Iridium may not take, agree to or propose any divestiture or behavioral remedy without our prior written consent, and at our request Iridium is required to agree to such a divestiture or behavioral remedy so long as it is conditioned on the completion of the Iridium Transaction.
+
+49
+
+Table of Contents
+
+Governmental authorities may also impose conditions, terms, obligations or restrictions in connection with their approval of or consent to the Iridium Transaction, and such conditions, terms, obligations or restrictions may delay completion of the Iridium Transaction or impose additional material costs on, or materially limit the revenues of, Rocket Lab following the completion of the Iridium Transaction. There can be no assurance that governmental authorities will not impose any such conditions, terms, obligations or restrictions, and, if imposed, such conditions, terms, obligations or restrictions may delay or lead to the abandonment of the Iridium Transaction. At any time before or after consummation of the Iridium Transaction, notwithstanding any termination or expiration of the applicable waiting period under the HSR Act, the Federal Trade Commission, the U.S. Department of Justice or any state attorney general could take such action under the U.S. antitrust laws as it deems necessary or desirable in the public interest, including seeking (i) to enjoin the completion of the Iridium Transaction, (ii) to require the divestiture of substantial assets of or Iridium or our or their respective subsidiaries, (iii) to require the parties to license rights, hold separate assets, terminate existing relationships and contractual rights, grant certain rights or commercial accommodations to third parties, or agree to other restrictions limiting the freedom of action of the parties and their respective affiliates, or (iv) to require any other changes or restructuring of the parties and their respective affiliates. Private parties also may bring legal actions under the U.S. antitrust laws under certain circumstances, notwithstanding any termination or expiration of the applicable waiting periods under the HSR Act, seeking similar relief or seeking conditions to the completion of the Iridium Transaction. Neither we nor Iridium can be certain that a challenge to the Iridium Transaction on antitrust grounds will not be made or, if such a challenge is made, what the result will be. We will not be obligated to complete the Iridium Transaction if a non-appealable order prohibiting the Iridium Transaction is in effect, or if the Iridium Transaction has not been completed by the end date (as it may be extended).
+
+The Iridium Transaction is subject to the receipt of certain regulatory approvals and consents, including from the U.S. Federal Communications Commission (the “FCC”), foreign telecommunications and investment authorities, and national security facility clearances, and the timing for receipt of such approvals and consents could delay, prevent or increase the costs associated with completion of the Iridium Transaction.
+
+Because Iridium and its subsidiaries hold licenses and authorizations issued by the FCC, the completion of the Iridium Transaction requires the prior consent of the FCC to the transfer of control of those licenses and authorizations, including Iridium's space station authorization, gateway earth station authorizations, blanket earth station authorizations, experimental authorizations and international Section 214 authorization. Before the Iridium Transaction may be completed, such approval from the FCC for the transfer of the licenses and authorizations must be obtained. Additionally, the Iridium Transaction requires compliance with, and filings, registrations or notifications under, other applicable satellite and telecommunications laws, including with the International Telecommunication Union.
+
+The completion of the Iridium Transaction is also conditioned on the receipt of specified regulatory approvals in Chile, France, Spain, Switzerland and the United Arab Emirates, and, solely to the extent the relevant governmental authority affirmatively confirms that its approval is required prior to the completion of the Iridium Transaction, in Australia, New Zealand and the United Kingdom, relating to the transfer or continued effectiveness of certain of Iridium's non-U.S. telecommunications licenses and authorizations, and on specified foreign investment approvals, in each case as set forth in the Iridium Merger Agreement. In addition, the Iridium Transaction is subject to the receipt of approvals under the foreign investment laws of Australia, New Zealand and the United Kingdom, and, to the extent required as a result of changes in applicable law after the date of the Iridium Merger Agreement, Canada.
+
+Because Iridium and we and certain of our respective subsidiaries perform contracts for agencies of the U.S. government and hold facility security clearances subject to the National Industrial Security Program Operating Manual, which is administered by the Defense Counterintelligence and Security Agency (the “DCSA”), to the extent requested by the DCSA, Iridium and its subsidiaries may be required to enter into a written commitment to mitigate or negate any foreign ownership, control or influence arising as a result of the Iridium Transaction. The completion of the Iridium Transaction may be conditioned on either the DCSA's written acknowledgment that it has accepted a foreign ownership, control or influence mitigation plan proposed by us, or the execution and delivery to the DCSA of the requested commitment notice or commitment letter.
+
+50
+
+Table of Contents
+
+We may fail to realize the anticipated benefits and synergies of the Iridium Transaction, and the integration of Iridium may be more difficult, costly or time-consuming than expected.
+
+The success of the Iridium Transaction, if completed, will depend, in part, on our ability to realize the anticipated strategic and financial benefits from combining our business with Iridium's, including anticipated synergies. We and Iridium have different business models, management styles, risk tolerances, compensation structures and operating cadences, including our project-based launch and space-systems business and Iridium's subscription-based global satellite-services business. The integration of two companies that have previously operated independently is a complex, costly and time-consuming process and may disrupt our current plans or operations and divert significant management attention and resources from ongoing business concerns. The difficulties we may encounter include the integration of operations, systems, technologies (including satellite operations and ground infrastructure), controls, personnel and cultures; the retention of key management and other employees, customers and suppliers; the retention or attraction of business and operational relationships; the consolidation of corporate and administrative functions; the coordination of geographically separate organizations and the different regulatory regimes applicable to Iridium's satellite and communications business; the possibility of faulty assumptions underlying expectations regarding the integration process and associated expenses; and potential unknown liabilities, unforeseen integration expenses or delays associated with the Iridium Transaction. Even if we successfully integrate Iridium, we may not realize the expected benefits or synergies within the anticipated time frame, or at all, and the costs of achieving them may exceed expectations. Any of the foregoing could adversely affect the combined company's business, financial condition and results of operations, as well as the market price of our common stock. The market price of our common stock may also decline if the Iridium Transaction is not completed within the anticipated time frame, if transaction costs related to the Iridium Transaction are greater than expected, if we do not achieve the perceived benefits of the Iridium Transaction as rapidly or to the extent anticipated by financial or industry analysts or if the effect of the Iridium Transaction on our financial position, results of operations or cash flows is not consistent with the expectations of financial or industry analysts.
+
+Potential litigation against us and Iridium could result in substantial costs, an injunction preventing the completion of the Iridium Transaction and/or a judgment resulting in the payment of damages.
+
+Securities class action lawsuits and derivative lawsuits are often brought against public companies that have entered into merger agreements. Even if such a lawsuit is unsuccessful, defending against these claims can result in substantial costs. An adverse judgment could result in monetary damages, which could have a negative impact on our and Iridium's respective liquidity and financial condition. Stockholders of Iridium may file lawsuits against us, Iridium and/or the directors and officers of either company in connection with the Iridium Transaction. These lawsuits could prevent or delay the completion of the Iridium Transaction and result in significant costs to Iridium and/or us, including any costs associated with the indemnification of directors and officers. There can be no assurance that any of the defendants will be successful in the outcome of any potential lawsuits.
+
+Completion of the Iridium Transaction may trigger change in control or other provisions in certain agreements to which Iridium is a party, which may have an adverse impact on our business and results of operations after the Iridium Transaction.
+
+The completion of the Iridium Transaction may trigger change in control and other provisions in certain agreements to which Iridium or its subsidiaries are a party. If we and Iridium are unable to negotiate waivers of those provisions, the counterparties may exercise their rights and remedies under the agreements, potentially terminating the agreements or seeking monetary damages. Even if we and Iridium are able to negotiate waivers, the counterparties may require a fee for such waivers or seek to renegotiate the agreements on terms less favorable to Iridium or us following the Iridium Transaction.
+
+The market price of our common stock may decline as a result of the Iridium Transaction, including as a result of the issuance of a substantial number of shares of our common stock and potential future sales of those shares.
+
+In connection with the Iridium Transaction, we will issue a substantial number of shares of our common stock to Iridium stockholders. In addition, we may issue additional shares of our common stock in equity or equity-linked financing transactions related to the Iridium Transaction. The increase in the number of outstanding shares of our common stock may lead to sales of such shares, or the perception that such sales may occur, either of which could adversely affect the market price of our common stock. In addition, the market price of our common stock could decline following the Iridium Transaction if, among other things, the combined company does not achieve the perceived benefits of the Iridium Transaction as rapidly, or to the extent, anticipated, or if the effect of the Iridium Transaction on the combined company's business and financial results is not consistent with the expectations of financial analysts or investors. Substantially all of the shares of our common stock issued in the Iridium Transaction will be freely tradable, which could contribute to selling pressure.
+
+51
+
+Table of Contents
+
+We have and will continue to incur substantial direct and indirect costs as a result of the Iridium Transaction.
+
+We expect to incur significant non-recurring costs associated with combining the operations of Iridium with our operations. These costs include legal, financial advisory, accounting, consulting and other advisory fees, employment-related costs, filing fees and other regulatory fees and other related costs. We will also incur substantial transaction and financing fees and costs related to the Iridium Transaction and financing of the Cash Consideration. Whether or not the Iridium Transaction is consummated, we have already incurred and will continue to incur substantial expenses in pursuing the Iridium Transaction which may adversely impact our results of operations.
+
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+
+None.
+
+Item 3. Defaults Upon Senior Securities
+
+None.
+
+Item 4. Mine Safety Disclosures
+
+None.
+
+Item 5. Other Information
+
+Insider Trading Arrangements
+
+During the three months ended June 30, 2026, certain executive officers and a director of the Company (each, a “Plan Participant”) entered into a Rule 10b5-1 trading plan (a “Rule 10b5-1 Trading Plan”) to sell shares of the Company’s common stock subject to any applicable volume limitations.
+
+The table below provides certain information regarding each Plan Participant’s Rule 10b5-1 Trading Plan.
+
+Name | Title | Plan Date | Maximum Shares That May Be Sold Under the Plan | Plan Expiration Date
+
+Adam Spice | Chief Financial Officer | June 3, 2026 | 2,522,826 | (1) | August 31, 2027
+
+Marvin Bradford Clevenger | President, Rocket Lab USA | May 28, 2026 | 38,290 | (2) | September 1, 2027
+
+Ken Possenriede | Director | June 3, 2026 | 21,000 | December 3, 2026
+
+_____________________________________
+
+(1) Represents shares issuable to Mr. Spice upon the exercise of all outstanding vested stock options held by Mr. Spice as of the date of the Rule 10b5-1 Trading Plan, all of which are scheduled to expire in August 2028.
+
+(2) The aggregate number of RSU Shares that will be available for sale under the Rule 10b5-1 Trading Plan is not yet determinable because the shares available will be net of shares sold to satisfy tax withholding obligations that arise in connection with the vesting and settlement of such RSU awards. Additionally, certain provisions within the Rule 10b5-1 Trading Plan specify a certain percentage of the net shares that can be sold at the vesting date of the underlying equity award. As such, for purposes of this disclosure, the shares included in this table reflect the aggregate maximum number of gross shares underlying the equity awards subject to the Rule 10b5-1 Trading Plan, adjusted to represent the maximum percentage specified in the plan for each vesting date of such award, but without excluding the shares that will be sold to satisfy the tax withholding obligations.
+
+On June 3, 2026, Mr. Spice terminated his Rule 10b5-1 trading plan, originally adopted on March 27, 2026. No shares of common stock were sold pursuant to Mr. Spice’s terminated 10b5-1 trading plan.
+
+Sell to Cover Trading Election
+
+On May 12, 2026, Marvin Bradford Clevenger, Rocket Lab USA’s President (the “Participant”), entered into a Rule 10b5-1 trading arrangement that is intended to qualify as a “plan providing for eligible sell-to-cover transactions” under Rule 10b5-1(c)(1)(ii)(D)(3) under the Exchange Act. The plan will apply to all RSUs granted to the Participant by the Company, whether granted prior to the date of the election or on or subsequent to the date of the election, pursuant to the Company’s 2021 Stock Option and Incentive Plan or any successor equity incentive plan. The sell-to-cover election provides for the sale of shares of common stock issued upon the vesting of restricted stock units in an amount sufficient to cover the federal, state, local, and foreign tax withholding obligations incurred in connection with such vesting.
+
+The sell-to-cover election is effective until December 31, 2027, unless terminated earlier due to specified events, such as the individual’s death or legal or regulatory restrictions. The number of shares sold under this election will vary based on the tax withholding obligations incurred upon vesting.
+
+52
+
+Table of Contents
+
+Item 6. Exhibits
+Exhibit Number | Description
+
+2.1 | Agreement and Plan of Merger, dated as of June 28, 2026, by and among Rocket Lab Corporation, Iridium Communications Inc., Ion Merger Sub I, Inc., and Ion Merger Sub II, LLC (incorporated by reference to Exhibit 2.1 of the Company’s Current Report on Form 8-K filed with the SEC on June 29, 2026).
+
+10.1 | Form of Support Agreement (incorporated by reference to Exhibit 10.1 of the Company’s Current Report on Form 8-K filed with the SEC on June 29, 2026).
+
+31.1* | Certification of Principal Executive Officer pursuant to Exchange Act rules 13a-14 or 15d-14.
+
+31.2* | Certification of Principal Financial Officer pursuant to Exchange Act rules 13a-14 or 15d-14.
+
+32.1*† | Certification of Principal Executive Officer and Principal Financial Officer pursuant to Exchange Act rules 13a-14(b) or 15d-14(b) and 18 U.S.C. Section 1350.
+
+101.INS* | Inline XBRL Instance Document (the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document)
+
+101.SCH* | Inline XBRL Taxonomy Extension Schema With Embedded Linkbase Documents
+
+104* | Cover Page Interactive Data File (formatted as Inline XBRL and contained in Exhibit 101)
+
+_____________________________________
+
+*Filed herewith.
+
+†The certification furnished in Exhibit 32.1 hereto is deemed to be furnished with this Quarterly Report on Form 10-Q and will not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, except to the extent that the Registrant specifically incorporates it by reference.
+
+53
+
+Table of Contents
+
+SIGNATURES
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.
+
+ROCKET LAB CORPORATION
+
+August 10, 2026 | By: | /s/ Peter Beck
+
+Peter Beck
+
+President, Chief Executive Officer and Chairman
+
+(Principal Executive Officer)
+
+August 10, 2026 | By: | /s/ Adam Spice
+
+Adam Spice
+
+Chief Financial Officer
+
+(Principal Financial Officer)
+
+August 10, 2026 | By: | /s/ Agostino Ricupati
+
+Agostino Ricupati
+
+Vice President, Corporate Controller and Chief Accounting Officer
+
+(Principal Accounting Officer)
+
+54

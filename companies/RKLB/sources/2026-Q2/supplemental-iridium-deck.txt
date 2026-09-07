@@ -1,0 +1,259 @@
+SOURCE: Rocket Lab Corporation "Investor Update: Rocket Lab to Acquire Iridium" presentation, dated 29 June 2026 (12 pages). Not an earnings supplement; cached because the Q2 2026 release and slides refer to this transaction and this deck is the only IR document (on or before the 2026-08-10 cutoff) giving its terms.
+ORIGIN: https://investors.rocketlabcorp.com/static-files/70a090f6-58db-4893-bfc0-c31396b152b1 (linked from https://investors.rocketlabcorp.com/events-presentations/presentations as "Rocket Lab to Acquire Iridium", dated June 29, 2026)
+FETCHED: 2026-09-07 | converted with pdftotext -layout; form-feed (\f) characters separate pages; page N = Nth form-feed-delimited block (printed slide numbers match)
+====================================================================================================
+
+INVESTOR
+UPDATE
+ROCKET LAB TO
+ACQUIRE IRIDIUM
+29 June 2026
+      DISCLAIMER
+      Additional Information and Where to Find It
+      This communication is being made in respect of a proposed transaction involving Rocket Lab Corporation (“Rocket Lab”) and Iridium Communications Inc. (“Iridium”). In connection with the proposed transaction, Rocket Lab will file with the Securities
+      and Exchange Commission (the “SEC”) a Registration Statement on Form S-4 that includes the proxy statement of Iridium that will also constitute a prospectus of Rocket Lab. When the proxy statement/prospectus is finalized, it will be sent to the
+      stockholders of Iridium seeking their approval of certain transaction-related proposals. This communication is not a substitute for the proxy statement/prospectus or any other documents which Rocket Lab or Iridium may file with the SEC in
+      connection with the proposed transaction.
+      Rocket Lab may not sell the common stock referenced in the proxy statement/prospectus until the Registration Statement on Form S-4 filed with the SEC becomes effective. The preliminary proxy statement/prospectus and this communication are
+      not offers to sell any securities, are not soliciting an offer to buy any securities in any state where the offer and sale is not permitted and are not a solicitation of any vote or approval.
+      ROCKET LAB AND IRIDIUM URGE INVESTORS AND SECURITY HOLDERS TO READ THE REGISTRATION STATEMENT ON FORM S-4, THE RELATED PROXY STATEMENT/PROSPECTUS INCLUDED THEREIN AND OTHER DOCUMENTS FILED WITH THE SEC
+      CAREFULLY AND IN THEIR ENTIRETY WHEN THEY BECOME AVAILABLE BECAUSE THEY WILL CONTAIN IMPORTANT INFORMATION ABOUT THE PROPOSED TRANSACTION.
+      Investors and security holders will be able to obtain these materials (when they are available and filed) free of charge at the SEC’s website, www.sec.gov. Copies of documents filed with the SEC by Rocket Lab (when they become available) may be
+      obtained free of charge on Rocket Lab’s website at https://investors.rocketlabcorp.com/financial-information/sec-filings or by contacting Rocket Lab’s Investor Relations Department at investors@rocketlabusa.com. Copies of documents filed with
+      the SEC by Iridium (when they become available) may be obtained free of charge on Iridium’s website at https://investor.iridium.com/sec-filings by contacting Iridium’s Investor Relations Department at investor.relations@iridium.com.
+
+      Participants in the Solicitation
+      Robert H. Niehaus, Louis M. Alterman, Thomas C. Canfield, Matthew J. Desch, Thomas J. Fitzpatrick, L. Anthony Frazier, Suzanne E. McBride, Eric T. Olson, Kay N. Sears, Monique S. Shivanandan and Jacqueline E. Yeaney, all of whom are members of
+      Iridium’s board of directors, and Vincent J. O’Neill, Iridium’s chief financial officer, may be considered participants in Iridium’s solicitation. Information regarding such participants, including their direct or indirect interests, by security holdings or
+      otherwise, will be included in the proxy statement/prospectus and other relevant documents to be filed with the SEC in connection with the transaction. Additional information about such participants is available under the captions “Proposal 1 –
+      Election of Directors,” “Director Compensation” and “Security Ownership of Certain Beneficial Owners and Management” in Iridium’s definitive proxy statement in connection with its 2026 Annual Meeting of Stockholders (the “2026 Proxy
+      Statement”), which was filed with the SEC on April 2, 2026 (which is available at https://www.sec.gov/ix?doc=/Archives/edgar/data/0001418819/000141881926000022/irdm-20260402.htm), as well as on Iridium’s Annual Report on Form 10-K for the
+      fiscal year ended December 31, 2025, which was filed with the SEC on February 12, 2026 (the “2025 10-K”) and certain of Iridium’s Quarterly Reports on Form 10-Q and Current Reports on Form 8-K. To the extent that holdings of Iridium’s securities
+      have changed since the amounts printed in the 2026 Proxy Statement, such changes have been or will be reflected on Statements of Change in Ownership on Form 4 filed with the SEC (which are available at https://www.sec.gov/cgi-bin/own-
+      disp?action=getissuer&CIK=0001418819). Information regarding Iridium’s transactions with related persons is set forth in the 2026 Proxy Statement under the caption “Transactions with Related Parties,” as well as on the 2025 10-K and certain of
+      Iridium’s Quarterly Reports on Form 10-Q and Current Reports on Form 8-K. Certain illustrative information regarding the payments to that may be owed, and the circumstances in which they may be owed, by Iridium to its named executive officers
+      in a change of control of Iridium is set forth in the 2026 Proxy Statement under the caption “Severance and Change in Control-Related Benefits,” as well as on the 2025 10-K and certain of Iridium’s Quarterly Reports on Form 10-Q and Current
+      Reports on Form 8-K. Rocket Lab may also be deemed to be a participant in Iridium’s solicitation; information regarding Rocket Lab will be included in the proxy statement/prospectus and other relevant documents to be filed with the SEC in
+      connection with the transaction. Copies of these documents may be obtained, free of charge, from the SEC or Iridium as described in the preceding paragraph.
+
+      Cautionary Note Regarding Forward-Looking Statements
+      This communication contains “forward-looking statements” within the meaning of the federal securities laws. These forward-looking statements are based on Rocket Lab’s and Iridium’s current expectations, estimates and projections about the
+      expected date of closing of the proposed transaction and the potential benefits thereof, its business and industry, management’s beliefs and certain assumptions made by Rocket Lab and Iridium, all of which are subject to change. In this context,
+      forward-looking statements often address expected future events, including future business and financial performance and financial condition. All forward-looking statements by their nature address matters that involve risks and uncertainties, many
+      of which are beyond our control, and are not guarantees of future results, such as statements about the consummation of the proposed transaction and the anticipated benefits thereof. These and other forward-looking statements are not
+      guarantees of future results and are subject to risks, uncertainties and assumptions that could cause actual results to differ materially from those expressed or implied in any forward-looking statements. Accordingly, there are or will be important
+      factors that could cause actual results to differ materially from those indicated in such statements and, therefore, you should not place undue reliance on any such statements and caution must be exercised in relying on forward-looking statements.
+      Important risk factors that may cause such a difference include, but are not limited to: (i) the completion of the proposed transaction on anticipated terms and timing, or at all, including obtaining stockholder and regulatory approvals and satisfying
+      other conditions to the completion of the transaction; (ii) the occurrence of any event, change or other circumstances that could give rise to the termination of the merger agreement, including the receipt by Iridium of an unsolicited proposal from a
+      third party; (iii) failure to realize the anticipated benefits of the proposed transaction on a timely basis or at all, including anticipated tax treatment, unforeseen liabilities, future capital expenditures, revenues, expenses, earnings, the integration of the
+      businesses of Rocket Lab and Iridium, synergies, economic performance, indebtedness, financial condition, losses, future prospects, business and management strategies for the management, expansion and growth of Rocket Lab’s and Iridium’s
+      businesses; (iv) Rocket Lab’s and Iridium’s ability to implement their business strategies; (v) potential litigation relating to the proposed transaction that could be instituted against Rocket Lab, Iridium or their respective directors, managers, or
+      officers, including the effects of any outcomes related thereto; (vi) the risk that disruptions from the proposed transaction will harm Rocket Lab’s or Iridium’s businesses, including current plans and operations, or will otherwise divert management
+      time from ongoing business operations on transaction-related issues; (vii) the ability of Rocket Lab or Iridium to retain and hire key personnel; (viii) potential adverse reactions or changes to business relationships resulting from the announcement or
+      completion of the proposed transaction; (ix) fluctuations in, and uncertainty as to the long-term value of, Rocket Lab or Iridium common stock (including as relating to the risk that any announcements related to the proposed transaction could have
+      adverse effects on the market price of such stock); (x) legislative, regulatory and economic developments affecting Rocket Lab’s and Iridium’s businesses, including actions by government agencies and third parties; (xi) general economic and market
+      developments and conditions, potential changes to international trade relations, geopolitical conflicts and effects from global pandemics, epidemics, or other public health crises; (xii) the evolving legal, regulatory and tax regimes under which Rocket
+      Lab and Iridium operate; (xiii) restrictions during the pendency of the proposed transaction that may impact Rocket Lab’s or Iridium’s ability to pursue certain business opportunities or strategic transactions; (xiv) unexpected costs, charges or
+      expenses resulting from the proposed transaction; (xv) risks that any debt or other financing anticipated in connection with the proposed transaction is not obtained or that such financing cannot be obtained on the anticipated timing or terms or
+      unexpected costs or expenses in connection therewith; and (xvi) the other risks and uncertainties, as described in the periodic reports that Rocket Lab and Iridium file with the SEC. These risks, as well as other risks associated with the proposed
+      transaction, are more fully discussed in the proxy statement/prospectus to be filed with the SEC in connection with the proposed transaction. Neither Rocket Lab nor Iridium assumes any obligation to publicly provide revisions or updates to any
+      forward-looking statements, whether as a result of new information, future developments or otherwise, should circumstances change, except as otherwise required by securities and other applicable laws. Forward-looking statements included in this
+      communication are made as of the date of this communication.
+
+2 2   Rocket Lab | Investor Update
+                                           THE SPACE
+                                     APPLICATION EQUATION
+        We have talked about space applications a lot. It’s where the true value is in space.
+        A space application is particularly powerful in the hands of Rocket Lab as a self-launching spacecraft manufacturer.
+
+
+        But there are still big challenges, especially in communications:
+
+       1. Spectrum.
+       2. Long time to deploy infrastructure to get your first revenue.
+       3. Long time to build business model and customer base for sustained cash flow.
+
+       We’ve found a shortcut.
+
+
+
+3   Rocket Lab | Investor Update
+                                                   ROCKET LAB IS ACQUIRING
+                                    IRIDIUM COMMUNICATIONS INC.
+                                                     ONE OF THE MOST TRANSFORMATIVE
+                                                       DEALS IN THE SPACE INDUSTRY
+
+
+
+
+                                   Combines Rocket Lab's launch capability and satellite manufacturing with
+                                     Iridium’s global satellite communications network and rare spectrum.
+
+                                   Rocket Lab becomes a fully-integrated, self-launching, tier-1 space power,
+                                   delivering critical communications capability to millions of users worldwide.
+
+
+
+4   Rocket Lab | Investor Update
+    A TRULY UNIQUE
+    GLOBAL NETWORK
+    DELIVERS REAL TIME, POLE-TO-POLE
+    GLOBAL COVERAGE OVER EVERY
+    OCEAN, MOUNTAIN, AND AIRWAY
+     Iridium is critical to the people and systems that can’t
+     lose signal: pilots, mariners, first responders, governments,
+     critical infrastructure, and remote sensors operating at
+     the ends of the Earth.
+
+     Enabled by L-band spectrum: Rare, finite, and valuable
+     signal that delivers reliable, real time connectivity, even in
+     remote or harsh conditions.
+
+     Its ability to work through all weather and in gaps where
+     other bands don’t reach makes it mission critical for
+     millions of people.
+
+
+5   Rocket Lab | Investor Update
+     THE ORIGINAL SPACE PIONEERS
+      A STRONG FOUNDATION TO BUILD UPON
+
+
+
+
+     66                                SPECTRUM                                                                          $871M                                                                                $495M
+                                                                                                                                                                                                                                              2
+
+
+
+
+      Operational satellites           Global rights over scarce                                                          2025 Revenue                                                                        2025 OEBITDA
+      + 14 on orbit spares             resource
+
+
+
+
+                                   1
+
+     2.55M                             1,000                                                                             57%                                                                                  TRUSTED
+                                                                                                                                            2
+
+
+
+
+     Subscribers                       Experienced Team Members                                                           2025 OEBITDA Margin                                                                 Government Partner
+
+
+                                                                 2. Based on Iridium’s publicly reported 2025 results. Iridium Operational EBITDA, or OEBITDA, is defined as earnings before interest, income taxes, depreciation and amortization, gain (loss) on equity
+6   Rocket Lab | Investor Update       1. As of March 31, 2026   method investments, transaction related expenses, and share-based compensation expenses. OEBITDA margin is calculated by dividing OEBITDA by total revenue.
+    THE ULTIMATE COMBINATION FOR GROWTH
+     Two industry leaders joining forces to deliver disruptive next-generation space capabilities
+
+
+
+
+                                    1       +                  1                    =                   3
+                                                                                                 The result is a highly
+                                                                                              integrated, self-launching
+                                   LAUNCH       UNIQUE OPERATIONAL CONSTELLATION                 global space power.
+
+              SPACECRAFT MANUFACTURING             HIGHLY VALUABLE SPECTRUM                   One that will unlock more
+                                                                                            growth from Iridium’s existing
+            HIGHLY VERTICALLY INTEGRATED             MILLIONS OF CUSTOMERS                     network, and build new
+                                                                                               constellations to unlock
+            TRUSTED GOVERNMENT PARTNER            TRUSTED GOVERNMENT PARTNER                  new services and market
+                                                                                                   opportunities.
+            PROVEN NEW SPACE DISRUPTOR                 STRONG CASH FLOW
+
+
+
+7   Rocket Lab | Investor Update
+    SPECTRUM:
+    ESSENTIAL FOR SATELLITE
+    COMMUNICATIONS
+
+
+     ACCELERATED MARKET ENTRY                SPECTRUM IS A SCARCE RESOURCE                PRIORITY LEO RIGHTS
+     Instant access to global coverage,      Spectrum is a finite and tightly regulated   Provides globally-coordinated LEO spectrum
+     creating the preeminent platform        resource, making established,                rights that support consistent, reliable
+     for defense-grade satellite voice and   internationally coordinated rights a         coverage and mission-critical
+     emergency tracking.                     strategic advantage for a global             communications services.
+                                             communications network.
+
+
+
+
+8   Rocket Lab | Investor Update
+    IF YOU WANT TO DO BIG THINGS
+    IN SPACE YOU NEED SPECTRUM
+    $100B+ TOTAL ADDRESSABLE MARKET
+
+
+
+
+                                   +   +                           +
+
+
+
+
+9   Rocket Lab | Investor Update           TAM source: Novaspace Space Economy Report, January 2026
+   THE QUINTESSENTIAL
+   ROCKET LAB DEAL
+
+      Not investing               Buying capability that is        Highly
+       in dreams                   accretive and adds to         profitable
+                                      the bottom line
+
+
+
+
+   Mission critical               Applying the Rocket Lab     Accelerated entry
+ technology for the                   magic: Absorb,          to compete in new
+  most demanding                      unify, optimize,         markets + access
+     customers                       evolve, and scale.          to large TAM
+
+
+
+10 Rocket Lab | Investor Update
+  KEY TRANSACTION
+  TERMS
+
+     Cash/stock consideration of                                               Transaction completion expected                                           Rocket Lab has received committed
+     $54.00 per share of Iridium                                               mid-2027, subject to the                                                  debt financing of $3.6 billion from
+     common stock, implying an                                                 satisfaction of customary closing                                         Deutsche Bank and Wells Fargo.
+     enterprise value for Iridium of                                           conditions (including approval of                                         Rocket Lab intends to fund the cash
+     approximately $8 billion.                                                 Iridium stockholders and required                                         component of the transaction through a
+                                                                               regulatory approvals).                                                    combination of cash from its balance
+     $27.00 in cash and a number of                                                                                                                      sheet and other debt and equity
+     shares of Rocket Lab common stock,                                        Transaction has been unanimously                                          financing sources.
+     using an exchange ratio that moves                                        approved by the boards of directors
+     within a defined collar.*                                                 of Iridium and Rocket Lab.
+
+
+
+ * Complete details on the calculation of the exchange ratio will be in the transaction agreement, which will be filed with the Securities and Exchange Commission.
+
+
+
+
+11 Rocket Lab | Investor Update
+    OUR FUTURE IN SPACE
+    APPLICATIONS HAS JUST BEEN
+    UNLOCKED AND ACCELERATED
+             This is our entrance into recurring
+             applications revenue from space, but it’s
+             not the finish line.
+                                                              PNT          IoT       Defense
+                                                                                     & Govt
+             Rather than simply continuing Iridium’s
+             network, we will build upon it to scale into
+             untapped markets and pioneer new
+             space-based services.
+                                                            Aviation &   Direct to   Mission
+             Huge TAM expansion has been unlocked.           Marine       Device     Services
+
+
+
+
+12 Rocket Lab | Investor Update
+
