@@ -1,0 +1,302 @@
+[Source: Intel Corporation company-published prepared remarks (transcript tier 1), document titled "CEO/CFO Earnings Call Comments", for the Q1 2026 (quarter ended March 28, 2026) earnings conference call held at 2 p.m. PT on April 23, 2026. SECONDARY file for the Q2 2026 report: used only for what management had said to expect for Q2 2026 and FY2026. Origin URL: https://d1io3yog0oux5.cloudfront.net/_88b01b330621eb4afbd070d5caa4f035/intel/db/887/9254/prepared_remarks/1Q2026-Earnings-Call.pdf (linked as "Prepared Remarks" from https://www.intc.com/financial-info/financial-results, Q1 2026 box). Fetched 2026-09-07 (HTTP 200, 100,300 bytes). Converted with pdftotext -layout; 6 PDF pages separated by form-feed characters; NO printed page numbers, so page N = the Nth form-feed-separated block (this header line sits at the top of block 1). Content: scripted CEO and CFO remarks only; despite the filename "1Q2026-Earnings-Call.pdf" it does NOT contain the analyst Q&A.]
+
+                                                                                      CEO/CFO Earnings Call Comments
+
+
+
+Comments from CEO Lip-Bu Tan and CFO
+Dave Zinsner
+Intel’s chief executive officer and chief financial officer offer comments after
+the company released its first-quarter 2026 earnings.
+The following are the prepared remarks provided on Intel’s first-quarter 2026 earnings conference call held at 2 p.m. PT on
+April 23, 2026. These remarks include forward-looking statements that are based on the environment as seen by the
+company as of the time of the call and, as such, are subject to various risks and uncertainties. They also contain references
+to non-GAAP financial measures that the company believes provide useful information to investors. Refer to the
+company’s earnings release for the first-quarter 2026, most recent annual report on Form 10-K and other filings with the
+SEC for more information on the risk factors that could cause actual results to differ materially from the company’s
+expectations and additional information on non-GAAP financial measures, including reconciliations where appropriate to
+the corresponding GAAP financial measures.
+
+
+April 23, 2026 – Lip-Bu Tan, chief executive officer of Intel (bio):
+
+Q1 results demonstrate continued and steady progress across the business, reflecting strong
+demand for our products and disciplined execution to expand available supply. Revenue, gross
+margin, and earnings per share were all above the high-end of guidance, marking our sixth
+consecutive quarter of exceeding financial expectations.
+
+Even as we improve factory output, demand continues to run ahead of supply for all our
+businesses, especially for Xeon server CPUs, where we expect sustained momentum this year
+and next. Intel 3 based Xeon 6 and Intel 18A based Core Series 3 products are now in full volume
+production ramp, and each represents the fastest new product ramp in 5 years. We are
+maximizing and optimizing our factory output to meet customers’ needs. It is our top priority.
+
+Intel is now a very different company than when I first joined over a year ago. We have taken and
+continue to take deliberate steps to rebuild Intel into a more competitive and more profitable
+company. Our cultural transformation is well underway, and we are embracing our roots as data
+driven, paranoid and engineering-centric company. We are also listening closely to our customers
+and putting them at the center of everything we do.
+
+Intel possesses some of the most vital assets necessary to be successful and to flourish in this era
+of extraordinary opportunity for the semiconductor industry.
+
+With a stronger balance sheet, a new leadership team, a rejuvenated and motivated workforce and
+a renewed focus on engineering execution, we are turning our attention squarely towards
+innovation to capture opportunities in the near term and to position the company for robust
+growth in the long term.
+
+Driven by tremendous demand for AI, the semiconductor industry TAM is now approaching $1
+trillion. Intel is well-positioned to benefit from this demand with three strategically important
+assets – our x86 CPU franchise, our advanced packaging technology, and our vast manufacturing
+network.
+
+Artificial intelligence is now moving into the real world towards more distributed, inference and
+reinforce learning workloads like agentic, physical AI, and robots and edge AI.
+                                                                      CEO/CFO Earnings Call Comments
+
+
+This shift is now beginning to show up in our results, as I want to spend some time on this today.
+For the last few years, the story around high-performance computing was almost exclusively
+about GPU and other accelerators. In recent months, we have seen clear signs that the CPU is
+reasserting itself as the indispensable foundation of the AI era.
+
+The CPU now serves as the orchestration layer and critical control plane for the entire AI stack.
+This is not just our wishful thinking. It is what we hear from our customers, and it is evident in the
+demand profile for our products. Xeon server demand is seeing strong and sustained momentum.
+Customers are deploying server CPUs along accelerators in a ratio that is moving back towards
+the CPU.
+
+The accelerator remain central to frontier AI, and we will continue to participate, innovate and
+partner in that category. Our recent announcement with Sambanova Systems is an example of
+such partnership on heterogeneous compute architectures.
+
+But the backbone of AI computing “in production” remains a CPU-anchored architecture. That is
+good news for the x86 ecosystem. It is great news for Intel. And it is a structural reason I am
+confident that CPU franchise will continue to be a meaningful growth engine for the company in
+the years ahead – not just the quarters ahead.
+
+Turning to Intel Foundry – the accelerating deployment of AI infrastructures creates a meaningful
+opportunity for us as we continue to build our external foundry business.
+
+I am pleased with the progress we have made in Foundry Technology Development over the last
+year, even though I will continue to remind you this will be a long journey for us. We have made
+steady progress with Intel 4 and Intel 3. And 18A yields are now running ahead of the internal
+projections, representing a meaningful inflection in our execution and our factory finished goods
+output. We also continue to make steady progress on our advanced packaging technologies,
+including additional growth in customer backlog in the quarter.
+
+On Intel 18A-P and Intel 14A, we continue to be encouraged by our external engagements. Intel
+14A maturity, yield, and performance are outpacing Intel 18A at a similar point in time. And we
+continue to develop PDKs – with multiple customers actively evaluating the technology. Their
+partnership has been critical, and their feedback continues to help us define the technology so
+that we can cater to their needs.
+
+We expect to see early design commitments emerge beginning in the second half of 2026 and
+expanding into the first half of 2027. I am particularly pleased that our progress-to-date has driven
+us to land more of our own future product tiles on Intel 14A as well. At a time when advanced wafer
+capacity is in short supply, this enables us to have better control over our supply chain.
+
+Intel has pioneered nearly every major innovation that has enabled dimensional scaling and high-
+volume manufacturing of silicon transistors over the last 6 decades. We have always been willing
+to take measured risks that have eventually paved the way for step function improvements in
+transistor density, cost, power and performance.
+
+As we look to continue challenging the status quo, I can think of no better partners than Elon Musk.
+We recently announced our partnership with SpaceX, xAI and Tesla to support Terafab. Elon and I
+share a strong conviction that global semiconductor supply is not keeping pace with the rapid
+acceleration in demand. We are excited to explore innovative ways to “refactor” silicon process
+technology – looking for unconventional ways to improve manufacturing efficiency that will
+eventually lead to a dynamic improvement in the economics of semiconductor manufacturing.
+                                                                      CEO/CFO Earnings Call Comments
+
+
+
+A year ago, the conversation about Intel was about whether we could survive. Today it is about
+how quickly we can add manufacturing capacity and scale our supply to meet enormous demand
+for our products.
+
+This is a fundamentally different company today. And we still have a lot of work ahead. I would like
+to take this opportunity to thank our many customers, partners and our hardworking employees
+across the world for their contributions towards building a new Intel.
+
+I remain firmly convinced of, and focused on, the opportunity ahead for Intel.
+
+Dave Zinsner, chief financial officer of Intel (bio):
+
+We delivered robust Q1 results reflecting strong demand and better than expected available
+supply. We also benefited from improved product mix and pricing actions, in part to offset higher
+costs. First quarter revenue was $13.6 billion, $1.4 billion above the midpoint of our guide. Q1
+Revenue would have been meaningfully higher, but demand continues to outpace our growing
+supply. Our collective AI-driven businesses now represent 60 percent of revenue and grew 40
+percent year over year.
+
+These results reflect real and deliberate changes we have made to be more responsive and
+accountable. This quarter, our teams worked directly and diligently with customers to reach
+mutually beneficial outcomes in weeks not months. We value the partnership and support shown
+by our customers, partners and suppliers, as we work to navigate this environment together.
+
+Non-GAAP gross margin came in at 41 percent, approximately 650 basis points ahead of
+guidance due to the combination of higher volume, which included previously reserved inventory,
+mix and pricing. In addition, better yields on Intel 18A offset some of the higher cost we always
+incur in the early part of ramping a new node.
+
+We delivered first quarter non-GAAP earnings per share of $0.29 cents versus our guidance of
+break-even on higher revenue, stronger gross margins, and continued spending discipline. Q1 EPS
+included a roughly 6 cents one-time gain in Interest and Other.
+
+Q1 operating cash flow was $1.1 billion with gross capex of $5 billion in the quarter and adjusted
+free cash flow of minus $2 billion.
+
+Moving to segment results.
+
+CCG revenue was $7.7 billion, down 6 percent sequentially, and better than our expectations.
+Even with improved factory output, demand outstripped supply against a client TAM that remains
+resilient despite industry-wide component shortages and inflationary pressures. Our AI PC
+revenue grew 8% sequentially and now represents greater than 60% of our client CPU mix.
+
+Operating profit for CCG was $2.5 billion, 33 percent of revenue, and up approximately $300
+million quarter-over-quarter, on improved mix and product margins, sales of previously reserved
+inventory, better 18A yields and lower operating expenses.
+
+Within the quarter, CCG launched Core Ultra Series 3 and expanded our offerings across
+consumer, commercial and edge. This has proven to be our strongest product launch in 5 years
+delivering better performance per watt, stronger integrated graphics, and more capable on-
+device AI features all while maintaining our broad ecosystem of compatibility that partners and
+                                                                      CEO/CFO Earnings Call Comments
+
+
+customers value. In Q1, CCG also expanded the reach of our Core family by launching the Intel
+Core Series 3 processor, which brings the latest IP, modern features, and all-day battery life to the
+mainstream for the first time. We are enabling a new class of mainstream systems that once again
+set the standard for everyday computing.
+
+DCAI revenue was $5.1 billion, an increase of 7 percent sequentially and 22 percent year over year,
+well above expectations and reinforcing the strong year of growth for DCAI we signaled 90 days
+ago. Strength continued across all segments and customers as investments in CPUs are
+accelerating to support the evolution of AI from foundational training to inference and from
+inference to agentic. We also saw strong ASIC growth with revenue up more than 30 percent
+sequentially and nearly doubling year-over year.
+
+Operating profit for DCAI was $1.5 billion, 31 percent of revenue, and up approximately $292
+million quarter over quarter, on improved product margins, better cycle times and yields,
+especially on Intel 3, and lower operating expenses.
+
+Within the quarter, DCAI signed multiple long-term agreements, including Google, supporting our
+view that the current business momentum is sustainable.
+
+In addition, Xeon 6 was selected as the host CPU for NVIDIA’s DGX Rubin NVL8 systems, and
+Xeon remains the most deployed host CPU due to its industry leading memory, security, and
+networking orchestration.
+
+Lastly, DCAI also established a multi-year collaboration with SambaNova to design a next-
+generation, heterogeneous AI inference architecture combining SambaNova’s RDUs, and Intel®
+Xeon® 6 processors.
+
+Intel Foundry delivered revenue of $5.4 billion, up 20 percent sequentially, on increased EUV
+wafer mix driven by Intel 3 and significant growth in 18A. External Foundry revenue was $174
+million in the quarter.
+
+Intel Foundry operating loss in Q1 was $2.4 billion, and improved $72 million quarter-over-quarter,
+as better yields across Intel 4, 3, and 18A drove higher gross margins. This was mostly offset by
+increased operating expenses associated with an intentional step up in Intel 14A investments to
+support both internal and external customer evaluations.
+
+As a reminder, Intel Foundry carries the bulk of the costs associated with the early ramp of Intel
+18A. And we expect Intel Foundry’s operating loss to improve through the year as 18A continues
+to ramp into volume and yields improve further.
+
+Within the quarter, Intel Foundry delivered output above our expectations, drove steady
+improvements in yields, and met key 14A milestones. Intel Foundry also added to its backlog of
+advanced packaging services and announced a multi-year expansion of our back-end facilities in
+Malaysia. This expansion will help support the committed demand that will begin to convert to
+revenue in 2027.
+
+Turning to All Other.
+
+Revenue came in at $628 million and was up 9 percent sequentially due to a strong quarter for
+Mobileye. Collectively the category delivered an operating profit of $102 million.
+                                                                       CEO/CFO Earnings Call Comments
+
+
+Now Turning to guidance.
+
+As we look ahead, we remain mindful that the macroeconomic and geopolitical environments are
+dynamic. Views on global growth, policy and trade continue to shape customer behavior and
+investment decisions. In addition, constraints and rising prices around key components like
+memory, wafers, and substrates are driving higher costs that could impact demand for our
+products at some point in the year. We are prudently planning for PC demand to weaken in the
+second half of the year and expect the full year PC unit TAM to be down low double digit percent
+in line with industry peers and experts.
+
+Offsetting this, near-term customer order patterns remain very robust across all of our
+businesses. In addition, our confidence in the sustained growth of CPUs driven by the AI
+infrastructure buildout is growing. Our outlook for server CPU demand has improved over the last
+90 days and we expect a strong year of double-digit unit growth for the industry and for us, with
+momentum extending into 2027.
+
+Combining all of these factors, we are guiding Q2 revenue to a range of $13.8 to $14.8 billion, up 2
+to 9 percent sequentially. As we work hard to support the needs of all of our customers, we expect
+sequential revenue growth in both CCG and DCAI on improved supply and a full quarter of pricing
+actions, with DCAI up double digits.
+
+At the midpoint of $14.3 billion, we forecast a gross margin of 39 percent, a tax rate of 11 percent,
+and EPS of $0.20 cents, all on a non-GAAP basis. Our Q2 gross margin guide declines modestly
+from Q1 due to a meaningfully larger contribution from Intel 18A, still early in its ramp, and some
+inventory benefits in Q1 that aren’t expected to repeat in Q2.
+
+Before I close, I’ll share some additional insights on the full year. We expect our factory network to
+continue increasing available supply in the third and fourth quarters, though at a more measured
+pace than we anticipated 90 days ago, reflecting the base-effect of much stronger than expected
+first half output. We also expect 2026 revenue on a half-on-half basis to follow the seasonal trends
+experienced over the last 10 years, with servers above and PCs below.
+
+We were very pleased with Q1 gross margins and we will continue to push for gross margin
+expansion. It is my top priority. Our Foundry team is delivering consistent yield and throughput
+improvements across all process nodes, which will help gross margins. With that said, Intel 18A is
+still early in its ramp and rising input costs, especially in memory, present growing headwinds in
+the second half, that we need to overcome.
+
+For OpEx in 2026, we have been directionally targeting $16 billion but are likely to be higher due to
+inflationary pressures, variable compensation and targeted investments we are making to capture
+the opportunities ahead. The drive for efficiency is core to the new culture Lip-Bu is creating and
+we will remain laser focused on finding additional operational improvements and maximizing ROI
+on all of our investing activities.
+
+We forecast capital expenditures in 2026 to be flat to last year vs our prior expectation of flat to
+down, reflecting increased capacity investments to support committed demand and a continued
+emphasis on improving fab productivity and output. We now expect expenditures to be roughly
+equal across the year and still to be heavily weighted towards the equipment that directly grows
+wafer outs to support growth this year and next.
+                                                                                        CEO/CFO Earnings Call Comments
+
+
+We recently closed the transaction to repurchase the 49% equity interest in the joint investment
+in Fab 34 in Ireland, a highly accretive deal allowing our shareholders to participate in the full
+economic benefits from a fab just now hitting its stride.
+
+As a result, we now expect non-controlling interest, or NCI, to net to approximately $250 million in
+each of Q2, Q3, and Q4 of this year and be approximately $1.1 billion for 2027 and 2028, on a
+GAAP basis.
+
+Lastly, excluding the buyout of the Fab 34 joint investment, we still expect positive adjusted free
+cash flow for the full year. As a reminder, we funded our purchase with approximately $7.7 billion
+in cash and $6.5 billion in new debt. We remain committed to retiring all $2.5 billion of maturities
+as they come due this year and all $3.8 billion in 2027.
+
+In closing, Q1 was a strong quarter financially and operationally. All demand signals continue to
+emphasize the growing and essential role of the CPU in the AI era and the unprecedented demand
+for leading edge wafers and advanced packaging to realize the vision of driving silicon-based
+intelligence to the edge, efficiently and at scale.
+
+Our confidence is growing. We have the right team and the broad IP portfolio needed to solve our
+customers’ most pressing economic challenges and drive long-term value for our shareholders.
+
+
+
+About Intel
+Intel (Nasdaq: INTC) designs and manufactures advanced semiconductors that connect and power the modern world.
+Every day, our engineers create new technologies that enhance and shape the future of computing to enable new
+possibilities for every customer we serve. Learn more at intel.com.
+© Intel Corporation. Intel, the Intel logo, and other Intel marks are trademarks of Intel Corporation or its subsidiaries. Other
+names and brands may be claimed as the property of others.
+
