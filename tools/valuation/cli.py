@@ -1,4 +1,8 @@
-"""``value <TICKER> [--validate] [--dry-run] [--set path=value ...] [--json] [--refresh-data] [--no-fetch]``."""
+"""``value <TICKER> [--validate] [--dry-run] [--set path=value ...] [--json] [--refresh-data] [--no-fetch] [--render-assumptions]``.
+
+The normal run (fetch, compute, archive, write ``valuation.md`` and ``assumptions.md``) lives in
+:func:`run_and_write` so the app can call the very same code path.
+"""
 
 from __future__ import annotations
 
@@ -13,9 +17,10 @@ from typing import Any
 
 from . import (
     EngineError, SchemaError, __version__, assumptions_path, company_dir_for, compute, find_repo_root,
-    load, render,
+    load, render, write_assumptions_md,
 )
 from . import datasets
+from .engine import MarketInputs, ValuationResult
 from .market import MarketError
 from .render import results_text
 from .schema import coerce_scalar, set_path, validate
@@ -35,6 +40,9 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--json", action="store_true", help="print the full result as JSON instead of the table")
     p.add_argument("--refresh-data", action="store_true", help="re-download Damodaran's datasets and exit")
     p.add_argument("--no-fetch", action="store_true", help="no network: 'auto' market cells must be --set")
+    p.add_argument("--render-assumptions", action="store_true",
+                   help="write companies/<TICKER>/valuation/assumptions.md from the YAML and nothing else "
+                        "(no market fetch, no compute)")
     p.add_argument("--version", action="version", version=f"valuation {__version__}")
     return p
 
@@ -86,6 +94,27 @@ def archive_previous(valuation_dir: Path, out) -> None:
     print(f"archived previous valuation.md and assumptions.yaml to {target}", file=out)
 
 
+def run_and_write(path: Path, doc: dict[str, Any], *, market: MarketInputs | None = None,
+                  fetch: bool = True, out=None) -> ValuationResult:
+    """The normal run: archive the previous pair, compute, write ``valuation.md`` and ``assumptions.md``.
+
+    ``doc`` is the document to compute (it may carry in-memory ``--set`` overrides);
+    ``assumptions.md`` is always rendered from the YAML on disk so it mirrors the file.
+    The app calls this with the market inputs from its sidebar.
+    """
+    out = out or sys.stdout
+    result = compute(doc, market=market, fetch=fetch, company_dir=company_dir_for(path))
+    text = render(result)
+    valuation_dir = path.parent
+    archive_previous(valuation_dir, out)
+    (valuation_dir / "valuation.md").write_text(text, encoding="utf-8")
+    md = write_assumptions_md(path)
+    print(results_text(result), file=out)
+    print(f"written {valuation_dir / 'valuation.md'}", file=out)
+    print(f"written {md}", file=out)
+    return result
+
+
 def _json_default(obj: Any) -> Any:
     if dataclasses.is_dataclass(obj):
         return dataclasses.asdict(obj)
@@ -114,6 +143,12 @@ def main(argv: list[str] | None = None) -> int:
     except (FileNotFoundError, SchemaError) as exc:
         print(f"error: {exc}", file=err)
         return 1
+    if args.render_assumptions:
+        if args.set:
+            print("note: --set overrides are ignored by --render-assumptions; assumptions.md mirrors the file", file=err)
+        md = write_assumptions_md(path)
+        print(f"written {md}", file=out)
+        return 0
     validation = validate({k: v for k, v in doc.items() if k != "_path"})
     if args.validate:
         _print_validation(validation, out)
@@ -128,7 +163,11 @@ def main(argv: list[str] | None = None) -> int:
         _print_validation(validation, err)
         return 1
     try:
-        result = compute(doc, fetch=not args.no_fetch, company_dir=company_dir_for(path))
+        if args.json or args.dry_run:
+            result = compute(doc, fetch=not args.no_fetch, company_dir=company_dir_for(path))
+        else:
+            run_and_write(path, doc, fetch=not args.no_fetch, out=out)
+            return 0
     except MarketError as exc:
         print(f"error: {exc}", file=err)
         return 1
@@ -140,16 +179,9 @@ def main(argv: list[str] | None = None) -> int:
         payload.pop("assumptions", None)
         print(json.dumps(payload, indent=2, default=_json_default), file=out)
         return 0
-    text = render(result)
-    if args.dry_run:
-        print(results_text(result), file=out)
-        print("dry run: nothing written", file=out)
-        return 0
-    valuation_dir = path.parent
-    archive_previous(valuation_dir, out)
-    (valuation_dir / "valuation.md").write_text(text, encoding="utf-8")
+    render(result)                      # the render must succeed even on a dry run
     print(results_text(result), file=out)
-    print(f"written {valuation_dir / 'valuation.md'}", file=out)
+    print("dry run: nothing written", file=out)
     return 0
 
 

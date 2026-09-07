@@ -21,4 +21,4 @@ Read `AGENTS.md` §18 in the repo root first; §18.5 defines what `valuation.md`
 
 5. **Commit** `value(<TICKER>): compute <QLABEL> rev N`, where N counts computes for that as-of quarter (count existing `history/` folders plus one). Skip the commit on `--dry-run`.
 
-6. **Report to the user** in a few lines: value per share for each case against the price and its date, the weighted value, the terminal-value share, the reverse-DCF growth, and every warning verbatim. No interpretation beyond that; the owner reads `valuation.md`. Remind them that edits go into `assumptions.yaml` and that re-running this skill re-computes.
+6. **Report to the user** in a few lines: value per share for each case against the price and its date, the weighted value, the terminal-value share, the reverse-DCF growth, and every warning verbatim. No interpretation beyond that; the owner reads `valuation.md`. Remind them that assumptions are changed in the app (`uv run --extra app valuation-app`, which saves into `assumptions.yaml` with a change log) and that re-running this skill re-computes. If the YAML has a `changelog`, list the owner's changes since the last compute in one line each.

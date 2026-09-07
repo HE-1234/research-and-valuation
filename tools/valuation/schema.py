@@ -32,6 +32,7 @@ TOP_LEVEL_KEYS = {
     "schema", "ticker", "company", "as_of_quarter", "as_of_date", "drafted",
     "currency", "units", "horizon", "base_year", "switches", "bridge", "market",
     "cost_of_capital", "diagnostics", "scenarios",
+    "owner_edited", "changelog",   # maintained by the app (section 18.4); never read by the engine
 }
 SCENARIO_KEYS = {
     "weight", "story", "revenue_growth", "operating_margin", "sales_to_capital",

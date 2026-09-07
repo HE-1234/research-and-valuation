@@ -6,6 +6,10 @@ Python API::
     doc = valuation.load("MRVL")                    # companies/MRVL/valuation/assumptions.yaml
     result = valuation.compute(doc)                 # fetches 'auto' market cells, runs every case
     text = valuation.render(result)                 # valuation.md as a string
+    md = valuation.render_assumptions(doc)          # assumptions.md as a string (no compute)
+
+Writing ``assumptions.yaml`` goes through :mod:`valuation.yamlio` (ruamel round-trip, so
+comments and key order survive); the interactive editor is :mod:`valuation.app`.
 """
 
 from __future__ import annotations
@@ -21,10 +25,12 @@ from .engine import EngineError, MarketInputs, ValuationResult  # noqa: E402
 from .engine import compute as _compute  # noqa: E402
 from .analysis import run_analysis  # noqa: E402
 from .render import render as _render  # noqa: E402
+from .render_assumptions import render_assumptions, write_assumptions_md  # noqa: E402
 from . import market as _market  # noqa: E402
 
 __all__ = [
-    "__version__", "load", "compute", "render", "find_repo_root", "assumptions_path",
+    "__version__", "load", "compute", "render", "render_assumptions", "write_assumptions_md",
+    "find_repo_root", "assumptions_path", "company_dir_for",
     "SchemaError", "EngineError", "MarketInputs", "ValuationResult", "validate", "validate_or_raise",
 ]
 

@@ -83,7 +83,8 @@ finance/
         │   ├── <QLABEL>-review.md    ← reviewer's rubric check and citation spot-check
         │   └── <QLABEL>-valuation-draft-review.md   ← §18 reviewer's check of assumptions.yaml
         └── valuation/                ← §18
-            ├── assumptions.yaml      ← the single source of valuation inputs; owner edits this
+            ├── assumptions.yaml      ← the single source of valuation inputs (agents write it; the owner edits through the app)
+            ├── assumptions.md        ← read-only rendering of the YAML as tables with reasons; regenerated on every save/compute
             ├── valuation.md          ← rendered by the engine: stories, tables, results
             └── history/<date>/       ← previous assumptions.yaml + valuation.md pairs
 ```
@@ -404,6 +405,7 @@ Append here whenever the owner gives feedback that changes how reports should be
 - 2026-09-07 — (pipeline) Length: when writer and reviewer ran the same counting script their counts agreed within a few words and no review cycle was length-driven. Reviewer glosses add about 5%, so a draft near 2,800 leaves no room; the one single-cycle PASS (AVGO) came from a hard 2,000–2,500 aim. Pipelines each rewrote a counter in `/tmp` and one was overwritten by another pipeline mid-run; a canonical script committed to the repo (e.g. `tools/wc_prose.py`) would end the re-derivation. Owner to decide.
 - 2026-09-07 — (pipeline) Reviewer gotcha in two pipelines (PINS, NBIS): truncating grep output (`| head`, character cut) hid the end of a long proxy line and produced a false FAIL. Print full lines before ruling a fact unsourced. Treat "n/d" cells like any other number and check the alternate-basis filing used for that column. Reviewer withdrawals must be recorded in the review file with the evidence.
 - 2026-09-07 — (valuation) §18 designed in a second grill-me interview and built the same day: engine `tools/valuation/` (63 tests; reproduces Damodaran's Alphabet 2018 and Nvidia 2023 workbooks to the dollar), skills `draft-valuation` and `compute-valuation`, drafts for GOOGL and MRVL. Lessons: (1) his Alphabet 2018 sheet has no reinvestment lag while ginzu does; `switches.reinvestment_lag` records the choice, default 1 per §18.3. (2) FRED timed out once for the engine builder and worked before and after; the CLI names the `--set market.risk_free_rate=` fallback. (3) Both drafts needed two review cycles. Reviewers caught a preferred-stock arithmetic slip (19,000 vs 19,250, Alphabet), a bear path whose half-year arithmetic did not match its reason (Marvell), and, most usefully, a capex-versus-margin inconsistency: sales-to-capital alone made Alphabet's 2027 capex fall below 2026's against explicit guidance, so year-2 overrides were added and the bull margin lowered. Rule for future analysts: whenever guidance names a spending level, check what the sales-to-capital path implies for gross capex in every explicit year and override where they disagree. (4) A hard-coded terminal growth goes stale; `value: riskfree` is now the default written into drafts. (5) The engine derives unlevered beta and market debt-to-equity when the analyst leaves them null, with a warning; the runner still fills them explicitly so the owner sees the numbers and dates.
+- 2026-09-07 — (valuation) Owner feedback: YAML is too hard to read and edit. Rule: the owner never edits `assumptions.yaml` by hand; `assumptions.md` is the readable view and the app (§18.10) is the editor, saving back into the YAML with a `changelog`. Skills now point the owner at `assumptions.md` and the app, never at the YAML.
 - 2026-09-07 — (pipeline) Host quirks: a stray `/tmp/inspect.py` shadows a stdlib module and breaks BeautifulSoup for any Python run with cwd `/tmp` (use `python3 -P` or another cwd); `/tmp` is shared across pipelines, so use pipeline-specific file names; host `grep` is ugrep and rejects long regex alternations (use `grep -F`); filings use curly apostrophes that defeat ASCII greps; two-column PDFs need a reading-order `pdftotext` copy; image-only pages need OCR or the release. A large gatherer died on an API error after caching but before writing notes (MU); relaunching against the cache recovered it, hence the fetch-then-notes order in §13.
 
 ## 18. Valuation (`draft-valuation`, `compute-valuation`)
@@ -569,6 +571,14 @@ scenarios:
       roic_premium:        {value: null, allow_large_premium: false, reason: "..."}
 ```
 
+Two optional top-level blocks the engine and the app maintain; analysts never write them:
+
+```yaml
+owner_edited: 2026-09-08T10:12:00      # last save from the app
+changelog:                              # appended by the app on every save, oldest first
+  - {at: "2026-09-08T10:12:00", path: "scenarios.base.operating_margin.values.4", old: 0.30, new: 0.32, note: "owner: depreciation offsets look achievable"}
+```
+
 **Rules for the analyst filling it in:**
 
 1. **Base year is GAAP.** Operating income as reported, minus items the analyst can source as genuinely one-time (a gain on a divestiture, a termination charge). Recurring-at-intervals charges are not one-time. Stock-based pay stays expensed, always. Amortization of acquired intangibles stays deducted; it is recorded as a memo row and its roll-off must be addressed in the margin-path reasoning. The `switches` exist so the owner can change either treatment for a specific company; the analyst leaves them off.
@@ -612,6 +622,8 @@ Cash flows are to the firm (before interest), discounted at the cost of capital,
 5. Commit `value(<TICKER>): draft assumptions as of <QLABEL>`.
 6. Report to the owner: the four stories in one line each, the five inputs most worth their attention, anything the analyst could not source, and the exact command to compute.
 
+**Owner editing (the app, §18.10).** The owner does not edit YAML by hand. `uv run valuation-app` opens a local page that shows every input with its reason, recomputes live through the same engine, and on **Save** writes changed values back into `assumptions.yaml`, preserving reasons, sources, and comments, appending a `changelog` entry per changed cell (with the owner's note if given), and regenerating `assumptions.md`. **Write valuation.md** in the app runs the same code path as `compute-valuation` steps 2–3; **Commit** runs step 4. An agent that later reads a YAML with a `changelog` must treat owner values as fixed unless the owner says otherwise.
+
 **`compute-valuation <TICKER> [--set path=value ...]`**:
 
 1. Preconditions: `valuation/assumptions.yaml` exists and validates.
@@ -635,3 +647,15 @@ The refresh skill never re-values. When `refresh-company` runs on a company that
 - Console script `value`: `uv run value <TICKER> [--validate] [--dry-run] [--set a.b.c=1.2 ...] [--json] [--refresh-data]`. `--set` takes dotted paths into the YAML (`scenarios.base.sales_to_capital.value=2.0`, `scenarios.base.operating_margin.values.4=0.34`) and applies them in memory only.
 - Python API: `valuation.load(ticker)`, `valuation.compute(assumptions, market=None)`, `valuation.render(result)`.
 - Tests: the engine in 10-year mode must reproduce Damodaran's `AlphabetApr2018.xlsx` and `NVIDIA2023.xlsx` values of operating assets and per-share values to within 0.1% from their input sheets; a hand-worked 5-year case; every validation rule; the reverse DCF round-trips.
+- `uv run value <TICKER> --render-assumptions` writes `assumptions.md` only (no market fetch, no compute): the stories, then every input as tables with value, reason, and source, in the §18.4 order. The same renderer runs on every app save and every compute.
+- Writing YAML (app save, `--redraft` archiving) goes through one writer built on `ruamel.yaml` round-trip mode so comments and key order survive. The engine's read path may stay on PyYAML.
+
+### 18.10 Interactive app
+
+`uv run valuation-app` starts a local Streamlit page (optional dependency group `app`; the engine itself stays on PyYAML/openpyxl/xlrd). It is a view and an editor of `assumptions.yaml`; it holds no logic of its own and calls `valuation.compute`, `valuation.render`, and the YAML writer.
+
+- **Sidebar:** company picker (every `companies/<T>/valuation/assumptions.yaml`); market inputs with the fetched price, risk-free rate, and equity risk premium shown with their dates and an override box each; horizon 5/10; unsaved-changes list (path, file value, current value); buttons **Reset to file**, **Save to assumptions.yaml** (asks for an optional one-line note that goes into every changelog entry of that save), **Write valuation.md**, **Commit**.
+- **Top of page:** the §18.5 results table and a bar chart of bear / base / bull / weighted value per share against the price line, each bar labelled with its 10-year-fade reference.
+- **Tabs:** one per scenario (story as an editable text box; each input on its own row with the five-year cells or the single value, the reason as an editable text cell, the source read-only; weight; terminal rows with their flags), `Management` (the guidance table read-only, computable flag, nulls visible), `Base year & bridge` and `Cost of capital` (sourced facts, read-only until an "edit facts" toggle is on; derived numbers such as adjusted operating income, levered beta, cost of equity, WACC, terminal WACC shown live), `Sensitivity` (both grids as heatmaps), `Year by year`, `Reverse DCF`, `Diagnostics`, `Warnings`.
+- Every change recomputes immediately; a change that stops a scenario shows the engine's message in place of the number, never a stack trace.
+- Save never touches reasons or sources unless the owner edited them, never reorders keys, and never drops comments. If the file on disk changed since it was loaded (an agent redraft, for instance), Save refuses and asks for a reload.

@@ -8,14 +8,18 @@ engine only does arithmetic and reports numbers.
 ## Running
 
 ```
-uv sync                                  # once; creates .venv with pyyaml, openpyxl, xlrd, pytest
+uv sync                                  # once; creates .venv with pyyaml, ruamel.yaml, openpyxl, xlrd, pytest
 uv run value MRVL --validate             # schema check only, exit 0 or 1
 uv run value MRVL --dry-run              # compute and print the results table; write nothing
-uv run value MRVL                        # compute, archive the previous pair to history/, write valuation.md
+uv run value MRVL                        # compute, archive the previous pair to history/, write valuation.md and assumptions.md
 uv run value MRVL --set scenarios.base.operating_margin.values.4=0.34 --set market.price=71.2
 uv run value MRVL --json                 # the full result as JSON on stdout
+uv run value MRVL --render-assumptions   # write assumptions.md from the YAML only; no fetch, no compute
 uv run value --refresh-data              # re-download Damodaran's datasets into data/damodaran/
-uv run pytest -q                         # the test suite
+uv run pytest -q                         # the test suite (the app tests skip without streamlit)
+uv sync --extra app                      # once; adds streamlit for the interactive app
+uv run --extra app valuation-app         # start the app (section 18.10)
+uv run --extra app pytest -q             # the test suite including the app tests
 ```
 
 The ticker resolves to `companies/<TICKER>/valuation/assumptions.yaml` relative to the
@@ -30,14 +34,106 @@ directory). A path to a YAML file works too.
 | `--json` | Print the result as JSON instead of the table (assumptions omitted). |
 | `--refresh-data` | Download the seven Damodaran files, rewrite the CSVs and `MANIFEST.md`, exit. |
 | `--no-fetch` | No network. `auto` price and risk-free cells must then be given with `--set`; the ERP `auto` still reads the cached dataset. |
+| `--render-assumptions` | Write `companies/<TICKER>/valuation/assumptions.md` from the YAML and nothing else: no market fetch, no compute, `--set` ignored. |
 
 On a normal run, if `valuation.md` already exists it and `assumptions.yaml` are copied to
-`valuation/history/<YYYY-MM-DD-HHMM>/` before the new file is written. The engine never
-writes into `assumptions.yaml`.
+`valuation/history/<YYYY-MM-DD-HHMM>/` before the new file is written. The run also rewrites
+`assumptions.md` from the YAML on disk. The engine never writes into `assumptions.yaml`.
 
 Python API: `valuation.load(ticker_or_path)`, `valuation.compute(assumptions, market=None)`,
-`valuation.render(result)`. `compute` fetches `auto` market cells unless a
-`valuation.MarketInputs` is passed.
+`valuation.render(result)`, `valuation.render_assumptions(assumptions)`. `compute` fetches
+`auto` market cells unless a `valuation.MarketInputs` is passed. `valuation.cli.run_and_write`
+is the normal run as one function (archive, compute, write both files); the app calls it.
+
+## `assumptions.md`
+
+A read-only rendering of `assumptions.yaml`, written by `--render-assumptions`, by every
+normal compute run, and by every save from the app. Sections, in the order of section 18.4:
+header (ticker, company, as-of quarter and date, drafted, owner edited if any), the four
+stories, one table of scenario inputs (rows are inputs, columns are cases, per-year lists as
+`y1 / y2 / y3 / y4 / y5`), a reasons list per scenario (`**input** — reason [source]`), then
+base year and switches, bridge, market inputs, cost of capital, diagnostics inputs, the
+management guidance table, and the change log when the file has one. Percentages have one
+decimal, money is USD millions with separators, and an empty cell is shown as a dash.
+Rendering needs only the YAML; an invalid or half-filled file still renders.
+
+## Writing the YAML: `valuation.yamlio`
+
+Everything that writes `assumptions.yaml` goes through `tools/valuation/yamlio.py`, built on
+`ruamel.yaml` in round-trip mode, so hand-written comments, key order, block-scalar stories,
+flow-style cells, quoting and the `riskfree` / `auto` sentinels survive a save. The engine's
+read path stays on PyYAML; the plain dict it reads always equals `yaml.safe_load` of what
+the writer saves (tested).
+
+- `load_roundtrip(path)` returns a `Document` (data, path, snapshot of mtime and hash).
+- `apply_changes(doc, [(dotted_path, value), ...])` sets cells in place, list indices allowed
+  (`scenarios.base.operating_margin.values.4`), and returns `(path, old, new)` for the cells
+  that actually changed. Multi-line strings stay block scalars.
+- `append_changelog(doc, entries)` appends `{at, path, old, new, note}` rows to `changelog`
+  (created if absent, oldest first); `set_owner_edited(doc, iso_timestamp)` sets the stamp.
+- `save(doc)` writes atomically (temp file in the same directory, then rename) and refuses
+  with `StaleFileError` when the file changed since it was loaded.
+- `diff_against_file(path, current_plain_dict)` lists changed paths with the file value and
+  the current value; the app's unsaved-changes list and Save are built on it.
+
+Analysts never write `owner_edited` or `changelog`; the app maintains them. Where ruamel
+cannot keep a layout exactly (column-aligned flow mappings, flow mappings split over two
+lines) it writes the same mapping on one line; nothing else changes.
+
+## The app (`valuation-app`)
+
+```
+uv sync --extra app                      # once
+uv run --extra app valuation-app         # opens http://localhost:8501; extra args go to `streamlit run`
+uv run --extra app valuation-app --server.port 8502
+```
+
+The engine never needs streamlit: `uv run value ...` and `uv run pytest -q` work without the
+`app` extra (the app tests then skip). The page is a view and an editor of one company's
+`assumptions.yaml`; it holds no arithmetic and calls `valuation.compute`, `valuation.render`,
+`valuation.render_assumptions` and `valuation.yamlio`.
+
+Layout:
+
+- **Sidebar.** Company picker over `companies/*/valuation/assumptions.yaml`. Market inputs:
+  the price (Yahoo), risk-free rate (FRED) and equity risk premium (cached Damodaran row) are
+  fetched once per company per session (15-minute cache) and shown with their dates; each has
+  an override box, and when a fetch fails the box is empty and asks for a value instead of
+  crashing. Horizon 5 or 10 (switching pads or cuts every per-year list and says so). The
+  unsaved-changes list (path, file value, current value). Buttons:
+  - **Reset to file** reloads the YAML and drops every unsaved edit.
+  - **Save to assumptions.yaml** writes only the changed cells through the ruamel writer,
+    appends one `changelog` entry per cell (with the optional one-line note typed above the
+    buttons), sets `owner_edited`, and regenerates `assumptions.md`. Reasons and sources are
+    written only if you edited them; comments and key order are kept. If the file changed on
+    disk since it was loaded (an agent redraft, for instance), Save refuses and asks for a
+    reload.
+  - **Write valuation.md** runs the same code path as `uv run value <TICKER>` with the
+    sidebar's market inputs: archives the current pair to `history/<YYYY-MM-DD-HHMM>/`,
+    computes, writes `valuation.md` and `assumptions.md`. Refused while changes are unsaved.
+  - **Commit** runs `git add companies/<T>/valuation` and commits as `company-research`
+    with `value(<T>): compute <QLABEL> rev N` (N = history folders + 1) when `valuation.md`
+    changed, or `value(<T>): owner edits to assumptions` when only the YAML and its rendering
+    changed. Output is shown on the page. It never pushes.
+- **Top of page.** The section 18.5 results table (one row per case plus the weighted row)
+  and a bar chart of bear / base / bull / weighted value per share with the price as a dashed
+  line and each bar labelled with its 10-year-fade reference.
+- **Tabs.** `Bear`, `Base`, `Bull`: the story in a text box, the weight, a by-year table
+  (revenue growth, operating margin, reinvestment override; decimals, `0.12` means 12%), and
+  one row per single-value input with the reason next to it and the source read-only.
+  `Management`: the computable switch with its reason, the guidance table read-only, and the
+  same inputs with nulls visible. `Base year & bridge` and `Cost of capital`: sourced facts as
+  tables, editable after the "Edit facts" toggle, with the derived numbers (adjusted operating
+  income, invested capital, levered beta, cost of equity, WACC, terminal WACC, terminal ROIC
+  per case) live. `Sensitivity`: both grids as heatmaps with the case as entered outlined.
+  `Year by year` (with a case selector), `Reverse DCF`, `Diagnostics`, `Warnings`.
+
+Every change recomputes at once. A change that stops a scenario (a null in a required cell,
+terminal growth at or above the terminal cost of capital) shows the engine's message in place
+of that case's numbers; the page never shows a stack trace.
+
+Environment variables for tests and scripts: `VALUATION_REPO_ROOT` points the app at another
+repository root; `VALUATION_APP_NO_FETCH=1` turns fetching off.
 
 ## The YAML
 
