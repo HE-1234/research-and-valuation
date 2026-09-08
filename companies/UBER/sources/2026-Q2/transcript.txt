@@ -1,0 +1,841 @@
+                                                        Corrected Transcript
+
+
+
+
+05-Aug-2026
+
+Uber Technologies, Inc. (UBER)
+Q2 2026 Earnings Call
+
+
+
+
+                                                           Total Pages: 16
+1-877-FACTSET www.callstreet.com   Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+
+
+CORPORATE PARTICIPANTS
+Alaxander Wang                                                                                                                             Balaji Krishnamurthy
+Head, Investor Relations, Uber Technologies, Inc.                                                                                          Chief Financial Officer, Uber Technologies, Inc.
+Dara Khosrowshahi
+Chief Executive Officer & Director, Uber Technologies, Inc.
+.....................................................................................................................................................................................................................................................................
+
+
+
+OTHER PARTICIPANTS
+Brian Nowak                                                                                                                                Justin Post
+Analyst, Morgan Stanley & Co. LLC                                                                                                          Analyst, BofA Securities, Inc.
+Eric J. Sheridan                                                                                                                           Mark Mahaney
+Analyst, Goldman Sachs & Co. LLC                                                                                                           Analyst, Evercore ISI
+Doug Anmuth                                                                                                                                Nikhil Devnani
+Analyst, JPMorgan Securities LLC                                                                                                           Analyst, Bernstein Institutional Services LLC
+John Colantuoni                                                                                                                            Ross Sandler
+Analyst, Jefferies LLC                                                                                                                     Analyst, Barclays Capital, Inc.
+.....................................................................................................................................................................................................................................................................
+
+
+
+MANAGEMENT DISCUSSION SECTION
+Operator: Hello, and welcome to the Uber's Q2 2026 earnings conference call. All lines have been placed on
+mute to prevent any background noise. After the speakers' remarks, there will be a question-and-answer session.
+[Operator Instructions]
+
+I would now like to turn the conference over to Alax Wang, Head of Investor Relations. You may begin.
+.....................................................................................................................................................................................................................................................................
+
+Alaxander Wang
+Head, Investor Relations, Uber Technologies, Inc.
+Thank you, Sarah. Thank you all for joining us today, and welcome to Uber's second quarter 2026 earnings
+presentation. On the call today we have Uber's CEO, Dara Khosrowshahi, and CFO, Balaji Krishnamurthy.
+
+During today's call we will present both GAAP and non-GAAP financial measures. Additional disclosures
+regarding these non-GAAP measures, including a reconciliation of GAAP to non-GAAP measures are included in
+the press release, supplemental slides, and our filings with the SEC, each of which is posted to
+investor.uber.com.
+
+Certain statements in this presentation and on this call are forward-looking statements. You should not place
+undue reliance on forward-looking statements. Actual results may differ materially from these forward-looking
+statements, and we do not undertake any obligation to update any forward-looking statements we make today,
+except as required by law.
+
+
+
+                                                                                                                                                                                                                                                                 2
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+For more information about factors that may cause actual results to differ materially from forward-looking
+statements, please refer to the press release we issued today, as well as risks and uncertainties described in our
+most recent Form 10-K and in other filings made with the SEC.
+
+We published our quarterly earnings press release, prepared remarks, and supplemental slides to our Investor
+Relations website earlier today. We ask you review those documents if you haven't already. We will open the call
+to questions following brief opening remarks from Dara.
+
+With that, let me hand it over to Dara.
+.....................................................................................................................................................................................................................................................................
+
+Dara Khosrowshahi
+Chief Executive Officer & Director, Uber Technologies, Inc.
+Thanks, Alax. So, Q2 was another outstanding quarter for Uber with record audience engagement driving durable
+growth, expanding margins, and record cash generation. Gross bookings grew 22% year-on-year to more than
+$58 billion, above the high end of our guidance and marking our fourth consecutive quarter above 20% growth.
+
+Just as importantly, that growth translated into significant operating leverage, with non-GAAP EPS growing 35%
+year-over-year and trailing 12-month free cash flow exceeding $10 billion for the first time in our history. Those
+results give us the ability to continue investing from a position of strength across our priorities.
+
+Our recently announced agreement to acquire Delivery Hero is a great example. The combination is going to
+expand our reach to nearly 100 markets and extend the proven strategy that has underpinned our growth for
+years by roughly doubling the number of markets where we can offer the full power of our platform across Mobility
+and Delivery. By bringing our technology and Uber One to millions more people, we believe this deal will create
+significant long-term shareholder value.
+
+We also continue to invest behind one of the largest opportunities in Uber's history, autonomous vehicles. Over
+the past year, the conversation around AVs has shifted from whether the technology can deliver a compelling
+service to how broadly, reliably, and economically it can scale. That distinction matters because we believe the
+industry structure is becoming clearer. It mirrors what's happening in AI broadly.
+
+A few years ago, many expected AI to converge around a single foundation model. Instead, multiple frontier
+models have emerged alongside a growing open-source ecosystem. We believe AVs, which are essentially
+physical AI, will follow a similar path.
+
+Just in the last week we've seen NVIDIA release its Alpamayo open weight model, and our partners at Wayve
+received a permit in the UK, and Zoox received approval to scale its robotaxi. The momentum across our partner
+base is remarkable.
+
+Unlike foundation models however, AVs are physical, regulated systems that have to be deployed market by
+market with the variable patterns of ride hailing. That makes the commercialization layer critical, and that's exactly
+the opportunity we're building towards. And our ambition is straightforward: to become the world's leading
+commercialization platform for autonomous vehicles. Taken together, we're executing with discipline today while
+building the capabilities we believe will define Uber's next decade of growth.
+
+With that, operator, let's open it up for questions.
+
+
+
+
+                                                                                                                                                                                                                                                                 3
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+
+
+QUESTION AND ANSWER SECTION
+Operator: Thank you. Your first question comes from the line of Brian Nowak with Morgan Stanley. Your line is
+open.
+.....................................................................................................................................................................................................................................................................
+
+Brian Nowak
+Analyst, Morgan Stanley & Co. LLC                                                                                                                                                                                                                         Q
+Thanks for taking my questions. Maybe, Dara, a double-pronged one on autonomous, one on Mobility and
+Delivery. Just you've made a lot of progress in terms of partnerships, and there's a lot of technological progress
+happening. But maybe help us understand, if you look ahead 12 months from now, what are sort of the main
+milestones or progress sign points you're focused on on your Mobility strategy and your Delivery strategy in AV,
+just to ensure you're going down the right path?
+.....................................................................................................................................................................................................................................................................
+
+Dara Khosrowshahi
+Chief Executive Officer & Director, Uber Technologies, Inc.                                                                                                                                                                                                A
+Yes, absolutely, Brian. So in terms of what the milestones we're looking at, the most important milestones are
+really launches and the number of cities that we are live in, both with vehicle operators and then without vehicle
+operators. So to remind you, we're live in seven cities, and we're on track to be live in 15 cities by year-end.
+We've got a Nuro, Lucid launch coming in the Bay, we've got Zoox coming in Vegas, and we've got Wayve in
+London and Tokyo, Baidu also in London, and then Pony and Verne in Zagreb and potentially more. So there's a
+bunch of launches coming up in the balance of the year.
+
+And then really we're looking for more in 2027. So we'll continue to launch markets with the partners that I talked
+about, but we'll be adding additional partners into the ecosystem as well. We expect to see Rivian in the market.
+And these are – this is kind of a full-stack kind of a build, which is software and hardware with a very affordable
+bill of materials. We expect to be in perhaps San Francisco and Miami in 2028 for Rivian. And then in NVIDIA, we
+expect to be in LA and San Francisco in 2027 and in 28 different cities globally by 2028 as well.
+
+So really what we're looking for is launches in markets, accelerating our data collect which is really driving the
+newer end-to-end models as well, and then starting to really commercialize this model. The numbers are small at
+this point, but for us, what we're looking at is first of all the quality of service, and then secondly utilization of these
+vehicles. And what we've seen is that launching with us as a partner with kind of the built in kind of demand that
+we've got, we can drive very significant utilization per vehicle, often mid to high 20s, low 30s in terms of trips per
+vehicle per day, which is quite substantial in terms of the needed monetization as it relates to these vehicles.
+
+So, it's getting partners in market, quality of service, and then obviously the economics of the service that we're
+looking at.
+
+On the Delivery side, we're also partnered with a number of partners, whether it's serve or Cartken, for delivery
+kind of sidewalk robots. What I am increasingly optimistic about are the potential with drones. So we've got, for
+example, partnerships with Flytrex. There are a number of partnerships coming up in the drone area. And the
+promise of drones, while it will take time to get the economics down to the kind of economics that can be
+sustainable, with drone delivery – you know, with AVs, it's a really cool experience. It's safe, et cetera, but Avs, to
+some extent, are slower than human drivers at this point. We'll see what happens there. Drone delivery can cut
+the timing of delivery significantly.
+
+
+
+                                                                                                                                                                                                                                                                 4
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+So already kind of ordering dinner and getting it delivered to your home in 30 minutes is a magical experience.
+We think in 15 minutes, it's going to be – 10 to 15 minutes is going to be an even more magical experience. So
+while we're on the sidewalks now as it relates to our Delivery business, we're looking forward to getting in the air
+with some of the partners out there.
+.....................................................................................................................................................................................................................................................................
+
+Alaxander Wang
+Head, Investor Relations, Uber Technologies, Inc.                                                                                                                                                                                                          A
+Next question, please.
+.....................................................................................................................................................................................................................................................................
+
+Operator: Your next question comes from Eric Sheridan with Goldman Sachs. Your line is open.
+.....................................................................................................................................................................................................................................................................
+
+Eric J. Sheridan
+Analyst, Goldman Sachs & Co. LLC                                                                                                                                                                                                                          Q
+Thanks so much for taking the questions. Two, if I could. On the US Mobility acceleration, can you unpack a little
+bit some of the drivers of that acceleration, and how much you think might be building permanent signal as
+opposed to elements of the World Cup that might have played a role in that?
+
+And then I was struck by the comment that the first-time user momentum was as high as it was. What do you
+think you're putting in place there that's resulting in that type of first-time user momentum? And again, how should
+we be thinking about that sustaining going forward? Thanks so much.
+.....................................................................................................................................................................................................................................................................
+
+Balaji Krishnamurthy
+Chief Financial Officer, Uber Technologies, Inc.                                                                                                                                                                                                           A
+Thanks, Eric. I'll take the question on US Mobility and Dara will take the second one. So the World Cup definitely
+was a benefit, but it was as expected to a large extent. And what I would say is the momentum that we're seeing
+in the US is consistent with the theme that we have been talking about since the beginning of the year. And it is
+far broader than any one-off event that we're talking about here. So just as a reminder, what we have said is we
+expect the US to accelerate through this year.
+
+And we highlighted in Q2 both trips and gross bookings accelerated. We continue to hold our expectation for the
+remainder of the year. And what's driving that is three distinct items. The first one is insurance, which we have
+talked about, is becoming a tailwind this year. We are reinvesting the savings from insurance back into the
+market. And particularly in California, where there's a significant amount of reinvestment, we are seeing a very
+clear inflection in growth. And in LA and SF our trip growth, for example, meaningfully outpaced the rest of the
+country.
+
+Then secondly, our product innovation velocity that we've talked about on both premium products and on
+affordable products, whether it's Reserve, U4B and Black on the premium side or Wait & Save and other products
+on the other side of the spectrum, we are seeing really good traction there. U4B in particular, we saw 40% year-
+on-year growth. Uber Health is growing even faster. So that's the second theme.
+
+And then finally, sparse markets, which we've been talking about as a long-term opportunity, that continues to be
+a very strong driver for growth as well. And just for context, in the US, less than 10% of eligible consumers in our
+sparse markets have used Uber in the past 12 months, whereas in dense markets, that number is over 50%. So
+we're making really good progress there in improving supply, reliability, and investing in marketing to drive
+awareness and trial. So I think all in, it's broad and sustainable.
+.....................................................................................................................................................................................................................................................................
+
+
+
+                                                                                                                                                                                                                                                                 5
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+Dara Khosrowshahi
+Chief Executive Officer & Director, Uber Technologies, Inc.                                                                                                                                                                                                A
+And then in terms of first-time users, we're obviously very happy about the kind of record first time users, at least
+over the past couple of years coming into the platform. And the trends are actually, or the drivers are similar. The
+ones that I would call out generally are lower cost products continue to grow globally, but also in the US as well.
+
+Globally, our low-cost products are kind of two wheelers and three wheelers. In the US it's Wait & Save, which
+allows consumers to kind of trade off time against price. And Wait & Save is growing very, very quickly. So low
+cost just kind of introduces a whole new sector of consumers onto the platform. And then we can sell them up to
+the main line as well. That's one.
+
+Second is exactly what Balaji talked about, which is sparse markets. The Mobility business and the Delivery
+business is growing significantly faster in sparse markets than in dense markets. We're kind of building out
+inventory in those markets. Margins are actually quite healthy as well. So you get increased growth as well as
+strong margins as well. And we are a very, very long way from high penetration in those sparse markets, as Balaji
+pointed out.
+
+Third for us is cross-platform. And most of our cross-platform activity has been historically our Rides to Eats, and
+I'll remind folks that only 20% of our consumers at this point use both Rides and Eats. And that's growing one and
+a half times faster than single product users as well. So that's a very sustainable advantage that we have as it
+relates to cross-platform.
+
+And as our Eats business is getting bigger, not only is Rides moving consumers to Eats, but then our Eats
+business is moving consumers onto Rides as well. And that's true both globally and in the US as well.
+
+And then last but not least, our new products that we're introducing into the marketplace. So for example, women
+preferred is bringing a lot of women, both drivers and riders, into the marketplace. Uber Teens is another new
+product that's kind of bringing in a whole new demographic and audience into the marketplace. And then, for
+example, higher margin product like U4B gives us high margins, but is also introducing kind of a new enterprise
+type audience as well.
+
+So you put all that together, whether it's low cost, cross-platform, newer products or sparse markets, that's really
+what's contributing to both the growth of the business as well as the growth of the audience.
+.....................................................................................................................................................................................................................................................................
+
+Alaxander Wang
+Head, Investor Relations, Uber Technologies, Inc.                                                                                                                                                                                                          A
+Next question, please.
+.....................................................................................................................................................................................................................................................................
+
+Operator: Your next question comes from Doug Anmuth with JPMorgan. Your line is open.
+.....................................................................................................................................................................................................................................................................
+
+Doug Anmuth
+Analyst, JPMorgan Securities LLC                                                                                                                                                                                                                          Q
+Great. Thanks for taking the questions. I have two. You highlighted some softness in Brazil Mobility trips. Could
+you just talk about the competitive environment there? And then also, if there are any other markets where you
+need to invest in Moto and low cost Mobility products?
+
+
+
+
+                                                                                                                                                                                                                                                                 6
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+And then secondly, there's been a lot in the press recently regarding Uber's relationship with Waymo. Is there
+anything you can add or clarify there, and specifically how you're thinking about those Austin and Atlanta
+partnerships? Thank you.
+.....................................................................................................................................................................................................................................................................
+
+Dara Khosrowshahi
+Chief Executive Officer & Director, Uber Technologies, Inc.                                                                                                                                                                                                A
+Yeah, absolutely, Doug. So in Brazil, we are seeing a competitive environment. It's not – now, it's always been
+competitive as it relates to Mobility. We compete against DiDi, for example, locally, and Latin America generally
+has been quite competitive.
+
+What we're seeing that's new and different in Brazil is there is an enormous amount of competition as it relates to
+the food business. DiDi has introduced DiDi Food. Meituan has gotten in there going against iFood, which is the
+incumbent in Brazil as well. That, all of them are going after two-wheeler delivery supply. And that same two-
+wheeler delivery supply will switch off between delivering food and also moving people as well. So the cost of
+securing that supply has gone up pretty significantly. And we're moving incentives that we kind of put on the
+consumer side. We're moving it to the Delivery side to counteract that, if you will.
+
+The good news as it relates to Brazil is that we continue to hold our share in Brazil, but you just see kind of share
+move from the Mobility side of the business to the Delivery side of the business because it's a period of time
+where there's a lot of investment going there.
+
+I think the good news, if you want to call it that, is our two-wheeler business is one of our newer businesses. The
+margins in that business are quite low, so it's certainly not hitting the bottom line. But it is affecting trip volumes
+and it's actually competition outside of our space that is affecting those trip volumes.
+
+As it relates to Waymo, listen, Waymo is a very, very important partner of ours, and we continue to operate in
+Austin and Atlanta. We believe we'll continue to operate next year in those marketplaces. It's a terrific product and
+the on-the-ground partnership continues to be very strong. At the same time, we want to make sure that we're not
+dependent on one partner. And we're absolutely seeing a plethora of newer players in the AV ecosystem, just like
+you see in the foundation model space.
+
+And while we continue to provide a great service with Waymo in Austin, Atlanta, we'll continue to build our
+services with our other players as well. We'll be in 15 markets by the end of the year. Next year, it'll be many,
+many more markets than that. And just as a reminder of our scale, AVs are doing kind of hundreds of thousands
+of trips per week. We're at 300 million kind of trips per week as well. So it's even less than 0.5% of our overall trip
+volume.
+
+You compare that again to the foundation model space, people estimate that 20% of search now has gone to AI;
+40% of users are using AI search of one way or the other. So the penetration of kind of physical AV is going to be
+slower. It's going, to some extent, be more deliberate. It's way below where it is at AI. Regulations are a
+consideration there. And we have time to develop the partnerships with our other set of partners to create a
+competitive playing field with attractive commercials.
+.....................................................................................................................................................................................................................................................................
+
+Alaxander Wang
+Head, Investor Relations, Uber Technologies, Inc.                                                                                                                                                                                                          A
+Next question, please.
+.....................................................................................................................................................................................................................................................................
+
+
+
+
+                                                                                                                                                                                                                                                                 7
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+Operator: Your next question comes from John Colantuoni with Jefferies. Your line is open.
+.....................................................................................................................................................................................................................................................................
+
+John Colantuoni
+Analyst, Jefferies LLC                                                                                                                                                                                                                                    Q
+Great. Thanks for taking my questions. Can you talk to the evolving regulatory environment in autonomous
+vehicles and how you see policy playing into the pace of adoption and geographic expansion? And then second,
+regarding overhead expenses, talk about what has allowed you to temper head count additions relative to your
+initial plan and the framework you're using to make decisions about reinvesting these tailwinds versus dropping
+them to the bottom line. Thanks.
+.....................................................................................................................................................................................................................................................................
+
+Dara Khosrowshahi
+Chief Executive Officer & Director, Uber Technologies, Inc.                                                                                                                                                                                                A
+Yeah, absolutely. John, as it relates to regulation, listen, we are a highly regulated business. We routinely talk to
+lawmakers, whether they're governors, mayors, council members, who have real concerns about both the effect
+of AI and AVs, with their constituencies. And some of these concerns are real, their concerns about job loss, their
+concerns about safety, their concerns about congestion. And while AVs have been incredible in the markets in
+which we've introduced them, there also have been – they've had their fair share of issues, whether it's safe
+driving through school zones or next to school buses or how they interact with emergency response vehicles or
+how they react to large power failures where the traffic lights aren't working. These are real issues that have to be
+discussed.
+
+And like, for example, DC is talking about this stuff. And we can't have AVs blocking the streets of DC when
+there's a presidential or vice-presidential motorcade going through. Like these are real issues, and we've got to
+have the proper dialogue with all the constituencies to make sure that any new law reflects the needs of all these
+stakeholders.
+
+And we see sometimes the result of electronic go too fast, and like some of these AI companies with data centers,
+they were kind of pushing through, you could argue, too quickly with NDAs, et cetera. And there's been a huge
+public blowback against it. And what we think is, you need to have a dialogue. You need to have smart regulation
+and dialogue with our shareholders so you can actually enable innovation going forward. And we can kind of drive
+AV regulation in a way that's sustainable that doesn't kind of have the same kind of blowback that you're seeing in
+AI.
+
+So sometimes you got to slow down to drive sustainable regulation. We're very much pro-AV, but we want any
+regulation to kind of address the needs of stakeholders, and any model that we have is a model that truly lasts.
+.....................................................................................................................................................................................................................................................................
+
+Balaji Krishnamurthy
+Chief Financial Officer, Uber Technologies, Inc.                                                                                                                                                                                                           A
+Great. I'll take the question on the overhead and head count. So what I'd start by saying is we have now shown a
+track record of being disciplined on head count reduction over multiple years. But as we have been going through
+this year, there are a couple of themes that we have been striking at the company.
+
+The first one is the investments we're making in AI, they should result in productivity gains and that should allow
+us to be moderating some of the head count reductions. And then the second piece is really focus on
+organizational effectiveness and how we operate.
+
+
+
+
+                                                                                                                                                                                                                                                                 8
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+So I'll take the first one and give you a little bit more color first. On AI, we are very early, but what we are seeing is
+that we're able to cost efficiently deliver some productivity lifts with developers. We are seeing, at the moment,
+near 100% adoption with our engineers on AI-based coding tools. And for the measurement that we are looking at
+right now, we are seeing a doubling in the code output per engineer.
+
+So there is a lot more nuance to this, and we are being quite smart internally on how we're measuring this and not
+getting ahead of our skis. But at a minimum, it has allowed us to moderate the pace with which we're adding head
+count there.
+
+Then there are other areas where you have very discrete investments in AI. Customer support is a clear area
+where we should be able to up the quality of our customer support interactions, as well as reduce the cost of our
+effort there. And then on the marketing side as well, we are making some investments here. So there's a broad-
+based effort that should allow us to moderate the pace of hiring.
+
+Then on the organizational effectiveness side, from time to time we will review how our organizations are
+structured. And through the quarter, we were able to surgically, in a couple of organizations, cut head count by
+about 10% to 20%, and that drives some savings as well, although modest in the grand scheme of things.
+
+I think the objective for us here is to really remain disciplined. And then as – if and wherever we find some
+savings, that allows us to reinvest some of those savings back into driving our marketplace and delivering value to
+our customers, whether it's consumers or earners.
+.....................................................................................................................................................................................................................................................................
+
+Alaxander Wang
+Head, Investor Relations, Uber Technologies, Inc.                                                                                                                                                                                                          A
+Next question, please.
+.....................................................................................................................................................................................................................................................................
+
+Operator: Your next question comes from Justin Post with Bank of America. Your line is open.
+.....................................................................................................................................................................................................................................................................
+
+Justin Post
+Analyst, BofA Securities, Inc.                                                                                                                                                                                                                            Q
+Great. Thank you. Dara, in the prepared remarks you talk about $10 billion of investment in AVs. How do you
+think that flows through to the income statement over time? Any thoughts on margin impact of that?
+
+And second, maybe comment a little bit on how you think about Lucid's ability to make those vehicle commitments
+given some recent news in the press.
+
+And then Balaji, if you want to comment on take rates. I think bookings were up 22%, constant currency revenues
+up 19%. Just some high level thoughts on that. Thank you.
+.....................................................................................................................................................................................................................................................................
+
+Dara Khosrowshahi
+Chief Executive Officer & Director, Uber Technologies, Inc.                                                                                                                                                                                                A
+I'll let Balaji talk to the investment in AV and margins, and then maybe the take rate as well. And I'll talk about
+Lucid.
+.....................................................................................................................................................................................................................................................................
+
+Balaji Krishnamurthy
+Chief Financial Officer, Uber Technologies, Inc.                                                                                                                                                                                                           A
+                                                                                                                                                                                                                                                                 9
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+Okay, great. So, Justin, just for context, the $10 billion of AV investments we're talking about here, this is
+investment over a multi-year period. And most of the investments we're talking about you have seen us announce
+behind the partners that we've been announcing over the last year or so.
+
+When you dig into this, there are two distinct kinds of investments we're talking about. The first one is investment
+in our AV software partners. These typically tend to be equity investments with clear milestones that help us get
+roadmap visibility and position us front of the line for commercialization with these partners.
+
+And the additional benefit for our partners is that our anchor role helps catalyze external fund fundraising for those
+partners as well. And so far for every dollar that we have invested, our partners have been able to raise an
+additional $2.50 from other investors. So that's the first piece.
+
+The second piece is really focused on using our balance sheet selectively to bootstrap the AV infrastructure on
+the ground. And this can be in the form of support for fleet ops, for real estate, or for the OEMs who need some
+[indiscernible] (00:26:31) commitments as we go in and deploy on these partners. We talked about, about
+120,000 vehicle commitments that we are looking to deliver over the next few years. And a lot of that would be
+sort of the example of what we're talking about here.
+
+Now, all of this, as Dara has said earlier as well today, this is designed to catalyze the ecosystem. In parallel, we
+are very, very actively also looking at financializing the ecosystem. And we are working with third-party financial
+sponsors to look at what sort of vehicles make sense here. So it's not just Uber's balance sheet that's working on
+this, but we can turbocharge this with that sort of additional support.
+
+In terms of the P&L versus cash flow impact, I would say, we will give you more visibility into that as we go. The
+closer we get to deployment and scale out, there will be a P&L impact and we'll size that for investors clearly as
+we've historically done.
+
+If you want to touch on Lucid and then I can come back to the other questions.
+.....................................................................................................................................................................................................................................................................
+
+Dara Khosrowshahi
+Chief Executive Officer & Director, Uber Technologies, Inc.                                                                                                                                                                                                A
+Yeah, definitely. As it relates to Lucid, they did announce their latest quarter. Silvio has come on as the new CEO.
+And listen, he's taking some bold steps to go back to the fundamentals, refactoring the cost base of the business,
+really focusing on the quality of the product. These can be tough kind of actions, but they're necessary, and we
+think positive actions.
+
+And I've talked with Silvio and we remain very close with Lucid and kind of the B2B program that they are
+building. And their program with us as it relates to AV are highly strategic. And it's a big order with kind of
+guaranteed volume that we know we can monetize as well, with a car that's a beautiful car that can come in at
+kind of at the $70,000, $80,000 range. So something that we're quite encouraged by.
+
+The Nuro and Lucid teams are working together very, very closely and the integration of Nuro's AI into kind of
+Lucid's driver training on the vehicle in terms of the vehicle weight, in terms of tying into the APIs, all of that is
+going well, and it's something that we're watching.
+
+And then, of course, Lucid is backed by the public investment fund. They are a big investor of ours. They have a
+terrific board representative on our board as well. And the public investment fund is a definition of a long-term
+
+
+
+                                                                                                                                                                                                                                                             10
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+fundamental investor that has held Uber for years and years and continues to have confidence in and back Lucid
+as well.
+
+So we think the combination of ourselves, Nuro and then the public investment fund backing Lucid, along with the
+actions that Silvio is taking are kind of the right formula for them to deliver on the commitments that we have on
+the books with them.
+.....................................................................................................................................................................................................................................................................
+
+Balaji Krishnamurthy
+Chief Financial Officer, Uber Technologies, Inc.                                                                                                                                                                                                           A
+And on the revenue take rate, so again, remember that we have talked about a business model change in the UK,
+which is primarily an impact on our Mobility business. So if you were to look at our revenue margin for Delivery,
+it's largely stable. So I'll set that aside and I'll touch on Mobility, where you are seeing a nearly 500 basis points
+decline year-on-year. Of that 500 basis points, about 400 basis points is entirely related to this UK business
+model change, and it's an optical impact. It moves cost from [indiscernible] (00:30:08) cost of revenue.
+
+And other than that, it's really deliberate investments that we have been talking about, largely a function of some
+investments in our lower-cost offerings, the sort of investments we're talking about for Moto in Brazil. And what I
+would ask investors to focus on is not necessarily the take rate we're reporting on revenues, but the net sort of
+take rate that is disclosed in our 10-Q filing that will largely show take rate remaining broadly stable.
+
+And then from an operating income standpoint, our Mobility operating income margin remains very strong at 7.6%
+as well. So that's all the risk to it in terms of the take rate movement here.
+.....................................................................................................................................................................................................................................................................
+
+Alaxander Wang
+Head, Investor Relations, Uber Technologies, Inc.                                                                                                                                                                                                          A
+Next question, please.
+.....................................................................................................................................................................................................................................................................
+
+Operator: Your next question comes from Mark Mahaney of Evercore. Your line is open.
+.....................................................................................................................................................................................................................................................................
+
+Mark Mahaney
+Analyst, Evercore ISI                                                                                                                                                                                                                                     Q
+Hey, I want to ask you an AI question and a capital allocation question. There's this line in here about AI making
+Uber more intuitive for consumers. I absolutely would think that AI is leading to greater personalization across a
+series of services. And it would show up in kind of better conversion rates, more spend per consumer, et cetera.
+Dara, is there anything you could kind of quantify there about how much better the Uber process, from a
+consumer perspective, can be because of AI?
+
+And then Balaji, this comment about steadily returning to a more normalized level of activity in terms of the capital
+allocation share repurchases, can you just kind of put a little timing on that? Like, is that steadily return over a
+year? Are we talking years or quarters? Thanks a lot.
+.....................................................................................................................................................................................................................................................................
+
+Dara Khosrowshahi
+Chief Executive Officer & Director, Uber Technologies, Inc.                                                                                                                                                                                                A
+Yeah, absolutely, Mark. So when we think about AI, there are a number of functions that it can serve. One is just
+to make the consumer experience better, easier. And one example of that is cart builder for us where you can
+introduce kind of a shopping cart. Whether you take a picture of a dish or scribble down a recipe, the AI actually
+interacts with you to kind of build out a cart.
+
+                                                                                                                                                                                                                                                             11
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+
+And the effect there is, consumers love it, the ones who use it. But also, the size of those carts is often twice the
+size of non-AI built carts. So that's one where your average order size, you kind of drive consumer delight, and
+you are driving average order size as well.
+
+Second for AI is, and this isn't kind of call it foundation model work, but just much larger models can be much
+smarter about making predictions as it relates to consumer behavior based on a much broader array of signals
+that they're taking in. You take a bunch of signals from consumers. Now these models can take signals based on
+history. They can take real-time signal. They can take behaviors across the platform. And we can then show
+those consumers much more relevant information.
+
+So it might be ads that are more highly targeted that can convert better that help our merchants monetize more
+effectively. It might be just the sort order for organic results on restaurants so that you find that kind of local gem.
+It might be deal ranking algorithms that get deals in front of you so that you can save money while you're kind of
+getting what you want as well. Or it can be AI suggesting that a particular item that you have in your shopping cart
+is likely to be out of stock, so maybe you'll pick another item as well.
+
+All of these either drive conversion or improve the fundamental experience of the consumer. I will stress that we
+are very, very, very early in terms of the development of this path. And Mark, a lot of people expect these
+technologies that are revolutionary and AI is revolutionary to have some giant hit. But the fact is that the way that
+we operate is, we optimize the system quarter after quarter after quarter, year after year after year.
+
+And you should expect AI to contribute to average order size, the quality and reliability of our service, as well, and
+then putting the right product in front of you at the right time. So like another example is three-quarters of our rides
+on Uber happen via a personalized destination suggestion. Three-quarters of the time we're actually guessing
+where you're going to go based on your history, and we're getting it right and don't require any typing whatsoever.
+That's another small example of what AI can do.
+
+And I wouldn't look for one giant hit from AI. It's going to be thousands of small hits and improvements to our
+ecosystem that's going to drive, we think, growth for the foreseeable future.
+.....................................................................................................................................................................................................................................................................
+
+Balaji Krishnamurthy
+Chief Financial Officer, Uber Technologies, Inc.                                                                                                                                                                                                           A
+I'll take the question on the buybacks. So just as a reminder, we have generated about just a little bit over $10
+billion in free cash flows over the trailing 12 months. And what we've said historically is that we want to be
+deploying about 50% of our free cash flows towards buybacks. Where we are so far halfway through the year is
+that we have bought back about $3.5 billion of our stock this year. And we tactically pivoted quite heavily towards
+M&A in the second quarter. And largely, that was a function of our market purchases of Delivery Hero stock.
+
+We deployed about $4 billion of capital in the second quarter to ensure that we were in a place to be able to act
+fast on an opportunity that existed there. Now that we're through that announcement, we are steadily looking to
+rebuild our share repurchase levels. So to answer your question, Mark, I don't think this is a year away. We're
+talking about months, not quarters.
+.....................................................................................................................................................................................................................................................................
+
+Alaxander Wang
+Head, Investor Relations, Uber Technologies, Inc.                                                                                                                                                                                                          A
+Next question, please.
+.....................................................................................................................................................................................................................................................................
+
+
+
+                                                                                                                                                                                                                                                             12
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+Mark Mahaney
+Analyst, Evercore ISI                                                                                                                                                                                                                                     Q
+Thank you, both.
+.....................................................................................................................................................................................................................................................................
+
+Operator: Your next question comes from Nikhil Devnani with Bernstein. Your line is open.
+.....................................................................................................................................................................................................................................................................
+
+Nikhil Devnani
+Analyst, Bernstein Institutional Services LLC                                                                                                                                                                                                             Q
+Hi. Thanks for taking the question. I had a couple of separate ones, please. So first on M&A, just given Delivery
+Hero, you've done bolt-on deals in the past across the US and other markets. What have the learnings been on
+integration? What worked well? What were some mistakes to avoid as you look to integrate Delivery Hero, which
+is a bigger and more complex asset?
+
+And then separately, in markets where you have AV products that are competing with Uber and not on the Uber
+network yet, what have you generally observed about Mobility cohort engagement and retention behavior? Thank
+you.
+.....................................................................................................................................................................................................................................................................
+
+Balaji Krishnamurthy
+Chief Financial Officer, Uber Technologies, Inc.                                                                                                                                                                                                           A
+Thanks, Nikhil. I'll take the Delivery Hero question, and then Dara will take the next one. So what we have seen
+historically when we have made these kind of acquisitions, albeit at a much smaller scale historically, is that you
+need to have a clear integration hypothesis before you even pursue the deal. Where we are with Delivery Hero in
+particular is that we have very high confidence on our integration plan.
+
+We are looking to primarily migrate onto an existing global tech platform, supported by a proven integration
+playbook, a realistic timeline, and we are holding a pretty high bar on a disciplined underwriting of the synergies
+that we've communicated to the Street. We have already looked at the asset in quite a lot of detail. Where we are
+is we know that we operate a single tech platform for our Delivery business, whereas Delivery Hero's business
+with the exception of Baemin right now is on one stack. But there is a lot of opportunity for that all to be collapsed
+and migrated onto a modern tech stack like Uber's.
+
+Then secondly, from an execution timetable standpoint, assuming we close in the second half of 2027, we'll
+spend 2028 on planning and development before executing the primary migrations in 2029, and that's an
+appropriate timeline for a transaction of this size.
+
+And then finally, what we are talking about on synergies here, they're rooted in areas where we have a very high
+degree of confidence. Moving to a common tech platform, platform overlap, infrastructure, duplicative roles and
+services, and then finally, consolidating shared services such as payments and cloud infrastructure. So that's the
+plan here, and we remain committed to delivering the synergies that we communicated a couple weeks ago.
+.....................................................................................................................................................................................................................................................................
+
+Dara Khosrowshahi
+Chief Executive Officer & Director, Uber Technologies, Inc.                                                                                                                                                                                                A
+Yeah. And as far as operating trends in some of the more mature AV markets, they're really strong. And kind of
+strength in cohorts and new users shows in our trip growth. Specifically, for example, our trip growth in San
+Francisco, LA, and Phoenix accelerated in Q2 versus Q1.
+
+
+
+
+                                                                                                                                                                                                                                                             13
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+And our category position in these markets is actually higher today than it was a year ago. And kind of the
+comparison that I would make is with Google Search, the penetration of Search as it relates to AI is way, way,
+way higher than the penetration of AV has been. Again, AV is a physical good. There's regulation, et cetera. All
+the reasons that we've talked about previously. But even with a 20% penetration of AI search on Google, Google
+searches are actually up on a year-on-year basis because AI is increasing the overall market as well.
+
+And what you saw with Google was they were later to the market. But the power of their distribution, the power of
+their brand allowed them to be a significant player and a winner in search, and we think the same is going to be
+true for us. So as we sit here, the trends in those markets are strong. And I think the way that you've seen these
+markets develop shows that our distribution, our brand can win on a long-term basis.
+.....................................................................................................................................................................................................................................................................
+
+Nikhil Devnani
+Analyst, Bernstein Institutional Services LLC                                                                                                                                                                                                             Q
+Thank you.
+.....................................................................................................................................................................................................................................................................
+
+Balaji Krishnamurthy
+Chief Financial Officer, Uber Technologies, Inc.                                                                                                                                                                                                           A
+I think I would just add that the opportunity we have, especially in the US, is far, far broader than the markets
+where AVs operate today. Only 30% of our US gross bookings and 25% of our profits are coming from the top 20
+cities. And the long tail of thousands of other cities and suburbs, they will remain a primary growth and profit
+engine for Uber for many years to come. So, we are continuing to invest in both humans and in Avs. And you
+should expect that the US remains a great market for these teams.
+.....................................................................................................................................................................................................................................................................
+
+Alaxander Wang
+Head, Investor Relations, Uber Technologies, Inc.                                                                                                                                                                                                          A
+Sarah, we'll take our last question, please.
+.....................................................................................................................................................................................................................................................................
+
+Operator: Thank you. Your last question will come from Ross Sandler with Barclays. Your line is open.
+.....................................................................................................................................................................................................................................................................
+
+Ross Sandler
+Analyst, Barclays Capital, Inc.                                                                                                                                                                                                                           Q
+Hey, guys. Dara, the new AV Lab, just what are those guys working on that complements what your partners are
+working on? And then, BK, the Delivery business has these kind of small acquisitions. We're lapping one in
+Turkey, and then we're adding these two in the third quarter. Looks like organic growth is picking up. So could you
+just talk about the organic growth that you're seeing in 2Q and what's implied in 3Q for the Delivery? Thanks a lot.
+.....................................................................................................................................................................................................................................................................
+
+Dara Khosrowshahi
+Chief Executive Officer & Director, Uber Technologies, Inc.                                                                                                                                                                                                A
+Yeah, Ross. So, what we're seeing as it relates to the development of AV models and physical AV in particular is
+that end-to-end models are replacing the heuristics approach. Like, a bunch of these companies including
+Waymo, including Nuro, et cetera, they have been building AV for years and years, but it was based on heuristics.
+It was based on if-thens, kind of logical functions.
+
+And that is quickly being replaced by end-to-end models that take in enormous amounts of data and then make
+decisions as humans do. And what we want to do is position Uber with AV Labs to help accelerate the
+
+
+
+
+                                                                                                                                                                                                                                                             14
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                                                                              Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                                                                                  05-Aug-2026
+
+development and the training of these models on an L4 basis, efficiently with real data kind of from rideshare-
+specific scenarios.
+
+So we're building out hundreds of cars that are riding in rideshare-specific scenarios with robotaxi grade kind of
+sensors. And we're collecting kind of a super set of data that then we can provide to all of our partners.
+
+One of the issues as it relates to having different partners in the ecosystem is each partner has to collect a unique
+data set to go out and kind of acquire all of the tail data that you need to train on to make sure that your AV driver
+is safe.
+
+We can go out, collect one set of data that's rideshare specific at very high fidelity with advanced sensors, and we
+can provide that data to all of our partners so that we bring the benefit of scale to AV development. And we are
+seeing that development accelerate. We want to be a part of that acceleration and AV Labs is kind of what we
+think is a very, very strong partner and accelerator to the development of the entire AV ecosystem.
+.....................................................................................................................................................................................................................................................................
+
+Balaji Krishnamurthy
+Chief Financial Officer, Uber Technologies, Inc.                                                                                                                                                                                                           A
+Yeah. I'll take the M&A question. So just as a reminder, we closed our acquisition in Turkey, Trendyol Go in the
+back half of June 2025. So we are rolling off of that in Q3. We are lapping that acquisition fully. At the same time,
+we just closed the second acquisition in Turkey earlier this month, which was the acquisition of Getir. That will
+have a positive contribution to growth in Q3 and beyond. And we have a smaller acquisition with Careem
+reconsolidating as well. So there's a couple of puts and takes there.
+
+On the whole, it is a headwind to Delivery reported growth on a net basis, both for gross bookings and trips
+because Trendyol Go was a lot larger in size than the two acquisitions we're talking about for this quarter.
+
+Underneath that, our organic Delivery business is accelerating quite nicely. We saw very strong trends in the US.
+We are continuing to see very, very strong trends internationally as well. We gained category position in all of our
+large markets. And so what we are seeing is an organic acceleration, an inorganic handoff from a large
+acquisition to a small one. But on the whole, what you see should be relatively healthy trends for Delivery in the
+third quarter.
+.....................................................................................................................................................................................................................................................................
+
+Dara Khosrowshahi
+Chief Executive Officer & Director, Uber Technologies, Inc.
+Awesome. Well, thank you, everyone, for joining the call. Thank you to the entire Uber team for another quarter of
+really, really strong execution, and looking forward to all of the innovation in the industry and everything that we're
+going to build for you. So we'll talk to you next quarter. Thanks.
+.....................................................................................................................................................................................................................................................................
+
+Operator: This concludes today's conference call. Thank you for joining. You may now disconnect.
+
+
+
+
+                                                                                                                                                                                                                                                             15
+1-877-FACTSET www.callstreet.com                                                                                                                       Copyright © 2001-2026 FactSet CallStreet, LLC
+Uber Technologies, Inc. (UBER)                                                                                                                            Corrected Transcript
+Q2 2026 Earnings Call                                                                                                                                                          05-Aug-2026
+
+
+
+
+ Disclaimer
+ The information herein is based on sources we believe to be reliable but is not guaranteed by us and does not purport to be a complete or error-free statement or summary of the available data.
+ As such, we do not warrant, endorse or guarantee the completeness, accuracy, integrity, or timeliness of the information. You must evaluate, and bear all risks associated with, the use of any
+ information provided hereunder, including any reliance on the accuracy, completeness, safety or usefulness of such information. This information i s not intended to be used as the primary basis
+ of investment decisions. It should not be construed as advice designed to meet the particular investment needs of any investor. This report is published solely for information purposes, and is
+ not to be construed as financial or other advice or as an offer to sell or the solicitation of an offer to buy any security in any state where such an offer or solicitation would be illegal. Any
+ information expressed herein on this date is subject to change without notice. Any opinions or assertions contained in this i nformation do not represent the opinions or beliefs of FactSet
+ CallStreet, LLC. FactSet CallStreet, LLC, or one or more of its employees, including the writer of this report, may have a position in any of the securities discussed herein.
+
+ THE INFORMATION PROVIDED TO YOU HEREUNDER IS PROVIDED "AS IS," AND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, FactSet CallStreet, LLC AND ITS LICENSORS,
+ BUSINESS ASSOCIATES AND SUPPLIERS DISCLAIM ALL WARRANTIES WITH RESPECT TO THE SAME, EXPRESS, IMPLIED AND STATUTORY, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, COMPLETENESS, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE
+ LAW, NEITHER FACTSET CALLSTREET, LLC NOR ITS OFFICERS, MEMBERS, DIRECTORS, PARTNERS, AFFILIATES, BUSINESS ASSOCIATES, LICENSO RS OR SUPPLIERS WILL BE LIABLE FOR ANY
+ INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOST PROFITS OR RE VENUES, GOODWILL, WORK STOPPAGE,
+ SECURITY BREACHES, VIRUSES, COMPUTER FAILURE OR MALFUNCTION, USE, DATA OR OTHER INTANGIBLE LOSSES OR COMMERCIAL DAMAGES, EVEN IF ANY OF SUCH PARTIES IS ADVISED
+ OF THE POSSIBILITY OF SUCH LOSSES, ARISING UNDER OR IN CONNECTION WITH THE INFORMATION PROVIDED HEREIN OR ANY OTHER SUBJECT M ATTER HEREOF.
+
+ The contents and appearance of this report are Copyrighted FactSet CallStreet, LLC 2026 CallStreet and FactSet CallStreet, LLC are trademarks and service marks of FactSet CallStreet, LLC. All
+ other trademarks mentioned are trademarks of their respective companies. All rights reserved.
+
+
+
+
+                                                                                                                                                                                                16
+1-877-FACTSET www.callstreet.com                                                                                  Copyright © 2001-2026 FactSet CallStreet, LLC
+

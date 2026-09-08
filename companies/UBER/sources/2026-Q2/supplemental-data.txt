@@ -1,0 +1,1138 @@
+Uber Technologies, Inc.
+                          August 5, 2026
+
+
+
+
+Q2 2026 Earnings
+Supplemental Data
+Non-GAAP Financial Measures Disclosure
+
+To supplement our financial information, which is            our performance by excluding certain items that may          measures and evaluating these non-GAAP financial
+prepared and presented in accordance with generally          not be indicative of our recurring core business             measures together with their relevant financial measures
+accepted accounting principles in the United States          operating results.                                           in accordance with GAAP.
+of America, or GAAP, we use the following non-GAAP
+financial measures: Adjusted EBITDA; Non-GAAP                We believe that both management and investors                For more information on these non-GAAP financial
+Operating Income; Non-GAAP Net Income; Non-GAAP              benefit from referring to these non-GAAP financial           measures, please see the section titled “Non-GAAP
+EPS; Non-GAAP Costs and Operating Expenses; Trailing         measures in assessing our performance and when               Reconciliations” included at the end of this deck.
+Twelve Months Free Cash Flow; Free Cash Flow as well         planning, forecasting, and analyzing future periods.
+as revenue growth rates in constant currency. Adjusted       These non-GAAP financial measures also facilitate            In regards to forward looking non-GAAP guidance, we
+EBITDA is no longer a key measure used by management;        management’s internal comparisons to our historical          are not able to reconcile the forward-looking Non-GAAP
+we include disclosure on Adjusted EBITDA to assist during    performance. We believe these non-GAAP financial             EPS, cash tax rate and Adjusted EBITDA measures to
+the transition to our new non-GAAP measures. The             measures are useful to investors both because (1) they       the closest corresponding GAAP measures without
+presentation of this financial information is not intended   allow for greater transparency with respect to key metrics   unreasonable efforts because we are unable to predict
+to be considered in isolation or as a substitute for, or     used by management in its financial and operational          the ultimate outcome of certain significant items. These
+superior to, the financial information prepared and          decision-making and (2) they are used by our institutional   items include, but are not limited to, significant legal
+presented in accordance with GAAP. We use these non-         investors and the analyst community to help them             settlements, unrealized gains and losses on equity
+GAAP financial measures for financial and operational        analyze the health of our business.                          investments, tax and regulatory reserve changes,
+decision-making and as a means to evaluate period-to-
+                                                                                                                          restructuring costs and acquisition and financing
+period comparisons.
+                                                             There are a number of limitations related to the use of      related impacts.
+                                                             non-GAAP financial measures. In light of these limitations
+We believe that these non-GAAP financial measures            we provide specific information regarding the GAAP
+provide meaningful supplemental information regarding        amounts excluded from these non-GAAP financial
+
+
+
+
+                                                                                                                                                                                     2
+Forward Looking Statements
+
+This presentation contains forward-looking statements            offerings, our ability to attract drivers, consumers and
+regarding our future business expectations, which involve        other partners to our platform, our brand and reputation,
+risks and uncertainties. Actual results may differ               other legal and regulatory developments, particularly with
+materially from the results predicted, and reported results      respect to our relationships with drivers and couriers, and
+should not be considered as an indication of future              the impact of the global economy, including rising
+performance. Forward-looking statements include all              inflation and interest rates. In addition, other potential
+statements that are not historical facts and can be              risks and uncertainties that could cause actual results to
+identified by terms such as “anticipate,” “believe,”             differ from the results predicted include, among others,
+“contemplate,” “continue,” “could,” “estimate,” “expect,”        those risks and uncertainties included under the captions
+“hope,” “intend,” “may,” “might,” “objective,” “ongoing,”        “Risk Factors” and “Management’s Discussion and
+“plan,” “potential,” “predict,” “project,” “should,” “target,”   Analysis of Financial Condition and Results of Operations”
+“will,” or “would” or similar expressions and the negatives      in our most recent quarterly report on Form 10-K for the
+of those terms. Forward-looking statements involve               year ended December 31, 2025 and subsequent quarterly
+known and unknown risks, uncertainties and other factors         reports and other filings filed with the Securities and
+that may cause our actual results, performance or                Exchange Commission from time to time. All information
+achievements to be materially different from any future          provided in this presentation is as of the date hereof and
+results, performance or achievements expressed or                any forward-looking statements contained herein are
+implied by the forward-looking statements. These risks,          based on assumptions that we believe to be reasonable as
+uncertainties and other factors relate to, among others:         of such date. We undertake no duty to update this
+competition, managing our growth and corporate culture,          information unless required by law.
+financial performance, investments in new products or
+
+
+
+
+                                                                                                                               3
+Platform and Business Highlights
+Financial and Operational Highlights
+Segment Details
+Condensed Consolidated Financials
+Non-GAAP Reconciliations
+
+
+
+ Q2 2026 Earnings                      4
+    Delivery Hero expands Uber’s local commerce platform
+    while accelerating cross-platform engagement
+                                               Gross Bookings                                                                                 Cross-Platform         Total
+                                                                                                                                                 Markets            Markets
+                                                                                                      $236B
+            Delivery
+            Mobility
+            Freight
+                                                                                                                                 Pre Deal         34                79
+
+                                    $65B
+                                                                                                     56%
+                                                                                                                                 Post Deal        58                99
+                                     22%                                                                                                        50M+
+                                                                                                                                                 new eligible
+                              2019 (IPO)                                                               2025¹                                 cross-platform users
+                                                                                                     +
+
+      Q2 2026 Earnings   1. Reflects pro forma 2025 Gross Bookings for Uber and Delivery Hero assets within acquisition scope.                                                5
+-
+-
+World Cup showcased the power of Uber’s platform
+across Mobility and Delivery
+                                       8M+ tourists took rides in host cities | ~$300M of World Cup savings¹
+
+                                           Travel & Venue Experience                                                                        Game Day Offers
+
+
+
+
+           Travel Pass                              International Benefits                                    Specialized Pickup   Deal Drops      Cross-Platform Offers
+
+
+ Q2 2026 Earnings   1. Includes savings from Travel Pass, Uber One International Benefits, and Game Day Offers.                                                            6
+Uber One continues to deepen platform engagement
+                                                                                               Member Days
+
+          Delivery
+         Global Reach                                                                           Delivery                 Mobility
+
+          400K
+                                                                                                                                          ~40%
+    Participating merchants
+          ~50% increase YoY
+
+
+                                                                                                                                          of eligible¹
+                35+ Partners
+                                                                                                                                          members are
+                                                                                                                                          active across
+                                                                                                                                          both Mobility
+                                                                                                                                          and Delivery
+
+
+                                                                                             ~70%
+                                                                                          increase in merchant
+                                                                                                                        ~110%
+                                                                                                                        increase in non
+                                                                                            funded offers YoY           UberX Trips YoY
+
+
+
+
+ Q2 2026 Earnings     1. Eligible members defined as active members in markets with Mobility and Delivery operations.                                     7
+Uber is building the infrastructure to commercialize
+autonomous mobility at global scale
+                                                                                             2026 Deployment Partners
+
+                                                                                                  Hardware Platform
+
+
+
+
+                                               London, UK
+
+                                                      Munich, DE
+
+                                                                                                Self-Driving Technology
+ Las Vegas, NV                                        Zagreb, HR
+
+      Bay Area, CA    Atlanta, GA                     Zurich, CH                 Tokyo, JP
+                      Dallas, TX               Madrid, ES           Dubai, UAE
+  Los Angeles, CA
+
+
+                                                               Abu Dhabi, UAE
+                      Austin, TX
+
+
+                                                               Riyadh, KSA
+                                                                                                  Fleet Management
+
+
+
+
+                           7 live cities | 8 cities launching by end of 2026
+
+   Q2 2026 Earnings                                                                                                       8
+Platform and Business Highlights
+Financial and Operational Highlights
+Segment Details
+Condensed Consolidated Financials
+Non-GAAP Reconciliations
+
+
+
+ Q2 2026 Earnings                      9
+Operating Metrics
+Figures in Millions, excluding Monthly Trips / MAPC
+
+
+MAPCs
+% Growth YoY
+                                       180                          189
+                                                                                                 202                           199                          208
+
+                                                                                                                                                                                           +16%
+                                      15%                           17%                          18%                           17%                          16%                            MAPCs Growth YoY
+
+
+
+Monthly
+Trips / MAPC
+% Growth YoY
+                                        6.1
+                                                                     6.2                           6.2                          6.1                          6.2
+
+                                                                                                                                                                                           +2%
+                                                                                                                                                                                           Frequency Growth YoY
+                                       2%                            4%                           3%                            3%                           2%
+
+                                                                                                 3,751                                                     3,867
+
+
+
+                                                                                                                                                                                           +18%
+                                                                    3,512                                                     3,643
+                                      3,268
+
+Trips
+% Growth YoY
+
+                                      18%                           22%                          22%                          20%                           18%
+                                                                                                                                                                                           Trips Growth YoY
+                                   Q2 2025                      Q3 2025                      Q4 2025                       Q1 2026                      Q2 2026
+
+                         Note 1: MAPCs is the number of unique consumers who completed a Mobility ride or received a Delivery order on our platform at least once in a given month, averaged over each month in the quarter.
+                         Note 2: We define Trips as the number of completed consumer Mobility rides and Delivery orders in a given period.
+      Q2 2026 Earnings   Note 3: We define Frequency as Monthly Trips divided by MAPCs for a given period.                                                                                                                     10
+Gross Bookings
+$ in Millions
+
+                                                                                                                                                   $58,022
+                                                                       $54,140                               $53,720
+                                 $49,740
+   $46,756
+
+
+
+
+                                                                                                                                                                                                +22%
+                                                                                                                                                                                                Gross Bookings Constant
+                                                                                                                                                                                                Currency Growth YoY
+
+
+  Q2 2025                     Q3 2025                               Q4 2025                               Q1 2026                              Q2 2026
+    17%                             21%                                  22%                                   25%                                    24%                   % Growth YoY
+
+    18%                             21%                                  22%                                   21%                                    22%                   % Constant Currency Growth YoY
+
+
+                       Note 1: We define Gross Bookings as the total dollar value, including any applicable taxes, tolls, and fees, of: Mobility rides, Delivery orders (in each case without any adjustment for consumer discounts and refunds, Driver and Merchant earnings, and
+                       Driver incentives) and Freight Revenue. Gross Bookings do not include tips earned by Drivers.
+    Q2 2026 Earnings   Note 2: “% Constant Currency Growth YoY” is calculated by translating our current period results using the corresponding prior period’s monthly exchange rates for our transacted currencies other than the U.S. dollar.                                      11
+Revenue
+$ in Millions
+
+                                                                       $14,366                                                                     $14,191
+                                  $13,467                                                                    $13,203
+   $12,651
+
+
+
+
+                                                                                                                                                                                                +11%
+                                                                                                                                                                                                Revenue Constant
+                                                                                                                                                                                                Currency Growth YoY
+
+
+  Q2 2025                     Q3 2025                               Q4 2025                               Q1 2026                              Q2 2026
+    18%                            20%                                   20%                                   14%                                    12%                   % Growth YoY
+
+    18%                             19%                                  19%                                   10%                                    11%                   % Constant Currency Growth YoY
+
+
+
+                       Note 1: “% Constant Currency Growth YoY” is calculated by translating our current period financial results using the corresponding prior period’s monthly exchange rates for our transacted currencies other than the U.S. dollar.
+    Q2 2026 Earnings   Note 2: Business model changes negatively impacted Q2 2026 revenue YoY growth by 8 percentage points on a reported and constant currency basis.                                                                                      12
+Non-GAAP Operating Income
+$ in Millions
+
+                                                                                                              3.5%                                3.7%
+                                                                        3.5%
+                                    3.4%
+    3.3%                                                                                                                                          $2,143
+
+
+
+
+                                                                                                                                                                                           +40%
+                                                                        $1,918
+                                                                                                             $1,883
+                                   $1,675
+    $1,534
+
+
+
+                                                                                                                                                                                           Non-GAAP Operating Income
+                                                                                                                                                                                           Growth YoY
+
+                                                                                                                                                                                            Non-GAAP Operating Income as a % of Gross Bookings
+
+  Q2 2025                      Q3 2025                              Q4 2025                              Q1 2026                              Q2 2026
+
+    50%                            46%                                  46%                                  42%                                    40%                 % Growth YoY
+
+
+
+
+                       Note 1: We define Non-GAAP Operating Income as income from operations, excluding (i) amortization of acquired intangible assets, (ii) certain legal, non-income tax, and regulatory reserve changes and settlements, (iii) goodwill and asset impairments/loss on
+                       sale of assets, (iv) acquisition, financing and divestitures related expenses, (v) restructuring and related charges, and (vi) other items not indicative of our ongoing operating performance.
+                       Note 2: We define Non-GAAP Operating Income margin as a percentage of Gross Bookings as Non-GAAP Operating Income divided by Gross Bookings.
+    Q2 2026 Earnings   Note 3: See Non-GAAP Reconciliations for a reconciliation of non-GAAP measures.                                                                                                                                                                                     13
+Non-GAAP EPS
+
+                                                                                                                                       $0.81
+
+                                                                  $0.71                             $0.72
+
+
+
+
+                                                                                                                                                                            +35%
+                                $0.65
+ $0.60
+
+
+
+
+                                                                                                                                                                            Non-GAAP EPS
+                                                                                                                                                                            Growth YoY
+
+
+Q2 2025                    Q3 2025                           Q4 2025                            Q1 2026                           Q2 2026
+
+ 48%                            28%                               27%                               44%                                 35%               % Growth YoY
+
+
+
+
+                    Note 1: We define Non-GAAP EPS as Non-GAAP Net Income attributable to common stockholders divided by Non-GAAP weighted-average shares outstanding. Adjustments to GAAP diluted weighted-average shares outstanding are adjusted for any
+                    potentially dilutive outstanding securities in periods when Non-GAAP Net Income/Loss is in an income position but GAAP Net income/loss is in a loss position.
+ Q2 2026 Earnings   Note 2: See Non-GAAP reconciliations for a reconciliation of non-GAAP measures.                                                                                                                                                           14
+Platform and Business Highlights
+Financial and Operational Highlights
+Segment Details
+Condensed Consolidated Financials
+Non-GAAP Reconciliations
+
+
+
+ Q2 2026 Earnings                      15
+Mobility Highlights
+$ in Millions
+
+
+                                                                                                                                +20%
+                                                                                            $27,442                   $28,988
+                                                                 $25,111                                    $26,394
+                                    $23,762
+Gross
+Bookings
+% Constant Currency
+Growth YoY
+                                       18%                         19%                         19%           20%       20%      Gross Bookings Constant
+                                      30.7%                       30.6%                       29.9%                             Currency Growth YoY
+                                                                                                             25.8%     25.4%
+
+
+                                      $7,288                      $7,682                     $8,204                    $7,363
+                                                                                                            $6,798
+Revenue
+% Constant Currency
+Growth YoY
+                                       18%                         18%                         18%            1%        0%
+                                                                                                                                Revenue: Revenue Margin
+                                                                                                             7.7%      7.6%
+                                                                   7.4%                        7.4%                             Segment Operating Income:
+                                       7.3%
+                                                                                                                                Segment Operating Income Margin
+                                                                                                                                as a % of Gross Bookings
+Segment                                                          $1,864                      $2,027         $2,029    $2,215
+                                     $1,729
+Operating
+Income
+% Reported Growth YoY
+                                       24%                         23%                         26%           28%       28%
+                                   Q2 2025                     Q3 2025                     Q4 2025          Q1 2026   Q2 2026
+
+                          Note 1: Revenue Margin is defined as Revenue as a percentage of Gross Bookings.
+                          Note 2: See Non-GAAP reconciliations for reconciliation of non-GAAP measures.
+       Q2 2026 Earnings   Note 3: All measures are for Mobility segment unless otherwise noted.                                                                   16
+Delivery Highlights
+$ in Millions
+
+
+                                                                                                                                +25%
+                                                                                                            $25,992   $27,463
+                                                                                            $25,431
+Gross                                $21,734                     $23,322
+
+Bookings
+% Constant Currency
+Growth YoY
+                                       20%                         24%                         26%           23%       25%      Gross Bookings Constant
+                                                                                                             19.5%              Currency Growth YoY
+                                                                  19.2%                       19.2%                    19.1%
+                                      18.9%
+
+                                                                                             $4,892         $5,068    $5,245
+Revenue                               $4,102                     $4,477
+% Constant Currency
+Growth YoY
+
+                                       23%                         27%                         29%           28%       26%
+                                                                                                                                Revenue: Revenue Margin
+                                                                                                                       3.8%
+                                                                                                             3.7%               Segment Operating Income:
+                                                                                               3.6%
+                                       3.5%                        3.5%                                                         Segment Operating Income Margin
+                                                                                                                                as a % of Gross Bookings
+Segment                                                            $811                       $905           $961     $1,055
+                                      $766
+Operating
+Income
+% Reported Growth YoY
+                                       49%                         49%                         42%           43%       38%
+                                   Q2 2025                     Q3 2025                     Q4 2025          Q1 2026   Q2 2026
+
+                          Note 1: Revenue Margin is defined as Revenue as a percentage of Gross Bookings.
+                          Note 2: See Non-GAAP reconciliations for reconciliation of non-GAAP measures.
+       Q2 2026 Earnings   Note 3: All measures are for Delivery segment unless otherwise noted.                                                                   17
+Freight Highlights
+$ in Millions
+
+                                                                                                                    $1,583
+                                                                 $1,308                      $1,270        $1,337
+                                      $1,261
+
+
+
+
+Revenue
+% Constant Currency
+Growth YoY                             (1%)                         0%                        (1%)          6%       25%
+
+
+
+
+Segment                               ($26)                       ($40)                       ($18)        ($30)     ($24)
+Operating
+Income
+                                                                                                                              Segment Operating Income:
+                                                                                             (1.4%)                  (1.5%)   Segment Operating Income Margin
+                                      (2.1%)                                                               (2.2%)             as a % of Gross Bookings
+                                                                 (3.1%)
+
+                                   Q2 2025                     Q3 2025                    Q4 2025         Q1 2026   Q2 2026
+
+
+                          Note 1: See Non-GAAP reconciliations for reconciliation of non-GAAP measures.
+       Q2 2026 Earnings   Note 2: All measures are for Freight segment unless otherwise noted.                                                                  18
+Platform and Business Highlights
+Financial and Operational Highlights
+Segment Details
+Condensed Consolidated Financials
+Non-GAAP Reconciliations
+
+
+
+ Q2 2026 Earnings                      19
+                                                                                                                     Three Months Ended June 30,   Six Months Ended June 30,
+
+
+Condensed                                                                                                                   2025           2026        2025            2026
+
+
+
+
+Consolidated
+                              Revenue                                                                                     $12,651        $14,191     $24,184         $27,394
+
+                              Costs and expenses
+
+
+
+
+Statements of
+                              Cost of revenue, exclusive of depreciation and amortization shown separately below             7,611         7,815      14,548          15,073
+
+                              Operations and support                                                                         696            805        1,364           1,568
+
+                              Sales and marketing
+
+
+Operations
+                                                                                                                             1,210         1,515       2,267           2,841
+
+                              Research and development                                                                       840           1,043       1,655           1,994
+
+                              General and administrative                                                                     669            935        1,326           1,733
+
+
+(Unaudited)                   Depreciation and amortization
+
+                              Total costs and expenses
+                                                                                                                              175
+
+                                                                                                                          $11,201
+                                                                                                                                            188
+
+                                                                                                                                        $12,301
+                                                                                                                                                         346
+
+                                                                                                                                                    $21,506
+                                                                                                                                                                        372
+
+                                                                                                                                                                    $23,581
+
+                              Income from operations                                                                      $1,450         $1,890       $2,678         $3,813
+$ in Millions, except share   Interest expense                                                                              (108)          (127)        (213)          (235)
+
+amounts, which are in         Interest income                                                                                 181            172         350            347
+
+
+thousands, and per            Other income (expense), net
+
+                              Income before income taxes and loss from equity method investments
+                                                                                                                              (19)
+
+                                                                                                                            1,504
+                                                                                                                                           1,342
+
+                                                                                                                                           3,277
+                                                                                                                                                          74
+
+                                                                                                                                                       2,889
+                                                                                                                                                                       (152)
+
+                                                                                                                                                                      3,773
+
+share amounts                 Provision for (benefit from) income taxes                                                       142           840        (260)           1,034
+
+                              Loss from equity method investments                                                             (12)          (21)        (25)            (41)
+
+                              Net income including non-controlling interests                                                1,350          2,416       3,124          2,698
+
+                                 Less: net income (loss) attributable to non-controlling interests, net of tax                 (5)           22           (7)            41
+
+                              Net income attributable to Uber Technologies, Inc.                                           $1,355        $2,394       $3,131         $2,657
+
+                              Net income per share attributable to Uber Technologies, Inc. common stockholders:
+
+                                 Basic                                                                                      $0.65          $1.18       $1.50           $1.30
+
+                                 Diluted                                                                                    $0.63          $1.17       $1.46           $1.29
+
+                              Weighted-average shares used to compute net income per share attributable to common stockholders:
+
+                                 Basic                                                                                  2,091,106      2,036,458    2,091,781      2,044,279
+                                 Diluted                                                                                 2,125,628     2,050,225    2,124,181      2,060,763
+
+
+   Q2 2026 Earnings                                                                                                                                                        20
+Condensed
+                                                                   As of December 31,   As of June 30,
+
+                                                                                2025            2026
+
+
+
+
+Consolidated
+                       Assets
+
+                       Cash and cash equivalents                               $7,105         $4,870
+
+
+
+Balance Sheets         Short-term investments
+
+                       Restricted cash and cash equivalents
+                                                                                 528
+
+                                                                                 631
+                                                                                                  521
+
+                                                                                                 661
+
+
+
+(Unaudited)            Accounts receivable, net
+
+                       Prepaid expenses and other current assets
+                                                                                3,827
+
+                                                                                1,902
+                                                                                                4,298
+
+                                                                                                2,179
+
+
+$ in Millions          Total current assets                                  $13,993         $12,529
+
+                       Restricted cash and cash equivalents                     1,911           1,646
+
+                       Restricted investments                                   8,874           9,486
+
+                       Investments                                              9,178           8,759
+
+                       Equity method investments                                 287            3,773
+
+                       Property and equipment, net                              1,897           1,809
+
+                       Operating lease right-of-use assets                      1,114           1,558
+
+                       Intangible assets, net                                  1,048            1,132
+
+                       Goodwill                                                 8,931           9,472
+
+                       Deferred tax assets                                     10,951          10,162
+
+                       Other non-current assets                                 3,618           5,475
+
+                       Total assets                                          $61,802         $65,801
+
+
+
+
+    Q2 2026 Earnings                                                                                 21
+Continued:
+
+
+Condensed
+                                                                                               As of December 31,   As of June 30,
+
+                                                                                                            2025            2026
+
+
+
+
+Consolidated
+                          Liabilities, redeemable non-controlling interests and equity
+
+                          Accounts payable                                                                 $1,013          $1,366
+
+
+
+
+Balance Sheets
+                          Short-term insurance reserves                                                     3,387           3,758
+
+                          Operating lease liabilities, current                                               169              178
+
+
+
+
+(Unaudited)
+                          Short-term debt                                                                       -           1,997
+
+                          Accrued and other current liabilities                                             7,751           7,572
+
+                          Total current liabilities                                                      $12,320         $14,871
+
+$ in Millions             Long-term insurance reserves                                                     9,076            9,528
+
+                          Long-term debt, net of current portion                                           10,521          10,726
+
+                          Operating lease liabilities, non-current                                         1,390            1,830
+
+                          Other non-current liabilities                                                      412             447
+
+                          Total liabilities                                                              $33,719         $37,402
+
+                          Commitments and contingencies
+
+                          Redeemable non-controlling interests                                               165             180
+
+                          Equity
+
+                          Common stock                                                                          -               -
+
+                          Additional paid-in capital                                                       38,101          35,698
+
+                          Accumulated other comprehensive loss                                              (432)           (432)
+
+                          Accumulated deficit                                                            (10,628)         (7,950)
+
+                          Total Uber Technologies, Inc. stockholders' equity                             $27,041         $27,316
+
+                          Non-redeemable non-controlling interests                                           877             903
+
+                          Total equity                                                                   $27,918         $28,219
+
+                          Total liabilities, redeemable non-controlling interests and equity             $61,802         $65,801
+
+
+       Q2 2026 Earnings                                                                                                         22
+                                                                                                                 Three Months Ended June 30,    Six Months Ended June 30,
+
+
+Condensed                                                                                                              2025            2026         2025            2026
+
+
+
+
+Consolidated
+                       Cash flows from operating activities
+
+
+                       Net income including non-controlling interests                                                 $1,350          $2,416       $3,124          $2,698
+
+
+
+Statements of          Adjustments to reconcile net income to net cash provided by operating activities:
+
+
+
+
+Cash Flows
+                       Depreciation and amortization                                                                     181             195         359             386
+
+                       Stock-based compensation                                                                          475            550          910            1,023
+
+
+
+(Unaudited)            Deferred income taxes
+
+
+                       (Gains) losses on debt and equity securities, net
+                                                                                                                          87
+
+
+                                                                                                                          17
+                                                                                                                                        665
+
+
+                                                                                                                                      (1,612)
+                                                                                                                                                    (325)
+
+
+                                                                                                                                                     (34)
+                                                                                                                                                                     771
+
+
+                                                                                                                                                                    (138)
+
+
+$ in Millions          (Gains) losses on foreign currency transactions, net                                             (101)           (58)        (152)            (53)
+
+                       Other                                                                                             106            296           79             316
+
+                       Change in assets and liabilities, net of impact of business acquisitions and disposals:
+
+
+                       Accounts receivable                                                                              (212)          (425)        (335)           (499)
+
+                       Prepaid expenses and other assets                                                                (251)          (163)        (748)           (375)
+
+                       Operating lease right-of-use assets                                                                46              38          89             100
+
+                       Accounts payable                                                                                  125             161          131            345
+
+                       Accrued insurance reserves                                                                        812             387        1,487            830
+
+                       Accrued expenses and other liabilities                                                           (20)            447          410             (94)
+
+                       Operating lease liabilities                                                                       (51)           (35)        (107)            (97)
+
+                       Net cash provided by operating activities                                                      $2,564         $2,862       $4,888          $5,213
+
+
+
+    Q2 2026 Earnings                                                                                                                                                        23
+Continued:                                                                                                                   Three Months Ended June 30,    Six Months Ended June 30,
+
+
+Condensed                                                                                                                             2025         2026         2025            2026
+
+
+
+
+Consolidated
+                          Cash flows from investing activities
+
+                          Purchases of property and equipment                                                                        ($89)         ($70)       ($163)          ($135)
+
+
+
+
+Statements of
+                          Purchases of non-marketable equity securities                                                               (12)         (175)        (191)          (507)
+
+                          Purchases of marketable securities                                                                        (5,095)      (10,887)      (7,635)        (17,646)
+
+
+
+
+Cash Flows
+                          Purchases of notes receivable                                                                                   -         (111)            -          (298)
+
+                          Proceeds from maturities and sales of marketable securities                                                4,636          8,119       7,033          14,665
+
+
+
+
+(Unaudited)
+                          Acquisition of businesses, net of cash acquired                                                            (804)         (647)        (804)           (653)
+
+                          Purchase of total return swaps                                                                                  -      (1,640)             -        (1,640)
+
+                          Other investing activities                                                                                   (97)           22        (243)              52
+
+
+$ in Millions             Net cash used in investing activities                                                                    ($1,461)     ($5,389)     ($2,003)        ($6,162)
+
+                          Cash flows from financing activities
+
+                          Proceeds from term loan, notes, and credit facility, net of issuance costs                                  1,127        3,997         1,127          3,997
+
+                          Principal repayment on term loan, notes, and credit facility                                                    -      (2,000)             -        (2,000)
+
+                          Principal payments on finance leases                                                                         (28)         (42)         (75)            (82)
+
+                          Proceeds from the issuance of common stock under the Employee Stock Purchase Plan                            120           136          120             136
+
+                          Repurchases of common stock                                                                               (1,363)        (518)       (3,148)         (3529)
+
+                          Other financing activities                                                                                   (51)         (33)         (81)            (73)
+
+                          Net cash provided by (used in) financing activities                                                       ($195)       $1,540      ($2,057)        ($1,551)
+
+                          Effect of exchange rate changes on cash and cash equivalents, and restricted cash and cash equivalents       159            54          229              30
+
+                          Net increase (decrease) in cash and cash equivalents, and restricted cash and cash equivalents            $1,067       ($933)        $1,057        ($2,470)
+
+                          Cash and cash equivalents, and restricted cash and cash equivalents
+
+                          Beginning of period                                                                                        8,600         8,110        8,610           9,647
+
+                          End of period                                                                                             $9,667        $7,177      $9,667           $7,177
+
+
+
+
+       Q2 2026 Earnings                                                                                                                                                                 24
+Platform and Business Highlights
+Financial and Operational Highlights
+Segment Details
+Condensed Consolidated Financials
+Non-GAAP Reconciliations
+
+
+
+ Q2 2026 Earnings                      25
+Non-GAAP Operating Income Reconciliation (Unaudited)
+$ in Millions
+                                                                                                     Three Months Ended
+
+                                                                        Jun 30, ‘25   Sept 30, ‘25       Dec 31, ‘25      Mar 31, ‘26   Jun 30, ‘26
+
+
+Mobility                                                                    $1,729         $1,864            $2,027           $2,029        $2,215
+
+
+Delivery                                                                       766            811               905              961         1,055
+
+
+Freight                                                                       (26)           (40)               (18)            (30)          (24)
+
+
+Corporate G&A and Platform R&D                                               (935)          (960)             (996)           (1,077)       (1,103)
+
+
+Non-GAAP Operating Income                                                  $1,534          $1,675            $1,918           $1,883        $2,143
+
+
+Add (deduct):
+
+
+Amortization of acquired intangible assets                                    (65)            (72)             (67)             (59)           (61)
+
+
+Legal, non-income tax, and regulatory reserve changes and settlements             -         (479)              (57)              129          (141)
+
+
+Goodwill and asset impairment/loss on sale of assets                              -            (2)                 -                -           (4)
+
+
+Acquisition, financing, and divestitures related expenses                      (19)            (6)              (15)            (25)           (31)
+
+
+Loss on lease arrangements, net                                                   -              -                 -              (5)             -
+
+
+Restructuring and related charges                                                 -            (3)               (5)                -          (16)
+
+
+GAAP Income from operations                                                $1,450          $1,113            $1,774           $1,923       $1,890
+
+
+          Q2 2026 Earnings                                                                                                                            26
+Non-GAAP Net Income and EPS Reconciliations (Unaudited)
+$ in Millions, except share amounts, which are in thousands, and per share amounts
+                                                                                                     Three Months Ended
+
+                                                                        Jun 30, ‘25   Sept 30, ‘25       Dec 31, ‘25      Mar 31, ‘26   Jun 30, ‘26
+
+
+Non-GAAP Net Income                                                        $1,280          $1,389           $1,496            $1,493        $1,652
+
+
+
+Add (deduct):
+
+
+
+Adjustments excluded from Non-GAAP Operating Income (see prior slide)         (84)          (562)             (144)               40         (253)
+
+
+
+Other (income) expense, net                                                    (19)         1,426            (1,568)          (1,494)        1,342
+
+
+
+Income tax effects                                                             190          4,387               526              254         (315)
+
+
+
+Loss from equity method investments                                            (12)           (14)              (14)            (20)           (21)
+
+
+
+Adjustment to redeemable non-controlling interests                               -              -                 -             (10)           (11)
+
+
+
+GAAP Net income attributable to Uber Technologies, Inc.                     $1,355         $6,626             $296             $263        $2,394
+
+
+
+Diluted weighted-average shares outstanding                              2,125,628      2,124,391         2,106,011        2,071,391    2,050,225
+
+
+
+Non-GAAP EPS                                                                 $0.60          $0.65             $0.71            $0.72         $0.81
+
+
+
+GAAP Diluted EPS                                                             $0.63          $3.11             $0.14            $0.13         $1.17
+
+
+
+       Q2 2026 Earnings                                                                                                                               27
+Adjusted EBITDA Reconciliation (Unaudited)
+$ in Millions
+                                                                                                       Three Months Ended
+
+                                                                          Jun 30, ‘25   Sept 30, ‘25       Dec 31, ‘25      Mar 31, ‘26   Jun 30, ‘26
+
+Adjusted EBITDA                                                               $2,119         $2,256            $2,487           $2,481        $2,819
+
+Add (deduct):
+
+Legal, non-income tax, and regulatory reserve changes and settlements              -          (479)              (57)              129          (141)
+
+Goodwill and asset impairments / loss on sale of assets                            -             (2)                -                -            (4)
+
+Restructuring and related charges                                                  -             (3)               (5)               -           (16)
+
+Loss on lease arrangements, net                                                    -              -                 -               (5)            -
+
+Acquisition, financing and divestitures related expenses                         (19)            (6)              (15)            (25)           (31)
+
+Depreciation and amortization                                                  (175)          (188)             (185)            (184)         (188)
+
+Stock-based compensation expense                                               (475)          (465)             (451)            (473)         (549)
+
+Income from operations                                                       $1,450          $1,113            $1,774           $1,923       $1,890
+
+Add (deduct):
+
+Other income (expense), net                                                      (19)         1,426            (1,568)          (1,494)        1,342
+
+Interest expense                                                               (108)           (112)             (115)           (108)         (127)
+
+Interest income                                                                  181            193               200              175           172
+
+Loss from equity method investments                                              (12)           (14)              (14)            (20)           (21)
+
+(Provision for) benefit from income taxes                                      (142)          4,046                40            (194)         (840)
+
+Net (income) loss attributable to non-controlling interests, net of tax            5           (26)               (21)             (19)          (22)
+
+Net income attributable to Uber Technologies, Inc.                            $1,355         $6,626             $296             $263        $2,394
+
+
+        Q2 2026 Earnings                                                                                                                                28
+Non-GAAP Costs and Operating Expenses Reconciliations
+(Unaudited) $ in Millions                                                                            Three Months Ended
+
+                                                                        Jun 30, ‘25   Sept 30, ‘25       Dec 31, ‘25      Mar 31, ‘26   Jun 30, ‘26
+
+Revenue                                                                    $12,651       $13,467           $14,366          $13,203        $14,191
+
+
+GAAP Cost of Revenue, excluding D&A                                          7,611          8,109             8,681            7,258         7,815
+
+
+Legal, non-income tax, and regulatory reserve changes and settlements             -              -                 -             165              -
+
+
+Restructuring and related charges                                                 -              -                 -                -           (5)
+
+
+Non-GAAP Cost of Revenue                                                    $7,611        $8,109             $8,681           $7,423        $7,810
+
+
+
+
+Non-GAAP Operating Expenses
+
+
+GAAP Operations and support                                                  $696           $735              $755             $763          $805
+
+
+Restructuring and related charges                                                 -              -               (2)                -             -
+
+
+Acquisition, financing, and divestures related expenses                           -              -                 -              (1)           (3)
+
+
+Loss on lease arrangements, net                                                   -              -                 -              (2)             -
+
+
+Non-GAAP Operations and support                                              $696           $735              $753             $760          $802
+
+
+
+
+GAAP Sales and marketing                                                   $1,210         $1,277            $1,354           $1,326        $1,515
+
+Non-GAAP Sales and marketing                                                $1,210         $1,277            $1,354           $1,326        $1,515
+
+
+       Q2 2026 Earnings                                                                                                                               29
+Continued:
+
+
+Non-GAAP Costs and Operating Expenses Reconciliations
+(Unaudited) $ in Millions                                                                             Three Months Ended
+
+                                                                         Jun 30, ‘25   Sept 30, ‘25       Dec 31, ‘25      Mar 31, ‘26   Jun 30, ‘26
+
+ GAAP Research and development                                                $840           $862              $885             $951        $1,043
+
+ Acquisition, financing, and divestitures                                          -              -               (1)              (1)           (1)
+
+ Goodwill and asset impairment/loss on sale of assets                              -            (2)                 -                -             -
+
+ Non-GAAP Research and development                                            $840           $860              $884             $950         $1,042
+
+
+
+
+ GAAP General and administrative                                              $669          $1,183             $732             $798          $935
+
+ Legal, non-income tax, and regulatory reserve changes and settlements             -         (479)                  -                -         (114)
+
+ Goodwill and asset impairment/loss on sale of assets                              -              -                 -                -           (4)
+
+ Restructuring and related charges                                                 -            (1)               (3)                -          (9)
+
+ Loss on lease arrangements, net                                                   -              -                 -              (3)             -
+
+ Acquisition, financing, and divestitures related expenses                      (19)            (6)              (14)            (23)          (27)
+
+ Non-GAAP General and administrative                                          $650           $697               $715            $772          $781
+
+
+
+
+ GAAP Depreciation and amortization                                           $175           $188              $185             $184          $188
+
+ Amortization of acquired intangible assets                                    (65)            (72)             (67)             (59)           (61)
+
+ Non-GAAP Depreciation & Amortization                                         $110            $116              $118             $125          $127
+
+
+         Q2 2026 Earnings                                                                                                                              30
+Free Cash Flow Reconciliation (Unaudited)
+$ in Millions
+                                                                          Three Months Ended
+
+                                            Jun 30, ‘25   Sept 30, ‘25        Dec 31, ‘25         Mar 31, ‘26    Jun 30, ‘26
+
+
+Free Cash Flow reconciliation:
+
+
+
+Net cash provided by operating activities        2,564          2,328              2,883                 2,351        2,862
+
+
+
+
+Purchases of property and equipment               (89)           (98)               (75)                  (65)         (70)
+
+
+
+
+Free Cash Flow                                 $2,475          $2,230             $2,808                $2,286       $2,792
+
+
+
+
+                                                                   Trailing Twelve Months (TTM) Ended
+
+                                            Jun 30, ‘25   Sept 30, ‘25        Dec 31, ‘25         Mar 31, ‘26    Jun 30, ‘26
+
+
+TTM Free Cash Flow reconciliation:
+
+
+
+
+Net cash provided by operating activities        8,789          8,966             10,099                10,126       10,424
+
+
+
+
+Purchases of property and equipment              (249)          (305)              (336)                 (327)        (308)
+
+
+
+
+Free Cash Flow                                 $8,540          $8,661             $9,763                $9,799      $10,116
+
+
+
+       Q2 2026 Earnings                                                                                                        31
+

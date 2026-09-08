@@ -1,0 +1,392 @@
+Uber Technologies, Inc.
+                                February 4, 2026
+
+
+
+
+Q4 2025 Earnings
+Autonomous Vehicles Spotlight
+AV Excerpt from Q4 2025 Prepared Remarks
+February 4, 2026
+
+One year ago, we laid out our perspective on the future of autonomous vehicles (AVs) around the world. We
+said that while AV technology was advancing quickly, we expected commercialization to take much longer. This
+was because of what we called the ‘go-to-market puzzle.’ To deploy widely, AVs will need a consistently
+super-human safety record and enabling regulations; a cost-effective, scaled hardware platform; excellent
+on-the-ground operations; and a high-utilization network that can manage variable demand with flexible supply.
+
+Having learned from our AV deployments thus far, we are even more convinced that AVs will unlock a
+multi-trillion dollar opportunity for Uber. Autonomy fundamentally amplifies the strengths of our existing
+platform: global scale, deep demand density, sophisticated marketplace technology, and decades of
+experience matching millions of trips in real time.
+
+Even as we remain confident in our strategy, it is clear that investors continue to have questions about how this
+technology will impact Uber. We know that progress will not be a straight line, and the next few years will see the
+category evolve and mature. Yet we have enough insight today to give us renewed confidence in our
+approach—and to address some misconceptions about what an AV future means for our business.
+
+
+
+
+Misconception #1: AV growth will be zero-sum. 
+Reality: AVs are likely to drive incremental growth for the entire category.
+
+The history of ridesharing has always been supply-led. Our network benefits from every incremental unit of
+supply added in a city. As supply increases, customers find more value because rides become more affordable
+with faster ETAs. This fact alone gives us considerable conviction that AVs (as a new form of supply) will
+expand—not shrink—our total addressable market.
+
+Early data supports this view. In Austin and Atlanta, where hundreds of AVs are operating on the Uber network,
+our overall (AV and non-AV) trip growth has significantly accelerated. In fact, the Austin and Atlanta AV operating
+zones are now among our fastest-growing areas in the U.S. Encouragingly, the overall growth in these markets
+was driven by both an acceleration in new riders trying Uber for the first time and higher frequency among
+existing riders. Importantly, even as AV penetration has grown in both cities, the number of human drivers and
+their average earnings per hour are both up YoY because of the hybrid-network approach.
+
+At the same time, even in a city like San Francisco, where we don’t yet offer AV trips on Uber, the addition of AV
+supply to the market has grown the category overall. Uber trips in SF accelerated in 2025, and they are growing
+faster than the rest of the U.S. We are very bullish about the Bay Area as we make progress toward our own AV
+deployments there within the next 12 months.
+
+
+
+
+       Q4 2025 AV Prepared Remarks                                                                       1
+Misconception #2: Trends from San Francisco can be extrapolated elsewhere.
+Reality: No two cities are alike, and going from proof of concept to mass scale will be far more
+challenging.
+
+San Francisco offers a unique environment for AV deployments, making it perhaps the perfect city to showcase
+the technology for AV players in fundraising mode. SF benefits from a very tech-forward demographic, high
+population density, higher incomes, shorter trips, mild weather, and a more permissive AV regulatory
+environment. So it’s no surprise that multiple players—Nuro, Tesla, Waymo, and Zoox, to name a few—are at
+varying stages of deploying AV services in the Bay Area.
+
+However, the rest of the U.S. (and the world) looks very different from San Francisco. Elsewhere, we see more
+sprawling cities, a higher mix of long trips, lower average household incomes, and residents and local
+stakeholders who are not tech-forward by default. The regulatory environment outside of San Francisco looks
+quite different as well: it moves slower, is more fragmented, and is more cautious—balancing public safety with
+innovation. Moving forward, we expect to see evolving—and in some cases stricter—rules which will require extra
+development and compliance efforts, impacting how quickly operators can scale. Safety incidents, like collisions
+or unexpected behaviors, will also increase regulatory pressure and could lead to mandates on software or
+safety practices.
+
+The uniqueness of San Francisco is already clear from public reporting and spending data—even within
+California itself. For example, the average number of trips an AV does per day in Los Angeles is an estimated
+~50% lower than in San Francisco. That’s despite the fact that average AV prices in Los Angeles are ~20% lower
+than an equivalent UberX trip; on the other hand, San Francisco AV trips are generally 15%+ more expensive. This
+gap in utilization is likely to prove very costly for 1P AV services as they scale across multiple cities in the coming
+years. And as more players deploy in SF, we expect the novelty of AVs to wane, with them becoming more
+familiar and routine. This bodes well for hybrid 3P deployments that can deliver the lowest cost and fastest ETAs
+to customers, while maximizing vehicle utilization.
+
+It is important to note that even in San Francisco, 1P AV services are already leaving a lot of demand on the table
+during peak hours, with average ETAs that are at least 25% higher than Uber as of Q4. At the same time, we are
+observing that during the leaner hours, these vehicles are starving for demand and underutilized,
+and—unsurprisingly—promotional spend has steadily increased through the year. Uber’s reliability continues to
+be the most attractive by far throughout the week, particularly during peak demand periods. Over time, we have
+learned that reliability—when combined with competitive pricing—is the single best determinant of marketplace
+health and long-term customer satisfaction.
+
+
+
+
+       Q4 2025 AV Prepared Remarks                                                                          2
+Misconception #3: AV providers can achieve high vehicle utilization on their own at scale.
+Reality: A fixed-supply network cannot match the utilization of a hybrid-supply network.
+
+Building an AV is not the same as building a global mobility marketplace. Rideshare demand is highly variable,
+even within a given week. In Austin, for instance, demand on a typical Monday is ~45% of a Saturday, while daily
+demand troughs are just ~5% of intra-week peaks. This variability is further compounded by seasonal patterns in
+demand, as well as spikes around special events. That is why we are confident that a hybrid network—human
+drivers and AVs—will deliver the highest asset efficiency and revenue-generation opportunity for Uber and its
+partners.
+
+That is precisely what we are seeing in Austin and Atlanta. There, we estimate that we are delivering average trips
+per vehicle per day (TpVD) around 30% higher than in other major AV markets. Compared to Los Angeles, our
+hybrid network is delivering more than twice the TpVD. These trends have been remarkably stable despite daily
+demand variation, even as we’ve continued to scale up the number of vehicles and the size of the AV operating
+areas in Austin and Atlanta. Over time, we expect to deliver an even greater lift to our AV partners, when we offer
+customers the ability to book an AV directly on our product selector.
+
+Customers are also benefiting from a hybrid network, with average AV ETAs in Austin and Atlanta an estimated
+~25% lower than those observed in other major AV markets. We are also selectively building capabilities in
+value-add areas of the AV stack, including fleet management, charging infrastructure, financing, data collection,
+remote assistance, and insurance. We will have more to share on those fronts soon.
+
+
+
+
+       Q4 2025 AV Prepared Remarks                                                                      3
+Misconception #4: AVs will only need to scale in a few U.S. cities to capture most ridesharing
+category profits. 
+Reality: Our profit pools are diverse, and a large portion of U.S. trips (and profits) will be unaddressable
+by AVs for the foreseeable future.
+
+An often-repeated myth is that the vast majority of U.S. trips and profits are concentrated in the top cities. In
+reality, the U.S. is a very large and diverse market. Trips happening within our top 20 cities1 represent only 30% of
+our U.S. Gross Bookings and just 25% of our profits.
+
+The truth is that the U.S. market comprises a long tail of thousands of cities, suburbs, towns, and rural areas with
+significant diversity in market characteristics and regulatory requirements. Over the last 15 years, we have
+sharpened and enhanced our ability to service these areas outside of our top 20 cities. The results speak for
+themselves: these areas are now growing faster and profit margins are already higher today. Said differently,
+even as AVs proliferate in dense urban areas over the next 5-10 years, we expect to serve a much wider and
+ever-expanding set of towns and suburbs, primarily with human drivers. Around 40% of our U.S. riders take trips
+outside of their home city, which means they expect us to be ever-present and able to get them on their way.
+
+Importantly, even within our top 20 cities, many—including New York City, Boston, and Chicago—do not have
+permissive regulatory frameworks, and policy reform is likely to take several more years, at minimum. New York
+City, the largest ridesharing market in the world, accounts for over 10% of our U.S. trips, and is also one of the
+most tightly regulated, with multiple key regulatory and licensing steps standing between testing today and full
+commercial service in the future.
+
+
+
+
+1
+    U.S. cities based on city limits as defined by U.S. Census Bureau
+
+
+
+           Q4 2025 AV Prepared Remarks                                                                     4
+Misconception #5: AVs will soon be able to perform all trips.
+Reality: AVs still need to resolve a lot of edge cases to be reliably available in all conditions.
+
+Despite the incredible progress AVs are making around the world, and the enormous potential they hold, they
+are still far from capable of meeting the level of reliability and ubiquity that customers and cities expect.
+
+Worryingly, we have seen ‘AV deserts’ pop up, where AV operators do not serve (or have even yet to map) less
+affluent areas, like Oakland and parts of the East Bay. Those shortcomings only serve to reinforce the value of a
+hybrid network. For instance, in New York City, 75% of Uber trips start or end in the outer boroughs—and more
+than half of trips don’t enter Manhattan at all.
+
+We have also seen recent infrastructure and weather disruptions ground AV fleets for multiple days across
+multiple cities. In every case, the human drivers on our network kept cities moving. When San Francisco was
+paralyzed during the PG&E blackout just before Christmas, Uber’s network was quickly able to surge supply to
+meet demand and rescue stranded customers. During last week’s winter storms, we were able to seamlessly
+remove AVs from our network in Austin, Atlanta, and Dallas at the request of our partners, without any noticeable
+impact on the customer experience. That is another advantage of deploying on a hybrid network: we can
+manage the inevitable fits and starts in AV operations, without diluting the overall customer experience.
+
+
+
+
+       Q4 2025 AV Prepared Remarks                                                                      5
+Summary
+
+As we have said many times before, we have barely scratched the surface of the AV opportunity, with AV trips
+(on or off Uber’s platform) globally accounting for just 0.1% of global rideshare trips. Given our growth at scale,
+autonomous vehicles are likely to remain a very small portion of the rideshare category for many years to come.
+As a point of comparison, our Mobility business is currently adding ~50x the total global AV category volume.
+
+That said, we expect this penetration to rise exponentially over the next decade as our OEM partners scale
+production. We are particularly excited to see a number of players making significant progress in this space,
+including Nuro and Lucid, and our recently revealed production-design vehicle, which is already testing
+on-road; Waabi, which last week announced they will expand their focus from autonomous trucking to
+ridehailing, with a goal to put 25,000 robotaxis exclusively on Uber; and NVIDIA, which unveiled their Alpamayo
+family of open-source AI models designed to accelerate AV development across a long and growing list of joint
+partners. We will have much more to announce with existing and new partners in the coming months.
+
+Transportation is too important of a category to be ‘winner-take-all’ (or even ‘winner-take-most’), and healthy
+competition will lead to better experiences for customers. We continue to make strategic investments into the
+ecosystem that will ensure riders have a variety of safe, affordable, and reliable options to choose from. By the
+end of 2026, we expect to be facilitating AV trips in as many as 15 cities globally, with a roughly even split of U.S.
+and international cities. And by 2029, we intend to be the largest facilitator of AV trips in the world.
+
+AVs will change how trips are supplied, but not how demand is aggregated. History suggests that over time as
+supply fragments and technology commoditizes, the platform that can bring the highest utilization to assets,
+and superior reliability to customers, will capture a large share of value. That is the role Uber is set up to play.
+
+
+
+
+       Q4 2025 AV Prepared Remarks                                                                             6
+Autonomous vehicles likely to drive incremental
+category growth
+0.4
+
+
+
+
+       Uber Mobility Trips (YoY Growth)                                                                                                                                                                                                               Pre AV launch
+
+0.3
+
+
+                                                                                                                                                                            Atlanta                                                                   Post AV launch
+
+                                                                                                                                                                            Austin
+0.2
+
+
+
+
+                                                                                                                                                                                                                                       First Time
+
+ 0.1
+                                                                                                                                                                                                                                       Riders
+                                                                                                                                                                                                                                       YoY Growth      +9pp
+                                                                                                                                                                                                                                       Acceleration
+                                                                                                                                                                            U.S. Top 20 Cities
+
+  0
+
+
+
+
+                                                                                                                                                                                                                                       Trips per
+                                                                                                                                                                                                                                       Rider
+                                                                                                                                                                                                                                                       +3pp
+-0.1
+
+
+
+
+                                                                               AV launch in city                                                                                                                                       YoY Growth
+-0.2
+                                                                                                                                                                                                                                       Acceleration
+       Jan ‘25                                                                                                                                          Dec ‘25
+
+-0.3
+
+
+
+
+                      Note 1: Uber trip growth in Atlanta and Austin based on AV operating zone. U.S. top 20 cities based on city limits as defined by U.S. Census Bureau and reflects Uber's top cities by Mobility Gross Bookings.
+            Q4 2025   Note 2: First Time Riders and Trips per Rider calculated as acceleration in YoY growth rate from month before launch to second half of 2025.                                                                                                8
+                                                                                                                                                                                                                                                                  7
+San Francisco is a uniquely favorable market for
+AV deployments
+ Concentrated Demand                                                                                           Affluent Demographics                                                                          Shorter Trips
+
+
+                                                                                                                                                                                             -60%
+                                                                                                                                                                                                                   -46%
+                                 2x                                                                                                               2x
+                                                                                                                                                                          2x
+                                                         4x
+
+
+
+
+                                                                                                                                                                                                Los Angeles            Top 50 US Cities      San Francisco
+                                                                                                                            San Francisco           Los Angeles           Top 50 US Cities
+       San Francisco               Los Angeles              Top 50 US Cities
+
+
+
+
+     San                       Los                 U.S. Top 50                                                          San                       Los                U.S. Top 50               Los                U.S. Top 50                San
+  Francisco                  Angeles                  Cities                                                         Francisco                  Angeles                 Cities               Angeles                 Cities               Francisco
+
+
+                       Population Density                                                                                                   Median Income                                                      Miles per Trip
+
+ Q4 2025                    Note 1: U.S. top 50 cities based on city limits as defined by U.S. Census Bureau and reflects Uber's top cities by Mobility Gross Bookings.                                                                                      9
+                                                                                                                                                                                                                                                             8
+AVs on Uber are significantly busier and more reliable
+than 1P deployments
+                                                                                       AV Trips per Vehicle per Day                                                                                              AV ETA (mins)
+
+
+                                   San Francisco
+
+
+     Current
+                                   Los Angeles
+     1P
+
+                                   Phoenix
+
+
+
+                                   Austin
+     AVs on                                                                                                                                    ~30%                                                                                                    ~25%
+     Uber                                                                                                                                      higher                                                                                                  faster
+                                   Atlanta
+
+
+                                                                                                                      Reflects weighted average comparison against observed performance of current 1P deployments
+
+
+
+ Q4 2025      Note 1: Reflects Q4 estimates for observed AV deployments in San Francisco, Los Angeles, and Phoenix using publicly filed data with the California Public Utilities Commission (CPUC), third party data sources, and external reports.            9
+ Uber's network delivers the highest AV utilization
+ against highly variable demand            Austin AV Operating Zone
+                                                                                                                                                    AV Trips              Total Mobility Trips     Peak Demand
+          00
+        50
+
+
+
+
+                                Stable engagement                Human drivers provide           An AV only competitor must hold significant
+                         1                                2                                  3
+                                for AVs, which serve             boost supply to meet            underutilized supply to match Uber’s reliability
+                                as a fixed base load             demand spikes                   and prices or deliver worse consumer
+                                supply                           through the week                experience and leave significant demand
+                                                                                                 on the table
+          50
+        37
+Trips    00
+        25
+        12
+          50
+
+
+
+
+                             Monday                    Tuesday                   Wednesday                    Thursday                     Friday              Saturday                          Sunday
+
+
+
+
+                    Rideshare demand is highly variable through the week. A typical Monday is ~45% of a Saturday while daily troughs are ~5% of peaks.
+
+               Q4 2025                                                                                                                                                                                           10
+Uber operates in 8,000+ U.S. markets, covering 95%
+of U.S. population
+Markets outside the top 20 cities represent the vast majority of U.S. Gross Bookings and profits
+
+
+
+        ~30%
+        of U.S. Mobility
+        Gross Bookings
+
+
+
+         ~25%
+   of U.S. Mobility profits
+
+
+
+   generated within our
+                                                                             Uber Trips
+    U.S. top 20                                                              ~95% U.S. population
+         Mobility cities                                                     coverage
+
+
+
+   Q4 2025      Note 1. City limits defined by U.S. Census Bureau. Includes trips that originate and end in given city. Data as of FY’25.   12
+                                                                                                                                            11
+We intend to be the largest facilitator of AV trips in the
+world by 2029
+
+
+Live          • Abu Dhabi, UAE   • Dallas, TX    • Riyadh, KSA   Upcoming    • Bay Area, CA    • London, UK        • Munich, DE
+cities:       • Atlanta, GA      • Dubai, UAE                    cities:     • Hong Kong, HK   • Los Angeles, CA   • Zurich, CH
+              • Austin, TX       • Phoenix, AZ                               • Houston, TX     • Madrid, ES
+
+
+
+          Hardware Platform                        Self-Driving Technology                     Fleet Management
+
+
+
+
+                                        More announcements coming soon
+   Q4 2025                                                                                                                        13
+                                                                                                                                  12
+

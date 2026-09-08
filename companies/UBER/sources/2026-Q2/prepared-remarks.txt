@@ -1,0 +1,409 @@
+Uber Technologies, Inc. (UBER)
+Q2 2026 Prepared Remarks
+August 5, 2026
+
+Dara Khosrowshahi, CEO
+
+Uber delivered another exceptional quarter of profitable growth, with record highs across
+MAPCs, frequency, trips, and Gross Bookings. Gross Bookings exceeded $58 billion, above the
+high end of our guidance, accelerating to 22% year-over-year (YoY) growth—our fourth
+consecutive quarter above 20%. This strong growth was broad-based across business lines
+(Mobility at 20%, Delivery and Freight each accelerated to 25%) and geographies (the U.S.
+accelerated and international performance remained strong). Robust consumer demand
+continued to strengthen our marketplace: We’ve added more first-time users in the past twelve
+months than in any period over the past five years, and a record 10.2 million drivers and couriers
+earned over $25 billion on the platform this quarter. Combined with continued cost discipline,
+Non-GAAP EPS grew 35% YoY, and trailing twelve-month free cash flow (FCF) exceeded $10
+billion for the first time in our history.
+
+Q2 also demonstrated the strength of our platform at a global scale while delivering meaningful
+local impact. During the FIFA World Cup, more than 8 million tourists took rides across host cities,
+while Uber One International Benefits, Travel Pass, and Game Day Offers helped consumers
+around the world save approximately $300 million. This proven platform strategy underpins our
+recently announced agreement to acquire Delivery Hero, which will expand Uber’s reach to
+nearly 100 markets. It will also nearly double the number of markets where we offer both Mobility
+and Delivery, significantly expanding our cross-platform opportunity, extending Uber One to
+millions more consumers, and letting us deploy our technology, AI, and marketplace capabilities
+at even greater scale. We look forward to completing this important transaction in the second half
+of next year.
+
+Finally, we continue to build for an autonomous future. As the industry shifts from proving the
+technology to commercializing it at scale, we're increasingly confident Uber is building one of the
+most valuable positions in the AV ecosystem.
+
+Mobility
+
+Mobility delivered another quarter of 20% Gross Bookings growth while continuing to expand
+profitability, with segment operating income margin reaching 7.6%. Consistent with our
+expectations entering the year, both trips and Gross Bookings accelerated in the U.S., driven by
+continued consumer adoption across our portfolio of premium and lower-cost products,
+expansion into sparser areas, and reinvesting insurance savings to improve affordability. In the
+U.S. markets where prices declined the most, including Los Angeles and San Francisco, trip
+
+
+
+                                                 1
+growth meaningfully outpaced the rest of the country. International momentum also remained
+strong, led by standout performance in markets including Argentina, Germany, Japan, and Spain.
+
+More consumers are choosing Uber and engaging more frequently, while higher-value products
+including Reserve, Black, and Uber for Business (U4B) continued to outgrow the core business.
+U4B Gross Bookings grew 40%+ YoY, with business customers increasingly choosing premium
+experiences that generate nearly 2x the Gross Bookings and 4x the contribution profit per trip
+compared to UberX across our largest markets. Within U4B, we continued to see strong
+momentum in Uber Health as healthcare providers and riders increasingly rely on our platform for
+transportation solutions. At the same time, products such as Moto and Wait & Save continue
+expanding the category by making Uber more affordable and accessible. As these products
+mature, we’re becoming increasingly disciplined around incentives while maintaining attractive
+engagement and unit economics.
+
+We continue to see significant expansion opportunities, launching 100+ new cities, with suburban
+and sparser markets once again growing ~1.5x faster than denser markets while generating
+higher margins. By tailoring supply, service levels, and products such as Reserve and Wait and
+Save to local demand, we’re unlocking a large and still underpenetrated opportunity. Active
+drivers reached another record and our marketplace once again demonstrated its resilience by
+absorbing significant demand spikes during the World Cup while maintaining strong reliability.
+
+Delivery
+
+Delivery Gross Bookings accelerated to 25% YoY, while segment operating income margin
+reached another record of 3.8%. Growth was broad-based: consumer retention reached a
+multi-year high, Uber One continued to deepen engagement, restaurant delivery accelerated,
+and Grocery & Retail significantly outgrew restaurants. Internationally, Australia, the UK, and
+Mexico led growth, with our category position improving across all 10 of our largest international
+markets. Put simply, we are growing faster than the delivery category while becoming more
+profitable, a reflection of the durability of our marketplace and continued operating discipline.
+
+Our opportunity extends well beyond restaurant delivery. We believe consumers increasingly
+want all local commerce available at their doorstep, on demand. Grocery & Retail remains one of
+the largest opportunities to deliver on that vision, reaching $15 billion in annualized Gross
+Bookings, growing roughly 40% YoY for multiple quarters in a row. Selection continues to be the
+primary growth engine, with new partnerships including Decathlon, GameStop, Kiehl’s, Tesco,
+Toys“R”Us, and Ulta Beauty expanding the breadth of everyday needs consumers can fulfill on
+Uber. As selection grows, consumers are shopping more frequently across the platform and
+retaining meaningfully better than restaurant-only customers. Product innovations such as live
+shelf verification, smarter substitutions, and AI-powered shopping experiences are making
+Grocery & Retail even more intuitive and reliable, further strengthening engagement.
+
+
+
+                                                 2
+We’re also expanding the occasions we serve. Large group orders and Pickup, which present a
+massive addressable opportunity, delivered strong growth this quarter, extending Delivery
+beyond the individual meal. Whether it’s dinner for the family, groceries for the week, or supplies
+for a gathering, consumers are increasingly turning to Uber to meet more of their everyday needs
+through a single platform.
+
+Europe continues to be a standout market for Uber Eats with category position strengthening in
+established markets such as the UK, France, and Germany. We continued to enter additional
+European markets with a successful Finland launch, while we expanded beyond Copenhagen
+into additional markets in Denmark. We also recently closed our acquisition of Getir’s food
+delivery business in Türkiye, further strengthening our position in a rapidly growing market. We're
+seeing strong momentum as we anniversary the acquisition of Trendyol Go, where our integration
+playbook and strong local execution has positioned us well for the long-term. That consistent
+execution reinforces our confidence that, by leveraging our platform strategy, expanding
+merchant selection, and operating on a common platform, we can scale efficiently while
+delivering a better experience for consumers, merchants, and couriers.
+
+Freight
+
+Freight delivered another strong quarter, with Gross Bookings accelerating to 25% YoY and
+volumes growing at their fastest pace since the Transplace acquisition. Enterprise demand
+remained strong and customers deepened engagement across the platform. Cross-sell from our
+Managed Transportation business, which manages shippers’ day-to-day freight operations, to our
+Capacity Solutions offering, which helps shippers secure trucking capacity through our carrier
+network, increased meaningfully.
+
+Looking ahead, we're investing in AI capabilities that help optimize transportation decisions on
+behalf of our customers. AI is increasingly helping identify shipment risks earlier and automate
+routine operational workflows, from responding to shipment inquiries to validating documents
+and correcting shipment data. Over time, we expect these capabilities to improve reliability and
+lower costs for our customers.
+
+Platform initiatives
+
+Uber One remains our strongest cross-platform consumer value proposition and is quickly
+becoming one of the world's leading membership programs. Membership reached another
+all-time high this quarter, with members now accounting for more than 70% of Delivery Gross
+Bookings, up roughly 20 percentage points in just two years. We also brought back Member
+Days in May, driving strong engagement across exclusive offers and experiences. The
+incremental engagement and retention generated by members continue to produce attractive
+returns on our investment, giving us confidence to keep expanding benefits (including Travel
+
+
+
+                                                3
+Pass, Uber Cash back on hotels, and merchant-funded offers) while doing so in a disciplined,
+capital-efficient way.
+
+That deeper engagement also creates a stronger advertising platform. Advertising exceeded a
+$2.5 billion annualized revenue run-rate this quarter, still growing roughly 50% YoY. Growth
+broadened across enterprise brands, Grocery & Retail, and Mobility formats such as Journey
+Takeovers. As consumers engage with Uber across more moments in their day, we’re creating
+more opportunities for merchants and brands to reach them in relevant ways while enhancing the
+customer experience.
+
+Finally, AI is making Uber more intuitive for consumers while making our platform more efficient.
+Consumers are increasingly telling us what they need rather than searching by item, giving us a
+much deeper understanding of intent. We’re finding that Cart Assistant resonates most when
+consumers are planning larger Grocery & Retail purchases, where a conversational experience
+makes it easier to build a complete basket. On average, those customers are already creating
+baskets roughly double the size of a typical Grocery & Retail order.
+
+We’re also beginning to see how AI transforms how we operate the platform. Rather than relying
+on predefined workflows, we’re deploying AI agents that can reason through increasingly
+complex problems. In English-speaking markets, for example, an AI agent can now call our
+mapping and GPS tools directly to reconstruct a trip, investigate the route, and resolve eligible
+fare disputes end-to-end, reducing friction for consumers while improving the speed and quality
+of customer support.
+
+Autonomous vehicles
+Reference reading: Autonomous Vehicles Spotlight (published with Q4 2025 results),
+Autonomous Vehicles Spotlight (published with Q4 2024 results)
+
+Over the past year, the conversation around autonomous vehicles has begun to shift—from
+whether AVs can deliver a compelling service in defined operating environments to how broadly,
+reliably, and economically they can scale. That distinction matters because we believe the
+structure of the industry is also becoming clearer.
+
+The evolution of the AI industry serves as a useful analogy. A few years ago, many observers
+expected AI to converge around a single foundation model. Instead, we've seen multiple frontier
+models emerge, alongside a growing open-source ecosystem, with different trade-offs across
+capability, cost, latency, deployment model, and use case. Increasingly, applications use the right
+model for the right task, and model providers distribute both directly and through third-party
+platforms.
+
+We believe autonomous mobility is likely to evolve in a similar way. Different AV developers will
+excel across different geographies, vehicle platforms, and operating environments, with a mix of
+
+
+                                                 4
+closed and open-source systems, increasing the value of the commercialization infrastructure
+that can connect the technology to consumers at scale. We also expect first-party and third-party
+distribution models will coexist, much like we see across sectors like travel, food delivery, and
+e-commerce, with some AV developers electing to build their own apps, while also connecting
+their vehicles to Uber to extend their reach, access incremental demand, and improve fleet
+utilization. Unlike foundation models, however, AVs are physical, regulated systems that must be
+deployed and operated market by market with the variable patterns of ridehailing, making
+utilization sensitive to demand peaks and troughs. That makes the commercialization layer even
+more important.
+
+That’s exactly the opportunity we’re building toward. We believe the long-term winner in AVs will
+be determined by who can commercialize the technology at global scale—what we have called
+the “go-to-market puzzle.” Building a great autonomous driver is one part of building a successful
+autonomous business. Commercial success also requires marketplace demand aggregation and
+intelligent dispatch, vehicle integration and fleet operations, charging infrastructure, financing,
+insurance, and deep engagement with regulators and local communities. Our ambition is clear: to
+become the world’s leading commercialization platform for autonomous mobility.
+
+Across equity investments, infrastructure, and vehicle offtake commitments, we expect to commit
+over $10 billion of capital over the coming years to bring AVs to market at scale. Earlier this year,
+we added another important capability with our AV Labs team, which is deploying hundreds of
+sensor-equipped vehicles capable of collecting millions of miles of high-fidelity driving data each
+month for our AV partners. The value is not simply the number of miles. It is the diversity of
+environments and the ability to identify, label, and retrieve the scenarios that matter most for
+rideshare specific scenarios. AV Labs is not an effort to rebuild the autonomous driver; it is part of
+the data and infrastructure layer that helps our partners develop and deploy faster. Together with
+our marketplace, fleet operations, financing, charging infrastructure, insurance, and policy
+capabilities, AV Labs strengthens our partners and the commercialization platform we’re building.
+
+That progress was evident this quarter. AVs are live on Uber in 7 cities, on track for as many as 15
+by year-end. We announced new deployments across Europe with Autobrains and WeRide,
+advanced partnerships with Nuro, Wayve, and Zoox, and continued preparing for multiple U.S.
+launches later this year (see supplemental slides for additional details). And this morning, Uber
+and Wayve announced another commercialization milestone, with Wayve's autonomous vehicles
+receiving Private Hire Vehicle licences in London, paving the way for launch over the coming
+weeks. Across our ecosystem, partners have now committed approximately 120,000 vehicles to
+the Uber network over the coming years. As those deployments scale, we're also evaluating
+more efficient financing structures to support future growth, bringing in external investors to
+amplify Uber’s investments. These partnerships with third-party capital providers should further
+accelerate deployment while allowing us to maintain balance sheet flexibility.
+
+
+
+
+                                                  5
+Perhaps the biggest lesson we’ve learned over the past year is that commercialization
+compounds. Every new deployment strengthens our operating capabilities, expands our
+relationships with cities and partners, improves our fleet operations, and makes future launches
+faster and more efficient. We’re also seeing strong evidence that AV deployments are likely to
+drive incremental growth for the entire category. Importantly, in more mature AV markets
+including Los Angeles, San Francisco, and Phoenix, Uber’s category share, both citywide and in
+AV operating zones, is higher today than it was a year ago.
+
+Balaji Krishnamurthy, CFO
+
+Financial recap
+
+Q2 was another strong quarter across growth, profitability, and cash generation. Gross Bookings
+grew 22% YoY to a record $58.0 billion, once again exceeding the high end of our expectations.
+Growth was broad-based across segments and regions, with Trips continuing to be the primary
+driver of Gross Bookings growth. The impact of the Middle East conflict was in-line with our
+expectations, and was offset by demand associated with the World Cup.
+
+Our business continues to be rooted in robust fundamentals, with 16% audience growth and
+record engagement driving strong 18% YoY Trips growth. The 2 point moderation in our YoY Trips
+growth was entirely attributable to Brazil. While our overall global marketplace remains healthy,
+we observed some supply softness in Brazil, particularly in lower-cost products such as Moto,
+against the backdrop of a tighter labor market and elevated competition for two-wheel drivers
+from delivery platforms. As our highest-volume market globally, this localized dynamic had a
+disproportionate impact on overall Trips growth during the quarter. We are already seeing early
+signs of supply improving in Q3 and are making disciplined investments to strengthen supply
+liquidity and the two-wheeler consumer experience. Importantly, given the early stage nature of
+Moto adoption, we expect no impact to profitability (as reflected by our Q2 performance and Q3
+outlook), as we reallocate investments from consumer growth to driver growth.
+
+Given the moderately higher contribution from average price in the quarter, it’s an important
+moment to remind investors of our philosophy around pricing. As a global platform, we operate
+across segments, countries, and products, all of which span various price points. To put this into
+perspective, an average Uber Black trip costs a rider over 15x more than an average Moto trip
+globally. These mix dynamics can impact average price at the company-wide level, even when
+underlying pricing remains broadly stable.
+
+The increased YoY contribution from average price in Q2 vs. Q1 was driven primarily by three mix
+impacts. First, we saw an acceleration in our Delivery business, which carries multiples higher
+average transaction values as compared to Mobility. Second, our U.S. business accelerated,
+which also carries significantly higher average prices relative to international markets. And third,
+strong growth in higher-value Mobility products, including Reserve, Black, and U4B (with slower
+
+
+                                                 6
+growth in Moto), as well as Grocery & Retail in Delivery, continued to outgrow the core. We see all
+of these impacts to price as healthy (as opposed to structural inflation on our products) and we
+expect these mix impacts to persist through the remainder of the year. Consistent with our
+operating framework, we do not manage our business to an average price output. We continue to
+focus on competitive pricing that maximizes durable engagement, marketplace health, and
+long-term profit dollars.
+
+Revenue grew 11% YoY to $14.2 billion, and was negatively impacted by $1.1 billion (an ~8
+percentage point headwind to YoY growth) from the previously discussed business model change
+in the UK. The impact on our Mobility revenue margin was roughly 400 bps in Q2, consistent with
+the prior quarter impact. This is primarily driven by a movement of driver payment costs from cost
+of revenue to contra-revenue, and has no impact on underlying economics. We expect this
+accounting headwind to revenue and tailwind to cost of revenue to persist at roughly the same
+magnitude for the remainder of 2026.
+
+Non-GAAP Operating Income grew 40% YoY on a reported basis to $2.1 billion, resulting in a
+margin of 3.7% of Gross Bookings (up 40 bps YoY). Adjusted EBITDA was $2.8 billion, up 33% YoY.
+Strong operating leverage across Mobility and Delivery continues to create capacity to invest
+behind our highest-return opportunities.
+
+At the same time, we continue to moderate hiring relative to our original plans for the year, driven
+in part by stronger organizational effectiveness efforts and by AI-related productivity gains. On AI,
+we are optimizing token spend by setting better defaults for different use cases, moving certain
+tasks to lower-cost or open-weight models, and letting employees more clearly understand and
+manage their spend. As a result, cost per token has declined over the past several months, even
+as adoption has continued to increase, allowing us to keep overall AI spend broadly stable.
+
+The combination of operating leverage and productivity gains allows us to continue investing
+behind opportunities with compelling long-term returns. For example, our investment in California
+insurance reform resulted in legislation that we expect will generate significant recurring savings
+beginning in 2027. We'll continue looking for opportunities to improve efficiency while redirecting
+resources toward initiatives that strengthen the long-term earnings power of the business.
+
+Non-GAAP Net Income grew 29% YoY on a reported basis to $1.7 billion, and Non-GAAP EPS
+grew 35% YoY to $0.81, above the midpoint of our guidance. On a GAAP basis, we generated
+income from operations of $1.9 billion, up 30% YoY on a reported basis, driven by strong
+operating performance. GAAP Net Income for the quarter was $2.4 billion, which included a $1.6
+billion net pre-tax tailwind from revaluations of our equity investments. Our GAAP Net Income
+may continue to see swings from quarter-to-quarter due to equity stakes on our balance sheet.
+
+On a trailing twelve-month basis, we generated $10.1 billion in FCF, the first time we have
+exceeded the $10 billion mark. Our strong underlying FCF generation demonstrates the
+
+
+                                                 7
+significant earnings power of our business. As a reminder, quarterly FCF can fluctuate due to
+working capital seasonality and the timing of cash payments, and we encourage investors to
+evaluate performance on an annual basis.
+
+Capital structure and allocation
+
+We ended the quarter with $5.4 billion in unrestricted cash, cash equivalents, and short-term
+investments. In addition, our investments were marked at $12.5 billion, including equity method
+investments, the majority of which are publicly listed. Together with more than $10 billion of
+trailing twelve-month free cash flow, these resources provide substantial financial flexibility to
+invest in growth, pursue strategic opportunities, and return capital to shareholders.
+
+Our capital deployment in Q2 reflected that flexibility. We invested approximately $4 billion to
+establish an economic interest of roughly 37% in Delivery Hero through share purchases and
+derivative instruments, while also repurchasing $510 million of Uber stock. Even with a lower
+level of repurchases this quarter, diluted share count declined approximately 4% YoY. We
+continue to have roughly $16 billion remaining under our current authorization.
+
+Following the stake build, we announced our offer to acquire the remaining Delivery Hero shares.
+We intend to fund the acquisition through a combination of existing liquidity and debt financing,
+with closing targeted for the second half of 2027. We expect our gross leverage to remain below
+two times while preserving a strong investment grade balance sheet. We expect the transaction
+to be accretive to Non-GAAP EPS upon closing, with high-single-digit accretion by year three as
+synergies are realized.
+
+We expect to remain active in share repurchases each quarter, and expect to steadily return to a
+more normalized level of activity as we execute against our capital allocation priorities. We
+remain committed to durably reducing our share count.
+
+Outlook
+
+Based on quarter-to-date trends:
+
+   ● We expect Q3 Gross Bookings of $58.25-60.25 billion, representing growth of 18% to
+      22% YoY on a constant-currency basis.
+         ○ Our outlook assumes a roughly 1 percentage-point currency headwind to total
+            reported YoY growth. Note that this is a reversal from currency as a tailwind for the
+            prior four quarters.
+         ○ In July, we were pleased to close the acquisition of Getir and reconsolidate
+            Careem Technologies; the collective financial impact to our growth is more than
+            offset by the lapping of our Trendyol Go acquisition in June 2025.
+   ● We expect Q3 Non-GAAP EPS of $0.84-0.88, representing growth of 28% to 35% YoY.
+
+
+                                                 8
+           ○ This outlook translates to Adjusted EBITDA of $2.86-2.96 billion. We are providing
+              this comparison to help investors navigate the transition to our new non-GAAP
+              disclosures.
+
+Turning to the full year, we are providing the following color:
+   ● We expect 2026 stock-based compensation of $1.95-2.10 billion, narrowed from our prior
+       outlook of $1.95-2.15 billion.
+   ● We expect 2026 Non-GAAP depreciation and amortization expense of $450-550 million.
+   ● We expect our full-year 2026 Non-GAAP ETR to be in the range of 22-24%. We expect
+       our full-year 2026 cash tax rate to be in the mid-to-high single digits.1 As a reminder, over
+       the next few years, we expect our cash tax rate to be in the range of 10-15% as we are
+       able to use historical tax losses and other historical tax assets.
+
+
+
+
+Forward-Looking Statements Disclaimer
+
+These prepared remarks include both GAAP and non-GAAP financial measures. Additional
+disclosures regarding these non-GAAP measures, including a reconciliation of GAAP to
+non-GAAP measures, are included in the press release, supplemental slides and our filings with
+the SEC, each of which is posted to investor.uber.com.
+
+Certain statements in this presentation and on this call are forward-looking statements. You
+should not place undue reliance on forward-looking statements. Actual results may differ
+materially from these forward-looking statements, and we do not undertake any obligation to
+update any forward-looking statements we make today, except as required by law.
+
+For more information about factors that may cause actual results to differ materially from
+forward-looking statements, please refer to the press release we issued today and in other filings
+made with the SEC.
+
+All growth rates reflect YoY growth and are on a constant-currency basis, unless otherwise noted.
+Lastly, we ask you to review our earnings press release for a detailed Q2 financial review and our
+Q2 supplemental slides deck for additional disclosures that provide context on recent business
+performance.
+
+
+
+1
+  Calculated as forecasted cash income taxes paid divided by forecasted Non-GAAP income before income
+taxes and loss from equity method investments. Non-GAAP income before income taxes and loss from
+equity method investments is calculated as Non-GAAP Operating Income minus interest expense plus
+interest income. Management finds the cash tax rate useful in evaluating expected cash outflows for tax
+obligations.
+
+
+                                                  9
+

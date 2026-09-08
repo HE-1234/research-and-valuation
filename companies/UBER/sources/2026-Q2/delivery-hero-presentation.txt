@@ -1,0 +1,412 @@
+Announcement of Uber’s Acquisition of Delivery Hero
+                     July 16, 2026
+Forward-Looking Statements
+This presentation contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, and Section 21E of the Securities Exchange Act of 1934, which includes forward-looking statements regarding the proposed
+transaction and Uber’s and Delivery Hero’s future business expectations, which involve risks and uncertainties. Actual results may differ materially from the results predicted, and reported results should not be considered as an indication of future
+performance. Forward-looking statements include all statements that are not historical facts and can be identified by terms such as “anticipate,” “believe,” “continue,” “could,” “estimate,” “expect,” “hope,” “intend,” “may,” “objective,” “ongoing,” “plan,”
+“potential,” “predict,” “should,” “will,” or “would” or similar expressions and the negatives of those terms. Forward-looking statements involve known and unknown risks, uncertainties and other factors that may cause Uber’s or Delivery Hero’s actual results,
+performance or achievements to be materially different from any future results, performance or achievements expressed or implied by the forward-looking statements. These risks, uncertainties and other factors relate to, among others: risks and
+uncertainties related to the pending transaction, including the failure to obtain, or delays in obtaining, required regulatory approvals, the risk that such approvals may result in the imposition of conditions that could adversely affect Uber or the expected
+benefits of the proposed transaction, or the failure to satisfy any of the closing conditions to the tender offer, including conditions relating to regulatory approval, on a timely basis or at all; costs, expenses or difficulties related to the transaction; the failure
+to realize the expected benefits and synergies of the proposed transaction in the expected timeframes or at all or the ability to achieve the expected financial and operating performance and future opportunities following the completion of the
+proposed transaction; the potential impact of the announcement, pendency or consummation of the proposed transaction on relationships with Uber’s and/or Delivery Hero’s employees, merchants, suppliers, couriers and other business partners,
+including the diversion of Uber’s and Delivery Hero’s respective managements from business operations; the risk of litigation or regulatory actions to Uber and/or Delivery Hero; inability to retain key personnel; changes in legislation or government
+regulations affecting Uber or Delivery Hero; the potential impact of the transaction on Uber’s or Delivery Hero’s business, financial condition and operating results; the ability to complete the proposed transaction on the anticipated terms, including
+financing terms, and in the anticipated timeframe or at all; and economic financial, social or political conditions that could adversely affect Uber, Delivery Hero or the proposed transaction. For additional information on other potential risks and
+uncertainties that could cause actual results to differ from the results predicted, please see Uber’s Annual Report on Form 10-K for the year ended December 31, 2025 and subsequent quarterly reports, other filings filed with the Securities and Exchange
+Commission from time to time and Uber’s and Delivery Hero’s other press releases and public filings. All information provided in this presentation and any forward-looking statements contained herein are based on assumptions that we believe to be
+reasonable as of this date. Undue reliance should not be placed on the forward-looking statements in this presentation, which are based on information available to us on the date hereof. We undertake no duty to update this information unless required
+by law.
+Restrictions
+The distribution of this presentation may, in some countries, be restricted by law or regulation. Accordingly, persons who come into possession of this document should inform themselves of and observe these restrictions. To the fullest extent permitted
+by applicable law, Uber and the Bidder disclaim any responsibility or liability for the violation of any such restrictions by any person. Any failure to comply with these restrictions may constitute a violation of the securities laws of that jurisdiction. Neither Uber
+nor the Bidder, nor any of their respective advisors, assumes any responsibility for any violation by any of these restrictions. Any Delivery Hero shareholder who is in any doubt as to his or her position should consult an appropriate professional advisor
+without delay.
+Non-GAAP Financial Measure Disclosure
+To supplement Uber’s financial information prepared and presented in accordance with generally accepted accounting principles in the United States of America, or GAAP, this presentation includes the following non-GAAP financial measure: Adjusted
+EBITDA. The presentation of this financial information is not intended to be considered in isolation or as a substitute for, or superior to, the financial information prepared and presented in accordance with GAAP. We use our non-GAAP financial measures
+for financial and operational decision-making and as a means to evaluate period-to-period comparisons. Reconciliations to the most directly comparable GAAP measures are included in the back of the accompanying slide presentation, which is posted
+alongside this video presentation on Uber's Investor Relations website. For more information on our non-GAAP financial measures, please see our SEC filings.
+Uber defines Adjusted EBITDA as net income (loss), excluding (i) income (loss) from discontinued operations, net of income taxes, (ii) net income (loss) attributable to non-controlling interests, net of tax, (iii) provision for (benefit from) income taxes,
+(iv)income (loss) from equity method investments, (v) interest expense, (vi) interest income, (vii) other income (expense), net, (viii) depreciation and amortization, (ix) stock-based compensation expense, (x) certain legal, non-income tax, and regulatory
+reserve changes and settlements, (xi) goodwill and asset impairments/loss on sale of assets, (xii) acquisition, financing and divestitures related expenses, (xiii) restructuring and related charges and (xiv) other items not indicative of our ongoing operating
+performance.
+We believe that our non-GAAP financial measures provide meaningful supplemental information regarding our performance by excluding certain items that may not be indicative of our recurring core business operating results.
+We believe that both our management and investors benefit from referring to our non-GAAP financial measures in assessing our performance and when planning, forecasting, and analyzing future periods. Our non-GAAP financial measures also
+facilitate our management’s internal comparisons to our historical performance. We believe our non-GAAP financial measures are useful to investors both because (1) they allow for greater transparency with respect to key metrics used by our
+management in its financial and operational decision-making and (2) they are used by our institutional investors and the analyst community to help them analyze the health of our business.
+There are a number of limitations related to the use of non-GAAP financial measures. In light of these limitations we provide specific information regarding the GAAP amounts excluded from these non-GAAP financial measures and evaluate these
+non-GAAP financial measures together with their relevant financial measures in accordance with GAAP.
+In regards to forward looking non-GAAP guidance, we are not able to reconcile the forward-looking Non-GAAP EPS measures to the closest corresponding GAAP measures without unreasonable efforts because we are unable to predict the ultimate
+outcome of certain significant items. These items include, but are not limited to, significant legal settlements, unrealized gains and losses on equity investments, tax and regulatory reserve changes, restructuring costs and acquisition and financing related
+impacts.
+Certain financial information relating to Delivery Hero included in this presentation has been derived from Delivery Hero’s publicly reported financial information. Delivery Hero prepares its consolidated financial statements in accordance with IFRS
+Accounting Standards as adopted by the European Union. Certain measures regarding Delivery Hero, including Adjusted EBITDA, are non-IFRS financial measures and may not be comparable to similarly titled measures used by other companies. Such
+measures should not be considered in isolation or as a substitute for financial measures prepared in accordance with IFRS. For definitions, calculation methodologies, and reconciliations to the most directly comparable IFRS measures, where applicable,
+please refer to Delivery Hero's publicly available investor relations materials and financial reports available at ir.deliveryhero.com.
+
+                                                                                                                                                                                                                                                                            2
+Proposed transaction summary
+              Uber has entered into an agreement to acquire Delivery Hero via a voluntary public takeover offer in cash for all shares not already held by Uber,
+              with a minimum acceptance threshold of 50% plus one share (including Uber’s existing ~37% economic ownership)
+
+              €41.50 per share Offer Price represents $14.8 billion Equity Value (implied for 100% of the company)¹, or $13.7 billion adjusted for Uber’s prior
+Transaction   stake purchases
+ Overview
+              Uber’s multiple paid implies ~8x EV / 2027E Adj. EBITDA (incl. Uber’s existing economic ownership and over $1.2 billion of run-rate synergies)2
+
+              Delivery Hero has agreed to sell its business operations in 14 markets separately to SSW Partners for ~$1.6 billion
+
+
+              Transaction to be funded through existing cash on balance sheet and new debt financing. Uber is committed to maintaining its investment
+ Financial    grade rating and to its capital allocation framework. Gross leverage expected to remain below 2x
+  Impact
+              Transaction expected to be Non-GAAP EPS accretive upon close; high-single-digit percentage accretion by year three
+
+
+              Delivery Hero Management and Supervisory Boards unanimously welcome and support the takeover offer and intend to recommend that
+              shareholders tender into the offer, subject to the review of the offer document³
+  Board
+ Support
+and TIming    Prosus has irrevocably agreed to tender its entire stake in Delivery Hero (~17% of shares outstanding) into the offer
+
+              The offer will be subject to customary closing conditions, including receipt of specified regulatory approvals, with closing expected in H2’27
+
+                      Notes: Transaction values translated from EUR to USD at 1.14 spot conversion rate.
+                      1 Based on fully diluted shares outstanding of 314 million. 2. Uber purchased a ~37% economic stake in Delivery Hero at prices below the Offer Price, reducing Uber’s all-in equity purchase price. Net debt and other equity-to-enterprise
+                      bridge items (including non-controlling interests) of $4.2 billion and other adjustments. Consensus as per Delivery Hero company compiled consensus. Adjusted EBITDA presented here is adjusted based on Uber’s reporting standards (U.S.
+                                                                                                                                                                                                                                                                    3
+                      GAAP) and also reflects the pro-forma group to be acquired. 3. Subject to the formal reasoned opinion to be published following the publication of the offer document.
+Delivery Hero at a glance
+Scaled multi-vertical marketplace                                                                                        Global leadership
+
+
+
+                                                                                                                                                               Markets                         #1 positions                            Key brands
+      49M
+                 1
+
+                                               900K 1.1M
+        MAPCs                                        Earners                         Merchants
+                                                                                                                                EMEA                                 27                                    20
+
+
+
+                                                                                                                                LatAm                                13                                    11
+
+                                                               $1.1B
+            2
+$42B 2.9B
+  Gross         Trips                                             Adj. EBITDA                                                   APAC                                 10                                     7
+ Bookings
+
+                 Notes: Financial and operational data reflects 2025 figures. All Delivery Hero figures reflect Delivery Hero assets within acquisition scope. Delivery Hero financials are presented as prepared in their consolidated financial statements in
+                 accordance with IFRS. Delivery Hero financials translated from EUR to USD at 1.12 average conversion rate.
+                 1. Monthly active users used as a proxy for MAPCs (Monthly Active Platform Consumers). 2. Gross Merchandise Value (GMV) used as a proxy for Gross Bookings. Delivery Hero defines GMV as the total value paid by customers (including
+                                                                                                                                                                                                                                                                  4
+                 VAT, delivery fees, other fees and subsidies but excluding subscription fees, tips and delivery-as-a-service fees).
+Extending Uber’s global leadership to go
+anywhere and get anything
+ 2025 Gross Bookings ($B)                                                                                                                       $236
+                                                                                                                                                                                        2025 Adj. EBITDA ($B)
+
+                                                                                                                                                                                                                                         $9.8
+                                                                                                                                                   $97
+                                                                                                                                                  Uber
+                                                                                                                                                 Mobility                                                                                 $1.1
+                                                                                                                                                                                          ~1.5x
+                                                                                                                                                               $5
+                                                                                                                                                             Freight
+
+
+
+                                                                                                                                                   $91
+                                                                                                                                                  Uber
+                                                                                                                                                 Delivery                                                                                $8.7
+
+                                                                                                                                                             $133                                              1
+                                                                                                                                                   $42                                                  $6.0
+                                                                                                                                                 Delivery
+                                                                                                                                                  Hero
+
+
+
+                                                                                                                                                     +
+                                                                                                                                                                                                    Rest of
+                                                                                                                                                                                                   Operational                             +
+ Total markets   1            11                8              18                2               15               41               7               99                                                Peers
+
+
+
+
+                     Notes: Company filings reflect calendar year 2025 data; broker estimates for private companies and companies with undisclosed segment financials. All Delivery Hero figures reflect Delivery Hero assets within acquisition scope and are
+                     presented as prepared in their consolidated financial statements in accordance with IFRS. Gross Bookings figures represent 2025 Delivery Gross Bookings (or competitor-equivalent metric) for 100% owned entities. Delivery Hero financials
+                     translated from EUR to USD at average conversion rate of 1.12. Meituan figures reflect food delivery segment due to lack of broker estimates for Grocery & Retail-equivalent segment.
+                                                                                                                                                                                                                                                                   5
+                     1. Represents combined 2025 Adj. EBITDA for peer set consisting of Eternal, Lyft, Grab, Prosus, Instacart, Didi, and DoorDash. Excludes Meituan due to lack of broker estimates for segment-level profitability.
+Transaction rationale
+
+ 1                     2                       3                       4
+Global platform       Highly complementary    Unlocks a much larger   Clear roadmap for
+accelerates product   geographic footprint,   cross-platform          value creation with
+innovation for        with leading category   opportunity             significant synergies
+customers             positions
+
+
+
+
+                                                                                              6
+   (1) Accelerating Innovation               (2) Complementary Footprint               (3) Cross-Platform Opportunity          (4) Value Creation
+
+
+
+
+Greater benefits for consumers, merchants
+and earners
+
+                                 Consumers
+
+
+More engagement                                Greater selection,            Consumers                       Merchants              Earners
+ across Mobility                               better experience
+  and Delivery                                     and value
+                                                                           Uber’s best in class          Higher demand         More
+                                                                           tech and products,            from a larger, more   cross-platform
+                                                                           globally                      engaged consumer      earnings
+                                                                                                         base                  opportunities
+
+
+                                                                           Deliver value                 Enhanced tooling      Denser network
+                                                                           across platform,              for advertising and   increases
+                                                                           with a deeper Uber            marketing             utilization
+     Earners                                       Merchants
+                                                                           One offering
+
+                          More demand and
+                           opportunities
+                                                                                                                                                    7
+ (1) Accelerating Innovation                                     (2) Complementary Footprint                                                (3) Cross-Platform Opportunity                                                        (4) Value Creation
+
+
+
+
+Delivery Hero expands Uber to ~100 markets
+                                                                                                                                                                                                                             Pre Deal                 Post Deal
+
+
+
+                                                                                                                                                                                       Cross-Platform
+                                                                                                                                                                                       Markets                                    34             →          58
+
+
+                                                                                                                                                                                       Total
+                                                                                                                                                                                       Markets                                    79             →          99
+
+
+
+ New Cross-Platform Markets
+ New Delivery Markets
+                                                                                                                                                                                                                   50M+
+ Existing Uber Markets                                                                                                                                                                                             new eligible
+                                                                                                                                                                                                                   cross-platform users1
+
+                              Note: All Delivery Hero figures reflect Delivery Hero assets within acquisition scope.
+                              1. Calculated as sum of Uber MAPCs and Delivery Hero monthly active customers in new cross-platform markets, assuming no existing customer overlap. Cross-platform market defined as a market where Uber offers both Mobility and   8
+                              Delivery services.
+ (1) Accelerating Innovation    (2) Complementary Footprint                 (3) Cross-Platform Opportunity                           (4) Value Creation
+
+
+
+
+Enhanced cross-platform position unlocks
+meaningful topline synergies
+
+1         Large audience
+          opportunity                        2          Efficient acquisition
+                                                                                                        3             Upsell to
+                                                                                                                      cross-platform
+
+
+                                              >50% lower cost of incremental consumer                        Cross-platform users generate 3x more
+
+   35M+                                         acquisition compared to paid channels                        Gross Bookings vs. single business users
+
+
+   Delivery Hero users in new
+   cross-platform markets
+
+
+   15M+
+   Uber Mobility users in new
+   cross-platform markets                             Paid channels   Cross-platform                               Single business     Cross-platform
+                                                                                                                         user               user
+
+
+
+                                                                                                                                                          9
+ (1) Accelerating Innovation                                  (2) Complementary Footprint                                                  (3) Cross-Platform Opportunity                                                           (4) Value Creation
+
+
+
+
+Cross-platform case study: combination
+enhances Uber’s position in the Middle East
+       Uber and Talabat are successful standalone                                                                                                           …and are well-positioned to rank among Uber’s
+ ✓     brands in the Middle East…                                                                                                              ✓            strongest cross-platform ecosystems when combined
+
+
+                                                                                                                                                 Cross-platform coverage5                                           Clear category leadership
+                                                                      1
+                                       Mobility              #1 CP                Delivery
+                                                                                                                                                                                   ~28%
+
+                                   +34%                                         +28%
+                                                                                                                     →
+     Strong topline
+     momentum²                                                                                                                                              20%
+                                                                                                                                                                                                                                  3-4x
+                                         YoY                                         YoY
+
+
+     Large                                                                                                                                                                                                             Uber’s top cross-platform
+     consumer                        ~8M                                          ~8M                                                                                                                                 markets are 3-4x larger than
+     ecosystems                       MAUs³                                        MAUs                                                                                                                               #2 player across Mobility and
+                                                                                                                                                                                                                          Delivery, on average
+
+
+     Attractive                       ~7%                                         ~7%                                                                                             Best in
+     financial profile         Adj. EBITDA Margin                         Adj. EBITDA Margin4                                                              Global
+                                                                                                                                                                                  Class
+
+
+                         1. Category position. 2. Reflects 2025 Gross Bookings YoY constant-currency growth. 3. Monthly Active Users. 4. Talabat Adjusted EBITDA presented here in line with Delivery Hero’s reporting standards (IFRS). 5. Defined as percentage of
+                         MAPCs in markets with active Mobility and Delivery businesses who use both offerings.
+                                                                                                                                                                                                                                                                       10
+ (1) Accelerating Innovation             (2) Complementary Footprint              (3) Cross-Platform Opportunity              (4) Value Creation
+
+
+
+
+Significant value creation runway
+
+ Further upside and
+ benefits to platform                       +                      Synergy
+                                                                  realization                        =                Driving value
+                                                                                                                     to shareholders
+
+         Expand cross-platform
+                                                                Annualized synergies of over                       Expect transaction to be
+         adoption (higher
+                                                                $1.2 billion within 18 months
+         engagement, frequency, and
+                                                                of closing                                             Non-GAAP EPS
+         customer lifetime value)
+                                                                                                                    accretive upon close;
+         Deploy Uber's proven                                                                                         high-single-digit
+         platform capabilities                                  Shared common tech platform                        percentage accretion by
+         (marketplace technology, Uber                          and other shared services                                year three
+         One, and operating expertise)
+
+
+
+
+                                                                                                                                                   11
+Transaction preserves financial flexibility and
+strong investment grade balance sheet
+  Transaction financing                                                                                                                    SSW transaction structure
+   To be financed through existing cash and new debt                                                                                     Delivery Hero has agreed to sell its business operations in
+   financing                                                                                                                             certain markets to SSW Partners for ~$1.6 billion,
+                                                                                                                                         particularly in Delivery overlap markets¹
+   Executed a committed bridge facility of ~€14 billion for
+   cash confirmation purposes; to be refinanced prior to                                                                                 Separate transaction, which is conditional on closing of
+   closing                                                                                                                               Uber offer for Delivery Hero
+
+  Balance sheet and credit profile                                                                                                         Delivery Hero markets being sold to SSW
+                                                                                                                                          (Total: 14 markets, ~$11 billion Gross Bookings)
+   Gross leverage expected to remain below 2x
+                                                                                                                                        Austria                    Chile                      Cyprus      Czechia   Ecuador
+
+   Committed to maintaining investment grade rating
+                                                                                                                                        Greece                      Moldova                    Norway     Poland    Portugal
+
+
+                                                                                                                                        Romania                     Spain                      Sweden     Türkiye
+
+
+
+
+                1. Uber has agreed to lend SSW funds to finance the majority of the SSW transaction. SSW will repay Uber such funds over time, including in the event of a future sale of these assets.                        12
+Fully aligned with Uber’s capital allocation
+framework
+ 1 Invest in organic growth
+ 2 Invest in autonomous                 ✓
+                                            Strategic fit
+                                            Complements organic strategy
+
+
+                                            Multiple strategic objectives
+ 3 Pursue selective M&A
+                                        ✓
+                                            Expands TAM, platform, capabilities
+
+
+                                            High confidence in execution
+                                        ✓
+
+ 4
+                                            Clear regulatory and integration path
+     Return excess capital
+
+                                        ✓
+                                            Financial discipline
+                                            Accretive at an attractive valuation
+
+ 5 Maintain investment grade strength
+                                                                                    13
+Delivery Hero strengthens Uber’s
+long-term investment thesis
+
+Expanded                 Greater             Higher                 Continued
+growth                   cross-platform      earnings               financial
+platform                 engagement          potential              discipline
+
+Adds attractive          Broader product     Synergies, operating   Consistent with
+markets and              offering and more   leverage, and          capital allocation
+complementary            cross-platform      Non-GAAP EPS           framework
+capabilities             activity            accretion
+
+
+
+
+                  A stronger platform, broader growth opportunities,
+                        and greater long-term shareholder value
+                                                                                         14
+Uber Non-GAAP Reconciliations
+Adjusted EBITDA Reconciliation – FY25 (Unaudited)
+$ in millions
+
+                                                                                 Fiscal Year Ended December 31,
+                                                                                                          2025
+       Adjusted EBITDA                                                                                  $8,730
+       Add (deduct):
+       Legal, non-income tax, and regulatory reserve changes and settlements                             (564)
+       Goodwill and asset impairments / loss on sale of assets                                              (2)
+       Restructuring and related charges                                                                    (9)
+       Loss on lease arrangements, net                                                                      (2)
+       Acquisition, financing and divestitures related expenses                                            (43)
+       Depreciation and amortization                                                                      (719)
+       Stock-based compensation expense                                                                 (1,826)
+       Income from operations                                                                           $5,565
+       Add (deduct):
+       Other income (expense), net                                                                         (68)
+       Interest expense                                                                                  (440)
+       Interest income                                                                                     743
+       Loss from equity method investments                                                                 (53)
+       (Provision for) benefit from income taxes                                                          4,346
+       Net (income) loss attributable to non-controlling interests, net of tax                             (40)
+       Net income attributable to Uber Technologies, Inc.                                              $10,053
+
+
+
+                                                                                                                  16
+
