@@ -115,11 +115,38 @@ def test_transition_check_diagnostic_reports_the_change_and_warns_when_flagged()
     assert "return on capital" in " ".join(k for k, _v in diag.rows)
     assert "A small drop is normal" in (diag.note or "")
     assert any("is far below the year-5 free cash flow" in w for w in result.warnings)
+
+
+def test_the_bear_case_is_reported_but_never_flagged():
+    """Rule 5 fixes the bear's terminal return at its cost of capital, so its step is expected."""
+    result = compute(load_yaml(FIXTURE), MARKET)
+    rows = dict(result.analysis.diagnostics[-1].rows)
+    bear = rows["bear case, free cash flow (USD millions)"]
+    # the fixture's bear falls 42%, well past the 15% tolerance, yet carries the note instead of a flag
+    assert "a change of -42.4%" in bear
+    assert bear.endswith("(expected: the bear's terminal return equals its cost of capital by rule)")
+    assert "(flag)" not in bear
+    assert "(flag)" in rows["base case, free cash flow (USD millions)"]
+    assert not any(w.startswith("bear: the terminal year's free cash flow") for w in result.warnings)
+    assert any(w.startswith("base: the terminal year's free cash flow") for w in result.warnings)
+    assert "The bear case is shown but not checked" in (result.analysis.diagnostics[-1].note or "")
+    # a file whose only cliff is the bear's does not flag the diagnostic at all
+    doc = load_yaml(FIXTURE)
+    for name, premium in {"base": 0.03, "bull": 0.10, "management": 0.05}.items():
+        sc = doc["scenarios"][name]
+        sc["terminal"]["growth"] = {"value": 0.0, "reason": "no growth forever"}
+        sc["terminal"]["roic_premium"] = {"value": premium, "allow_large_premium": False, "reason": "test"}
+        sc["tax_rate"]["terminal"] = sc["tax_rate"]["start"]
+    quiet = compute(doc, MARKET)                            # the bear keeps its 42% step and its zero premium
+    bear_row = dict(quiet.analysis.diagnostics[-1].rows)["bear case, free cash flow (USD millions)"]
+    assert "a change of -" in bear_row
+    assert quiet.analysis.diagnostics[-1].flag is False
+    assert not any("free cash flow" in w for w in quiet.warnings)
     # a file whose terminal settings agree with its last year neither flags nor warns: no terminal growth
     # (so no terminal reinvestment and no revenue step), the same tax rate, and a premium that keeps the
     # terminal return above half the year-5 implied return
     doc = load_yaml(FIXTURE)
-    premiums = {"bear": 0.0, "base": 0.03, "bull": 0.10, "management": 0.05}
+    premiums = {"base": 0.03, "bull": 0.10, "management": 0.05}     # the bear is never checked (rule 5)
     for name, premium in premiums.items():
         s = doc["scenarios"][name]
         s["terminal"]["growth"] = {"value": 0.0, "reason": "no growth forever"}

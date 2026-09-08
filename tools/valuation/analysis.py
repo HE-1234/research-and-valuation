@@ -25,6 +25,11 @@ from .schema import get_path
 HISTORY_GAP = 0.05      # points of growth beyond which the "history is context" note is printed (rule 11)
 TRANSITION_DROP = 0.15  # a terminal-year cash flow this far below the last explicit year's is a cliff
 TRANSITION_ROIC = 0.5   # a terminal return below this share of the last year's implied return is a cliff
+# The bear case gives up the moat by rule (section 18.4 rule 5: its terminal return on capital equals its
+# terminal cost of capital), so its step into the terminal year is large by construction and is reported
+# without being checked.
+EXEMPT_FROM_TRANSITION = "bear"
+BEAR_EXPECTED = " (expected: the bear's terminal return equals its cost of capital by rule)"
 WACC_STEPS = (-0.02, -0.01, 0.0, 0.01, 0.02)
 TERMINAL_GROWTH_STEPS = (-0.01, -0.005, 0.0, 0.005, 0.01)
 GROWTH_STEPS = (-0.04, -0.02, 0.0, 0.02, 0.04)
@@ -302,8 +307,12 @@ def transition_check(result: ValuationResult, warnings: list[str] | None = None)
     """Section 18.2: the step from the last explicit year into the terminal year, case by case.
 
     Reports the terminal year's free cash flow and return on capital against the last explicit
-    year's, and flags a cliff when the terminal cash flow is the smaller of the two.  A flagged
-    case also gets a line in the run's warnings, because the reviewer must resolve it.
+    year's, and flags a cliff when the step is bigger than the normal notch.  A flagged case also
+    gets a line in the run's warnings, because the reviewer must resolve it.
+
+    The bear case is reported but never flagged: section 18.4 rule 5 fixes its terminal return on
+    capital at its terminal cost of capital, so a large step is what the rule asks for, not a
+    disagreement between the inputs.
     """
     rows: list[tuple[str, str]] = []
     flag = False
@@ -311,13 +320,15 @@ def transition_check(result: ValuationResult, warnings: list[str] | None = None)
     for name, sc in result.scenarios.items():
         last, term = sc.rows[-1], sc.terminal
         change = fcff_change(last.fcff, term.fcff)
-        hit = transition_flag(last.fcff, term.fcff, last.roic, term.roic)
+        checked = name != EXEMPT_FROM_TRANSITION
+        hit = checked and transition_flag(last.fcff, term.fcff, last.roic, term.roic)
         flag = flag or hit
         last_year = last.year
         rows.append((f"{name} case, free cash flow (USD millions)",
                      f"year {last.year} {last.fcff:,.0f} to terminal year {term.fcff:,.0f}"
                      + ("" if change is None else f", a change of {change * 100:+.1f}%")
-                     + (" (flag)" if hit else "")))
+                     + (" (flag)" if hit else "")
+                     + ("" if checked else BEAR_EXPECTED)))
         rows.append((f"{name} case, return on capital",
                      f"year {last.year} {_pct(last.roic)} to terminal year {_pct(term.roic)}"))
         if hit and warnings is not None:
@@ -326,11 +337,13 @@ def transition_check(result: ValuationResult, warnings: list[str] | None = None)
                 f"free cash flow ({last.fcff:,.0f}); the terminal settings and the year-{last.year} inputs disagree")
     note = ("A small drop is normal, because the terminal year reinvests g divided by return on capital. "
             f"Flagged when the terminal year's cash flow is more than {TRANSITION_DROP * 100:.0f}% below the year-"
-            f"{last_year} figure, or when the terminal return on capital is below half of that year's.")
+            f"{last_year} figure, or when the terminal return on capital is below half of that year's. The bear "
+            "case is shown but not checked, because its terminal return equals its cost of capital by rule.")
     if flag:
         note = ("A small drop is normal, because the terminal year reinvests g divided by return on capital; a drop "
                 "this large means the terminal settings and the last explicit year disagree. Revisit the terminal "
-                "return on capital or the shape of the last years, rather than accepting the step.")
+                "return on capital or the shape of the last years, rather than accepting the step. The bear case is "
+                "shown but not checked, because its terminal return equals its cost of capital by rule.")
     return Diagnostic("7. The step from the last explicit year into the terminal year", rows, flag=flag, note=note)
 
 

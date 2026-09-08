@@ -318,13 +318,18 @@ Convention differences found by reading his formulas cell by cell:
   notch downwards is normal, because the terminal year reinvests `g / ROIC` whatever the last
   explicit year spent (his own Alphabet February 2024 sheet is 10.7% down, Microsoft 21%), so the
   check flags only a fall of more than 15% or a terminal return below half the last year's
-  implied return. A flagged case also gets a line in the run's warnings.
+  implied return. A flagged case also gets a line in the run's warnings. The **bear case is
+  reported but never flagged**: rule 5 fixes its terminal return at its terminal cost of capital,
+  so its step is large by construction, and its cash-flow row carries "(expected: the bear's
+  terminal return equals its cost of capital by rule)" instead.
 - Terminal return-on-capital premiums (section 18.4 rule 5): the bear case must be 0, and the
   soft ceilings are 8 points for the base case and 12 for the bull, above which
   `allow_large_premium` and a reason are required and the engine warns. Damodaran's own choices
   for wide moats were 4 points (Alphabet 2018) and 11.5 (Nvidia 2023). The engine also warns,
   without stopping, when the resulting terminal return on capital is at or above the base-year
-  return.
+  return **as reported**: a book carrying goodwill from acquisitions understates the return the
+  operating business earns, so the warning asks the analyst's `detail` to say what the return is
+  without it rather than treating the comparison as settled.
 - Implied ROIC divides the year's after-tax operating income by invested capital at the start
   of the year, rolled forward with reinvestment (row 40). Base-year invested capital includes
   the R&D asset when `capitalize_rnd` is on (row 39).

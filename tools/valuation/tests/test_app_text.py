@@ -136,9 +136,11 @@ def test_the_new_terminal_and_transition_messages_read_as_sentences():
         "Bear case, terminal return-on-capital premium is 2.00% and must be zero: the bear case assumes the "
         "advantage is gone, so the return on capital falls to the cost of capital")
     assert plain_message("base: terminal return on capital 11.75% is at or above the base-year return on capital "
-                         "23.90%; a mature company should earn less than the company earns today") == (
-        "Base case: the terminal return on capital 11.75% is at or above the base-year return on capital 23.90%; "
-        "a mature company should earn less than the company earns today")
+                         "of 6.83% as reported; if that figure is depressed by goodwill from acquisitions, the "
+                         "analyst's detail should say what the return is without it") == (
+        "Base case: the terminal return on capital 11.75% is at or above the base-year return on capital of 6.83% "
+        "as reported; if that figure is depressed by goodwill from acquisitions, the analyst's detail should say "
+        "what the return is without it")
     text = plain_message("base: the terminal year's free cash flow (2,583) is far below the year-10 free cash flow "
                          "(4,198); the terminal settings and the year-10 inputs disagree")
     assert text.startswith("Base case: the terminal year's free cash flow (2,583) is far below the year-10")

@@ -604,17 +604,20 @@ def _terminal_growth_check(doc: dict[str, Any], name: str, inp: ScenarioInputs,
 
 
 def _terminal_roic_check(name: str, res: ScenarioResult, base: BaseYear) -> str | None:
-    """Section 18.4 rule 5: the terminal return on capital must sit below the base-year return.
+    """Section 18.4 rule 5: the terminal return on capital should sit below the base-year return.
 
-    A warning, never a stop: the arithmetic is sound, but a company still earning today's return
-    forever is an assumption the reviewer has to defend.
+    A warning, never a stop, and deliberately hedged: the base-year figure is after-tax operating
+    income over the invested capital the analyst recorded, and a book carrying goodwill from
+    acquisitions understates the return the operating business actually earns.  The warning
+    therefore says "as reported" and points at the analyst's working notes.
     """
     if base.roic is None:
         return None
     if res.terminal.roic < base.roic - 1e-12:
         return None
     return (f"{name}: terminal return on capital {res.terminal.roic:.2%} is at or above the base-year return on "
-            f"capital {base.roic:.2%}; a mature company should earn less than the company earns today")
+            f"capital of {base.roic:.2%} as reported; if that figure is depressed by goodwill from acquisitions, "
+            "the analyst's detail should say what the return is without it")
 
 
 def _weighted(results: dict[str, ScenarioResult]) -> WeightedResult | None:
