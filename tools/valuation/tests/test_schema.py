@@ -294,3 +294,12 @@ def test_numeric_terminal_growth_above_manual_riskfree_is_an_error_unless_allowe
     doc["market"]["risk_free_rate"] = "auto"
     doc["scenarios"]["bull"]["terminal"]["growth"]["allow_above_riskfree"] = False
     assert validate(doc).ok
+
+
+def test_detail_is_accepted_silently_in_cells_and_scenarios(doc):
+    doc["scenarios"]["base"]["revenue_growth"]["detail"] = "History table: 2022 9.8%, 2023 8.7%."
+    doc["scenarios"]["base"]["detail"] = "Working notes for the whole case."
+    doc["base_year"]["revenue"]["detail"] = "FY2025 plus six months minus six months."
+    doc["diagnostics"]["historical_revenue_cagr"]["detail"] = "From the ten-year table."
+    v = validate(doc)
+    assert v.ok and not any("detail" in w for w in v.warnings)

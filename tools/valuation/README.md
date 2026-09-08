@@ -80,7 +80,7 @@ Analysts never write `owner_edited` or `changelog`; the app maintains them. Wher
 cannot keep a layout exactly (column-aligned flow mappings, flow mappings split over two
 lines) it writes the same mapping on one line; nothing else changes.
 
-## The app (`valuation-app`)
+## The app (`valuation-app`): a guided walk through the assumptions
 
 ```
 uv sync --extra app                      # once
@@ -88,49 +88,96 @@ uv run --extra app valuation-app         # opens http://localhost:8501; extra ar
 uv run --extra app valuation-app --server.port 8502
 ```
 
+The app is local-only: the launcher binds Streamlit to `127.0.0.1` (not reachable from other
+machines), opens the browser and silences Streamlit's usage-statistics prompt. Each default can be
+overridden by passing the same option, for example `--server.address 0.0.0.0` to expose it on the
+network or `--server.headless true` to run without a browser.
+
 The engine never needs streamlit: `uv run value ...` and `uv run pytest -q` work without the
-`app` extra (the app tests then skip). The page is a view and an editor of one company's
-`assumptions.yaml`; it holds no arithmetic and calls `valuation.compute`, `valuation.render`,
-`valuation.render_assumptions` and `valuation.yamlio`.
+`app` extra (the app tests then skip). The app is a view and an editor of one company's
+`assumptions.yaml`; it holds no arithmetic and calls `valuation.compute`, `valuation.impact`,
+`valuation.render`, `valuation.render_assumptions` and `valuation.yamlio`. Code: `app.py`
+(routing), `app_core.py` (state, widgets, callbacks, charts), `app_pages.py` (one function per
+page), `impact.py` (the factor ranking, engine-side and tested).
 
-Layout:
+**Shape (section 18.10).** Ten pages, one factor per page, Back and Next at the bottom of
+every page, a progress line at the top ("Step 3 of 10: Revenue growth"), and a clickable step
+list in the sidebar that marks the steps already visited. Results appear only on the last
+page. Every edit recomputes at once through the engine; the sidebar shows the current bear /
+base / bull / weighted values on every page. Switching company returns to Start.
 
-- **Sidebar.** Company picker over `companies/*/valuation/assumptions.yaml`. Market inputs:
-  the price (Yahoo), risk-free rate (FRED) and equity risk premium (cached Damodaran row) are
-  fetched once per company per session (15-minute cache) and shown with their dates; each has
-  an override box, and when a fetch fails the box is empty and asks for a value instead of
-  crashing. Horizon 5 or 10 (switching pads or cuts every per-year list and says so). The
-  unsaved-changes list (path, file value, current value). Buttons:
-  - **Reset to file** reloads the YAML and drops every unsaved edit.
-  - **Save to assumptions.yaml** writes only the changed cells through the ruamel writer,
-    appends one `changelog` entry per cell (with the optional one-line note typed above the
-    buttons), sets `owner_edited`, and regenerates `assumptions.md`. Reasons and sources are
-    written only if you edited them; comments and key order are kept. If the file changed on
-    disk since it was loaded (an agent redraft, for instance), Save refuses and asks for a
-    reload.
-  - **Write valuation.md** runs the same code path as `uv run value <TICKER>` with the
-    sidebar's market inputs: archives the current pair to `history/<YYYY-MM-DD-HHMM>/`,
-    computes, writes `valuation.md` and `assumptions.md`. Refused while changes are unsaved.
-  - **Commit** runs `git add companies/<T>/valuation` and commits as `company-research`
-    with `value(<T>): compute <QLABEL> rev N` (N = history folders + 1) when `valuation.md`
-    changed, or `value(<T>): owner edits to assumptions` when only the YAML and its rendering
-    changed. Output is shown on the page. It never pushes.
-- **Top of page.** The section 18.5 results table (one row per case plus the weighted row)
-  and a bar chart of bear / base / bull / weighted value per share with the price as a dashed
-  line and each bar labelled with its 10-year-fade reference.
-- **Tabs.** `Bear`, `Base`, `Bull`: the story in a text box, the weight, a by-year table
-  (revenue growth, operating margin, reinvestment override; decimals, `0.12` means 12%), and
-  one row per single-value input with the reason next to it and the source read-only.
-  `Management`: the computable switch with its reason, the guidance table read-only, and the
-  same inputs with nulls visible. `Base year & bridge` and `Cost of capital`: sourced facts as
-  tables, editable after the "Edit facts" toggle, with the derived numbers (adjusted operating
-  income, invested capital, levered beta, cost of equity, WACC, terminal WACC, terminal ROIC
-  per case) live. `Sensitivity`: both grids as heatmaps with the case as entered outlined.
-  `Year by year` (with a case selector), `Reverse DCF`, `Diagnostics`, `Warnings`.
+| Page | What it shows and asks |
+|---|---|
+| 1. Start | Company picker; as-of quarter and file; the price (Yahoo Finance), risk-free rate (FRED; if unreachable, the cached Damodaran T-bond rate with a note) and equity risk premium (cached Damodaran row), each as a box with the fetched value, date and source under it (a failed price fetch leaves the box empty and asks for a value); the model horizon (5 or 10) in an expander; the factor ranking for this company as a small table with one row per factor page (Factor, What we nudged, Change in base value per share); a glossary of the words used in the walk. |
+| 2. The stories | Bear, base and bull side by side, each headed by its weight and a two-row table of its revenue growth and operating margin paths (years as columns), with the story in an editable text box (equal heights); the management summary and computable status below. Asks the owner to agree with the shape of each case before touching numbers. |
+| 3. Revenue growth | Explanation; the company's own five-year growth when `diagnostics.historical_revenue_cagr` is given; one bordered block per case with the analyst's reason in full, the source tags, and five (or ten) number boxes labelled Year 1..Year 5 in percent (20 means 20%). |
+| 4. Operating margin | Same layout for the margin path; the history line uses `diagnostics.historical_operating_margin` and the base-year adjusted margin. |
+| 5-8. Reinvestment, Cost of capital, Terminal value, Taxes and weights | In the order of the ranking (largest impact first). Reinvestment: sales-to-capital for years 1-5 and 6-10, and the per-year spending figures in whole USD millions (empty = the rule), echoed under the boxes in words ("Year 1 173,970; years 3-5 by the sales-to-capital rule"). Cost of capital: one block with the build inputs (method in words, industry, unlevered beta, debt to equity, pre-tax cost of debt, the risk-free rate and equity risk premium from Start read-only) and the resulting levered beta, cost of equity, cost of capital and terminal cost of capital in a small table, then one compact row of per-case override boxes (bear / base / bull; empty = shared). Terminal value: the shared terminal cost-of-capital method in words, then per case a checkbox "Equal to the risk-free rate (x% today)" for terminal growth (unchecked reveals a percentage box and the allow switch) and the return-on-capital premium in points with its allow switch. Taxes and weights: forecast-year and terminal tax rate per case, the weight per case, and the sum of the weights. |
+| 9. Facts check | Base year, bridge and cost-of-capital build as read-only wrapped tables (Item, Value, Source; a "Show reasons" toggle adds the Reason column), and the derived numbers (adjusted operating income, invested capital, the bridge for the base case, levered beta, cost of equity, cost of capital, terminal cost of capital). An "Edit facts" toggle reveals number boxes with the reasons beside them. No judgment is asked. |
+| 10. Results | The section 18.5 results table (one row per case plus the weighted row, cases named), a bar chart with the value per share on top of each bar, the 10-year-fade reference as a lighter label at the foot and a sentence saying what the fade is, then expanders: Sensitivity (two heatmaps, base cell outlined), Year by year (case selector; nine wrapped columns), Reverse DCF, Diagnostics, Warnings, Unsaved changes (each change named in words, values as the pages show them). Under "What to do now": Save (primary, with the note box above it), Write the report (disabled while changes are unsaved, with a caption saying why), Record in the repository (with a caption naming the files and the commit message), and Start over in its own expander with a confirmation when changes are unsaved. |
 
-Every change recomputes at once. A change that stops a scenario (a null in a required cell,
-terminal growth at or above the terminal cost of capital) shows the engine's message in place
-of that case's numbers; the page never shows a stack trace.
+**Every factor page, top to bottom:** (a) a two-to-four-sentence explanation for the
+16-year-old (what the factor is, why it moves the value, how Damodaran treats it) and a
+one-line instruction; (b) the company's own history where the YAML carries it
+(`diagnostics.historical_revenue_cagr` / `historical_operating_margin`), nothing otherwise;
+(c) one bordered block per case in the order bear, base, bull, management (management only when
+`computable: true`; otherwise a one-line note saying why it is not computed, with the recorded
+guidance in an expander on the revenue and margin pages); each block shows the case name and
+weight, the reason in full as normal text, a "Working notes" fold-out when the cell carries a
+`detail`, the source tags in small text (only when there is a source), and the inputs prefilled
+with the analyst's values; (d) the live readout "With your current inputs: Bear X / Base Y /
+Bull Z / Weighted W per share, against a price of P", each value followed by "(as loaded ...)"
+once it differs from the file, and "not computed (see its box)" for a case that stops; (e) Back
+and Next. Moving to another page scrolls to its top.
+
+**Screen language.** The owner never sees dotted paths, YAML keys, `--set`, option tokens or
+section citations: every engine and validator message goes through `plain_message()` (cases
+named, rates as percentages, checkbox names quoted, for example "Bull case: terminal growth
+6.00% is above the risk-free rate 4.75%; tick 'Allow growth above the risk-free rate' on the
+Terminal value page or lower the number"), every cell is named by `describe_path()` ("Base
+case, revenue growth, Year 1"), and text from the YAML goes through `md()`, which also maps
+stray keys, section signs and maths symbols in analysts' reasons to words.
+
+**The ranking** (`impact.py`, `impact_ranking(doc, market)`). For the base case as loaded,
+each factor gets one plausible nudge and the change in value per share is recorded: revenue
+growth +1 point in every explicit year; operating margin +1 point every year; sales-to-capital
++10% of its value (and per-year overrides +10%); cost of capital +0.5 point; terminal growth
++0.25 point, capped at the risk-free rate (so -0.25 point when already at the cap); terminal
+return-on-capital premium +1 point; tax rate in the explicit years +1 point. Weights are
+excluded because they change no case's value. The list is sorted by absolute change; the
+middle pages follow it, with revenue growth and operating margin fixed as pages 3 and 4. The
+ranking is recomputed on load, on Save and when a market input changes.
+
+**Formatting rules.** No LaTeX and no `$` in the app's own text (Streamlit reads `$...$` as a
+formula; the pages write "USD"); text from the YAML (reasons, quotes, engine messages) is
+escaped so it shows literally. No Unicode math symbols. One rule per kind: growth, margins,
+taxes, weights and shares of value carry one decimal; market-style rates (risk-free, premiums,
+cost of capital, terminal growth) carry two; rates are typed as percentages (12.0 means 0.12
+in the YAML, the conversion happens in the widget callback). Money in USD millions with
+thousands separators; shares in millions with one decimal; value per share and price to the
+cent. Summary tables use `st.table` (they wrap and never scroll). Per-case blocks are bordered
+containers; nothing is hidden behind a hover.
+
+**Buttons on Results.**
+
+- **Save to the assumptions file** writes only the changed cells through the ruamel writer,
+  appends one `changelog` entry per cell (with the optional one-line note typed above the
+  buttons), sets `owner_edited`, and regenerates `assumptions.md`. Comments and key order are
+  kept. If the file changed on disk since it was loaded (an agent redraft, for instance), Save
+  refuses and asks for a reload. Disabled while there is nothing to save.
+- **Write the report (valuation.md)** runs the same code path as `uv run value <TICKER>` with
+  the Start page's market inputs: archives the current pair to `history/<YYYY-MM-DD-HHMM>/`,
+  computes, writes `valuation.md` and `assumptions.md`. Disabled while changes are unsaved.
+- **Record in the repository** runs `git add companies/<T>/valuation` and commits as `company-research` with
+  `value(<T>): compute <QLABEL> rev N` (N = history folders + 1) when `valuation.md` changed,
+  or `value(<T>): owner edits to assumptions` when only the YAML and its rendering changed.
+  Output is shown on the page. It never pushes.
+- **Start over** (in its own expander at the bottom) reloads the file from disk and returns to
+  Start; with unsaved changes it asks for confirmation first.
+
+A change that stops a scenario (a null in a required cell, terminal growth at or above the
+terminal cost of capital) shows the engine's message in place of that case's number; the
+page never shows a stack trace.
 
 Environment variables for tests and scripts: `VALUATION_REPO_ROOT` points the app at another
 repository root; `VALUATION_APP_NO_FETCH=1` turns fetching off.
@@ -147,6 +194,10 @@ valid example with made-up numbers and comments on every block. Notes beyond sec
   scenario unless `allow_above_riskfree: true` with a reason, in which case it computes and
   a warning is printed. When `market.risk_free_rate` is a number the same rule is checked
   statically by `--validate`.
+- Any input cell may carry `detail`: the working notes behind a short `reason` (history
+  tables, arithmetic). The validator accepts it silently, the app shows it in a "Working notes"
+  fold-out under the reason, and `assumptions.md` prints it as an indented paragraph after the
+  reason.
 - `diagnostics.historical_revenue_cagr` and `diagnostics.historical_operating_margin`
   (optional cells, `{value, source, reason}`) feed the "company's own history" columns of
   the diagnostics in section 18.5 item 9; nothing else in the schema carries that history.
@@ -163,14 +214,23 @@ a rate written as a percent (`12` instead of `0.12`) is a validation error.
 
 - Price: Yahoo chart endpoint (`regularMarketPrice` and its timestamp), browser User-Agent,
   `query1` then `query2`.
-- Risk-free rate: FRED `DGS10` CSV, latest non-empty row.
+- Risk-free rate: FRED `DGS10` CSV, latest non-empty row, with a 20-second timeout and one retry. The
+  request identifies itself plainly (`finance-valuation/<version> (python urllib)`): FRED throttles
+  browser-style User-Agents coming from scripts, so the browser header is used for Yahoo only.
+  If FRED is still unreachable (or fetching is off), the T-bond rate on the latest row of the cached
+  `ERPbymonth.csv` is used instead, labelled `Damodaran ERPbymonth T-bond rate (FRED unavailable)`
+  with that row's date, and a warning says so; neither the CLI nor the app stalls on FRED. The app's
+  Start page shows the fallback as a normal value with a small note and keeps the override box.
 - Equity risk premium: the latest row of Damodaran's `ERPbymonth.xlsx` (`ERP (T12m)` column,
   with the month's `T.Bond Rate`), read from the cache.
 - Industry figures: `betas.xls` (unlevered beta corrected for cash), `wacc.xls` (cost of
   capital), `capex.xls` (sales to invested capital), `margin.xls` (pre-tax unadjusted
-  operating margin), `taxrate.xls` (aggregate effective tax rate), `histgr.xls` (five-year
+  operating margin), `taxrate.xls` (effective tax rate, average across money-making companies;
+  the aggregate column exceeds 100% for some industries and is not used), `histgr.xls` (five-year
   revenue CAGR; `fundgr.xls` is the fallback if `histgr.xls` disappears). Lookup by industry
-  name is case-insensitive, exact first, then substring.
+  name is case-insensitive, exact first, then substring. Each figure has a plausible range
+  (`datasets.PLAUSIBLE`); a dataset value outside it (his sheets hold placeholders such as a 7.0
+  tax rate) is dropped and shown as "not meaningful for this industry" with the raw number.
 
 The cache is `data/damodaran/*.csv` plus `MANIFEST.md` (URL, fetch date, the file's own
 "Date updated" cell, the exact column headers used). A failed fetch of an `auto` cell stops

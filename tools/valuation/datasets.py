@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import csv
 import json
+import math
 import re
 import urllib.request
 from dataclasses import dataclass, field
@@ -49,7 +50,7 @@ SPECS: tuple[DatasetSpec, ...] = (
     DatasetSpec("margin", "pc/datasets/margin.xls", "Industry Averages", "margin.csv",
                 {"pretax_operating_margin": "Pre-tax Unadjusted Operating Margin"}),
     DatasetSpec("taxrate", "pc/datasets/taxrate.xls", "Industry Averages", "taxrate.csv",
-                {"effective_tax_rate": "Aggregate tax rate"}),
+                {"effective_tax_rate": "Average across only money-making companies"}),
     DatasetSpec("histgr", "pc/datasets/histgr.xls", "Industry Averages", "histgr.csv",
                 {"revenue_cagr_5y": "CAGR in Revenues- Last 5 years"},
                 fallback_remote="pc/datasets/fundgr.xls"),
@@ -82,6 +83,19 @@ class IndustryValue:
     dataset_date: str | None
     matched_name: str | None
     column: str
+    note: str | None = None      # set when the dataset's number was outside the plausible range and dropped
+
+
+# Plausible ranges for the industry figures used in the diagnostics.  A number outside its range (his
+# sheets carry placeholders such as 7.0 for a tax rate) is dropped with a note rather than shown.
+PLAUSIBLE = {
+    "unlevered_beta_cash_corrected": (0.0, 5.0),
+    "cost_of_capital": (0.0, 0.30),
+    "sales_to_capital": (0.0, 50.0),
+    "pretax_operating_margin": (-1.0, 1.0),
+    "revenue_cagr_5y": (-0.9, 3.0),
+    "effective_tax_rate": (0.0, 0.60),
+}
 
 
 @dataclass
@@ -229,7 +243,9 @@ def _manifest_markdown(manifest: dict[str, Any], data_dir: Path) -> str:
     lines.append("- `histgr.xls` existed; `fundgr.xls` was not needed." if not notes else "- " + "; ".join(notes))
     lines.append("- Industry lookups are case-insensitive: exact name first, then substring; the matched "
                  "name is printed in valuation.md.")
-    lines.append("- `taxrate.csv` has two `Aggregate tax rate` columns (effective, then cash); the first is used.")
+    lines.append("- `taxrate.csv` repeats its rate columns (accrual, then cash); the first `Average across only "
+                 "money-making companies` is the effective tax rate used. The `Aggregate tax rate` column divides "
+                 "taxes paid by aggregate taxable income and exceeds 100% for some industries, so it is not used.")
     lines.append("- The ERP row used is the last month with a date and a numeric `ERP (T12m)`; `T.Bond Rate` "
                  "is the 10-year Treasury at the start of that month.")
     try:
@@ -299,8 +315,12 @@ def lookup(key: str, industry: str, purpose: str, data_dir: Path = DATA_DIR) -> 
     row = find_industry(table, industry)
     if row is None:
         return IndustryValue(None, key, table.meta.get("date_updated"), None, header)
-    return IndustryValue(_to_float(row[table.column(header)]), key, table.meta.get("date_updated"),
-                         row[0], header)
+    value = _to_float(row[table.column(header)])
+    lo, hi = PLAUSIBLE.get(purpose, (-math.inf, math.inf))
+    if value is not None and not (lo <= value <= hi):
+        return IndustryValue(None, key, table.meta.get("date_updated"), row[0], header,
+                             note=f"not meaningful for this industry (the dataset holds {value:.2f})")
+    return IndustryValue(value, key, table.meta.get("date_updated"), row[0], header)
 
 
 @dataclass

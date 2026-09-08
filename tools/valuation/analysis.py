@@ -154,9 +154,9 @@ def _bisect(f: Callable[[float], float | None], lo: float, hi: float, *, tol: fl
     if flo is None or fhi is None:
         return None, "the cash-flow model could not be evaluated at the search bounds"
     if flo > 0:
-        return None, f"even at the lower bound ({lo:.2f}) the value stays above the target"
+        return None, f"even at the lower bound ({lo * 100:.1f}%) the value stays above the target"
     if fhi < 0:
-        return None, f"even at the upper bound ({hi:.2f}) the value stays below the target"
+        return None, f"even at the upper bound ({hi * 100:.1f}%) the value stays below the target"
     for _ in range(max_iter):
         mid = (lo + hi) / 2.0
         fm = f(mid)
@@ -210,6 +210,8 @@ def _pct(x: float | None) -> str:
 
 
 def _dated(v: datasets.IndustryValue) -> str:
+    if v.value is None and v.note:
+        return f"{v.note} ({v.dataset} dataset {v.dataset_date or 'undated'}, industry '{v.matched_name}')"
     if v.value is None:
         return f"not found in {v.dataset} dataset ({v.dataset_date or 'undated'})"
     return f"{_pct(v.value)} ({v.dataset} dataset {v.dataset_date or 'undated'}, industry '{v.matched_name}')"
@@ -230,14 +232,14 @@ def diagnostics(result: ValuationResult, res: ScenarioResult,
         rows.append(("Industry, revenue growth last 5 years", _dated(figures.revenue_cagr_5y)))
     own = _optional_cell(doc, "diagnostics.historical_revenue_cagr")
     rows.append(("Company's own five-year history", _pct(own) if own is not None
-                 else "not in assumptions.yaml (diagnostics.historical_revenue_cagr)"))
+                 else "not recorded in the assumptions"))
     out.append(Diagnostic("1. Revenue growth against the industry and the company's own history", rows))
 
     last = res.rows[-1]
     size = _optional_cell(doc, "diagnostics.final_year_market_size")
     rows = [(f"Revenue in year {last.year} (USD millions)", f"{last.revenue:,.0f}")]
     if size is None:
-        rows.append(("Market size in year " + str(last.year), "not given (diagnostics.final_year_market_size is null)"))
+        rows.append(("Market size in year " + str(last.year), "not given"))
         flag = False
     else:
         rows.append((f"Market size in year {last.year} (USD millions)", f"{size:,.0f}"))
@@ -253,7 +255,7 @@ def diagnostics(result: ValuationResult, res: ScenarioResult,
         rows.append(("Industry, pre-tax operating margin", _dated(figures.pretax_operating_margin)))
     own_m = _optional_cell(doc, "diagnostics.historical_operating_margin")
     rows.append(("Company's own five-year average margin", _pct(own_m) if own_m is not None
-                 else "not in assumptions.yaml (diagnostics.historical_operating_margin)"))
+                 else "not recorded in the assumptions"))
     out.append(Diagnostic("3. Year-5 margin against the industry and the company's own history", rows))
 
     rows = []

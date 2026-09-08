@@ -1,8 +1,11 @@
 """Market data: FRED DGS10, Yahoo chart price, Damodaran's implied ERP (AGENTS.md section 18.8).
 
 Numbers written in ``assumptions.yaml`` are used as given, with a warning that they are
-manual.  ``auto`` cells are fetched; a failed fetch stops with a message that names the
-``--set`` override.  This module never writes into ``assumptions.yaml``.
+manual.  ``auto`` cells are fetched; a failed price fetch stops with a message that names the
+``--set`` override.  The risk-free rate never stalls: FRED gets a 20 s timeout and one retry,
+and if it is still unreachable the T-bond rate on the latest row of the cached Damodaran ERP
+dataset is used and labelled as such (a warning says so).  This module never writes into
+``assumptions.yaml``.
 """
 
 from __future__ import annotations
@@ -11,6 +14,7 @@ import json
 import time
 import urllib.error
 import urllib.request
+from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -32,15 +36,31 @@ HEADERS = {
 }
 
 
+FRED_TIMEOUT = 20            # seconds per attempt; FRED is intermittently slow
+FRED_ATTEMPTS = 2            # one retry
+FRED_FALLBACK_SOURCE = "Damodaran ERPbymonth T-bond rate (FRED unavailable)"
+
+
 class MarketError(Exception):
     """A required market value could not be obtained."""
 
 
-def _get(url: str, timeout: int = 20, attempts: int = 2) -> bytes:
+@dataclass
+class RiskFree:
+    """A risk-free rate with where it came from; ``note`` explains a fallback, else None."""
+    rate: float
+    date: str
+    source: str
+    note: str | None = None
+
+
+def _get(url: str, timeout: int = 20, attempts: int = 2, headers: dict[str, str] | None = None) -> bytes:
+    """GET with the given headers (browser-like for Yahoo by default), ``attempts`` tries ``timeout``
+    seconds each, 1.5 s apart."""
     last: Exception | None = None
     for i in range(attempts):
         try:
-            req = urllib.request.Request(url, headers=HEADERS)
+            req = urllib.request.Request(url, headers=headers or HEADERS)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return resp.read()
         except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError) as exc:
@@ -50,9 +70,17 @@ def _get(url: str, timeout: int = 20, attempts: int = 2) -> bytes:
     raise MarketError(f"{url}: {last}")
 
 
-def fetch_risk_free(timeout: int = 20) -> tuple[float, str]:
-    """Latest non-empty DGS10 observation as (decimal rate, ISO date)."""
-    text = _get(FRED_URL, timeout).decode("utf-8", "replace")
+# FRED throttles browser-style agents coming from scripts (a browser User-Agent times out after 20 s while
+# a plain one answers in well under a second), so the FRED request identifies itself plainly and never
+# reuses the Yahoo headers.
+FRED_HEADERS = {"User-Agent": f"finance-valuation/{__import__('valuation').__version__} (python urllib)",
+                "Accept": "text/csv,text/plain,*/*"}
+
+
+def fetch_risk_free(timeout: int = FRED_TIMEOUT, attempts: int = FRED_ATTEMPTS) -> tuple[float, str]:
+    """Latest non-empty DGS10 observation as (decimal rate, ISO date); ``attempts`` tries, 1.5 s apart,
+    with a plain identifying User-Agent (never the browser-like one Yahoo needs)."""
+    text = _get(FRED_URL, timeout, attempts, FRED_HEADERS).decode("utf-8", "replace")
     latest: tuple[float, str] | None = None
     for line in text.splitlines()[1:]:
         parts = line.strip().split(",")
@@ -65,6 +93,33 @@ def fetch_risk_free(timeout: int = 20) -> tuple[float, str]:
     if latest is None:
         raise MarketError("FRED DGS10: no non-empty observation in the CSV")
     return latest
+
+
+def fallback_risk_free(data_dir: Path | None = None) -> tuple[float, str]:
+    """The T-bond rate on the latest row of the cached Damodaran ERP dataset, as (decimal rate, row date)."""
+    try:
+        row = datasets.latest_erp(data_dir or datasets.DATA_DIR)
+    except datasets.DatasetError as exc:
+        raise MarketError(f"cached ERPbymonth dataset unusable as a risk-free fallback: {exc}") from exc
+    return row.tbond_rate, row.date
+
+
+def risk_free_with_fallback(timeout: int = FRED_TIMEOUT, attempts: int = FRED_ATTEMPTS, *, fetch: bool = True,
+                            data_dir: Path | None = None) -> RiskFree:
+    """FRED DGS10 first (``attempts`` tries); if FRED cannot be reached, or fetching is off, the T-bond
+    rate on the latest row of the cached Damodaran ERP dataset, labelled as such.  Never stalls on FRED;
+    raises :class:`MarketError` only when the cached dataset is unusable too."""
+    why = "fetching is off"
+    if fetch:
+        try:
+            rate, when = fetch_risk_free(timeout, attempts)
+            return RiskFree(rate, when, "FRED DGS10")
+        except MarketError as exc:
+            why = f"FRED DGS10 unreachable after {attempts} attempts ({exc})"
+    rate, when = fallback_risk_free(data_dir)
+    note = (f"risk-free rate: {why}; using the T-bond rate {rate * 100:.2f}% on the latest row ({when}) of the "
+            "cached Damodaran ERPbymonth dataset")
+    return RiskFree(rate, when, FRED_FALLBACK_SOURCE, note)
 
 
 def fetch_price(ticker: str, timeout: int = 20) -> tuple[float, str]:
@@ -111,15 +166,14 @@ def resolve(doc: dict[str, Any], *, fetch: bool = True, ticker: str | None = Non
 
     rf_cell = get_path(doc, "market.risk_free_rate")
     if rf_cell == "auto":
-        if not fetch:
-            raise MarketError("market.risk_free_rate is 'auto' but fetching is off (--no-fetch); "
-                              "pass --set market.risk_free_rate=<decimal> or write a decimal in assumptions.yaml")
         try:
-            rf, rf_date = fetch_risk_free(timeout)
-            rf_source = "FRED DGS10"
+            got = risk_free_with_fallback(timeout, fetch=fetch, data_dir=data_dir)
         except MarketError as exc:
-            raise MarketError(f"risk-free fetch failed ({exc}); pass --set market.risk_free_rate=<decimal> "
+            raise MarketError(f"risk-free rate: {exc}; pass --set market.risk_free_rate=<decimal> "
                               "or write a decimal in assumptions.yaml") from exc
+        rf, rf_date, rf_source = got.rate, got.date, got.source
+        if got.note:
+            warnings.append(got.note)
     else:
         rf, rf_date, rf_source = float(rf_cell), manual_date, "assumptions.yaml (manual)"
         warnings.append(f"market.risk_free_rate is a manual value ({rf:.4f}) from assumptions.yaml or --set, not fetched")

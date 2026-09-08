@@ -432,7 +432,7 @@ def diagnostics_section(analysis: Analysis) -> str:
             ["Sales to invested capital", num(f.sales_to_capital.value, 2), f.sales_to_capital.dataset_date or ""],
             ["Pre-tax operating margin", pct(f.pretax_operating_margin.value), f.pretax_operating_margin.dataset_date or ""],
             ["Revenue growth, last 5 years (CAGR)", pct(f.revenue_cagr_5y.value), f.revenue_cagr_5y.dataset_date or ""],
-            ["Effective tax rate (aggregate)", pct(f.effective_tax_rate.value), f.effective_tax_rate.dataset_date or ""],
+            ["Effective tax rate (money-making companies)", pct(f.effective_tax_rate.value), f.effective_tax_rate.dataset_date or ""],
         ]
         parts += ["", table(["Industry figure", "Value", "Dataset date"], rows)]
     for d in analysis.diagnostics:

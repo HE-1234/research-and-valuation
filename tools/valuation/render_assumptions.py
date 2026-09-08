@@ -235,10 +235,30 @@ def reasons(doc: dict[str, Any]) -> str:
             if source:
                 line += f" {_esc(source)}"
             parts.append(line)
+            detail = node.get("detail")
+            if detail:
+                parts += ["", _indented(detail)]
         override = get_path(doc, f"scenarios.{name}.cost_of_capital_override")
         if override is not None:
             parts.append(f"- **Cost of capital override** {DASH} pinned at {_pct(override, 2)} for this case only.")
     return "\n".join(parts).lstrip("\n")
+
+
+def _indented(detail: Any) -> str:
+    """Working notes as an indented paragraph under a list item; line breaks are kept."""
+    return "\n".join("    " + line.rstrip() for line in str(detail).strip().splitlines())
+
+
+def _details(doc: dict[str, Any], block: str) -> str:
+    """Working notes (`detail`) of the cells in a block, as indented paragraphs after its table."""
+    node = get_path(doc, block)
+    if not isinstance(node, dict):
+        return ""
+    out = []
+    for key, cell in node.items():
+        if isinstance(cell, dict) and cell.get("detail"):
+            out.append(f"- **{key.replace('_', ' ').capitalize()}**, working notes:\n\n" + _indented(cell["detail"]))
+    return "\n\n" + "\n\n".join(out) if out else ""
 
 
 def base_year(doc: dict[str, Any]) -> str:
@@ -273,6 +293,7 @@ def base_year(doc: dict[str, Any]) -> str:
         ["Reinvestment lag", f"{sw.get('reinvestment_lag', 1)} year" + ("" if sw.get("reinvestment_lag", 1) == 1 else "s")],
     ]
     return (f"## 3. Base year ({period})\n\n" + table(["Item", "USD millions", "Reason", "Source"], rows)
+            + _details(doc, "base_year")
             + "\n\n### Switches\n\nThese stay off unless the owner turns them on for a specific company.\n\n"
             + table(["Switch", "Setting"], switch_rows))
 
@@ -299,7 +320,8 @@ def bridge(doc: dict[str, Any]) -> str:
     fact("What the assets would fetch in a failure", "bridge.distress_proceeds")
     rows.append(["Diluted shares (millions)", _num(_cell(doc, "bridge.diluted_shares"), 1),
                  _reason(doc, "bridge.diluted_shares"), _source(doc, "bridge.diluted_shares")])
-    out = "## 4. Bridge from operating assets to equity\n\n" + table(["Item", "USD millions", "Reason", "Source"], rows)
+    out = ("## 4. Bridge from operating assets to equity\n\n" + table(["Item", "USD millions", "Reason", "Source"], rows)
+           + _details(doc, "bridge"))
     note = get_path(doc, "bridge.dilution_note")
     if note:
         out += f"\n\nDilution note: {_esc(note)}"
@@ -343,7 +365,8 @@ def cost_of_capital(doc: dict[str, Any]) -> str:
     rows.append(["Terminal cost of capital method", _text(term.get("method", "mature")), _text(term.get("reason")), DASH])
     if term.get("method") == "value" or term.get("value") is not None:
         rows.append(["Terminal cost of capital, given", _pct(term.get("value"), 2), DASH, DASH])
-    return "## 6. Cost of capital inputs\n\n" + table(["Item", "Value", "Reason", "Source"], rows)
+    return ("## 6. Cost of capital inputs\n\n" + table(["Item", "Value", "Reason", "Source"], rows)
+            + _details(doc, "cost_of_capital.build"))
 
 
 def diagnostics(doc: dict[str, Any]) -> str:

@@ -37,8 +37,10 @@ TOP_LEVEL_KEYS = {
 SCENARIO_KEYS = {
     "weight", "story", "revenue_growth", "operating_margin", "sales_to_capital",
     "reinvestment_override", "tax_rate", "cost_of_capital_override", "terminal",
-    "computable", "reason", "guidance",
+    "computable", "reason", "guidance", "detail",
 }
+# Any input cell ({value, reason, source}) may also carry `detail`: the working notes behind a short
+# reason (section 18.4).  Cells are never checked for unknown keys, so `detail` is accepted silently.
 # Optional diagnostics cells beyond section 18.4 (see README): the company's own
 # history, which section 18.5 item 9 compares against and nothing else supplies.
 DIAGNOSTIC_KEYS = {

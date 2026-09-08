@@ -113,3 +113,14 @@ def test_normal_run_also_writes_assumptions_md(tmp_path: Path, capsys):
     md = (vdir / "assumptions.md").read_text(encoding="utf-8")
     assert "| Price (USD per share) | auto |" in md               # mirrors the file, not the --set overrides
     assert "written" in capsys.readouterr().out
+
+
+def test_detail_prints_after_the_reason_as_an_indented_paragraph():
+    doc = load(FIXTURE)
+    doc["scenarios"]["base"]["revenue_growth"]["detail"] = "History: 2022 9.8%, 2023 8.7%, 2024 13.9%.\nBacklog covers year one."
+    doc["base_year"]["revenue"]["detail"] = "FY2025 402,836 plus six months."
+    text = render_assumptions(doc)
+    i = text.index("**Revenue growth** — Backlog plus one new program per year")
+    j = text.index("    History: 2022 9.8%, 2023 8.7%, 2024 13.9%.\n    Backlog covers year one.")
+    assert i < j < text.index("**Operating margin** — Two points a year")
+    assert "- **Revenue**, working notes:\n\n    FY2025 402,836 plus six months." in text
