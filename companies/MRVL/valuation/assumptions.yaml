@@ -250,7 +250,7 @@ scenarios:
       detail: |
         History, money in USD millions, from the 10-K cash-flow narratives. Reinvestment without working capital is capex minus depreciation and non-acquisition amortization plus cash paid for acquisitions; the working-capital column adds the outflow, or subtracts the inflow, that the filings report.
 
-        | Year | Change in revenue | Capex | Depreciation and amortization | Acquisitions | Reinvestment without working capital | Ratio | Reinvestment with working capital | Ratio | Source |
+        | Year | Change in revenue | Capex | Depreciation and amortization | Acquisitions | Reinvestment without working capital | Ratio without working capital | Reinvestment with working capital | Ratio with working capital | Source |
         |---|---|---|---|---|---|---|---|---|---|
         | FY2023 | up 1,457 | 206 | 305 | 112 | 13.6 | about 107 | 663 | 2.2 | [10-K FY2024, Item 7; Item 8] |
         | FY2024 | down 412 | 336 | 300 | 0 | 36.5 | not meaningful | minus 21 (working capital minus 58) | not meaningful | [10-K FY2024, Item 7; Item 8] |
