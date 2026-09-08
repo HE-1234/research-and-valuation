@@ -1,0 +1,568 @@
+Netflix, Inc. NasdaqGS:NFLX
+Company Conference Presentation
+Wednesday, March 4, 2026 9:50 PM GMT
+
+
+
+
+COPYRIGHT © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved   1
+spglobal.com/marketintelligence
+Contents
+
+
+
+
+Table of Contents
+
+Call Participants                                                           ..................................................................................       3
+
+Presentation                                                                ..................................................................................       4
+
+Question and Answer                                                         ..................................................................................       5
+
+
+
+
+COPYRIGHT © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved                                                               2
+spglobal.com/marketintelligence
+NETFLIX, INC. COMPANY CONFERENCE PRESENTATION MAR 04, 2026
+
+
+
+
+Call Participants
+EXECUTIVES
+
+Spencer Adam Neumann
+Chief Financial Officer
+
+ANALYSTS
+
+Sean Diffley
+Morgan Stanley
+
+Thomas L. Yeh
+Morgan Stanley, Research Division
+
+
+
+
+Copyright © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+spglobal.com/marketintelligence                                                                       3
+NETFLIX, INC. COMPANY CONFERENCE PRESENTATION MAR 04, 2026
+
+
+
+
+Presentation
+Sean Diffley
+Morgan Stanley
+Thank you, everyone, for joining us. My name is Sean Diffley. I'm joined by Thomas Yeh from the Morgan Stanley Media and
+Entertainment research team, and we're extremely excited to have Spencer Neumann from Netflix here.
+I'm going to give a quick disclosure. For important disclosures, please see the Morgan Stanley research disclosure website. And if you
+have any questions, reach out to your Morgan Stanley sales rep. So a bit of a different conversation than we might have been having a
+week ago, but we're going to get into all of that.
+
+
+
+
+Copyright © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+spglobal.com/marketintelligence                                                                                                      4
+NETFLIX, INC. COMPANY CONFERENCE PRESENTATION MAR 04, 2026
+
+
+
+
+Question and Answer
+Sean Diffley
+Morgan Stanley
+But to kick us off, Spence, maybe you could level set for us today, the health of the business as you see it over the next few years and
+your key priorities at Netflix for 2026.
+Spencer Adam Neumann
+Chief Financial Officer
+All right. Well, thanks for having me. Good to see everybody. Well, look, yes, I guess it's a bit of a different conversation, but also
+more of the same for us. I mean we feel great about our business. So -- and the position we're in, we feel great about our kind of our
+growth opportunity ahead, our organic growth opportunity, short, medium and long term. You see that a bit in our 2026 guide in our
+Q4 call, where really healthy outlook for the business. We guided to you a kind of 12% to 14% revenue growth, operating margins
+increasing to 31.5%. And doubling of our ads business to about $3 billion in 2026, about $11 billion of free cash flow.
+
+So a really healthy outlook for us. Our focus remains very similar. So our core focus is to kind of drive the strength in our kind of
+continue to strengthen and improve our core business in terms of improving our content or core content offering around film and
+series, improving our product experience, continuing to grow that ads business, continue to expand our entertainment offering and
+drive strong, healthy revenue and profit growth.
+
+We also want to expand into new entertainment categories, building out live, building out things like podcasts, so continuing to
+kind of build that out as well so that we're extending and growing. And so overall, that kind of focus remains the same. And it's one
+of those things where I know it sounds boring, but even though we're pretty big, we're pretty small. And every way we look at our
+addressable market, we're still less than 10% of view share. And every country in which we operate, we're about 7% of addressable
+revenue market. So -- and we're -- so we're -- sorry, someone is buzzing me and it's distracting me on my phone.
+
+So we're small in kind of every way that we kind of measure the business in terms of even households we're less than 50% penetrated.
+So we've got a strong runway for growth in the core as we continue to focus on that. And that really is our focus. And again, I want to
+kind of reinforce it's a runway of organic growth that we feel great about.
+Sean Diffley
+Morgan Stanley
+Great. So you referenced the double-digit revenue growth for this year. I would say one thing the market was a little surprised by
+was the level of cash content investment about $20 billion. That's 10% year-on-year growth. By implication, your margin outlook
+was maybe a bit lower than what we've seen in the past. Maybe take a minute to talk about why you feel this is the right level of
+investment for the business today.
+Spencer Adam Neumann
+Chief Financial Officer
+Yes, sure. So as you say, we're -- we guided to about $20 billion of cash content spend, up about 10% over last year, but it's really
+no change in our approach. So what we've always talked about is that we're -- we want to kind of drive healthy double-digit revenue
+growth for as long as possible. We wanted to accelerate that revenue growth. And as we did. And as we have shown, we are doing
+then we want to kind of spend it in a healthy way into that growth, but spend at a lower rate of growth than our revenue growth. And
+that's -- we've been doing that for a long while now.
+
+So as you saw from our healthy revenue growth outlook, it enabled us to kind of grow our content spend growth. So we grew about
+7% year-over-year in 2025. We're guiding to about 10% this year. The ratio of cash spend to content amort is essentially unchanged.
+It's a roughly 1.1 ratio of cash spend to content amort. And we set margin targets. So our approach is to gradually grow our margins
+by growing our spend a bit below the pace of our revenue growth. And we've been doing that pretty -- we have a pretty demonstrated
+history of doing that, setting those targets and growing gradually.
+
+The rate of margin expansion varies year-to-year depending on opportunity. We've averaged over the last 5 years about 2 percentage
+points, a little over 2 percentage points of margin growth per year, and this guide is up 2%. So it's quite consistent. And again, if you
+go back -- I started in January of 2019, at Netflix in 2018, we had 10% operating margin. So we've grown from that to a 31.5% guide
+
+Copyright © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+spglobal.com/marketintelligence                                                                                                             5
+NETFLIX, INC. COMPANY CONFERENCE PRESENTATION MAR 04, 2026
+
+
+
+this year. So I think we've shown we can be disciplined there. But what that content spend shows is that we see some really attractive
+opportunities to spend into our growth on the content side.
+
+So it's everything from core film and TV series. On the TV side, in particular, TV series, non-English TV series, we see continued
+opportunity to grow our spend into markets around the world where we're improving our product market fit. We've got licensing
+opportunities in terms of content. We ramped up in licensing. Following the strikes, we ramped down a little bit. We talked about
+in our last earnings call, we were ramping back up again. We have some deals that we either expanded or new deals. We licensed
+Paramount content. Universal, we expanded from animated film to live action. Sony, we're innovating even in licensing.
+
+We did the first ever global Pay-1 deal, which means on a global basis, we have the Pay-1 window for Sony films, first time at the
+same day on a single service around the world. So we're expanding there. We're expanding into -- the live business for us is one where
+we're seeing some nice early success. And so we're growing that. We're not only growing our U.S. slate with more big fights like the
+Ronda Rousey fight coming out later this year, but also expanding outside of the U.S. for like live events that originate outside the
+U.S. We've got the World Baseball Classic actually tomorrow, starting tomorrow in Japan.
+
+We had Taipei 101, which was a fun event earlier in this year, a little scary to watch at times. We've got, I think, a fun kind of a
+reunion coming up in March in Korea, so -- with BTS. So interesting things coming outside of the U.S. And then we're expanding
+content formats like podcasting. So all in, we think we're finding really interesting ways to grow and expand and strengthen our
+content offering. The bulk of that investment is in areas that we know really well in terms of core film and series with a proven ROI
+and our investment.
+
+And in some of these newer areas, we kind of step into it in a very intentional and disciplined way and kind of learn into the growth.
+But overall, you should expect that we'll continue to grow our content investment as we grow our revenue in a healthy way, but do it
+in a way that gradually grows margins. And we don't see any ceiling in the near future or even the medium future in terms of dealing
+to the margin potential for the business.
+Thomas L. Yeh
+Morgan Stanley, Research Division
+Before we get to some of the more recent M&A developments, I wanted to ask about the engagement trends. I think that's an area,
+obviously, a greater investor focus in terms of trying to gauge the health of your stand-alone business. On one end, clearly, you're in
+the envy of the industry with 190 billion hours viewed each year. And I think on the other end, there are increasingly some growing
+concerns about the pace of the growth and how that continues to evolve, especially with the potential rise of user-generated content
+and AI content. Can you just maybe talk a little bit about how you and the team assess engagement and the health of it and more
+broadly, whether you think it's right for investors to think about that as the main KPI that you expect to grow over time?
+Spencer Adam Neumann
+Chief Financial Officer
+Sure. Well, it's nice to hear you say we are the envy of the industry. We appreciate it. We work hard for that. So we don't take that for
+granted. It is a fiercely competitive industry. We talk about it as like it's -- we're always competing for those entertainment moments of
+truth. And it's a real -- it's a tough battle every day. We're trying to win those moments. And we really want to be that kind of that first
+place, that kind of starting point and destination for professionally produced content and the best of creators around the world. So that
+is -- again, that's what we work hard to do. You mentioned the -- our engagement report.
+
+And frankly, we probably should rename that report, the view hour report because that's what it is, is view hours. It's not engagement
+holistically. And view hours are important. They're just not the whole story. They're a part of the story. So we're -- we focus on the
+value we deliver to members in terms of overall engagement value. And it's not just quantity of hours. There's also -- we look at kind
+of -- we do look at quantity, we look at frequency. We look at kind of the quality of those hours as well. And it's a holistic view.
+
+For example, just on the quality front, our primary quality metric, I think Greg may have mentioned this on our last earnings call,
+we delivered -- thanks to Bela and the creative team, we hit a record high for us in terms of quality per hour of entertainment that
+we delivered to our members last year in Q4. So that was awesome. So -- and we see that as we improve the quality per hour, that
+actually directly improves the retention on our service. And then you also heard on our last call that we had a great quarter in terms of
+improving. We already have kind of world-class kind of low churn, strong retention on our service, and we delivered that again in Q4.
+So we had strong acquisition retention, strong member growth.
+
+So we're really kind of looking at all those things. But coming back to -- and we're getting increasingly sophisticated in terms of how
+we manage to kind of overall engagement. On the view hour piece, just to hit on it, we -- that total view hours, they were up. So we
+
+Copyright © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+spglobal.com/marketintelligence                                                                                                           6
+NETFLIX, INC. COMPANY CONFERENCE PRESENTATION MAR 04, 2026
+
+
+
+were up 2% in the back half of last year, up from 1% increase in the first half. That incremental 1% is 1.5 billion hours at our scale.
+So there's a little bit of large numbers. But I think part of what -- if we double-click on it, I think what folks are getting at a little bit is
+we're growing members. So the view hours per member household is coming down.
+
+And there's a lot that kind of plays into that as well. So overall, again, I just want to reinforce, we have very healthy engagement
+characteristics. But if you think about what goes into a view hour per household, there's a lot of things that can impact that. The plan
+mix impacts that, geography impacts that, culture and viewing habits impact that. So for example, again, we talked about in the last
+earnings call, Japan, as an example, is a country where typical household watches about 1/2 to 2/3 the amount of viewing in a U.S.
+household. And if you think about our kind of where a good chunk of our member growth may come in the years to come, good chunk
+come from countries that look more like Japan than the U.S.
+
+And so that doesn't mean that it's not healthy growing engagement. It's just kind of a different mix of engagement. So again, overall
+kind of takeaway for us is we are and we plan to continue to grow viewing hours. But we're also increasingly focused on the total
+engagement story and more sophisticated in terms of the quality and overall value we deliver to our members. That's really what
+drives our business and how we manage the business.
+Thomas L. Yeh
+Morgan Stanley, Research Division
+And increasingly, to some extent, because of your success, the comparison now relative to competition is YouTube as opposed to
+some of the legacy traditional media companies. Can you talk about why or why not you think that, that might be an appropriate
+comparison? And you talked about the quality of the engagement, in particular, how you could potentially be assessing that on a
+relative basis?
+Spencer Adam Neumann
+Chief Financial Officer
+Yes. Well, I guess get back -- I guess maybe industry is more focused on YouTube today. I can assure you we've been focused on
+YouTube for a long time. I think it's about 10 years ago that YouTube first showed up in one of our earnings letters. So we think very
+broadly about competition. We're in the entertainment business broadly. Entertainment has always been an intensely competitive
+business. It still is and remains and will be intensely competitive. And YouTube is a key competitor. Increasingly, as we talked about
+on the TV surface, which is the primary surface in which we entertain members around the world.
+
+So that said, what -- the constant for us is for us to compete, we have to get better, faster than the competition in our positioning in
+the entertainment market. And for us, we're positioned. We want to be the best destination for professionally produced content. So
+we want to have the best creators of professionally produced content on the planet and deliver to them the biggest audiences possible.
+So what we're doing in order to kind of continue to compete there is we want to continue to strengthen and expand our entertainment
+offering, which means working with an expanded set of those best creators.
+
+Why we work with creator, we produce content in more than 50 countries around the world. It's not just coming out of the
+conventional Hollywood creative system. That's a really important part of it, but it's producing in more than 50 countries around the
+world. It's also embracing creators from social media platforms, creators from open content platforms. Ms. Rachel was the, I think, the
+ninth most watched TV show we had on the service in the second half of 2025. I think my son is very grateful for the fact that we now
+have Mark Rober on the service. So we have Alan Chikin Chow on the service coming soon. So like things that resonate with all these
+audiences, but it is still professionally produced creative content.
+
+It's just an expanded universe of that. So we're doing that. You see we're expanding the content formats that we're getting into like
+video podcasts. We're expanding into areas like live, as I mentioned. So it's about really kind of doing it in a way that for us, goes after
+what we think are those most valuable moments of entertainment because that's really what drives that flywheel and also drives our
+positioning in a very competitive entertainment ecosystem.
+Sean Diffley
+Morgan Stanley
+Great. We wanted to turn to your decision to walk away from Warner Bros. So you declined to raise your bid for Warner...
+Spencer Adam Neumann
+Chief Financial Officer
+We're not still at it.
+Copyright © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+spglobal.com/marketintelligence                                                                                                                 7
+NETFLIX, INC. COMPANY CONFERENCE PRESENTATION MAR 04, 2026
+
+
+
+Sean Diffley
+Morgan Stanley
+You're out, you're officially out.
+Spencer Adam Neumann
+Chief Financial Officer
+So hard to get a laugh in this room. Okay.
+Sean Diffley
+Morgan Stanley
+So within hours, you had -- I think you had 4 days within hours, you put an announcement out that you were walking away. So maybe
+walk us through what led you to this decision? Was it as simple as a specific price. I know what Ted said, the realization was someone
+was going to lose by $1, but maybe take us behind the scenes and what led you to walk away.
+Spencer Adam Neumann
+Chief Financial Officer
+Well, the short answer is it was all about price. So then we can get into it. But we said all along, this was an opportunity that was nice
+to have at the right price, not a must have at any price. And we love the Warner Brothers business, the assets that were available that
+we were bidding, as you know, on the studio and streaming assets, not the entire company. And at the end, we had a strong belief,
+a stronger belief at the end of the beginning that we would have been great stewards of those assets in that business. We also had a
+stronger belief at the beginning and then at the end, that we had a clear path to regulatory. So much to a lot of the speculation that was
+out there, we had high confidence in all of those things. But at the end of the day, we were going to stay very disciplined because this
+was for us, an accelerator of our strategy.
+
+I mean it kind of sounded maybe more exotic than it was because we're historically primarily builders and buyers. But at the end of
+the day, this is a business that what we were looking at was primarily an amazing set of content library and IP and studio production
+capabilities that would kind of allow us to bring more great content to our members. And with an HBO Max service, also the
+opportunity to bring kind of with it that complementary service because there was roughly 80% overlap between HBO subscribers and
+our subscribers, a way to kind of continue to expand and evolve our plans and pricing in a way that we thought we could deliver more
+value -- even more value at better pricing to members around the world.
+
+So at the end of the day, it was sort of playing our playbook. But it was -- we also thought in terms of the seat we were in, we had kind
+of a unique point of view in terms of how to value those assets because it is the kind of stuff that we do every day. It was just doing
+kind of more of it and expanding on that. And so we went into it with a point of view on price. And once it was clear that this was
+going to be something where it didn't make -- financially make sense to us anymore, it was time to kind of move on. And that kind of
+gets back to kind of where we started, we feel great about our business. This was always from us a position of offense, not defense.
+
+And it was, again, nice to have, would have loved it. But now we move forward and move forward with a really healthy business with
+a long runway of growth. We move forward with $2.8 billion in our pocket that we didn't have a few weeks ago. And then we kind of
+resume our -- the business that we were always mostly focused on and even just things like our capital allocation policy, unchanged,
+but it means now we kind of turn on our share repurchase program.
+Sean Diffley
+Morgan Stanley
+Great. And I guess now that we have to think about PSKY, Warner, is this effectively what could be the formation of a larger scale
+competitor in the landscape, how do you think about their willingness to license content and kind of your ability to source that?
+Spencer Adam Neumann
+Chief Financial Officer
+Well, it's hard for me to speak for them. But at the end of the day, we've competed with Warner Brothers for a long time and also do
+business with Warner Brothers. We competed with Paramount, did business with them. In general, the entertainment industry is one
+where it's more typical than atypical to both compete and have commercial relationships. So we kind of hope and expect that, that
+will be the case here, too. But licensing ebbs and flows for us in the industry, so with particular suppliers. And we continue to have
+really strong access to content from suppliers around the world. We don't have any supplier -- like meaningful supplier concentration.
+There's no single supplier that's more than a small minority share of our viewing.
+Copyright © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+spglobal.com/marketintelligence                                                                                                          8
+NETFLIX, INC. COMPANY CONFERENCE PRESENTATION MAR 04, 2026
+
+
+
+But again, it ebbs and flows. We kind of look forward to competing with the new Paramount, but also doing business with them. We
+-- I mentioned in our Q4 call, we talked about we're doing more licensing of Paramount content. I think today, maybe we renewed our
+Little House on the Prairie show with Paramount. So for us, it's business as usual, but it's really kind of more in their court and we'll
+see.
+Sean Diffley
+Morgan Stanley
+Great. And we wanted to ask if there's any updated change to your philosophy around M&A. You obviously mentioned historically,
+you're builders not buyers. But was there anything in this experience that changed kind of your framework and approach? Was it
+worth it? Anything on the regulatory front you would bring up? Or how we should think about your approach to other studios if they
+were to ever come available?
+Spencer Adam Neumann
+Chief Financial Officer
+I know it sounds boring, but there's really no change. So again, it's like our approach to M&A is part of our approach to capital
+allocation, which is, again, it's the same. So first and foremost, we allocate our capital to invest strategically in our growth. That's
+primarily through organic investment and occasionally through M&A. Then we ensure that we've got a strong balance sheet with
+ample liquidity. And then lastly, we return excess cash to shareholders through share repurchase. M&A as part of that, again, it's a
+tactic to accelerate our strategy.
+
+In the case of Warner Bros., it just happened to be an opportunity. It's rare to have an opportunity to have studio and IP assets at that
+scale that aren't attached to a lot of other legacy businesses that are not attractive to us. And we've been really clear, we don't have
+an interest in buying legacy linear assets and managing through that transition. So we'll continue to kind of stay focused on what are
+those opportunities, strategic accelerators, but again, no change to our focus. It just -- this may be felt a little bit more exotic because
+of the size, but the strategy and approach to capital allocation is unchanged.
+Thomas L. Yeh
+Morgan Stanley, Research Division
+Shifting back to the core business, you disclosed recently a milestone for subscribers reaching over $325 million. I think that's
+basically 50% of the $700 million connected TV households that you talked about before as an opportunity, how should we think
+about the member opportunity from here? And is that still the right framework that we should be thinking about in terms of what
+you're trying to tackle?
+Spencer Adam Neumann
+Chief Financial Officer
+Well, from a member opportunity, yes, generally. So -- but that's a growing universe of connected households. So our estimate now is
+that, that connected household universe is more like 800 million, a little over 800 million versus the number you quoted. And so at our
+-- we're still less than 50% penetrated of connected households around the world. And we're growing into that. We're growing into it
+in our more penetrated markets than our less penetrated markets. So you saw that in our last earnings report. We've got healthy growth
+in every region around the world. We continue to have a long runway to growth. But also importantly, we're building out multiple
+levers of growth. So one of the things we talked about a few years ago when we slowed down is we wanted to make sure we built to a
+healthy multiple levers of growth, including kind of launching the ads business.
+And so now you kind of see that. So we have growth through member growth. We have growth through kind of building member
+value and pricing into that subscription value. And then we have growth through our ads business, taking that to -- you can kind of do
+the math on that. This year going from $1.5 billion of ads revenue last year to $3 billion this year and you look at our overall revenue
+guidance, which is plus or minus $6 billion of incremental revenue growth year-over-year, that puts ads at about a 25% contributor to
+growth. So we're delivering more balanced growth across all of those, and that's what we've really been building to, and that's playing
+out in the business.
+Thomas L. Yeh
+Morgan Stanley, Research Division
+If you think about the content investments that's going into growing that member opportunity, 2 areas that you mentioned earlier
+about podcasting. And I think another one that more recently, an experiment is vertical video. Can you just maybe outline how we
+
+Copyright © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+spglobal.com/marketintelligence                                                                                                                9
+NETFLIX, INC. COMPANY CONFERENCE PRESENTATION MAR 04, 2026
+
+
+
+should think about those as interesting opportunities for you? And more broadly, whether or not expanding more deeply into mobile
+consumption is something that you're really focused on?
+Spencer Adam Neumann
+Chief Financial Officer
+Yes, sure. So yes, starting, I guess, with podcast. I think -- we think of that as like we're always looking for those -- as I mentioned
+before, those kind of most valuable areas to expand and strengthen our entertainment offering. And video podcast is one of those
+examples to us where we think there's an opportunity, not dissimilar to how we expanded over time. There was a day when all we
+were scripted TV and film, English language, and then we went to unscripted. And then we went to non-English TV and so went to
+animation and anime and then live. And so this is another potential content format or category for us.
+
+So we're learning into it in areas that we know resonate with our members, so things like pop culture and lifestyle and true crime. But
+it also -- an important thing about video podcast for us is, again, we're trying to win more of these moments of truth. And with video
+podcasts, there's -- because it's frankly a little easier to get in and out of them. It plays better on mobile devices. Sometimes you can
+kind of listen and not be watching all the time, so that has a little bit of a back and forth there. And we're seeing -- again, it's still early
+days. It's still very early signal, but it is over -- our video podcasts are over-indexing on time of the day, like morning and afternoon
+when -- relative to our core kind of subscription TV film on-demand offering.
+
+And similarly, it's over-indexing on the mobile device. So that's pretty cool. So we'll kind of see where that plays out, and we'll learn
+into it. And then on vertical video, yes, you're right. We've been testing into it for several months now. You can see in our mobile
+feed, there's vertical video clips, mostly film and TV series and film clips today. We'll expand that to more content formats like video
+podcasting. I think more importantly, we're going to continue to evolve and improve our mobile experience broadly. So I think we
+touched on that in our last earnings letter.
+
+In the back half of this year, we'll roll out our new mobile user interface, which looks similar to what we did with our TV user
+interface last year, where we rolled that out broadly. And that kind of created a new platform for us that mostly was visually more
+compelling, I think. And now we're rolling out more adaptive and personalized capabilities and all that plumbing underneath that --
+and that's the same thing with mobile, where we'll kind of roll it out this year. And then that's now a platform that we can evolve and
+optimize for years and years to come.
+Thomas L. Yeh
+Morgan Stanley, Research Division
+And we'd be remiss if we didn't ask about AI at our TMT conference. It's been a big topic over the last few days. Can you just talk
+about the puts and takes for your business? You've talked historically about the benefits that it might have to production and the
+production process. But there's obviously a lot more existential angst as well about lowering barriers to entry and creating more of
+an opportunity for others as well to get into space. Can you just talk about the relative positioning and how you're thinking about it
+currently?
+Spencer Adam Neumann
+Chief Financial Officer
+Yes, sure. I mean we look at it as more puts and takes, I guess, of your puts and takes. It's a really exciting time for us. I mean we look
+at AI and Gen AI, and it's going to create a lot of things better, better content, better product experience for the industry. But for us,
+it's exciting because we're one of -- we believe, one of the few companies on the planet that has -- is really good at entertainment and
+technology. And we've got 25 years of history of using AI and machine learning tools and now applying Gen AI. And so we're very --
+our DNA is technology-rich. We have deep data sets, and we have products and business operations at global scale.
+
+When you put those things together, we see like really exciting opportunities in terms of the application of Gen AI to improve every
+aspect of our business. The key for us is like we're also pro human. We fundamentally kind of believe that creativity and the best
+of creativity is going to be done by people, and there's a pretty small subset of amazing creators on the planet. And so for us, we're
+focused on like on the content side, how do we have Gen AI kind of infuse tools that help bring out the best of storytelling for those
+creators. Now it's an expanding set of creators, but still relatively few on the planet that we think make the best of creative expression.
+And so we want to get the tools in their hands.
+
+Again, it's creators in more than 50 countries around the world. It's from social platforms, it's from open content platforms. We're
+focused on those infusing Gen AI tools into the creative process for people to make the best storytelling. We're also focused on Gen
+AI. And when we think about like our product road map and our product experience, like our CTO has talked about for our product
+
+Copyright © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+spglobal.com/marketintelligence                                                                                                              10
+NETFLIX, INC. COMPANY CONFERENCE PRESENTATION MAR 04, 2026
+
+
+
+road map, we're focused on more personalization, more interactivity, greater immersiveness. All those things play to an expanded
+entertainment offering across core film and TV, live, games, et cetera.
+
+If you think about that product road map and infusing Gen AI into it, we think using those models, it's an accelerator and enabler of
+that road map. It's great for us because product done well and a product experience done well, matching the right content to the right
+individual at the right time, it's a force multiplier on our content, so those things are really powerful. And then on the advertising side,
+I mean, you all see it as well in terms of Gen AI, we're still early days in our advertising rollout. This is our first full year of our ad
+tech stack. But infusing Gen AI in that tech stack and those capabilities, we see it in terms of just the advertising, the creative process
+itself in terms of the creative formats that can be Gen AI created.
+
+It's improving contextual targeting and placement. So it's -- again, it's just going to need to be an enabler and accelerator of the
+effectiveness of advertising for our clients and for ourselves. So across the board, we're excited about the opportunity, but an
+opportunity for us is one where it's all about enabling the best of those creators and delivering the best of the largest audiences in the
+professionally produced content ecosystem.
+Sean Diffley
+Morgan Stanley
+All right. We wanted to turn to pricing. So you were pretty clear on the earnings call that it was business as usual, even as the Warner
+deal was pending. How would you say recent price increases have fared relative to your expectations? Do you have any view on kind
+of the change your pricing power? Should we expect anything different now that Warner is kind of in the rearview?
+Spencer Adam Neumann
+Chief Financial Officer
+I wouldn't expect anything different before or after. So we said we were going to kind of stay focused and continue to run the business
+as we always have. We continue to deliver more entertainment value to our members around the world. We talked about -- I talked at
+the start of this that when we -- we've got more sophisticated about how we measure entertainment value in terms of like engagement
+quality as an example, and we had record engagement quality scores at the end of last year that we continue to build on. So -- and we
+see that kind of the proof of that in terms of how pricing changes have rolled out.
+
+So we've had really high customer satisfaction, really high brand health and then pricing has gone as well or better than expected. And
+so essentially, there's kind of no change there. And we'll continue to focus on what we do, which is deliver more and more value to
+members around the world and then occasionally price into that value.
+Sean Diffley
+Morgan Stanley
+Maybe just spend a second on the quality of engagement. How do you guys actually measure that? Like obviously, Taipei 101, to your
+point, very special, really engaged, like how should we think about that from the outside?
+Spencer Adam Neumann
+Chief Financial Officer
+I'm probably not going to get into all that. It's a very competitive business, and we've got multiple metrics. One of the most basic ways
+that I think Bela and Ted has been working, one of the things we look at is do people press play and stay. So that's a very basic way to
+think about it. Do they like what they watch, but I'm not going to kind of get into it.
+Sean Diffley
+Morgan Stanley
+And we want to talk more about advertising. Obviously, you mentioned roughly double revenue this year to over $3 billion. I think fill
+rate has been one of the kind of question marks. Is it fair to say there's opportunity to continue to improve the fill rate and stay at very
+attractive levels in terms of ad load?
+Spencer Adam Neumann
+Chief Financial Officer
+Yes. So we're continuing to grow our ad business in a healthy way. We expect rough doubling again this year. That has -- it's a result
+of the fact that advertisers are pleased with things we've delivered on. We're delivering on increasing scale where we've gone beyond
+kind of critical scale in all of our ad markets. We deliver a highly attentive and engaged audience. We kind of do that with a really
+Copyright © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+spglobal.com/marketintelligence                                                                                                          11
+NETFLIX, INC. COMPANY CONFERENCE PRESENTATION MAR 04, 2026
+
+
+
+strong slate of titles. And we also now have a tech stack that brings kind of capabilities to market faster. So with all of that, then
+with the tech stack, in particular, kind of layered into that, we're able to deliver more ad products, and we're also able to kind of
+push together more demand from things like external DSPs and then it allows us to do more programmatic integrations, more data
+integrations on the programmatic side.
+So all of that stuff allows us to bring more demand into the system. We increased fill rate last year. We'll continue to increase fill rate
+this year as we bring all those online. But I should also say we don't manage to fill rate. We manage the overall ad revenue. We're
+trying to manage that while also maintaining a premium CPM marketplace, and that's what we're doing. So fill is part of the path to
+get there.
+Sean Diffley
+Morgan Stanley
+Great. We want to hit on Sports. Can you update us on your financial framework for assessing sports rights? You mentioned before,
+you've licensed some sports rights at NFL games, Women's World Cup, MLB, but you've also largely been disinterested in kind of big
+regular season rights. How should we assess how you're thinking about the approach to sports?
+Spencer Adam Neumann
+Chief Financial Officer
+Yes.When you think about sports, we love sports, but it has to work for us as well for our members and for our business. So for us,
+sports is part of our overall live event strategy. So as part of live, sports is a subset of that. We don't love the business of being in the
+business of big seasons of big sports. We think that's a pretty tough business to be in. And we don't think we need it to deliver that
+improving member value.
+
+So we like it as part of our event strategy and see that with like the NFL on Christmas Day on Netflix is kind of eventizing a couple of
+NFL games a year. You see it with things like the Canelo Crawford Fight. You see it with WBC in Japan starting tomorrow, where it's
+big in Japan, big in some other countries around the world as well. So we're excited for those opportunities and continuing to build on
+those opportunities and find a way where sports can be a nice complement to our business teams with the big sports events, but we're
+not in the -- we're going to stay disciplined in terms of how we invest into it.
+Thomas L. Yeh
+Morgan Stanley, Research Division
+Well it looks like we're running out of time, but maybe just the last one for me. Anything on the content slate that you'd be
+highlighting in the second half? And when does KPop Demon Hunters 2 coming up?
+Spencer Adam Neumann
+Chief Financial Officer
+Oh man, there -- I don't know when that's coming out. I can't -- I loved it. I got to say, I mean, anyway, I won't -- but what's coming
+out, I'm a big fan of One Piece. I don't know if you guys watched One Piece. I think it's still good, and I think that's next week. It's
+coming out soon. It's actually -- so that will be fun. For some of you guys, Peaky Blinders, the movie coming out soon. So I think
+you'll enjoy that. For others, Bridgerton, now all episodes have dropped if you want to catch up on that. So there's a lot of -- I mean
+the thing with us is like -- and I don't do this as well as Ted. We could do 5 minutes of running through the steady drumbeat of titles
+across film and TV and different content formats around the world. But that's what makes -- I think Netflix great and exciting. It's
+something fun and amazing for everyone, and it's not like one and done, we keep at it every week, every month.
+Thomas L. Yeh
+Morgan Stanley, Research Division
+Thank you so much for your time.
+Spencer Adam Neumann
+Chief Financial Officer
+All right. Thanks.
+Sean Diffley
+Morgan Stanley
+Thanks, Spence.
+
+Copyright © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+spglobal.com/marketintelligence                                                                                                             12
+NETFLIX, INC. COMPANY CONFERENCE PRESENTATION MAR 04, 2026
+
+
+
+Copyright © 2026 by S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved.
+
+These materials have been prepared solely for information purposes based upon information generally available to the public and from sources believed to be reliable.
+No content (including index data, ratings, credit-related analyses and data, research, model, software or other application or output therefrom) or any part thereof
+(Content) may be modified, reverse engineered, reproduced or distributed in any form by any means, or stored in a database or retrieval system, without the prior
+written permission of S&P Global Market Intelligence or its affiliates (collectively, S&P Global). The Content shall not be used for any unlawful or unauthorized
+purposes. S&P Global and any third-party providers, (collectively S&P Global Parties) do not guarantee the accuracy, completeness, timeliness or availability of
+the Content. S&P Global Parties are not responsible for any errors or omissions, regardless of the cause, for the results obtained from the use of the Content. THE
+CONTENT IS PROVIDED ON "AS IS" BASIS. S&P GLOBAL PARTIES DISCLAIM ANY AND ALL EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
+BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE, FREEDOM FROM BUGS,
+SOFTWARE ERRORS OR DEFECTS, THAT THE CONTENT'S FUNCTIONING WILL BE UNINTERRUPTED OR THAT THE CONTENT WILL OPERATE
+WITH ANY SOFTWARE OR HARDWARE CONFIGURATION. In no event shall S&P Global Parties be liable to any party for any direct, indirect, incidental,
+exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including, without limitation, lost income or lost profits
+and opportunity costs or losses caused by negligence) in connection with any use of the Content even if advised of the possibility of such damages. S&P Global
+Market Intelligence's opinions, quotes and credit-related and other analyses are statements of opinion as of the date they are expressed and not statements of fact or
+recommendations to purchase, hold, or sell any securities or to make any investment decisions, and do not address the suitability of any security. S&P Global Market
+Intelligence may provide index data. Direct investment in an index is not possible. Exposure to an asset class represented by an index is available through investable
+instruments based on that index. S&P Global Market Intelligence assumes no obligation to update the Content following publication in any form or format. The Content
+should not be relied on and is not a substitute for the skill, judgment and experience of the user, its management, employees, advisors and/or clients when making
+investment and other business decisions. S&P Global Market Intelligence does not act as a fiduciary or an investment advisor except where registered as such. S&P
+Global keeps certain activities of its divisions separate from each other in order to preserve the independence and objectivity of their respective activities. As a result,
+certain divisions of S&P Global may have information that is not available to other S&P Global divisions. S&P Global has established policies and procedures to
+maintain the confidentiality of certain nonpublic information received in connection with each analytical process.
+
+S&P Global may receive compensation for its ratings and certain analyses, normally from issuers or underwriters of securities or from obligors. S&P Global reserves
+the right to disseminate its opinions and analyses. S&P Global's public ratings and analyses are made available on its Web sites, www.standardandpoors.com (free
+of charge), and www.ratingsdirect.com and www.globalcreditportal.com (subscription), and may be distributed through other means, including via S&P Global
+publications and third-party redistributors. Additional information about our ratings fees is available at www.standardandpoors.com/usratingsfees.
+© 2026 S&P Global Market Intelligence.
+
+
+
+
+Copyright © 2026 S&P Global Market Intelligence, a division of S&P Global Inc. All Rights reserved.
+spglobal.com/marketintelligence                                                                                                                                         13
+
