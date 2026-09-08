@@ -1,0 +1,99 @@
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+FORM 8-K
+
+CURRENT REPORT
+
+Pursuant to Section 13 or 15(d) of the
+
+Securities Exchange Act of 1934
+
+Date of Report (Date of earliest event reported): June 11, 2025
+
+Duolingo, Inc.
+
+(Exact name of registrant as specified in its charter)
+
+Delaware | 001-40653 | 45-3055872
+
+(State or other jurisdiction of incorporation) | (Commission File Number) | (IRS Employer Identification Number)
+
+5900 Penn Avenue
+
+Pittsburgh, Pennsylvania 15206
+
+(Address of principal executive offices) (Zip Code)
+
+Registrant’s telephone number, including area code: (412) 567-6602
+
+N/A
+
+(Former name or former address, if changed since last report)
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+
+Class A common stock, $0.0001 par value per share | DUOL | The Nasdaq Stock Market
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+
+Emerging growth company ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+
+Item 5.07. Submission of Matters to a Vote of Security Holders.
+
+On June 11, 2025, the Duolingo, Inc. (the “Company”) held its 2025 Annual Meeting of Stockholders (the “Annual Meeting”). At the Annual Meeting, shares of the Company’s Class A common stock and Class B common stock (collectively, the “Common Stock”), representing approximately 97.64% in voting power of the Company’s outstanding Common Stock as of the April 15, 2025 record date, were present in person, or by remote communication, or represented by proxy. Each share of Class A common stock is entitled to one vote, and each share of Class B common stock is entitled to 20 votes, and the Class A and Class B common stock voted together as a single class on each of the proposals described below. The following are the voting results for the proposals considered and voted upon at the Annual Meeting, each of which were described in the Company’s Definitive Proxy Statement on Schedule 14A filed with the Securities and Exchange Commission on April 25, 2025.
+
+Proposal 1 — Election of three Class I directors to hold office until the Company’s annual meeting of stockholders to be held in 2028 and until their respective successor has been duly elected and qualified.
+
+NOMINEE | Votes FOR | Votes WITHHELD | Broker Non-Votes
+
+Bing Gordon | 143,473,040 | 12,774,312 | 3,020,619
+
+John Lilly | 155,590,065 | 657,287 | 3,020,619
+
+Mario Schlosser | 156,145,394 | 101,958 | 3,020,619
+
+Proposal 2 — Ratification of the appointment of Deloitte & Touche LLP as the Company’s independent registered public accounting firm for the fiscal year ending December 31, 2025.
+
+Votes FOR | Votes AGAINST | Votes ABSTAINED | Broker Non-Votes
+
+159,225,252 | 24,539 | 18,180 | —
+
+Proposal 3 — Approval, on an advisory (non-binding) basis, of the compensation of the Company's named executive officers.
+
+Votes FOR | Votes AGAINST | Votes ABSTAINED | Broker Non-Votes
+
+154,319,307 | 1,906,517 | 21,528 | 3,020,619
+
+Based on the foregoing votes, the three director nominees were elected and Proposals 2 and 3 were approved.
+
+No other matters were submitted for stockholder action at the Annual Meeting.
+
+SIGNATURES
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, as amended, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+
+DUOLINGO, INC.
+
+Date: June 12, 2025 | By: | /s/ Matthew Skaruppa
+
+Matthew Skaruppa
+
+Chief Financial Officer (Principal Financial Officer and Principal Accounting Officer)

@@ -1,0 +1,598 @@
+EX-99.2
+3
+q1fy26duolingo3-31x26share.htm
+EX-99.2
+
+Document
+
+shareholder
+
+letter
+
+Q1 2026
+
+our mission is
+
+to develop the
+
+best education
+
+in the world
+
+and make it universally available.
+
+DUOLINGO Q1 / FY 2026 2
+
+Q1 Highlights
+
+User Metrics | Q1 2025 | Q1 2026
+
+Daily Active Users | 46.6M | 56.5M
+
+21% YoY
+
+Paid Subscribers | 10.3M | 12.5M
+
+at period end | 21% YoY
+
+Financial Metrics | Q1 2025 | Q1 2026
+
+Revenue | $230.7M | $292.0M
+
+27% YoY
+
+Total Bookings | $271.6M | $308.5M
+
+14% YoY
+
+Net Income | $35.1M | $43.5M
+
+15.2% margin | 14.9% margin
+
+Adjusted EBITDA | $62.8M | $83.4M
+
+27.2% margin | 28.6% margin
+
+Net Cash Provided by Operating Activities | $105.6M | $150.8M
+
+45.8% margin | 51.6% margin
+
+Free Cash Flow | $103.0M | $147.8M
+
+44.6% margin | 50.6% margin
+
+DUOLINGO Q1 / FY 2026 3
+
+Dear shareholders,
+
+In Q1, we executed on the strategy we outlined in the last shareholder letter. It’s still too early to see the impact in our metrics, but our results so far are in line with what we expected.
+
+As a reminder, our medium-term goal is to reach 100 million DAUs in 2028. We believe that a larger user base will make Duolingo a significantly more valuable company, so we are prioritizing teaching better and growing our audience. In this letter, we will share more about the work we are doing to improve the learning outcomes of our users.
+
+Speaking practice
+
+Speaking practice, historically the biggest gap for learners on Duolingo, is now a core part of the product.
+
+For paid subscribers, Video Call continues to improve and remains one of our most impactful features. Over the last year, we've more than doubled the average number of words spoken per user in Video Call. And as promised in our last shareholder letter, we’re starting to expand access to Video Call to Super subscribers.
+
+For free and paid users, we’ve introduced several new ways to practice speaking:
+
+•Spoken tokens allow learners to speak their answers to most exercises instead of tapping the words. This is an important change that enables almost every exercise in Duolingo to become speaking practice.
+
+•Flashcards help learners build fast recall of words or phrases by saying them out loud, which is critical for developing conversational skills.
+
+•Speaking Adventures prepare learners for conversations by having them complete real-world tasks that require speaking with our characters. These scenarios come from the course curriculum, reinforcing concepts users are learning.
+
+DUOLINGO Q1 / FY 2026 4
+
+Scaling learning content
+
+We’ve now launched content up to Duolingo Score 129 (CEFR B2) across courses teaching our 9 most-learned languages, so learners can use Duolingo to reach professional proficiency. Given the number of language combinations we teach, expanding to this level required building an enormous amount of content.
+
+The left table shows our course coverage in Q1 2024 versus the right table, which shows coverage in Q1 2026.
+
+We’ve been able to achieve this by investing in AI tools that fundamentally change how quickly we can create content. In Q1 2026 alone, we published 20,500 course units (collections of lessons that teach vocabulary and grammar topics) across our language courses, up from 7,100 per quarter in 2025 and 1,800 per quarter in 2024. Automating more of our content creation process also lets us iterate in ways that were not possible before. We can now push changes across many courses at once and improve quality more quickly and consistently. This is already improving engagement among new users.
+
+We’ve also been focused on improving our Chinese, Japanese, and Korean courses. These are some of our most popular courses, but they can feel challenging because of the character writing systems. We’re making them more approachable by simplifying early lessons and making characters easier to learn.
+
+Checking for mastery
+
+We’ve added a session at the end of each unit of content to assess learners’ mastery. This is better for learning outcomes because it won’t let users proceed until they’ve mastered the previous concepts. Just as importantly, it provides us with a valuable signal about how well each unit of content teaches, which enables us to better iterate on the quality of our teaching.
+
+DUOLINGO Q1 / FY 2026 5
+
+Closing remarks
+
+We are early in our strategic shift, but one thing is already clear to us: Duolingo is better than ever. Speaking practice is now a core part of the experience, more courses teach intermediate and advanced levels, and we’re building features designed to ensure learners master concepts before they progress.
+
+We believe that initiatives like these are key to realizing our long-term goals. Teaching better not only translates into better learning outcomes, but over time it can drive engagement, retention, growth, and brand credibility. We are moving quickly to prioritize the product and free user experience, while also investing in our next engines of growth, like chess, math, and music. We have conviction this is ultimately what will make us a larger and more durable company.
+
+As part of us taking the long view in our business, we have also repurchased over 500,000 shares since our last earnings call, representing more than 100% of 2025 dilution.
+
+I am energized by what’s ahead of us, and I am thankful to all our investors for believing in our mission.
+
+Luis von Ahn
+
+CEO and Co-Founder
+
+DUOLINGO Q1 / FY 2026 6
+
+financial performance and outlook
+
+Summary of Financial and Key Operating Metrics
+
+(in millions) | Q1 2025 | Q1 2026 | YoY
+
+User Metrics
+
+Daily active users (DAUs) (1) | 46.6 | 56.5 | 21%
+
+Paid subscribers (period end) | 10.3 | 12.5 | 21%
+
+Operating Metrics
+
+Subscription bookings | $232.2 | $268.1 | 15%
+
+Total bookings | $271.6 | $308.5 | 14%
+
+GAAP Financial Measures
+
+Revenues | $230.7 | $292.0 | 27%
+
+Gross profit | $164.1 | $213.1 | 30%
+
+Gross margin (%) | 71.1% | 73.0% | 190 bps
+
+Net income | $35.1 | $43.5 | 24%
+
+Net cash from operating activities | $105.6 | $150.8 | 43%
+
+Non-GAAP Financial Measures (2)
+
+Adjusted EBITDA | $62.8 | $83.4 | 33%
+
+Adjusted EBITDA margin | 27.2% | 28.6% | 140 bps
+
+Free cash flow | $103.0 | $147.8 | 43%
+
+Free cash flow margin | 44.6% | 50.6% | 600 bps
+
+(1) We primarily evaluate user engagement using DAUs, with MAUs as a supplementary metric. MAUs were 130.2 million and 137.8 million as of March 31, 2025 and 2026, respectively.
+
+(2) Please refer to the Appendix at the end of this letter for a reconciliation of non-GAAP financial measures to the most directly comparable GAAP financial measure.
+
+All amounts in millions are rounded from thousands; totals and percentages may not sum due to rounding.
+
+DUOLINGO Q1 / FY 2026 8
+
+Gillian Munson
+
+Chief Financial Officer
+
+First Quarter 2026 Highlights
+
+Q1 was a solid start to the year. DAUs grew 21% year over year to 56.5 million, lapping 49% growth in Q1 2025 when we benefitted from our 'Dead Duo' campaign. Total bookings grew 14% year over year, or 9% on a constant currency basis, to $308.5 million, driven by continued growth in subscribers and favorable advertising trends. Revenue grew 27% year over year, or 22% on a constant currency basis, to $292.0 million.
+
+Gross margin expanded 190 basis points year over year to 73.0%, driven primarily by continued reductions in per-unit AI costs.
+
+We generated $43.5 million in net income and $83.4 million in Adjusted EBITDA. Adjusted EBITDA margin increased 140 basis points year over year to 28.6%.
+
+We ended the quarter with $1.1 billion in cash and cash equivalents. Net cash from operating activities for the quarter was $150.8 million, and free cash flow (FCF) for the quarter was $147.8 million, representing a 50.6% FCF margin.
+
+Fully diluted shares outstanding ended the quarter at approximately 49.7 million.
+
+We remain committed to managing dilution while retaining the financial flexibility to invest in our long-term growth priorities. Since initiating our $400 million repurchase program in February, we have repurchased approximately $50.6 million, or roughly 514,000 shares, through May 1, 2026. This represents more than 100% of our 2025 net dilution from equity awards.
+
+DUOLINGO Q1 / FY 2026 9
+
+Q2 and FY 2026 Guidance
+
+Our strategic plan for 2026 remains unchanged, and we continue to manage the business to the full-year targets we laid out on our Q4 call. These targets include 10-12% bookings growth, 15-18% revenues growth and an adjusted EBITDA margin of 25%. Our updated guidance reflects Q1 actuals and our current outlook for the second quarter ending June 30, 2026, and the full year ending December 31, 2026(1).
+
+(in millions) | Q2 2026 | FY 2026
+
+Bookings | $283.5 | $1,280
+
+YoY Bookings Growth | 5.8% | 10.5%
+
+Revenue | $295.5 | $1,205
+
+YoY Revenue Growth | 17.1% | 16.1%
+
+Adjusted EBITDA (2) | $71.0 | $310
+
+Adjusted EBITDA margin (2) | 24.0% | 25.7%
+
+(1) Our guidance in the table above assumes foreign exchange rates as of April 30, 2026. On a constant currency basis, assuming the average foreign exchange rates for Q2 2025 remained constant for Q2 2026, we estimate our Q2 2026 year-over-year growth for bookings and revenue at 4.1% and 15.8%, respectively. On a constant currency basis, assuming the average foreign exchange rates for full-year 2025 remained constant for full-year 2026, we estimate our full-year 2026 year-over-year growth for bookings and revenue at 8.6% and 14.5%, respectively.
+
+(2) A reconciliation of forward-looking Adjusted EBITDA and Adjusted EBITDA margin to GAAP net income has not been provided, as certain components cannot be calculated or predicted at this time without unreasonable effort. These include stock-based compensation expenses, which depend on future share grants and market prices, and legal, tax, and regulatory reserves, which depend on uncertain timing and magnitude. Accordingly, we are unable to assess the probable significance of these items on future GAAP results.
+
+For bookings, we expect FY 2026 to grow approximately 10.5% year over year and Q2 to grow approximately 5.8%, or 8.6% and 4.1% on a constant currency basis, respectively. Q2 faces a challenging bookings growth comparable, after which we expect bookings growth to accelerate through the remainder of the year.
+
+We expect FY 2026 revenue to grow approximately 16.1% year over year and Q2 to grow approximately 17.1%, or 14.5% and 15.8% on a constant currency basis, respectively, with growth moderating through the back half of the year.
+
+We expect gross margin of approximately 71.0% in Q2. We believe gross margin will trend down to approximately 69.0% by Q4, as AI feature use expands in our products.
+
+For the full year, we expect adjusted EBITDA of $310.0 million, or approximately 25.7% margin. For Q2, we expect an adjusted EBITDA margin of approximately 24.0%. We believe adjusted EBITDA margin will be flat to slightly down in Q3 before rising in Q4.
+
+2026 stock based compensation is expected to be nearly 15% of revenue, with absolute expense levels growing through the year. We currently expect fully-diluted share count, driven by equity grants to attract and retain
+
+DUOLINGO Q1 / FY 2026 10
+
+talent, to increase approximately 3.5-4% in 2026. This does not include the impact of any buyback activity. Buyback activity through May 1st represents approximately 1% of fully-diluted shares outstanding.
+
+We currently believe you should assume an effective tax provision of approximately 18-20% in 2026.
+
+DUOLINGO Q1 / FY 2026 11
+
+Dilutive Securities
+
+Duolingo has various dilutive securities outstanding. The table below details these securities:
+
+(Amounts in millions, except share price) | Price as of March 31, 2026 | Weighted-average exercise price | Shares
+
+Share price | $98.57
+
+Common stock outstanding as of March 31, 2026 | 46.9
+
+Founder awards (1) | 0.8
+
+Dilutive effect of stock options outstanding (2) | $20.71 | 0.5
+
+RSUs outstanding | 1.5
+
+Total estimated diluted shares outstanding | 49.7
+
+Video Webcast
+
+Duolingo will host a video webcast to discuss its first quarter results today, May 4, 2026, at 5:00 p.m. ET. This live webcast and related materials will be publicly available and can be accessed at investors.duolingo.com. A replay will be available on the Investor Relations website two hours following completion of the webcast and will remain available for a period of one year.
+
+About Duolingo
+
+Duolingo is the leading mobile learning platform globally. Its flagship app has organically become the world's most popular way to learn languages and the top-grossing app in the Education category on both Google Play and the Apple App Store. With technology at the core of everything it does, Duolingo has consistently invested to provide learners a fun, engaging, and effective learning experience while remaining committed to its mission to develop the best education in the world and make it universally available.
+
+(1)Includes 0.6 million underlying performance-based Restricted Stock Units ("RSUs") where performance criteria have not been satisfied.
+
+(2)The Company has 0.7 million options outstanding as of March 31, 2026. The estimated dilutive effect is calculated as the number of shares expected to be issued upon vesting or exercise, adjusted for the strike price proceeds that are received by the Company and assumed to be used to repurchase shares of Duolingo common stock.
+
+DUOLINGO Q1 / FY 2026 12
+
+Definitions
+
+Daily Active Users (DAUs). DAUs are defined as unique users who engage with our Duolingo App or the learning section of our website each calendar day. DAUs are reported for a measurement period by taking the average of the DAUs for each day in that measurement period. The measurement period for DAUs is the three months ended March 31, 2026 and the same period in the prior year where applicable, and the analysis of results is based on those periods. DAUs are a measure of the consistent engagement of our global user community on Duolingo.
+
+Paid Subscribers. Paid subscribers are defined as users who pay for access to any Duolingo subscription offering and had an active subscription as of the end of the measurement period. Each unique user account is treated as a single paid subscriber regardless of whether such user purchases multiple subscriptions, and the count of paid subscribers does not include users who are currently on a free trial or who are non-paying members of a family plan.
+
+Subscription Bookings and Total Bookings. Subscription bookings represent the amounts we receive from a purchase of any Duolingo subscription offering. Total bookings include subscription bookings, income from advertising networks for advertisements served to our users, purchases of the Duolingo English Test, and in-app purchases of virtual goods ("IAPs"). We believe bookings provide an indication of trends in our operating results, including cash flows, that are not necessarily reflected in our revenues because we recognize subscription revenues ratably over the lifetime of a subscription, the majority of which are twelve months in duration.
+
+Monthly Active Users (MAUs). MAUs are defined as unique users who engage with our Duolingo App or the learning section of our website each month. MAUs are reported for a measurement period by taking the average of the MAUs for each calendar month in that measurement period. The measurement period for MAUs is the three months ended March 31, 2026 and the same period in the prior year where applicable, and the analysis of results is based on those periods. MAUs are a supplemental measure and help illustrate the size of our global active user community on Duolingo.
+
+Limitation of Key Operating Metrics and Other Data
+
+We manage our business by tracking several operating metrics, including DAUs, paid subscribers, and subscription and total bookings. While these metrics are based on what we believe to be reasonable estimates of our user base for the applicable period of measurement, there are inherent challenges in measuring how our platform is used. These metrics are determined by using internal data gathered on an analytics platform that we developed and operate and have not been validated by an independent third party. This platform tracks user account and session activity. If we fail to maintain an effective analytics platform, our metrics calculations may be inaccurate. We believe that these metrics are reasonable estimates of our user base for the applicable period of measurement, and that the methodologies we employ and update from time-to-time to create these metrics are reasonable bases to identify trends in user behavior. Because we update the methodologies we employ to create metrics, our operating metrics may not be comparable to those in prior periods. Other companies, including companies in our industry, may calculate these metrics differently.
+
+DUOLINGO Q1 / FY 2026 13
+
+Non-GAAP Financial Measures
+
+We use certain non-GAAP financial measures to supplement our reported financial results, which are presented in accordance with GAAP. Non-GAAP financial measures include Adjusted EBITDA, Adjusted EBITDA margin, constant currency measures, non-GAAP R&D expense, non-GAAP S&M expense and non-GAAP G&A expense (collectively, the “non-GAAP operating expenses”), free cash flow, and free cash flow margin. Please refer to the definitions and reconciliation at the end of this letter. We use these non-GAAP financial measures for financial and operational decision-making and as a means to evaluate period-to-period comparisons. By excluding certain items that may not be indicative of our recurring core operating results, we believe that these non-GAAP financial measures provide meaningful supplemental information regarding our performance. Accordingly, we believe these non-GAAP financial measures are useful to investors and others because they allow for additional information with respect to financial measures used by management in its financial and operational decision-making and they may be used by our institutional investors and the analyst community to help them analyze the health of our business. However, there are a number of limitations related to the use of non-GAAP financial measures, and these non-GAAP financial measures should be considered in addition to, not as a substitute for or in isolation from, our financial results prepared in accordance with GAAP. Other companies, including companies in our industry, may calculate these non-GAAP financial measures differently or not at all, which reduces their usefulness as comparative measures.
+
+The effect of currency exchange rates on our business is an important factor in understanding period to period comparisons. We use non-GAAP percentage change in constant currency revenues and bookings, which exclude the impact of fluctuations in foreign currency exchange rates, for financial and operational decision-making and as a means to evaluate period-to-period comparisons. We believe this information is useful to investors to facilitate comparisons and better identify trends in our business. The impact of changes in foreign currency may vary significantly from period to period, and such changes generally are outside of the control of our management. We calculate constant currency revenues by translating current period foreign currency revenues using prior-year exchange rates applied consistently over the full revenue recognition period. We calculate constant currency bookings by using current period foreign currency bookings and translating them to constant currency using prior year comparable period exchange rates. The constant currency percentage change for revenues and bookings is calculated by dividing the difference between the constant currency amount and the prior year comparable period amount by the prior year comparable period amount.
+
+DUOLINGO Q1 / FY 2026 14
+
+Forward-Looking Statements
+
+This Shareholder Letter contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. We intend such forward-looking statements to be covered by the safe harbor provisions for forward-looking statements contained in Section 27A of the Securities Act of 1933, as amended (the “Securities Act”) and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). All statements other than statements of historical facts contained in this letter, including without limitation, statements regarding our business model and strategic priorities for growth, product enhancement, and monetization, including the expected benefits and efficacy of new products and product innovation for user growth and retention, our share repurchase program, our use of AI features, our medium-term user growth targets, our investments in new learning subjects, our expected learning outcomes and proficiency levels, and our financial outlook and guidance, are forward-looking statements. Without limiting the generality of the foregoing, you can identify forward-looking statements because they contain words such as “may,” “will,” “shall,” “should,” “expects,” “plans,” “anticipates,” “could,” “intends,” “target,” “projects,” “contemplates,” “believes,” “estimates,” “predicts,” “potential,” “goal,” “objective,” “seeks,” or “continue” or the negative of these words or other similar terms or expressions that concern our expectations, strategy, plans, or intentions. Such forward-looking statements are neither promises nor guarantees, but involve a number of known and unknown risks, uncertainties and assumptions that may cause our actual results, performance or achievements to differ materially from those expressed or implied in the forward-looking statements due to various factors, including, but not limited to: our ability to retain and grow our users and sustain their engagement with our products; competition in the online language learning industry; our limited operating history; our ability to maintain or increase profitability; our ability to manage our growth and operate at such scale; the success of our investments; our reliance on third-party platforms to store and distribute our products and collect revenue; our reliance on third-party hosting and cloud computing providers; our ability to compete for advertisements; acceptance by educational organizations of technology-based education; our ability to access, collect, use, and otherwise process Personal Data about our users and payers, and to comply with applicable data privacy laws; our ability to successfully develop, implement and use of artificial intelligence and machine learning technologies; our ability adequately obtain, protect and maintain our intellectual property rights; and the other important factors more fully detailed under the caption "Risk Factors" in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025, as any such factors may be updated from time to time in our other filings with the Securities and Exchange Commission (“SEC”), accessible on the SEC’s website at www.sec.gov and the Investor Relations section of the Company’s website at investors.duolingo.com. All forward-looking statements speak only as of the date of this letter. While we may elect to update such forward-looking statements at some point in the future, unless required by applicable law, we disclaim any obligation to do so, even if subsequent events cause our views to change.
+
+Website Information
+
+We routinely post important information for investors on the Investor Relations section of our website, investors.duolingo.com, and also from time to time may use social media channels, including our X account x.com/duolingo and our LinkedIn account linkedin.com/company/duolingo, as an additional means of disclosing public information to investors, the media, and others interested in us. It is possible that certain information we post on our website and on social media could be deemed to be material information, and we encourage investors, the media, and others interested in us to review the business and financial information we post on our website and on the social media channels identified above, in addition to following our press releases, SEC filings, public conference calls, presentations, and webcasts. The information contained on, or that may be accessed through, our website and our social media channels is not incorporated by reference into, and is not a part of, this document.
+
+DUOLINGO Q1 / FY 2026 15
+
+DUOLINGO, INC. AND SUBSIDIARIES UNAUDITED CONDENSED CONSOLIDATED BALANCE SHEETS
+
+(in thousands) | December 31, 2025 | March 31, 2026
+
+ASSETS
+
+Current assets
+
+Cash and cash equivalents | $1,036,389 | $1,138,561
+
+Short-term investments | 104,078 | 113,049
+
+Accounts receivable | 162,827 | 125,086
+
+Deferred cost of revenues | 102,663 | 104,513
+
+Income tax receivable | 14,067 | 5,092
+
+Prepaid expenses and other current assets | 16,582 | 19,658
+
+Total current assets | 1,436,606 | 1,505,959
+
+Operating lease right-of-use assets | 80,380 | 79,944
+
+Long-term investments | 135,098 | 140,211
+
+Intangible assets, net | 28,309 | 28,327
+
+Property and equipment, net | 36,297 | 36,966
+
+Goodwill | 35,335 | 35,335
+
+Restricted cash | 2,735 | 2,735
+
+Deferred tax assets, net | 227,339 | 217,837
+
+Other assets | 10,083 | 10,680
+
+Total assets | $1,992,182 | $2,057,994
+
+LIABILITIES AND STOCKHOLDERS’ EQUITY
+
+Current liabilities
+
+Deferred revenues | $496,205 | $513,256
+
+Accounts payable | 7,998 | 7,486
+
+Income tax payable | 1,257 | 3,814
+
+Accrued expenses and other current liabilities | 45,688 | 49,558
+
+Total current liabilities | 551,148 | 574,114
+
+Long-term obligation under operating leases | 93,779 | 91,873
+
+Deferred tax liabilities, net | 249 | 243
+
+Total liabilities | 645,176 | 666,230
+
+Commitments and contingencies
+
+Stockholders’ equity
+
+Class A common stock, $0.0001 par value; 2,000,000 shares authorized as of December 31, 2025 and March 31, 2026; 40,368 issued and outstanding as of December 31, 2025, and 40,534 issued and 40,487 outstanding at March 31, 2026, respectively Class B common stock, $0.0001 par value; 30,000 shares authorized as of December 31, 2025 and March 31, 2026; 6,260 and 6,356 issued and outstanding at December 31, 2025 and March 31, 2026, respectively | 5 | 5
+
+Treasury stock, at cost, 0 and 46 shares as of December 31, 2025 and March 31, 2026, respectively. | — | (4,499)
+
+Additional paid-in capital | 1,058,783 | 1,064,580
+
+Retained earnings | 288,218 | 331,678
+
+Total stockholders’ equity | 1,347,006 | 1,391,764
+
+Total liabilities and stockholders' equity | $1,992,182 | $2,057,994
+
+DUOLINGO Q1 / FY 2026 16
+
+DUOLINGO, INC. AND SUBSIDIARIES UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE INCOME
+
+Three Months Ended March 31,
+
+(in thousands) | 2025 | 2026
+
+Revenues | $230,743 | $291,967
+
+Cost of revenues | 66,647 | 78,871
+
+Gross profit | 164,096 | 213,096
+
+Operating expenses:
+
+Research and development | 70,390 | 82,974
+
+Sales and marketing | 26,662 | 39,249
+
+General and administrative | 43,450 | 46,346
+
+Total operating expenses | 140,502 | 168,569
+
+Income from operations | 23,594 | 44,527
+
+Other income (expense), net | 1,001 | (786)
+
+Income before interest income and income taxes | 24,595 | 43,741
+
+Interest income | 10,415 | 11,811
+
+Income before income taxes | 35,010 | 55,552
+
+(Benefit from) provision for income taxes | (125) | 12,092
+
+Net income and comprehensive income | $35,135 | $43,460
+
+Net income per share attributable to Class A and Class B common stockholders, basic | $0.78 | $0.93
+
+Net income per share attributable to Class A and Class B common stockholders, diluted | $0.72 | $0.89
+
+DUOLINGO Q1 / FY 2026 17
+
+DUOLINGO, INC. AND SUBSIDIARIES
+
+UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+
+Three Months Ended March 31,
+
+(in thousands) | 2025 | 2026
+
+Cash flows from operating activities:
+
+Net income | $35,135 | $43,460
+
+Adjustments to reconcile net income to net cash provided by operating activities:
+
+Deferred income taxes | — | 9,496
+
+Depreciation and amortization | 3,590 | 4,191
+
+Stock-based compensation expense | 31,018 | 34,647
+
+Accretion on marketable securities, net | (550) | (321)
+
+Changes in assets and liabilities: | 36,438 | 59,298
+
+Net cash provided by operating activities | 105,631 | 150,771
+
+Net cash used for investing activities | (10,549) | (16,749)
+
+Net cash provided by (used for) financing activities | 3,123 | (31,850)
+
+Net increase in cash, cash equivalents and restricted cash | 98,205 | 102,172
+
+Cash, cash equivalents and restricted cash - Beginning of period | 788,526 | 1,039,124
+
+Cash, cash equivalents and restricted cash - End of period | $886,731 | $1,141,296
+
+DUOLINGO Q1 / FY 2026 18
+
+appendix
+
+Revenue
+
+The table below provides revenues by product type:
+
+(in thousands) | Q1 2025 | Q1 2026 | Change | % Change
+
+Subscription | $190,987 | $250,908 | $59,921 | 31 | %
+
+Advertising | 17,882 | 20,614 | 2,732 | 15 | %
+
+Duolingo English Test | 11,986 | 11,317 | (669) | (6) | %
+
+In-App Purchases | 9,442 | 8,446 | (996) | (11) | %
+
+Other | 446 | 682 | 236 | 53 | %
+
+Total revenues | $230,743 | $291,967 | $61,224 | 27 | %
+
+DUOLINGO Q1 / FY 2026 20
+
+Reconciliation: Adjusted EBITDA and Adjusted EBITDA Margin and GAAP Operating Expenses and Non-GAAP Operating Expenses
+
+Adjusted EBITDA is defined as net income excluding interest income, income taxes, depreciation and amortization, stock-based compensation expenses related to equity awards, including employer payroll taxes related to equity transactions, and acquisition earn-out costs. Adjusted EBITDA margin is defined as Adjusted EBITDA as a percentage of revenues. GAAP operating expenses consist of research and development, sales and marketing, and general and administrative expenses. Non-GAAP operating expenses are defined as the respective GAAP operating expenses excluding depreciation and amortization, stock-based compensation expenses related to equity awards, and, as applicable, acquisition earn-out costs. These non-GAAP financial measures are used by management to evaluate the financial performance of our business and we present these non-GAAP financial measures because we believe that they are helpful in highlighting trends in our operating results and that they are frequently used by analysts, investors and other interested parties to evaluate companies in our industry. The following tables present a reconciliation of our net income and GAAP operating expenses, the most directly comparable financial measures presented in accordance with GAAP, to Adjusted EBITDA and Adjusted EBITDA margin and non-GAAP operating expenses, respectively.
+
+Three Months Ended March 31,
+
+(in thousands) | 2025 | 2026
+
+Net income | $35,135 | $43,460
+
+Add (deduct):
+
+Interest income | (10,415) | (11,811)
+
+(Benefit from) provision for income taxes | (125) | 12,092
+
+Depreciation and amortization | 3,590 | 4,191
+
+Stock-based compensation expenses related to equity awards (1) | 34,519 | 35,155
+
+Acquisition earn-out costs (2) | 100 | 345
+
+Adjusted EBITDA | $62,804 | $83,432
+
+Revenues | $230,743 | $291,967
+
+Adjusted EBITDA margin | 27.2 | % | 28.6 | %
+
+DUOLINGO Q1 / FY 2026 21
+
+Reconciliation: GAAP to Non-GAAP Operating Expense | Three Months Ended March 31,
+
+(in thousands) | 2025 | 2026
+
+Total GAAP Operating Expense | $140,502 | $168,569
+
+Less: Depreciation and amortization | (1,379) | (1,417)
+
+Less: Stock-based compensation expenses related to equity awards (1) | (34,499) | (35,132)
+
+Less: Other adjustments (2) | (100) | (345)
+
+Non-GAAP Operating Expense | $104,524 | $131,675
+
+Reconciliation: GAAP to Non-GAAP R&D Expense | Three Months Ended March 31,
+
+(in thousands) | 2025 | 2026
+
+Total GAAP R&D Expense | $70,390 | $82,974
+
+Less: Depreciation and amortization | (756) | (846)
+
+Less: Stock-based compensation expenses related to equity awards (1) | (18,972) | (22,839)
+
+Non-GAAP R&D Expense | $50,662 | $59,289
+
+Reconciliation: GAAP to Non-GAAP S&M Expense | Three Months Ended March 31,
+
+(in thousands) | 2025 | 2026
+
+Total GAAP S&M Expense | $26,662 | $39,249
+
+Less: Depreciation and amortization | (221) | (162)
+
+Less: Stock-based compensation expenses related to equity awards (1) | (1,503) | (1,811)
+
+Non-GAAP S&M Expense | $24,938 | $37,276
+
+Reconciliation: GAAP to Non-GAAP G&A Expense | Three Months Ended March 31,
+
+(in thousands) | 2025 | 2026
+
+Total GAAP G&A Expense | $43,450 | $46,346
+
+Less: Depreciation and amortization | (402) | (409)
+
+Less: Stock-based compensation expenses related to equity awards (1) | (14,024) | (10,482)
+
+Less: Other adjustments (2) | (100) | (345)
+
+Non-GAAP G&A Expense | $28,924 | $35,110
+
+DUOLINGO Q1 / FY 2026 22
+
+Reconciliation: Free Cash Flow and Free Cash Flow Margin
+
+Free cash flow is defined as net cash provided by operating activities, less capitalized software development costs and purchases of property and equipment. Free cash flow margin is defined as Free cash flow as a percentage of revenues. We believe that Free cash flow is a measure of liquidity that provides useful information to our management, investors and others in understanding and evaluating the strength of our liquidity and future ability to generate cash that can be used for strategic opportunities or investing in our business. Free cash flow has certain limitations in that it does not represent our residual cash flow for discretionary expenditures and our non-discretionary commitments. The following table presents a reconciliation of net cash provided by operating activities, the most directly comparable financial measure calculated in accordance with GAAP, to free cash flow:
+
+Three Months Ended March 31,
+
+(in thousands) | 2025 | 2026
+
+Net cash provided by operating activities | $105,631 | $150,771
+
+Less: Capitalized software development costs and purchases of intangible assets | (1,310) | (2,853)
+
+Less: Purchases of property and equipment | (1,309) | (132)
+
+Free cash flow | $103,012 | $147,786
+
+Revenues | $230,743 | $291,967
+
+Free cash flow margin | 44.6 | % | 50.6 | %
+
+(1) In addition to stock-based compensation expense of $31.0 million and $34.6 million for the three months ended March 31, 2025 and 2026, respectively, this includes costs incurred related to taxes paid on equity transactions.
+
+(2) Represents costs incurred related to the earn-out payments on acquisitions.
+
+DUOLINGO Q1 / FY 2026 23
+
+Contacts
+
+Investor Relations:
+
+Deborah Belevan, VP of Investor Relations
+
+ir@duolingo.com
+
+Press:
+
+Monica Earle, Director of Public Relations
+
+press@duolingo.com
+
+DUOLINGO Q1 / FY 2026 24
