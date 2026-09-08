@@ -55,6 +55,7 @@ This does not mean baby talk or a pile of analogies. It means the core ideas req
 ```
 finance/
 ├── AGENTS.md                 ← this file
+├── README.md                 ← how to use the repo, for a newcomer; the spec stays here
 ├── CLAUDE.md                 ← two-line pointer to AGENTS.md
 ├── .claude/skills/
 │   ├── research-company/SKILL.md
