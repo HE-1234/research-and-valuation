@@ -25,9 +25,10 @@ import streamlit as st
 from valuation import MarketInputs
 from valuation.app_core import (
     _WIDE, CASE_LABELS, METHOD_HELP, METHOD_WORDS, NA, STALE_BANNER, TERMINAL_METHOD_HELP, TERMINAL_METHOD_WORDS,
-    _commit_cb, _restart_cb, _save_cb, _write_cb, changes_table, fade_clause, fade_line, file_changed_on_disk, heatmap,
+    _commit_cb, _restart_cb, _save_cb, _write_cb, changes_table, fade_clauses, fade_line, file_changed_on_disk, heatmap,
     horizon_control, market_boxes, md, money, num, path_list, pct, pct2, pending_commit, per_share, plain_message,
-    ranking_for, ranking_table, reason_block, result_notes, results_table, shares, static_table, stop_sentence,
+    plain_clause, ranking_for, ranking_table, reason_block, result_notes, results_table, shares, static_table,
+    stop_sentence,
     unsaved_changes, value_chart, w_bool, w_choice, w_line, w_number, w_pct, w_text, w_terminal_growth,
     warning_sentence, working_notes, year_boxes,
 )
@@ -318,10 +319,24 @@ def page_start(ctx: Ctx, tickers: list[str], on_company_change) -> None:
 # 2. The stories
 # --------------------------------------------------------------------------- #
 
-def _story_height(text: str, chars_per_line: int = 42) -> int:
-    """A text area tall enough for its text: about ``chars_per_line`` per line at the column's width."""
+def _story_height(text: str, chars_per_line: int = 34) -> int:
+    """A text area tall enough for its text: about ``chars_per_line`` per line at the column's width.
+
+    Measured at the laptop reference width of 1180 px, where a third of the page holds about 34
+    characters; audit 4 (item 4) found the last line cut by 20 to 43 px with the old estimate, so the
+    line width is narrower and the padding larger than before.
+    """
     lines = sum(max(1, len(par) // chars_per_line + 1) for par in (text or "").splitlines()) + 1
-    return int(min(720, max(120, 26 * lines + 40)))
+    return int(min(900, max(140, 26 * lines + 72)))
+
+
+def _path_clauses(doc: dict[str, Any], name: str, ctx: Ctx) -> None:
+    """One clause per defining path, each naming its own year-10 number (section 18.10, audit 4 item 3)."""
+    growth, margin = fade_clauses(doc, name, ctx.T, ctx.market)
+    if growth:
+        st.caption(f"Revenue growth: {growth}")
+    if margin:
+        st.caption(f"Operating margin: {margin}")
 
 
 def page_stories(ctx: Ctx) -> None:
@@ -335,9 +350,7 @@ def page_stories(ctx: Ctx) -> None:
         with c, st.container(border=True):
             st.markdown(f"#### {CASE_LABELS[name]} case, {pct(get_path(doc, f'{p}.weight'), 0)}")
             static_table(paths_table(doc, name, ctx.explicit))
-            clause = fade_clause(doc, name, ctx.T, ctx.market)
-            if clause:
-                st.caption(clause)
+            _path_clauses(doc, name, ctx)
             w_text(doc, f"{p}.story", "Story (three to five plain sentences)", height=height,
                    convert=lambda x: (x or "").rstrip() + "\n" if (x or "").strip() else "")
     tail = (f" Years {ctx.explicit + 1} to {ctx.T} follow the rule quoted under each table."
@@ -357,9 +370,7 @@ def page_stories(ctx: Ctx) -> None:
         w_text(doc, "scenarios.management.reason", label, height=_story_height(text, 150))
         if computable:
             static_table(paths_table(doc, "management", ctx.explicit))
-            clause = fade_clause(doc, "management", ctx.T, ctx.market)
-            if clause:
-                st.caption(clause)
+            _path_clauses(doc, "management", ctx)
 
 
 # --------------------------------------------------------------------------- #
@@ -561,9 +572,12 @@ def page_terminal(ctx: Ctx) -> None:
                       help=("Zero in the bear case, where the advantage is gone." if name == "bear" else
                             f"Above {large_premium_ceiling(name) * 100:g} points this case needs the switch below "
                             "and a reason. Damodaran used 4 points for Alphabet in 2018 and 11.5 for Nvidia in 2023."))
-                w_bool(doc, f"{p}.terminal.roic_premium.allow_large_premium", "Allow a large premium",
-                       help=(f"Needed above {large_premium_ceiling(name) * 100:g} points in this case, with a reason "
-                             "in the file; the engine then computes and warns."))
+                if name == "bear":
+                    st.caption("The bear case stays at zero by rule, so there is nothing to allow here.")
+                else:
+                    w_bool(doc, f"{p}.terminal.roic_premium.allow_large_premium", "Allow a large premium",
+                           help=(f"Needed above {large_premium_ceiling(name) * 100:g} points in this case, with a "
+                                 "reason in the file; the engine then computes and warns."))
             if ctx.result is not None and name in ctx.result.scenarios:
                 sc = ctx.result.scenarios[name]
                 t = sc.terminal
@@ -885,8 +899,8 @@ def _diagnostics(result: ValuationResult) -> None:
                 ("Effective tax rate (money-making companies)", cell(f.effective_tax_rate, pct), f.effective_tax_rate.dataset_date or "")]
         static_table(pd.DataFrame(rows, columns=["Figure", "Value", "Dataset date"]))
     for d in a.diagnostics:
-        st.markdown(f"**{md(d.title)}**" + ("  :red[flag]" if d.flag else ""))
-        static_table(pd.DataFrame([(k, plain_message(v)) for k, v in d.rows], columns=["Item", "Value"]))
+        st.markdown(f"**{md(d.title)}**" + ("  :red[(flagged)]" if d.flag else ""))
+        static_table(pd.DataFrame([(k, plain_clause(v)) for k, v in d.rows], columns=["Item", "Value"]))
         if d.note:
             st.caption(md(d.note))
 
@@ -975,27 +989,34 @@ def page_results(ctx: Ctx) -> None:
     note_key = f"save_note:{ctx.ticker}"
     st.text_input("Note for the change log (one line, optional; saved with every changed cell)", key=note_key,
                   placeholder="why you changed these cells")
-    c1, c2, c3, _c4 = st.columns(4)
-    c1.button("Save to the assumptions file", key="save_btn", type="primary", disabled=stale or not diff,
+    # three columns, not four, and short labels: at 1180 px a quarter-width button ellipsised its label
+    # (audit 4, item 1).  The detail stays in the captions underneath.
+    c1, c2, c3 = st.columns(3)
+    c1.button("Save", key="save_btn", type="primary", disabled=stale or not diff,
               on_click=_save_cb, args=(ctx.root, ctx.ticker, ctx.path, note_key), **_WIDE)
-    c2.button("Write the report (valuation.md)", key="write_btn", disabled=stale or bool(diff), on_click=_write_cb,
+    c2.button("Write the report", key="write_btn", disabled=stale or bool(diff), on_click=_write_cb,
               args=(ctx.path,), **_WIDE)
     files, message = pending_commit(ctx.root, ctx.ticker)
-    c3.button("Record in the repository", key="commit_btn", on_click=_commit_cb, args=(ctx.root, ctx.ticker), **_WIDE)
+    # a stale file disables all three: a commit from this screen would record somebody else's edits under a
+    # message saying they are the owner's (audit 4 blocker)
+    c3.button("Record in the repository", key="commit_btn", disabled=stale, on_click=_commit_cb,
+              args=(ctx.root, ctx.ticker), **_WIDE)
     if stale:
         c1.caption("Disabled: the file changed on disk. Start over to reload it.")
         c2.caption("Disabled until the file is reloaded.")
-    elif diff:
-        c1.caption(f"{len(diff)} change(s) waiting to be saved.")
-        c2.caption("Disabled until you save, so the report always matches the file.")
+        c3.caption("Disabled: the file changed on disk. Start over to reload it. Nothing to record from this session.")
     else:
-        c1.caption("Nothing to save; the file matches what you see.")
-        c2.caption("Archives the previous report and writes a new one from the saved file.")
-    if message:
-        names = ", ".join(sorted({Path(f).name for f in files}))
-        c3.caption(f"Will commit {names} with the message '{message}'. Never pushes.")
-    else:
-        c3.caption("Nothing to record yet; everything under this company's valuation folder is already committed.")
+        if diff:
+            c1.caption(f"Saves {len(diff)} change(s) into the assumptions file, with your note.")
+            c2.caption("Disabled until you save, so the report always matches the file.")
+        else:
+            c1.caption("Nothing to save; the file matches what you see.")
+            c2.caption("Archives the previous report and writes a new one from the saved file.")
+        if message:
+            names = ", ".join(sorted({Path(f).name for f in files}))
+            c3.caption(f"Will commit {names} with the message '{message}'. Never pushes.")
+        else:
+            c3.caption("Nothing to record yet; everything under this company's valuation folder is already committed.")
     if st.session_state.get("last_output"):
         with st.expander("Output of the last report write"):
             st.code(st.session_state["last_output"])

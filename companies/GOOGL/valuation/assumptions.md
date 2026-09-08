@@ -84,9 +84,9 @@ Rows are inputs and columns are cases. Per-year cells read year 1 / year 2 / ...
 
 Years 6-10 are not written in the file; the engine builds them from the last year set above: growth moves in equal steps to terminal growth, the margin holds, per-year reinvestment figures stop, and sales-to-capital switches to the years 6-10 ratio.
 
-- Bear, years 6-10 by rule: growth moves from 7.0% to the risk-free rate; margin holds at 27.0% through year 10.
-- Base, years 6-10 by rule: growth moves from 13.0% to the risk-free rate; margin holds at 32.0% through year 10.
-- Bull, years 6-10 by rule: growth moves from 17.0% to the risk-free rate; margin holds at 36.0% through year 10.
+- Bear, years 6-10 by rule: growth moving from 7.00% to the risk-free rate; margin held at 27.0% through year 10.
+- Base, years 6-10 by rule: growth moving from 13.0% to the risk-free rate; margin held at 32.0% through year 10.
+- Bull, years 6-10 by rule: growth moving from 17.0% to the risk-free rate; margin held at 36.0% through year 10.
 
 ### Bear: reasons
 

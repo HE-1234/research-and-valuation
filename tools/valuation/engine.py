@@ -456,8 +456,13 @@ def after_tax(ebit: float, tax: float) -> float:
 
 
 def faded_growth(year5_growth: float, terminal_growth: float) -> list[float]:
-    """Years 6-10 revenue growth: linear from the year-5 rate to terminal growth (section 18.2)."""
-    return [year5_growth - (year5_growth - terminal_growth) * k / 5 for k in range(1, 6)]
+    """Years 6-10 revenue growth: linear from the year-5 rate to terminal growth (section 18.2).
+
+    The last step is the terminal rate itself rather than the arithmetic that lands on it, so the two
+    are the same number to the last bit and never print differently in one sentence.
+    """
+    steps = [year5_growth - (year5_growth - terminal_growth) * k / 5 for k in range(1, 5)]
+    return steps + [terminal_growth]
 
 
 def faded_margin(year5_margin: float) -> list[float]:

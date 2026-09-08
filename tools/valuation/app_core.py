@@ -48,6 +48,7 @@ from valuation.impact import FACTOR_LABELS, Impact, impact_ranking
 from valuation.market import MarketError
 from valuation.render_assumptions import write_assumptions_md
 from valuation.engine import faded_growth
+from valuation.render import fade_verb, rate_digits
 from valuation.schema import (
     EXPLICIT_YEARS, SCENARIO_NAMES, WEIGHTED_SCENARIOS, get_path, horizon_of, is_riskfree, split_path,
 )
@@ -417,20 +418,34 @@ _RULES: list[tuple[re.Pattern[str], Callable[[re.Match[str]], str]]] = [(re.comp
 ]]
 
 
-def plain_message(text: str) -> str:
+def plain_message(text: str, *, sentence: bool = True) -> str:
     """One engine or validator message in screen language: cases named, rates as percentages,
-    checkbox names quoted, no dotted paths, no ``--set``, no spec citations."""
+    checkbox names quoted, no dotted paths, no ``--set``, no spec citations.
+
+    The result is a sentence, ending with a full stop, because that is how the owner reads it in a
+    warning or a note.  Pass ``sentence=False`` where the text is embedded in a larger sentence or
+    a table cell (audit 4, item 10).
+    """
     s = " ".join(str(text).split())
     for pattern, repl in _RULES:
         s = pattern.sub(repl, s)
     for pattern, replacement in _JARGON:                   # keys and symbols inside free text (skip reasons)
         s = pattern.sub(replacement, s)
     s = " ".join(s.split()).strip().rstrip(";").strip()
-    return s[:1].upper() + s[1:] if s else s
+    if not s:
+        return s
+    s = s[:1].upper() + s[1:]
+    return s if not sentence or s[-1] in ".!?:" else s + "."
+
+
+def plain_clause(text: str) -> str:
+    """The same translation without the closing full stop, for text used inside another sentence."""
+    return plain_message(text, sentence=False)
 
 
 def plain_messages(text: str) -> list[str]:
-    return [plain_message(line) for line in str(text).splitlines() if line.strip()]
+    """Every line of a multi-line engine message as a clause, ready to be joined with "; "."""
+    return [plain_clause(line) for line in str(text).splitlines() if line.strip()]
 
 
 # --------------------------------------------------------------------------- #
@@ -520,41 +535,58 @@ def terminal_growth_now(doc: dict[str, Any], name: str, market: MarketInputs | N
         return None
 
 
+def _year5(doc: dict[str, Any], name: str, cell: str, n: int) -> float | None:
+    values = get_path(doc, f"scenarios.{name}.{cell}.values")
+    if not isinstance(values, list) or len(values) < n or values[n - 1] is None:
+        return None
+    return float(values[n - 1])
+
+
 def fade_line(doc: dict[str, Any], name: str, cell: str, T: int, market: MarketInputs | None) -> str | None:
     """The read-only line under the five boxes: the years 6-10 the rule builds from the year-5 input.
 
-    ``None`` when there is nothing to show (a ten-entry list, a five-year model, or an empty year-5
-    box), so the page simply leaves it out.
+    The verb follows the direction (a bear path below terminal growth is raised, not eased), and every
+    rate in the sentence carries the same number of decimals.  ``None`` when there is nothing to show
+    (a ten-entry list, a five-year model, or an empty year-5 box), so the page leaves the line out.
     """
     n = year_entries(doc, f"scenarios.{name}.{cell}", T)
     if n >= T:
         return None
-    values = get_path(doc, f"scenarios.{name}.{cell}.values")
-    if not isinstance(values, list) or len(values) < n or values[n - 1] is None:
+    year5 = _year5(doc, name, cell, n)
+    if year5 is None:
         return None
-    year5 = float(values[n - 1])
     if cell == "operating_margin":
-        return f"Years {n + 1}-{T} by rule: the margin holds at {pct(year5)} through year {T}."
+        return f"Years {n + 1}-{T} by rule: the margin is held at {pct(year5)} through year {T}."
     terminal = terminal_growth_now(doc, name, market)
     if terminal is None:
         return f"Years {n + 1}-{T} by rule: growth moves in equal steps from {pct(year5)} to terminal growth."
-    steps = " / ".join(pct(g) for g in faded_growth(year5, terminal))
-    return (f"Years {n + 1}-{T} by rule: {steps}, easing from {pct(year5)} in year {n} to the terminal growth of "
-            f"{pct2(terminal)}.")
+    steps = faded_growth(year5, terminal)
+    digits = rate_digits(year5, terminal, *steps)
+    shown = " / ".join(pct(g, digits) for g in steps)
+    return (f"Years {n + 1}-{T} by rule: {shown}, {fade_verb(year5, terminal)} the terminal growth of "
+            f"{pct(terminal, digits)} by year {T}, from {pct(year5, digits)} in year {n}.")
 
 
-def fade_clause(doc: dict[str, Any], name: str, T: int, market: MarketInputs | None) -> str | None:
-    """The short clause the Stories page adds under each case's two defining paths."""
+def fade_clauses(doc: dict[str, Any], name: str, T: int, market: MarketInputs | None) -> tuple[str | None, str | None]:
+    """The two short clauses the Stories page puts under a case's two defining paths (section 18.10).
+
+    One for the growth path ("Then easing to 4.77% by year 10.") and one for the margin path ("Then
+    held at 27.0% through year 10."), each naming its own number.
+    """
     n = year_entries(doc, f"scenarios.{name}.revenue_growth", T)
     if n >= T:
-        return None
-    margin = get_path(doc, f"scenarios.{name}.operating_margin.values")
-    m5 = margin[n - 1] if isinstance(margin, list) and len(margin) >= n and margin[n - 1] is not None else None
+        return None, None
+    g5 = _year5(doc, name, "revenue_growth", n)
+    m5 = _year5(doc, name, "operating_margin", n)
     terminal = terminal_growth_now(doc, name, market)
-    raw = get_path(doc, f"scenarios.{name}.terminal.growth.value")
-    to = "the risk-free rate" if is_riskfree(raw) else (pct2(terminal) if terminal is not None else "terminal growth")
-    tail = f", with the margin holding at {pct(m5)}" if m5 is not None else ""
-    return f"Then by rule: growth eases to {to} by year {T}{tail}."
+    growth = None
+    if terminal is not None:
+        digits = rate_digits(g5, terminal)
+        growth = f"Then {fade_verb(g5, terminal)} {pct(terminal, digits)} by year {T}."
+    elif g5 is not None:
+        growth = f"Then moving in equal steps to terminal growth by year {T}."
+    margin = None if m5 is None else f"Then held at {pct(m5)} through year {T}."
+    return growth, margin
 
 
 def set_in(doc: Any, path: str, value: Any) -> None:
@@ -767,6 +799,34 @@ def detail_blocks(text: str) -> list[tuple[str, Any]]:
     return out
 
 
+MAX_NOTE_COLUMNS = 6      # a working-notes table wider than this scrolls sideways at 1180 px (audit 4, item 12)
+
+
+def transposed_table(df: pd.DataFrame) -> pd.DataFrame:
+    """A wide notes table on its side: the first column's values become the column headings."""
+    body = df.astype(str)
+    first = str(body.columns[0])
+    header = dedupe_columns([first] + [v for v in body.iloc[:, 0]])
+    rows = [[str(c)] + [str(v) for v in body[c]] for c in body.columns[1:]]
+    return pd.DataFrame(rows, columns=header)
+
+
+def narrow_tables(df: pd.DataFrame, max_columns: int = MAX_NOTE_COLUMNS) -> list[pd.DataFrame]:
+    """One wide table split into tables that fit a column at laptop width.
+
+    Six columns or fewer pass through. A wider one is turned on its side when that fits, and
+    otherwise cut into several tables that each repeat the first column, so nothing ever has to
+    scroll sideways.
+    """
+    if len(df.columns) <= max_columns:
+        return [df]
+    if 1 + len(df) <= max_columns:
+        return [transposed_table(df)]
+    first, rest = df.columns[0], list(df.columns[1:])
+    step = max(1, max_columns - 1)
+    return [df[[first, *rest[i:i + step]]] for i in range(0, len(rest), step)]
+
+
 def working_notes(text: str) -> None:
     """Render a cell's ``detail``: tables as tables, aligned columns preformatted, prose as prose.  Whatever the
     analyst typed, the page keeps rendering: any block that cannot be shown its intended way falls back to a
@@ -779,7 +839,8 @@ def working_notes(text: str) -> None:
     for kind, payload in blocks:
         try:
             if kind == "table":
-                static_table(payload)
+                for part in narrow_tables(payload):
+                    static_table(part)
             elif kind == "code":
                 st.code(payload, language=None)
             else:
@@ -976,9 +1037,9 @@ def compute_result(doc: dict[str, Any], market: MarketInputs | None) -> tuple[Va
     except SchemaError as exc:
         return None, "; ".join(plain_messages(str(exc)))
     except (EngineError, MarketError) as exc:
-        return None, plain_message(str(exc))
+        return None, plain_clause(str(exc))
     except Exception as exc:                                   # noqa: BLE001 - never show a traceback
-        return None, f"the engine could not compute ({type(exc).__name__}: {plain_message(str(exc))})"
+        return None, f"the engine could not compute ({type(exc).__name__}: {plain_clause(str(exc))})"
 
 
 def ranking_for(doc: dict[str, Any], market: MarketInputs | None) -> tuple[list[Impact] | None, str | None]:
@@ -995,7 +1056,7 @@ def ranking_for(doc: dict[str, Any], market: MarketInputs | None) -> tuple[list[
     except (SchemaError, EngineError) as exc:
         error = "; ".join(plain_messages(str(exc)))
     except Exception as exc:                                   # noqa: BLE001
-        error = f"{type(exc).__name__}: {plain_message(str(exc))}"
+        error = f"{type(exc).__name__}: {plain_clause(str(exc))}"
     st.session_state["ranking"], st.session_state["ranking_error"], st.session_state["ranking_key"] = ranking, error, k
     return ranking, error
 
@@ -1012,7 +1073,7 @@ def ranking_table(ranking: list[Impact]) -> pd.DataFrame:
             best[page] = i
     rows = []
     for page, i in sorted(best.items(), key=lambda kv: -(abs(kv[1].change) if kv[1].change is not None else -1.0)):
-        change = f"{i.change:+,.2f}" if i.change is not None else f"not computed: {plain_message(i.note or '')}"
+        change = f"{i.change:+,.2f}" if i.change is not None else f"not computed: {plain_clause(i.note or '')}"
         rows.append({"Factor": FACTOR_LABELS.get(page, i.label), "What we nudged": i.nudge,
                      "Change in base value per share (USD)": change})
     return pd.DataFrame(rows)
@@ -1197,7 +1258,11 @@ def results_table(result: ValuationResult) -> pd.DataFrame:
 
 
 def result_notes(result: ValuationResult) -> list[str]:
-    """One plain sentence per case that is not computed (its reason) and per case warning."""
+    """One plain sentence per case that is not computed, and why.
+
+    Case warnings are not repeated here: they are listed once, in the Warnings expander (audit 4,
+    item 11, where MRVL's three terminal-return warnings appeared twice on one page).
+    """
     doc = result.assumptions
     notes = []
     for name in SCENARIO_NAMES:
@@ -1209,8 +1274,6 @@ def result_notes(result: ValuationResult) -> list[str]:
                 notes.append(stop_sentence(name, "; ".join(result.stopped[name])))
             else:
                 notes.append(MANAGEMENT_SKIPPED if name == "management" else f"{CASE_LABELS[name]} case not computed.")
-        else:
-            notes += [plain_message(w) for w in sc.warnings]
     if not result.weighted:
         notes.append("Weighted expected value not computed because a weighted case is missing.")
     return notes
@@ -1219,7 +1282,7 @@ def result_notes(result: ValuationResult) -> list[str]:
 def stop_sentence(name: str, why: str, lead: str = "not computed") -> str:
     """'Bull case not computed: terminal growth ...' without repeating the case name when the engine's message
     already starts with '<Case> case:'; one sentence, ending with a full stop."""
-    text = plain_message(why)
+    text = plain_clause(why)
     text = re.sub(rf"^{re.escape(CASE_LABELS[name])} case:\s*", "", text).rstrip(".")
     return f"{CASE_LABELS[name]} case {lead}: {text}."
 
@@ -1291,17 +1354,21 @@ def value_chart(result: ValuationResult) -> alt.LayerChart | None:
         tooltip=[alt.Tooltip("case:N", title="Case"), alt.Tooltip("value:Q", title="Value per share", format=",.2f"),
                  alt.Tooltip("fade:Q", title=f"{label} reference", format=",.2f")])
     # the value per share sits just inside the top of each bar (white on blue, so it never crosses the dashed
-    # price line); a bar too short for that carries it above; the other structure's reference value is a
-    # lighter label inside the foot of a bar tall enough to hold both
+    # price line); a bar too short for that carries it above.  The other structure's reference value is a
+    # lighter label inside the foot of a bar tall enough to hold both, and above the bar when it is not
+    # (audit 4, item 6: MRVL's bear bar simply dropped its label)
     top = max(max(d["value"] for d in data), price)
     tall = alt.datum.value > 0.18 * top
     values_in = base.transform_filter(tall).mark_text(baseline="top", dy=8, color="#ffffff", fontSize=14,
                                                       fontWeight="bold").encode(y="value:Q", text="value_label:N")
-    values_out = base.transform_filter(~tall).mark_text(baseline="bottom", dy=-6, color=INK, fontSize=14,
+    values_out = base.transform_filter(~tall).mark_text(baseline="bottom", dy=-22, color=INK, fontSize=14,
                                                         fontWeight="bold").encode(y="value:Q", text="value_label:N")
     values = values_in + values_out
-    fades = base.transform_filter(tall).mark_text(baseline="bottom", dy=-8, color=BLUE_LIGHT, fontSize=12).encode(
+    fades_in = base.transform_filter(tall).mark_text(baseline="bottom", dy=-8, color=BLUE_LIGHT, fontSize=12).encode(
         y="zero:Q", text="fade_label:N")
+    fades_out = base.transform_filter(~tall).mark_text(baseline="bottom", dy=-6, color=INK_2, fontSize=12).encode(
+        y="value:Q", text="fade_label:N")
+    fades = fades_in + fades_out
     rule_df = pd.DataFrame({"price": [price], "text": [f"price {per_share(price)}"]})
     rule = alt.Chart(rule_df).mark_rule(color=INK, strokeDash=[6, 4], size=2).encode(y="price:Q")
     rule_text = alt.Chart(rule_df).mark_text(align="right", baseline="bottom", dx=-4, dy=-4, color=INK, fontSize=12).encode(

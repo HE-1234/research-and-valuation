@@ -13,7 +13,7 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
-from .render import _esc, fade_sentence, table
+from .render import _esc, fade_sentence, rate_digits, table
 from .schema import EXPLICIT_YEARS, SCENARIO_NAMES as CASE_ORDER_ALL, get_path, horizon_of, is_riskfree
 from .schema import large_premium_ceiling
 
@@ -211,10 +211,12 @@ def by_rule_lines(doc: dict[str, Any]) -> list[str]:
         g5 = growth[n - 1] if isinstance(growth, list) and len(growth) >= n else None
         m5 = margin[n - 1] if isinstance(margin, list) and len(margin) >= n else None
         raw = _cell(doc, f"scenarios.{name}.terminal.growth")
-        words = "the risk-free rate" if is_riskfree(raw) else (_pct(raw, 1) if raw is not None else DASH)
         g_last = None if is_riskfree(raw) or raw is None else float(raw)
         if g5 is None or m5 is None:
             continue
+        # one rounding for every rate in the sentence (audit 4, item 7)
+        digits = rate_digits(float(g5), g_last)
+        words = "the risk-free rate" if is_riskfree(raw) else (_pct(raw, digits) if raw is not None else DASH)
         sentence = fade_sentence(g5, g_last, m5, terminal_words=words)
         out.append(f"- {SCENARIO_LABELS[name]}, years {n + 1}-{T} by rule: {sentence} through year {T}.")
     return out

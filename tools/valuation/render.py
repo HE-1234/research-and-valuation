@@ -242,13 +242,35 @@ def _year_table(result: ValuationResult, cases: list[str], key: str, fmt, null_t
     return table(["Case"] + [f"Year {t}" for t in range(1, T + 1)], rows)
 
 
+def rate_digits(*values: float | None) -> int:
+    """One rounding for every rate in one sentence: two decimals while they are all below 10%.
+
+    The audit's complaint was "5.2% / 4.8% ... the terminal growth of 4.77%" in a single sentence
+    (2026-09-08); the fix is to choose the number of decimals once, from all the rates involved.
+    """
+    given = [abs(v) for v in values if v is not None]
+    return 2 if given and max(given) < 0.10 else 1
+
+
+def fade_verb(year5_growth: float | None, last_growth: float | None) -> str:
+    """"easing to" when the rule brings growth down, "moving up to" when it takes it up.
+
+    A bear path whose year-5 growth is already below terminal growth is raised by the rule, so a
+    sentence that always says "easing" is wrong (audit 4, item 2).
+    """
+    if year5_growth is None or last_growth is None or abs(last_growth - year5_growth) < 1e-12:
+        return "moving to"
+    return "easing to" if last_growth < year5_growth else "moving up to"
+
+
 def fade_sentence(year5_growth: float | None, last_growth: float | None, year5_margin: float | None,
                   *, terminal_words: str | None = None) -> str:
-    """"growth eases from 20.0% to 4.2%; margin holds at 26.0%" - the rule of section 18.2 in words."""
-    falling = (year5_growth is not None and last_growth is not None and last_growth < year5_growth)
-    to = terminal_words or pct(last_growth)
-    return (f"growth {'eases' if falling else 'moves'} from {pct(year5_growth)} to {to}; "
-            f"margin holds at {pct(year5_margin)}")
+    """"growth easing from 20.0% to 4.2%; margin held at 26.0%" - the rule of section 18.2 in words."""
+    digits = rate_digits(year5_growth, last_growth)
+    verb = fade_verb(year5_growth, last_growth).replace(" to", "")          # "easing" / "moving up"
+    to = terminal_words or pct(last_growth, digits)
+    return (f"growth {verb} from {pct(year5_growth, digits)} to {to}; "
+            f"margin held at {pct(year5_margin)}")
 
 
 def _by_rule_note(result: ValuationResult) -> str:
@@ -500,7 +522,7 @@ def diagnostics_section(analysis: Analysis) -> str:
         ]
         parts += ["", table(["Industry figure", "Value", "Dataset date"], rows)]
     for d in analysis.diagnostics:
-        parts += ["", f"### {d.title}" + (" (flag)" if d.flag else ""), ""]
+        parts += ["", f"### {d.title}" + (" (flagged)" if d.flag else ""), ""]
         parts.append(table(["Item", "Value"], d.rows))
         if d.note:
             parts += ["", d.note]

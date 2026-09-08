@@ -278,12 +278,13 @@ def test_horizon_switch_to_ten_keeps_five_boxes_and_shows_the_fade_line(repo: Pa
     captions = [c.value for c in at.caption]
     fades = [c for c in captions if c.startswith("Years 6-10 by rule:")]
     assert len(fades) == 4                                          # one per case
-    # the base case eases from 20% to the run's risk-free rate in five equal steps
-    assert "16.9% / 13.7% / 10.6% / 7.4% / 4.3%" in fades[1]
-    assert "the terminal growth of 4.25%" in fades[1]
+    # the base case eases from 20% to the run's risk-free rate in five equal steps, one rounding throughout
+    # one rounding for every rate in the sentence, and the last step is the terminal rate itself (item 7)
+    assert "16.9% / 13.7% / 10.6% / 7.4% / 4.2%" in fades[1]
+    assert "easing to the terminal growth of 4.2% by year 10, from 20.0% in year 5." in fades[1]
     go_to(at, "operating_margin")
-    holds = [c.value for c in at.caption if "the margin holds at" in c.value]
-    assert holds and "Years 6-10 by rule: the margin holds at 26.0% through year 10." in holds
+    holds = [c.value for c in at.caption if "the margin is held at" in c.value]
+    assert holds and "Years 6-10 by rule: the margin is held at 26.0% through year 10." in holds
     # the results table names the other structure
     go_to(at, "results")
     table = at.table[0].value
@@ -374,10 +375,12 @@ def test_the_ten_year_walk_renders_every_page_in_plain_words(repo: Path):
         for text in texts:
             assert not banned.search(text), (page, text)
         if page == "stories":
-            clauses = [c.value for c in at.caption if c.value.startswith("Then by rule:")]
-            assert len(clauses) == 4                                  # bear, base, bull and the management case
-            assert "growth eases to the risk-free rate by year 10" in clauses[1]
-            assert "the margin holding at 26.0%" in clauses[1]
+            # one clause per defining path, each naming its own year-10 number (audit 4, item 3)
+            growth = [c.value for c in at.caption if c.value.startswith("Revenue growth: Then")]
+            margin = [c.value for c in at.caption if c.value.startswith("Operating margin: Then")]
+            assert len(growth) == 4 and len(margin) == 4              # bear, base, bull, management
+            assert growth[1] == "Revenue growth: Then easing to 4.2% by year 10."
+            assert margin[1] == "Operating margin: Then held at 26.0% through year 10."
         if page == "results":
             assert any("5-year stop per share" in list(t.value.columns) for t in at.table)
             years = [t.value for t in at.table if "Year" in list(t.value.columns)
@@ -444,6 +447,60 @@ def test_facts_page_lists_where_the_numbers_come_from(repo: Path):
     assert first == ["[10-Q Q2 FY2027, ...]", "sources/FY2027-Q2/10-Q-FY2027-Q2.txt", "2026-08-28", "quarter ended 2026-08-01"]
 
 
+def test_the_bear_terminal_block_has_no_large_premium_checkbox(repo: Path):
+    """Rule 5 fixes the bear premium at zero, so offering the switch was wrong (audit 4, item 5)."""
+    at = run_app()
+    go_to(at, "terminal")
+    gen = at.session_state["gen"]
+    keys = [c.key for c in at.checkbox]
+    assert f"w{gen}:scenarios.bear.terminal.roic_premium.allow_large_premium" not in keys
+    for name in ("base", "bull"):
+        assert f"w{gen}:scenarios.{name}.terminal.roic_premium.allow_large_premium" in keys
+    assert any("The bear case stays at zero by rule" in c.value for c in at.caption)
+    # the premium box itself stays, so the owner can see the zero
+    assert at.number_input(key=f"w{gen}:scenarios.bear.terminal.roic_premium.value").value == 0.0
+
+
+def test_the_fade_verb_follows_the_direction_of_the_rule(repo: Path):
+    """A year-5 growth below terminal growth is raised by the rule, so "easing" would be wrong (item 2)."""
+    at = run_app()
+    gen = at.session_state["gen"]
+    at.radio(key=f"w{gen}:horizon").set_value(10).run()
+    go_to(at, "revenue_growth")
+    gen = at.session_state["gen"]
+    at.number_input(key=f"w{gen}:scenarios.bear.revenue_growth.values.4").set_value(2.0).run()
+    assert_clean(at)
+    fades = [c.value for c in at.caption if c.value.startswith("Years 6-10 by rule:")]
+    assert any("moving up to the terminal growth of 4.25% by year 10, from 2.00% in year 5." in f for f in fades)
+    assert all("easing" not in f for f in fades if "from 2.00%" in f)
+    assert any("easing to the terminal growth of" in f for f in fades)      # the base case still eases
+    at.button(key="back_btn").click().run()                                 # the stories clause follows too
+    assert_clean(at)
+    assert any(c.value == "Revenue growth: Then moving up to 4.25% by year 10." for c in at.caption)
+
+
+def test_a_stale_file_disables_every_action_including_commit(repo: Path):
+    """Audit 4 blocker: a commit from a stale screen would record somebody else's edits as the owner's."""
+    yaml_path = repo / "companies" / "EXMP" / "valuation" / "assumptions.yaml"
+    at = run_app()
+    go_to(at, "results")
+    assert not at.button(key="commit_btn").disabled
+    text = yaml_path.read_text(encoding="utf-8").replace("weight: 0.25\n    story: |\n      The custom-chip",
+                                                          "weight: 0.25\n    story: |\n      REWRITTEN The custom-chip")
+    yaml_path.write_text(text, encoding="utf-8")
+    import os, time
+    os.utime(yaml_path, (time.time() + 5, time.time() + 5))
+    at.run()
+    assert_clean(at)
+    assert at.button(key="save_btn").disabled
+    assert at.button(key="write_btn").disabled
+    assert at.button(key="commit_btn").disabled
+    captions = [c.value for c in at.caption]
+    assert sum("Disabled: the file changed on disk" in c for c in captions) == 2
+    assert any("Nothing to record from this session" in c for c in captions)
+    assert not any("Will commit" in c for c in captions)
+
+
 def test_file_changed_on_disk_shows_a_banner_and_disables_save(repo: Path):
     yaml_path = repo / "companies" / "EXMP" / "valuation" / "assumptions.yaml"
     at = run_app()
@@ -462,6 +519,7 @@ def test_file_changed_on_disk_shows_a_banner_and_disables_save(repo: Path):
     assert any("changed on disk" in w.value for w in at.warning)
     go_to(at, "results")
     assert at.button(key="save_btn").disabled and at.button(key="write_btn").disabled
+    assert at.button(key="commit_btn").disabled
     assert not any("Input" in t.value.columns for t in at.table)          # the file's edits are not listed as the owner's
     assert any("Disabled: the file changed on disk" in c.value for c in at.caption)
     at.button(key="restart_btn").click().run()

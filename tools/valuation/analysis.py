@@ -20,7 +20,7 @@ from . import datasets
 from .engine import (
     BaseYear, Bridge, EngineError, ScenarioInputs, ScenarioResult, ValuationResult, run_scenario,
 )
-from .schema import get_path
+from .schema import case_label, get_path
 
 HISTORY_GAP = 0.05      # points of growth beyond which the "history is context" note is printed (rule 11)
 TRANSITION_DROP = 0.15  # a terminal-year cash flow this far below the last explicit year's is a cliff
@@ -30,6 +30,7 @@ TRANSITION_ROIC = 0.5   # a terminal return below this share of the last year's 
 # without being checked.
 EXEMPT_FROM_TRANSITION = "bear"
 BEAR_EXPECTED = " (expected: the bear's terminal return equals its cost of capital by rule)"
+FLAGGED = " (flagged)"       # one spelling of the marker in every diagnostic row
 WACC_STEPS = (-0.02, -0.01, 0.0, 0.01, 0.02)
 TERMINAL_GROWTH_STEPS = (-0.01, -0.005, 0.0, 0.005, 0.01)
 GROWTH_STEPS = (-0.04, -0.02, 0.0, 0.02, 0.04)
@@ -242,7 +243,7 @@ def diagnostics(result: ValuationResult, res: ScenarioResult,
     doc = result.assumptions
     out: list[Diagnostic] = []
     avg = average_growth(res)
-    rows = [(f"{res.name} case, average annual growth years 1-5", _pct(avg))]
+    rows = [(f"{case_label(res.name)}, average annual growth years 1-5", _pct(avg))]
     if figures:
         rows.append(("Industry, revenue growth last 5 years", _dated(figures.revenue_cagr_5y)))
     own = _optional_cell(doc, "diagnostics.historical_revenue_cagr")
@@ -268,7 +269,7 @@ def diagnostics(result: ValuationResult, res: ScenarioResult,
                           note="Flagged when revenue exceeds the market size." if flag else None))
 
     m5 = year5_margin(res.inputs)
-    rows = [(f"{res.name} case, year-5 operating margin", _pct(m5)),
+    rows = [(f"{case_label(res.name)}, year-5 operating margin", _pct(m5)),
             ("Base-year adjusted operating margin", _pct(result.base_year.margin))]
     if figures:
         rows.append(("Industry, pre-tax operating margin", _dated(figures.pretax_operating_margin)))
@@ -287,7 +288,7 @@ def diagnostics(result: ValuationResult, res: ScenarioResult,
         note = "Base-year invested capital is null, so the yearly ROIC could not be computed."
     out.append(Diagnostic("4. Implied return on invested capital against the cost of capital", rows, note=note))
 
-    rows = [(f"{name} case", _pct(sc.terminal_share)) for name, sc in result.scenarios.items()]
+    rows = [(case_label(name), _pct(sc.terminal_share)) for name, sc in result.scenarios.items()]
     out.append(Diagnostic("5. Share of operating assets that comes from the terminal value", rows))
 
     rows, flag = [], False
@@ -295,7 +296,7 @@ def diagnostics(result: ValuationResult, res: ScenarioResult,
         ratio = sc.per_share / sc.price if sc.price else None
         hit = ratio is not None and (ratio > 2.0 or ratio < 0.5)
         flag = flag or hit
-        rows.append((f"{name} case", f"value per share is {ratio:.2f}x the price" + (" (flag)" if hit else "")
+        rows.append((case_label(name), f"value per share is {ratio:.2f}x the price" + (FLAGGED if hit else "")
                      if ratio is not None else "no price"))
     out.append(Diagnostic("6. Value against price", rows, flag=flag,
                           note="Flagged when value per share is above 2x or below 0.5x the price." if flag else None))
@@ -324,24 +325,25 @@ def transition_check(result: ValuationResult, warnings: list[str] | None = None)
         hit = checked and transition_flag(last.fcff, term.fcff, last.roic, term.roic)
         flag = flag or hit
         last_year = last.year
-        rows.append((f"{name} case, free cash flow (USD millions)",
+        rows.append((f"{case_label(name)}, free cash flow (USD millions)",
                      f"year {last.year} {last.fcff:,.0f} to terminal year {term.fcff:,.0f}"
                      + ("" if change is None else f", a change of {change * 100:+.1f}%")
-                     + (" (flag)" if hit else "")
+                     + (FLAGGED if hit else "")
                      + ("" if checked else BEAR_EXPECTED)))
-        rows.append((f"{name} case, return on capital",
+        rows.append((f"{case_label(name)}, return on capital",
                      f"year {last.year} {_pct(last.roic)} to terminal year {_pct(term.roic)}"))
         if hit and warnings is not None:
             warnings.append(
                 f"{name}: the terminal year's free cash flow ({term.fcff:,.0f}) is far below the year-{last.year} "
                 f"free cash flow ({last.fcff:,.0f}); the terminal settings and the year-{last.year} inputs disagree")
-    note = ("A small drop is normal, because the terminal year reinvests g divided by return on capital. "
+    note = ("A small drop is normal, because the terminal year reinvests growth divided by the return on capital. "
             f"Flagged when the terminal year's cash flow is more than {TRANSITION_DROP * 100:.0f}% below the year-"
             f"{last_year} figure, or when the terminal return on capital is below half of that year's. The bear "
             "case is shown but not checked, because its terminal return equals its cost of capital by rule.")
     if flag:
-        note = ("A small drop is normal, because the terminal year reinvests g divided by return on capital; a drop "
-                "this large means the terminal settings and the last explicit year disagree. Revisit the terminal "
+        note = ("A small drop is normal, because the terminal year reinvests growth divided by the return on "
+                "capital; a drop this large means the terminal settings and the last explicit year disagree. "
+                "Revisit the terminal "
                 "return on capital or the shape of the last years, rather than accepting the step. The bear case is "
                 "shown but not checked, because its terminal return equals its cost of capital by rule.")
     return Diagnostic("7. The step from the last explicit year into the terminal year", rows, flag=flag, note=note)

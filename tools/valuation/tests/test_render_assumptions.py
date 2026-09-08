@@ -151,9 +151,12 @@ def test_ten_year_horizon_prints_the_by_rule_line_under_the_per_year_tables():
     assert "| Sales-to-capital, years 6-10 |" in text                       # real model years now
     assert "10 forecast years, then a terminal value: years 1-5 are set below and years 6-10 are built by rule" in text
     # terminal growth is not known until a run fetches the rate, so it is named in words
-    assert "- Base, years 6-10 by rule: growth moves from 20.0% to the risk-free rate; margin holds at 26.0% " \
+    assert "- Base, years 6-10 by rule: growth moving from 20.0% to the risk-free rate; margin held at 26.0% " \
            "through year 10." in text
-    assert "- Bull, years 6-10 by rule: growth eases from 15.0% to 4.0%; margin holds at 34.0% through year 10." in text
+    assert "- Bull, years 6-10 by rule: growth easing from 15.0% to 4.0%; margin held at 34.0% through year 10." in text
+    # audit 4, item 2: the verb follows the direction, so a bear path below terminal growth moves up
+    doc["scenarios"]["bull"]["revenue_growth"]["values"][4] = 0.02
+    assert "- Bull, years 6-10 by rule: growth moving up from 2.00% to 4.00%;" in render_assumptions(doc)
     # the premium row names the new ceilings
     assert "| A large premium is allowed (above base 8, bull 12 points) |" in text
 

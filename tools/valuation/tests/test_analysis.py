@@ -114,6 +114,10 @@ def test_transition_check_diagnostic_reports_the_change_and_warns_when_flagged()
     assert "a change of -" in text and "to terminal year" in text
     assert "return on capital" in " ".join(k for k, _v in diag.rows)
     assert "A small drop is normal" in (diag.note or "")
+    # audit 4: no bare "g", capitalised case names, one spelling of the marker
+    assert "reinvests growth divided by the return on capital" in (diag.note or "")
+    assert all(k.startswith(("Bear case", "Base case", "Bull case", "Management case")) for k, _v in diag.rows)
+    assert "(flag)" not in text.replace("(flagged)", "")
     assert any("is far below the year-5 free cash flow" in w for w in result.warnings)
 
 
@@ -121,12 +125,12 @@ def test_the_bear_case_is_reported_but_never_flagged():
     """Rule 5 fixes the bear's terminal return at its cost of capital, so its step is expected."""
     result = compute(load_yaml(FIXTURE), MARKET)
     rows = dict(result.analysis.diagnostics[-1].rows)
-    bear = rows["bear case, free cash flow (USD millions)"]
+    bear = rows["Bear case, free cash flow (USD millions)"]
     # the fixture's bear falls 42%, well past the 15% tolerance, yet carries the note instead of a flag
     assert "a change of -42.4%" in bear
     assert bear.endswith("(expected: the bear's terminal return equals its cost of capital by rule)")
-    assert "(flag)" not in bear
-    assert "(flag)" in rows["base case, free cash flow (USD millions)"]
+    assert "(flagged)" not in bear
+    assert "(flagged)" in rows["Base case, free cash flow (USD millions)"]
     assert not any(w.startswith("bear: the terminal year's free cash flow") for w in result.warnings)
     assert any(w.startswith("base: the terminal year's free cash flow") for w in result.warnings)
     assert "The bear case is shown but not checked" in (result.analysis.diagnostics[-1].note or "")
@@ -138,7 +142,7 @@ def test_the_bear_case_is_reported_but_never_flagged():
         sc["terminal"]["roic_premium"] = {"value": premium, "allow_large_premium": False, "reason": "test"}
         sc["tax_rate"]["terminal"] = sc["tax_rate"]["start"]
     quiet = compute(doc, MARKET)                            # the bear keeps its 42% step and its zero premium
-    bear_row = dict(quiet.analysis.diagnostics[-1].rows)["bear case, free cash flow (USD millions)"]
+    bear_row = dict(quiet.analysis.diagnostics[-1].rows)["Bear case, free cash flow (USD millions)"]
     assert "a change of -" in bear_row
     assert quiet.analysis.diagnostics[-1].flag is False
     assert not any("free cash flow" in w for w in quiet.warnings)

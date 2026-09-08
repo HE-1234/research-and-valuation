@@ -23,6 +23,13 @@ import yaml
 
 SCENARIO_NAMES = ("bear", "base", "bull", "management")
 WEIGHTED_SCENARIOS = ("bear", "base", "bull")
+# The case names as every table, heading and message shows them; the YAML keys stay lower case.
+CASE_LABELS = {"bear": "Bear", "base": "Base", "bull": "Bull", "management": "Management"}
+
+
+def case_label(name: str) -> str:
+    """"bear" -> "Bear case": one spelling of a case name for every table and message."""
+    return f"{CASE_LABELS.get(str(name), str(name).capitalize())} case"
 # Section 18.4 rule 5: the bear case gives up the moat entirely, so its premium must be zero; the base
 # and bull cases carry soft ceilings (Damodaran's own choices were 4 points for Alphabet 2018 and 11.5
 # for Nvidia 2023).  Above the ceiling the engine still computes, but only with `allow_large_premium`.
