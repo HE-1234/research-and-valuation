@@ -33,6 +33,7 @@ TOP_LEVEL_KEYS = {
     "currency", "units", "horizon", "base_year", "switches", "bridge", "market",
     "cost_of_capital", "diagnostics", "scenarios",
     "owner_edited", "changelog",   # maintained by the app (section 18.4); never read by the engine
+    "sources",                     # optional: [{tag, file, date, note}] mapping source tags to cached files
 }
 SCENARIO_KEYS = {
     "weight", "story", "revenue_growth", "operating_margin", "sales_to_capital",
@@ -419,6 +420,23 @@ def _check_cost_of_capital(v: Validation, doc: dict[str, Any]) -> None:
                               "capital is kept forever (default is the mature-market rate)")
 
 
+def _check_sources(v: Validation, doc: dict[str, Any]) -> None:
+    """Optional top-level ``sources``: a list of mappings, each with at least ``tag`` and ``file``."""
+    src = doc.get("sources")
+    if src is None:
+        return
+    if not isinstance(src, list):
+        v.errors.append("sources: must be a list of {tag, file, date, note} entries")
+        return
+    for i, entry in enumerate(src):
+        if not isinstance(entry, dict):
+            v.errors.append(f"sources.{i}: must be a mapping with tag and file")
+            continue
+        for key in ("tag", "file"):
+            if not isinstance(entry.get(key), str) or not entry.get(key).strip():
+                v.errors.append(f"sources.{i}.{key}: required string")
+
+
 def _check_diagnostics(v: Validation, doc: dict[str, Any]) -> None:
     diag = get_path(doc, "diagnostics")
     if diag is None:
@@ -615,6 +633,7 @@ def validate(doc: Any) -> Validation:
     _check_market(v, doc)
     _check_cost_of_capital(v, doc)
     _check_diagnostics(v, doc)
+    _check_sources(v, doc)
     _check_scenarios(v, doc)
     # de-duplicate while keeping order
     v.shared_nulls = list(dict.fromkeys(v.shared_nulls))

@@ -174,3 +174,8 @@ scenarios:
     terminal:
       growth:              {value: 0.04, allow_above_riskfree: false, reason: "At the risk-free rate."}
       roic_premium:        {value: 0.03, allow_large_premium: false, reason: "Base-case premium."}
+
+# Optional: every source tag used above, mapped to the cached file it points to (section 18.4).
+sources:
+  - {tag: "[10-Q Q2 FY2027, ...]", file: "sources/FY2027-Q2/10-Q-FY2027-Q2.txt", date: "2026-08-28", note: "quarter ended 2026-08-01"}
+  - {tag: "[Q2 FY2027 call]", file: "sources/FY2027-Q2/transcript.txt", date: "2026-08-27"}

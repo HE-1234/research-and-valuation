@@ -741,6 +741,19 @@ def page_facts(ctx: Ctx) -> None:
         static_table(pd.DataFrame(coc_derived_rows(ctx.result), columns=["Item", "Value"]))
         for w in ctx.result.cost_of_capital.warnings:
             st.caption(plain_message(w))
+    sources_table(doc)
+
+
+def sources_table(doc: dict[str, Any]) -> None:
+    """The file's tag-to-cached-file list, when it has one: what every source tag on the pages points to."""
+    entries = [e for e in (doc.get("sources") or []) if isinstance(e, dict)] if isinstance(doc.get("sources"), list) else []
+    if not entries:
+        return
+    with st.expander(f"Where the numbers come from ({len(entries)} sources)"):
+        st.markdown("Every source tag shown on these pages, the cached file it points to (inside the company's "
+                    "folder) and the document date.")
+        static_table(pd.DataFrame([{"Tag": e.get("tag") or "", "Cached file": e.get("file") or "",
+                                    "Date": e.get("date") or "", "Note": e.get("note") or ""} for e in entries]))
 
 
 # --------------------------------------------------------------------------- #

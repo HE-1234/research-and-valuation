@@ -124,3 +124,18 @@ def test_detail_prints_after_the_reason_as_an_indented_paragraph():
     j = text.index("    History: 2022 9.8%, 2023 8.7%, 2024 13.9%.\n    Backlog covers year one.")
     assert i < j < text.index("**Operating margin** — Two points a year")
     assert "- **Revenue**, working notes:\n\n    FY2025 402,836 plus six months." in text
+
+
+def test_sources_table_is_the_final_section():
+    doc = load(FIXTURE)
+    text = render_assumptions(doc)
+    i = text.index("## Sources")
+    assert i > text.index("## 8. Management guidance on record")
+    assert "| Tag | Cached file | Date | Note |" in text[i:]
+    assert "| [10-Q Q2 FY2027, ...] | `sources/FY2027-Q2/10-Q-FY2027-Q2.txt` | 2026-08-28 | quarter ended 2026-08-01 |" in text[i:]
+    assert "| [Q2 FY2027 call] | `sources/FY2027-Q2/transcript.txt` | 2026-08-27 | — |" in text[i:]
+    doc["changelog"] = [{"at": "2026-09-08T10:12:00", "path": "horizon", "old": 5, "new": 10, "note": None}]
+    text = render_assumptions(doc)
+    assert text.index("## 9. Change log") < text.index("## Sources")
+    del doc["sources"]
+    assert "## Sources" not in render_assumptions(doc)

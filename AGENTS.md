@@ -572,7 +572,7 @@ scenarios:
       roic_premium:        {value: null, allow_large_premium: false, reason: "..."}
 ```
 
-Two optional top-level blocks the engine and the app maintain; analysts never write them:
+An optional top-level `sources:` list maps every tag used in the file to its cached text: `- {tag: "10-Q Q2 FY2027", file: "sources/FY2027-Q2/10-Q-FY2027-Q2.txt", date: "2026-08-28", note: "..."}`. `assumptions.md` prints it as its Sources table. Two more optional top-level blocks the engine and the app maintain; analysts never write them:
 
 ```yaml
 owner_edited: 2026-09-08T10:12:00      # last save from the app

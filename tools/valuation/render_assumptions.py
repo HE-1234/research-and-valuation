@@ -391,6 +391,18 @@ def guidance(doc: dict[str, Any]) -> str:
     return "## 8. Management guidance on record\n\n" + lead + "\n\n" + table(["Item", "Quote", "Source", "Used as"], rows)
 
 
+def sources(doc: dict[str, Any]) -> str | None:
+    """The file's own tag-to-cached-file list as the final table, when the YAML carries one."""
+    entries = doc.get("sources")
+    if not isinstance(entries, list) or not entries:
+        return None
+    rows = [[_text(e.get("tag")), f"`{_text(e.get('file'))}`", _text(e.get("date")), _text(e.get("note"))]
+            for e in entries if isinstance(e, dict)]
+    lead = ("Every source tag used above, the cached file it points to (relative to the company folder), and the "
+            "document date.")
+    return "## Sources\n\n" + lead + "\n\n" + table(["Tag", "Cached file", "Date", "Note"], rows)
+
+
 def changelog(doc: dict[str, Any]) -> str | None:
     log = doc.get("changelog")
     if not isinstance(log, list) or not log:
@@ -413,6 +425,9 @@ def render_assumptions(assumptions: dict[str, Any]) -> str:
     log = changelog(doc)
     if log:
         parts.append(log)
+    src = sources(doc)
+    if src:
+        parts.append(src)
     return "\n\n".join(p for p in parts if p).rstrip() + "\n"
 
 

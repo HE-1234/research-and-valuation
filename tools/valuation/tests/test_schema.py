@@ -303,3 +303,17 @@ def test_detail_is_accepted_silently_in_cells_and_scenarios(doc):
     doc["diagnostics"]["historical_revenue_cagr"]["detail"] = "From the ten-year table."
     v = validate(doc)
     assert v.ok and not any("detail" in w for w in v.warnings)
+
+
+def test_sources_block_is_accepted_silently_and_checked_for_shape(doc):
+    v = validate(doc)                                           # the fixture carries two entries
+    assert v.ok and not any("sources" in w for w in v.warnings)
+    doc["sources"] = [{"tag": "[x]"}, "loose text", {"tag": "[y]", "file": "sources/y.txt", "date": "2026-01-01"}]
+    v = validate(doc)
+    assert any("sources.0.file: required string" in e for e in v.errors)
+    assert any("sources.1: must be a mapping" in e for e in v.errors)
+    assert not any("sources.2" in e for e in v.errors)
+    doc["sources"] = {"tag": "[x]"}
+    assert any("sources: must be a list" in e for e in validate(doc).errors)
+    del doc["sources"]
+    assert validate(doc).ok

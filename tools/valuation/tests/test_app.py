@@ -360,3 +360,13 @@ def test_start_page_uses_the_cached_tbond_rate_when_fred_is_unavailable(repo: Pa
     assert any("Note: fetching is off" in c.value or "Note: FRED was unreachable" in c.value for c in at.caption)
     assert at.number_input(key="mkt:EXMP:rf").value == pytest.approx(latest.tbond_rate * 100)
     assert any("cached Damodaran ERPbymonth dataset" in w for w in market.warnings)
+
+
+def test_facts_page_lists_where_the_numbers_come_from(repo: Path):
+    at = run_app()
+    go_to(at, "facts")
+    assert any(e.label.startswith("Where the numbers come from (2 sources)") for e in at.expander)
+    tables = [t.value for t in at.table if list(t.value.columns) == ["Tag", "Cached file", "Date", "Note"]]
+    assert tables
+    first = [str(x).replace("\\", "") for x in tables[0].iloc[0]]        # cells are markdown-escaped for display
+    assert first == ["[10-Q Q2 FY2027, ...]", "sources/FY2027-Q2/10-Q-FY2027-Q2.txt", "2026-08-28", "quarter ended 2026-08-01"]
