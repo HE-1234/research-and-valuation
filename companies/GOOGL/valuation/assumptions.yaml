@@ -439,3 +439,16 @@ scenarios:
         value: null
         allow_large_premium: false
         reason: "Not guided."
+
+sources:
+  - {tag: "[10-Q Q2 2026, …]", file: "sources/2026-Q2/10-Q-2026-Q2.txt", date: "2026-07-23", note: "quarter ended 2026-06-30; the date is the filing date"}
+  - {tag: "[10-Q Q1 2026, …]", file: "sources/2026-Q1/10-Q-2026-Q1.txt", date: "2026-04-30", note: "quarter ended 2026-03-31; the date is the filing date"}
+  - {tag: "[10-K FY2025, …]", file: "sources/2026-Q1/10-K-FY2025.txt", date: "2026-02-05", note: "10-K for the year ended 2025-12-31; the date is the filing date"}
+  - {tag: "[10-K FY2023, …]", file: "sources/2026-Q1/10-K-FY2023.txt", date: "2024-01-31", note: "10-K for the year ended 2023-12-31; the date is the filing date; used for the FY2021–FY2022 history"}
+  - {tag: "[Q2 2026 call, p.N]", file: "sources/2026-Q2/transcript.txt", date: "2026-07-22", note: "company-published transcript, tier 1; page numbers are the PDF's own"}
+  - {tag: "[Q2 2026 release, p.N]", file: "sources/2026-Q2/press-release.txt", date: "2026-07-22", note: "earnings press release, 8-K Exhibit 99.1"}
+  - {tag: "[Q2 2026 slides, p.N]", file: "sources/2026-Q2/slides.txt", date: "2026-07-22", note: "earnings slides"}
+  - {tag: "[8-K 2026-06-04]", file: "sources/2026-Q2/8-K-2026-06-04.txt", date: "2026-06-04", note: "at-the-market equity programme, common-stock offering and Berkshire private placement"}
+  - {tag: "[8-K 2026-06-05 (preferred)]", file: "sources/2026-Q2/8-K-2026-06-05-preferred.txt", date: "2026-06-05", note: "mandatory convertible preferred offering and capped calls"}
+  - {tag: "[Damodaran betas.xls, …]", file: "tools/valuation/data/damodaran/betas.csv", date: "2026-01-05", note: "engine-cached dataset, dated as cited in the source tag; not read by the analyst"}
+  - {tag: "[Yahoo price 338.46 on 2026-09-04]", file: "none (fetched)", date: "2026-09-04", note: "spot price fetched by the engine at run time; nothing cached in the repo"}

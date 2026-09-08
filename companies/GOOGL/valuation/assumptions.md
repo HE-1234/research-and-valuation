@@ -293,3 +293,21 @@ Everything management has said in numbers or in words, whether or not it was use
 | Free cash flow | we expect the free cash flow will remain under pressure driven by our investments in technical infrastructure | [Q2 2026 call, p.14] | not numeric |
 | Equity markets and ATM program | At this point, we're not planning to go back to the equity markets, with the exception of ... the ATM, or at‑the‑market, offering that we will do to address ... the tax on SBC, which we'll do for some period of time. | [Q2 2026 call, p.18] | dilution_note |
 | Depreciation and hiring | will continue to put pressure on the P&L in the form of higher depreciation expense and related data center operations costs, such as energy. We also expect to continue hiring in key investment areas such as AI and cloud | [Q2 2026 call, p.13–14] | not numeric (informs analyst margin paths) |
+
+## Sources
+
+Every source tag used above, the cached file it points to (relative to the company folder), and the document date.
+
+| Tag | Cached file | Date | Note |
+|---|---|---|---|
+| [10-Q Q2 2026, …] | `sources/2026-Q2/10-Q-2026-Q2.txt` | 2026-07-23 | quarter ended 2026-06-30; the date is the filing date |
+| [10-Q Q1 2026, …] | `sources/2026-Q1/10-Q-2026-Q1.txt` | 2026-04-30 | quarter ended 2026-03-31; the date is the filing date |
+| [10-K FY2025, …] | `sources/2026-Q1/10-K-FY2025.txt` | 2026-02-05 | 10-K for the year ended 2025-12-31; the date is the filing date |
+| [10-K FY2023, …] | `sources/2026-Q1/10-K-FY2023.txt` | 2024-01-31 | 10-K for the year ended 2023-12-31; the date is the filing date; used for the FY2021–FY2022 history |
+| [Q2 2026 call, p.N] | `sources/2026-Q2/transcript.txt` | 2026-07-22 | company-published transcript, tier 1; page numbers are the PDF's own |
+| [Q2 2026 release, p.N] | `sources/2026-Q2/press-release.txt` | 2026-07-22 | earnings press release, 8-K Exhibit 99.1 |
+| [Q2 2026 slides, p.N] | `sources/2026-Q2/slides.txt` | 2026-07-22 | earnings slides |
+| [8-K 2026-06-04] | `sources/2026-Q2/8-K-2026-06-04.txt` | 2026-06-04 | at-the-market equity programme, common-stock offering and Berkshire private placement |
+| [8-K 2026-06-05 (preferred)] | `sources/2026-Q2/8-K-2026-06-05-preferred.txt` | 2026-06-05 | mandatory convertible preferred offering and capped calls |
+| [Damodaran betas.xls, …] | `tools/valuation/data/damodaran/betas.csv` | 2026-01-05 | engine-cached dataset, dated as cited in the source tag; not read by the analyst |
+| [Yahoo price 338.46 on 2026-09-04] | `none (fetched)` | 2026-09-04 | spot price fetched by the engine at run time; nothing cached in the repo |
