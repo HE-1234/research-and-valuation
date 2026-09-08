@@ -658,8 +658,8 @@ def detail_blocks(text: str) -> list[tuple[str, Any]]:
                 rows.append(cells)
             if len(rows) >= 2:
                 width = max(len(r) for r in rows)
-                rows = [r + [""] * (width - len(r)) for r in rows]
-                header = [h or f"col {i + 1}" for i, h in enumerate(rows[0])]
+                rows = [(r + [""] * width)[:width] for r in rows]           # ragged rows padded to the widest
+                header = dedupe_columns([h or f"col {i + 1}" for i, h in enumerate(rows[0])])
                 out.append(("table", pd.DataFrame(rows[1:], columns=header)))
                 continue
         aligned = [ln for ln in lines if re.search(r"\S {2,}\S", ln)]
@@ -671,14 +671,24 @@ def detail_blocks(text: str) -> list[tuple[str, Any]]:
 
 
 def working_notes(text: str) -> None:
-    """Render a cell's ``detail``: tables as tables, aligned columns preformatted, prose as prose."""
-    for kind, payload in detail_blocks(text):
-        if kind == "table":
-            static_table(payload)
-        elif kind == "code":
-            st.code(payload, language=None)
-        else:
-            st.markdown(md(payload))
+    """Render a cell's ``detail``: tables as tables, aligned columns preformatted, prose as prose.  Whatever the
+    analyst typed, the page keeps rendering: any block that cannot be shown its intended way falls back to a
+    preformatted copy of the raw text."""
+    try:
+        blocks = detail_blocks(text)
+    except Exception:                                          # noqa: BLE001
+        st.code(str(text), language=None)
+        return
+    for kind, payload in blocks:
+        try:
+            if kind == "table":
+                static_table(payload)
+            elif kind == "code":
+                st.code(payload, language=None)
+            else:
+                st.markdown(md(payload))
+        except Exception:                                      # noqa: BLE001
+            st.code(payload if isinstance(payload, str) else payload.to_string(index=False), language=None)
 
 
 # --------------------------------------------------------------------------- #
@@ -1086,8 +1096,7 @@ def result_notes(result: ValuationResult) -> list[str]:
             if name in result.stopped:
                 notes.append(stop_sentence(name, "; ".join(result.stopped[name])))
             else:
-                notes.append(f"{CASE_LABELS[name]} case not computed; its reason and the guidance on record are on "
-                             "the Revenue growth page.")
+                notes.append(MANAGEMENT_SKIPPED if name == "management" else f"{CASE_LABELS[name]} case not computed.")
         else:
             notes += [plain_message(w) for w in sc.warnings]
     if not result.weighted:
@@ -1103,9 +1112,43 @@ def stop_sentence(name: str, why: str, lead: str = "not computed") -> str:
     return f"{CASE_LABELS[name]} case {lead}: {text}."
 
 
+def dedupe_columns(names: list[Any]) -> list[str]:
+    """Column names made unique ("Ratio", "Ratio (2)", ...): st.table refuses duplicate names."""
+    seen: dict[str, int] = {}
+    out: list[str] = []
+    for raw_name in names:
+        name = str(raw_name).strip() or "column"
+        seen[name] = seen.get(name, 0) + 1
+        out.append(name if seen[name] == 1 else f"{name} ({seen[name]})")
+    return out
+
+
+MANAGEMENT_SKIPPED = ("Management case not computed; its reason and the guidance on record are on the Revenue growth "
+                      "page.")
+
+
+def warning_sentence(text: str) -> str:
+    """A warning line as the owner reads it: stopped cases through stop_sentence, the skipped management case
+    through the same pointer sentence the Results notes use, everything else through plain_message."""
+    m = re.match(r"^(bear|base|bull|management) scenario not computed: (.*)$", str(text).strip(), re.S)
+    if m:
+        return stop_sentence(m.group(1), m.group(2))
+    m = re.match(r"^(bear|base|bull|management) scenario skipped: ", str(text).strip())
+    if m:
+        return MANAGEMENT_SKIPPED if m.group(1) == "management" else f"{CASE_LABELS[m.group(1)]} case not computed."
+    return plain_message(text)
+
+
 def static_table(df: pd.DataFrame) -> None:
-    """A read-only table that wraps long text and never scrolls; every cell is escaped so markdown shows it literally."""
-    st.table(df.astype(str).map(md), hide_index=True)
+    """A read-only table that wraps long text and never scrolls; every cell is escaped so markdown shows it
+    literally.  Content can never crash the page: duplicate column names are made unique and anything the
+    table widget still refuses is shown as a preformatted block instead."""
+    try:
+        shown = df.copy()
+        shown.columns = dedupe_columns(list(shown.columns))
+        st.table(shown.astype(str).map(md), hide_index=True)
+    except Exception:                                          # noqa: BLE001 - owner content must never raise
+        st.code(df.to_string(index=False), language=None)
 
 
 def value_chart(result: ValuationResult) -> alt.LayerChart | None:

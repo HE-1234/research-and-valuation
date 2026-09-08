@@ -397,3 +397,21 @@ def test_file_changed_on_disk_shows_a_banner_and_disables_save(repo: Path):
     assert_clean(at)
     assert at.session_state["page"] == 0 and not any("changed on disk" in w.value for w in at.warning)
     assert "REWRITTEN" in at.session_state["working"]["scenarios"]["bear"]["story"]
+
+
+def test_working_notes_with_a_duplicate_column_pipe_table_render_without_a_traceback(repo: Path):
+    yaml_path = repo / "companies" / "EXMP" / "valuation" / "assumptions.yaml"
+    doc = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))
+    doc["scenarios"]["base"]["sales_to_capital"]["detail"] = (
+        "Historical ratios.\n\n| Year | Ratio | Ratio |\n|---|---|---|\n| FY2023 | 2.2 | 107 |\n| FY2024 | n/m |\n\n"
+        "Year      Capex   D&A\nFY2023    206     305\nFY2024    336     300")
+    yaml_path.write_text(yaml.safe_dump(doc, sort_keys=False, allow_unicode=True), encoding="utf-8")
+    at = run_app()
+    go_to(at, "reinvestment")                                    # the page renders to the end: readout and buttons
+    assert_clean(at)
+    assert readout(at) and at.button(key="next_btn")
+    tables = [t.value for t in at.table if "Ratio (2)" in list(t.value.columns)]
+    assert tables and list(tables[0].columns) == ["Year", "Ratio", "Ratio (2)"]
+    assert any("FY2023    206     305" in c.value for c in at.code)
+    go_to(at, "results")
+    assert not any("Bull case: " in m.value or "used as" in m.value for m in at.markdown)

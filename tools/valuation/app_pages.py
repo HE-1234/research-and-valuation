@@ -28,7 +28,8 @@ from valuation.app_core import (
     _commit_cb, _restart_cb, _save_cb, _write_cb, changes_table, file_changed_on_disk, heatmap, horizon_control,
     market_boxes, md, money, num, path_list, pct, pct2, pending_commit, per_share, plain_message, ranking_for,
     ranking_table, reason_block, result_notes, results_table, shares, static_table, stop_sentence, unsaved_changes,
-    value_chart, w_bool, w_choice, w_line, w_number, w_pct, w_text, w_terminal_growth, working_notes, year_boxes,
+    value_chart, w_bool, w_choice, w_line, w_number, w_pct, w_text, w_terminal_growth, warning_sentence, working_notes,
+    year_boxes,
 )
 from valuation.engine import ValuationResult
 from valuation.schema import WEIGHTED_SCENARIOS, get_path, is_riskfree
@@ -843,7 +844,7 @@ def _warnings(result: ValuationResult | None, error: str | None) -> None:
     if not items:
         st.success("None.")
     for w in items:
-        st.markdown(f"- {md(plain_message(w))}")
+        st.markdown(f"- {md(warning_sentence(w))}")
 
 
 def _confirm_restart() -> None:

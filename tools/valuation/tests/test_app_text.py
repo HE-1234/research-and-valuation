@@ -6,7 +6,9 @@ import pytest
 
 streamlit = pytest.importorskip("streamlit")
 
-from valuation.app_core import describe_path, detail_blocks, md, plain_message, show_value, stop_sentence  # noqa: E402
+from valuation.app_core import (  # noqa: E402
+    dedupe_columns, describe_path, detail_blocks, md, plain_message, show_value, stop_sentence, warning_sentence,
+)
 
 
 def test_weights_message_is_a_plain_sentence_with_percentages():
@@ -92,3 +94,23 @@ def test_detail_blocks_keep_tables_and_aligned_columns_readable():
     assert list(table.columns) == ["Year", "Revenue", "Capex"] and list(table.iloc[1]) == ["FY2024", "-412", "336"]
     assert "FY2023    +1,457   206     305" in blocks[2][1]
     assert detail_blocks("Just one paragraph of prose with 12 numbers.") == [("text", "Just one paragraph of prose with 12 numbers.")]
+
+
+def test_duplicate_and_ragged_pipe_tables_never_break():
+    assert dedupe_columns(["Ratio", "Ratio", "Year", "", "Ratio"]) == ["Ratio", "Ratio (2)", "Year", "column", "Ratio (3)"]
+    notes = ("| Year | Ratio | Ratio |\n|---|---|---|\n| FY2023 | 2.2 | 107 |\n| FY2024 | n/m |\n| FY2026 | 2.2 | 441 | extra |")
+    (kind, table), = detail_blocks(notes)
+    assert kind == "table"
+    assert list(table.columns) == ["Year", "Ratio", "Ratio (2)", "col 4"]
+    assert list(table.iloc[1]) == ["FY2024", "n/m", "", ""] and list(table.iloc[2]) == ["FY2026", "2.2", "441", "extra"]
+
+
+def test_warning_lines_read_like_the_notes():
+    raw = ("bull scenario not computed: scenarios.bull.terminal.growth.value: 0.0600 is above the risk-free rate 0.0475; "
+           "set allow_above_riskfree: true and give a reason (section 18.4 rule 5)")
+    text = warning_sentence(raw)
+    assert text.startswith("Bull case not computed: terminal growth 6.00% is above") and text.count("Bull case") == 1
+    skipped = warning_sentence("management scenario skipped: Management gives no targets; see the 'used as' column below.")
+    assert skipped == "Management case not computed; its reason and the guidance on record are on the Revenue growth page."
+    assert "used as" not in skipped
+    assert warning_sentence("market.price is a manual value (70.00) from assumptions.yaml or --set, not fetched").startswith("Market: price")
