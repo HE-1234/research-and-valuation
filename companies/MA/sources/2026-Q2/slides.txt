@@ -1,0 +1,476 @@
+Mastercard
+Incorporated
+Second Quarter 2026 Financial Results Conference Call
+
+
+
+July 30, 2026
+Business Update
+
+      Business Highlights
+
+
+      Financial Overview
+
+
+
+
+                                                ©2026 Mastercard
+                            July 30, 2026   2
+2nd Quarter Selected Financial Performance
+($ in millions, except per share data)
+
+
+
+                                                               2Q 26                 2Q 25                YOY Growth
+                                                             Non-GAAP              Non-GAAP      As adjusted    Currency-neutral
+     Net revenue                                         $       9,277       $         8,133        14%               12%
+     Adjusted operating expenses                                 3,608                 3,260        11%               10%
+     Adjusted operating income                                   5,670                 4,873        16%               14%
+           Adjusted operating margin                              61.1 %                59.9 %     1.2 ppt           0.8 ppt
+     Adjusted net income                                 $       4,453       $         3,769        18%               16%
+     Adjusted diluted EPS                                $        5.04       $          4.15        21%               19%
+
+
+     Adjusted effective tax rate                                  20.0%                 20.9 %
+
+
+
+
+                                                                                                                                       ©2026 Mastercard
+     Note: See Appendix A for Non-GAAP reconciliation.
+           Figures may not sum due to rounding.
+
+                                                                   July 30, 2026                                                   3
+2nd Quarter Gross Dollar Volume (GDV)
+($ in billions)
+
+                        Worldwide                               United States                 Rest of World
+                         8% Growth                                6% Growth                       9% Growth
+
+   $3,000                             $2,881
+                   $2,640
+   $2,500
+                                                                                                          $2,024
+   $2,000                             $1,550                                               $1,826
+                   $1,424
+   $1,500                                                                                                 $1,150
+                                                                                           $1,029
+   $1,000                                                      $813           $858
+
+                   $1,216             $1,331                   $395           $400
+     $500                                                                                                 $874
+                                                                                           $798
+                                                               $418           $458
+          $0
+                    2Q25               2Q26                2Q25               2Q26         2Q25           2Q26
+
+                                                      Credit             Debit / Prepaid
+
+
+
+
+                                                                                                                       ©2026 Mastercard
+ Notes:   Growth rates are shown in local currency.
+          Figures may not sum due to rounding.
+
+                                                         July 30, 2026                                             4
+  2nd Quarter Switched Transactions and Cards
+                                          Switched Transactions                                                                       Cards
+                                                 9% Growth                                                                          5% Growth
+                                                                                                               4,000                                 3,734
+                                                                                                                            3,562
+                                                                  47.4                                                                                271
+                             50                                                                                              332
+                                          43.5
+                                                                                                               3,000
+Transactions (in billions)
+
+
+
+
+                                                                                         Cards (in millions)
+                             40
+
+                             30                                                                                2,000
+                                                                                                                                                     3,463
+                                                                                                                            3,230
+                             20
+                                                                                                               1,000
+                             10
+
+                             0                                                                                    0
+                                         2Q25                     2Q26                                                      2Q25                     2Q26
+
+                                                                                                                       Mastercard Cards       Maestro Cards
+
+
+
+
+                                                                                                                                                                  ©2026 Mastercard
+                    Note: Figures may not sum due to rounding.
+
+                                                                         July 30, 2026                                                                        5
+     2nd Quarter Net Revenue
+     ($ in millions)
+
+
+                                                                                       2Q25                2Q26
+                        $10,000                                                                                                                       $9,277
+                         $9,000                                                                                                       $8,133
+                         $8,000
+                         $7,000
+                         $6,000                               $5,451
+                                              $4,945
+                         $5,000
+                                                                                                          $3,826
+                         $4,000                                                           $3,188
+                         $3,000
+                         $2,000
+                         $1,000
+                             $0
+                                                                                              Value-added
+    Growth                                    Payment Network1                           Services and Solutions                         Total Net Revenue
+    GAAP                                               10%                                         20%                                          14%
+
+    Currency-neutral                                    8%                                         18%                                          12%
+
+
+
+
+                                                                                                                                                                          ©2026 Mastercard
+1
+    Payment Network is presented net of rebates and incentives of $5,997 million and $4,923 million for Q2'26 and Q2'25, respectively, which grew year-over-year by
+    22%, or 20% on a currency-neutral basis.
+
+
+
+
+                                                                                   July 30, 2026                                                                      6
+2nd Quarter Key Metrics related to the Payment Network
+($ in millions)
+
+
+                                                            2Q25        2Q26
+        $5,000
+                                                                                    $4,508
+                                                                         $3,971
+        $4,000
+                                                        $3,460
+                                  $3,154
+        $3,000         $2,789                $2,848
+
+
+        $2,000
+
+        $1,000
+                                                                                                  $260         $326
+            $0
+                                                Cross-Border                  Transaction               Other
+                      Domestic Assessments      Assessments             Processing Assessments   Network Assessments
+Increase/(Decrease)             13%                   21%                         14%                    25%
+
+Increase/(Decrease)
+
+
+
+
+                                                                                                                           ©2026 Mastercard
+Currency-neutral                10%                   20%                         12%                    23%
+
+
+
+
+                                                        July 30, 2026                                                  7
+   2nd Quarter Adjusted Operating Expenses
+   ($ in millions)
+
+
+                                                                             2Q25            2Q26
+        $4,000                                                                                                                           $3,608
+        $3,500                                                                                                               $3,260
+                                         $3,081
+        $3,000            $2,766
+        $2,500
+        $2,000
+        $1,500
+        $1,000
+          $500                                                $213          $217                $281         $309
+             $0
+ Growth                General & Administrative            Advertising & Marketing          Depreciation & Amortization   Adjusted Operating Expenses
+ Non-GAAP                          11%                                 2%                              10%                            11%
+
+
+ Currency-neutral                  11%                                 1%                              10%                            10%
+Note: See Appendix A for Non-GAAP reconciliation. Figures may not sum due to rounding.
+
+
+
+
+                                                                                                                                                            ©2026 Mastercard
+                                                                            July 30, 2026                                                               8
+Business Update Through July 28th
+                                                                                       Year-over-year growth %
+                                                                                                   2026
+
+                                                            Q1              Apr              May          Jun    Q2    Jul 28 MTD
+
+          Switched volume1                                  9%              9%               9%           11%    9%       9%
+
+             United States                                  5%              6%               5%           8%     6%       6%
+
+             Worldwide less U.S.                           12%              11%              11%          12%    12%      11%
+
+
+          Switched transactions                             9%              9%               9%           9%     9%       9%
+
+          Cross-border volume1                             13%              9%               12%          14%    12%      11%
+
+             Intra-Europe                                  14%              11%              13%          13%    12%      10%
+
+             Other Cross-border                            12%              7%               12%          15%    11%      12%
+
+
+             XB CNP ex travel                              19%              19%              18%          23%    20%      16%
+
+
+
+
+                                                                                                                                        ©2026 Mastercard
+             XB Travel (CP + CNP travel)                    8%              2%               8%           7%     6%       8%
+
+   1. Mastercard-branded programs only; on a local currency basis.
+   Note: Our key drivers above now include Venezuela cross-border activity, as applicable.
+                                                                       July 30, 2026                                                9
+Looking Ahead
+
+      Further thoughts on 2026
+
+
+
+
+                                                      ©2026 Mastercard
+                                 July 30, 2026   10
+Appendices
+Appendix A
+Non-GAAP Reconciliation
+($ in millions, except per share data)
+                                                                                                              Three Months Ended June 30, 2026
+                                                                                                                                                                                                  Diluted
+                                                         Operating              Operating             Operating           Other income            Effective                 Net                 earnings per
+                                                         expenses                income                margin              (expense)           income tax rate            income                   share
+
+ Reported - GAAP                                     $            3,690     $           5,587                 60.2 % $                (101)               20.0 % $               4,388      $            4.97
+ (Gains) losses on equity investments     1
+                                                                       **                    **                     **                    2                (0.1)%                     5                  0.01
+ Litigation provisions 2                                            (82)                    82                 0.9 %                      **                0.1 %                    59                  0.07
+ Adjusted - Non-GAAP                                 $            3,608     $           5,670                 61.1 % $                (100)               20.0 % $               4,453      $            5.04
+
+
+
+                                                                                                              Three Months Ended June 30, 2025
+                                                                                                                                                                                                  Diluted
+                                                         Operating              Operating             Operating           Other income             Effective                 Net                earnings per
+                                                         expenses                income                margin              (expense)            income tax rate            income                  share
+
+ Reported - GAAP                                     $            3,356     $           4,777                 58.7 % $                (105)                20.8 % $               3,701     $            4.07
+ (Gains) losses on equity investments 1                                **                    **                     **                   (4)                0.1 %                     (5)                (0.01)
+ Litigation provisions 3                                            (96)                  151                  1.2 %                      **                0.1 %                    73                  0.08
+ Adjusted - Non-GAAP                                 $            3,260     $           4,873                 59.9 % $                (109)                20.9 % $               3,769     $            4.15
+
+      Note: Figures may not sum due to rounding.
+      ** Not applicable.
+      1
+        Represents Q2'26 net pre-tax loss of $2 million and Q2'25 net pre-tax gain of $4 million primarily related to unrealized fair market value adjustments on marketable and nonmarketable equity securities.
+
+
+
+
+                                                                                                                                                                                                                              ©2026 Mastercard
+      2
+        Represents Q2'26 pre-tax charges of $82 million which includes a legal provision associated with the ATM non-discrimination rule surcharge complaints, a change in estimate related to the claims of merchants
+        who opted out of the U.S. merchant class litigation and provisions associated with various other legal matters.
+      3
+        Represents Q2'25 pre-tax charges of $96 million primarily due to a legal provision associated with the ATM non-discrimination rule surcharge complaints.
+
+
+
+
+                                                                                                   July 30, 2026                                                                                                         12
+Appendix A (continued)
+Non-GAAP Reconciliation
+
+                                                                     Three Months Ended June 30, 2026 as compared to the Three Months Ended June 30, 2025
+                                                                                                             Increase/(Decrease)
+
+                                                           Operating              Operating             Operating          Effective income              Net            Diluted earnings
+                                                           expenses                income                margin                tax rate                income              per share
+  Reported - GAAP                                                    10 %                  17 %                1.5 ppt              (0.8) ppt                   19 %                 22 %
+  (Gains) losses on equity investments 1                                 **                    **                     **            (0.1) ppt                   —%                    —%
+  Litigation provisions 2,3                                           1%                    (1)%              (0.3) ppt              0.1 ppt                    (1)%                  (1)%
+  Adjusted - Non-GAAP                                                11 %                  16 %                1.2 ppt              (0.8) ppt                   18 %                 21 %
+  Currency impact 4                                                  (1)%                   (3)%              (0.4) ppt             (0.1) ppt                   (3)%                  (3)%
+  Adjusted - Non-GAAP - currency-neutral                             10 %                  14 %                0.8 ppt              (0.9) ppt                   16 %                 19 %
+
+
+
+
+   Note: Figures may not sum due to rounding.
+   ** Not applicable.
+   1
+     Represents Q2'26 net pre-tax loss of $2 million and Q2'25 net pre-tax gain of $4 million primarily related to unrealized fair market value adjustments on marketable and nonmarketable equity securities.
+   2
+     Represents Q2'26 pre-tax charges of $82 million which includes a legal provision associated with the ATM non-discrimination rule surcharge complaints, a change in estimate related to the claims of merchants
+     who opted out of the U.S. merchant class litigation and provisions associated with various other legal matters.
+   3
+     Represents Q2'25 pre-tax charges of $96 million primarily due to a legal provision associated with the ATM non-discrimination rule surcharge complaints.
+
+
+
+
+                                                                                                                                                                                                                      ©2026 Mastercard
+   4
+     Represents the translational and transactional impact of currency and the related impact of our foreign exchange derivative contracts designated as cash flow hedging instruments (specifically those that
+     manage the impact of foreign currency variability on anticipated revenues and expenses).
+
+
+
+
+                                                                                              July 30, 2026                                                                                                     13
+    Appendix B
+    Non-GAAP Reconciliation
+    2026 financial outlook                                                                                      Prior 2026 vs. 2025
+                                                                                                               Increase/(Decrease)
+                                                                                                                                                                                      Updated 2026 vs. 2025
+                                                                                                                                                                                       Increase/(Decrease)
+                                                                                                 Net Revenue                     Operating Expenses                       Net Revenue                  Operating Expenses
+
+                                                                                              High end of                          High end of                                                           High end of
+Forecasted Growth - GAAP 1                                                                 low double digits                                                             Low teens
+                                                                                                                                high single digits                                                    high single digits
+                                                                                             to low teens
+Litigation provisions 2                                                                                 **                                 ~4%                                   **                             ~3%
+Restructuring charge 3                                                                                  **                                ~(1)%                                  **                            ~(1)%
+                                                                                              High end of                                                                                             High end of low
+Non-GAAP Growth                                                                            low double digits                   Low double digits                         Low teens                     double digits
+                                                                                             to low teens
+Currency impact 4                                                                                   ~(1.5)%                             (0.5-1)%                              ~(1)%                          (0.5-1)%
+Inorganic activity        5
+                                                                                                      ~0%                                0.5-1%                                ~0%                              ~0%
+
+Non-GAAP Growth, currency-neutral, excluding                                                  High end of                      Low double digits                       High end of                    Low double digits
+inorganic activity                                                                         low double digits                                                        low double digits
+** Not applicable.
+1
+    GAAP - FY2026 forecast versus FY2025 reported results.
+Full Year Special Items
+2
+    Impact of FY2025 litigation provisions ($504M) and YTD Q2'26 litigation provisions ($82M).
+
+
+
+
+                                                                                                                                                                                                                                    ©2026 Mastercard
+3
+    Impact of Q1'26 restructuring charge of $202M as a result of a restructuring action primarily intended to enable reinvestment to support the realization of our long-term growth opportunities.
+Other Notes
+4
+  Represents the projected translational and transactional impact of currency and the related impact of our foreign exchange derivative contracts designated as cash flow hedging instruments (specifically those that manage the
+  impact of foreign currency variability on anticipated revenues and expenses).
+5
+  Represents acquisitions and dispositions completed, or expected to be completed, after the beginning of 2025.
+
+                                                                                                             July 30, 2026                                                                                               14
+Appendix C
+Non-GAAP Reconciliation
+Third quarter 2026 financial outlook
+                                                                                                                                                          Q3'26 vs. Q3'25
+                                                                                                                                                        Increase/(Decrease)
+                                                                                                                                       Net Revenue                            Operating Expenses
+
+                                                                                                                                   High end of
+    Forecasted Growth - GAAP 1                                                                                                                                               High single digit
+                                                                                                                                low double digits
+    Litigation provisions 2                                                                                                                   **                                        ~3%
+
+                                                                                                                                   High end of
+    Non-GAAP Growth                                                                                                                                                         Low double digits
+                                                                                                                                low double digits
+    Currency impact 3                                                                                                                      ~0.5%                                      0-0.5%
+    Inorganic activity       4
+                                                                                                                                            ~0%                                       ~(0.5)%
+
+                                                                                                                                   High end of
+    Non-GAAP Growth, currency-neutral, excluding inorganic activity                                                                                                         Low double digits
+                                                                                                                                low double digits
+    ** Not applicable.
+    1
+        GAAP - Q3'26 forecast versus Q3'25 reported results.
+    Third Quarter Special Items
+    2
+        Impact of Q3'25 litigation provisions ($83M).
+    Other Notes
+
+
+
+
+                                                                                                                                                                                                                       ©2026 Mastercard
+    3
+      Represents the projected translational and transactional impact of currency and the related impact of our foreign exchange derivative contracts designated as cash flow hedging instruments (specifically
+      those that manage the impact of foreign currency variability on anticipated revenues and expenses).
+    4
+      Represents acquisitions and dispositions completed, or expected to be completed, after the beginning of 2025.
+
+
+
+
+                                                                                               July 30, 2026                                                                                                      15
+Forward-Looking Statements
+This earnings presentation contains forward-looking statements pursuant to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. All statements other than
+statements of historical facts may be forward-looking statements. When used in this earnings presentation, the words “believe”, “expect”, “could”, “may”, “would”, “will”, “trend” and similar words
+are intended to identify forward-looking statements. Examples of forward-looking statements include, but are not limited to, statements that relate to the company’s future prospects,
+developments and business strategies. We caution you to not place undue reliance on these forward-looking statements, as they speak only as of the date they are made. Except for the company’s
+ongoing obligations under the U.S. federal securities laws, the company does not intend to update or otherwise revise the forward-looking information to reflect actual results of operations, changes
+in financial condition, changes in estimates, expectations or assumptions, changes in general economic or industry conditions or other circumstances arising and/or existing since the preparation of
+this earnings presentation or to reflect the occurrence of any unanticipated events.
+
+Many factors and uncertainties relating to our operations and business environment, all of which are difficult to predict and many of which are outside of our control, influence whether any forward-
+looking statements can or will be achieved. Any one of those factors could cause our actual results to differ materially from those expressed or implied in writing in any forward-looking statements
+made by Mastercard or on its behalf, including, but not limited to, the following factors:
+
+   •   regulation related to the payments industry (including regulatory, legislative and litigation     •   issues related to our relationships with our stakeholders (including loss of
+       activity with respect to interchange rates and surcharging)                                           substantial business from significant customers, competitor relationships with our
+   •   the impact of preferential or protective government actions                                           customers, consolidation amongst our customers, merchants’ continued focus on
+                                                                                                             acceptance costs and unique risks from our work with governments)
+   •   regulation of privacy, data, AI, information security and the digital economy
+                                                                                                         •   the impact of global economic, political, financial and societal events and
+   •   regulation that directly or indirectly applies to us based on our participation in the global         conditions, including adverse currency fluctuations and foreign exchange controls
+       payments industry (including anti-money laundering, countering the financing of
+       terrorism, economic sanctions and anti-corruption, account-based payments systems,                •   reputational impact, including impact related to brand perception and lack of
+       and issuer and acquirer practices regulation)                                                         visibility of our brands in products and services
+
+   •   the impact of changes in tax laws, as well as regulations and interpretations of such laws        •   the impact of environmental, social and governance matters and related
+       or challenges to our tax positions                                                                    stakeholder reaction
+
+   •   potential or incurred liability and limitations on business related to any litigation or          •   the inability to attract and retain a highly qualified workforce, or maintain our
+       litigation settlements                                                                                corporate culture
+
+   •   the impact of competition in the global payments industry (including disintermediation            •   issues related to acquisition integration, strategic investments and entry into new
+       and pricing pressure)                                                                                 businesses
+
+   •   the challenges relating to rapid technological developments and changes                           •   exposure to loss or illiquidity due to our role as guarantor as well as other
+                                                                                                             contractual obligations and discretionary actions we may take
+   •   the challenges relating to operating a real-time account-based payments system and to
+       working with new customers and end users                                                          •   issues related to our Class A common stock and corporate governance structure
+
+
+
+
+                                                                                                                                                                                                         ©2026 Mastercard
+   •   the impact of information security incidents, account data breaches or service disruptions
+
+For additional information on these and other factors that could cause the company’s actual results to differ materially from expected results, please see the company’s filings with the Securities
+and Exchange Commission, including the company’s Annual Report on Form 10-K for the year ended December 31, 2025 and any subsequent reports on Forms 10-Q and 8-K.
+
+                                                                                         July 30, 2026                                                                                       16
+

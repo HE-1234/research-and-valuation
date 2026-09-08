@@ -1,0 +1,425 @@
+                                 Supplemental Operational Performance Data
+Set forth below are tables that provide supplemental information regarding the operational performance results for the three months
+ended June 30, 2026, as well as the prior eight quarterly reporting periods for the payment programs of Mastercard Incorporated and its
+consolidated subsidiaries, including our operating subsidiary, Mastercard International Incorporated (collectively, “Mastercard”).
+1. Branded Volume and Transactions
+The tables below set forth the gross dollar volume (“GDV”), purchase volume, cash volume and the number of purchase transactions, cash
+transactions, and cards on a regional basis for Mastercard™-branded cards. Growth rates over prior periods are provided for volume-
+based data.
+
+GDV ($ Billions)
+All Mastercard Credit,
+Charge, Debit and Prepaid Programs             Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26 Q2'26                    FY 2024    FY 2025
+   APMEA                                       $578  $603  $623  $593  $605  $639  $661  $645  $654                      $2,379     $2,497
+   Canada                                         68    68    70    60    70    71    74    67    76                        266        276
+   Europe                                        800   868   871   806   935   999 1,007   943 1,025                      3,280      3,747
+   Latin America / Caribbean                     201   203   213   203   216   230   257   252   269                        821        905
+   Worldwide less United States                1,646 1,741 1,776 1,661 1,826 1,939 1,999 1,908 2,024                      6,747      7,425
+   United States                                 765   767   793   762   813   819   825   795   858                      3,038      3,220
+   Worldwide                                   2,411 2,508 2,569 2,423 2,640 2,758 2,824 2,703 2,881                      9,785     10,645
+
+   Mastercard Credit and Charge Programs
+    Worldwide less United States                  737     771     782     731     798     848     864     831     874     3,004      3,241
+    United States                                 394     398     412     386     418     424     438     417     458     1,568      1,666
+    Worldwide                                   1,131   1,169   1,194   1,117   1,216   1,272   1,302   1,247   1,331     4,572      4,907
+
+   Mastercard Debit and Prepaid Programs
+    Worldwide less United States                  909     970     993     930   1,029   1,091   1,135   1,077   1,150     3,743      4,184
+    United States                                 371     370     382     376     395     395     388     378     400     1,471      1,554
+    Worldwide                                   1,280   1,340   1,375   1,306   1,424   1,485   1,523   1,455   1,550     5,213      5,738
+
+GDV Local Growth
+All Mastercard Credit,
+Charge, Debit and Prepaid Programs             Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26 Q2'26                    FY 2024    FY 2025
+   APMEA                                        5.8%  7.9%  8.1%  7.0%  4.4%  6.2%  6.1%  6.3%  8.4%                        7.2%       5.9%
+   Canada                                       5.8%  5.2%  6.6%  4.4%  5.1%  6.3%  5.8%  7.2%  8.1%                        6.3%       5.4%
+   Europe                                      14.2% 15.1% 16.2% 12.9% 13.3% 11.5% 10.0%  9.1%  8.5%                       15.3%      11.8%
+   Latin America / Caribbean                   16.7% 18.9% 17.6% 13.2% 17.4% 13.7% 14.3% 13.6% 13.9%                       18.6%      14.6%
+   Worldwide less United States                11.0% 12.5% 13.0% 10.4% 10.3%  9.8%  9.0%  8.7%  9.1%                       12.3%       9.8%
+   United States                                6.6%  6.7%  9.0%  6.9%  6.3%  6.7%  4.1%  4.3%  5.5%                        7.1%       6.0%
+   Worldwide                                    9.6% 10.6% 11.7%  9.3%  9.1%  8.8%  7.5%  7.3%  8.0%                       10.7%       8.7%
+
+   Mastercard Credit and Charge Programs
+    Worldwide less United States                10.3%   10.6%   11.5%    8.6%    8.9%    9.8%    8.8%    9.1%    8.5%      11.2%       9.1%
+    United States                                5.8%    5.8%    7.6%    6.0%    6.1%    6.7%    6.3%    7.9%    9.5%       6.4%       6.3%
+    Worldwide                                    8.7%    8.9%   10.2%    7.7%    7.9%    8.8%    8.0%    8.7%    8.8%       9.5%       8.1%
+
+   Mastercard Debit and Prepaid Programs
+    Worldwide less United States                11.6%   14.0%   14.2%   11.9%   11.4%    9.7%    9.2%    8.3%    9.6%      13.3%      10.5%
+    United States                                7.5%    7.6%   10.5%    8.0%    6.6%    6.7%    1.7%    0.5%    1.3%       7.8%       5.7%
+    Worldwide                                   10.4%   12.2%   13.1%   10.7%   10.0%    8.9%    7.2%    6.2%    7.3%      11.7%       9.1%
+Supplemental Operational Performance 2024Q2–2026Q2
+
+
+
+Purchase Volume ($ Billions)
+ All Mastercard Credit,
+ Charge, Debit and Prepaid Programs                  Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26 Q2'26                   FY 2024    FY 2025
+    APMEA                                            $430  $452  $469  $442  $458  $490  $509  $495  $508                     $1,780     $1,899
+    Canada                                              66    66    68    58    68    69    72    65    74                       259        268
+    Europe                                             631   690   692   646   751   807   816   770   838                     2,597      3,019
+    Latin America / Caribbean                          146   145   155   148   159   170   190   188   203                       590        667
+    Worldwide less United States                     1,273 1,353 1,384 1,294 1,436 1,537 1,587 1,518 1,623                     5,225      5,854
+    United States                                      700   703   728   698   746   752   763   733   794                     2,783      2,958
+    Worldwide                                        1,973 2,056 2,112 1,992 2,182 2,289 2,349 2,251 2,417                     8,008      8,812
+
+   Mastercard Credit and Charge Programs
+    Worldwide less United States                       700     732     744     694     759     808     824     792     834     2,850        3,085
+    United States                                      383     387     401     375     407     413     428     405     446     1,526        1,623
+    Worldwide                                        1,083   1,120   1,145   1,069   1,166   1,221   1,251   1,197   1,280     4,377        4,708
+
+   Mastercard Debit and Prepaid Programs
+    Worldwide less United States                      573     621     640     600      677     729     763     726     789     2,374        2,768
+    United States                                     316     315     327     323      339     339     335     327     348     1,257        1,336
+    Worldwide                                         889     936     967     922    1,016   1,067   1,098   1,054   1,137     3,631        4,104
+
+Purchase Volume Local Growth
+ All Mastercard Credit,
+ Charge, Debit and Prepaid Programs                  Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26 Q2'26                   FY 2024    FY 2025
+    APMEA                                             7.5%    8.8%    9.6%    7.7%    6.2%    8.9%    8.5%    9.0%   10.9%      8.7%         7.9%
+    Canada                                            5.5%    5.1%    6.8%    4.4%    5.2%    6.3%    5.9%    7.3%    8.2%      6.1%         5.5%
+    Europe                                           15.8%   16.3%   18.0%   14.7%   15.1%   13.2%   12.1%   11.2%   10.5%     16.9%        13.7%
+    Latin America / Caribbean                        21.2%   22.0%   21.7%   18.9%   19.1%   17.4%   16.5%   16.1%   16.9%     21.6%        17.9%
+    Worldwide less United States                     12.9%   13.7%   14.8%   12.2%   12.1%   11.9%   11.2%   10.9%   11.3%     13.9%        11.8%
+    United States                                     6.7%    7.0%    9.1%    6.9%    6.6%    7.1%    4.7%    5.0%    6.5%      7.4%         6.3%
+    Worldwide                                        10.6%   11.3%   12.8%   10.3%   10.1%   10.3%    9.0%    8.9%    9.6%     11.5%         9.9%
+
+   Mastercard Credit and Charge Programs
+    Worldwide less United States                     10.7%   10.9%   12.0%    9.2%    9.2%   10.2%    9.1%    9.5%    8.8%     11.4%         9.4%
+    United States                                     5.9%    6.1%    7.7%    5.9%    6.1%    6.7%    6.6%    8.1%    9.7%      6.6%         6.3%
+    Worldwide                                         8.9%    9.2%   10.5%    8.0%    8.1%    9.0%    8.3%    9.0%    9.1%      9.7%         8.3%
+
+   Mastercard Debit and Prepaid Programs
+    Worldwide less United States                     15.7%   17.2%   18.2%   15.8%   15.4%   13.9%   13.4%   12.4%   13.9%     17.0%        14.6%
+    United States                                     7.8%    8.0%   10.8%    8.1%    7.2%    7.5%    2.4%    1.4%    2.6%      8.4%         6.3%
+    Worldwide                                        12.7%   13.9%   15.6%   13.0%   12.6%   11.8%    9.8%    8.8%   10.2%     13.8%        11.7%
+
+
+
+
+July 30, 2026                                                                                                                      Page:2
+Supplemental Operational Performance 2024Q2–2026Q2
+
+
+
+Purchase Transactions (Millions)
+All Mastercard Credit,
+Charge, Debit and Prepaid Programs                   Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26 Q2'26                   FY 2024    FY 2025
+   APMEA                                             11,326 11,763 12,215 11,653 12,423 13,011 13,537 12,920 13,813            46,003     50,625
+   Canada                                             1,072 1,111 1,134 1,016 1,151 1,193 1,207 1,099 1,242                     4,278      4,566
+   Europe                                            18,279 19,283 19,357 18,293 20,268 21,168 21,114 19,700 21,998            73,530     80,842
+   Latin America / Caribbean                          6,206 6,450 6,862 6,739 7,066 7,455 7,986 7,772 8,250                    25,500     29,247
+   Worldwide less United States                      36,884 38,607 39,568 37,701 40,908 42,828 43,844 41,492 45,304           149,310    165,281
+   United States                                     10,713 10,889 11,144 10,520 11,390 11,594 11,527 10,839 11,792            42,638     45,030
+   Worldwide                                         47,597 49,496 50,712 48,221 52,297 54,421 55,371 52,331 57,096           191,948    210,311
+
+  Mastercard Credit and Charge Programs
+   Worldwide less United States                      15,919 16,559 16,929 16,074 17,180 17,956 18,278 17,239 18,420            64,377        69,488
+   United States                                      4,086 4,197 4,305 3,936 4,342 4,474 4,583 4,236 4,721                    16,318        17,335
+   Worldwide                                         20,005 20,756 21,234 20,010 21,522 22,431 22,861 21,475 23,140            80,695        86,823
+
+  Mastercard Debit and Prepaid Programs
+   Worldwide less United States                      20,965 22,048 22,639 21,627 23,728 24,871 25,567 24,253 26,884            84,933        95,792
+   United States                                      6,627 6,692 6,839 6,584 7,048 7,120 6,943 6,604 7,071                    26,320        27,695
+   Worldwide                                         27,592 28,740 29,478 28,211 30,775 31,991 32,510 30,857 33,955           111,253       123,487
+
+Purchase Transactions Growth
+All Mastercard Credit,
+Charge, Debit and Prepaid Programs                   Q2'24   Q3'24   Q4'24   Q1'25   Q2'25   Q3'25   Q4'25   Q1'26   Q2'26   FY 2024    FY 2025
+   APMEA                                             10.6%   11.0%   11.3%    8.9%    9.7%   10.6%   10.8%   10.9%   11.2%      11.1%      10.0%
+   Canada                                             8.5%    8.3%    8.8%    5.7%    7.3%    7.4%    6.5%    8.2%    8.0%       9.0%       6.7%
+   Europe                                            14.2%   13.2%   12.7%   10.1%   10.9%    9.8%    9.1%    7.7%    8.5%      14.1%       9.9%
+   Latin America / Caribbean                         16.9%   14.7%   13.9%   12.7%   13.9%   15.6%   16.4%   15.3%   16.8%      15.9%      14.7%
+   Worldwide less United States                      13.3%   12.6%   12.3%   10.1%   10.9%   10.9%   10.8%   10.1%   10.7%      13.3%      10.7%
+   United States                                      7.2%    7.4%    9.0%    6.3%    6.3%    6.5%    3.4%    3.0%    3.5%       7.7%       5.6%
+   Worldwide                                         11.9%   11.4%   11.6%    9.2%    9.9%   10.0%    9.2%    8.5%    9.2%      12.0%       9.6%
+
+
+  Mastercard Credit and Charge Programs
+   Worldwide less United States                      11.3%    9.8%    9.7%    7.4%    7.9%    8.4%    8.0%    7.2%    7.2%      10.9%         7.9%
+   United States                                      5.4%    5.8%    7.1%    5.5%    6.3%    6.6%    6.5%    7.6%    8.7%       6.2%         6.2%
+   Worldwide                                         10.0%    9.0%    9.1%    7.0%    7.6%    8.1%    7.7%    7.3%    7.5%      10.0%         7.6%
+
+  Mastercard Debit and Prepaid Programs
+   Worldwide less United States                      15.0% 14.8% 14.4% 12.2% 13.2% 12.8% 12.9% 12.1% 13.3%                      15.1%        12.8%
+   United States                                      8.3%  8.5% 10.2%  6.9%  6.3%  6.4%  1.5%  0.3%  0.3%                       8.6%         5.2%
+   Worldwide                                         13.3% 13.2% 13.4% 10.9% 11.5% 11.3% 10.3%  9.4% 10.3%                      13.5%        11.0%
+
+
+
+
+July 30, 2026                                                                                                                      Page:3
+ Supplemental Operational Performance 2024Q2–2026Q2
+
+
+
+Cash Volume ($ Billions)
+All Mastercard Credit,
+Charge, Debit and Prepaid Programs             Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26 Q2'26                 FY 2024      FY 2025
+   APMEA                                       $147 $151 $154 $151 $147 $148 $152 $150 $146                             $599         $598
+   Canada                                          2     2     2     2     2     2     2     2     2                       8            8
+   Europe                                       169   178   178   160   184   192   191   173   186                      684          728
+   Latin America / Caribbean                     55    57    58    54    57    60    67    64    66                      232          238
+   Worldwide less United States                 373   388   392   367   390   402   412   389   400                    1,522        1,571
+   United States                                 65    65    65    65    68    67    63    62    64                      255          262
+   Worldwide                                    438   453   457   432   457   469   475   452   464                    1,777        1,833
+
+  Mastercard Credit and Charge Programs
+   Worldwide less United States                   37      39     38      37     39     40      40      39      39        153             155
+   United States                                  10      10     10      11     11     11      10      11      12         41              44
+   Worldwide                                      48      49     49      48     50     51      50      50      51        195             199
+
+  Mastercard Debit and Prepaid Programs
+   Worldwide less United States                  336    349     354    331     351    362    372     351     361       1,368            1,416
+   United States                                  55     55      54     54      56     56     53      51      53         214              218
+   Worldwide                                     391    404     408    384     408    418    425     402     413       1,582            1,634
+
+Cash Volume Local Growth
+All Mastercard Credit,
+Charge, Debit and Prepaid Programs             Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26 Q2'26                 FY 2024      FY 2025
+   APMEA                                        1.3%  5.2%  3.7%  4.9% -1.0% -1.9% -1.5% -1.9%  0.5%                     3.1%         0.1%
+   Canada                                      16.5% 10.4%  1.5%  2.2%  0.8%  6.5%  0.4%  2.5%  2.3%                    10.4%         2.5%
+   Europe                                       8.5% 10.4%  9.9%  6.2%  6.6%  4.7%  1.9%  0.8%  0.5%                     9.8%         4.7%
+   Latin America / Caribbean                    6.1% 11.8%  7.9%  0.1% 13.1%  4.5%  8.3%  7.0%  5.6%                    11.5%         6.4%
+   Worldwide less United States                 5.2%  8.5%  7.1%  4.7%  4.4%  2.1%  1.6%  0.7%  1.3%                     7.3%         3.1%
+   United States                                5.1%  3.4%  8.1%  7.2%  3.5%  3.2% -2.8% -3.7% -5.0%                     4.2%         2.7%
+   Worldwide                                    5.2%  7.7%  7.2%  5.1%  4.3%  2.3%  1.0%  0.1%  0.4%                     6.8%         3.1%
+
+  Mastercard Credit and Charge Programs
+   Worldwide less United States                  4.3%    6.5%   2.2%   -0.5%   4.2%   2.4%    2.7%   1.4%    1.8%        6.7%            2.2%
+   United States                                 1.2%   -6.4%   5.5%    8.1%   6.8%   9.3%   -3.3%   1.8%    3.1%        0.6%            5.2%
+   Worldwide                                     3.6%    3.5%   2.9%    1.4%   4.8%   3.9%    1.4%   1.5%    2.1%        5.3%            2.9%
+
+  Mastercard Debit and Prepaid Programs
+   Worldwide less United States                  5.3%   8.7%    7.6%   5.3%    4.4%   2.1%    1.4%    0.7%    1.3%       7.3%            3.2%
+   United States                                 5.9%   5.5%    8.6%   7.0%    2.8%   2.1%   -2.7%   -4.8%   -6.7%       4.9%            2.2%
+   Worldwide                                     5.4%   8.3%    7.7%   5.5%    4.2%   2.1%    0.9%   -0.1%    0.2%       7.0%            3.1%
+
+
+
+
+ July 30, 2026                                                                                                                 Page:4
+ Supplemental Operational Performance 2024Q2–2026Q2
+
+
+
+Cash Transactions (Millions)
+All Mastercard Credit,
+Charge, Debit and Prepaid Programs             Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26 Q2'26                   FY 2024       FY 2025
+   APMEA                                       1,489 1,509 1,530 1,454 1,428 1,431 1,432 1,356 1,342                      5,989         5,746
+   Canada                                          6     6     6     6     7     7     7     7     7                         24            26
+   Europe                                        999   992   976   888   955   936   901   809   874                      3,906         3,680
+   Latin America / Caribbean                     448   469   465   419   430   416   442   407   420                      1,837         1,708
+   Worldwide less United States                2,942 2,976 2,977 2,768 2,819 2,790 2,782 2,579 2,643                     11,756        11,160
+   United States                                 299   301   291   278   296   297   276   260   274                      1,164         1,146
+   Worldwide                                   3,241 3,277 3,268 3,046 3,115 3,086 3,058 2,838 2,917                     12,920        12,305
+
+  Mastercard Credit and Charge Programs
+   Worldwide less United States                  157    159     157     147     153     153     152     137     143        637              605
+   United States                                   9      9       9       9       9      10       9       9      10         36               36
+   Worldwide                                     167    168     166     155     162     163     161     146     154        674              641
+
+  Mastercard Debit and Prepaid Programs
+   Worldwide less United States                2,784   2,817   2,820   2,621   2,666   2,637   2,630   2,441   2,499     11,119        10,555
+   United States                                 290     292     282     269     287     287     267     251     263      1,128         1,110
+   Worldwide                                   3,074   3,109   3,102   2,891   2,953   2,924   2,897   2,692   2,763     12,247        11,664
+
+Cash Transactions Growth
+All Mastercard Credit,
+Charge, Debit and Prepaid Programs             Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26 Q2'26                   FY 2024      FY 2025
+   APMEA                                       -2.1% 0.7% 0.9% -0.4% -4.1% -5.1% -6.4% -6.7% -6.0%                        -0.6%        -4.1%
+   Canada                                      18.4% 18.2% 8.7% 4.5% 8.7% 9.1% 9.6% 12.8% 7.2%                            15.5%         8.0%
+   Europe                                      -1.9% -1.7% -3.0% -5.4% -4.4% -5.6% -7.7% -9.0% -8.5%                      -1.5%        -5.8%
+   Latin America / Caribbean                    7.6% 8.5% 1.4% -7.9% -3.9% -11.4% -4.8% -3.0% -2.4%                        7.4%        -7.0%
+   Worldwide less United States                -0.6% 1.1% -0.3% -3.3% -4.2% -6.3% -6.5% -6.8% -6.3%                        0.3%        -5.1%
+   United States                                3.7% 2.4% 4.3% 1.9% -1.2% -1.6% -5.3% -6.5% -7.4%                          2.1%        -1.6%
+   Worldwide                                   -0.2% 1.2% 0.1% -2.8% -3.9% -5.8% -6.4% -6.8% -6.4%                         0.5%        -4.8%
+
+  Mastercard Credit and Charge Programs
+   Worldwide less United States                -4.8%   -3.9%   -8.9% -10.3%    -2.6%   -3.6%   -3.4%   -6.3% -6.4%        -4.4%            -5.0%
+   United States                                1.4%   -2.4%   -2.6% -4.0%     -4.1%    1.6%    2.3%    3.9% 14.9%        -0.2%            -1.0%
+   Worldwide                                   -4.5%   -3.9%   -8.6% -10.0%    -2.7%   -3.3%   -3.1%   -5.7% -5.3%        -4.1%            -4.8%
+
+  Mastercard Debit and Prepaid Programs
+   Worldwide less United States                -0.4%   1.3%    0.2%    -2.8%   -4.2%   -6.4%   -6.7%   -6.9%   -6.3%       0.6%            -5.1%
+   United States                                3.7%   2.5%    4.5%     2.1%   -1.1%   -1.7%   -5.5%   -6.8%   -8.1%       2.2%            -1.6%
+   Worldwide                                    0.0%   1.5%    0.6%    -2.4%   -3.9%   -6.0%   -6.6%   -6.9%   -6.4%       0.7%            -4.8%
+
+
+
+
+ July 30, 2026                                                                                                                    Page:5
+ Supplemental Operational Performance 2024Q2–2026Q2
+
+
+
+Cards (Millions)
+All Mastercard Credit,
+Charge, Debit and Prepaid Programs             Q2'24    Q3'24   Q4'24   Q1'25   Q2'25   Q3'25   Q4'25   Q1'26   Q2'26   FY 2024    FY 2025
+    APMEA                                        943      954     963     977     990   1,006   1,023   1,034   1,052        963      1,023
+    Canada                                        82       84      87      90      92      94      95      96      98         87         95
+    Europe                                       855      882     904     919     938     965     980     974     986        904        980
+    Latin America / Caribbean                    441      454     473     492     506     529     548     568     588        473        548
+    Worldwide less United States               2,322    2,374   2,427   2,478   2,526   2,594   2,646   2,673   2,725      2,427      2,646
+    United States                                677      684     700     699     705     713     724     732     739        700        724
+    Worldwide                                  2,998    3,058   3,127   3,177   3,230   3,307   3,371   3,405   3,463      3,127      3,371
+
+   Mastercard Credit and Charge Programs
+    Worldwide less United States                  796     805     814     819     822     832     835     838     841        814          835
+    United States                                 325     332     336     338     342     348     352     358     365        336          352
+    Worldwide                                   1,121   1,137   1,150   1,158   1,164   1,181   1,187   1,196   1,206      1,150        1,187
+
+   Mastercard Debit and Prepaid Programs
+    Worldwide less United States                1,526   1,569   1,613   1,658   1,704   1,761   1,812   1,835   1,884      1,613        1,812
+    United States                                 351     352     364     361     363     364     372     374     373        364          372
+    Worldwide                                   1,877   1,921   1,977   2,019   2,067   2,126   2,184   2,209   2,257      1,977        2,184
+
+
+Cards Growth
+All Mastercard Credit,
+Charge, Debit and Prepaid Programs             Q2'24    Q3'24   Q4'24   Q1'25   Q2'25   Q3'25   Q4'25   Q1'26   Q2'26   FY 2024    FY 2025
+    APMEA                                       3.0%     2.9%    3.8%    4.3%    5.0%    5.4%    6.2%    5.9%    6.3%       3.8%       6.2%
+    Canada                                      9.0%     7.3%    8.1%    8.8%   11.6%   12.1%    8.7%    7.1%    6.9%       8.1%       8.7%
+    Europe                                     13.1%    11.8%   11.0%    9.8%    9.6%    9.4%    8.5%    6.1%    5.1%      11.0%       8.5%
+    Latin America / Caribbean                  16.6%    14.9%   11.9%   14.6%   14.7%   16.6%   16.0%   15.5%   16.2%      11.9%      16.0%
+    Worldwide less United States                9.2%     8.4%    8.1%    8.4%    8.8%    9.3%    9.0%    7.9%    7.9%       8.1%       9.0%
+    United States                               3.7%     4.3%    5.0%    3.3%    4.1%    4.2%    3.5%    4.7%    4.8%       5.0%       3.5%
+    Worldwide                                   7.9%     7.5%    7.4%    7.3%    7.7%    8.1%    7.8%    7.2%    7.2%       7.4%       7.8%
+
+   Mastercard Credit and Charge Programs
+    Worldwide less United States                4.3%     4.0%    3.5%    3.7%    3.2%    3.4%    2.6%    2.2%    2.3%       3.5%         2.6%
+    United States                               0.7%     2.1%    2.6%    3.5%    5.1%    4.9%    4.8%    5.9%    6.8%       2.6%         4.8%
+    Worldwide                                   3.3%     3.5%    3.3%    3.7%    3.8%    3.9%    3.2%    3.3%    3.6%       3.3%         3.2%
+
+   Mastercard Debit and Prepaid Programs
+    Worldwide less United States               12.0%    10.8%   10.6%   10.9%   11.7%   12.3%   12.3%   10.7%   10.6%      10.6%        12.3%
+    United States                               6.6%     6.6%    7.4%    3.1%    3.3%    3.4%    2.3%    3.6%    2.9%       7.4%         2.3%
+    Worldwide                                  10.9%    10.0%   10.0%    9.4%   10.1%   10.7%   10.5%    9.4%    9.2%      10.0%        10.5%
+
+
+Note that the figures in the preceding tables may not sum due to rounding; growth represents change from the comparable year-
+ago period.
+
+
+
+
+ July 30, 2026                                                                                                                 Page:6
+Supplemental Operational Performance 2024Q2–2026Q2
+
+
+
+Footnote
+
+The tables set forth the gross dollar volume (“GDV”), purchase volume, cash volume and the number of purchase transactions, cash
+transactions, and cards on a regional and global basis for Mastercard™-branded cards. Growth rates over prior periods are provided
+for volume-based data.
+
+
+Debit transactions on Maestro® and Cirrus®-branded cards and transactions involving brands other than Mastercard are not included in
+the preceding tables.
+
+
+For purposes of the table: GDV represents purchase volume plus cash volume and includes the impact of balance transfers and
+convenience checks; “purchase volume” means the aggregate dollar amount of purchases made with Mastercard-branded cards for the
+relevant period; and “cash volume” means the aggregate dollar amount of cash disbursements and includes the impact of balance transfers
+and convenience checks obtained with Mastercard- branded cards for the relevant period. The number of cards includes virtual cards,
+which are Mastercard-branded payment accounts that do not generally have physical cards associated with them.
+
+
+The Mastercard payment product is comprised of credit, charge, debit and prepaid programs, and data relating to each type of program
+is included in the tables. The tables include information with respect to transactions involving Mastercard-branded cards that are not
+switched by Mastercard and transactions for which Mastercard does not earn significant revenues.
+
+
+Information denominated in U.S. dollars is calculated by applying an established U.S. dollar/local currency exchange rate for each local
+currency in which Mastercard volumes are reported. These exchange rates are calculated on a quarterly basis using the average exchange
+rate for each quarter. Mastercard reports period-over-period rates of change in purchase volume and cash volume on the basis of local
+currency information, in order to eliminate the impact of changes in the value of foreign currencies against the U.S. dollar in calculating
+such rates of change.
+
+
+The data set forth in the GDV, purchase volume, purchase transactions, cash volume and cash transactions columns is provided by
+Mastercard customers and is subject to verification by Mastercard and partial cross-checking against information provided by
+Mastercard’s transaction switching systems. The data set forth in the cards columns is provided by Mastercard customers and is subject
+to certain limited verification by Mastercard. A portion of the data set forth in the cards columns reflects the impact of routine portfolio
+changes among customers and other practices that may lead to over counting of the underlying data in certain circumstances. All data is
+subject to revision and amendment by Mastercard or Mastercard’s customers.
+
+Effective as of Q2 ’26, all volume and transaction-related metrics include Venezuela cross border activity, as applicable.
+
+
+
+
+July 30, 2026                                                                                                                      Page:7
+Supplemental Operational Performance 2024Q2–2026Q2
+
+
+
+2. Switched Transactions
+The table below sets forth the total number of transactions switched by Mastercard and growth from the comparable year-ago
+period.
+
+                Switched
+                 Trans.
+ Period          (Mil.)     Growth
+ 2026Q2          47,350       9%
+ 2026Q1          43,800       9%
+ 2025Q4          46,458      10%
+ 2025Q3          45,375      10%
+ 2025Q2          43,539      10%
+ 2025Q1          40,097       9%
+ 2024Q4          42,228      11%
+ 2024Q3          41,103      11%
+ 2024Q2          39,446      11%
+ FY 2025        175,468      10%
+ FY 2024        159,428      11%
+
+
+3. Cross Border Volume
+The table below sets forth the Cross Border Volume Growth from the comparable year-ago period, on a local currency basis and
+U.S. dollar-converted basis, for all Mastercard-branded programs.
+
+                Growth     Growth
+ Period         (Local)     (USD)
+ 2026Q2          12%         14%
+ 2026Q1          13%         21%
+ 2025Q4          14%         20%
+ 2025Q3          15%         19%
+ 2025Q2          15%         19%
+ 2025Q1          15%         12%
+ 2024Q4          20%         18%
+ 2024Q3          17%         17%
+ 2024Q2          17%         15%
+ FY 2025         15%         18%
+ FY 2024         18%         17%
+
+
+
+
+July 30, 2026                                                                                                       Page:8
+Supplemental Operational Performance 2024Q2–2026Q2
+
+
+
+4. Cards
+The tables below set forth the number of Mastercard, Maestro and Total Cards with growth rates from the comparable year-ago
+period.
+
+                Mastercard Cards                        Maestro Cards              Total WW Mastercard & Maestro Cards
+                      Cards       Actual                    Cards      Actual                    Cards       Actual
+Period               (Mil.)      Growth        Period       (Mil.)    Growth      Period         (Mil.)     Growth
+2026Q2               3,463        7.2%         2026Q2        271      -18.2%      2026Q2         3,734        4.8%
+2026Q1               3,405        7.2%         2026Q1        285      -14.9%      2026Q1         3,690        5.1%
+2025Q4               3,371        7.8%         2025Q4        301      -12.7%      2025Q4         3,672        5.8%
+2025Q3               3,307        8.1%         2025Q3        316      -10.0%      2025Q3         3,622        6.3%
+2025Q2               3,230        7.7%         2025Q2        332       -8.4%      2025Q2         3,562        6.0%
+2025Q1               3,177        7.3%         2025Q1        335       -9.6%      2025Q1         3,512        5.4%
+2024Q4               3,127        7.4%         2024Q4        345       -9.4%      2024Q4         3,472        5.5%
+2024Q3               3,058        7.5%         2024Q3        351       -9.0%      2024Q3         3,409        5.5%
+2024Q2               2,998        7.9%         2024Q2        362       -7.9%      2024Q2         3,360       6.0%
+
+
+
+
+July 30, 2026                                                                                                      Page:9
+
