@@ -1,0 +1,169 @@
+rddt-20260205
+
+| | |
+
+|
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+_________________________________________
+
+FORM 8-K
+
+_________________________________________
+
+CURRENT REPORT
+
+Pursuant to Section 13 or 15(d) of the
+
+Securities Exchange Act of 1934
+
+Date of Report (Date of earliest event reported): February 5, 2026
+
+_________________________________________
+
+Reddit, Inc.
+
+(Exact name of registrant as specified in its charter)
+
+_________________________________________
+
+| | | | | | | | |
+
+Delaware | 001-41983 | 45-2546501 |
+
+(State or other jurisdiction
+
+of incorporation)
+|
+(Commission
+
+File Number)
+|
+(IRS Employer
+
+Identification No.)
+|
+
+303 2nd Street, South Tower, 5th Floor
+
+San Francisco, California 94107
+
+(Address of principal executive offices, including Zip Code)
+
+Registrant’s telephone number, including area code: (415) 494-8016
+
+_________________________________________
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+
+| | | | | |
+
+o | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) |
+
+| |
+
+o | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) |
+
+| |
+
+o | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) |
+
+| |
+
+o | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) |
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+| | | | | | | | | | | | | | |
+
+Title of each class | |
+Trading
+
+Symbol
+| |
+Name of each exchange
+
+on which registered
+|
+
+Class A common stock, $0.0001 par value per share
+| |
+RDDT
+| |
+The New York Stock Exchange
+|
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+
+Emerging growth company o
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. o
+
+| | |
+
+|
+
+Item 2.02 Results of Operations and Financial Condition.
+
+On February 5, 2026, Reddit, Inc. (“Reddit”) issued a press release and a letter to shareholders announcing its financial results for the quarter and full year ended December 31, 2025. In the press release and letter, Reddit also announced that it would be holding a conference call on February 5, 2026 at 1:30 p.m. Pacific Time / 4:30 p.m. Eastern Time to discuss its financial results for the quarter and full year. Reddit will also solicit questions from the Reddit community in its investor relations subreddit, r/ RDDT, at https://www.reddit.com/r/RDDT/ on Thursday, February 5, 2026, and post responses following the earnings call at Reddit’s Investor Relations website at https://investor.redditinc.com and r/RDDT at https://www.reddit.com/r/RDDT/. A copy of the press release and letter to shareholders are furnished as Exhibit 99.1 and Exhibit 99.2, respectively, to this Current Report on Form 8-K and are incorporated herein by reference.
+
+The information furnished pursuant to Item 2.02 of this Current Report on Form 8-K, including Exhibit 99.1 and Exhibit 99.2 attached hereto, is being furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to the liabilities of that section, nor shall it be deemed incorporated by reference into any other filing under the Securities Act of 1933, as amended, or the Exchange Act, except as expressly set forth by specific reference in such a filing.
+
+Reddit uses the investor relations page on its website https://investor.redditinc.com, as well as the subreddits r/RDDT and r/reddit, available at https://www.reddit.com/r/RDDT/ and https://www.reddit.com/r/reddit/, respectively, as means of disclosing material non-public information and for complying with its disclosure obligation under Regulation FD.
+
+Item 8.01 Other Events.
+
+On February 5, 2026, Reddit announced its Board of Directors authorized a share repurchase program to purchase up to $1 billion of Reddit's Class A common stock (the “Share Repurchase Program”). Under the Share Repurchase Program, Reddit may repurchase shares of Class A common stock from time to time on the open market (including via pre-set trading plans), in privately negotiated transactions, or through other transactions in accordance with applicable securities laws. The Share Repurchase Program does not obligate Reddit to acquire any particular amount of Class A common stock, has no expiration date, and may be suspended or discontinued at any time at our discretion. A copy of the press release is furnished as Exhibit 99.1 to this Current Report on Form 8-K and is incorporated herein by reference.
+
+Item 9.01 Financial Statements and Exhibits.
+
+(d)The following exhibits are being filed herewith:
+
+| | | | | | | | |
+
+Exhibit No.
+| |
+Description
+|
+
+99.1 | |
+Press release dated February 5, 2026.
+|
+
+99.2 | |
+Letter to Shareholders dated February 5, 2026.
+|
+
+104 | | Cover Page Interactive Data File (embedded within the inline XBRL document) |
+
+SIGNATURES
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, as amended, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+
+| | | | | | | | |
+
+|
+REDDIT, INC.
+|
+
+| | |
+
+Date: February 5, 2026
+|
+By:
+|
+/s/ Steven Huffman
+|
+
+| |
+Steven Huffman
+|
+
+| |
+President and Chief Executive Officer
+|

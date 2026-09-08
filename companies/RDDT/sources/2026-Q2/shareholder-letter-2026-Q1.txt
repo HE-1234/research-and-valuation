@@ -1,0 +1,863 @@
+Q1 2026
+
+
+
+
+Letter to
+shareholders
+Financial highlights Q1 2026
+                                                               Revenue was $663 million, an increase of 69% year-over-year
+
+
+    $663M                          91.5%                       Gross margin was 91.5%, as compared to 90.5% in the prior year
+
+                                                               Net income was $204 million and net margin was 31%, an improvement of
+    Revenue                        Gross margin                $178 million from the prior year
+    69% year-over-year growth      up 100bps from prior year
+                                                               Adjusted EBITDA1 was $266 million and Adjusted EBITDA margin was 40%,
+                                                               an improvement of $151 million from the prior year
+
+                                                               Operating cash flow was $312 million, an improvement of $185 million from
+
+    $204M                          $266M                       the prior year
+
+                                                               Free Cash Flow2 was $311 million, an improvement of $185 million from the
+                                                               prior year
+    Net income                     Adjusted EBITDA1
+    31% margin                     40% margin                  Basic and diluted earnings per share were $1.07 and $1.01, up over 650%
+                                                               from the prior year
+
+                                                               Capital expenditures were $1 million, 0.2% of revenue
+
+
+    $312M                          $1.01                       Cash, cash equivalents, and marketable securities were $2.77 billion as of
+                                                               March 31, 2026
+
+    Operating cash flow            Diluted EPS                 Total fully diluted shares outstanding were 206.4 million as of March 31,
+                                                               2026, up 0.2% from the prior year
+    47% margin                     up 7x from prior year
+
+Q1 2026 • Letter to Shareholders                                                                                                            2
+Business highlights                           Q1 2026
+
+
+ Daily Active Uniques (“DAUq”) averaged 126.8 million, an increase of 17%     Q1 ‘26 DAILY ACTIVE UNIQUES
+ year-over-year
+                                                                              126.8M                                      121.4    126.8
+ Weekly Active Uniques (“WAUq”) averaged 493.1 million, an increase of                                           116.0
+ 23% year-over-year                                                           17%              108.1
+                                                                                                        110.4
+                                                                                                                                   53.5
+                                                                                                                          52.5
+                                                                              year-over-year            50.3      51.6
+                                                                                               50.1
+ Logged-in users grew 7% and Logged-out users grew 26% year-over-year
+
+ U.S. DAUq grew 7% year-over-year and International DAUq grew 26%             (IN MILLIONS)
+                                                                                               58.0     60.1     64.4     68.9     73.3
+ year-over-year                                                                  INT’L DAUQ
+                                                                                 US DAUQ       Q1 '25   Q2 '25   Q3 '25   Q4 '25   Q1 '26
+
+ Total U.S. revenue grew 67% year-over-year and International revenue
+ grew 76% year-over-year
+
+ Advertising revenue of $625 million grew 74% year-over-year, and Other
+ revenue was $39 million, up 15% year-over-year                               Q1 ‘26 WEEKLY ACTIVE UNIQUES
+ Advertising revenue growth was driven by year-over-year growth in
+ impressions and pricing
+                                                                              493.1M                             443.8
+                                                                                                                          471.6
+                                                                                                                                   493.1
+
+                                                                                               401.3    416.4
+                                                                              23%                                         193.4
+                                                                                                                                   196.5
+ Broad strength across the full ad funnel and our top-15 industry verticals   year-over-year   178.3    181.0
+                                                                                                                 187.8
+
+
+ Announced integration with Shopify to scale our advertiser ecosystem
+ and streamline customer onboarding                                           (IN MILLIONS)
+                                                                                               223.0    235.4    256.0    278.2    296.6
+                                                                                 INT’L WAUQ
+                                                                                 US WAUQ       Q1 '25   Q2 '25   Q3 '25   Q4 '25   Q1 '26
+
+
+
+
+Q1 2026 • Letter to Shareholders                                                                                                            3
+Dear fellow
+shareholders,
+We’re excited to start the year with a strong first quarter. As                                                                                                                       Second, we have an ads business that is built on context,
+we’ve been building Reddit over the years, I’ve often reflected                                                                                                                       interest, and commercial intent. Around 40% of conversations
+on and been inspired by the unique opportunity in front of us                                                                                                                         on Reddit are commercial in nature, where people are actively
+and the fact that Reddit is truly a one-of-one company. That                                                                                                                          discussing products, services, and purchase decisions. And
+idea came up again and again during Q1, with one of the most                                                                                                                          these conversations are uniquely influential: 84% of shoppers
+tangible proof points being our strong commercial results.                                                                                                                            say they feel more confident in their decisions after researching
+                                                                                                                                                                                      on Reddit.A
+This marks our seventh consecutive quarter with revenue
+growth over 60%, with industry-leading gross margins over                                                                                                                             When you combine these two things—engaged communities
+90%, an Adjusted EBITDA margin of 40%, and record cash flow                                                                                                                           and commercial intent—you create a powerful environment for
+of more than $300 million. At the same time, our capital                                                                                                                              advertisers. We see this in the outcomes we’re delivering and in
+expenditures remained low at just $1 million, underscoring the                                                                                                                        the continued scaling of our ads business and ARPU growth.
+advantage of Reddit’s capital-light model.
+                                                                                                                                                                                      Another reason Reddit stands out today is our position in the AI
+When you look across the more than 300 publicly traded tech                                                                                                                           landscape.
+companies, there’s only one that combines this type of growth,
+profitability, and efficiency—and that’s Reddit. Our commercial                                                                                                                       Reddit is built on more than two decades of human
+success is differentiated because our community product is                                                                                                                            conversation—over 25 billion posts and comments—and every
+differentiated.                                                                                                                                                                       month our communities generate the equivalent of Wikipedia’s
+                                                                                                                                                                                      entire content library in new content.
+What powers these results are Reddit’s raw materials.
+
+First, we have deeply engaged users who come to Reddit for
+high-intent uses—authentic recommendations and answers to
+questions like, “What should I watch next?” and “What type of
+stroller is best for two kids?”
+
+
+
+                                                                                                                                                                                                                                                          4
+A. Source: Reddit, United States, "Let’s talk about your purchases & Social Media", n=1,004, A18+, monthly Reddit users, Attest panels, February 2026, Question: "After researching brands or
+products on Reddit, how much more confident did you feel about your purchase decision?", Platforms: Reddit, Facebook, Instagram, X, TikTok, Pinterest, Discord, Snapchat, Youtube.
+As AI becomes more prevalent, people increasingly seek out real human perspectives, and in         We’ve strengthened our teams with more people who’ve successfully grown other major
+turn, AI models rely on these perspectives to train and power their products. Scarce assets        platforms. We’ve added critical machine learning talent to build the capabilities required for
+tend to become more valuable over time, and authentic human conversation at scale is               today’s internet. And we’ve improved our processes for data, experiments, and shipping
+becoming increasingly rare. Reddit’s conversations are like oil for the modern internet: a         more quickly while still improving quality, so we can realize our vision.
+foundational resource powering the next generation of technology.
+                                                                                                   We made advancements across several product areas this quarter that we’re encouraged
+On the user side, we’re making steady progress, but we still have work to do to increase           by, including bot verification, improvements in core user engagement, performance gains
+frequency and accelerate growth toward the levels we see on leading platforms.                     across the stack, and continued success with machine translation. Looking ahead to the
+                                                                                                   remainder of 2026, our priorities include broadening the top of the funnel, improving new
+We believe Reddit has the potential to be one of a handful of scaled global platforms on the       user retention, and making Reddit faster across the board, which remains a meaningful
+internet. We already have tremendous reach today with nearly 500 million weekly users              opportunity and can lead to an outsized impact.
+globally and 200 million in the United States. Now it’s about driving both greater reach and
+greater frequency.                                                                                 Our mission to empower communities and make their knowledge accessible to everyone is
+                                                                                                   ambitious, and it won’t be achieved in a single quarter. But we’re making steady progress
+In particular, we’re focused on growing our daily user base in the U.S. to a size closer to that   and won’t rest until we get there.
+of the largest platforms. Our goal is to reach 100 million daily U.S. users, and we’re actively
+executing a strategy to get us there.                                                              As always, thank you for being on this journey with us.
+
+One thing that has become clear is that product quality leads to growth. I believe our
+previous ways of working yielded the best results we were capable of, but not the results we
+aspired to. So to get to the next level, we first had to improve ourselves. Over the last year,
+we’ve made—and continue to make—a number of foundational changes to both our talent
+and infrastructure that we believe will unlock significantly greater headroom for Reddit’s
+growth.
+
+                                                                                                   Steve Huffman
+                                                                                                   Co-Founder & CEO
+
+
+
+
+Q1 2026 • Letter to Shareholders                                                                                                                                                                    5
+                                                             Out of 300+ Publicly Listed U.S. Tech Companies, including:
+                                                                    Alphabet, Meta, Microsoft, Netflix, NVIDIA, etc.
+
+
+                                                                                                                    only 21 companies have >40%
+                                                                                                                        2025 Revenue Growth
+
+
+
+Today, Reddit is a                                                                                          5 have >30% 2025 Free Cash Flow2
+                                                                                                                 and Adj. EBITDA1 Margins
+
+1 of 1 Financial Model                                                                                                                             3 have <$15M
+                                                                                                                                                    2025 CapEx
+
+                                                                                                                                            1 has >90% 2025
+                                                                                                                                              Gross Margin
+
+
+                                                                                                                                                                                                              Reddit is a 1 of 1 Company
+
+
+
+
+Q1 2026 • Letter to Shareholders   Source: FactSet, market data as of 01-Apr-2026. Note: Sourced 300+ publicly listed US tech companies having data for all the following items: 2024 & 2025 Revenue, 2025 Gross Profit, 2025 Capital expenditures, 2025 Adj. EBITDA1, & 2025 Free Cash Flow2.
+                                                                                                                                                                                                                                                                                                 6
+Consumer product & internationalization
+We are building a Reddit for everyone - the home of human experience on the internet
+
+
+
+     Modernizing search                                                 Scaling internationally                                       Authentically human
+        Reddit search enables community discovery, surfaces              Reddit’s content is translated into over 30 languages         With over 25 billion posts and comments, Reddit is the
+        authentic human perspectives, and informs high-intent            and optimized to deliver high-quality and locally             internet’s largest collection of community-driven
+        decisions                                                        relevant content to users across the world                    conversation
+        AI-powered search results and product integrations               Reddit’s relevance and popularity are growing on a            We’re leading the industry with verification and bot
+        improve the search experience, accelerating usage and            global scale                                                  labeling tools to strengthen our position as the best and
+        utility                                                              Reddit is one of the most visited sites in the U.K.       most trusted destination for community discovery and
+                                                                             and is especially popular with women, who                 authentic human interaction
+                                                                             represent more than half of Reddit’s users in the U.K.
+                                                                             Reddit is gaining influence in France, with brands
+                                                                             and media outlets integrating the platform to
+                                                                             uncover local trends, topics, and culture
+
+                                                                                                                                                                                25B+
+                                                                                           In the U.K., Reddit is king                                                            Posts and
+                                                                                                                                          Testing fast and secure               comments on
+                                                                                           “Three in five Brits now encounter the                                               the platform
+                                                                                                                                           verification protocols
+                                                                                           site while online, up from one-third
+                                                                                           in 2023.”
+
+
+                                                                                           Reddit, the social network
+                                                                                           and true “editorial
+                                                                                           barometer” that France
+                                                                                           didn’t see coming [...]
+                                                                          “Reddit is undergoing a transformation in France.
+                                                                          The conversational platform [...] is influencing brands,
+      Product placements enable searchers to browse listings and shop     media outlets, recruiters and AI engines. [...]”
+                  directly within the Reddit search results                                                                                     Automated bot labeling
+
+
+
+Q1 2026 • Letter to Shareholders                                                                                                                                                                   7
+Advertising & monetization                                                                                                                                                                                                                                                          Reddit’s impact
+                                                                                                                                                                                                                                                                                    Case study: Liquid I.V.
+     Scaling automation with                                                                                                           Shopping ads momentum
+     Reddit Max campaigns
+                                                                                                                                            Reddit is essential to the consumer decision journey, as
+          Middle Market and SMBs are increasingly adopting                                                                                  people validate opinions and reviews ahead of purchase
+          Reddit Max campaigns to optimize their lower funnel                                                                               decisions
+                                                                                                                                                                                                                                                                                      "Since launching Reddit DPA in April 2025, we’ve seen a
+          objectives                                                                                                                            84% of Reddit shoppers feel more secure in their
+                                                                                                                                                                                                                                                                                      transformative shift in our lower-funnel efficiency for
+          Max campaigns unlock performance and deliver AI-                                                                                      purchases after researching products on the platformA
+                                                                                                                                                                                                                                                                                      Liquid I.V.” said Karilyn Anderson, VP of Media and
+          powered insights to measure performance across                                                                                    We have strong adoption with our Dynamic Product Ads
+                                                                                                                                                                                                                                                                                      Retention at Liquid I.V. “Despite being a newer placement
+          audiences                                                                                                                         (DPA), bringing Reddit-unique content into the shopping
+                                                                                                                                            journey in ways that deepen relevance and performance                                                                                     for us, DPA has already generated 33% of our total
+          Advertisers see 17% lower costs / CPA* and over 25%*
+                                                                                                                                                                                                                                                                                      platform revenue. Most impressively, it is outperforming
+          more conversions with Max campaigns
+                                                                                                                                                                                                                                                                                      our other conversion campaigns by 40%, all while
+
+                                                                                                                                                                                                                     40%                                                              maintaining engagement levels on par with our top-tier
+                                                                                                                                                                                                                                                                                      prospecting efforts."
+                                                                                                                                                                                                                     Y/Y increase in
+                                                                                                                                                                                                                     high-intent shopping
+                                                                                                                                                                                                                     conversations on RedditB
+                                                                                                                                                                                                                                                                                    Case study: Cozey
+                                                                                                                                                                                                                                                                                    By launching Reddit Max campaigns, Cozey leveraged
+
+                                                                                                                                                                                                                     91%                                                            automated bidding, creative rotation, and audience expansion to
+                                                                                                                                                                                                                                                                                    scale new customer acquisition with less hands-on management
+                                                                                                                                                                                                                     Y/Y DPA ROAS
+                                                                                                                                                                                                                     improvement from signal
+
+                                                                                     ~50%
+                                                                                                                                        Community overlays highlight                                                 and ML investments
+
+                                                                                                                                                                                                                                                                                                                                 27-28%
+                                                                                                                                           products that resonate
+                                                                                                                                                 on Reddit
+                                                                                     of Max campaign
+                                                                                     advertisers use                                                                                                                                                                                                                             Lower costs
+                                                                                                                                                                                      We announced an integration with
+                                                                                     AI-powered creative                                                                                                                                                                                                                         (CPA and CPM)*
+                                                                                                                                                                                      Shopify to simplify catalog and
+                                                                                     features to unlock
+                                                                                     greater performance                                                                              measurement setup and enable frictionless
+                                                                                                                                                                                      onboarding for new DPA advertisers
+
+
+
+     * Based on 17 split tests conducted between June and August 2025. Each test compared Max campaigns to standard campaigns over a
+                                                                                                                                       A. Source: Reddit, United States, "Let’s talk about your purchases & Social Media", n=1,004, A18+, monthly Reddit users, Attest panels,
+                                                                                                                                       February 2026, Question: "After researching brands or products on Reddit, how much more confident did you feel about your purchase
+                                                                                                                                       decision?", Platforms: Reddit, Facebook, Instagram, X, TikTok, Pinterest, Discord, Snapchat, Youtube.
+                                                                                                                                                                                                                                                                                                                                 35%
+     21-day period. CPA refers to Cost per Action.                                                                                     B. Source: Reddit Insights powered by Community Intelligence, Global, 2024 vs 2025; posts with CI score >0.8 inside the “shopping” entity.
+                                                                                                                                                                                                                                                                                                                                 Higher ROAS*
+                                                                                                                                                                                                                                                                                              Cozey shopping ad
+Q1 2026 • Letter to Shareholders                                                                                                                                                                                                                                                                                            *When compared to Cozey’s standard campaigns.   8
+Financial highlights - P&L                                                    Q1 2026
+
+
+      Q1 ‘26 REVENUE                                                                           Q1 ‘26 GROSS MARGIN                  90.5%             90.8%          91.0%         91.9%       91.5%
+                                                                           $725.6
+
+      69%                                                      $584.9       $142.3
+                                                                                     $663.4
+
+                                                                                      $137.8
+                                                                                               100 bps
+      year-over-year                                $499.6                                     year-over-year
+                                                                $105.3
+                                        $392.4       $90.8
+
+                                         $78.5
+
+
+
+
+      (IN MILLIONS)                      $313.9     $408.8      $479.6     $583.3    $525.6                                          Q1 '25            Q2'25          Q3 '25        Q4 '25      Q1 '26
+         US REVENUE                                                                                                              COST OF REVENUE (IN MILLIONS)
+
+         INT’L REVENUE                   Q1 '25      Q2 '25     Q3 '25      Q4 '25    Q1 '26
+                                                                                                                                     $37.1             $45.9          $52.5         $58.7      $56.3
+
+
+                         Total revenue was $663.4 million, up 69% year-over-year                               Gross margin was 91.5%, an improvement of 100 bps year-over-year
+
+
+
+      Q1 ‘26 OPERATING EXPENSES                                                                Q1 ‘26 PROFITABILITY
+                                                                           $435.1
+
+      21%
+                                                                                     $424.2    NET INCOME                                                                             $327.0
+                                                    $386.0     $393.9
+
+      year-over-year
+                                        $351.4
+                                         $4.0
+                                                     $3.9        $3.9
+                                                                            $4.2
+
+                                                                            $90.8
+                                                                                      $4.2
+                                                                                      $78.7
+                                                                                               680%
+                                                                                               year-over-year                                                           $236.0
+                                                                                                                                                                                 $251.6           $266.0
+
+                                                     $94.9      $93.4                                                                                                                        $204.0
+                                         $107.2                                                                                                           $166.7
+                                                                                               ADJ. EBITDA                                                         $162.7
+
+                                                                                               131%
+                                                                                               year-over-year
+                                                                                                                                       $115.3
+                                                                                                                                                  $89.3
+
+                                                                                                                                 $26.2
+      (IN MILLIONS)                      $240.2     $287.2      $296.6     $340.1    $341.3    (IN MILLIONS)
+
+         NON-GAAP OPERATING EXPENSES³                                                             NET INCOME
+         SBC & RELATED TAXES   D&A       Q1 '25      Q2 '25     Q3 '25      Q4 '25    Q1 '26      ADJUSTED EBITDA                     Q1 '25            Q2 '25        Q3 '25        Q4 '25       Q1 '26
+
+
+
+               Total GAAP operating expenses were $424.2 million, up 21% year-over-year                             Net income was $204.0 million, up 680% year-over-year
+             Total non-GAAP operating expenses3 were $341.3 million, up 42% year-over-year                        Adjusted EBITDA¹ was $266.0 million, up 131% year-over-year
+Q1 2026 • Letter to Shareholders                                                                                                                                                                           9
+Financial highlights - supplemental metrics                                                                                                                                  Q1 2026
+
+
+      Q1 ‘26 AVERAGE REVENUE PER UNIQUE (ARPU)                                                                                                       Q1 ‘26 "RULE OF 40"1
+                                                                                                                                                                                                                        115%
+
+      44%                                                                                                                                            6,900 bps
+                                                                                                                            $5.98                                                                 111%       108%                 109%
+                                                                                                                                       $5.23
+                                                                                                           $5.04            $2.31                                                      91%
+      year-over-year                                                            $4.53                                                  $2.02         above “Rule of 40" 1
+                                                                                                                                                                                                  33%                    45%
+                                                                                                             $1.84                                                                                           40%                  40%
+                                                   $3.63                         $1.73                                                                                                 29%
+
+                                                     $1.34
+
+                                                                                                                                                                              40%      61%        78%        68%         70%      69%
+
+      (IN MILLIONS)                                 $6.27                        $7.87                      $9.04           $10.79     $9.63
+         US ARPU                                                                                                                                       REVENUE Y/Y GROWTH
+         INT’L ARPU                                  Q1 '25                     Q2 '25                       Q3 '25         Q4 '25     Q1 '26          ADJUSTED EBITDA¹ MARGIN
+                                                                                                                                                                                       Q1 '25    Q2 '25      Q3 '25     Q4 '25    Q1 '26
+
+
+                                   ARPU was $5.23, up 44% year-over-year                                                                                Revenue growth plus Adjusted EBITDA¹ margin makes us a “Rule of 109”1 Company,
+                                                                                                                                                                                 6,900 bps above “Rule of 40"
+
+
+      Q1 ‘26 REVENUE GROWTH                                                                                                                          Q1 ‘26 PROFIT
+      VS. COST GROWTH A                                                 77.7%                                                                        MARGIN TRENDS                     70.4%
+                                                                                                    67.9%                 69.7%      69.1%
+
+      1.6X                                  61.5%
+
+                                                                                                                               45.8%         43.4%
+                                                                                                                                                                                                  58.3%      60.0%      58.0%
+
+                                                                                                                                                                                                                         45.1%
+                                                                                                                                                                                                                                  55.6%
+
+
+                                                                                      37.7%                       37.3%                                                                                      40.3%                40.1%
+                                                                                                                                                                                                  33.4%
+                                                                                                                                                                                       29.4%
+                                                         19.0%
+                                                                                                                                                                                                                        34.7%
+                                                                                                                                                                                                                                  30.7%
+                                                                                                                                                                                                             27.8%
+                                                                                                                                                       NON-GAAP INCR. ADJ.
+      (IN MILLIONS)
+                                                                                                                                                       EBITDA¹ Y/Y MARGIN                         17.9%
+         REVENUE Y/Y GROWTH                         Q1 '25                      Q2 '25                      Q3 '25          Q4 '25     Q1 '26
+                                                                                                                                                       ADJ. EBITDA MARGIN1             6.7%
+         NON-GAAP TOTAL COSTS³               REVENUE GROWTH / COST GROWTH A RATIO
+         Y/Y GROWTH                                                                                                                                    NET INCOME MARGIN               Q1 '25     Q2 '25     Q3 '25      Q4 '25   Q1 '26
+                                                     3.2x                        2.1x                         1.8x          1.5x       1.6x
+
+
+     Total revenue grew 1.6x times as fast as total adjusted costs and expenses³ year-over-year                                                                      55.6% year-over-year incremental Adjusted EBITDA margin¹,
+                                                                                                                                                                         with an average of 60.5% for the last five quarters
+                                    A. Represents revenue Y/Y growth vs. non-gaap total costs and expenses³ Y/Y growth
+Q1 2026 • Letter to Shareholders                                                                                                                                                                                                           10
+Financial highlights - cash & equity                                                                                                  Q1 2026
+
+
+      Q1 ‘26 CASH ON BALANCE SHEET A                                                                                         $2.8        Q1 ‘26 FULLY DILUTED                              0.3%                   0.0%        0.1%
+                                                                                                                    $2.5                 SHARES OUTSTANDING
+                                                                                                          $2.2                                                                (0.1%)
+
+      42%                                                                                                                                0.2%
+                                                                                                                                                                                                     (0.2%)
+                                                                                  $2.1
+                                                   $2.0                                                                                                                       206.0       206.6       206.1      206.1       206.4
+      year-over-year                                                                                                                     year-over-year                        21.7        19.5        16.7       15.2        14.0
+
+
+
+                                                                                                                                         (IN MILLIONS)
+
+
+
+                                                                                                                                            SHARES UNDERLYING
+      (IN BILLIONS)                                                                                                                         STOCK-BASED AWARDS                184.3       187.1       189.4       190.9       192.4
+                                                                                                                                            BASIC SHARES OUTSTANDING
+         CASH, CASH EQUIVALENTS,
+         & MARKETABLE SECURITIES                     Q1 '25                       Q2 '25                  Q3 '25    Q4 '25   Q1 '26         Q/Q DILUTION %                    Q1 '25      Q2 '25      Q3 '25      Q4 '25      Q1 '26
+
+
+
+                      Cash on balance sheet was $2.8 billion, up 42% from the prior year                                                            Fully diluted shares outstanding were 206.4 million, up 0.2% year-over-year
+
+
+
+      Q1 ‘26 OPERATING CASH FLOW                                                                                                         Q1 ‘26 STOCK-BASED                  $107.4
+                                                                                                                             $312.3
+                                                                                                                                         COMPENSATION &
+
+      145%                                                                                                                               RELATED TAXES                                    $95.1       $93.6
+                                                                                                                   $266.8                                                                                         $91.1
+                                                                                                                                                                                                                              $78.8
+      year-over-year
+                                                                                                         $185.2                          (27%)
+                                                $127.6                                                                                   year-over-year
+                                                                                $111.3
+                                                                                                                             47.1%                                            27.4%
+      (IN MILLIONS)                                                                                                 36.8%                                                                 19.0%
+                                                    32.5%                                                31.7%                           (IN MILLIONS)                                                16.0%
+         OPERATING CASH FLOW                                                     22.3%                                                                                                                            12.6%           11.9%
+                                                                                                                                            SBC
+         OPERATING CASH FLOW
+         AS % OF REVENUE                             Q1 '25                       Q2 '25                  Q3 '25    Q4 '25   Q1 '26         SBC AS % OF REVENUE                Q1 '25      Q2 '25     Q3 '25      Q4 '25      Q1 '26
+
+
+
+                  Operating cash flow was $312.3 million, up 145% year-over-year                                                      Stock-based compensation & related taxes taxes were $78.8 million, down 27% year-over-year,
+    Operating cash flow as % of revenue was 47.1%, an improvement of 1,460 bps year-over-year                                                  SBC as % of revenue was 12%, an improvement of 1,550 bps year-over-year
+                                    A. Represents cash and cash equivalents and marketable securities.
+Q1 2026 • Letter to Shareholders                                                                                                                                                                                                          11
+Financial Outlook
+The guidance provided below is based on Reddit’s current estimates
+and is not a guarantee of future performance. This guidance is subject
+to significant risks and uncertainties that could cause actual results to
+differ materially, including the risk factors discussed in Reddit’s reports
+                                                                              Outlook
+on file with the Securities and Exchange Commission (the “SEC”). Reddit
+undertakes no duty to update any forward-looking statements or
+estimates, except as required by applicable law.
+                                                                              Q2 ‘26 REVENUE
+
+
+                                                                              $715M-$725M
+As we look ahead, we will share our internal thoughts on revenue and
+Adjusted EBITDA for the second quarter.
+
+In the second quarter of 2026, we estimate:
+  Revenue in the range of $715 million to $725 million
+  Adjusted EBITDA4 in the range of $285 million to $295 million
+
+
+                                                                              Q2 ‘26 ADJUSTED EBITDA
+
+
+                                                                              $285M-$295M
+
+Q1 2026 • Letter to Shareholders                                                                       12
+Reddit AMA highlights                                              Earnings conference call
+In Q1, Reddit supported 70+ AMAs across more than                  & community update
+50 communities.
+                                                                   Reddit will host a conference call to discuss the results for the first quarter of 2026 on April 30, 2026, at
+                                                                   1:30 p.m. PT / 4:30 p.m. ET. A live webcast of the call can be accessed on Reddit’s Investor Relations
+                                          Impressions: over 2.5m   website at https://investor.redditinc.com and investor relations subreddit r/RDDT. A replay of the webcast
+                                          Upvotes: over 10k        and transcript will be available on the same websites following the conclusion of the conference call.
+                                          Comments: over 2.5k
+                                                                   Reddit will solicit questions from the community at r/RDDT on April 30, 2026, and post responses
+                                                                   following the earnings call at Reddit’s Investor Relations website at https://investor.redditinc.com and
+                                                                   investor relations subreddit r/RDDT.
+
+
+
+
+                                                                   Steve Huffman                          Drew Vollero
+                                                                   Co-Founder & CEO                       Chief Financial Officer
+
+
+
+
+                   Impressions: over 1m
+                   Upvotes: over 5.5k
+                   Comments: over 1.5k
+
+
+Q1 2026 • Letter to Shareholders                                                                                                                                                   13
+Appendix
+Notes
+ 1. The definition of Adjusted EBITDA, Adjusted EBITDA margin, incremental Adjusted EBITDA margin, and                 operating performance, including evolution of machine translation, international growth strategies to
+    Rule of 40 and a reconciliation of net income (loss) to Adjusted EBITDA and Adjusted EBITDA margin                increase content consumption and improve local user experience, consumer product strategy with respect
+    can be found on subsequent pages of this appendix                                                                 to growth and engagement, the integration of AI in Reddit search, the launch of Max campaigns, GAAP
+ 2. The definition of Free Cash Flow and a reconciliation of Free Cash Flow to net cash provided by (used             and non-GAAP guidance, strategies, and expectations of growth. Reddit's expectations and beliefs
+    in) operating activities can be found on subsequent pages of this appendix                                        regarding these matters may not materialize, and actual results in future periods are subject to risks and
+ 3. The definition of total adjusted costs and expenses and non-GAAP operating expenses and a                         uncertainties that could cause actual results to differ materially from those projected, including those more
+    reconciliation of total adjusted costs and expenses and non-GAAP operating expenses to the                        fully described under the caption “Risk Factors” and elsewhere in documents that Reddit files with the SEC
+    comparable U.S. GAAP measures can be found on subsequent pages of this appendix                                   from time to time, including Reddit’s Quarterly Report on Form 10-Q for the quarter ended March 31, 2026,
+ 4. We have not provided a reconciliation to the forward-looking U.S. GAAP equivalent measures for our                which is being filed with the SEC at or around the date hereof.
+    non-GAAP guidance due to uncertainty regarding, and the potential variability of, reconciling items.
+    Therefore, a reconciliation of these non-GAAP guidance measures to their corresponding U.S. GAAP                  The forward-looking statements in this letter are based on information available to Reddit as of the date
+    guidance measures is not available without unreasonable effort                                                    hereof, and Reddit undertakes no obligation to update any forward-looking statements, except as required
+                                                                                                                      by law.
+About Reddit
+Reddit is a community of communities. Built on shared interests and passions, it is home to the most open
+                                                                                                                      A Note About Metrics
+                                                                                                                      We define a daily active unique (“DAUq”) as a user whom we can identify with a unique identifier who has
+and authentic conversations online. Every day, millions of people post, vote, comment, and search for
+                                                                                                                      visited a page on the Reddit website, www.reddit.com, or opened a Reddit application at least once during
+answers across nearly every topic imaginable, and brands build trusted relationships with their audiences.
+                                                                                                                      a 24-hour period. Average DAUq for a particular period is calculated by adding the number of DAUq on
+With 25+ billion posts and comments and more than 126 million daily active uniques, Reddit is one of the
+                                                                                                                      each day of that period and dividing that sum by the number of days in that period.
+internet’s largest sources of information. Learn more at www.redditinc.com. The Reddit app is available on
+the App Store and Google Play.
+                                                                                                                      We define a weekly active unique (“WAUq”) as a user whom we can identify with a unique identifier who
+Forward Looking Statements                                                                                            has visited a page on the Reddit website, www.reddit.com, or opened a Reddit application at least once
+This letter contains forward-looking statements within the meaning of the Securities Act of 1933, as                  during a trailing seven-day period. Average quarterly WAUq for a particular period is calculated by adding
+amended, the Securities Exchange Act of 1934, as amended, and the Private Securities Litigation Reform                the number of WAUq on each day of that period and dividing that sum by the number of days in that
+Act of 1995. Forward-looking statements generally relate to future events or Reddit's future financial or             period.
+operating performance. In some cases, you can identify forward-looking statements because they contain
+words such as "may," "will," "should," "expects," "plans," "anticipates," "going to," "could," "intends," "target,"   We define average revenue per unique (“ARPU”) as quarterly revenue in a given geography divided by the
+"projects," "contemplates," "believes," "estimates," "predicts," "potential" or "continue" or the negative of         average DAUq in that geography. For the purposes of calculating ARPU, advertising revenue in a given
+these words or other similar terms or expressions that concern Reddit's expectations, strategy, priorities,           geography is based on the geographic location in which advertising impressions are delivered, as this
+plans or intentions. Forward-looking statements in this letter include, but are not limited to, statements            approximates revenue based on user activity, while other revenue in a given geography is based on the
+regarding Reddit’s priorities, plans with respect to the share repurchase program, future financial and               billing address of the customer.
+
+Q1 2026 • Letter to Shareholders                                                                                                                                                                                                      14
+Use of Non-GAAP Financial Measures
+We use certain non-GAAP financial measures to supplement our consolidated financial statements, which            Incremental Adjusted EBITDA margin is defined as the change in Adjusted EBITDA divided by the change
+are presented in accordance with U.S. GAAP, to evaluate our core operating performance. These non-GAAP          in revenue over the same period. Rule of 40 is defined as the year-over-year revenue growth rate plus
+financial measures include Adjusted EBITDA, Adjusted EBITDA margin, Free Cash Flow, Free Cash Flow              adjusted EBITDA margin over the same period. We consider the exclusion of certain non-recurring or non-
+margin, total adjusted costs and expenses, non-GAAP operating expense, non-GAAP research and                    cash items in calculating Adjusted EBITDA and Adjusted EBITDA margin to provide a useful measure for
+development expense, non-GAAP sales and marketing expense, and non-GAAP general and administrative              investors and others to evaluate our operating results in the same manner as management.
+expense. We use these non-GAAP financial measures to facilitate reviews of our operational performance
+and as a basis for strategic planning. By excluding certain items that are non-recurring or not reflective of   Free Cash Flow represents net cash provided by (used in) operating activities less purchases of property
+the performance of our normal course of business, we believe that these non-GAAP financial measures             and equipment. Free Cash Flow margin is defined as Free Cash Flow divided by revenue. We believe that
+provide meaningful supplemental information regarding our performance. Accordingly, we believe these            Free Cash Flow is useful to investors as a liquidity measure because it measures our ability to generate or
+non-GAAP financial measures are useful to investors and others because they allow investors to                  use cash. Once our business needs and obligations are met, cash can be used to maintain a strong balance
+supplement their understanding of our financial trends and evaluate our ongoing and future performance          sheet and invest in future growth. Additionally, we believe that Free Cash Flow is an important measure
+in the same manner as management. However, there are a number of limitations related to the use of non-         since we use third-party infrastructure partners to host our services and therefore we do not incur
+GAAP financial measures as they reflect the exercise of judgment by our management about which                  significant capital expenditures to support revenue generating activities.
+expenses are included or excluded in determining these non-GAAP measures. These non-GAAP measures
+should be considered in addition to, not as a substitute for or in isolation from, our financial results        Total adjusted costs and expenses represents cost of revenue and operating expenses excluding stock-
+prepared in accordance with U.S. GAAP. Other companies, including companies in our industry, may                based compensation and related taxes, depreciation and amortization, and certain other non-recurring or
+calculate these non-GAAP financial measures differently or not at all, which reduces their usefulness as        non-cash items impacting cost of revenue and operating expenses that we do not consider indicative of
+comparative measures.                                                                                           our ongoing business performance. Non-GAAP operating expenses represents operating expenses
+                                                                                                                excluding stock-based compensation and related taxes, depreciation and amortization, and certain other
+A reconciliation is provided below for each historical non-GAAP financial measure to the most directly          non-recurring or non-cash items impacting operating expenses that we do not consider indicative of our
+comparable financial measure stated in accordance with U.S. GAAP. Reddit encourages investors to review         ongoing business performance. Non-GAAP research and development expense, non-GAAP sales and
+the related U.S. GAAP financial measures and the reconciliation of these non-GAAP financial measures to         marketing expense, and non-GAAP general and administrative expense represent their respective
+their most directly comparable U.S. GAAP financial measures, and not to rely on any single financial            operating expense line items excluding stock-based compensation and related taxes, depreciation and
+measure to evaluate Reddit’s business. We have not provided a reconciliation to the forward-looking GAAP        amortization, and certain other non-recurring or non-cash items. We consider adjusted costs and
+equivalent measures for our non-GAAP guidance due to uncertainty regarding, and the potential variability       expenses, non-GAAP operating expense, non-GAAP research and development expense, non-GAAP sales
+of, reconciling items. Therefore, a reconciliation of these non-GAAP guidance measures to their                 and marketing expense, and non-GAAP general and administrative expense to be useful measures as they
+corresponding GAAP guidance measures is not available without unreasonable effort.                              exclude expenses that are not reflective of our operational performance and could mask underlying
+                                                                                                                trends in our business.
+Adjusted EBITDA is defined as net income (loss) excluding interest (income) expense, net, income tax
+expense (benefit), depreciation and amortization, stock-based compensation expense and related taxes,
+other (income) expense, net, and certain other non-recurring or non-cash items impacting net income (loss)
+that we do not consider indicative of our ongoing business performance. Other (income) expense, net
+consists primarily of realized gains and losses on sales of marketable securities, foreign currency
+transaction gains and losses, and other income and expense that are not indicative of our core operating        Investor Relations                    Media Relations
+performance. Adjusted EBITDA margin is defined as Adjusted EBITDA divided by revenue.                           IR@redditinc.com                      press@redditinc.com
+
+
+Q1 2026 • Letter to Shareholders                                                                                                                                                                                              15
+Reddit, Inc.
+Key Operating Metrics by Geography
+(in millions, except percentages and ARPU)
+(unaudited)
+
+                                                 Three months ended
+                                                      March 31,
+                                                 2026           2025          % Change
+  Revenue: Global                            $     663.4    $     392.4           69 %
+  Revenue: U.S.                              $     525.6    $      313.9          67 %
+  Revenue: International                     $      137.8   $         78.5        76 %
+
+
+                                                 Three months ended
+                                                      March 31,
+                                                 2026           2025          % Change
+  DAUq: Global                                      126.8          108.1          17 %
+  DAUq: U.S.                                        53.5               50.1        7%
+  DAUq: International                                73.3             58.0        26 %
+
+
+  Logged-in DAUq: Global                            52.0              48.7         7%
+  Logged-in DAUq: U.S.                               23.2             23.0         1%
+  Logged-in DAUq: International                     28.8              25.8        12 %
+
+
+  Logged-out DAUq: Global                            74.8             59.4        26 %
+  Logged-out DAUq: U.S.                             30.3               27.1       12 %
+  Logged-out DAUq: International                    44.5              32.2        38 %
+
+
+  WAUq: Global                                      493.1          401.3          23 %
+  WAUq: U.S.                                        196.5          178.3          10 %
+  WAUq: International                              296.6          223.0           33 %
+
+
+  ARPU: Global                               $      5.23    $         3.63        44 %
+  ARPU: U.S.                                 $      9.63    $         6.27        54 %
+  ARPU: International                        $      2.02    $         1.34        51 %
+
+
+
+
+Q1 2026 • Letter to Shareholders                                                         16
+Reddit, Inc.
+Consolidated Statements of Operations
+(in thousands, except share and per share amounts)
+(unaudited)
+
+                                                                                               Three months ended
+                                                                                                    March 31,
+                                                                                              2026                2025
+  Revenue                                                                               $       663,411     $       392,361
+  Costs and expenses:
+    Cost of revenue                                                                             56,267              37,089
+    Research and development                                                                   207,246              191,271
+    Sales and marketing                                                                         151,472             90,685
+    General and administrative                                                                   65,514              69,413
+         Total costs and expenses                                                              480,499             388,458
+  Income from operations                                                                        182,912              3,903
+  Other income (expense), net                                                                    22,816             20,534
+  Income before income taxes                                                                   205,728              24,437
+  Income tax expense (benefit)                                                                    1,747               (1,721)
+  Net income                                                                            $      203,981      $        26,158
+
+  Net income per share attributable to Class A and Class B common stock
+     Basic                                                                              $            1.07   $            0.14
+     Diluted                                                                            $            1.01   $            0.13
+  Weighted-average shares used to compute net income per share attributable to common
+  stockholders
+     Basic                                                                                  191,518,973         182,024,207
+     Diluted                                                                                202,524,173         201,275,223
+
+
+
+
+Q1 2026 • Letter to Shareholders                                                                                                17
+Reddit, Inc.
+Consolidated Balance Sheets
+(in thousands)
+(unaudited)
+
+                                                            March 31,        December 31,
+                                                             2026               2025
+  Assets
+  Current assets
+     Cash and cash equivalents                          $     1,374,348      $    953,569
+     Marketable securities                                    1,396,284          1,523,242
+     Accounts receivable, net                                  522,905            590,162
+     Prepaid expenses and other current assets                  92,397              69,012
+           Total current assets                              3,385,934           3,135,985
+  Property and equipment, net                                    11,866             12,710
+  Operating lease right-of-use assets, net                       19,001            20,788
+  Intangible assets, net                                         13,043             15,521
+  Goodwill                                                       42,174             42,174
+  Other noncurrent assets                                        12,265             11,995
+           Total assets                                 $    3,484,283       $   3,239,173
+
+
+  Liabilities and stockholders’ equity
+  Current liabilities
+     Accounts payable                                   $        51,743      $     62,929
+     Operating lease liabilities                                  7,170             7,023
+     Accrued expenses and other current liabilities            206,970             201,331
+           Total current liabilities                           265,883             271,283
+  Operating lease liabilities, noncurrent                        14,118             16,191
+  Other noncurrent liabilities                                  24,566              22,661
+           Total liabilities                                   304,567             310,135
+  Commitments and contingencies
+  Stockholders’ equity:
+     Preferred stock                                                    —               —
+     Class A common stock                                               14              14
+     Class B common stock                                               5                5
+     Class C common stock                                               —               —
+     Additional paid-in capital                               3,647,812          3,595,772
+     Accumulated other comprehensive income (loss)                 (979)            4,364
+     Accumulated deficit                                       (467,136)           (671,117)
+           Total stockholders’ equity                         3,179,716          2,929,038
+           Total liabilities and stockholders’ equity   $    3,484,283       $   3,239,173
+
+
+
+
+Q1 2026 • Letter to Shareholders                                                               18
+Reddit, Inc.
+Consolidated Statements of Cash Flows
+(in thousands)
+(unaudited)
+
+                                                                                                     Three months ended March 31,
+                                                                                                        2026               2025
+  Cash flows from operating activities
+   Net income                                                                                    $        203,981      $     26,158
+   Adjustments to reconcile net income to net cash provided by (used in) operating activities:
+     Depreciation and amortization                                                                          4,210             3,963
+     Non-cash operating lease cost                                                                          1,676             1,468
+     Amortization of premium (accretion of discount) on marketable securities, net                         (4,297)           (8,884)
+     Stock-based compensation expense                                                                     68,336             85,414
+     Other adjustments                                                                                         (691)              (138)
+   Changes in operating assets and liabilities:
+     Accounts receivable                                                                                   67,957            23,359
+     Prepaid expenses and other assets                                                                    (23,752)          (17,006)
+     Operating lease right-of-use assets and liabilities                                                    (1,815)           (1,780)
+     Accounts payable                                                                                     (10,983)            (1,046)
+     Accrued expenses and other liabilities                                                                 7,631            16,070
+       Net cash provided by (used in) operating activities                                       $        312,253      $    127,578
+
+
+  Cash flows from investing activities
+   Purchases of property and equipment                                                                     (1,090)                (979)
+   Purchases of marketable securities                                                                    (364,929)         (504,846)
+   Maturities of marketable securities                                                                   474,468            465,062
+   Proceeds from sale of marketable securities                                                             17,989            12,372
+   Other investing activities                                                                               (1,616)               889
+       Net cash provided by (used in) investing activities                                       $        124,822      $    (27,502)
+
+
+  Cash flows from financing activities
+   Proceeds from exercise of employee stock options                                                         4,899            10,184
+   Taxes paid related to net share settlement of restricted stock units                                    (16,196)         (36,675)
+   Repurchases of Class A common stock                                                                     (4,999)                  —
+       Net cash provided by (used in) financing activities                                       $        (16,296)     $     (26,491)
+
+
+  Net increase (decrease) in cash and cash equivalents                                                   420,779             73,585
+  Cash and cash equivalents at the beginning of the period                                               953,569            562,142
+  Cash and cash equivalents at the end of the period                                             $      1,374,348      $    635,727
+
+
+
+
+Q1 2026 • Letter to Shareholders                                                                                                          19
+Reddit, Inc.
+Reconciliation of Adjusted EBITDA and Adjusted EBITDA Margin
+(in thousands, except percentages)
+(unaudited)
+
+                                                                    Three months ended
+                                                                         March 31,
+                                                                   2026            2025
+  Net income                                                   $   203,981     $    26,158
+  Add (deduct):
+   Interest (income) expense, net                                  (23,885)        (20,414)
+   Income tax expense (benefit)                                      1,747           (1,721)
+   Depreciation and amortization                                     4,210           3,963
+   Stock-based compensation expense and related taxes               78,848         107,405
+   Other (income) expense, net                                       1,069            (120)
+  Adjusted EBITDA                                              $   265,970     $    115,271
+  Net margin                                                          30.7 %             6.7 %
+  Adjusted EBITDA margin                                              40.1 %          29.4 %
+
+
+
+
+Q1 2026 • Letter to Shareholders                                                                 20
+Reddit, Inc.
+Reconciliation of Free Cash Flow and Free Cash Flow Margin
+(in thousands, except percentages)
+(unaudited)
+
+                                                                 Three months ended
+                                                                      March 31,
+                                                                 2026            2025
+  Net cash provided by (used in) operating activities        $   312,253     $   127,578
+  Less:
+   Purchases of property and equipment                            (1,090)          (979)
+  Free Cash Flow                                             $   311,163     $   126,599
+  Operating cash flow margin                                        47.1 %          32.5 %
+  Free Cash Flow margin                                             46.9 %          32.3 %
+
+
+
+
+Q1 2026 • Letter to Shareholders                                                             21
+Reddit, Inc.
+Reconciliation of Non-GAAP Costs and Expenses
+(in thousands)
+(unaudited)
+
+                                                            Three months ended
+                                                                 March 31,
+                                                            2026             2025
+  Total costs and expenses                              $    480,499     $    388,458
+  Less:
+   Depreciation and amortization                               4,210             3,963
+   Stock-based compensation expense and related taxes         78,848          107,405
+  Total adjusted costs and expenses                     $    397,441     $    277,090
+
+
+  Total operating expenses                              $    424,232     $    351,369
+  Less:
+   Depreciation and amortization                               4,210             3,963
+   Stock-based compensation expense and related taxes         78,703          107,188
+  Non-GAAP operating expenses                           $    341,319     $    240,218
+
+
+  Research and development expenses                     $    207,246     $     191,271
+  Less:
+   Depreciation and amortization                               2,639             2,540
+   Stock-based compensation expense and related taxes         49,672           65,187
+  Non-GAAP research and development expenses            $    154,935     $    123,544
+
+
+  Sales and marketing expenses                          $     151,472    $     90,685
+  Less:
+   Depreciation and amortization                               1,342             1,202
+   Stock-based compensation expense and related taxes           7,137          14,220
+  Non-GAAP sales and marketing expenses                 $    142,993     $     75,263
+
+
+  General and administrative expenses                   $     65,514     $     69,413
+  Less:
+   Depreciation and amortization                                   229              221
+   Stock-based compensation expense and related taxes         21,894           27,781
+  Non-GAAP general and administrative expenses          $     43,391     $       41,411
+
+
+
+
+Q1 2026 • Letter to Shareholders                                                          22
+
