@@ -1,154 +1,183 @@
 # Alphabet (GOOGL) — Valuation draft review, as of Q2 2026
 
-_Reviewer pass on `valuation/assumptions.yaml` (drafted 2026-09-07), per AGENTS.md §18.7 step 4. Written 2026-09-07. Nothing fetched from the internet; every figure below was re-derived from the cached filings under `sources/2026-Q2/` and `sources/2026-Q1/`. Line references are to the cached `.txt` files._
+_This reviews the 2026-09-08 redraft of `valuation/assumptions.yaml` (`drafted: 2026-09-08`, `horizon: 10`, five explicit years per list), which replaced the 2026-09-07 draft that passed review and was then edited by the owner through the app. The archived previous pair is `valuation/history/2026-09-08-0150/`. Written 2026-09-08 per AGENTS.md §18.7 step 4. Nothing was fetched from the internet; every figure below was re-derived from the cached files under `sources/2026-Q2/` and `sources/2026-Q1/` and from the cached Damodaran datasets the engine reads. No value per share, upside or enterprise value is recorded anywhere in this file: the owner meets those in the app._
 
-**Verdict: REVISE** (one number FAIL, three consistency items; list in §6).
+**Cycle 1 verdict: REVISE** — one numbered item (§6). Everything else re-derived; the wording, source-tag and formatting defects are fixed directly in the YAML and listed in §7. **Cycle 2 verdict: PASS** — see §8, appended 2026-09-08 after the analyst applied item 1.
 
-## 1. Number re-check
+---
 
-TTM = FY2025 + six months to June 30, 2026 − six months to June 30, 2025. Sources: `10-K-FY2025.txt` (10-K), `10-Q-2026-Q2.txt` (10-Q), `10-Q-2026-Q1.txt` (Q1 10-Q), `8-K-2026-06-05-preferred.txt` (8-K pref).
+## 1. Base-year and bridge numbers
 
-| Cell | YAML | Re-derived | Source line(s) | Result |
-|---|---|---|---|---|
-| base_year.revenue | 445,866 | 402,836 + 229,692 − 186,662 = 445,866 | 10-K l.1591; 10-Q l.376 | OK |
-| base_year.operating_income_gaap | 147,628 | 129,039 + 80,466 − 61,877 = 147,628 (33.1%) | 10-K l.1605; 10-Q l.390 | OK |
-| one_time_items: EC ad-tech fine | 0 (charge 3,500) | "$3.5 billion in the third quarter of 2025" | 10-Q l.2196; 10-K l.1134 | OK |
-| one_time_items: PriceRunner | 0 (charge 1,500) | principal $1.5B in G&A; $581M interest/costs in OI&E | 10-Q l.2833, l.2212 | OK |
-| one_time_items: Waymo charge | 0 (charge 2,100) | $2.1B Q4 2025, "based on estimated stock valuation", inside the $4.2B SBC increase | 10-K l.980, l.1110 | OK |
-| one_time_items: office impairment | 0 (charge 300) | "$300 million" in Q1 2026 S&M | Q1 10-Q l.2257 | OK |
-| base_year.amortization_of_acquired_intangibles | 793 | 6M 2026 545; Q2 2025 124 (6M 2025 246); H2 2025 inferred 2 × 124 = 248; 545 + 248 = 793. Labelled "our inference" in the YAML. The FY2025 10-K has no intangible-assets note: `grep -i amortization` returns only "Amortization of lease assets" (l.2552) and tax text (l.3531); `grep -i intangible` returns only risk-factor, tax and policy text (l.647, 1211, 1782, 1999, 2001, 2009, 3503). Expected 747 / 1,304 / 1,142 / 1,096 / 1,055 confirmed. | 10-Q l.2133, l.2137–2145 | OK |
-| base_year.stock_based_compensation | 28,147 | 24,953 + 14,708 − 11,514 = 28,147 (cash-flow line) | 10-K l.1744; 10-Q l.669 | OK |
-| base_year.rnd_expense | 68,974 | 61,087 + 35,251 − 27,364 = 68,974 | 10-K l.1597; 10-Q l.378 | OK |
-| base_year.effective_tax_rate | 0.168 | 26,656 / 158,826 = 16.78%; TTM (26,656 + 41,394 − 12,986) / (158,826 + 216,165 − 75,722) = 55,064 / 299,269 = 18.4%; 6M 2026 rate 19.1% | 10-K l.1609–1611, l.3527; 10-Q l.2508 | OK |
-| base_year.invested_capital | 516,207 | 640,480 + 98,165 + 1,999 + 18,037 − 242,474 = 516,207 | 10-Q l.353, 327, 1826, 1630, 285 | OK |
-| bridge.cash_and_marketable_securities | 162,474 | 242,474 − 80,000. Components: cash & equivalents 55,911; government bonds 51,822; corporate debt 26,157; mortgage/asset-backed 21,521; marketable equity 87,063 − 80,000 SpaceX = 7,063. Sum 162,474. | 10-Q l.285; Note 3 table l.1080–1101 | OK (wording clarified, see §5) |
-| bridge.debt | 100,164 | 98,165 + 1,999 = 100,164; face 101,085; discount/costs 921; fair value $94.9B; other long-term debt 1,686; no commercial paper; $1.3B drawn on facilities | 10-Q l.1818–1842, l.1729 | OK |
-| bridge.operating_lease_liabilities | 18,037 | 3,446 + 14,591 = 18,037; $85.2B not yet commenced | 10-Q l.1626–1630, l.1699 | OK |
-| non_operating_assets: SpaceX short-term restricted | 80,000 | footnote (1): "$80.0 billion of ... SpaceX shares subject to short-term restrictions" | 10-Q l.1101 | OK |
-| non_operating_assets: marketable equity in other non-current assets | 14,126 | 14,126; footnote (2) $14.1B SpaceX restricted through Q3 2027 | 10-Q l.1097, l.1103 | OK |
-| non_operating_assets: non-marketable securities | 131,461 | 124,259 (measurement alternative; $87.9B remeasured in Q2) + 7,202 (equity method and other) = 131,461 | 10-Q l.295, 1114, 1268–1274 | OK |
-| bridge.minority_interests | 7,100 | "$7.1 billion", of which 824 redeemable; only given in billions | 10-Q l.1909 | OK (rounded) |
-| other_claims: preferred stock | 19,000 | 385 million depositary shares (167.5M + 167.5M + 50M over-allotment) × $50 = **19,250**; equivalently 19.25M preferred shares × $1,000. The 10-Q's "19 million" is rounded; the 8-K gives the exact counts. Cross-check: 19,250 − carried 18,023 = 1,227 = issuance costs (~216) + capped-call premium 1,011; the YAML's 19,000 − 18,023 = 977 is less than the capped-call premium alone, which cannot be. | 10-Q l.2256, 2258, 343–344, 580; 8-K pref l.261; 8-K 06-04 l.269 | **FAIL → 19,250** |
-| other_claims: finance leases | 2,590 | 449 + 2,141 = 2,590 | 10-Q l.1640–1644 | OK |
-| other_claims: accrued fines and settlements | 17,356 | "Accrued fines and settlements 17,356"; "primarily included EC fines"; $5.2B Android fine paid July 2026 | 10-Q l.1889–1890, 3254, 2186 | OK |
-| other_claims: backstop credit derivatives | 815 | liability fair value 815; notional 43,785; $7.6B guarantees "not material"; "$24.1 billion of future backstops" not yet finalized; $20.0B commitment is an equity derivative (liability 457) | 10-Q l.1406, 1375, 2164, 3266, 3268, 1403 | OK |
-| bridge.probability_of_failure (reason figures) | 0 | debt proceeds 56,226; equity 30,499 + 19,063 = 49,562 | 10-Q l.723–727 | OK |
-| bridge.diluted_shares | 12,309 | basic 12,151 + RSUs 142 + preferred (if-converted) 16 = 12,309; period-end common 12,230 | 10-Q l.2365–2381, l.597 | OK |
-| cost_of_capital.build.pretax_cost_of_debt | 0.048 | Q1 2026 USD notes "$20.0 billion ... weighted-average coupon rate of 4.80%"; 2025 USD notes 4.89% and 4.92%; effective rates on 2025/2026 USD notes 4.00–5.79% / 3.93–5.84% | 10-Q l.1737, table l.1740–1835; 10-K l.1281, 1284 (Item 7, not Note 6: tag corrected) | OK |
+`diff` of the two files (`diff -u history/2026-09-08-0150/assumptions.yaml assumptions.yaml`) shows the whole of `base_year:` and the whole of `bridge:` byte-identical, and `market:`, `cost_of_capital.build:` byte-identical. **Those cells are unchanged since the passed review of 2026-09-07 and are not re-checked here.** In particular `market.mature_market_erp: 0.04` is the owner's own saved value and the draft preserved it.
 
-Other figures quoted in reasons, spot-checked: TTM advertising 294,691 + 158,882 − 138,225 = 315,348 (70.7%) OK [10-K l.1008; 10-Q l.918]; TTM Cloud 58,705 + 44,796 − 25,884 = 77,617 OK; Cloud margin Q2 35.6% vs 20.7% OK [slides l.256; 10-Q l.2551]; Q1 2026 margin 39,696 / 109,896 = 36.1% OK; Google Services FY2025 40.7%, Q2 2026 41.8% OK; sales-to-capital history (same-year 1.40 / 1.21 / 1.15 / 0.75 / 0.64; lagged 1.75 / 1.36 / 2.10 / 1.42) all reproduce from 10-K FY2023 l.1641, 1788, 1818 and 10-K FY2025 l.1591, 1742, 1772; D/E numerator 118,201 and the 0.027 illustration OK; transcript page numbers p.11–14, p.18, p.22 confirmed by counting form feeds. Minor: "86 million shares sold in June" follows the 10-Q's rounded counts (29 + 29 + 14 + 14); the 8-K's exact counts sum to 87.1 million.
+Six things did change outside the scenarios, and all six re-check:
 
-## 2. Rule checks (§18.4)
-
-1. **Base year GAAP, only sourced one-time items removed.** Operating income is the reported 147,628 with nothing removed. The four candidates are set to 0 with reasons: EC fine (fourth EC fine since 2017, recurring at intervals: defensible, and the rule's own wording), PriceRunner (third legal accrual above $1B in twelve months: defensible), Waymo charge (stock-based pay: rule 1 forbids the add-back, correct), office impairment ($300M after $1.8B in 2023, 0.07% of revenue: defensible). Damodaran's recurring-at-intervals guidance would *average* such charges rather than count the TTM amount in full; TTM legal charges of ~5.0B run roughly 2–3B above a ten-year EC-fine average, so the base margin is understated by about 0.5–0.7 points. Conservative and within rule 1; a note, not a fix.
-2. **Stock pay expensed.** Yes; memo row 28,147 recorded, never added back.
-3. **Amortization deducted and its role addressed.** Yes; memo row 793 (inference labelled), roll-off addressed in every margin reason (0.2–0.3% of revenue, peak 1,304 in 2027).
-4. **Interest income and the $99B equity gains excluded.** Yes: both sit in OI&E (10-Q l.392, 2831), below the "Income from operations" line used.
-5. **Management case only from recorded guidance; `computable: false`.** Correct: no multi-year revenue or margin target exists (outlook.md §4). All ten guidance items are verbatim and match `outlook.md` §4 and the transcript (p.12–14, p.18). Year-1 override 200,000 − (25,237 + 793) = 173,970: arithmetic correct; midpoint of "$195‑205 billion" [call p.13, l.482]; D&A components confirmed. Two approximations are noted in the reason (calendar 2026 mapped to July 2026–June 2027; TTM rather than year-1 depreciation); they pull in opposite directions (see §3a).
-6. **`other_claims` are claims on existing value.** Preferred: yes, with a one-line justification, and liquidation preference is the right measure *within the conversion band*: at a May 2029 price between about $355 and $444 the holders receive exactly $1,000 of stock per preferred share; above $444 they receive 2.252 shares each (more than $1,000), below $355 2.816 shares (less). Omitted: three years of 6.25% dividends on 19,250 (~1,200 a year, ~3,300 present value, ~$0.27 a share). Accrued fines: yes, justified ("cash that will leave without buying anything"); already expensed in TTM operating income, so subtracting the unpaid stock does not double-count, and the July $5.2B payment reduces cash and the claim equally. Finance leases and the 815 backstop liability: debt-like, fine. The $20.0B milestone commitment is correctly excluded (buys more shares).
-7. **Terminal growth ≤ 0.0475, flags false.** Yes in all three cases. Risk: the reason says the engine "caps it at the fetched risk-free rate", but §18.4 rule 5 says going above the risk-free rate requires `allow_above_riskfree: true`; if the fetched DGS10 is below 4.75% the run may stop. See §6 item 4.
-8. **`roic_premium`.** Bear 0, base 0.03, bull 0.05; none above 0.05; flags false. OK.
-9. **Weights.** 0.25 + 0.50 + 0.25 = 1. OK.
-10. **Cost of capital shared.** All `cost_of_capital_override: null`. OK.
-11. **Tax rate 0.168.** Defensible: FY2025 rate, already burdened by a non-deductible EC fine (10-K l.1211); the 18.4% TTM and 19.1% H1 2026 rates are inflated by deferred tax at the statutory rate on $99B of unrealized equity gains (10-Q l.3121), which are not operating income. Terminal 0.25 as the model requires.
-
-## 3. Consistency checks
-
-### (a) Growth vs reinvestment
-
-Engine formula: Reinv_t = (Rev_{t+1} − Rev_t) / S·C, year 1 overridden at 173,970. Rev_0 = 445,866.
-
-| USD millions | Yr 1 | Yr 2 | Yr 3 | Yr 4 | Yr 5 |
-|---|---|---|---|---|---|
-| Bear revenue | 512,746 | 558,893 | 592,427 | 616,124 | 634,607 |
-| Bear net reinvestment (S·C 0.6) | 173,970* | 55,889 | 39,495 | 30,806 | 31,730 |
-| Base revenue | 535,039 | 620,645 | 701,329 | 771,462 | 833,179 |
-| Base net reinvestment (S·C 0.9) | 173,970* | 89,649 | 77,925 | 68,574 | 74,060 |
-| Bull revenue | 552,874 | 668,977 | 782,703 | 884,455 | 972,900 |
-| Bull net reinvestment (S·C 1.3) | 173,970* | 87,482 | 78,270 | 68,035 | 74,838 |
-
-\*override. Gross capex ≈ net reinvestment + depreciation. Depreciation of property and equipment was 25,237 TTM and 7,104 in Q2 2026 alone (28.4B run-rate); a simple schedule (60% servers over 6 years, 40% data centers and network over 20 years, per the call's 60/40 split [call p.11, l.398–400], one-year lag to in-service) reproduces the 2026 run-rate (27.9B) and puts 2027 depreciation near 52B from 2021–2026 capex alone. So the model's year-2 gross capex is roughly 108B (bear), 142B (base), 140B (bull), all **below 2026's 200B**, while the recorded guidance is "we continue to expect our CapEx to increase significantly in 2027" [call p.13, l.486]. History for scale: capex 24.6 / 31.5 / 32.3 / 52.5 / 91.4B for 2021–2025, 80.6B in H1 2026 alone [business.md §3 table; 10-Q l.697].
-
-A **year-2 override is needed** in every scenario, or the reasons must say the scenario assumes capex falls back in 2027 against guidance. The only sourced anchor for "significantly" is the H2 2026 run-rate implied by guidance: 200,000 − 80,598 = 119,402 for the half-year, about 239B annualized; less ~52B of depreciation gives ~187B of net reinvestment for year 2, against the 90B the base case now spends. At a 9% discount rate for illustration, the ~97B gap is worth about 82B of present value, or about $6.6 a share. The bear is the most inconsistent: its story says the ordered data centers "still arrive", and $811B of purchase commitments and $85.2B of signed-but-not-started leases back that up [business.md FLAG (Q2 2026); 10-Q l.1699], yet the S·C mechanism halves its spending as soon as growth slows.
-
-The ratios 0.6 / 0.9 / 1.3 are below the lagged history of 1.2–2.1 (average 1.66) and bracket the latest same-year figures (0.75 in 2025, 0.64 in H1 2026). They are plausible: AI capacity buys less revenue per dollar than search servers did, and the bull's 1.3 assumes a return toward the lagged pattern rather than beyond it. The direction of error is conservative except where the override gap above dominates.
-
-### (b) Margin path vs the economics (business.md §3–§4)
-
-TTM GAAP margin 33.1%; FY2022–2023 26–27% when capex was 10–11% of revenue; depreciation of property and equipment 5.7% of TTM revenue.
-
-Depreciation wave, same schedule as above, two capex paths (USD billions, as % of base-case revenue):
-
-| | 2027 (yr 2) | 2028 (yr 3) | 2029 (yr 4) | 2030 (yr 5) |
-|---|---|---|---|---|
-| Capex flat at 200B from 2026 | 52 (8.4%) | 73 (10.4%) | 94 (12.2%) | 115 (13.8%) |
-| Capex 250B in 2027, 300B after | 52 (8.4%) | 79 (11.3%) | 112 (14.5%) | 145 (17.4%) |
-| Capex falls to ~140B in 2027 (the model's own base path) | 52 (8.4%) | ~65 (9.3%) | ~80 (10.4%) | ~95 (11.4%) |
-
-Headwind against 5.7% today: 2.7 points in year 2 in every path, then 4–12 points by year 5 depending on capex, plus the energy and data-center operating costs management warns of [call p.13–14]. Offsets available: operating expenses fell from 21.5% of TTM revenue only slowly (R&D 15.5%, S&M 3.6%, G&A 2.4%); with 13–20% revenue growth, holding opex dollar growth near 10% yields about 3–4 points by year 5; TAC at 19.8% of ad revenue drifting down one point is worth about 0.7 points of consolidated margin; Cloud at 35.6% is already near Services' 41.8%, so the mix shift adds at most 1–2 points as Cloud grows from 17% toward 30% of revenue. Total plausible offsets: about 5–6 points.
-
-- **Base 30% (−3 points):** reachable only on the model's own falling-capex path (headwind ~5.7 points by year 5, offsets ~5–6). On any path consistent with "increase significantly in 2027", the year-5 margin lands nearer 26–28%. The base margin and base reinvestment are each defensible alone but not together: the owner must pick one capex path and make both cells follow it.
-- **Bull 37% (+4 points):** requires 8–10 points of offsets against a depreciation share of 10–14% of even the bull's larger revenue (972,900). Q1 2026's 36.1%, the anchor cited, was earned with depreciation at 5.9% of revenue, before the wave. "Margins rise despite the heavier machinery" is asserted, not shown; 34–35% in years 4–5 is the most the arithmetic supports.
-- **Bear 23%:** below the 2022 low, consistent with 8–14% depreciation on slow-growing revenue; plausible as written, though its spending path (see a) contradicts its story.
-- Amortization roll-off: addressed, correctly immaterial (0.2–0.3% of revenue).
-
-### (c) Year-5 revenue vs history
-
-| | Year-5 revenue | × TTM | 5-year CAGR |
+| Cell | Draft | Re-derived / rule | Result |
 |---|---|---|---|
-| Bear | 634,607 | 1.42 | 7.3% |
-| Base | 833,179 | 1.87 | 13.3% |
-| Bull | 972,900 | 2.18 | 16.9% |
+| `horizon` | 5 to 10 | §18.2 default: five explicit years plus a five-year fade by rule. All `values` lists carry exactly five entries. | OK |
+| `switches.reinvestment_lag` | added, 1 | §18.4 default; the sales-to-capital history in every `detail` is measured lagged the same way (§3 below). | OK |
+| `cost_of_capital.terminal.reason` | "the 4 per cent mature-market premium the owner set" | Matches `market.mature_market_erp: 0.04`. Engine terminal cost of capital 8.75% = 4.75% + 4.00%. | OK |
+| `diagnostics.final_year_market_size.detail` | year-10 revenue: bear about 1,003,000; base about 1,472,000; bull about 1,841,000 | Recomputed by hand from each written five-year path plus the §18.2 linear fade to a 4.75% terminal growth: bear 1,002,714 (2.25x the base year); base 1,472,058 (3.30x); bull 1,841,206 (4.13x). Engine agrees on the base at 1,471,872. | OK |
+| `diagnostics.historical_revenue_cagr.reason` | advertising 81% of revenue in 2021, 73% in 2025, 71% in the base year | 2021: (149.0 + 28.8 + 31.7) / 257.6 = 81.3%. 2025: 294,691 / 402,836 = 73.2%. Base year: 315,348 / 445,866 = 70.7%. | OK |
+| `diagnostics.historical_operating_margin.reason` | "the base case's 32 to 33%" | Matches the base path 33, 33, 32, 32, 32. | OK |
 
-Alphabet's own history in the cached filings: 257.6B (2021) to 402.8B (2025), +56% in four years, 11.8% a year; yearly 9.8 / 8.7 / 13.9 / 15.1%; H1 2026 +23.1% [business.md §2 table; outlook.md §1]. Base runs 1.5 points above the four-year average from a base twice as large; bull runs 5 points above it. No cached source gives a market size for digital advertising or cloud infrastructure, so `final_year_market_size` is correctly null and the "possible" test can only be done by comparison, which is a gap the owner should know about.
+Every new number inside the scenarios is re-checked in §3. **No base-year or bridge failures.**
 
-### (d) Backlog and TPU timing in the base case
+## 2. The 3P test on each story
 
-Confirmed: Cloud backlog $513.9B of $519.5B total, "just over 50%" within 24 months [10-Q Note 2, l.972; outlook.md §1, §3]; TPU revenue "a relatively small portion ... this year, ramping as we exit 2026 ... the vast majority ... in 2027" [call p.13, l.470–473; outlook.md §4]; the 10-Q's own wording is "significant majority to be recognized in 2027" [scorecard.md claim 4]. The base story's "half-trillion-dollar backlog" and "TPU hardware sales arrive in 2027" are accurate. Caveat: no dollar size for TPU sales exists anywhere in the sources; the reasons do not invent one.
+| Case | Possible | Plausible | Probable (against the scorecard) | Verdict |
+|---|---|---|---|---|
+| Bear | Yes. Year-10 revenue 1,003,000, 2.3 times the base year, and year 5 is 1.71 times. Nothing in the cached sources bounds a market this size, and `final_year_market_size` is honestly left empty; the near years sit *below* the contracted floor of about 257,000 of order book due inside 24 months, so the case cannot be ruled impossible. | Yes. A 27% margin with depreciation at 16.9% of revenue and single-digit growth is arithmetic, not hope, and the bridge shows it. The one strain is year 1 (see §6). | Yes as a downside. The scorecard's Q2 2026 grades show management met its capex and Cloud claims and only *partly* met the Search and capacity claims (claims 8 and 11 both 🟡), which is exactly where this case attacks. | PASS |
+| Base | Yes. Year-10 revenue 3.3 times the base year; the first two years' Cloud revenue of 323,275 sits 26% above the contracted 257,000, which the "exceeding their commitments by more than 50%" disclosure and the exclusion of cancellable contracts cover [Q2 2026 call, p.4] [10-Q Q2 2026, Note 2]. | Yes. Revenue economics from `business.md` §3 and the segment margins from §3's table both support the offsets; the margin gives up only a point because two named offsets nearly cover an eight-point depreciation drag. | Yes. Seven of eleven Q2 2026 claims met, the capex range raised rather than trimmed, backlog up more than 50,000 in one quarter. | PASS |
+| Bull | Yes, at the edge. Year-10 revenue 4.1 times the base year and Cloud at 41% of the company in year 5; unbounded by any cached market size, which is this case's honest weak point. | Yes, narrowly. A 36% year-5 margin is above anything Alphabet has reported except the March 2026 quarter's 36.1%, and it needs costs other than depreciation to grow three points a year slower than revenue against 1.6 points actually recorded — the case says so. | Yes as an upside. Supported by delivered claims, but it also needs purchase commitments beyond the 610,300 already signed, which the draft states. | PASS |
+| Management | n/a — `computable: false`, no revenue, margin or profit target exists. Every quoted item is verbatim and on its cited page (§3 below). | n/a | n/a | PASS |
 
-## 4. 3P test
+## 3. Consistency checks (§18.7 step 4(c))
 
-- **Bear.** Possible: yes (634,607 is 1.42× TTM). Plausible: half; the 23% margin fits the depreciation arithmetic, but net reinvestment of 56B in year 2 (gross ~108B) contradicts the story's own "data centers ... still arrive" and the $811B of purchase commitments [business.md FLAG]. Probable: not today, and it need not be: Search & other grew 17–19% and the scorecard is 7 met / 0 missed [scorecard.md].
-- **Base.** Possible: yes by comparison (1.87× TTM, 13.3% a year vs 11.8% history); no market-size figure exists to complete the test. Plausible: margin and reinvestment are individually defensible but rest on opposite capex paths (§3a–b). Probable: supported; backlog rose "by more than $50 billion sequentially" and every capex and Cloud claim was met [outlook.md §3; scorecard.md].
-- **Bull.** Possible: unverifiable without a market size; 2.18× in five years against 1.56× over 2021–2025. Plausible: the 37% margin is the weak link (needs 8–10 points of offsets against depreciation at 10%+ of revenue). Probable: year 1 at 24% matches H1 2026's 23–24% [outlook.md §1]; years 2–3 at 21% and 17% exceed every full year in the tables.
-- **Management.** Correctly not computable; the story states exactly what was and was not guided.
+**Rule 10 — year 1 against the latest reported run-rate.** Reported: first half 2026 revenue growth 23.05% (229,692 / 186,662) and the June quarter 24.23% (119,796 / 96,428) [10-Q Q2 2026, Item 1] [Q2 2026 release, p.1]. Base year 1 at 23% is the reported half-year rate, with the one-point gap to the June quarter carried by two sourced items (a one-point currency tailwind becoming "a slight FX headwind", and "lapping an acceleration in Search performance", both [Q2 2026 call, p.13]) — **PASS**. Bull year 1 at 26% runs about two points above, sourced to the order book, above-commitment usage, chip-system revenue with no year-earlier base and the supply constraint [Q2 2026 call, p.4] [p.13] [p.15] — **PASS**. Bear year 1 at 19% is 4.2 points below the June quarter, and the draft's own detail concedes that only part of the gap is sourced ("The rest of the gap is this case's own assumption") — **FAIL**, item 1 in §6.
+
+**Rule 11 — segment build.** Present in all three computed cases with trailing revenue and latest growth per line, sourced to [10-K FY2025, Note 2] [10-Q Q2 2026, Note 2] [Q2 2026 release, p.1]. I re-derived every trailing figure from the two filings: FY2025 Search 224,532, YouTube 40,367, Network 29,792, Subscriptions 48,030, Cloud 58,705, Other Bets 1,537, hedging (127), total 402,836; plus six months to June 2026 less six months to June 2025. All seven trailing figures and the 445,866 total tie exactly. Latest-growth column re-derived from the same table: 16.8%, 12.9%, (0.7)%, 15.2%, 81.8%, 2.4%, company 24.2% — all as stated.
+
+I rebuilt the company path from the line rates myself. **Years 1, 3 and 5 reproduce to the decimal in all three cases:**
+
+| Case | Draft year 1 | Mine | Draft year 3 | Mine | Draft year 5 | Mine | Verdict |
+|---|---|---|---|---|---|---|---|
+| Bear | 19.2% | 19.16% | 9.8% | 9.78% | 7.1% | 7.12% | OK |
+| Base | 23.1% | 23.11% | 17.0% | 16.97% | 12.8% | 12.85% | OK |
+| Bull | 25.8% | 25.84% | 21.2% | 21.21% | 17.1% | 17.07% | OK |
+
+Years 2 and 4 are not published per line; they reproduce on readings consistent with the named steps (bear year 2 lands at 13.43% once Search steps 12 to 7 as the draft names; bear year 4 at 8.27% with Cloud at 17%; bull year 2 at 23.19% with Search at 15%; base years 2 and 4 reproduce at 19.82% and 14.71% on straight interpolation). The Cloud revenue used in each order-book check also reproduces exactly (bear 124,187 and 167,653; base 131,949 and 191,326; bull 135,830 and 206,461), as does the base case's 66,000 excess over the contracted amount. Base year-5 revenue shares reproduce (Search 42%, YouTube 7%, Network 3%, Subscriptions 10%, Cloud 38%), as does the advertising share used in every margin bridge (bear 53.5%, base 51.8%, bull 49.3% against 70.7% today). **PASS.**
+
+**Steps down of more than three points.** Checked every line in every case. Base: the only company-level step above three points is 23.1 to 19.8, named; Cloud's four steps (70/45/33/25/20) each named; no other line steps more than two points. Bear: 19.2 to 13.4 named, plus Cloud 60 to 35 and 35 to 22 and Search 12 to 7, all named; the 13.4 to 9.8 step is 3.6 points at company level and is not named in its own sentence, but both of its drivers (Cloud 35 to 22, Search) are. Bull: 21.2 to 19.2 named plus four Cloud steps. **PASS.**
+
+**Rule 12 — sales-to-capital against the lagged history.** I recomputed the whole ratio history from the filings, on the model's own basis (net investment = purchases of property and equipment minus depreciation of property and equipment; revenue added the following year):
+
+| Money spent in | Capex | Depreciation | Net investment | Revenue added next year | Ratio |
+|---|---|---|---|---|---|
+| 2021 | 24,640 | 10,273 | 14,367 | 25,199 | 1.75 |
+| 2022 | 31,485 | 13,475 | 18,010 | 24,558 | 1.36 |
+| 2023 | 32,251 | 11,946 | 20,305 | 42,624 | 2.10 |
+| 2024 | 52,535 | 15,311 | 37,224 | 52,818 | 1.42 |
+| 2025 | 91,447 | 21,136 | 70,311 | 86,060 (annualised) | 1.22 |
+
+Five-year average 1.57. Same-year ratios 1.40, 1.21, 1.15, 0.75, 0.64 (the last using 80,598 of capex less 13,586 of depreciation in the first half of 2026). Sources: [10-K FY2023, Item 8] l.1788, l.1818; [10-K FY2025, Item 8] l.1742, l.1772; [10-Q Q2 2026, Item 1] l.667, l.697. Every figure in the draft's table matches mine. Base 1.25 is at the bottom of the lagged record, bull 1.40 is its median (1.42) less a little, bear 0.80 is below all of it; each `value_late` steps down from its early value with a stated reason. **PASS.**
+
+**Rule 13 — margin bridge, drag and offsets.** All three bridges show the depreciation drag and the two offsets side by side in one table. The depreciation path re-derives exactly: 25,237 in the base year, then about 11 cents added per dollar spent the year before. Base: 39,801 (25,237 + 11% of the 132,402 spent in the twelve months to June 2026), 65,063, 92,013, 112,421, 135,035 — 7.3%, 9.9%, 12.0%, 12.7% and 13.5% of each year's revenue, exactly the table. Bull: 39,801, 66,053, 95,203, 118,280, 144,699 (7.1% to 12.4%). Bear: 39,801, 65,063, 92,013, 109,503, 128,533 (7.5% to 16.9%). The 11% factor is calibrated on the company's own step (21,136 − 15,311 = 5,825 on 52,535 of 2024 spending, 11.09%) and cross-checks against the lives management gives: servers and network equipment generally six years, data-centre and office buildings seven to 40 years [10-K FY2025, Note 1], with "Approximately 60% of our investment in technical infrastructure this quarter was in servers, and 40% was in data centers and networking equipment" [Q2 2026 call, p.11] — a 60/40 mix on those lives implies about 10 cents, so 11 is the conservative side of both anchors. The schedule adds without retiring, which is a labelled approximation and matters little inside five years. Offsets re-derive: the traffic-payment rate held at 19.9% of advertising revenue (62,880 / 315,348 = 19.94%, with 62,880 = 59,926 + 31,407 − 28,453) falling to 10.3% of revenue in the base case as advertising drops to 52% of the company; and every other cost growing two points a year slower than revenue, easing to one and a half, which reproduces the 46.4 / 45.6 / 44.9 / 44.3 / 43.7 row exactly from 47.1%. The recorded gaps are right: 1.6 points on the like-for-like aggregate in the June quarter (55,743 against 45,454, 22.6% growth against 24.2%) and 4.6 to 4.7 on all costs except depreciation; the bear's 5.5 for the first half also re-derives (23.1% less 17.6%). **PASS.**
+
+**Reinvestment overrides for years 1 to 2, net of the depreciation those years carry.** Arithmetic re-done, all exact. Gross spending: second half of 2026 = 200,000 (midpoint of the guided range) less 80,598 already spent = 119,402; first half 2027 = 45% of 245,000 = 110,250; model year 1 = 229,652; second half 2027 = 134,750; first half 2028 = 110,250; model year 2 = 245,000. Amortisation from the disclosed schedule (747 for the rest of 2026, 1,304 in 2027, 1,142 in 2028 [10-Q Q2 2026, Note 9] l.2137): 747 + 652 = 1,399 for year 1, 652 + 571 = 1,223 for year 2. So 229,652 − 39,801 − 1,399 = **188,452** and 245,000 − 65,063 − 1,223 = **178,714**; bull 238,652 − 39,801 − 1,399 = **197,452** and 265,000 − 66,053 − 1,223 = **197,724**; management 200,000 − 39,801 − 1,399 = **158,800**. The bear reuses the base figures, which is right because the spending is contracted either way. The implied ratios for those two years (0.58 and 0.62) also re-derive. **PASS.** One note: the management cell pairs a calendar-2026 gross number with a July-to-June depreciation figure, so 158,800 is a few thousand low; the cell says the mapping is an approximation and the case is not computed, so nothing turns on it.
+
+**Gross capex the years 3 to 5 fall-back implies.** Stated in a table in every case, and it re-derives from the ratio and the written revenue path. Base: 185,529 / 205,586 / 226,938 (24%, 23%, 23% of revenue), summing to 618,053. Bull: 209,795 / 240,174 / 266,734 (25%, 24%, 23%), summing to 716,703. Bear: about 159,000 / 173,000 / 192,000 (24% to 25%). Plausibility against what management has said: the two guided years are set in money and honour the 195,000 to 205,000 range and the "increase significantly in 2027" quote; years 3 to 5 sit beyond all guidance, and the draft says so and names this as the input most worth the owner's attention. The base case's 610,300 comparison is the right order of magnitude but loose — purchase commitments run to 2054 and include energy take-or-pay and content licences, not only equipment [10-Q Q2 2026, Note 10]. The one shape worth the owner's eye is the 24% fall in gross spending from model year 2 to model year 3 (245,000 to 185,529) in the year straight after the guided peak; it is disclosed, it is what a 1.25 ratio forces, and the margin bridge is built on the same number, so it is consistent rather than hidden. **PASS with that note.**
+
+**Amortisation roll-off.** Addressed. The memo row carries the full disclosed schedule (747 / 1,304 / 1,142 / 1,096 / 1,055), states that it stays deducted, and every margin `detail` says it runs about 0.2% of revenue and does not move the path. The step from 793 in the base year to 1,399 in year 1 is about 0.08 points of margin, inside the bridges' rounding. **PASS.**
+
+**Management case built only from recorded guidance.** `computable: false` with a stated reason; the only number used is the capex midpoint. I checked all eleven quoted items word for word against the cached transcript with whitespace and dash normalisation: every one is verbatim and on the page cited (capex 2026, capex 2027, chip-system timing, rented capacity, Search comparison, currency, depreciation and hiring all p.13; order book p.12; free cash flow p.14; equity markets p.18). Ranges are taken at the midpoint; nine of eleven items are marked "not numeric". **PASS.**
+
+**Terminal rules.** Bear premium 0 with the moat-is-gone reason ✓. Base 0.07, at or below the 0.08 soft ceiling, `allow_large_premium: false`, no warning printed ✓. Bull 0.10, below the 0.12 ceiling ✓. Terminal growth `riskfree` in all three with `allow_above_riskfree: false` ✓. Cost of capital shared, no overrides ✓. Weights 0.25 + 0.50 + 0.25 = 1.00 ✓.
+
+The draft's two return-on-capital figures both check out. Reported: 147,628 × (1 − 0.168) / 516,207 = 122,827 / 516,207 = **23.79%**, so "23.8%" is right. Excluding the investment stakes: 516,207 − 131,461 − 14,126 = 370,620, and 122,827 / 370,620 = **33.14%**, so "about 33 per cent" is right, and the 145,600 of stakes named in the reason is 131,461 + 14,126 = 145,587. Terminal cost of capital 8.75%, so the terminal returns are 8.75% (bear), 15.75% (base) and 18.75% (bull) — each below today's 23.8% and far below the 33% on operating capital, and each below its own final-year implied return (below). **PASS.**
+
+**Transition check, read from `uv run value GOOGL --dry-run --no-fetch --set market.price=338.46 --set market.risk_free=0.0475`.** Diagnostic 7 rows, verbatim:
+
+| Row | Reading |
+|---|---|
+| bear case, free cash flow (USD millions) | year 10 107,832 to terminal year 97,268, a change of −9.8% (expected: the bear's terminal return equals its cost of capital by rule) |
+| bear case, return on capital | year 10 13.9% to terminal year 8.8% |
+| base case, free cash flow (USD millions) | year 10 289,691 to terminal year 258,433, a change of −10.8% |
+| base case, return on capital | year 10 23.8% to terminal year 15.8% |
+| bull case, free cash flow (USD millions) | year 10 427,016 to terminal year 388,688, a change of −9.0% |
+| bull case, return on capital | year 10 29.7% to terminal year 18.8% |
+
+**No cliff flag.** Every cash-flow step is inside the 15% threshold and every terminal return is above half its year-10 figure (base 15.8 against 11.9; bull 18.8 against 14.9). This is the defect the 2026-09-08 lesson was written about, and the redraft has cleared it: the previous structure produced a terminal-year cash flow 29% below year 5. Diagnostic 6 (value against price) raises its standard flag; its row is a value-versus-price statement, so it is not reproduced here. The run printed three warnings, all mechanical and none about the assumptions: the price is a manual value from `--set`; fetching is off, so the risk-free rate came from the T-bond row of the cached ERPbymonth dataset dated 2026-09-01; and the management scenario was skipped for the stated reason. No rule-override warning was printed.
+
+## 4. Owner's view
+
+The archived `changelog` records the owner editing six cells: `market.mature_market_erp`, and the year-by-year lists for bear revenue growth, bear operating margin, base revenue growth, base operating margin (year 2 only) and bull revenue growth.
+
+| Owner-edited cell | Owner's saved values | Draft | Says so, with a reason? |
+|---|---|---|---|
+| `market.mature_market_erp` | 0.04 | 0.04 — kept | Not needed; the terminal cost-of-capital reason credits it to the owner |
+| Bear revenue growth | 20, 15, 14, 14, 12 | 19, 13, 10, 8, 7 | Yes — names the owner's path, then argues the build lets the erosion happen from year 3 and that the owner's path leaves the bear only two to five points below the base |
+| Bear operating margin | 31, 30, 30, 30, 30 | 33, 31, 29, 28, 27 | Yes — year 1 higher on the reported 35.0% half-year, later years lower because a flat 30% would need offsets this case does not allow |
+| Base revenue growth | 23, 19, 17, 14, 13 | 23, 20, 17, 15, 13 | Yes — the two differences are years 2 and 4, both inside one point, both from the build rounding up |
+| Base operating margin | 33, 33, 31, 30, 30 | 33, 33, 32, 32, 32 | Yes — years 1 and 2 agree; years 3 to 5 higher because the two offsets keep working after the drag stops growing |
+| Bull revenue growth | 26, 23, 20, 19, 17 | 26, 23, 21, 19, 17 | Yes — the single difference is year 3, one point, from the build |
+
+**No owner-edited cell is silently overwritten or silently kept.** Bull operating margin is *not* an owner-edited cell (it appears nowhere in the changelog), and the draft's note described it as "the owner's saved view"; I corrected that wording (§7). Six cells changed materially that the owner never set and that therefore carry no side-by-side note, correctly: `horizon`, all three `sales_to_capital` pairs, all three `reinvestment_override` pairs, and the base and bull terminal return premiums (0.03 to 0.07 and 0.05 to 0.10). The runner's report to the owner should lead with those last two and with the years 3 to 5 spending fall-back.
 
 ## 5. Reader check
 
-The four stories are readable by a smart 16-year-old. Retained terms: "moat" (the owner's lens, used in AGENTS.md §18.1), "cost of capital" (valuation glossary, unavoidable), "depreciate", "backlog", "TPU" (business.md glossary), "AI stack" (explained inline: chips, models, products). Direct edits made to `assumptions.yaml`, wording only:
-
-1. Base story: "as the company laps a strong year" → "as it is measured against last year's strong growth" ("laps" is trade jargon).
-2. Management story: "as it laps a strong year" → "when measured against last year's strong quarters".
-3. `bridge.cash_and_marketable_securities.reason`: the sentence read as 55,911 + 106,563 + 7,063; rewritten so 7,063 is shown inside the 106,563 (99,500 debt securities + 7,063 other marketable equity).
-4. `cost_of_capital.build.pretax_cost_of_debt.reason`: "lower local-currency coupons (1.06%–5.31%)" → "local-currency coupons (1.06%–5.31%)"; the sterling notes at 5.31% are not lower than 4.80%.
-5. `cost_of_capital.build.pretax_cost_of_debt.source`: `[10-K FY2025, Note 6]` → `[10-K FY2025, Item 7]`; the 4.89% and 4.92% weighted-average coupons appear only in Item 7 (l.1281, 1284), not in the debt note.
-
-Not fixed, noted: the `reason` fields for `sales_to_capital` and several others run five or more sentences dense with numbers, against §18.4's "one to three plain sentences" and §3 rule 5; the engine renders them into `valuation.md`. Trimming is the analyst's call.
+- **Reasons:** every `reason` in the file is three sentences or fewer (checked mechanically). None is mostly numbers; the working arithmetic, the history tables and the alternatives all sit in `detail`. Nothing substantive is in a YAML comment — the file has none.
+- **No spec citations:** no "§" anywhere in the file. Reasons point at `business.md` and `outlook.md` sections, which is what the method asks for.
+- **No YAML key names in prose:** checked for every input key; the reasons say "the reinvestment row", "the ratio above", "set in money below".
+- **Unicode and dollar signs:** the redrafted scenario cells were clean, but eleven range en-dashes and twenty "$" signs survived in the base-year, bridge and cost-of-capital cells that were carried over unchanged from the 2026-09-07 draft — the app rules that ban them were written on 2026-09-08, after that draft passed. Streamlit reads "$" as the start of a formula and would have mangled the facts page. Both are now fixed (§7); the file contains no "$" and no en-dash.
+- **Pipe tables:** twelve tables, all with unique column headers, and every body row has the same number of cells as its header (checked mechanically). This is the defect that killed a page in the UI audit's third cycle.
+- **Stories:** bear 4 sentences, base 5, bull 5, management 3 — all inside three to five. Each carries only the one or two numbers that define it (bear "the 2022 low"; base "a point below today's", "low twenties", "low teens"; bull "more than doubles in five years", "about twice its cost of capital"), and I verified those: base year-5 margin 32% against 33.1% today, bull year-5 revenue 2.61 times the base year, bull terminal return 18.75% against a 8.75% cost of capital.
 
 ## 6. Verdict: REVISE
 
-1. **`bridge.other_claims[0].value` (preferred stock).** 19,000 is wrong: 385 million depositary shares × $50 = 19.25 million preferred shares × $1,000 liquidation preference = **19,250** [10-Q Note 11, l.2256–2258; 8-K 2026-06-05 (preferred), l.261 and 8-K 2026-06-04, l.269]. Fix the value and the reason's "19 million preferred shares ... = 19,000" (the dilution range 43–54 million shares still holds: 19.25M × 2.2520–2.8160). Optionally mention the ~3,300 present value of three years of 6.25% dividends the bridge omits.
-2. **`scenarios.{bear,base,bull}.reinvestment_override.values[1]` (year 2).** Sales-to-capital gives net reinvestment of 55,889 / 89,649 / 87,482, i.e. gross 2027 capex of roughly 108–142B, below 2026's 200B, while recorded guidance is "increase significantly in 2027" [Q2 2026 call, p.13]. Either (a) set a year-2 override anchored on the only sourced figure, the H2 2026 run-rate implied by guidance (200,000 − 80,598 = 119,402 per half-year, ~239B a year, less ~52B depreciation ≈ 187,000 net, our inference; the bear at least as much since its spending is committed), or (b) state in each `sales_to_capital.reason` that the scenario assumes capex falls back in 2027 against guidance. Decision for the owner; the arithmetic is in §3a.
-3. **`scenarios.base.operating_margin.values` and `scenarios.bull.operating_margin.values`.** Must follow the same capex path as item 2. If capex stays at or above 200B, depreciation reaches 8% of revenue in year 2 and 12–17% by year 5 against 5.7% today, and the base's 30% needs 5–7 points of offsets (about the maximum available) while the bull's 37% needs 8–10 (not available). Question: keep 30% only if item 2 takes option (b); lower bull years 4–5 to about 0.34–0.35, or add the offset arithmetic to the bull reason. Also the base reason's "adds well over 30,000 a year of expense" overstates: 200B at 60% servers over six years plus 40% over longer lives is about 24–28B a year.
-4. **`scenarios.*.terminal.growth.value` = 0.0475.** The reason says the engine "caps it at the fetched risk-free rate"; §18.4 rule 5 instead requires `allow_above_riskfree: true` above the risk-free rate. If the fetched DGS10 is below 4.75% the run will warn or stop. Fix: set the value at or below the rate expected at compute time (or confirm the engine caps), or set the flag with a reason.
-5. **Minor, `reinvestment_override.values[0]` reasons.** Note that 173,970 nets TTM depreciation (26,030) while year-1 depreciation will be roughly 35–40B, and that the model year (July 2026–June 2027) will carry more than calendar 2026's 200B given H1 2026's 80.6B and a rising 2027; the two errors roughly offset. One sentence in the reason suffices.
-6. **Minor, `bridge.diluted_shares.reason`.** "86 million shares sold in June" is the 10-Q's rounded count; the 8-K totals 87.1 million. Say "about 86–87 million".
+1. **Bear year-1 revenue growth: 0.19 breaks rule 10 and sits below the owner's own value. Correction: 0.20, with the Search line raised from 12% to about 14.5%.** The latest reported run-rate is 23.1% for the first half and 24.2% for the June quarter, and reported Search growth is 17% [10-Q Q2 2026, Item 1] [Q2 2026 release, p.1]. Rule 10 allows year 1 to move off that only for a specific sourced reason, and the two sourced items here are the currency flip from a one-point tailwind to "a slight FX headwind" and the "lapping an acceleration in Search performance" comparison, both [Q2 2026 call, p.13]; the draft's own `detail` says the rest of the gap is "this case's own assumption that the shift to assistants starts costing Search straight away", which is not one of the reasons the rule admits. I re-ran the draft's own segment build: raising Search year 1 from 12% to 14.5% and leaving every other line untouched gives a company year-1 growth of 20.5%, and 14.0% gives 20.25% — that is, the sourced FX and lapping effects land the bear almost exactly on the 20% the owner saved. The case loses nothing: its differentiation lives in years 2 to 5 (13, 10, 8, 7 against the owner's 15, 14, 14, 12), which the segment build fully supports, and the draft itself concedes that "years one and two are close either way, because the order book fixes them". Please also re-derive the bear margin bridge's year-1 column and the year-1 depreciation share on the corrected revenue, and re-publish the year-2 and year-4 per-line rates while you are there, so the whole build is checkable without reconstruction.
 
-Everything else in §1 and §2 passes. One more cycle is allowed under §18.7 step 4.
+## 7. Direct edits I made to `assumptions.yaml`
 
-## Cycle 2 (re-check of changed cells only)
+All wording, source tags and table formatting; no input value and no judgment was changed. `uv run value GOOGL --validate` passes after the edits, `assumptions.md` was regenerated with `--render-assumptions`, and the dry-run diagnostics are byte-identical to those in §3.
 
-**Verdict: PASS.**
+1. **Dollar signs removed (all twenty of them).** All in the carried-over base-year, bridge and cost-of-capital cells; each "$X billion" became "X billion USD". In the one verbatim quote that contained one (Note 3's SpaceX footnote) the sign is written "[USD]" and the cell now says so, matching the convention the management case already used.
+2. **Range en-dashes removed (11 occurrences).** "0.2–0.3%" became "0.2 to 0.3%", "2025–2026" became "2025 and 2026", "3.93%–5.84%" became "3.93% to 5.84%", "43–54 million" became "43 to 54 million", and so on.
+3. **Source tag corrected.** The base case's revenue detail credited the World Cup contribution to YouTube's 13% to [Q2 2026 call, p.12]; page 12 attributes the 13% to direct-response and brand advertising, and the World Cup remark is on page 11 ("experienced strong Ads growth related to the World Cup, particularly in YouTube Ads"). Both pages are now cited and the sentence says management named it.
+4. **Base margin detail:** "so two points is the middle of what the company is actually doing" became "so two points sits just above the like-for-like figure and well below the broader one". Two points is not the midpoint of 1.6 and 4.6; it is just above the like-for-like 1.6.
+5. **Base terminal premium reason:** "a little under two thirds of the way down" became "a little over half way down". 15.75% is 8.05 points below today's 23.8% out of a 15.05-point range, i.e. 53% of the way down. (It is about two thirds of the way down from the 33% on operating capital, and the `detail` still carries both figures.)
+6. **Base terminal premium detail:** "used a seven point premium, four points in 2018, and 11.5 points for Nvidia" read as self-contradictory; it now says "seven points for Alphabet in February 2024, four points for it in 2018, and 11.5 points for Nvidia in 2023", which is what §18.4 rule 5 records from his workbooks.
+7. **Bull margin detail:** "The owner's saved view was 34, 35, 35, 35 and 35 per cent" became "The previous draft, which the owner left unchanged, had ...". That cell is absent from the archived changelog, so it is not one of the owner's own values.
+8. **Bear story and bear margin reason:** "Margins fall below the 2022 low" became "Margins fall back to the lows of 2022 and 2023". The path ends at 26.8% (written 27%), which is above 2022's 26% and level with 2023's 27%, not below either.
+9. **Bear margin detail:** "grows one point a year slower than revenue" now adds "easing to about half a point by year five", which is what the table's 46.7 / 46.3 / 45.9 / 45.7 / 45.5 row actually does.
+10. **Margin bridge row label, all three cases:** "Search distribution payments" became "Payments for traffic (distribution deals and partner sites)", and the base case's offsets sentence now says the same. The 62,880 is total traffic acquisition cost, which includes the money passed to partner sites as well as the money paid for search defaults; the modelling (holding the rate at 19.9% of total advertising revenue) was already the right treatment, only the label was wrong. Worth the owner knowing that holding that blended rate flat is conservative: the filings say the rate has been falling precisely because Network revenue, which carries a much higher rate, is shrinking [10-K FY2025, Item 7] [10-Q Q2 2026, Item 2].
 
-| Changed cell | Check | Result |
-|---|---|---|
-| `bridge.other_claims[0]` preferred = 19,250 | 385M depositary shares (167.5M + 167.5M + 50M over-allotment, 25M per series) × $50 = 19.25M × $1,000 = 19,250 [10-Q Note 11 l.2256–2258; 8-K pref l.261; 8-K 06-04 l.269]. Dividends 6.25% × 19,250 = 1,203 a year; three-year PV ≈ 3,070 at 8.5%; "about 1,200 ... roughly 3,000", noted not valued. | OK |
-| Year-2 `reinvestment_override` bear/base 187,000, bull 208,000 | H1 2026 capex 80,598 [10-Q l.697]; 200,000 − 80,598 = 119,402; × 2 = 238,804 ≈ 239,000. 2027 depreciation from 2021–2026 capex on the stated schedule (60/40 split [call p.11, l.398–400]; 6 and 20 years; one-year lag) = 51,883 ≈ 52,000. 239,000 − 52,000 = 187,000; bull 260,000 (239,000 × 1.089, "about 9%") − 52,000 = 208,000. All labelled "our inference". Bear's committed-spending anchor $811.0B / $200.7B short-term confirmed [10-Q Item 2 l.3262]. | OK |
-| Depreciation-share arithmetic in reasons (iterating years 3–5 gross capex = net reinvestment + that year's depreciation) | Base: dep/revenue 8.4 / 11.1 / 12.1 / 13.2% in years 2–5 (reason: 8 / 11 / 12 / 13%); gross capex 156 / 162 / 184B (reason: 155–185B); depreciation 78–110B (reason: 78–110B). Bear: 9.3% year 2, 15.8% year 5 (reason: 9%, 16%); gross capex 118–132B (reason: 120–130B). Bull: 7.8% year 2, 11.6% year 5 (reason: 8%, 10–12%); gross 159–188B (reason: 160–190B). | OK |
-| Offset arithmetic in base and bull margin reasons | TTM opex 27.8% of revenue (R&D 15.5%, S&M 31,429 = 7.0%, G&A 23,486 = 5.3%) reproduces; opex +10%/yr against 13.3% revenue CAGR → 24.0%, frees 3.8 points (reason "about 4"); bull +12.5% vs 16.9% → 22.9%, frees 4.9 (reason "4–5"). Correction to Cycle 1 §3b of this review: I wrote S&M 3.6% and G&A 2.4%; the analyst's 7.0% and 5.3% are right, and the offset total of 6–7 points stands. "About 24–28B a year" per 200B of capex correct. | OK |
-| `bull.operating_margin` [0.34, 0.35, 0.35, 0.35, 0.35] | Matches story "margins hold near today's level" (TTM 33.1%, H1 2026 35.0%) and the reason's "covers the headwind but does not fund a rise". | OK |
-| `terminal.growth.value: riskfree` (all three) | Coordinator confirms the string is by spec (§18.4 rule 5, default = risk-free rate); `allow_above_riskfree: false`. Management case null, correct. | OK |
-| `bridge.diluted_shares.reason` "roughly 87 million" | 25.46M × 2 + 3.82M × 2 + 28.57M = 87.1M [8-K 06-04 l.267–277]; 10-Q rounding 29 + 29 + 14 + 14 noted. | OK |
-| Stories vs values vs reasons | Bear: "keeps spending ... cut back only afterwards" = 187,000 then S/C fall-back; margin below 2022 low = 23%. Bull: "rises further in 2027" = 260B; "hold near today's level" = 35%. Base: story said capex "levels off" while the reason has it falling from 239B to ~156B; **wording edited** to "then eases back as depreciation catches up". Management story and override unchanged and consistent. | OK after edit |
+## Sources
 
-Direct edit this cycle: base story, "then levels off" → "then eases back" (wording only). YAML re-parsed; weights still sum to 1. No numbers changed by the reviewer. Ready for `uv run value GOOGL --validate` and owner review; the owner's attention is best spent on the years 3–5 capex fall-back (a scenario assumption, unsourced by design) and the non-marketable securities carried at 131,461.
+Cached files only. `[10-Q Q2 2026, ...]` — `sources/2026-Q2/10-Q-2026-Q2.txt`; `[Q2 2026 call, p.N]` — `sources/2026-Q2/transcript.txt` (company transcript, no printed page numbers; N counted by page break, 28 pages); `[Q2 2026 release, p.N]` — `sources/2026-Q2/press-release.txt`; `[10-K FY2025, ...]` — `sources/2026-Q1/10-K-FY2025.txt`; `[10-K FY2023, ...]` — `sources/2026-Q1/10-K-FY2023.txt`; `[10-Q Q1 2026, ...]` — `sources/2026-Q1/10-Q-2026-Q1.txt`. Industry beta, margin, growth and T-bond figures come from the engine's cached Damodaran datasets under `tools/valuation/data/damodaran/`, dataset date 2026-01-05 and ERPbymonth row 2026-09-01.
+
+---
+
+## 8. Cycle 2 (2026-09-08): re-check of what changed
+
+The analyst applied item 1. I re-checked only the changed cells, plus the file-wide reader rules. **Verdict: PASS.**
+
+**Bear revenue growth, years 1 to 5.** The cell is now `[0.20, 0.13, 0.10, 0.08, 0.07]` and the build publishes every line for all five years. I rebuilt it from those rates alone:
+
+| Year | Draft build | Mine | Draft revenue | Mine | Result |
+|---|---|---|---|---|---|
+| 1 | 20.5% | 20.52% | 537,379 | 537,379 | OK |
+| 2 | 13.3% | 13.33% | 609,011 | 609,011 | OK |
+| 3 | 9.7% | 9.73% | 668,280 | 668,280 | OK |
+| 4 | 8.1% | 8.13% | 722,628 | 722,628 | OK |
+| 5 | 7.1% | 7.06% | 773,650 | 773,650 | OK |
+
+Cloud year 1 and year 2 come out at 124,187 and 167,653, so the order-book check against the contracted 257,000 is unchanged and still correct. The year-5 advertising share is 53.8%, which is the figure the margin bridge now uses (it was 53.4%). **OK.**
+
+**Rounding statement.** "The build gives 20.5, 13.3, 9.7, 8.1 and 7.1 per cent; the path is written as 20, 13, 10, 8 and 7, with year one rounded down half a point rather than up, which is the only rounding in the path that is not to the nearest whole point." Verified: 20.52 is within a hundredth of an exact half, so writing 20 is a choice against the round-half-up convention and rounds the case's favour away; 13.33 to 13, 9.73 to 10, 8.13 to 8 and 7.06 to 7 are each the nearest whole point. The statement is true. **OK.**
+
+**Rule 10, re-tested.** Year 1 at 20% sits 3.1 points below the June quarter's 24.23% and 3.05 below the first half's 23.05%, and the whole of the move is now carried by the two sourced items: the currency flip, whose effect the CFO located ("This impact will be seen primarily in Search and YouTube Ads", verbatim, [Q2 2026 call, p.13]), and the "lapping an acceleration in Search performance" comparison [Q2 2026 call, p.13]. Those take the Search line from a reported 17% to 14.5% and the company to 20.5%; the sentence "This case's own view of the business is expressed in years two to five, not in year one" is now accurate against the numbers. The unsourced assumption that cycle 1 failed on is gone, and year 1 lands on the owner's own saved 20%. **PASS.**
+
+**Bear margin bridge, year-1 column and depreciation share.** Re-derived on the corrected revenue of 535,039 (445,866 x 1.20): payments for traffic 70,329 / 535,039 = 13.14% against the stated 13.1; depreciation 39,801 / 535,039 = 7.44% against the stated 7.4; everything else 47.125 x (1.195 / 1.205) = 46.73 against the stated 46.7; operating margin 100 − 13.14 − 7.44 − 46.73 = 32.69 against the stated 32.7. The money figure for year-1 depreciation is correctly left at 39,801, because the lagged schedule sets it from the 132,402 spent in the twelve months to June 2026 and not from this year's revenue, and the cell now says exactly that. Years 2 to 5 also re-derive: 10.76, 13.84, 15.26 and 16.74 per cent of revenue against the stated 10.8, 13.8, 15.3 and 16.7. **OK.**
+
+**Reader rules, re-checked file-wide.** No "$" anywhere; no "§" anywhere; no en-dashes (the only non-ASCII characters left are the five ellipses inside the source-tag names); all twelve pipe tables still have unique column headers and every body row matches its header width; every `reason` is still three sentences or fewer. The base and bull builds now publish years 1 to 5 as well, and both reproduce exactly from the published rates (base 23.11 / 19.82 / 16.97 / 14.67 / 12.85; bull 25.84 / 23.20 / 21.22 / 19.17 / 17.08), with the base year-5 share column and the bull 49% advertising share confirmed. **OK.**
+
+**Engine.** `uv run value GOOGL --validate` passes (computable scenarios bear, base, bull; management skipped for the stated reason). Diagnostic 7 from `uv run value GOOGL --dry-run --no-fetch --set market.price=338.46 --set market.risk_free=0.0475`, **no cliff flag**, only the bear rows moved:
+
+| Row | Reading |
+|---|---|
+| bear case, free cash flow (USD millions) | year 10 108,738 to terminal year 98,085, a change of −9.8% (expected: the bear's terminal return equals its cost of capital by rule) |
+| bear case, return on capital | year 10 14.0% to terminal year 8.8% |
+| base case, free cash flow (USD millions) | year 10 289,691 to terminal year 258,433, a change of −10.8% |
+| base case, return on capital | year 10 23.8% to terminal year 15.8% |
+| bull case, free cash flow (USD millions) | year 10 427,016 to terminal year 388,688, a change of −9.0% |
+| bull case, return on capital | year 10 29.7% to terminal year 18.8% |
+
+Diagnostic 6 still raises its standard flag; its row is a value-versus-price statement and is not reproduced. The same three mechanical warnings as in cycle 1, and no rule-override warning.
+
+**Two direct edits in cycle 2** (`--render-assumptions` and `--validate` re-run after both):
+
+1. **Bear margin detail, rounding note added.** On the corrected revenue the bridge gives 28.4% in year 3 while the written path keeps 0.29, a six-tenths round-up away from the nearest whole point that the cell did not mention. The written values are unchanged; the cell now says which two years round up and that year three is "the one place the written margin is more generous than the bridge". Worth the owner's eye, and it cuts in the direction of the owner's own view that the first draft was too pessimistic.
+2. **Bear sales-to-capital detail, year-5 implied spending corrected from 197,000 to 193,000, and the range from "24 to 26 per cent" to "24 to 25 per cent".** This is a working note the engine never reads. 197,000 assumes year-6 revenue grows at year 5's 7%; with `horizon: 10` the §18.2 rule fades year 6 to 6.55%, which gives net investment of 62,924, gross spending of 192,632 and 25.1% of revenue. Years 3 and 4 were already right at about 160,000 (24.0%) and 173,000 (24.2%), and I re-derived both.
+
+**Nothing is outstanding.** §18.7 allows two cycles and this was the second; the two items above are recorded rather than sent back, because neither changes an input and both are now stated in the file the owner reads.

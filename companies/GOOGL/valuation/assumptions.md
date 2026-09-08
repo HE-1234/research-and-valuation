@@ -8,11 +8,9 @@ This file is a read-only view of the valuation inputs for Alphabet Inc. (GOOGL),
 | Company | Alphabet Inc. |
 | As-of quarter | 2026-Q2 |
 | As-of date (quarter cutoff) | 2026-07-23 |
-| Drafted | 2026-09-07 |
-| Owner edited (last save from the app) | 2026-09-08T01:30:23 |
-| Horizon | 5 explicit years, then a terminal value |
+| Drafted | 2026-09-08 |
+| Horizon | 10 forecast years, then a terminal value: years 1-5 are set below and years 6-10 are built by rule |
 | Currency and units | USD, millions |
-| Owner changes on record | 21 (see the change log at the end) |
 
 ## 1. The stories
 
@@ -20,21 +18,48 @@ Each story is copied word for word from `assumptions.yaml`.
 
 ### Bear (weight 25.0%)
 
-People increasingly ask chat assistants instead of searching, and the ads next to those answers pay less, so Search growth slides into the low single digits within a few years. Alphabet keeps spending on the data centers it has already ordered, so capital spending still rises in 2027 as management promised, and the machines arrive and depreciate just as Cloud demand cools once customers have built their first AI systems; the heavy spending never earns its keep and is cut back only afterwards. Operating margins fall below the 2022–2023 lows, this time with far more machinery to pay for. At the end of the five years the moat is assumed gone and the business earns only its cost of capital.
+People get used to asking an assistant instead of searching, and the answers beside those
+assistants carry fewer and cheaper ads, so Search growth slides into the low single digits
+within a few years. The cloud order book still converts, because it is signed, but once
+customers have built their first AI systems little new work arrives, while the machines
+Alphabet has already committed to buy keep arriving and keep depreciating. Margins fall back
+to the lows of 2022 and 2023, this time with far more machinery to pay for and with energy and rented
+capacity on top, and spending is cut back only after the damage is done. At the end the moat
+is assumed gone, so the business earns no more than its cost of capital forever.
 
 ### Base (weight 50.0%)
 
-AI makes Search bigger rather than smaller, but growth slows from today's pace as it is measured against last year's strong growth and pays more for computing per answer. Cloud keeps converting its half-trillion-dollar backlog and the TPU hardware sales arrive in 2027, so revenue grows about 20% in the first year before easing toward single digits. Capital spending rises again in 2027 as management has promised and then eases back as depreciation catches up. Depreciation from the build-out eats a few points of margin, only partly offset by Cloud becoming as profitable as the older businesses. The habit, distribution and data advantages described in business.md §5 let Alphabet keep earning a modest premium over its cost of capital in the long run.
+AI makes Search bigger rather than smaller: the assistant answers more questions than a list
+of links did, and the ads beside those answers still sell. Google Cloud is the engine, working
+through an order book worth more than a year of the whole company's revenue and starting to
+sell Alphabet's own AI chips as finished machines. The price of it is a wave of depreciation
+from the data centres bought in 2026 and 2027, which holds the profit margin a point below
+today's instead of letting it rise. Growth stays in the low twenties for a year and then eases
+into the low teens as the order book is worked through and Search matures. In the long run the
+habit, the distribution and the data still earn Alphabet well more than its cost of capital,
+but clearly less than it earns today.
 
 ### Bull (weight 25.0%)
 
-Alphabet turns out to own the whole AI stack, from its own chips to its own models to the products billions of people already use, and that lets it take a large share of both AI advertising and AI cloud computing. Search grows faster than before because AI answers create more questions and richer ads, Cloud approaches the profitability of the older businesses, and TPU systems become a real hardware business. Capital spending rises further in 2027 to meet the demand, and revenue more than doubles in five years while margins hold near today's level despite the heavier machinery. The moat is strong enough to earn a five-point premium over its cost of capital indefinitely.
+Alphabet turns out to own the whole chain: its own chips, its own models, and the products
+billions of people already open every day. AI answers create more questions and richer ads,
+so Search grows faster than it has for years, while Cloud keeps compounding and selling AI
+machines becomes a real hardware business in its own right. Spending rises further in 2027 to
+meet the demand, and because the capacity is bought before the revenue arrives, the later
+years grow without having to spend at the same rate again. Revenue more than doubles in five
+years and the margin edges above today's, because the cost of buying search distribution
+shrinks as advertising becomes the smaller half of the company. The moat holds well enough to
+keep earning about twice its cost of capital long after the forecast ends.
 
 ### Management (not weighted; not computed)
 
-Management gives no revenue, margin or profit targets. It has committed to a capital-spending range for 2026, says 2027 will be significantly higher, expects free cash flow to stay under pressure, and expects Search growth to slow when measured against last year's strong quarters. Everything else is qualitative, so this case records what was said and computes nothing.
+Management gives no revenue, margin or profit target. It has committed to a range for this
+year's capital spending, says next year's will be significantly higher, expects free cash flow
+to stay under pressure, and has warned that Search growth will be measured against a strong
+set of quarters from here. Everything else it said is qualitative, so this case records what
+was said and computes nothing.
 
-Why this case is not computed: Management gives no revenue, margin or earnings targets for 2026 or later; the only numeric guidance is the 2026 capital-spending range, which is used as year-1 reinvestment. Everything else is qualitative and is marked 'not numeric' in the guidance table's 'used as' column below.
+Why this case is not computed: Management gives no revenue, margin or profit target for any period, so this case cannot be computed. The one number it has given is the range for this year's capital spending, which is recorded as year-one reinvestment below; everything else is words and is marked as not numeric in the table. Quotes are verbatim except that the dollar sign in the original is written here as USD.
 
 ## 2. Scenario inputs
 
@@ -44,91 +69,284 @@ Rows are inputs and columns are cases. Per-year cells read year 1 / year 2 / ...
 |---|---|---|---|---|
 | Weight | 25.0% | 50.0% | 25.0% | not weighted |
 | Computable | always | always | always | no |
-| Revenue growth, years 1-5 | 20.0% / 15.0% / 14.0% / 14.0% / 12.0% | 23.0% / 19.0% / 17.0% / 14.0% / 13.0% | 26.0% / 23.0% / 20.0% / 19.0% / 17.0% | — / — / — / — / — |
-| Operating margin, years 1-5 | 31.0% / 30.0% / 30.0% / 30.0% / 30.0% | 33.0% / 33.0% / 31.0% / 30.0% / 30.0% | 34.0% / 35.0% / 35.0% / 35.0% / 35.0% | — / — / — / — / — |
-| Sales-to-capital, years 1-5 | 0.60 | 0.90 | 1.30 | — |
-| Sales-to-capital, years 6-10 of the 10-year reference | 0.90 | 1.20 | 1.60 | — |
-| Reinvestment override, years 1-5 (USD millions) | 173,970 / 187,000 / — / — / — | 173,970 / 187,000 / — / — / — | 173,970 / 208,000 / — / — / — | 173,970 / — / — / — / — |
-| Tax rate, explicit years | 16.8% | 16.8% | 16.8% | — |
+| Revenue growth, years 1-5 (years 6-10 by rule) | 20.0% / 13.0% / 10.0% / 8.0% / 7.0% | 23.0% / 20.0% / 17.0% / 15.0% / 13.0% | 26.0% / 23.0% / 21.0% / 19.0% / 17.0% | — / — / — / — / — |
+| Operating margin, years 1-5 (years 6-10 by rule) | 33.0% / 31.0% / 29.0% / 28.0% / 27.0% | 33.0% / 33.0% / 32.0% / 32.0% / 32.0% | 34.0% / 34.0% / 34.0% / 35.0% / 36.0% | — / — / — / — / — |
+| Sales-to-capital, years 1-5 | 0.80 | 1.25 | 1.40 | — |
+| Sales-to-capital, years 6-10 | 0.50 | 1.10 | 1.25 | — |
+| Reinvestment override, years 1-5 (USD millions; later years by rule) | 188,452 / 178,714 / — / — / — | 188,452 / 178,714 / — / — / — | 197,452 / 197,724 / — / — / — | 158,800 / — / — / — / — |
+| Tax rate, forecast years | 16.8% | 16.8% | 16.8% | — |
 | Tax rate, terminal year onwards | 25.0% | 25.0% | 25.0% | 25.0% |
 | Cost of capital override | — | — | — | — |
 | Terminal growth | the run's risk-free rate | the run's risk-free rate | the run's risk-free rate | — |
 | Terminal growth may exceed the risk-free rate | no | no | no | no |
-| Terminal return on capital: points above the cost of capital | 0.00% | 3.00% | 5.00% | — |
-| A premium above 5 points is allowed | no | no | no | no |
+| Terminal return on capital: points above the cost of capital | 0.00% | 7.00% | 10.00% | — |
+| A large premium is allowed (above base 8, bull 12 points) | no | no | no | no |
+
+Years 6-10 are not written in the file; the engine builds them from the last year set above: growth moves in equal steps to terminal growth, the margin holds, per-year reinvestment figures stop, and sales-to-capital switches to the years 6-10 ratio.
+
+- Bear, years 6-10 by rule: growth moves from 7.0% to the risk-free rate; margin holds at 27.0% through year 10.
+- Base, years 6-10 by rule: growth moves from 13.0% to the risk-free rate; margin holds at 32.0% through year 10.
+- Bull, years 6-10 by rule: growth moves from 17.0% to the risk-free rate; margin holds at 36.0% through year 10.
 
 ### Bear: reasons
 
-- **Revenue growth** — Year 1 still grows 15%, because the cloud orders already signed and the chip-system sales due in 2027 are largely locked in (outlook.md sections 3 and 4). Growth then drops below even the 2022–2023 lows: AI answers eat into searches, cloud demand cools once customers have built their first AI systems, and the cost of Alphabet's search defaults creeps up (business.md section 6, risks 1 and 5). [10-Q Q2 2026, Note 2] [Q2 2026 call, p.12–13] [10-K FY2025, Item 7] [10-K FY2023, Item 8]
+- **Revenue growth** — Year one is set close to the pace just reported, because the cloud order book and the chip-system sales due in 2027 are already signed; the only things pulling it down are the currency swing and the tougher Search comparison management flagged, which is all this case claims for the first year. The erosion of Search shows from year two and bites from year three, when Search grows in the low single digits and cloud demand normalises once the first wave of customer AI projects is built (business.md section 6, risk 1). [10-Q Q2 2026, Note 2] [Q2 2026 call, p.12] [Q2 2026 call, p.13] [Q2 2026 release, p.1]
 
-    History as in the base case. Year 1 leans on the Cloud backlog of 513,900, just over half of it due within 24 months and largely contracted, plus TPU system sales landing in 2027 [10-Q Q2 2026, Note 2] [Q2 2026 call, p.12–13]. Search & other is assumed to slow sharply from 17%. Years 2–5 sit below the 2022–2023 troughs of 9.8% and 8.7% as the backlog is worked through, Cloud demand normalizes and the TAC rate rises [10-K FY2023, Item 8] [10-K FY2025, Item 7].
-- **Operating margin** — Margins fall below the 2022 low, this time with far more machinery to pay for: depreciation on data centers already ordered keeps climbing while revenue barely grows, and energy, rented capacity and the price of search defaults all push the wrong way (outlook.md section 4; business.md sections 5 and 6). With growth of 3–9% a year there is no extra scale to offset any of it. [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [Q2 2026 call, p.11] [Q2 2026 call, p.13–14] [10-K FY2023, Item 8]
+    Segment build. Trailing revenue is the twelve months to June 30, 2026 (the 2025 full year with the newest half-year swapped in for the year-earlier half-year); latest growth is the June 2026 quarter against the same quarter of 2025 [10-K FY2025, Note 2] [10-Q Q2 2026, Note 2] [Q2 2026 release, p.1].
+    
+    | Line | Trailing revenue | Latest growth | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+    |---|---|---|---|---|---|---|---|
+    | Google Search and other | 243,310 | 17% | 14.5% | 7% | 5% | 4% | 3% |
+    | YouTube ads | 42,582 | 13% | 10% | 8% | 6% | 5% | 5% |
+    | Google Network | 29,456 | -1% | -5% | -6% | -6% | -6% | -6% |
+    | Google subscriptions, platforms and devices | 51,743 | 15% | 13% | 11% | 9% | 8% | 8% |
+    | Google Cloud | 77,617 | 82% | 60% | 35% | 22% | 17% | 14% |
+    | Other Bets | 1,507 | 2% | 10% | 10% | 10% | 10% | 10% |
+    | Currency-protection gains and losses | -349 | n/a | held flat | held flat | held flat | held flat | held flat |
+    | Whole company | 445,866 | 24% | 20.5% | 13.3% | 9.7% | 8.1% | 7.1% |
+    
+    Revenue those rates produce: 537,379 in year one, then 609,011, 668,280, 722,628 and 773,650. The build gives 20.5, 13.3, 9.7, 8.1 and 7.1 per cent; the path is written as 20, 13, 10, 8 and 7, with year one rounded down half a point rather than up, which is the only rounding in the path that is not to the nearest whole point.
+    
+    Year one against the run-rate: reported growth was 23.1% in the first half of 2026 and 24.2% in the June quarter, and reported Search and other growth was 17% [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2] [Q2 2026 release, p.1]. Only two sourced reasons pull year one down, and nothing else does: a one point currency tailwind in the June quarter becomes 'a slight FX headwind' in the third quarter, felt 'primarily in Search and YouTube Ads', and from the third quarter the company starts 'lapping an acceleration in Search performance that began in the third quarter last year' [Q2 2026 call, p.13]. Those two take the Search line from 17% to 14.5% and the company to 20.5%. This case's own view of the business is expressed in years two to five, not in year one.
+    
+    Order book check on years one and two: Cloud revenue of 124,187 then 167,653, or 291,840 together, against the just-over-half of the 513,900 order book the company expects to record as revenue within 24 months, about 257,000 [10-Q Q2 2026, Note 2] [Q2 2026 call, p.12]. So even this case is close to the contracted floor for the first two years, which is why the bear is a late-breaking one.
+    
+    Steps down of more than three points, and what drives each: Cloud 60% to 35%, because the 24-month conversion of the order book and the one-off arrival of chip-system revenue both sit inside years one and two; Cloud 35% to 22%, because the first wave of customer AI build-outs is finished and nothing has replaced it; Search 14.5% to 7%, because from year two assistant answers take a growing share of questions and carry cheaper ads; and the whole-company step from 20.5% to 13.3%, which is those Cloud and Search steps combined.
+    
+    Context, not an anchor: the company's own five-year growth was 11.8% a year and 2022 and 2023 grew 9.8% and 8.7%, but with advertising at 81% of revenue in 2021 rather than 71% [10-K FY2023, Item 8] [10-K FY2025, Item 7].
+    The owner's saved view was 20, 15, 14, 14 and 12 per cent; this draft now agrees on year one at 20 and says 13, 10, 8 and 7 for years two to five, because the segment build lets the erosion of Search and the normalising of cloud demand actually happen once the order book stops fixing the answer. The owner's later years sit only two to five points below the base case, which makes the bear a slightly worse version of the base rather than a different case.
+- **Operating margin** — Margins fall about six points, back to the lows of 2022 and 2023, because the depreciation from data centres already ordered climbs whether the revenue comes or not, and with growth in single digits there is no extra scale to absorb it (outlook.md section 4; business.md section 6). Energy, rented capacity and a slowly rising price for search defaults all push the same way. [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2] [Q2 2026 call, p.11] [Q2 2026 call, p.13] [10-K FY2025, Item 8] [10-K FY2025, Note 1] [10-K FY2023, Item 8]
 
-    Starting point: trailing-twelve-month GAAP margin 33.1%, against FY2022–2023 margins of 26–27% earned with capex at only 10–11% of revenue (business.md section 3 table) [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-K FY2023, Item 8]. On this case's capex path (200,000 in 2026 and about 239,000 of committed spending in 2027, cut back only afterwards; see the reinvestment override row) depreciation of property and equipment rises from 5.7% of trailing revenue to about 9% in year 2 and 16% by year 5, because revenue grows slowly: a headwind of roughly 10 points. The depreciation schedule assumes 60% servers over six years and 40% data centers and network over 20 years, management's 60/40 split [Q2 2026 call, p.11] [Q2 2026 call, p.13–14]. Acquired-intangible amortization is 0.2% of revenue and immaterial to the path.
-- **Sales-to-capital** — 0.6 rising to 0.9 says each dollar of net new investment buys well under a dollar of new revenue: in this case the machines keep arriving and the revenue does not (business.md section 6, risk 2). Years 1–2 are set in dollars in the reinvestment override row, so this ratio drives years 3–5 only. [10-K FY2023, Item 8] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1]
+    Starting point: the twelve-month margin is 33.1% and the first half of 2026 ran at 35.0%; 2022 and 2023 earned 26% and 27% with capital spending at only 10 to 11 per cent of revenue [10-Q Q2 2026, Item 1] [10-K FY2025, Item 8] [10-K FY2023, Item 8].
+    
+    The bridge, in points of revenue. Depreciation of property and equipment is the drag; the money paid for search distribution and the slower growth of every other cost are the offsets.
+    
+    | Share of revenue | Trailing | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+    |---|---|---|---|---|---|---|
+    | Payments for traffic (distribution deals and partner sites) | 14.1 | 13.1 | 12.4 | 11.8 | 11.4 | 11.1 |
+    | Depreciation of property and equipment | 5.7 | 7.4 | 10.8 | 13.8 | 15.3 | 16.7 |
+    | Everything else | 47.1 | 46.7 | 46.3 | 45.9 | 45.7 | 45.5 |
+    | Operating margin | 33.1 | 32.7 | 30.5 | 28.4 | 27.6 | 26.7 |
+    
+    Depreciation comes from this case's spending plan (see the reinvestment row) and from the lives the company gives: servers and network equipment generally six years, data-centre and office buildings seven to 40 years, with about 60 per cent of technical-infrastructure spending going into servers and 40 per cent into data centres and networking equipment [10-K FY2025, Note 1] [Q2 2026 call, p.11]. Distribution payments are held at 19.9% of advertising revenue rising to 20.5% by year five, because this case assumes a partner extracts more (business.md section 6, risk 4); the share of total revenue still falls because advertising shrinks from 70.7% to 53.8% of the company. Everything else, meaning every cost except distribution payments and depreciation, grows one point a year slower than revenue, easing to about half a point by year five, against the 1.6 points recorded in the June quarter on this same aggregate and the 5.5 points recorded in the first half of 2026 on all costs except depreciation; this case gives the company almost no operating leverage because energy, rented third-party capacity and the low-margin chip-system hardware all grow faster than sales [10-Q Q2 2026, Item 2] [Q2 2026 call, p.13].
+    
+    The bridge gives 32.7, 30.5, 28.4, 27.6 and 26.7 per cent, computed on the revenue the written growth path produces (535,039 in year one, then 604,594, 665,054, 718,258 and 768,536); the path is written as 33, 31, 29, 28 and 27, with year two rounded up from an exact half point and year three rounded up by six tenths, the one place the written margin is more generous than the bridge; years one, four and five are the nearest whole point. Depreciation is 7.4% of revenue in year one rather than 7.5% only because year one now carries more revenue; the money figure, 39,801, is unchanged, because it is set by what was spent the year before. Acquired-intangible amortisation runs about 0.2% of revenue and does not move the path [10-Q Q2 2026, Note 9].
+    The owner's saved view was 31, 30, 30, 30 and 30 per cent; this draft says 33, 31, 29, 28 and 27. Year one is higher because the company has just reported 35.0% for a half-year and the depreciation drag in year one is only about 1.7 points; the later years are lower because a bear with single-digit revenue growth cannot absorb depreciation rising to nearly 17% of revenue, so a flat 30% would need offsets this case does not allow.
+- **Sales-to-capital** — Years one and two are set in money below, so this ratio drives years three to five: at 0.80 each dollar of net new investment brings in 80 cents of new revenue, well under anything Alphabet has managed, which is this case in one number. From year six it falls to 0.50, because a business with no moat left has to keep spending simply to grow at all, which is the same thing the terminal return on capital says. [10-K FY2023, Item 8] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1]
 
-    History as in the base case. What differs: the bear's 0.6 sits below even the latest same-year figure of 0.64, and 0.9 late assumes spending finally slows.
-- **Reinvestment override** — Years 1 and 2 are set in dollars rather than by ratio, because the spending is already committed: management has guided 2026 capital spending and said 2027 will rise significantly. The bear keeps that spending, so the machines arrive and then under-earn, and cuts back only from year 3 (outlook.md section 4; business.md section 6). [Q2 2026 call, p.11] [Q2 2026 call, p.13] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2] [10-Q Q2 2026, Note 9]
+    The model spends a year ahead of the revenue, so the history is measured the same way: the revenue added in one year divided by the net investment made in the year before, where net investment is capital spending minus depreciation of property and equipment.
+    
+    | Money spent in | Net investment | Revenue added the next year | Ratio |
+    |---|---|---|---|
+    | 2021 | 14,367 | 25,199 | 1.75 |
+    | 2022 | 18,010 | 24,558 | 1.36 |
+    | 2023 | 20,305 | 42,624 | 2.10 |
+    | 2024 | 37,224 | 52,818 | 1.42 |
+    | 2025 | 70,311 | about 86,060 | about 1.22 |
+    
+    Five-year average 1.57 [10-K FY2023, Item 8] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1]. The 2025 line annualises the 43,030 of revenue added in the first half of 2026. Same-year ratios, which the surge in spending depresses by construction, read 1.40, 1.21, 1.15, 0.75 and 0.64 and are not the comparison.
+    
+    What 0.80 and 0.50 imply for spending: gross capital spending of about 160,000 in year three, 173,000 in year four and 193,000 in year five, or 24 to 25 per cent of revenue, and then rising back toward 30 per cent and beyond in years six to ten because the low ratio forces it. That last shape is deliberate and is the bear in a sentence: the treadmill never stops.
+- **Reinvestment override** — The first two years are set in money rather than by ratio, because the spending is already committed: the company has guided this year's capital spending and said next year's will rise significantly, and behind that sit 811 billion of purchase commitments and 85 billion of signed data-centre leases that have not started. This case keeps every dollar of it, so the machines arrive and then under-earn, and only from year three does spending fall back. [Q2 2026 call, p.13] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2] [10-Q Q2 2026, Note 4] [10-Q Q2 2026, Note 9] [10-K FY2025, Item 8]
 
-    Working as in the base case. What differs: the bear keeps the committed spending, behind which sit $811.0 billion of purchase commitments and $85.2 billion of signed-but-not-started leases, so the machines arrive and then under-earn [10-Q Q2 2026, Item 2] [10-Q Q2 2026, Note 9]. Years 3–5 fall back to sales-to-capital, which implies gross capex cut to roughly 120–130B a year as demand disappoints; that cut is a scenario assumption, not guidance. Acquisitions and working capital are ignored.
-- **Tax rate** — Starts at the FY2025 effective rate of 16.8% and moves to the 25% marginal rate by the terminal year, as the model requires. Two forces point the rate up over time: the OECD agreement that sets a 15% floor on the tax a big company pays in each country, and the shrinking US deduction for income earned from serving customers abroad [10-K FY2025, Item 7].
-- **Terminal growth** — Equal to the fetched 10-year Treasury rate, as the method requires.
-- **Terminal return on capital premium** — Zero by rule: in the bear case the moat is gone and the business earns only its cost of capital after year 5.
+    Identical to the base case, because the spending is committed either way; see the base case's reinvestment row for the full arithmetic. In short: 229,652 of gross capital spending in year one less the 39,801 of depreciation and 1,399 of acquired-intangible amortisation that year carries gives 188,452; and 245,000 less 65,063 and 1,223 gives 178,714.
+    
+    What differs from the base case is what the money buys: nothing much. The 811,000 of purchase commitments, of which 200,700 falls due within a year, and the 85,200 of signed but not yet started data-centre leases are the reason the spending cannot simply be switched off [10-Q Q2 2026, Item 2] [10-Q Q2 2026, Note 4].
+- **Tax rate** — Starts at the 16.8% rate the company actually paid on 2025 profits and rises to the 25% long-run rate by the end. Two forces push it up: the international agreement setting a 15% floor on the tax a large company pays in each country, and the shrinking United States deduction for income earned from serving customers abroad. [10-K FY2025, Item 7]
+- **Terminal growth** — Equal to the ten-year government bond rate the run fetches, which is the ceiling the method sets: no company can outgrow the economy it sits in forever.
+- **Terminal return on capital premium** — Nothing above the cost of capital. In this case the habit, the distribution deals and the data advantage have all stopped working, so after the forecast the company earns exactly what its investors require and not a cent more.
 
 ### Base: reasons
 
-- **Revenue growth** — Year 1 grows 20%: Cloud converts a backlog worth more than a year of company-wide revenue, the chip-system sales arrive in 2027, and Search keeps growing but slower than its recent burst (outlook.md sections 2 and 4). Growth then fades year by year toward the single digits of 2022–2023 as the backlog is worked off and Search matures. The scorecard shows management delivering on its capex and Cloud claims, so the backlog is taken at face value. [10-Q Q2 2026, Note 2] [Q2 2026 call, p.12–13] [10-K FY2025, Item 7] [10-K FY2023, Item 8]
+- **Revenue growth** — Year one holds the pace the company has just reported, because the cloud order book and the chip-system sales due in 2027 are already signed and the only things pointing the other way are the currency swing and a tougher Search comparison, both of which management named (outlook.md sections 3 and 4). Growth then eases year by year as the order book is worked through and Search settles into the low teens, with Cloud still the fastest-growing part in every year. [10-Q Q2 2026, Note 2] [Q2 2026 call, p.12] [Q2 2026 call, p.13] [Q2 2026 release, p.1]
 
-    History (business.md section 2 table; outlook.md section 1): 9.8% (2022), 8.7% (2023), 13.9% (2024), 15.1% (2025) and 23.1% in the first half of 2026, the last with a one-point currency tailwind [10-K FY2023, Item 8] [10-K FY2025, Item 7]. Year 1 (July 2026–June 2027) at 20%: the Cloud backlog of 513,900 with just over half due within 24 months means Cloud alone should add over 50,000 a year against trailing-twelve-month Cloud revenue of 77,617; TPU system sales land mostly in 2027; Search & other slows from 17% as it laps a strong 2025 and faces a slight currency headwind [10-Q Q2 2026, Note 2] [Q2 2026 call, p.12–13]. Management met or beat its capex and Cloud claims last quarter (scorecard.md, Q2 2026).
-- **Operating margin** — Margins slip about three points over five years and then hold: the depreciation management has guided for is the big headwind (outlook.md section 4), and cost discipline, a falling traffic-acquisition rate and Cloud becoming as profitable as the older businesses roughly cover it (business.md section 3; outlook.md section 1). The three points of slippage are the room left for energy, rented capacity and the low-margin chip-system sales described in outlook.md section 3. [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2] [Q2 2026 call, p.11] [Q2 2026 call, p.13–14] [Q2 2026 slides, p.9] [10-K FY2025, Note 15]
+    Segment build. Trailing revenue is the twelve months to June 30, 2026 (the 2025 full year with the newest half-year swapped in for the year-earlier half-year); latest growth is the June 2026 quarter against the same quarter of 2025 [10-K FY2025, Note 2] [10-Q Q2 2026, Note 2] [Q2 2026 release, p.1].
+    
+    | Line | Trailing revenue | Latest growth | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 | Share of revenue in year 5 |
+    |---|---|---|---|---|---|---|---|---|
+    | Google Search and other | 243,310 | 17% | 15% | 13% | 11% | 10% | 9% | 42% |
+    | YouTube ads | 42,582 | 13% | 12% | 11% | 10% | 9% | 9% | 7% |
+    | Google Network | 29,456 | -1% | -3% | -3% | -3% | -3% | -3% | 3% |
+    | Google subscriptions, platforms and devices | 51,743 | 15% | 15% | 14% | 13% | 12% | 11% | 10% |
+    | Google Cloud | 77,617 | 82% | 70% | 45% | 33% | 25% | 20% | 38% |
+    | Other Bets | 1,507 | 2% | 15% | 20% | 20% | 20% | 20% | 0% |
+    | Currency-protection gains and losses | -349 | n/a | held flat | held flat | held flat | held flat | held flat | 0% |
+    | Whole company | 445,866 | 24% | 23.1% | 19.8% | 17.0% | 14.7% | 12.8% | 100% |
+    
+    Revenue those rates produce: 548,908 in year one, then 657,726, 769,340, 882,184 and 995,518. The build gives 23.1, 19.8, 17.0, 14.7 and 12.8 per cent; the path is written as 23, 20, 17, 15 and 13.
+    
+    Year one against the run-rate: reported growth was 23.1% in the first half of 2026 and 24.2% in the June quarter, so year one is set at the reported half-year rate [10-Q Q2 2026, Item 2] [Q2 2026 release, p.1]. The one point of deviation from the June quarter is sourced: a one point currency tailwind in that quarter becomes 'a slight FX headwind' in the third quarter, and from the third quarter the company begins 'lapping an acceleration in Search performance that began in the third quarter last year' [Q2 2026 call, p.13].
+    
+    What each line leans on. Search and other: paid clicks rose 13% and the price per click 3% in the quarter, AI Mode has passed one billion monthly users and is described as adding queries rather than replacing them [10-Q Q2 2026, Item 2] [Q2 2026 call, p.3]. YouTube: 13% growth, with management naming World Cup advertising as a driver, and that event will not repeat [Q2 2026 call, p.12] [Q2 2026 call, p.11]. Network: down in every year since 2022 and down again this quarter, with the advertising-technology case still to be decided (business.md section 6, risk 3). Subscriptions, platforms and devices: 15% growth led by YouTube Music and Premium and by Google One AI plans [Q2 2026 call, p.12]. Cloud: an order book of 513,900 of which just over half is expected as revenue within 24 months, customers using and 'exceeding their commitments by more than 50%', and the chip-system sales whose 'vast majority' lands in 2027 [10-Q Q2 2026, Note 2] [Q2 2026 call, p.4] [Q2 2026 call, p.13]. Other Bets: 1,507 of revenue is too small to matter either way.
+    
+    Order book check on years one and two: Cloud revenue of 131,949 then 191,326, or 323,275 together, against about 257,000 of order book due within 24 months. The 66,000 difference is revenue not in that order book, which is consistent with customers exceeding their commitments and with contracts that can be cancelled being excluded from the figure [10-Q Q2 2026, Note 2].
+    
+    Steps down of more than three points, and what drives each: Cloud 70% to 45%, because the 24-month conversion of the order book and the one-off arrival of chip-system revenue both sit inside years one and two, so from year three growth has to come from contracts not yet signed; Cloud 45% to 33%, because the first wave of customer AI build-outs is complete and the comparison base is far larger; Cloud 33% to 25%, because by then capacity has caught up with demand and the supply shortage that holds revenue back today no longer flatters growth; Cloud 25% to 20%, because Cloud is by then more than a third of the company and no market of that size grows at a quarter a year for long; and the whole-company step from 23.1% to 19.8%, which is the first of those Cloud steps working through a business where Cloud is a quarter of revenue.
+    
+    Context, not an anchor: the company's own five-year growth was 11.8% a year, but with advertising at 81% of revenue in 2021 against 71% in the base year and 52% in year five, so that record is not the yardstick for this mix [10-K FY2023, Item 8] [10-K FY2025, Item 7].
+    The owner's saved view was 23, 19, 17, 14 and 13 per cent; this draft says 23, 20, 17, 15 and 13. The two differences are years two and four, where the segment build lands at 19.8% and 14.7% and rounds up rather than down; both are inside one point of the owner's numbers and neither reflects a different view of the business.
+- **Operating margin** — The margin gives up about a point over five years and then holds. The drag is the depreciation of the data centres bought in 2026 and 2027, which management has said will keep pressing on profits; the two offsets nearly cover it, because the money paid for search distribution shrinks as advertising becomes a smaller share of the company, and every other cost grows about two points a year slower than revenue, as it has been doing (outlook.md section 4; business.md section 3). [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2] [Q2 2026 call, p.11] [Q2 2026 call, p.12] [Q2 2026 call, p.13] [Q2 2026 slides, p.9] [10-K FY2025, Item 8] [10-K FY2025, Note 1] [10-K FY2025, Note 15]
 
-    Starting point: trailing-twelve-month GAAP margin 33.1%, first half of 2026 35.0%, FY2021–2025 31%, 26%, 27%, 32%, 32% (business.md section 3 table) [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2]. Management says the build-out 'will continue to put pressure on the P&L in the form of higher depreciation expense and related data center operations costs, such as energy' (outlook.md section 4) [Q2 2026 call, p.13–14].
-    Headwind: depreciation of property and equipment was 25,237 trailing, 5.7% of revenue; 200,000 of capex adds about 24–28B a year of depreciation once in service (60% servers over six years = 20B, 40% data centers and network over about 20 years = 4B, using management's 60/40 split). On this case's capex path (200,000 in 2026, about 239,000 in 2027, then falling back; see the reinvestment override row) depreciation is about 8% of revenue in year 2, 11% in year 3, 12% in year 4 and 13% in year 5, roughly 6–7 points of headwind by year 5 before energy and operations costs [Q2 2026 call, p.11].
-    Offsets: operating expenses were 27.8% of trailing revenue (R&D 15.5%, S&M 7.0%, G&A 5.3%), and growing them about 10% a year against 13% revenue growth frees about 4 points; TAC at 19.8% of ad revenue drifting down a point is worth about 0.7; Cloud (35.6% margin in Q2 2026, up from 23.7% in FY2025) growing from 17% toward 30% of revenue adds 1–2 points; about 6–7 points in all [Q2 2026 slides, p.9] [10-K FY2025, Note 15].
-    Net: about zero to minus 1 point before energy, third-party capacity and low-margin TPU hardware sales, so the path gives up 3 points to leave room for those. Acquired-intangible amortization, about 1,300 a year at its 2027 peak, is 0.2% of revenue and does not move the path.
-- **Sales-to-capital** — 0.9 rising to 1.2 sits between what Alphabet has managed in the last year and its longer record, reflecting that AI capacity costs more per dollar of revenue than the old search machines did (business.md section 3). Years 1–2 are set in dollars in the reinvestment override row, so this ratio drives years 3–5 only. [10-K FY2023, Item 8] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1]
+    Starting point: the twelve-month margin is 33.1%, the first half of 2026 ran at 35.0% and the June quarter at 34.0% after a legal charge worth about 1.3 points [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2]. The twelve-month figure carries about 1.1 points of legal charges in all, and the path leaves them in, because charges like them arrive most years.
+    
+    The bridge, in points of revenue.
+    
+    | Share of revenue | Trailing | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+    |---|---|---|---|---|---|---|
+    | Payments for traffic (distribution deals and partner sites) | 14.1 | 12.9 | 12.0 | 11.3 | 10.7 | 10.3 |
+    | Depreciation of property and equipment | 5.7 | 7.3 | 9.9 | 12.0 | 12.7 | 13.5 |
+    | Everything else | 47.1 | 46.4 | 45.6 | 44.9 | 44.3 | 43.7 |
+    | Operating margin | 33.1 | 33.5 | 32.5 | 31.9 | 32.2 | 32.4 |
+    
+    The drag. Depreciation of property and equipment was 25,237 in the base year, 5.7% of revenue. On this case's spending plan it reaches 39,801 in year one and 135,035 in year five, which is 13.5% of revenue: a drag of nearly eight points. The schedule adds about 11 cents of yearly depreciation for each dollar spent the year before, which is what the company's own numbers show (depreciation rose 5,825 in 2025 on 52,535 of 2024 spending) and what its asset lives imply (about 60 per cent of technical-infrastructure spending in servers written off over six years, the rest in data centres and networking equipment written off over much longer periods) [10-K FY2025, Item 8] [10-K FY2025, Note 1] [Q2 2026 call, p.11].
+    
+    The offsets. First, the payments for traffic, which cover both the money paid for search defaults and the money passed to partner sites, were 62,880 in the base year, 14.1% of revenue and 19.9% of advertising revenue; the rate is held there, but advertising falls from 70.7% to 52% of the company as Cloud grows, so the payments fall to 10.3% of revenue, worth 3.8 points [10-Q Q2 2026, Item 2]. Second, every other cost, meaning everything except those payments and depreciation, was 47.1% of revenue and is assumed to grow two points a year slower than revenue, easing to one and a half points by year five. That gap was 1.6 points in the June quarter measured on exactly this aggregate, and 4.6 points measured on all costs except depreciation, so two points sits just above the like-for-like figure and well below the broader one [10-Q Q2 2026, Item 1].
+    
+    Why the offsets are believable rather than hopeful: Cloud earned a 35.6% margin in the June quarter against 20.7% a year earlier, Google Services earned 41.8% against 40.7% for 2025 as a whole, and both did that while depreciation was already surging [Q2 2026 call, p.12] [10-K FY2025, Note 15]. Against that, management expects 'higher depreciation expense and related data center operations costs, such as energy', continued hiring in AI and cloud, and 'modest margin pressure' from renting other companies' computers in the third quarter; the chip-system hardware also sells at hardware margins [Q2 2026 call, p.13].
+    
+    The bridge gives 33.5, 32.5, 31.9, 32.2 and 32.4 per cent. The path is written as 33, 33, 32, 32 and 32: year one rounded down because of the third-quarter warnings above, year two rounded up, both within half a point. Acquired-intangible amortisation peaks at 1,304 in 2027, about 0.2% of revenue, and does not move the path [10-Q Q2 2026, Note 9].
+    The owner's saved view was 33, 33, 31, 30 and 30 per cent; this draft says 33, 33, 32, 32 and 32. Years one and two agree. Years three to five are one to two points higher because the two offsets keep working after the depreciation drag stops growing: search distribution payments fall to 10.3% of revenue as advertising becomes about half the company, and the year-four and year-five bridge figures come out at 32.2% and 32.4%. Holding 30% instead would require costs other than depreciation to grow with revenue rather than about two points slower, which is not what the last two reported periods show.
+- **Sales-to-capital** — Years one and two are set in money below, so this ratio drives years three to five: at 1.25 each dollar of net new investment brings in 1.25 dollars of new revenue. That sits at the bottom of what Alphabet has actually managed once the one-year lag is allowed for, and it is meant to: the capacity paid for in 2026 and 2027 is what serves the revenue of those later years. From year six it eases to 1.10, because by then the company has to pay for its own growth again. [10-K FY2023, Item 8] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2]
 
-    Historical sales-to-capital, revenue change / (capex minus depreciation of property and equipment), same year: 2022 1.40 (25,199 / 18,010), 2023 1.21 (24,558 / 20,305), 2024 1.15 (42,624 / 37,224), 2025 0.75 (52,818 / 70,311), first half of 2026 0.64 (43,030 / 67,012) [10-K FY2023, Item 8] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1]. 2021 cannot be computed: FY2020 revenue is not in the cached filings.
-    With the engine's one-year lag, where a year's spending buys the next year's growth: 2021 into 22 gives 1.75, 2022 into 23 gives 1.36, 2023 into 24 gives 2.10, 2024 into 25 gives 1.42, and 2025 into H1 2026 gives roughly 1.2 annualized.
-    Base: 0.9 early, between the latest same-year figure and the lagged history, and 1.2 late as depreciation catches up with spending.
-- **Reinvestment override** — Years 1 and 2 are set in dollars rather than by ratio, because management has guided 2026 capital spending and said 2027 will rise significantly (outlook.md section 4). From year 3 the model falls back to the sales-to-capital ratio, letting spending ease as depreciation catches up; nothing in the sources speaks to capex beyond 2027, so that fall-back is the input most worth the owner's attention. [Q2 2026 call, p.11] [Q2 2026 call, p.13] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Note 9]
+    The model spends a year ahead of the revenue, so the history is measured the same way: the revenue added in one year divided by the net investment made in the year before, where net investment is capital spending minus depreciation of property and equipment.
+    
+    | Money spent in | Net investment | Revenue added the next year | Ratio |
+    |---|---|---|---|
+    | 2021 | 14,367 | 25,199 | 1.75 |
+    | 2022 | 18,010 | 24,558 | 1.36 |
+    | 2023 | 20,305 | 42,624 | 2.10 |
+    | 2024 | 37,224 | 52,818 | 1.42 |
+    | 2025 | 70,311 | about 86,060 | about 1.22 |
+    
+    Five-year average 1.57 [10-K FY2023, Item 8] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1]. The 2025 line annualises the 43,030 of revenue added in the first half of 2026. The same-year ratios are 1.40, 1.21, 1.15, 0.75 and 0.64; the last two are depressed by construction, because 2025 and 2026 spending is buying revenue that has not arrived yet, and they are not the comparison.
+    
+    The two years set in money imply ratios of 0.58 and 0.62, far below any of this, which is exactly what a company spending more than 40 per cent of revenue on equipment looks like. The 1.25 for years three to five says the capacity bought in those first two years is what carries the later growth.
+    
+    What 1.25 and 1.10 imply for spending, and whether it is plausible:
+    
+    | Model year | Net investment | Depreciation it carries | Gross capital spending | Share of revenue |
+    |---|---|---|---|---|
+    | 1 | 188,452 | 39,801 | 229,652 | 42% |
+    | 2 | 178,714 | 65,063 | 245,000 | 37% |
+    | 3 | 92,397 | 92,013 | 185,529 | 24% |
+    | 4 | 92,089 | 112,421 | 205,586 | 23% |
+    | 5 | 90,853 | 135,035 | 226,938 | 23% |
+    
+    So spending eases from the 2027 peak and then climbs back toward it by year five, while falling from 42 to 23 per cent of revenue. Two checks. The three years add to about 618,000, against the 610,300 of purchase commitments that fall due beyond the next twelve months (811,000 in total, 200,700 short-term), which is the only forward figure the filings give [10-Q Q2 2026, Item 2]. And 23 per cent of revenue is still above every year before 2025, when the company spent 10 to 15 per cent (business.md section 3). Nothing in the sources speaks to spending beyond 2027, so this is the input most worth the owner's attention: a lower ratio would mean spending keeps climbing instead.
+- **Reinvestment override** — The first two years are set in money rather than by ratio, because management has guided this year's capital spending to 195 to 205 billion and said next year's will increase significantly. Each year is that spending less the depreciation and the acquired-intangible amortisation that the same year will actually carry, so the model is not charged twice for the same machines. [Q2 2026 call, p.13] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Note 9] [10-K FY2025, Item 8]
 
-    Year 1: the 2026 capex guidance midpoint of $195–205 billion = 200,000, less trailing depreciation of property and equipment 25,237 and intangible amortization 793 (26,030 together) = 173,970 of net reinvestment; calendar 2026 is mapped to model year 1 (July 2026–June 2027), an approximation [Q2 2026 call, p.11] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Note 9]. Netting trailing depreciation against a year whose depreciation will run about 35–40B overstates net reinvestment by roughly 10B, while the model year will carry more than calendar 2026's 200B given the 80.6B spent in the first half and a rising 2027; the two roughly offset and the result is accepted as conservative.
-    Year 2 (2027) is anchored on the only sourced figure behind 'increase significantly in 2027': the second-half 2026 run-rate implied by the guidance midpoint, 200,000 minus 80,598 spent in the first half = 119,402 per half-year, about 239,000 a year, less about 52,000 of 2027 depreciation = about 187,000 net, our inference from guidance [Q2 2026 call, p.13]. The 2027 depreciation figure uses a schedule of 60% servers over six years and 40% data centers and network over 20 years, a one-year lag to in-service, applied to 2021–2026 capex; the 60/40 split is management's.
-    Years 3–5 fall back to sales-to-capital, which implies gross capex of roughly 155–185B a year (net 70–78B plus depreciation of 78–110B), so spending falls back from the 2027 peak as depreciation catches up. Acquisitions and working capital are ignored.
-- **Tax rate** — Starts at the FY2025 effective rate of 16.8% and moves to the 25% marginal rate by the terminal year, as the model requires. Two forces point the rate up over time: the OECD agreement that sets a 15% floor on the tax a big company pays in each country, and the shrinking US deduction for income earned from serving customers abroad [10-K FY2025, Item 7].
-- **Terminal growth** — Equal to the fetched 10-year Treasury rate, as the method requires.
-- **Terminal return on capital premium** — Three points over the terminal cost of capital, from business.md section 5: the search habit; the distribution Alphabet buys with traffic acquisition costs, the money it pays phone and browser makers to be their default search engine; the search data that courts treat as the hard-to-copy asset; YouTube's two-sided creator-and-viewer network; and Cloud switching costs from multi-year contracts. Below Damodaran's own four points for Alphabet in 2018, because the owner prefers to err low.
+    Model year one is the twelve months to June 2027 and model year two the twelve months to June 2028, so each one straddles two calendar years. Spending is built that way rather than by pretending calendar 2026 is model year one.
+    
+    Gross capital spending.
+    
+    | Piece | Amount | Where it comes from |
+    |---|---|---|
+    | Second half of 2026 | 119,402 | the 200,000 midpoint of the guided 195,000 to 205,000 range, less the 80,598 already spent in the first half |
+    | First half of 2027 | 110,250 | 245,000 assumed for calendar 2027, split 45 to 55 across the halves as spending rises through the year |
+    | Model year 1 | 229,652 | the two above |
+    | Second half of 2027 | 134,750 | the other side of the same 45 to 55 split |
+    | First half of 2028 | 110,250 | 2028 assumed to hold at the 2027 level |
+    | Model year 2 | 245,000 | the two above |
+    
+    The 245,000 for 2027 is our inference from 'we continue to expect our CapEx to increase significantly in 2027': holding the implied second-half-2026 rate of 119,402 per half-year would already give about 239,000, so 245,000 is a modest step above simply not slowing down [Q2 2026 call, p.13].
+    
+    Depreciation each year will carry, not last year's. Depreciation of property and equipment was 25,237 in the base year. Adding about 11 cents for every dollar spent the year before gives 39,801 in model year one and 65,063 in model year two; the 11 cents is calibrated on the company's own record (depreciation rose 5,825 in 2025 on 52,535 of 2024 spending, 11.1 per cent) and is consistent with its asset lives [10-K FY2025, Item 8] [10-K FY2025, Note 1]. Acquired-intangible amortisation is taken from the disclosed schedule: 747 for the rest of 2026, 1,304 in 2027 and 1,142 in 2028, so 1,399 in model year one and 1,223 in model year two [10-Q Q2 2026, Note 9].
+    
+    The arithmetic: 229,652 minus 39,801 minus 1,399 gives 188,452 for year one; 245,000 minus 65,063 minus 1,223 gives 178,714 for year two. Acquisitions and working capital are ignored. The alternative of treating calendar 2026 as model year one would give 200,000 of spending and about 158,800 of net investment, roughly 30,000 less, and would understate a year in which the company is plainly spending more than 200,000; it is recorded in the management case instead. Years three to five fall back to the ratio above.
+- **Tax rate** — Starts at the 16.8% rate the company actually paid on 2025 profits and rises to the 25% long-run rate by the end. Two forces push it up: the international agreement setting a 15% floor on the tax a large company pays in each country, and the shrinking United States deduction for income earned from serving customers abroad. [10-K FY2025, Item 7]
+- **Terminal growth** — Equal to the ten-year government bond rate the run fetches, which is the ceiling the method sets: no company can outgrow the economy it sits in forever.
+- **Terminal return on capital premium** — Seven points above the cost of capital, which puts the long-run return on capital a little over half way down from what Alphabet earns today toward the bare minimum its investors require. The advantages in business.md section 5 are real but none of them is a lock: users are one click away, the distribution has to be bought every year, and the court-ordered data sharing chips at the one asset regulators call hard to copy.
+
+    The base year earns 23.8 cents of after-tax operating profit for every dollar of capital in the business, and that understates it, because the capital figure still contains about 145,600 of stakes in other companies that earn no operating profit; on operating capital alone the return is about 33 per cent. The long-run cost of capital is the government bond rate plus the four point mature-market premium the owner set, which comes to about 8.75 per cent, so seven points puts the long-run return near 15.75 per cent. That is below today's return and below the return the model itself implies in the last forecast year, as the method requires. For scale, Damodaran's own published work used seven points for Alphabet in February 2024, four points for it in 2018, and 11.5 points for Nvidia in 2023.
 
 ### Bull: reasons
 
-- **Revenue growth** — Growth holds roughly the 23–24% pace of the first half of 2026 for a year and then fades more slowly than in the base case, on the view that AI answers create more questions and richer ads while Cloud and the chip-system business compound (outlook.md sections 2 and 3). Even year 5 at 10% is below what Alphabet did in 2024 and 2025, but the case only works if Search keeps growing in the mid-teens. [10-Q Q2 2026, Note 2] [Q2 2026 call, p.3–4] [Q2 2026 call, p.12] [Q2 2026 release, p.1]
+- **Revenue growth** — Growth holds roughly the pace of the June quarter for a year and then fades far more slowly than in the base case, on the view that assistant answers create more questions and richer ads while Cloud and the chip-system business compound (outlook.md sections 2 and 3). Even year five is below what the company did in 2025 and 2026, but the case only works if Search keeps growing in the mid-teens. [10-Q Q2 2026, Note 2] [Q2 2026 call, p.3] [Q2 2026 call, p.4] [Q2 2026 call, p.12] [Q2 2026 call, p.13] [Q2 2026 release, p.1]
 
-    History as in the base case. What supports the faster path: the Cloud backlog grew by more than 50,000 in one quarter to 513,900 and customers use more than they commit (outlook.md section 3); AI Mode passed one billion monthly users and the Gemini app 950 million (outlook.md section 2); TPU sales become a new revenue line [10-Q Q2 2026, Note 2] [Q2 2026 call, p.3–4] [Q2 2026 call, p.12] [Q2 2026 release, p.1]. Search & other grew in the mid-teens in the first half of 2026, which is what the case leans on (outlook.md section 1).
-- **Operating margin** — Margins hold near the level Alphabet reached in the first half of 2026 rather than rising: faster growth spreads the research and sales bills further and Cloud approaches the profitability of the older businesses, but that only covers the extra depreciation from a bigger build-out (business.md sections 3 and 4; outlook.md section 1). [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2] [Q2 2026 slides, p.9] [Q2 2026 call, p.11–12] [10-Q Q1 2026, Item 1] [10-K FY2025, Item 8] [10-K FY2025, Note 15]
+    Segment build. Trailing revenue is the twelve months to June 30, 2026; latest growth is the June 2026 quarter against the same quarter of 2025 [10-K FY2025, Note 2] [10-Q Q2 2026, Note 2] [Q2 2026 release, p.1].
+    
+    | Line | Trailing revenue | Latest growth | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+    |---|---|---|---|---|---|---|---|
+    | Google Search and other | 243,310 | 17% | 17% | 15% | 14% | 13% | 12% |
+    | YouTube ads | 42,582 | 13% | 14% | 13% | 12% | 11% | 10% |
+    | Google Network | 29,456 | -1% | 0% | -1% | -1% | -1% | -1% |
+    | Google subscriptions, platforms and devices | 51,743 | 15% | 18% | 17% | 16% | 15% | 14% |
+    | Google Cloud | 77,617 | 82% | 75% | 52% | 40% | 32% | 26% |
+    | Other Bets | 1,507 | 2% | 25% | 25% | 25% | 25% | 25% |
+    | Currency-protection gains and losses | -349 | n/a | held flat | held flat | held flat | held flat | held flat |
+    | Whole company | 445,866 | 24% | 25.8% | 23.2% | 21.2% | 19.2% | 17.1% |
+    
+    Revenue those rates produce: 561,093 in year one, then 691,292, 838,019, 998,665 and 1,169,267. The build gives 25.8, 23.2, 21.2, 19.2 and 17.1 per cent; the path is written as 26, 23, 21, 19 and 17.
+    
+    Year one against the run-rate: reported growth was 24.2% in the June quarter and 23.1% in the first half, so this case runs about two points above the reported rate. The deviation is sourced: the order book grew by more than 50,000 in a single quarter to 513,900, customers are 'exceeding their commitments by more than 50%', the chip-system sales whose 'vast majority' falls in 2027 are new revenue with no year-earlier base, and the company says it is still supply constrained, so the revenue foregone this year arrives when capacity does [10-Q Q2 2026, Note 2] [Q2 2026 call, p.4] [Q2 2026 call, p.13] [Q2 2026 call, p.15]. Against that stand the currency headwind and the Search comparison, which is why the case does not go higher.
+    
+    What each line leans on: AI Mode past one billion monthly users and the Gemini app at 950 million with daily users tripling in a year; model interfaces handling about 22 billion tokens a minute against 16 billion a quarter earlier; nearly 90 per cent of the largest 100 United States companies using Gemini Enterprise [Q2 2026 call, p.3] [Q2 2026 call, p.4] [Q2 2026 call, p.5] [Q2 2026 call, p.2]. Network is held flat rather than growing, because it has shrunk every year since 2022 and the advertising-technology remedy is still to come.
+    
+    Order book check on years one and two: Cloud revenue of 135,830 then 206,461, or 342,291 together, against about 257,000 of order book due within 24 months plus revenue from contracts signed after June 2026 and usage above commitments.
+    
+    Steps down of more than three points, and what drives each: Cloud 75% to 52%, because the 24-month order-book conversion and the first ramp of chip-system sales both sit in years one and two; Cloud 52% to 40%, because the comparison base doubles; Cloud 40% to 32%, because capacity catches up with demand; Cloud 32% to 26%, because Cloud is by then more than 40 per cent of the company; and the whole-company step from 21.2% to 19.2%, which is those Cloud steps diluted by a Search business still growing in the teens.
+    The owner's saved view was 26, 23, 20, 19 and 17 per cent; this draft says 26, 23, 21, 19 and 17. The single difference is year three, where the build lands at 21.2%; it is one point and not a different view.
+- **Operating margin** — The margin edges up about three points over five years rather than falling: faster growth spreads the research and selling bills over more revenue, Cloud keeps closing the gap on the older businesses, and the money paid for search distribution shrinks fast as advertising becomes the smaller half of the company. Even so the path never gets far above the level the company reported in the first half of 2026, because the depreciation from a bigger build-out is bigger too (business.md sections 3 and 4; outlook.md section 1). [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2] [Q2 2026 call, p.11] [Q2 2026 call, p.12] [Q2 2026 slides, p.9] [10-K FY2025, Item 8] [10-K FY2025, Note 1] [10-K FY2025, Note 15]
 
-    Starting point: Q2 2026 margin 34.0%, which carried a 1.3-point legal charge, and first-half-2026 35.0% [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2] [Q2 2026 slides, p.9]. On this case's capex path (200,000 in 2026, about 260,000 in 2027, then falling back; see the reinvestment override row) depreciation of property and equipment runs about 8% of revenue in year 2 and 10–12% by year 5 against 5.7% trailing, a headwind of 4–6 points plus energy and operations costs [Q2 2026 call, p.11–12].
-    Offsets: operating expenses were 27.8% of trailing revenue (R&D 15.5%, S&M 7.0%, G&A 5.3%), and growing them 12–13% a year against 17% revenue growth frees 4–5 points; Cloud (35.6% margin in Q2 2026 against 20.7% a year earlier, approaching Google Services' 41–45%) growing toward 30% of revenue adds 1–2 points; TAC drifting down adds about 0.7; 6–8 points in all [10-K FY2025, Item 8] [10-K FY2025, Note 15].
-    Why the path does not rise: Q1 2026's 36.1% was earned with depreciation at 5.9% of revenue, before the wave [10-Q Q1 2026, Item 1]. Acquired-intangible amortization is 0.2% of revenue and immaterial.
-- **Sales-to-capital** — 1.3 rising to 1.6 assumes the older pattern returns, in which a year's spending shows up as revenue the year after (business.md section 3). Years 1–2 are set in dollars in the reinvestment override row, so this ratio drives years 3–5 only. [10-K FY2023, Item 8] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1]
+    Starting point: the twelve-month margin is 33.1%, the first half of 2026 ran at 35.0% and the March quarter at 36.1% before the depreciation wave [10-Q Q2 2026, Item 1] [10-Q Q1 2026, Item 1].
+    
+    The bridge, in points of revenue.
+    
+    | Share of revenue | Trailing | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+    |---|---|---|---|---|---|---|
+    | Payments for traffic (distribution deals and partner sites) | 14.1 | 12.9 | 11.8 | 10.9 | 10.2 | 9.6 |
+    | Depreciation of property and equipment | 5.7 | 7.1 | 9.6 | 11.4 | 11.9 | 12.4 |
+    | Everything else | 47.1 | 46.0 | 44.9 | 43.9 | 42.9 | 42.0 |
+    | Operating margin | 33.1 | 34.0 | 33.8 | 33.9 | 35.0 | 36.0 |
+    
+    The drag is bigger than in the base case in money and smaller as a share of revenue, because revenue is bigger: depreciation reaches 144,699 by year five, 12.4% of revenue, against 5.7% today. The distribution-payment rate drifts from 19.9% of advertising revenue to 19.5%, and advertising falls to 49 per cent of the company, so the payments fall to 9.6% of revenue. Every other cost grows three points a year slower than revenue, easing to two and a half by year five; the June quarter recorded 1.6 points slower on that same aggregate, so this case assumes the leverage improves as Cloud scales, which is what the segment numbers have been doing (Cloud margin 35.6% against 20.7% a year earlier, Google Services 41.8%) [Q2 2026 call, p.12] [10-K FY2025, Note 15].
+    
+    The bridge gives 34.0, 33.8, 33.9, 35.0 and 36.0 per cent, written as 34, 34, 34, 35 and 36. Why the path does not go higher: the March 2026 quarter earned 36.1% with depreciation at 5.9% of revenue, before the wave; getting back there with depreciation at 12% means the offsets have to do all of that work first [10-Q Q1 2026, Item 1].
+    The previous draft, which the owner left unchanged, had 34, 35, 35, 35 and 35 per cent; this draft says 34, 34, 34, 35 and 36. The shape differs rather than the level: the owner has the margin jump in year two and then sit still, while the bridge has it held down in years two and three by the steepest part of the depreciation wave and then rise past the owner's level once the offsets outrun it.
+- **Sales-to-capital** — Years one and two are set in money below, so this ratio drives years three to five: at 1.40 each dollar of net new investment brings in 1.40 dollars of new revenue, which is the middle of what Alphabet has actually managed once the one-year lag is allowed for. This case is the one where the capacity bought early really does carry the later years. From year six it eases to 1.25 as the company has to fund its own growth again. [10-K FY2023, Item 8] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2]
 
-    History as in the base case. What differs: 1.3 assumes the payoff pattern of the lagged series resumes, and 1.6 late is still under that lagged series' average of 1.66.
-- **Reinvestment override** — Year 1 is the guided 2026 capital spending and year 2 is a bigger 2027 than in the base case, because demand is stronger; both are set in dollars rather than by ratio (outlook.md section 4). From year 3 the model falls back to the sales-to-capital ratio, and nothing in the sources speaks to capex that far out, so that fall-back is a scenario assumption. [Q2 2026 call, p.11] [Q2 2026 call, p.13] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Note 9]
+    Same lagged history as the base case: ratios of 1.75, 1.36, 2.10, 1.42 and about 1.22 for money spent in 2021 through 2025, averaging 1.57 [10-K FY2023, Item 8] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1]. The 1.40 here is that average less a little, not more, even though this is the bull case.
+    
+    What 1.40 and the money set for the first two years imply for spending:
+    
+    | Model year | Net investment | Depreciation it carries | Gross capital spending | Share of revenue |
+    |---|---|---|---|---|
+    | 1 | 197,452 | 39,801 | 238,652 | 42% |
+    | 2 | 197,724 | 66,053 | 265,000 | 38% |
+    | 3 | 113,473 | 95,203 | 209,795 | 25% |
+    | 4 | 120,818 | 118,280 | 240,174 | 24% |
+    | 5 | 120,985 | 144,699 | 266,734 | 23% |
+    
+    Spending eases once from the 2027 peak and is back above it by year five, at 23 to 25 per cent of revenue against 10 to 15 per cent before 2025 (business.md section 3). Years three to five add to about 717,000 against 610,300 of purchase commitments falling due beyond the next twelve months, so this case needs commitments beyond those already signed, which is consistent with an order book that grew by more than 50,000 in one quarter [10-Q Q2 2026, Item 2] [Q2 2026 call, p.12].
+- **Reinvestment override** — The first two years are set in money rather than by ratio, because management has guided this year's capital spending and said next year's will increase significantly. This case spends more in 2027 than the base case does, because demand is stronger, and each year is still net of the depreciation and amortisation that the same year will carry. [Q2 2026 call, p.13] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Note 9] [10-K FY2025, Item 8]
 
-    Working as in the base case. What differs: year 2 spends about 260,000 of gross capex rather than about 239,000, the same sourced second-half-2026 run-rate (200,000 minus 80,598 = 119,402 per half-year) plus about 9% to match stronger demand, less about 52,000 of 2027 depreciation on the base case's schedule = about 208,000 net, our inference [Q2 2026 call, p.11] [Q2 2026 call, p.13] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Note 9]. Years 3–5 fall back to sales-to-capital, which implies gross capex of roughly 160–190B a year (net 68–78B plus depreciation of 81–113B). Acquisitions and working capital are ignored.
-- **Tax rate** — Starts at the FY2025 effective rate of 16.8% and moves to the 25% marginal rate by the terminal year, as the model requires. Two forces point the rate up over time: the OECD agreement that sets a 15% floor on the tax a big company pays in each country, and the shrinking US deduction for income earned from serving customers abroad [10-K FY2025, Item 7].
-- **Terminal growth** — Equal to the fetched 10-year Treasury rate, as the method requires.
-- **Terminal return on capital premium** — Five points, the ceiling without an override: the full-stack position (own chips, own models, own distribution) that business.md section 5 describes for Cloud, together with the Search moat, is assumed to persist. Damodaran used four points for Alphabet in 2018.
+    Built the same way as the base case, with calendar 2027 at 265,000 instead of 245,000 and 2028 held at that level.
+    
+    | Piece | Amount |
+    |---|---|
+    | Second half of 2026 | 119,402 |
+    | First half of 2027 | 119,250 |
+    | Model year 1 gross spending | 238,652 |
+    | Second half of 2027 | 145,750 |
+    | First half of 2028 | 119,250 |
+    | Model year 2 gross spending | 265,000 |
+    
+    The 265,000 for 2027 is our inference, about 11 per cent above the base case, from the same 'increase significantly' guidance plus this case's stronger demand [Q2 2026 call, p.13]. Depreciation carried: 39,801 in year one, and 66,053 in year two, which is higher than the base case because year one spent more. Acquired-intangible amortisation is 1,399 and 1,223 from the disclosed schedule [10-Q Q2 2026, Note 9]. So 238,652 minus 39,801 minus 1,399 gives 197,452, and 265,000 minus 66,053 minus 1,223 gives 197,724. Acquisitions and working capital are ignored.
+- **Tax rate** — Starts at the 16.8% rate the company actually paid on 2025 profits and rises to the 25% long-run rate by the end. Two forces push it up: the international agreement setting a 15% floor on the tax a large company pays in each country, and the shrinking United States deduction for income earned from serving customers abroad. [10-K FY2025, Item 7]
+- **Terminal growth** — Equal to the ten-year government bond rate the run fetches, which is the ceiling the method sets: no company can outgrow the economy it sits in forever.
+- **Terminal return on capital premium** — Ten points above the cost of capital, which leaves the long-run return on capital about a fifth below what Alphabet earns today. This is the case where owning the chips, the models and the products people already use turns out to be a position nobody can assemble twice, so the advantage narrows without closing.
+
+    The base year earns 23.8 cents of after-tax operating profit per dollar of capital, and about 33 cents once the stakes in other companies are taken out of the capital figure. The long-run cost of capital is about 8.75 per cent, so ten points gives a long-run return near 18.75 per cent: still below today's and below what the model implies in the last forecast year. Damodaran's largest published premium for a wide-moat business was 11.5 points for Nvidia in 2023, and he used seven points for Alphabet itself, so ten sits inside his own practice for the strongest cases without needing the override the method asks for above twelve.
 
 ### Management: reasons
 
-- **Computable: no** — Management gives no revenue, margin or earnings targets for 2026 or later; the only numeric guidance is the 2026 capital-spending range, which is used as year-1 reinvestment. Everything else is qualitative and is marked 'not numeric' in the guidance table's 'used as' column below.
-- **Revenue growth** — No revenue guidance for any period. [Q2 2026 call, p.13–14]
-- **Operating margin** — No margin guidance; only the qualitative depreciation and Cloud-margin comments above. [Q2 2026 call, p.13–14]
-- **Sales-to-capital** — Not derivable from guidance.
-- **Reinvestment override** — The one number management has given is the 2026 capital-spending range, so year 1 is that midpoint less the depreciation and amortization it replaces, and the later years are left empty. The 2027 remark about spending increasing significantly is not turned into a number here; the bear, base and bull each carry a labelled inference for 2027 instead.
+- **Computable: no** — Management gives no revenue, margin or profit target for any period, so this case cannot be computed. The one number it has given is the range for this year's capital spending, which is recorded as year-one reinvestment below; everything else is words and is marked as not numeric in the table. Quotes are verbatim except that the dollar sign in the original is written here as USD.
+- **Revenue growth** — No revenue guidance for any period. [Q2 2026 call, p.13]
+- **Operating margin** — No margin guidance; only the words about depreciation, energy and rented capacity recorded above. [Q2 2026 call, p.13]
+- **Sales-to-capital** — Not derivable from anything management has said.
+- **Reinvestment override** — The one number management has given is this year's capital spending range, so year one is its midpoint less the depreciation and amortisation that year will carry, and the later years are left empty. The remark about spending increasing significantly next year is not turned into a number here; the bear, base and bull each carry a labelled inference for it instead.
 
-    Year 1: the 2026 capex guidance midpoint 200,000 minus trailing-twelve-month depreciation of property and equipment 25,237 and intangible amortization 793 = 173,970 of net reinvestment [Q2 2026 call, p.13] [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Note 9]. Calendar 2026 is mapped to model year 1 (July 2026–June 2027), an approximation.
+    Calendar 2026 is mapped to model year one, which actually runs from July 2026 to June 2027; that is the nearest model year and the approximation is the point of this cell. The midpoint of the guided 195,000 to 205,000 range is 200,000; the depreciation model year one carries is 39,801 and the acquired-intangible amortisation 1,399; 200,000 minus 41,200 gives 158,800 [Q2 2026 call, p.13] [10-Q Q2 2026, Note 9] [10-K FY2025, Item 8]. The analyst cases instead build the July-to-June window from the same guidance and reach 229,652 of gross spending, about 30,000 more, because the second half of this year alone implies 119,402 and next year is guided higher.
 - **Tax rate** — No tax guidance.
 - **Terminal growth** — Not guided.
 - **Terminal return on capital premium** — Not guided.
@@ -139,11 +357,11 @@ Rows are inputs and columns are cases. Per-year cells read year 1 / year 2 / ...
 |---|---|---|---|
 | Revenue, trailing twelve months | 445,866 | The base year is the twelve months to June 30, 2026, so the model starts from what Alphabet has just earned rather than from a calendar year (business.md section 2). It is the 2025 annual figure with the newest half-year swapped in for the year-earlier half-year. | [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] |
 | Operating income, GAAP | 147,628 | Operating profit for the same twelve months, exactly as reported, which works out at 33.1% of revenue (business.md section 3). The legal charges in the one-time items list below are deliberately left inside it, because charges like them arrive most years. | [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] |
-| One-time item: EC advertising-technology fine, Q3 2025 (recorded, not added back) | 0 | A $3.5 billion fine from the September 2025 European Commission ad-technology decision sits inside the base year's costs and is left there. Brussels has fined Alphabet at intervals since 2017, so the method treats these fines as a recurring cost of running this business rather than a one-off (business.md section 6). | [10-K FY2025, Item 7] [10-Q Q2 2026, Note 10] |
-| One-time item: PriceRunner damages award, Q2 2026 (recorded, not added back) | 0 | A Stockholm court ordered Alphabet to pay PriceRunner damages, and the $1.5 billion of principal was charged to Google Services costs in Q2 2026; it is left in the base year. Legal accruals like this recur at Alphabet and the award is under appeal, so it is not treated as one-off (business.md section 6). | [10-Q Q2 2026, Item 2] [10-Q Q2 2026, Note 10] |
-| One-time item: Waymo valuation-based compensation charge, Q4 2025 (recorded, not added back) | 0 | A $2.1 billion employee compensation charge for Waymo, based on estimated stock valuation and mostly in R&D, was recognized in Q4 2025. Not added back because it is stock-based pay, which always stays as a cost by rule. | [10-K FY2025, Item 7] |
-| One-time item: Office space impairment, Q1 2026 (recorded, not added back) | 0 | $300 million of office space impairment charges in Q1 2026 sales and marketing expense. Not added back: office-exit charges recurred in 2023 ($1.8 billion, business.md section 3) and again here, and the amount is 0.07% of TTM revenue. | [10-Q Q1 2026, Item 2] |
-| Amortization of acquired intangibles (memo) | 793 | This is the yearly write-down of technology and customer lists bought in acquisitions. It stays as a cost by rule and is recorded here only as a memo; at 0.2–0.3% of revenue it is far too small to bend the margin paths, whether it runs off or not. | [10-Q Q2 2026, Note 9] |
+| One-time item: EC advertising-technology fine, Q3 2025 (recorded, not added back) | 0 | A 3.5 billion USD fine from the September 2025 European Commission ad-technology decision sits inside the base year's costs and is left there. Brussels has fined Alphabet at intervals since 2017, so the method treats these fines as a recurring cost of running this business rather than a one-off (business.md section 6). | [10-K FY2025, Item 7] [10-Q Q2 2026, Note 10] |
+| One-time item: PriceRunner damages award, Q2 2026 (recorded, not added back) | 0 | A Stockholm court ordered Alphabet to pay PriceRunner damages, and the 1.5 billion USD of principal was charged to Google Services costs in Q2 2026; it is left in the base year. Legal accruals like this recur at Alphabet and the award is under appeal, so it is not treated as one-off (business.md section 6). | [10-Q Q2 2026, Item 2] [10-Q Q2 2026, Note 10] |
+| One-time item: Waymo valuation-based compensation charge, Q4 2025 (recorded, not added back) | 0 | A 2.1 billion USD employee compensation charge for Waymo, based on estimated stock valuation and mostly in R&D, was recognized in Q4 2025. Not added back because it is stock-based pay, which always stays as a cost by rule. | [10-K FY2025, Item 7] |
+| One-time item: Office space impairment, Q1 2026 (recorded, not added back) | 0 | 300 million USD of office space impairment charges in Q1 2026 sales and marketing expense. Not added back: office-exit charges recurred in 2023 (1.8 billion USD, business.md section 3) and again here, and the amount is 0.07% of TTM revenue. | [10-Q Q1 2026, Item 2] |
+| Amortization of acquired intangibles (memo) | 793 | This is the yearly write-down of technology and customer lists bought in acquisitions. It stays as a cost by rule and is recorded here only as a memo; at 0.2 to 0.3% of revenue it is far too small to bend the margin paths, whether it runs off or not. | [10-Q Q2 2026, Note 9] |
 | Stock-based compensation (memo) | 28,147 | Pay handed out as shares, 6.3% of revenue in the base year. The method keeps it inside operating profit, because it is a real cost to existing owners; this cell is only a memo (business.md section 4). | [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] |
 | Research and development expense (memo) | 68,974 | What Alphabet spent on research and development in the base year, 15.5% of revenue. Memo row only: the switch that would treat research as an investment rather than a cost is off, as the method requires. | [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] |
 | Effective tax rate | 16.8% | The model starts from Alphabet's FY2025 tax rate of 16.8%, the cleanest recent measure of tax on ordinary profits (business.md section 4). Rates computed from the newest quarters look higher only because enormous paper gains on investment stakes carry tax at the full statutory rate, and those gains have nothing to do with the operating business. | [10-K FY2025, Item 7] [10-Q Q2 2026, Note 14] |
@@ -159,7 +377,7 @@ Rows are inputs and columns are cases. Per-year cells read year 1 / year 2 / ...
 
 - **Amortization of acquired intangibles**, working notes:
 
-    Trailing twelve months = 545 for the six months to June 30, 2026 (Wiz and Intersect closed in March 2026) + 248 for the second half of 2025 = 793 [10-Q Q2 2026, Note 9]. The second half of 2025 is not disclosed in the cached filings (the FY2025 10-K carries no intangible-assets table and the Q3 2025 10-Q is not cached), so it is taken at the Q2 2025 quarterly run-rate of 124 times 2 = 248; our inference. Disclosed expected amortization: 747 for the rest of 2026, 1,304 in 2027, then 1,142, 1,096 and 1,055, i.e. about 0.2–0.3% of revenue. Memo row; stays deducted.
+    Trailing twelve months = 545 for the six months to June 30, 2026 (Wiz and Intersect closed in March 2026) + 248 for the second half of 2025 = 793 [10-Q Q2 2026, Note 9]. The second half of 2025 is not disclosed in the cached filings (the FY2025 10-K carries no intangible-assets table and the Q3 2025 10-Q is not cached), so it is taken at the Q2 2025 quarterly run-rate of 124 times 2 = 248; our inference. Disclosed expected amortization: 747 for the rest of 2026, 1,304 in 2027, then 1,142, 1,096 and 1,055, i.e. about 0.2 to 0.3% of revenue. Memo row; stays deducted.
 
 - **Stock based compensation**, working notes:
 
@@ -171,7 +389,7 @@ Rows are inputs and columns are cases. Per-year cells read year 1 / year 2 / ...
 
 - **Effective tax rate**, working notes:
 
-    FY2025: provision 26,656 on pre-tax income 158,826 = 16.8%, a rate that already includes a non-deductible EC fine [10-K FY2025, Item 7]. Alternatives considered: the trailing-twelve-month rate on the same basis is 18.4% (55,064 / 299,269), and the Q2 and six-month 2026 rates were 19.1%; all of them are pushed up by $99.0 billion of unrealized equity gains carrying deferred tax at the statutory rate [10-Q Q2 2026, Note 14].
+    FY2025: provision 26,656 on pre-tax income 158,826 = 16.8%, a rate that already includes a non-deductible EC fine [10-K FY2025, Item 7]. Alternatives considered: the trailing-twelve-month rate on the same basis is 18.4% (55,064 / 299,269), and the Q2 and six-month 2026 rates were 19.1%; all of them are pushed up by 99.0 billion USD of unrealized equity gains carrying deferred tax at the statutory rate [10-Q Q2 2026, Note 14].
 
 - **Invested capital**, working notes:
 
@@ -195,14 +413,14 @@ These stay off unless the owner turns them on for a specific company.
 |---|---|---|---|
 | Cash and marketable securities (added) | 162,474 | The cash and investments Alphabet could turn into money at short notice, which the model adds to the value of the business. The SpaceX shares inside the balance-sheet total are excluded here because they cannot be sold yet; they are listed separately below. | [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Note 3] |
 | Non-operating asset (added): SpaceX shares under short-term sale restrictions (inside marketable securities) | 80,000 | Shares in SpaceX that Alphabet holds inside its marketable securities at fair value, meaning the price they would fetch if sold today. They are kept out of the cash line because they cannot be sold yet, so they are added to the value of the business separately. | [10-Q Q2 2026, Note 3] |
-| Non-operating asset (added): Marketable equity securities in other non-current assets (includes $14.1B SpaceX shares restricted through Q3 2027) | 14,126 | A second block of SpaceX shares, held among other non-current assets, the accounting label for assets not expected to turn into cash within a year. It is carried at fair value, the price it would fetch today, and it sits outside the balance-sheet cash total, so it is added separately. | [10-Q Q2 2026, Note 3] |
+| Non-operating asset (added): Marketable equity securities in other non-current assets (includes 14.1 billion USD of SpaceX shares restricted through Q3 2027) | 14,126 | A second block of SpaceX shares, held among other non-current assets, the accounting label for assets not expected to turn into cash within a year. It is carried at fair value, the price it would fetch today, and it sits outside the balance-sheet cash total, so it is added separately. | [10-Q Q2 2026, Note 3] |
 | Non-operating asset (added): Non-marketable securities (private companies, including the unnamed private company; equity-method stakes) | 131,461 | Stakes in private companies, added to value separately because they are not part of the advertising and cloud business (business.md section 7). The figure is what the last funding rounds implied rather than a market price, so the owner may want to mark it down. | [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Note 3] |
 | Debt (subtracted) | 100,164 | Every dollar of borrowing on the balance sheet, at the value the accounts carry it at, subtracted from the value of the business. No commercial paper is outstanding (business.md section 4). | [10-Q Q2 2026, Note 6] [10-Q Q2 2026, Item 1] |
 | Operating lease liabilities (subtracted) | 18,037 | Rent Alphabet has already committed to on buildings and data centers it leases, treated as debt-like and subtracted from value. Data-center leases that are signed but have not started are not liabilities yet and belong to the reinvestment story instead. | [10-Q Q2 2026, Note 4] |
 | Minority interests (subtracted) | 7,100 | The book value of the slices of subsidiaries such as Waymo that outside investors own, subtracted because that share of the profits is not Alphabet's. Accountants call them noncontrolling interests, meaning stakes too small to control the subsidiary; 824 of the total is redeemable, meaning those holders can require Alphabet to buy them out. | [10-Q Q2 2026, Note 7] |
 | Other claim (subtracted): 6.25% mandatory convertible preferred stock (liquidation preference) | 19,250 | In June 2026 Alphabet sold preferred shares that get paid before ordinary shareholders and turn into ordinary shares in May 2029. They are subtracted here at the amount their holders are owed first, which is simpler and slightly more conservative than adding the future shares to the share count. | [10-Q Q2 2026, Note 11] [8-K 2026-06-05 (preferred)] |
 | Other claim (subtracted): Finance lease liabilities | 2,590 | Equipment and space Alphabet has effectively bought on credit through leases. Debt-like, and not counted in the debt or operating-lease lines above, so it is subtracted here. | [10-Q Q2 2026, Note 4] |
-| Other claim (subtracted): Accrued legal and regulatory fines and settlements | 17,356 | Fines already charged against past operating profit but not yet paid, 'primarily' EC fines; $5.2 billion of it (the Android fine plus interest) was paid in July 2026. Cash that will leave without buying anything, so it is treated like debt. Future fines are inside the forecast margins, because the one-time items listed in the base year are left inside operating profit. | [10-Q Q2 2026, Note 7] [10-Q Q2 2026, Item 2] |
+| Other claim (subtracted): Accrued legal and regulatory fines and settlements | 17,356 | Fines already charged against past operating profit but not yet paid, 'primarily' EC fines; 5.2 billion USD of it (the Android fine plus interest) was paid in July 2026. Cash that will leave without buying anything, so it is treated like debt. Future fines are inside the forecast margins, because the one-time items listed in the base year are left inside operating profit. | [10-Q Q2 2026, Note 7] [10-Q Q2 2026, Item 2] |
 | Other claim (subtracted): Data-center backstop credit derivatives, at fair value | 815 | Alphabet has promised to cover other companies' data-center payments if they default, and the liability it records for those promises is subtracted here. The worst case is far bigger than the recorded number, which is why the line is worth the owner's attention (business.md section 6). | [10-Q Q2 2026, Note 3] [10-Q Q2 2026, Note 10] |
 | Probability of failure | 0.0% | Zero: Alphabet holds far more spendable cash and securities than debt, earns a large operating profit every quarter, and has just shown it can raise money at will. Failure inside the five-year window is not a realistic case (business.md section 4). | — |
 | What the assets would fetch in a failure | 0 | Not needed with probability of failure at zero. | — |
@@ -222,17 +440,17 @@ These stay off unless the owner turns them on for a specific company.
 
 - **Minority interests**, working notes:
 
-    Total noncontrolling interests in consolidated subsidiaries were $7.1 billion at June 30, 2026, including 824 redeemable [10-Q Q2 2026, Note 7]. The 10-Q states the total in billions, so 7,100 is rounded.
+    Total noncontrolling interests in consolidated subsidiaries were 7.1 billion USD at June 30, 2026, including 824 redeemable [10-Q Q2 2026, Note 7]. The 10-Q states the total in billions, so 7,100 is rounded.
 
 - **Probability of failure**, working notes:
 
-    162,474 of unrestricted cash and securities against 100,164 of debt and 147,628 of trailing-twelve-month operating income; $56 billion of notes and $49.6 billion of equity were raised in the first half of 2026 alone.
+    162,474 of unrestricted cash and securities against 100,164 of debt and 147,628 of trailing-twelve-month operating income; 56 billion USD of notes and 49.6 billion USD of equity were raised in the first half of 2026 alone.
 
 - **Diluted shares**, working notes:
 
     Q2 2026 diluted weighted-average shares, consolidated: 12,309 million = 12,151 basic + 142 RSUs and other contingently issuable shares + 16 from the preferred under the if-converted method [10-Q Q2 2026, Note 12]. Period-end common shares outstanding were 12,230 million. The June sales were roughly 87 million shares: the 10-Q rounds them to 29 + 29 + 14 + 14 million, and the 8-K's 25.46 million per class plus the fully exercised 3.82 million over-allotment option per class and 28.57 million private-placement shares total 87.1 million [8-K 2026-06-04].
 
-Dilution note: A $40.0 billion at-the-market program was set up in June 2026 and was unused at June 30; the CFO said it will run 'for some period of time' to cover tax on stock-based pay [Q2 2026 call, p.18] [10-Q Q2 2026, Item 2]. The preferred converts into about 43–54 million common shares in May 2029, partly offset by capped calls [10-Q Q2 2026, Note 11]. Buybacks that used to absorb employee stock issuance were zero in the first half of 2026 [10-Q Q2 2026, Note 11].
+Dilution note: A 40.0 billion USD at-the-market program was set up in June 2026 and was unused at June 30; the CFO said it will run 'for some period of time' to cover tax on stock-based pay [Q2 2026 call, p.18] [10-Q Q2 2026, Item 2]. The preferred converts into about 43 to 54 million common shares in May 2029, partly offset by capped calls [10-Q Q2 2026, Note 11]. Buybacks that used to absorb employee stock issuance were zero in the first half of 2026 [10-Q Q2 2026, Note 11].
 
 ## 5. Market inputs
 
@@ -251,9 +469,9 @@ Dilution note: A $40.0 billion at-the-market program was set up in June 2026 and
 | Method | build | — | — |
 | Damodaran industry | Advertising | Advertising is the industry group used for the risk measure, because ads are just over 70% of revenue and their economics drive the profit (business.md section 2). Cloud is the fast-growing minority with different economics, so the owner may want the planner to test a software group as well. | — |
 | Unlevered beta | 1.008 | Damodaran's advertising-industry beta of about 1.0 means Alphabet's operating profits are assumed to swing roughly in line with the market's, which is what sets the cost of capital. Treating Alphabet as an internet-software company instead would raise that cost by about two and a half points, a test the owner can run. | [Damodaran betas.xls, Advertising, dataset dated 2026-01-05, cached tools/valuation/data/damodaran/betas.csv] |
-| Debt to equity (market values) | 0.0284 | Borrowing is under 3% of what the market says Alphabet's shares are worth, even after the 2025–2026 bond sales, so debt barely moves the cost of capital (business.md section 4). This ratio is what levers the industry beta up. | [10-Q Q2 2026, Note 6] [10-Q Q2 2026, Note 4] [10-Q Q2 2026, Note 12] [Yahoo price 338.46 on 2026-09-04] |
+| Debt to equity (market values) | 0.0284 | Borrowing is under 3% of what the market says Alphabet's shares are worth, even after the bond sales of 2025 and 2026, so debt barely moves the cost of capital (business.md section 4). This ratio is what levers the industry beta up. | [10-Q Q2 2026, Note 6] [10-Q Q2 2026, Note 4] [10-Q Q2 2026, Note 12] [Yahoo price 338.46 on 2026-09-04] |
 | Pre-tax cost of debt | 4.80% | 4.8% is what long-dated dollar borrowing costs Alphabet today, taken from the coupon on its most recent large dollar bond sale. Dollar coupons are used because the model discounts dollar cash flows. | [10-Q Q2 2026, Note 6] [10-K FY2025, Item 7] |
-| Terminal cost of capital method | mature | Default: after the forecast Alphabet is priced like a mature company, cost of capital = risk-free rate + the 4.5% mature-market premium. | — |
+| Terminal cost of capital method | mature | Default: after the forecast Alphabet is priced like a mature company, so its long-run cost of capital becomes the ten-year government bond rate plus the 4 per cent mature-market premium the owner set. | — |
 
 - **Damodaran industry**, working notes:
 
@@ -269,15 +487,15 @@ Dilution note: A $40.0 billion at-the-market program was set up in June 2026 and
 
 - **Pretax cost of debt**, working notes:
 
-    The $20.0 billion of US-dollar notes issued in Q1 2026 carry a weighted-average coupon of 4.80% with a 15-year average maturity [10-Q Q2 2026, Note 6]. For comparison: the 2025 US-dollar notes were issued at 4.89% and 4.92%, and effective interest rates on the 2025–2026 dollar notes run 3.93%–5.84% [10-K FY2025, Item 7]. The euro, sterling, franc, Canadian-dollar and yen notes carry local-currency coupons of 1.06%–5.31% and are not comparable.
+    The 20.0 billion USD of US-dollar notes issued in Q1 2026 carry a weighted-average coupon of 4.80% with a 15-year average maturity [10-Q Q2 2026, Note 6]. For comparison: the 2025 US-dollar notes were issued at 4.89% and 4.92%, and effective interest rates on the dollar notes of 2025 and 2026 run 3.93% to 5.84% [10-K FY2025, Item 7]. The euro, sterling, franc, Canadian-dollar and yen notes carry local-currency coupons of 1.06% to 5.31% and are not comparable.
 
 ## 7. Inputs for the diagnostics
 
 | Item | Value | Reason | Source |
 |---|---|---|---|
-| Market size in the final forecast year (USD millions) | — | Left empty: no cached filing, release, slide or transcript puts a dollar size on global digital advertising or cloud spending, and the method forbids inventing one. Management said only that the AI shift 'is an expansion of our total addressable market'. | [Q2 2026 call, p.22] |
-| Company's own five-year revenue growth per year | 11.8% | Alphabet's own revenue grew about 11.8% a year over the five fiscal years 2021–2025, which is the yardstick the scenario growth paths should be judged against (business.md section 2). | [10-K FY2023, Note 2] [10-K FY2025, Item 7] |
-| Company's own five-year average operating margin | 29.6% | Alphabet averaged a 29.6% operating margin over the same five fiscal years, so the base case's 30–33% assumes it holds a little above its own recent average (business.md section 3). | [10-K FY2023, Item 7] [10-K FY2023, Item 8] [10-K FY2025, Item 7] [10-K FY2025, Item 8] |
+| Market size in the final forecast year (USD millions) | — | Left empty: no cached filing, release, slide or transcript puts a money figure on world spending on digital advertising or on cloud computing, and the method forbids inventing one. The nearest thing management said is that the shift to AI 'is an expansion of our total addressable market'. | [Q2 2026 call, p.22] |
+| Company's own five-year revenue growth per year | 11.8% | Alphabet's own revenue grew about 11.8% a year over the five fiscal years 2021 to 2025. It is context for the scenario growth paths rather than the anchor for them, because the mix has changed: advertising was 81% of revenue in 2021 and 73% in 2025, against 71% in the base year (business.md section 2). | [10-K FY2023, Note 2] [10-K FY2025, Item 7] |
+| Company's own five-year average operating margin | 29.6% | Alphabet averaged a 29.6% operating margin over the same five fiscal years, so the base case's 32 to 33% assumes it holds a few points above its own recent average (business.md section 3). | [10-K FY2023, Item 7] [10-K FY2023, Item 8] [10-K FY2025, Item 7] [10-K FY2025, Item 8] |
 
 ## 8. Management guidance on record
 
@@ -285,44 +503,16 @@ Everything management has said in numbers or in words, whether or not it was use
 
 | Item | Quote | Source | Used as |
 |---|---|---|---|
-| Capex 2026 | we are updating our full year 2026 CapEx guidance range to $195‑205 billion, up from our previous estimate of $180‑190 billion. | [Q2 2026 call, p.13] | reinvestment year 1 (midpoint 200,000 minus TTM depreciation and amortization of 26,030 = 173,970) |
-| Capex 2027 | we continue to expect our CapEx to increase significantly in 2027, and we'll provide more details at a later date. | [Q2 2026 call, p.13] | not numeric |
-| Backlog | we expect to recognize just over 50% of the total backlog as revenue over the next 24 months. | [Q2 2026 call, p.12] | not numeric (informs analyst revenue growth in years 1–2) |
-| TPU revenue timing | We continue to expect to recognize a relatively small portion of the revenues ... this year, ramping as we exit 2026. We anticipate the vast majority of the revenues from these agreements will be realized in 2027. | [Q2 2026 call, p.13] | not numeric |
-| Third-party capacity and Cloud margin | we plan to expand the use of third‑party capacity in Q3 as a bridging strategy while we build out more internal capacity. ... it will create modest margin pressure in the near‑term as we utilize this capacity. | [Q2 2026 call, p.13] | not numeric |
-| Search comparison | in Q3, we will begin lapping an acceleration in Search performance that began in the third quarter last year. | [Q2 2026 call, p.13] | not numeric |
-| FX | we would expect a slight FX headwind to our consolidated revenue in Q3, compared to a one percentage point FX tailwind in Q2. | [Q2 2026 call, p.13] | not numeric |
+| Capital spending 2026 | we are updating our full year 2026 CapEx guidance range to USD 195-205 billion, up from our previous estimate of USD 180-190 billion. | [Q2 2026 call, p.13] | reinvestment year 1 (the 200,000 midpoint mapped to model year 1, less the 39,801 of depreciation and 1,399 of acquired-intangible amortisation that year carries, giving 158,800) |
+| Capital spending 2027 | we continue to expect our CapEx to increase significantly in 2027, and we'll provide more details at a later date. | [Q2 2026 call, p.13] | not numeric |
+| Order book | we expect to recognize just over 50% of the total backlog as revenue over the next 24 months. | [Q2 2026 call, p.12] | not numeric (informs the analyst revenue growth in years 1 and 2) |
+| Chip-system revenue timing | We continue to expect to recognize a relatively small portion of the revenues ... this year, ramping as we exit 2026. We anticipate the vast majority of the revenues from these agreements will be realized in 2027. | [Q2 2026 call, p.13] | not numeric |
+| Rented capacity and Cloud margin | we plan to expand the use of third-party capacity in Q3 as a bridging strategy while we build out more internal capacity. ... it will create modest margin pressure in the near-term as we utilize this capacity. | [Q2 2026 call, p.13] | not numeric |
+| Search comparison | in Q3, we will begin lapping an acceleration in Search performance that began in the third quarter last year. | [Q2 2026 call, p.13] | not numeric (informs the analyst year-1 growth) |
+| Currency | we would expect a slight FX headwind to our consolidated revenue in Q3, compared to a one percentage point FX tailwind in Q2. | [Q2 2026 call, p.13] | not numeric (informs the analyst year-1 growth) |
 | Free cash flow | we expect the free cash flow will remain under pressure driven by our investments in technical infrastructure | [Q2 2026 call, p.14] | not numeric |
-| Equity markets and ATM program | At this point, we're not planning to go back to the equity markets, with the exception of ... the ATM, or at‑the‑market, offering that we will do to address ... the tax on SBC, which we'll do for some period of time. | [Q2 2026 call, p.18] | the dilution note |
-| Depreciation and hiring | will continue to put pressure on the P&L in the form of higher depreciation expense and related data center operations costs, such as energy. We also expect to continue hiring in key investment areas such as AI and cloud | [Q2 2026 call, p.13–14] | not numeric (informs analyst margin paths) |
-
-## 9. Change log
-
-Every change the owner saved from the app, oldest first. Values are shown as the file holds them.
-
-| When | Input | Before | After | Note |
-|---|---|---|---|---|
-| 2026-09-08T01:30:23 | `market.mature_market_erp` | 0.045 | 0.04 | — |
-| 2026-09-08T01:30:23 | `scenarios.bear.revenue_growth.values.0` | 0.15 | 0.2 | — |
-| 2026-09-08T01:30:23 | `scenarios.bear.revenue_growth.values.1` | 0.09 | 0.15 | — |
-| 2026-09-08T01:30:23 | `scenarios.bear.revenue_growth.values.2` | 0.06 | 0.14 | — |
-| 2026-09-08T01:30:23 | `scenarios.bear.revenue_growth.values.3` | 0.04 | 0.14 | — |
-| 2026-09-08T01:30:23 | `scenarios.bear.revenue_growth.values.4` | 0.03 | 0.12 | — |
-| 2026-09-08T01:30:23 | `scenarios.bear.operating_margin.values.1` | 0.28 | 0.3 | — |
-| 2026-09-08T01:30:23 | `scenarios.bear.operating_margin.values.2` | 0.26 | 0.3 | — |
-| 2026-09-08T01:30:23 | `scenarios.bear.operating_margin.values.3` | 0.24 | 0.3 | — |
-| 2026-09-08T01:30:23 | `scenarios.bear.operating_margin.values.4` | 0.23 | 0.3 | — |
-| 2026-09-08T01:30:23 | `scenarios.base.revenue_growth.values.0` | 0.2 | 0.23 | — |
-| 2026-09-08T01:30:23 | `scenarios.base.revenue_growth.values.1` | 0.16 | 0.19 | — |
-| 2026-09-08T01:30:23 | `scenarios.base.revenue_growth.values.2` | 0.13 | 0.17 | — |
-| 2026-09-08T01:30:23 | `scenarios.base.revenue_growth.values.3` | 0.1 | 0.14 | — |
-| 2026-09-08T01:30:23 | `scenarios.base.revenue_growth.values.4` | 0.08 | 0.13 | — |
-| 2026-09-08T01:30:23 | `scenarios.base.operating_margin.values.1` | 0.32 | 0.33 | — |
-| 2026-09-08T01:30:23 | `scenarios.bull.revenue_growth.values.0` | 0.24 | 0.26 | — |
-| 2026-09-08T01:30:23 | `scenarios.bull.revenue_growth.values.1` | 0.21 | 0.23 | — |
-| 2026-09-08T01:30:23 | `scenarios.bull.revenue_growth.values.2` | 0.17 | 0.2 | — |
-| 2026-09-08T01:30:23 | `scenarios.bull.revenue_growth.values.3` | 0.13 | 0.19 | — |
-| 2026-09-08T01:30:23 | `scenarios.bull.revenue_growth.values.4` | 0.1 | 0.17 | — |
+| Equity markets and the at-the-market programme | At this point, we're not planning to go back to the equity markets, with the exception of ... the ATM, or at-the-market, offering that we will do to address ... the tax on SBC, which we'll do for some period of time. | [Q2 2026 call, p.18] | the dilution note in the bridge |
+| Depreciation and hiring | will continue to put pressure on the P&L in the form of higher depreciation expense and related data center operations costs, such as energy. We also expect to continue hiring in key investment areas such as AI and cloud | [Q2 2026 call, p.13-14] | not numeric (informs the analyst margin paths) |
 
 ## Sources
 
@@ -333,7 +523,7 @@ Every source tag used above, the cached file it points to (relative to the compa
 | [10-Q Q2 2026, …] | `sources/2026-Q2/10-Q-2026-Q2.txt` | 2026-07-23 | quarter ended 2026-06-30; the date is the filing date |
 | [10-Q Q1 2026, …] | `sources/2026-Q1/10-Q-2026-Q1.txt` | 2026-04-30 | quarter ended 2026-03-31; the date is the filing date |
 | [10-K FY2025, …] | `sources/2026-Q1/10-K-FY2025.txt` | 2026-02-05 | 10-K for the year ended 2025-12-31; the date is the filing date |
-| [10-K FY2023, …] | `sources/2026-Q1/10-K-FY2023.txt` | 2024-01-31 | 10-K for the year ended 2023-12-31; the date is the filing date; used for the FY2021–FY2022 history |
+| [10-K FY2023, …] | `sources/2026-Q1/10-K-FY2023.txt` | 2024-01-31 | 10-K for the year ended 2023-12-31; the date is the filing date; used for the FY2021 and FY2022 history |
 | [Q2 2026 call, p.N] | `sources/2026-Q2/transcript.txt` | 2026-07-22 | company-published transcript, tier 1; page numbers are the PDF's own |
 | [Q2 2026 release, p.N] | `sources/2026-Q2/press-release.txt` | 2026-07-22 | earnings press release, 8-K Exhibit 99.1 |
 | [Q2 2026 slides, p.N] | `sources/2026-Q2/slides.txt` | 2026-07-22 | earnings slides |
