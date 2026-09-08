@@ -33,7 +33,8 @@ import pytest
 
 from valuation.engine import (
     BaseYear, Bridge, EngineError, MarketInputs, ScenarioInputs, build_base_year, build_cost_of_capital,
-    compute, fade_inputs, rnd_capitalization, run_scenario, sales_to_capital_path, tax_path, wacc_path,
+    compute, fade_years, reference_inputs, rnd_capitalization, run_scenario, sales_to_capital_path,
+    scenario_inputs, stop_years, tax_path, wacc_path,
 )
 from valuation.schema import load_yaml
 from pathlib import Path
@@ -143,9 +144,33 @@ def test_failure_probability_and_bridge():
     assert close(res.upside, res.per_share / 200.0 - 1.0)
 
 
+def test_reinvestment_lag_zero_to_three():
+    """Year t reinvests (Rev_{t+lag} - Rev_{t+lag-1}) / S/C; past the horizon revenue grows at terminal growth."""
+    # Revenues: 1,000 / 1,100 / 1,210 / 1,331 / 1,464.1 / 1,610.51, then 4% forever:
+    # 1,674.9304 / 1,741.927616 / 1,811.60472064.  S/C is 2.0, so each year's reinvestment is half a step.
+    expected = {
+        0: [50.0, 55.0, 60.5, 66.55, 73.205],
+        1: [55.0, 60.5, 66.55, 73.205, 32.2102],
+        2: [60.5, 66.55, 73.205, 32.2102, (1741.927616 - 1674.9304) / 2],
+        3: [66.55, 73.205, 32.2102, (1741.927616 - 1674.9304) / 2, (1811.60472064 - 1741.927616) / 2],
+    }
+    for lag, reinvestments in expected.items():
+        res = run_scenario(hand_inputs(reinvestment_lag=lag), base_year(), bridge(), 200.0)
+        assert [r.reinvestment_source for r in res.rows] == ["sales_to_capital"] * 5
+        for row, want in zip(res.rows, reinvestments):
+            assert close(row.reinvestment, want), (lag, row.year, row.reinvestment, want)
+    # a longer lag charges each year for growth further out, so year 1 spends more the longer the lag
+    firsts = [run_scenario(hand_inputs(reinvestment_lag=k), base_year(), bridge(), 200.0).rows[0].reinvestment
+              for k in (0, 1, 2, 3)]
+    assert firsts == sorted(firsts)
+    # an unknown lag is refused by the validator, not silently taken (see test_schema)
+    assert close(run_scenario(hand_inputs(reinvestment_lag=1), base_year(), bridge(), 200.0).operating_assets,
+                 2313.3333333333335, rel=1e-9)
+
+
 def test_ten_year_fade_reference():
-    inp = fade_inputs(hand_inputs())
-    assert inp.horizon == 10
+    inp = fade_years(hand_inputs())
+    assert inp.horizon == 10 and inp.explicit_years == 5
     assert [round(g, 6) for g in inp.growth[5:]] == [0.088, 0.076, 0.064, 0.052, 0.04]
     assert inp.margin == [0.20] * 10
     assert inp.reinvestment_override == [None] * 10
@@ -263,7 +288,8 @@ def test_compute_weighted_and_management(example):
     assert close(w.per_share, expected)
     assert res.scenarios["management"].inputs.weight is None
     for sc in res.scenarios.values():
-        assert sc.fade_reference is not None and sc.fade_reference.inputs.horizon == 10
+        assert sc.reference is not None and sc.reference.inputs.horizon == 10
+        assert sc.reference_label == "10-year fade"
         assert close(sc.enterprise_value, 70.0 * 870 + 4200 + 300 + 0 + 100 - 1500 - 200)
     assert res.scenarios["bull"].rows[0].reinvestment_source == "override"
 
@@ -338,3 +364,87 @@ def test_null_beta_and_debt_to_equity_are_derived(example):
     doc["cost_of_capital"]["build"]["damodaran_industry"]["value"] = "No Such Industry"
     with pytest.raises(EngineError):
         compute(doc, MARKET)
+
+
+# --------------------------------------------------------------------------- #
+# Section 18.2: the default ten-year structure and the reference swap
+# --------------------------------------------------------------------------- #
+
+def test_horizon_defaults_to_ten(example):
+    """A file with no `horizon` key is a ten-year model with five explicit years (section 18.2)."""
+    doc = copy.deepcopy(example)
+    del doc["horizon"]
+    res = compute(doc, MARKET)
+    assert res.horizon == 10 and res.reference_label == "5-year stop"
+    for sc in res.scenarios.values():
+        assert len(sc.rows) == 10 and sc.inputs.explicit_years == 5
+
+
+def test_five_entry_lists_at_horizon_ten_equal_a_ten_entry_twin(example):
+    """The rule of section 18.2 must reproduce, to the dollar, what an explicit ten-entry file gives."""
+    five = copy.deepcopy(example)
+    five["horizon"] = 10
+    res_five = compute(five, MARKET)
+
+    ten = copy.deepcopy(example)
+    ten["horizon"] = 10
+    for name in ("bear", "base", "bull", "management"):
+        s = ten["scenarios"][name]
+        g5 = s["revenue_growth"]["values"][4]
+        gt = MARKET.risk_free_rate if s["terminal"]["growth"]["value"] == "riskfree" else s["terminal"]["growth"]["value"]
+        s["revenue_growth"]["values"] = list(s["revenue_growth"]["values"]) + [g5 - (g5 - gt) * k / 5 for k in range(1, 6)]
+        s["operating_margin"]["values"] = list(s["operating_margin"]["values"]) + [s["operating_margin"]["values"][4]] * 5
+        s["reinvestment_override"]["values"] = list(s["reinvestment_override"]["values"]) + [None] * 5
+    res_ten = compute(ten, MARKET)
+
+    for name in ("bear", "base", "bull", "management"):
+        a, b = res_five.scenarios[name], res_ten.scenarios[name]
+        assert close(a.operating_assets, b.operating_assets, rel=1e-12), name
+        assert close(a.per_share, b.per_share, rel=1e-12), name
+    # ... and the old fade_years helper is exactly what the engine applied
+    inp = scenario_inputs(five, "base", build_cost_of_capital(five, MARKET))
+    hand = fade_years(replace(inp, growth=inp.growth[:5], margin=inp.margin[:5],
+                              reinvestment_override=inp.reinvestment_override[:5], explicit_years=None))
+    assert [round(g, 12) for g in inp.growth] == [round(g, 12) for g in hand.growth]
+    assert inp.margin == hand.margin
+
+
+def test_reference_swaps_with_the_horizon(example):
+    """Horizon 10 references the 5-year stop and horizon 5 the 10-year fade, each equal to the real run."""
+    five = copy.deepcopy(example)
+    five["horizon"] = 5
+    ten = copy.deepcopy(example)
+    ten["horizon"] = 10
+    r5, r10 = compute(five, MARKET), compute(ten, MARKET)
+    assert r5.reference_label == "10-year fade" and r10.reference_label == "5-year stop"
+    for name in ("bear", "base", "bull", "management"):
+        assert len(r10.scenarios[name].reference.rows) == 5
+        assert len(r5.scenarios[name].reference.rows) == 10
+        # the ten-year model's 5-year-stop reference is the five-year run of the same file
+        assert close(r10.scenarios[name].reference.per_share, r5.scenarios[name].per_share, rel=1e-12), name
+        # and the five-year model's 10-year-fade reference is the ten-year run of the same file
+        assert close(r5.scenarios[name].reference.per_share, r10.scenarios[name].per_share, rel=1e-12), name
+        assert r10.scenarios[name].reference_label == "5-year stop"
+    assert close(r10.weighted.reference_per_share, r5.weighted.per_share, rel=1e-12)
+    assert close(r5.weighted.reference_per_share, r10.weighted.per_share, rel=1e-12)
+
+
+def test_stop_years_holds_tax_and_cost_of_capital_at_their_start_values():
+    inp = fade_years(hand_inputs())
+    stop = stop_years(inp)
+    assert stop.horizon == 5 and stop.explicit_years is None
+    assert tax_path(stop) == [0.20] * 5 and wacc_path(stop) == [0.10] * 5
+    assert reference_inputs(inp).name.endswith("(5-year stop)")
+    assert reference_inputs(hand_inputs()).name.endswith("(10-year fade)")
+
+
+def test_terminal_roic_at_or_above_todays_return_warns(example):
+    doc = copy.deepcopy(example)
+    # base-year ROIC is 7.19%; the base case's terminal ROIC is 8.75% + 3 points, so it warns
+    res = compute(doc, MARKET)
+    assert any("terminal return on capital" in w and "base-year return on capital" in w for w in res.warnings)
+    assert any("terminal return on capital" in w for w in res.scenarios["base"].warnings)
+    # a company earning far more today than the terminal settings allow does not warn
+    doc["base_year"]["invested_capital"]["value"] = 2000.0
+    quiet = compute(doc, MARKET)
+    assert not any("base-year return on capital" in w for w in quiet.warnings)

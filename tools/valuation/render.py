@@ -15,7 +15,7 @@ from . import datasets
 from .analysis import Analysis, Grid
 from .engine import ScenarioResult, ValuationResult
 from .market import FRED_URL, YAHOO_URLS
-from .schema import SCENARIO_NAMES, get_path, is_riskfree
+from .schema import EXPLICIT_YEARS, SCENARIO_NAMES, get_path, is_riskfree
 
 CASE_ORDER = ("bear", "base", "bull", "management")
 GLOSSARY = [
@@ -31,6 +31,9 @@ GLOSSARY = [
                          "times shares, plus debt and other claims, minus cash and non-operating assets."),
     ("Return on invested capital", "After-tax operating income divided by the capital tied up in the business; "
                                    "it shows how much profit each dollar of capital earns."),
+    ("Reference value", "The same case run with the other forecast length: a ten-year forecast is shown against the "
+                        "value it would have if it stopped at year 5, and a five-year forecast against the value it "
+                        "would have with five more years in which growth eases to the terminal rate."),
 ]
 
 
@@ -89,6 +92,21 @@ def _cell_reason(doc: dict[str, Any], path: str) -> str:
 # Sections
 # --------------------------------------------------------------------------- #
 
+def _explicit_years(result: ValuationResult) -> int:
+    """The years the analyst set: five when the file carries five-entry lists at a ten-year horizon."""
+    for sc in result.scenarios.values():
+        if sc.inputs.explicit_years:
+            return int(sc.inputs.explicit_years)
+    return result.horizon
+
+
+def _horizon_words(result: ValuationResult) -> str:
+    n = _explicit_years(result)
+    if n < result.horizon:
+        return f"horizon {result.horizon} years ({n} set in the assumptions, the rest by rule)"
+    return f"horizon {result.horizon} years"
+
+
 def header(result: ValuationResult) -> str:
     m = result.market
     rows = [
@@ -98,7 +116,7 @@ def header(result: ValuationResult) -> str:
         ("Risk-free rate (10-year Treasury)", pct(m.risk_free_rate, 2), f"{m.risk_free_date or ''} ({m.risk_free_source})"),
         ("Equity risk premium", pct(m.equity_risk_premium, 2), f"{m.erp_date or ''} ({m.erp_source})"),
         ("Computed", result.computed_at, ""),
-        ("Engine", f"valuation {result.engine_version}", f"horizon {result.horizon} years; money in USD millions"),
+        ("Engine", f"valuation {result.engine_version}", f"{_horizon_words(result)}; money in USD millions"),
     ]
     lead = (f"This file is produced by the valuation engine from `assumptions.yaml` for {result.company}. "
             "The owner's judgment lives in that file; this file only shows the arithmetic and the market "
@@ -108,9 +126,10 @@ def header(result: ValuationResult) -> str:
 
 
 def results_table(result: ValuationResult) -> str:
+    label = result.reference_label or "reference"
     headers = ["Case", "Weight", "Operating assets", "Enterprise value today", "Equity value",
                "Value per share", "Price", "Upside / downside", "Terminal share of operating assets",
-               "10-year-fade value per share"]
+               f"{label} value per share"]
     rows: list[list[str]] = []
     for name in _cases(result):
         sc = result.scenarios.get(name)
@@ -120,21 +139,25 @@ def results_table(result: ValuationResult) -> str:
             why = "; ".join(result.stopped.get(name, [])) or result.skipped.get(name, "not computed")
             rows.append([name, wtxt, f"not computed: {why}"] + [""] * 7)
             continue
-        fade = sc.fade_reference.per_share if sc.fade_reference else None
+        ref = sc.reference.per_share if sc.reference else None
         rows.append([name, wtxt, money(sc.operating_assets), money(sc.enterprise_value), money(sc.equity),
                      per_share(sc.per_share), per_share(sc.price), pct(sc.upside), pct(sc.terminal_share),
-                     per_share(fade)])
+                     per_share(ref)])
     if result.weighted:
         w = result.weighted
         rows.append(["weighted expected", "100%", money(w.operating_assets), money(w.enterprise_value),
                      money(w.equity), per_share(w.per_share), per_share(result.market.price), pct(w.upside),
-                     pct(w.terminal_share), per_share(w.fade_per_share)])
+                     pct(w.terminal_share), per_share(w.reference_per_share)])
     else:
         rows.append(["weighted expected", "", "not computed: a weighted scenario is missing"] + [""] * 7)
+    if result.horizon > EXPLICIT_YEARS:
+        last = ("the last column stops the same forecast at year 5 and takes the terminal value there, so the cost "
+                "of the shorter structure is visible")
+    else:
+        last = ("the last column stretches the same forecast to ten years, with growth easing to the terminal rate "
+                "over years 6 to 10, so the cost of stopping at year 5 is visible")
     lead = ("One row per case. Operating assets is what the forecast cash flows are worth today; enterprise "
-            "value is what the market pays for the same thing; the last column shows the value if the "
-            "forecast were stretched to ten years with a growth fade, so the cost of the five-year cutoff is "
-            "visible.")
+            f"value is what the market pays for the same thing; {last}.")
     return "## 1. Results\n\n" + lead + "\n\n" + table(headers, rows)
 
 
@@ -190,7 +213,9 @@ def _scalar_rows(result: ValuationResult, cases: list[str]) -> list[list[str]]:
         ["Weight"] + [("not weighted" if n == "management" else pct(float(get_path(doc, f"scenarios.{n}.weight") or 0), 0))
                       for n in cases],
         ["Sales-to-capital, years 1-5"] + cell("sales_to_capital.value", lambda x: num(x, 2)),
-        ["Sales-to-capital, years 6-10 (fade reference)"] + cell("sales_to_capital.value_late", lambda x: num(x, 2)),
+        [("Sales-to-capital, years 6-10" if result.horizon > EXPLICIT_YEARS
+          else "Sales-to-capital, years 6-10 (10-year-fade reference only)")]
+        + cell("sales_to_capital.value_late", lambda x: num(x, 2)),
         ["Tax rate, explicit years"] + cell("tax_rate.start", pct),
         ["Tax rate, terminal"] + cell("tax_rate.terminal", pct),
         ["Cost of capital, explicit years"] + [col(n, scen_wacc) for n in cases],
@@ -201,14 +226,43 @@ def _scalar_rows(result: ValuationResult, cases: list[str]) -> list[list[str]]:
     ]
 
 
+def _year_columns(result: ValuationResult, cases: list[str], key: str) -> int:
+    """How many year columns a per-year input needs: the longest list the cases carry."""
+    lengths = [len(get_path(result.assumptions, f"scenarios.{n}.{key}.values") or []) for n in cases]
+    return max([n for n in lengths if n] or [result.horizon])
+
+
 def _year_table(result: ValuationResult, cases: list[str], key: str, fmt, null_text: str) -> str:
     doc = result.assumptions
-    T = result.horizon
+    T = _year_columns(result, cases, key)
     rows = []
     for n in cases:
-        values = get_path(doc, f"scenarios.{n}.{key}.values") or [None] * T
+        values = (get_path(doc, f"scenarios.{n}.{key}.values") or [None] * T)[:T]
         rows.append([n] + [null_text if x is None else fmt(float(x)) for x in values] + [""] * (T - len(values)))
     return table(["Case"] + [f"Year {t}" for t in range(1, T + 1)], rows)
+
+
+def fade_sentence(year5_growth: float | None, last_growth: float | None, year5_margin: float | None,
+                  *, terminal_words: str | None = None) -> str:
+    """"growth eases from 20.0% to 4.2%; margin holds at 26.0%" - the rule of section 18.2 in words."""
+    falling = (year5_growth is not None and last_growth is not None and last_growth < year5_growth)
+    to = terminal_words or pct(last_growth)
+    return (f"growth {'eases' if falling else 'moves'} from {pct(year5_growth)} to {to}; "
+            f"margin holds at {pct(year5_margin)}")
+
+
+def _by_rule_note(result: ValuationResult) -> str:
+    """One line per case under the per-year tables when years 6-10 come from the rule of section 18.2."""
+    n = _explicit_years(result)
+    if n >= result.horizon:
+        return ""
+    lines = [f"- {name}: " + fade_sentence(sc.inputs.growth[n - 1], sc.inputs.growth[-1], sc.inputs.margin[n - 1])
+             + f" through year {result.horizon}."
+             for name, sc in result.scenarios.items()]
+    return (f"\nYears {n + 1}-{result.horizon} are built by rule from year {n}, not written in the assumptions: "
+            "growth moves in equal steps to terminal growth, the margin holds at its year-"
+            f"{n} level, per-year reinvestment figures stop, and sales-to-capital switches to the "
+            f"years {n + 1}-{result.horizon} ratio.\n\n" + "\n".join(lines) + "\n")
 
 
 def assumptions_section(result: ValuationResult) -> str:
@@ -220,7 +274,7 @@ def assumptions_section(result: ValuationResult) -> str:
              "", "### Revenue growth by year", "", _year_table(result, cases, "revenue_growth", pct, "null"),
              "", "### Operating margin by year", "", _year_table(result, cases, "operating_margin", pct, "null"),
              "", "### Reinvestment override by year (USD millions; blank means sales-to-capital is used)", "",
-             _year_table(result, cases, "reinvestment_override", money, "")]
+             _year_table(result, cases, "reinvestment_override", money, ""), _by_rule_note(result)]
     parts += ["", "### Reasoning", ""]
     cell_paths = [
         ("revenue_growth", "Revenue growth"), ("operating_margin", "Operating margin"),
@@ -367,18 +421,27 @@ def tables_section(result: ValuationResult) -> str:
 
 def year_by_year(result: ValuationResult, name: str = "base") -> str:
     sc = result.scenarios.get(name) or next(iter(result.scenarios.values()))
+    explicit = sc.inputs.explicit_years or sc.inputs.horizon
     rows = []
     for r in sc.rows:
         reinv = money(r.reinvestment) + (" (override)" if r.reinvestment_source == "override" else "")
-        rows.append([str(r.year), money(r.revenue), pct(r.growth), pct(r.margin), money(r.ebit_after_tax), reinv,
-                     money(r.fcff), num(r.discount_factor, 4), money(r.pv), pct(r.roic)])
+        rows.append([str(r.year), "by rule" if r.year > explicit else "from the assumptions",
+                     money(r.revenue), pct(r.growth),
+                     pct(r.margin), money(r.ebit_after_tax), reinv, money(r.fcff), num(r.discount_factor, 4),
+                     money(r.pv), pct(r.roic)])
     t = sc.terminal
-    rows.append(["Terminal (year T+1)", money(t.revenue), pct(t.growth), pct(t.margin), money(t.ebit_after_tax),
-                 money(t.reinvestment), money(t.fcff), num(sc.rows[-1].discount_factor, 4), money(t.pv), pct(t.roic)])
+    rows.append(["Terminal (year T+1)", "terminal settings", money(t.revenue), pct(t.growth), pct(t.margin),
+                 money(t.ebit_after_tax), money(t.reinvestment), money(t.fcff),
+                 num(sc.rows[-1].discount_factor, 4), money(t.pv), pct(t.roic)])
+    extra = ""
+    if explicit < sc.inputs.horizon:
+        extra = (f" Years 1-{explicit} come from the assumptions; years {explicit + 1}-{sc.inputs.horizon} are marked "
+                 "\"by rule\": growth eases to terminal growth, the margin holds, and the tax rate and cost of "
+                 "capital move to their terminal values.")
     lead = (f"The {sc.name} case, year by year. Reinvestment in a year buys the next year's growth, so the "
-            "last explicit year's reinvestment is sized for terminal growth.")
+            f"last forecast year's reinvestment is sized for terminal growth.{extra}")
     return f"## 5. {sc.name.capitalize()} case, year by year\n\n{lead}\n\n" + table(
-        ["Year", "Revenue", "Growth", "Margin", "After-tax operating income", "Reinvestment",
+        ["Year", "How the year is set", "Revenue", "Growth", "Margin", "After-tax operating income", "Reinvestment",
          "Free cash flow", "Discount factor", "Present value", "Implied ROIC"], rows)
 
 
@@ -420,7 +483,8 @@ def reverse_section(analysis: Analysis) -> str:
 
 def diagnostics_section(analysis: Analysis) -> str:
     parts = ["## 8. Diagnostics", "",
-             "Damodaran's six checks. Industry figures come from the cached datasets and carry the dataset date."]
+             "Damodaran's six checks and the step into the terminal year. Industry figures come from the cached "
+             "datasets and carry the dataset date."]
     if analysis.industry:
         f = analysis.industry
         names = {v.matched_name for v in (f.unlevered_beta_cash_corrected, f.cost_of_capital, f.sales_to_capital,

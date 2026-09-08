@@ -35,6 +35,8 @@ def test_null_and_engine_stops_become_words():
         "Bear case not computed: Bear case, revenue growth, Year 3 is empty")
     assert plain_message("scenarios.base.operating_margin.values: expected 5 entries (horizon 5), got 4") == (
         "Base case, operating margin needs 5 yearly values and has 4")
+    assert plain_message("scenarios.base.operating_margin.values: expected 5 or 10 entries (horizon 10), got 7") == (
+        "Base case, operating margin needs 5 or 10 yearly values and has 7")
     assert plain_message("market.price is a manual value (70.00) from assumptions.yaml or --set, not fetched") == (
         "Market: price is a value written in the assumptions file (70.00), not fetched")
     assert "--set" not in plain_message("risk-free fetch failed (x); pass --set market.risk_free_rate=<decimal> or write a decimal in assumptions.yaml")
@@ -44,7 +46,7 @@ def test_describe_path_and_show_value_match_the_pages():
     assert describe_path("scenarios.base.revenue_growth.values.0") == ("Base case, revenue growth, Year 1", "pct")
     assert describe_path("scenarios.bear.reinvestment_override.values.1") == ("Bear case, reinvestment override, Year 2", "money")
     assert describe_path("scenarios.bull.terminal.growth.value") == ("Bull case, terminal growth", "growth")
-    assert describe_path("scenarios.bull.terminal.roic_premium.allow_large_premium") == ("Bull case, 'Allow a premium above 5 points'", "bool")
+    assert describe_path("scenarios.bull.terminal.roic_premium.allow_large_premium") == ("Bull case, 'Allow a large premium'", "bool")
     assert describe_path("scenarios.base.story") == ("Base case, story", "text")
     assert describe_path("scenarios.base.sales_to_capital.reason") == ("Base case, sales-to-capital, years 1-5 reason", "text")
     assert describe_path("bridge.diluted_shares.value") == ("Bridge: diluted shares (millions)", "shares")
@@ -114,3 +116,30 @@ def test_warning_lines_read_like_the_notes():
     assert skipped == "Management case not computed; its reason and the guidance on record are on the Revenue growth page."
     assert "used as" not in skipped
     assert warning_sentence("market.price is a manual value (70.00) from assumptions.yaml or --set, not fetched").startswith("Market: price")
+
+
+def test_the_new_terminal_and_transition_messages_read_as_sentences():
+    """Section 18.2 and 18.4 rule 5: the premium ceilings, the bear rule, and the transition flag."""
+    assert plain_message("scenarios.bull.terminal.roic_premium.value: 0.15 is above 0.12 for the bull case; set "
+                         "allow_large_premium: true and give a reason (section 18.4 rule 5)") == (
+        "Bull case, terminal return-on-capital premium 15.00% is above 12 points; tick 'Allow a large premium' on "
+        "the Terminal value page or lower it")
+    assert plain_message("scenarios.base.terminal.roic_premium.value: 0.09 is above 0.08 for the base case; set "
+                         "allow_large_premium: true and give a reason (section 18.4 rule 5)").endswith(
+        "is above 8 points; tick 'Allow a large premium' on the Terminal value page or lower it")
+    assert plain_message("bull: terminal ROIC premium 0.150 is above 0.12 (allow_large_premium is true; reason: "
+                         "a durable moat)") == (
+        "Bull case: the terminal return-on-capital premium 15.00% is above 12 points, allowed with the reason: "
+        "a durable moat")
+    assert plain_message("scenarios.bear.terminal.roic_premium.value: 0.02 must be 0 in the bear case, where the "
+                         "moat is gone (section 18.4 rule 5)") == (
+        "Bear case, terminal return-on-capital premium is 2.00% and must be zero: the bear case assumes the "
+        "advantage is gone, so the return on capital falls to the cost of capital")
+    assert plain_message("base: terminal return on capital 11.75% is at or above the base-year return on capital "
+                         "23.90%; a mature company should earn less than the company earns today") == (
+        "Base case: the terminal return on capital 11.75% is at or above the base-year return on capital 23.90%; "
+        "a mature company should earn less than the company earns today")
+    text = plain_message("base: the terminal year's free cash flow (2,583) is far below the year-10 free cash flow "
+                         "(4,198); the terminal settings and the year-10 inputs disagree")
+    assert text.startswith("Base case: the terminal year's free cash flow (2,583) is far below the year-10")
+    assert "scenarios" not in text and "18.2" not in text

@@ -13,8 +13,9 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
-from .render import _esc, table
-from .schema import SCENARIO_NAMES as CASE_ORDER_ALL, get_path, is_riskfree
+from .render import _esc, fade_sentence, table
+from .schema import EXPLICIT_YEARS, SCENARIO_NAMES as CASE_ORDER_ALL, get_path, horizon_of, is_riskfree
+from .schema import large_premium_ceiling
 
 DASH = "—"          # an empty cell: nothing defensible, or not given
 SCENARIO_LABELS = {"bear": "Bear", "base": "Base", "bull": "Bull", "management": "Management"}
@@ -113,8 +114,20 @@ def _cases(doc: dict[str, Any]) -> list[str]:
 
 
 def _horizon(doc: dict[str, Any]) -> int:
-    h = doc.get("horizon", 5)
-    return int(h) if isinstance(h, int) and not isinstance(h, bool) else 5
+    h = doc.get("horizon", None)
+    if isinstance(h, int) and not isinstance(h, bool) and h > 0:
+        return h
+    return horizon_of(doc)
+
+
+def _year_columns(doc: dict[str, Any], key: str) -> int:
+    """The year columns the per-year tables need: the longest list the cases carry, or the horizon."""
+    lengths = []
+    for name in _cases(doc):
+        values = _cell(doc, f"scenarios.{name}.{key}", "values")
+        if isinstance(values, list) and values:
+            lengths.append(len(values))
+    return max(lengths) if lengths else _horizon(doc)
 
 
 # --------------------------------------------------------------------------- #
@@ -134,7 +147,14 @@ def header(doc: dict[str, Any]) -> str:
     ]
     if doc.get("owner_edited"):
         rows.append(["Owner edited (last save from the app)", _text(doc.get("owner_edited"))])
-    rows.append(["Horizon", f"{_horizon(doc)} explicit years, then a terminal value"])
+    T = _horizon(doc)
+    n = _year_columns(doc, "revenue_growth")
+    if n < T:
+        horizon_text = (f"{T} forecast years, then a terminal value: years 1-{n} are set below and years "
+                        f"{n + 1}-{T} are built by rule")
+    else:
+        horizon_text = f"{T} forecast years, then a terminal value"
+    rows.append(["Horizon", horizon_text])
     rows.append(["Currency and units", f"{_text(doc.get('currency', 'USD'))}, {_text(doc.get('units', 'millions'))}"])
     log = doc.get("changelog")
     if isinstance(log, list) and log:
@@ -173,10 +193,39 @@ def _terminal_growth(doc: dict[str, Any], name: str) -> str:
     return _pct(x, 2)
 
 
+def by_rule_lines(doc: dict[str, Any]) -> list[str]:
+    """One line per case describing the years the rule of section 18.2 builds, or nothing.
+
+    The line is printed only when the file's per-year lists are shorter than the horizon, which is
+    the normal case: five years judged, five built by rule.  Terminal growth may be the word
+    ``riskfree``, whose value is not known until a run fetches the rate, so it is named in words.
+    """
+    T = _horizon(doc)
+    n = _year_columns(doc, "revenue_growth")
+    if n >= T:
+        return []
+    out = []
+    for name in _cases(doc):
+        growth = _cell(doc, f"scenarios.{name}.revenue_growth", "values")
+        margin = _cell(doc, f"scenarios.{name}.operating_margin", "values")
+        g5 = growth[n - 1] if isinstance(growth, list) and len(growth) >= n else None
+        m5 = margin[n - 1] if isinstance(margin, list) and len(margin) >= n else None
+        raw = _cell(doc, f"scenarios.{name}.terminal.growth")
+        words = "the risk-free rate" if is_riskfree(raw) else (_pct(raw, 1) if raw is not None else DASH)
+        g_last = None if is_riskfree(raw) or raw is None else float(raw)
+        if g5 is None or m5 is None:
+            continue
+        sentence = fade_sentence(g5, g_last, m5, terminal_words=words)
+        out.append(f"- {SCENARIO_LABELS[name]}, years {n + 1}-{T} by rule: {sentence} through year {T}.")
+    return out
+
+
 def scenario_table(doc: dict[str, Any]) -> str:
     cases = _cases(doc)
     T = _horizon(doc)
-    late = "years 6-10" if T == 10 else "years 6-10 of the 10-year reference"
+    late = "years 6-10" if T > EXPLICIT_YEARS else "years 6-10 of the 10-year reference"
+    ceilings = ", ".join(f"{SCENARIO_LABELS[n].lower()} {large_premium_ceiling(n) * 100:.0f}"
+                         for n in ("base", "bull") if n in cases)
 
     def row(label: str, fn) -> list[str]:
         return [label] + [fn(n) for n in cases]
@@ -184,27 +233,45 @@ def scenario_table(doc: dict[str, Any]) -> str:
     def cell(path: str, fmt):
         return lambda n: fmt(_cell(doc, f"scenarios.{n}.{path.rsplit('.', 1)[0]}", path.rsplit(".", 1)[1]))
 
+    def years(key: str, fmt):
+        n = _year_columns(doc, key)
+        return lambda name: _years(_cell(doc, f"scenarios.{name}.{key}", "values"), fmt, n)
+
+    def span(key: str) -> str:
+        n = _year_columns(doc, key)
+        return f"years 1-{n}" + (f" (years {n + 1}-{T} by rule)" if n < T else "")
+
     rows = [
         row("Weight", lambda n: "not weighted" if n == "management" else _pct(get_path(doc, f"scenarios.{n}.weight"))),
-        row(f"Revenue growth, years 1-{T}", lambda n: _years(_cell(doc, f"scenarios.{n}.revenue_growth", "values"), _pct, T)),
-        row(f"Operating margin, years 1-{T}", lambda n: _years(_cell(doc, f"scenarios.{n}.operating_margin", "values"), _pct, T)),
+        row(f"Revenue growth, {span('revenue_growth')}", years("revenue_growth", _pct)),
+        row(f"Operating margin, {span('operating_margin')}", years("operating_margin", _pct)),
         row("Sales-to-capital, years 1-5", cell("sales_to_capital.value", lambda x: _num(x, 2))),
         row(f"Sales-to-capital, {late}", cell("sales_to_capital.value_late", lambda x: _num(x, 2))),
-        row(f"Reinvestment override, years 1-{T} (USD millions)",
-            lambda n: _years(_cell(doc, f"scenarios.{n}.reinvestment_override", "values"), _money, T)),
-        row("Tax rate, explicit years", cell("tax_rate.start", _pct)),
+        row(f"Reinvestment override, years 1-{_year_columns(doc, 'reinvestment_override')} (USD millions"
+            + ("; later years by rule)" if _year_columns(doc, "reinvestment_override") < T else ")"),
+            years("reinvestment_override", _money)),
+        row("Tax rate, forecast years", cell("tax_rate.start", _pct)),
         row("Tax rate, terminal year onwards", cell("tax_rate.terminal", _pct)),
         row("Cost of capital override", lambda n: _pct(get_path(doc, f"scenarios.{n}.cost_of_capital_override"), 2)),
         row("Terminal growth", lambda n: _terminal_growth(doc, n)),
         row("Terminal growth may exceed the risk-free rate", cell("terminal.growth.allow_above_riskfree", _yes)),
         row("Terminal return on capital: points above the cost of capital", cell("terminal.roic_premium.value", lambda x: _pct(x, 2))),
-        row("A premium above 5 points is allowed", cell("terminal.roic_premium.allow_large_premium", _yes)),
+        row(f"A large premium is allowed (above {ceilings} points)" if ceilings else "A large premium is allowed",
+            cell("terminal.roic_premium.allow_large_premium", _yes)),
     ]
     if "management" in cases:
         rows.insert(1, row("Computable", lambda n: _yes(get_path(doc, "scenarios.management.computable")) if n == "management" else "always"))
     lead = ("Rows are inputs and columns are cases. Per-year cells read year 1 / year 2 / ... in order. "
             "The reasons and sources behind each cell follow the table.")
-    return "## 2. Scenario inputs\n\n" + lead + "\n\n" + table(["Input"] + [SCENARIO_LABELS[n] for n in cases], rows)
+    parts = ["## 2. Scenario inputs", "", lead, "",
+             table(["Input"] + [SCENARIO_LABELS[n] for n in cases], rows)]
+    lines = by_rule_lines(doc)
+    if lines:
+        parts += ["", f"Years {_year_columns(doc, 'revenue_growth') + 1}-{T} are not written in the file; the engine "
+                      "builds them from the last year set above: growth moves in equal steps to terminal growth, the "
+                      "margin holds, per-year reinvestment figures stop, and sales-to-capital switches to the years "
+                      "6-10 ratio.", ""] + lines
+    return "\n".join(parts)
 
 
 REASON_ROWS = [

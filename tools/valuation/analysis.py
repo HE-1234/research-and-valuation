@@ -1,4 +1,10 @@
-"""Sensitivity grids, reverse DCF, and Damodaran's six diagnostics (AGENTS.md section 18.5, items 7-9).
+"""Sensitivity grids, reverse DCF, and the diagnostics of AGENTS.md section 18.5 items 7-9.
+
+Damodaran's six checks, plus the transition check of section 18.2: the terminal year's free cash
+flow and return on capital against the last explicit year's.  A small notch downwards is normal,
+because the terminal year reinvests ``g / ROIC`` whatever the last explicit year spent (his own
+Alphabet Feb 2024 sheet drops 10.7%, Microsoft 21%), so the check only flags a fall of more than
+:data:`TRANSITION_DROP` or a terminal return below half the last year's implied return.
 
 Everything here re-runs :func:`engine.run_scenario` on modified :class:`ScenarioInputs`;
 nothing touches the YAML.
@@ -16,6 +22,9 @@ from .engine import (
 )
 from .schema import get_path
 
+HISTORY_GAP = 0.05      # points of growth beyond which the "history is context" note is printed (rule 11)
+TRANSITION_DROP = 0.15  # a terminal-year cash flow this far below the last explicit year's is a cliff
+TRANSITION_ROIC = 0.5   # a terminal return below this share of the last year's implied return is a cliff
 WACC_STEPS = (-0.02, -0.01, 0.0, 0.01, 0.02)
 TERMINAL_GROWTH_STEPS = (-0.01, -0.005, 0.0, 0.005, 0.01)
 GROWTH_STEPS = (-0.04, -0.02, 0.0, 0.02, 0.04)
@@ -70,7 +79,7 @@ class Analysis:
 # --------------------------------------------------------------------------- #
 
 def shift_growth(inp: ScenarioInputs, delta: float) -> ScenarioInputs:
-    """Move every explicit year's growth by ``delta`` (so the average moves by ``delta``)."""
+    """Move every forecast year's growth by ``delta`` (so the average moves by ``delta``)."""
     return replace(inp, growth=[g + delta for g in inp.growth])
 
 
@@ -223,7 +232,8 @@ def _optional_cell(doc: dict[str, Any], path: str) -> float | None:
 
 
 def diagnostics(result: ValuationResult, res: ScenarioResult,
-                figures: datasets.IndustryFigures | None) -> list[Diagnostic]:
+                figures: datasets.IndustryFigures | None,
+                warnings: list[str] | None = None) -> list[Diagnostic]:
     doc = result.assumptions
     out: list[Diagnostic] = []
     avg = average_growth(res)
@@ -233,7 +243,11 @@ def diagnostics(result: ValuationResult, res: ScenarioResult,
     own = _optional_cell(doc, "diagnostics.historical_revenue_cagr")
     rows.append(("Company's own five-year history", _pct(own) if own is not None
                  else "not recorded in the assumptions"))
-    out.append(Diagnostic("1. Revenue growth against the industry and the company's own history", rows))
+    note = None
+    if own is not None and abs(avg - own) > HISTORY_GAP:
+        note = ("The company's own history is context, not an anchor: a business whose mix has changed does not "
+                "grow at the rate its old mix produced.")
+    out.append(Diagnostic("1. Revenue growth against the industry and the company's own history", rows, note=note))
 
     last = res.rows[-1]
     size = _optional_cell(doc, "diagnostics.final_year_market_size")
@@ -280,7 +294,67 @@ def diagnostics(result: ValuationResult, res: ScenarioResult,
                      if ratio is not None else "no price"))
     out.append(Diagnostic("6. Value against price", rows, flag=flag,
                           note="Flagged when value per share is above 2x or below 0.5x the price." if flag else None))
+    out.append(transition_check(result, warnings))
     return out
+
+
+def transition_check(result: ValuationResult, warnings: list[str] | None = None) -> Diagnostic:
+    """Section 18.2: the step from the last explicit year into the terminal year, case by case.
+
+    Reports the terminal year's free cash flow and return on capital against the last explicit
+    year's, and flags a cliff when the terminal cash flow is the smaller of the two.  A flagged
+    case also gets a line in the run's warnings, because the reviewer must resolve it.
+    """
+    rows: list[tuple[str, str]] = []
+    flag = False
+    last_year = 0
+    for name, sc in result.scenarios.items():
+        last, term = sc.rows[-1], sc.terminal
+        change = fcff_change(last.fcff, term.fcff)
+        hit = transition_flag(last.fcff, term.fcff, last.roic, term.roic)
+        flag = flag or hit
+        last_year = last.year
+        rows.append((f"{name} case, free cash flow (USD millions)",
+                     f"year {last.year} {last.fcff:,.0f} to terminal year {term.fcff:,.0f}"
+                     + ("" if change is None else f", a change of {change * 100:+.1f}%")
+                     + (" (flag)" if hit else "")))
+        rows.append((f"{name} case, return on capital",
+                     f"year {last.year} {_pct(last.roic)} to terminal year {_pct(term.roic)}"))
+        if hit and warnings is not None:
+            warnings.append(
+                f"{name}: the terminal year's free cash flow ({term.fcff:,.0f}) is far below the year-{last.year} "
+                f"free cash flow ({last.fcff:,.0f}); the terminal settings and the year-{last.year} inputs disagree")
+    note = ("A small drop is normal, because the terminal year reinvests g divided by return on capital. "
+            f"Flagged when the terminal year's cash flow is more than {TRANSITION_DROP * 100:.0f}% below the year-"
+            f"{last_year} figure, or when the terminal return on capital is below half of that year's.")
+    if flag:
+        note = ("A small drop is normal, because the terminal year reinvests g divided by return on capital; a drop "
+                "this large means the terminal settings and the last explicit year disagree. Revisit the terminal "
+                "return on capital or the shape of the last years, rather than accepting the step.")
+    return Diagnostic("7. The step from the last explicit year into the terminal year", rows, flag=flag, note=note)
+
+
+def fcff_change(last_fcff: float, terminal_fcff: float) -> float | None:
+    """The terminal year's free cash flow against the last explicit year's, as a share of the latter."""
+    if last_fcff == 0:
+        return None
+    return (terminal_fcff - last_fcff) / abs(last_fcff)
+
+
+def transition_flag(last_fcff: float, terminal_fcff: float, last_roic: float | None,
+                    terminal_roic: float | None) -> bool:
+    """A cliff, not the normal notch: the cash flow falls too far, or the return on capital halves.
+
+    Damodaran's own published sheets carry a small terminal-year notch (Alphabet February 2024 is
+    10.7% below year 10, Microsoft 21%) because the terminal year reinvests ``g / ROIC`` whatever the
+    last explicit year spent.  Only a bigger step means the two sets of inputs disagree.
+    """
+    change = fcff_change(last_fcff, terminal_fcff)
+    if change is not None and change < -TRANSITION_DROP:
+        return True
+    if last_roic is not None and terminal_roic is not None and last_roic > 0:
+        return terminal_roic < TRANSITION_ROIC * last_roic
+    return False
 
 
 # --------------------------------------------------------------------------- #
@@ -310,7 +384,7 @@ def run_analysis(result: ValuationResult, scenario: str = "base",
     grids = [sensitivity_wacc_growth(res.inputs, base, bridge, price),
              sensitivity_growth_margin(res.inputs, base, bridge, price)]
     reverse = reverse_dcf(res.inputs, base, bridge, price)
-    diags = diagnostics(result, res, figures)
+    diags = diagnostics(result, res, figures, warnings)
     analysis = Analysis(scenario=scenario, grids=grids, reverse=reverse, diagnostics=diags,
                         industry=figures, warnings=warnings)
     result.analysis = analysis

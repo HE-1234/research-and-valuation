@@ -83,11 +83,25 @@ def test_horizon_must_be_five_or_ten(doc):
     assert errors_mentioning(validate(doc), "horizon")
 
 
-def test_per_year_lists_must_have_horizon_entries(doc):
+def test_horizon_defaults_to_ten_and_accepts_five_entry_lists(doc):
+    """Section 18.2: 10 is the default, and five-entry lists are the normal shape at that horizon."""
+    del doc["horizon"]
+    assert validate(doc).ok                                    # the fixture's five-entry lists are fine
     doc["horizon"] = 10
-    v = validate(doc)
-    assert errors_mentioning(v, "scenarios.base.revenue_growth.values: expected 10 entries")
+    assert validate(doc).ok
+
+
+def test_per_year_lists_must_have_five_or_ten_entries(doc):
+    doc["horizon"] = 10
+    doc["scenarios"]["base"]["revenue_growth"]["values"] = [0.2] * 7
+    assert errors_mentioning(validate(doc),
+                             "scenarios.base.revenue_growth.values: expected 5 or 10 entries (horizon 10), got 7")
+    doc["scenarios"]["base"]["revenue_growth"]["values"] = [0.2] * 10
+    assert validate(doc).ok
     doc["horizon"] = 5
+    assert errors_mentioning(validate(doc),
+                             "scenarios.base.revenue_growth.values: expected 5 entries (horizon 5), got 10")
+    doc["scenarios"]["base"]["revenue_growth"]["values"] = [0.2] * 5
     doc["scenarios"]["bear"]["operating_margin"]["values"] = [0.1, 0.1, 0.1, 0.1]
     assert errors_mentioning(validate(doc), "scenarios.bear.operating_margin.values: expected 5 entries")
 
@@ -100,6 +114,22 @@ def test_ten_year_horizon_with_ten_entry_lists_is_valid(doc):
         s["operating_margin"]["values"] = s["operating_margin"]["values"] + [s["operating_margin"]["values"][-1]] * 5
         s["reinvestment_override"]["values"] = [None] * 10
     assert validate(doc).ok
+
+
+def test_reinvestment_lag_accepts_zero_to_three(doc):
+    for lag in (0, 1, 2, 3):
+        doc["switches"]["reinvestment_lag"] = lag
+        v = validate(doc)
+        assert v.ok, (lag, v.errors)
+        if lag == 0:
+            assert any("funds the same year's growth" in w for w in v.warnings)
+        elif lag == 1:
+            assert not any("reinvestment_lag" in w for w in v.warnings)
+        else:
+            assert any(f"reinvestment_lag is {lag}: reinvestment funds the growth of {lag} years later" in w
+                       for w in v.warnings)
+    doc["switches"]["reinvestment_lag"] = 4
+    assert errors_mentioning(validate(doc), "switches.reinvestment_lag: must be 0, 1, 2 or 3, got 4")
 
 
 def test_rates_are_decimals_not_percents(doc):
@@ -120,17 +150,37 @@ def test_growth_written_as_percent_is_rejected_and_large_growth_warned(doc):
     assert v.ok and any("very large for a decimal rate" in w for w in v.warnings)
 
 
-def test_large_roic_premium_requires_flag_and_reason(doc):
-    prem = doc["scenarios"]["bull"]["terminal"]["roic_premium"]
-    prem["value"] = 0.08
-    assert errors_mentioning(validate(doc), "allow_large_premium")
-    prem["allow_large_premium"] = True
-    prem["reason"] = ""
+def test_large_roic_premium_thresholds_are_eight_for_base_and_twelve_for_bull(doc):
+    """Section 18.4 rule 5: soft ceilings of 8 and 12 points, Damodaran's own choices being 4 and 11.5."""
+    bull = doc["scenarios"]["bull"]["terminal"]["roic_premium"]
+    bull["value"] = 0.11                                        # inside the bull ceiling of 12 points
+    assert validate(doc).ok
+    bull["value"] = 0.13
+    assert errors_mentioning(validate(doc), "0.13 is above 0.12 for the bull case; set allow_large_premium")
+    bull["allow_large_premium"] = True
+    bull["reason"] = ""
     assert errors_mentioning(validate(doc), "no reason")
-    prem["reason"] = "durable moat per business.md section 5"
+    bull["reason"] = "durable moat per business.md section 5"
     v = validate(doc)
     assert v.ok
-    assert any("terminal ROIC premium 0.080 is above 0.05" in w for w in v.warnings)
+    assert any("terminal ROIC premium 0.130 is above 0.12" in w for w in v.warnings)
+    # the base case's ceiling is 8 points
+    base = doc["scenarios"]["base"]["terminal"]["roic_premium"]
+    base["value"] = 0.08
+    assert validate(doc).ok
+    base["value"] = 0.09
+    assert errors_mentioning(validate(doc), "0.09 is above 0.08 for the base case; set allow_large_premium")
+
+
+def test_bear_premium_must_be_zero(doc):
+    bear = doc["scenarios"]["bear"]["terminal"]["roic_premium"]
+    bear["value"] = 0.01
+    assert errors_mentioning(validate(doc), "must be 0 in the bear case, where the moat is gone")
+    bear["allow_large_premium"] = True
+    bear["reason"] = "a reason does not help here"
+    assert errors_mentioning(validate(doc), "must be 0 in the bear case")
+    bear["value"] = 0.0
+    assert validate(doc).ok
 
 
 def test_allow_above_riskfree_needs_a_reason(doc):
@@ -234,7 +284,7 @@ def test_unknown_keys_warn(doc):
 
 
 def test_validate_or_raise(doc):
-    doc["horizon"] = 3
+    doc["horizon"] = 7
     with pytest.raises(SchemaError):
         validate_or_raise(doc)
 

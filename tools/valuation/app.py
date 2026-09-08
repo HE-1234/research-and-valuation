@@ -17,8 +17,8 @@ from __future__ import annotations
 import streamlit as st
 
 from valuation.app_core import (
-    _WIDE, STALE_BANNER, baseline_values, company_tickers, compute_result, file_changed_on_disk, horizon, load_company,
-    market_inputs, ranking_for, readout_line, repo_root, working,
+    _WIDE, STALE_BANNER, baseline_values, company_tickers, compute_result, explicit_years, file_changed_on_disk,
+    horizon, load_company, market_inputs, ranking_for, readout_line, repo_root, working,
 )
 from valuation.app_pages import (
     PAGE_TITLES, Ctx, page_cost_of_capital, page_facts, page_operating_margin, page_reinvestment, page_results,
@@ -122,7 +122,9 @@ def main() -> None:
     st.session_state["page"] = idx
     st.session_state.setdefault("visited", {0}).add(idx)
     page = pages[idx]
-    ctx = Ctx(root=root, ticker=ticker, path=path, doc=doc, market=market, result=result, error=error, T=horizon(doc))
+    T = horizon(doc)
+    ctx = Ctx(root=root, ticker=ticker, path=path, doc=doc, market=market, result=result, error=error, T=T,
+              explicit=explicit_years(doc, T))
     readout = readout_line(result, error, market)
 
     if st.session_state.get("last_page_rendered") != idx:

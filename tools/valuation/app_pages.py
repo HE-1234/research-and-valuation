@@ -25,14 +25,14 @@ import streamlit as st
 from valuation import MarketInputs
 from valuation.app_core import (
     _WIDE, CASE_LABELS, METHOD_HELP, METHOD_WORDS, NA, STALE_BANNER, TERMINAL_METHOD_HELP, TERMINAL_METHOD_WORDS,
-    _commit_cb, _restart_cb, _save_cb, _write_cb, changes_table, file_changed_on_disk, heatmap, horizon_control,
-    market_boxes, md, money, num, path_list, pct, pct2, pending_commit, per_share, plain_message, ranking_for,
-    ranking_table, reason_block, result_notes, results_table, shares, static_table, stop_sentence, unsaved_changes,
-    value_chart, w_bool, w_choice, w_line, w_number, w_pct, w_text, w_terminal_growth, warning_sentence, working_notes,
-    year_boxes,
+    _commit_cb, _restart_cb, _save_cb, _write_cb, changes_table, fade_clause, fade_line, file_changed_on_disk, heatmap,
+    horizon_control, market_boxes, md, money, num, path_list, pct, pct2, pending_commit, per_share, plain_message,
+    ranking_for, ranking_table, reason_block, result_notes, results_table, shares, static_table, stop_sentence,
+    unsaved_changes, value_chart, w_bool, w_choice, w_line, w_number, w_pct, w_text, w_terminal_growth,
+    warning_sentence, working_notes, year_boxes,
 )
 from valuation.engine import ValuationResult
-from valuation.schema import WEIGHTED_SCENARIOS, get_path, is_riskfree
+from valuation.schema import EXPLICIT_YEARS, WEIGHTED_SCENARIOS, get_path, is_riskfree, large_premium_ceiling
 
 
 @dataclass
@@ -45,7 +45,8 @@ class Ctx:
     market: MarketInputs | None
     result: ValuationResult | None
     error: str | None
-    T: int
+    T: int                    # the model horizon: 10 by default, 5 when the file says so
+    explicit: int             # the years the owner sets: 5 at a ten-year horizon unless the file has ten-entry lists
 
 
 # --------------------------------------------------------------------------- #
@@ -60,7 +61,9 @@ EXPLANATIONS = {
         "Damodaran asks three questions of any growth path: is it possible (does year-5 revenue fit inside the "
         "market the company sells into), is it plausible (can this company really win that much), and is it "
         "probable (has management delivered growth like this before)? Each box below is the growth over the year "
-        "before, so 20 means revenue ends the year a fifth higher than it started."
+        "before, so 20 means revenue ends the year a fifth higher than it started. You set the first five years; "
+        "years 6 to 10 are built by rule, easing in equal steps from your year-5 number to the growth the economy "
+        "manages forever, and they are shown under the boxes."
     ),
     "operating_margin": (
         "Operating margin is the share of each dollar of revenue left as profit after the costs of running the "
@@ -69,7 +72,8 @@ EXPLANATIONS = {
         "cents on the same sales. Damodaran starts from the margin the company reports today and asks where it "
         "settles as the business matures, checked against the industry and the company's own history. Stock-based "
         "pay counts as a real cost here and the amortization of past acquisitions stays deducted, so these are "
-        "GAAP margins, not the adjusted ones management likes to quote."
+        "GAAP margins, not the adjusted ones management likes to quote. You set the first five years; the margin "
+        "then holds at your year-5 level through year 10, which is shown under the boxes."
     ),
     "reinvestment": (
         "Growth is not free: to sell more, a company has to spend first, on factories, machines, software and the "
@@ -77,8 +81,10 @@ EXPLANATIONS = {
         "the dollars of extra yearly revenue that one dollar of reinvestment buys; a higher ratio means growth "
         "costs less, so more cash is left for the people who fund the company. Damodaran sizes each year's "
         "reinvestment as the coming year's revenue increase divided by this ratio, unless a specific spending "
-        "figure (a capital-spending plan management has announced) overrides it for that year. Watch the pairing "
-        "with the growth page: fast growth at a low ratio eats most of the cash it creates."
+        "figure (a capital-spending plan management has announced) overrides it for that year. How far ahead the "
+        "spending is credited is a setting on the Facts check page: one year by default, which is what his own "
+        "template does, and up to three for a business whose factories take that long to earn anything. Watch the "
+        "pairing with the growth page: fast growth at a low ratio eats most of the cash it creates."
     ),
     "cost_of_capital": (
         "The cost of capital is the yearly return that the people funding the company, lenders and shareholders "
@@ -96,9 +102,13 @@ EXPLANATIONS = {
         "is usually the largest part of the value, which is why its rules are strict: Damodaran caps growth at "
         "the risk-free rate (no company outgrows the economy forever) and by default assumes the return on "
         "capital drops to the cost of capital, meaning the company's advantage has faded and growth adds nothing "
-        "extra. A return-on-capital premium above zero says the moat lasts forever, so it needs a reason; the "
-        "terminal cost of capital moves to the rate a mature company pays. The share of value that comes from "
-        "the terminal value is shown on the Results page as a check on how much rests on this page."
+        "extra. A return-on-capital premium above zero says part of the moat lasts forever, so it needs a reason, "
+        "it has to be zero in the bear case, and it should leave the terminal return below the return the company "
+        "earns today. Above 8 points in the base case, or 12 in the bull, it also needs the switch ticked: "
+        "Damodaran's own choices for wide moats were 4 points for Alphabet in 2018 (a 12% return against an 8% cost "
+        "of capital) and 11.5 for Nvidia in 2023 (20% against 8.85%). The terminal cost of capital moves to the rate "
+        "a mature company pays, and the share of value that comes from the terminal value is shown on the Results "
+        "page as a check on how much rests on this page."
     ),
     "taxes_weights": (
         "Taxes take a slice of operating profit before it becomes cash for the people who fund the company. The "
@@ -135,6 +145,15 @@ START_TEXT = (
     "recomputed after every change and appears in full on the last page, where you can save your edits back to "
     "the assumptions file."
 )
+HORIZON_TEXT = {
+    10: ("The forecast runs ten years: five you set year by year, and five that ease toward the economy by rule, "
+         "with growth sliding to the rate a mature business manages forever and the margin holding at your year-5 "
+         "level. Next to every case you will also see what the same numbers are worth if the forecast stops at "
+         "year 5 instead."),
+    5: ("This company's forecast stops at year 5 and takes the terminal value there. Next to every case you will "
+        "also see what the same numbers are worth over ten years, with growth easing to the terminal rate over "
+        "years 6 to 10."),
+}
 
 STORIES_TEXT = (
     "Read the three stories first and decide whether the shape of each case makes sense to you: what has to be "
@@ -166,8 +185,10 @@ GLOSSARY = [
                        "forever; its share of operating assets shows how much rests on that assumption."),
     ("Return on capital", "after-tax operating profit divided by the capital invested in the business; the terminal "
                           "premium is how far above the cost of capital it stays forever."),
-    ("10-year fade", "a reference value computed alongside each case: the same first five years, then five more in "
-                     "which growth fades to the terminal rate, so the cost of stopping at five years is visible."),
+    ("Reference value", "a second value computed alongside each case with the other forecast length: a ten-year "
+                        "forecast is shown against what it would be worth stopping at year 5, and a five-year "
+                        "forecast against what it would be worth over ten years with growth easing to the terminal "
+                        "rate. It shows what the choice of length is worth."),
     ("Weighted expected value", "the bear, base and bull values weighted by the probabilities you give them; the "
                                 "number to compare with the price."),
 ]
@@ -271,10 +292,10 @@ def page_start(ctx: Ctx, tickers: list[str], on_company_change) -> None:
         except ValueError:
             shown = ctx.path
         st.caption(f"Assumptions file: {shown}")
-    st.markdown(START_TEXT)
+    st.markdown(START_TEXT + " " + HORIZON_TEXT.get(ctx.T, ""))
     st.subheader("Market inputs")
     market_boxes(doc, ctx.ticker)
-    with st.expander("Model horizon (advanced; five years is the default)"):
+    with st.expander("Length of the forecast (advanced; ten years is the default)"):
         horizon_control(doc)
     st.subheader("What moves the value for this company")
     ranking, error = ranking_for(doc, ctx.market)
@@ -313,10 +334,15 @@ def page_stories(ctx: Ctx) -> None:
         p = f"scenarios.{name}"
         with c, st.container(border=True):
             st.markdown(f"#### {CASE_LABELS[name]} case, {pct(get_path(doc, f'{p}.weight'), 0)}")
-            static_table(paths_table(doc, name, ctx.T))
+            static_table(paths_table(doc, name, ctx.explicit))
+            clause = fade_clause(doc, name, ctx.T, ctx.market)
+            if clause:
+                st.caption(clause)
             w_text(doc, f"{p}.story", "Story (three to five plain sentences)", height=height,
                    convert=lambda x: (x or "").rstrip() + "\n" if (x or "").strip() else "")
-    st.caption(f"Y1 to Y{ctx.T} are the forecast years 1 to {ctx.T}.")
+    tail = (f" Years {ctx.explicit + 1} to {ctx.T} follow the rule quoted under each table."
+            if ctx.explicit < ctx.T else "")
+    st.caption(f"Y1 to Y{ctx.explicit} are the forecast years 1 to {ctx.explicit}.{tail}")
     with st.container(border=True):
         computable = management_computable(doc)
         status = ("computed as a fourth, unweighted case" if computable else "not computed, recorded only")
@@ -330,7 +356,10 @@ def page_stories(ctx: Ctx) -> None:
         label = "Why the management case is computed" if computable else "Why the management case is not computed"
         w_text(doc, "scenarios.management.reason", label, height=_story_height(text, 150))
         if computable:
-            static_table(paths_table(doc, "management", ctx.T))
+            static_table(paths_table(doc, "management", ctx.explicit))
+            clause = fade_clause(doc, "management", ctx.T, ctx.market)
+            if clause:
+                st.caption(clause)
 
 
 # --------------------------------------------------------------------------- #
@@ -358,6 +387,9 @@ def _per_year_page(ctx: Ctx, page: str, cell: str, label: str) -> None:
             reason_block(doc, f"scenarios.{name}.{cell}")
             st.markdown(f"**{label}**")
             year_boxes(doc, f"scenarios.{name}.{cell}", ctx.T)
+            line = fade_line(doc, name, cell, ctx.T, ctx.market)
+            if line:
+                st.caption(line)
             case_stop_note(ctx, name)
 
 
@@ -403,7 +435,8 @@ def page_reinvestment(ctx: Ctx) -> None:
             w_number(doc, f"{p}.sales_to_capital.value", "Years 1-5", container=c1, step=0.1,
                      help="Dollars of extra yearly revenue that one dollar of reinvestment buys, in the forecast years.")
             w_number(doc, f"{p}.sales_to_capital.value_late", "Years 6-10", container=c2, step=0.1,
-                     help="The same ratio for years 6-10 of the 10-year-fade reference.")
+                     help=("The same ratio for years 6 to 10." if ctx.T > EXPLICIT_YEARS else
+                           "The same ratio for years 6 to 10 of the ten-year reference value."))
             reason_block(doc, f"{p}.reinvestment_override", title="Per-year spending figures")
             st.markdown("**Net reinvestment by year, USD millions (empty = use the sales-to-capital rule)**")
             year_boxes(doc, f"{p}.reinvestment_override", ctx.T, percent=False, fmt="%.0f", step=1000.0,
@@ -524,9 +557,13 @@ def page_terminal(ctx: Ctx) -> None:
             with right:
                 reason_block(doc, f"{p}.terminal.roic_premium", title="Terminal return on capital")
                 w_pct(doc, f"{p}.terminal.roic_premium.value",
-                      "Points above the terminal cost of capital (%; 0 = the moat is gone)", step=0.5)
-                w_bool(doc, f"{p}.terminal.roic_premium.allow_large_premium", "Allow a premium above 5 points",
-                       help="Needs a reason in the file; the engine then computes and warns.")
+                      "Points above the terminal cost of capital (%; 0 = the moat is gone)", step=0.5,
+                      help=("Zero in the bear case, where the advantage is gone." if name == "bear" else
+                            f"Above {large_premium_ceiling(name) * 100:g} points this case needs the switch below "
+                            "and a reason. Damodaran used 4 points for Alphabet in 2018 and 11.5 for Nvidia in 2023."))
+                w_bool(doc, f"{p}.terminal.roic_premium.allow_large_premium", "Allow a large premium",
+                       help=(f"Needed above {large_premium_ceiling(name) * 100:g} points in this case, with a reason "
+                             "in the file; the engine then computes and warns."))
             if ctx.result is not None and name in ctx.result.scenarios:
                 sc = ctx.result.scenarios[name]
                 t = sc.terminal
@@ -643,6 +680,19 @@ def _on_off(x: Any) -> str:
     return "on" if x else "off"
 
 
+def _lag_words(lag: Any) -> str:
+    """The reinvestment-lag switch in words: how far ahead a year's spending buys growth."""
+    try:
+        n = int(lag)
+    except (TypeError, ValueError):
+        n = 1
+    if n == 0:
+        return "buys the same year's growth."
+    if n == 1:
+        return "buys the next year's growth."
+    return f"buys the growth of {n} years later."
+
+
 def page_facts(ctx: Ctx) -> None:
     doc = ctx.doc
     st.markdown(FACTS_TEXT)
@@ -660,6 +710,11 @@ def page_facts(ctx: Ctx) -> None:
         w_bool(doc, "switches.addback_acquired_amortization", "Add back amortization of acquired intangibles", container=c[0])
         w_bool(doc, "switches.capitalize_rnd", "Treat research spending as an investment", container=c[1])
         w_number(doc, "switches.rnd_amortization_years", "Years to write research spending off", fmt="%d", container=c[2])
+        c2 = st.columns(3)
+        w_number(doc, "switches.reinvestment_lag", "Years ahead that spending buys growth (0 to 3)", fmt="%d",
+                 container=c2[0],
+                 help="One year is the default, as in Damodaran's own template: this year's spending buys next "
+                      "year's revenue increase. Zero credits the same year; two or three push it further out.")
     else:
         facts_table(doc, BASE_FACTS, one_time, with_reasons=with_reasons)
         sw = doc.get("switches") or {}
@@ -667,7 +722,7 @@ def page_facts(ctx: Ctx) -> None:
         st.caption(f"Switches: add back acquired amortization {_on_off(sw.get('addback_acquired_amortization'))}; "
                    f"treat research spending as an investment {_on_off(sw.get('capitalize_rnd'))} "
                    f"(written off over {sw.get('rnd_amortization_years', 5)} years); reinvestment "
-                   + ("buys the next year's growth." if lag == 1 else "buys the same year's growth."))
+                   + _lag_words(lag))
     if ctx.result is not None:
         by = ctx.result.base_year
         rows = [("Adjusted operating income (USD millions)", money(by.adjusted_operating_income)),
@@ -771,9 +826,11 @@ def _year_by_year(result: ValuationResult) -> None:
     name = st.selectbox("Case", names, index=names.index("base") if "base" in names else 0, key="yby_case",
                         format_func=lambda n: CASE_LABELS.get(n, n))
     sc = result.scenarios[name]
+    explicit = sc.inputs.explicit_years or sc.inputs.horizon
     rows = []
     for r in sc.rows:
-        rows.append({"Year": str(r.year), "Revenue": money(r.revenue), "Growth": pct(r.growth), "Margin": pct(r.margin),
+        rows.append({"Year": str(r.year) + (" (by rule)" if r.year > explicit else ""),
+                     "Revenue": money(r.revenue), "Growth": pct(r.growth), "Margin": pct(r.margin),
                      "After-tax profit": money(r.ebit_after_tax),
                      "Reinvestment": money(r.reinvestment) + (" (given)" if r.reinvestment_source == "override" else ""),
                      "Free cash flow": money(r.fcff), "Present value": money(r.pv),
@@ -784,9 +841,11 @@ def _year_by_year(result: ValuationResult) -> None:
                  "Free cash flow": money(t.fcff), "Present value": money(t.pv), "Return on capital": pct(t.roic)})
     static_table(pd.DataFrame(rows))
     waccs = sorted({pct2(r.wacc) for r in sc.rows})
+    marked = (f" Years 1 to {explicit} come from the assumptions; years {explicit + 1} to {sc.inputs.horizon} are "
+              "marked 'by rule' and are built from the year-" + str(explicit) + " numbers."
+              if explicit < sc.inputs.horizon else "")
     st.caption("All money in USD millions. The forecast years are discounted at " + " to ".join(waccs)
-               + f" and the terminal year at {pct2(t.wacc)}. Reinvestment in a year buys the next year's growth, so the "
-               f"last forecast year's reinvestment is sized for terminal growth. Terminal value {money(t.value)}; "
+               + f" and the terminal year at {pct2(t.wacc)}.{marked} Terminal value {money(t.value)}; "
                f"present value {money(t.pv)}; share of operating assets {pct(sc.terminal_share)}.")
 
 
@@ -868,9 +927,9 @@ def page_results(ctx: Ctx) -> None:
         chart = value_chart(result)
         if chart is not None:
             st.altair_chart(chart, **_WIDE)
-            st.caption("The number on each bar is the value per share. The lighter label at the foot is the 10-year-fade "
-                       "reference: the same case with five more years in which growth fades to the terminal rate, "
-                       "shown so the cost of stopping the forecast at five years is visible.")
+            st.caption("The number on each bar is the value per share. The lighter label at the foot is the "
+                       + (result.reference_label or "reference") + " reference: the same case with the other "
+                       "forecast length, shown so the cost of the choice is visible.")
     stale = file_changed_on_disk(ctx.path)
     diff = [] if stale else unsaved_changes(doc, ctx.path)
     if stale:

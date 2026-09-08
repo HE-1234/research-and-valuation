@@ -108,13 +108,13 @@ base / bull / weighted values on every page. Switching company returns to Start.
 
 | Page | What it shows and asks |
 |---|---|
-| 1. Start | Company picker; as-of quarter and file; the price (Yahoo Finance), risk-free rate (FRED; if unreachable, the cached Damodaran T-bond rate with a note) and equity risk premium (cached Damodaran row), each as a box with the fetched value, date and source under it (a failed price fetch leaves the box empty and asks for a value); the model horizon (5 or 10) in an expander; the factor ranking for this company as a small table with one row per factor page (Factor, What we nudged, Change in base value per share); a glossary of the words used in the walk. |
+| 1. Start | Company picker; as-of quarter and file; a paragraph saying the forecast runs ten years, five set and five eased toward the economy by rule; the price (Yahoo Finance), risk-free rate (FRED; if unreachable, the cached Damodaran T-bond rate with a note) and equity risk premium (cached Damodaran row), each as a box with the fetched value, date and source under it (a failed price fetch leaves the box empty and asks for a value); the length of the forecast (5 or 10 years, 10 being the default) in an expander; the factor ranking for this company as a small table with one row per factor page (Factor, What we nudged, Change in base value per share); a glossary of the words used in the walk. |
 | 2. The stories | Bear, base and bull side by side, each headed by its weight and a two-row table of its revenue growth and operating margin paths (years as columns), with the story in an editable text box (equal heights); the management summary and computable status below. Asks the owner to agree with the shape of each case before touching numbers. |
 | 3. Revenue growth | Explanation; the company's own five-year growth when `diagnostics.historical_revenue_cagr` is given; one bordered block per case with the analyst's reason in full, the source tags, and five (or ten) number boxes labelled Year 1..Year 5 in percent (20 means 20%). |
 | 4. Operating margin | Same layout for the margin path; the history line uses `diagnostics.historical_operating_margin` and the base-year adjusted margin. |
-| 5-8. Reinvestment, Cost of capital, Terminal value, Taxes and weights | In the order of the ranking (largest impact first). Reinvestment: sales-to-capital for years 1-5 and 6-10, and the per-year spending figures in whole USD millions (empty = the rule), echoed under the boxes in words ("Year 1 173,970; years 3-5 by the sales-to-capital rule"). Cost of capital: one block with the build inputs (method as "Built from parts" or "One number", industry, unlevered beta, debt to equity, pre-tax cost of debt, the risk-free rate and equity risk premium from Start read-only) and the resulting levered beta, cost of equity, cost of capital and terminal cost of capital in a small table, then one compact row of per-case override boxes (bear / base / bull; empty = shared). Terminal value: the shared terminal cost-of-capital method in short words ("Mature company rate", "Hold the company's rate", "A number I set"; the long form is the help text), then per case a checkbox "Equal to the risk-free rate (x% today)" for terminal growth (unchecked reveals a percentage box and the allow switch) and the return-on-capital premium in points with its allow switch. Taxes and weights: forecast-year and terminal tax rate per case, the weight per case, and the sum of the weights. |
+| 5-8. Reinvestment, Cost of capital, Terminal value, Taxes and weights | In the order of the ranking (largest impact first). Reinvestment: sales-to-capital for years 1-5 and 6-10, and the per-year spending figures in whole USD millions (empty = the rule), echoed under the boxes in words ("Year 1 173,970; years 3-5 by the sales-to-capital rule"). Cost of capital: one block with the build inputs (method as "Built from parts" or "One number", industry, unlevered beta, debt to equity, pre-tax cost of debt, the risk-free rate and equity risk premium from Start read-only) and the resulting levered beta, cost of equity, cost of capital and terminal cost of capital in a small table, then one compact row of per-case override boxes (bear / base / bull; empty = shared). Terminal value: the shared terminal cost-of-capital method in short words ("Mature company rate", "Hold the company's rate", "A number I set"; the long form is the help text), then per case a checkbox "Equal to the risk-free rate (x% today)" for terminal growth (unchecked reveals a percentage box and the allow switch) and the return-on-capital premium in points with an "Allow a large premium" switch whose help names that case's ceiling (8 points base, 12 bull; zero in the bear case). Taxes and weights: forecast-year and terminal tax rate per case, the weight per case, and the sum of the weights. |
 | 9. Facts check | Base year, bridge and cost-of-capital build as read-only wrapped tables (Item, Value, Source; a "Show reasons" toggle adds the Reason column), and the derived numbers (adjusted operating income, invested capital, the bridge for the base case, levered beta, cost of equity, cost of capital, terminal cost of capital). An "Edit facts" toggle reveals number boxes with the reasons beside them. No judgment is asked. |
-| 10. Results | The section 18.5 results table (one row per case plus the weighted row, cases named), a bar chart with the value per share on top of each bar, the 10-year-fade reference as a lighter label at the foot and a sentence saying what the fade is, then expanders: Sensitivity (two heatmaps, base cell outlined), Year by year (case selector; nine wrapped columns), Reverse DCF, Diagnostics, Warnings, Unsaved changes (each change named in words, values as the pages show them). Under "What to do now": Save (primary, with the note box above it), Write the report (disabled while changes are unsaved, with a caption saying why), Record in the repository (with a caption naming the files and the commit message), and Start over in its own expander with a confirmation when changes are unsaved. |
+| 10. Results | The section 18.5 results table (one row per case plus the weighted row, cases named; the reference column headed "5-year stop per share" or "10-year fade per share" after the file's horizon), a bar chart with the value per share on top of each bar, that same reference as a lighter label at the foot and a sentence saying what it is, then expanders: Sensitivity (two heatmaps, base cell outlined), Year by year (case selector; nine wrapped columns, the years the rule built marked "(by rule)"), Reverse DCF, Diagnostics (Damodaran's six plus the transition check), Warnings, Unsaved changes (each change named in words, values as the pages show them). Under "What to do now": Save (primary, with the note box above it), Write the report (disabled while changes are unsaved, with a caption saying why), Record in the repository (with a caption naming the files and the commit message), and Start over in its own expander with a confirmation when changes are unsaved. |
 
 **Every factor page, top to bottom:** (a) a two-to-four-sentence explanation for the
 16-year-old (what the factor is, why it moves the value, how Damodaran treats it) and a
@@ -143,7 +143,7 @@ each factor gets one plausible nudge and the change in value per share is record
 growth +1 point in every explicit year; operating margin +1 point every year; sales-to-capital
 +10% of its value (and per-year overrides +10%); cost of capital +0.5 point; terminal growth
 +0.25 point, capped at the risk-free rate (so -0.25 point when already at the cap); terminal
-return-on-capital premium +1 point; tax rate in the explicit years +1 point. Weights are
+return-on-capital premium +1 point; tax rate in the forecast years +1 point. Weights are
 excluded because they change no case's value. The list is sorted by absolute change; the
 middle pages follow it, with revenue growth and operating margin fixed as pages 3 and 4. The
 ranking is recomputed on load, on Save and when a market input changes.
@@ -204,9 +204,17 @@ valid example with made-up numbers and comments on every block. Notes beyond sec
 - `diagnostics.historical_revenue_cagr` and `diagnostics.historical_operating_margin`
   (optional cells, `{value, source, reason}`) feed the "company's own history" columns of
   the diagnostics in section 18.5 item 9; nothing else in the schema carries that history.
-- `switches.reinvestment_lag` (optional, `0` or `1`, default `1`) exists to reproduce
-  Damodaran's 2018 Alphabet sheet, which has no lag. Section 18.3 specifies the one-year lag;
-  leave the switch alone for company valuations.
+- `switches.reinvestment_lag` (optional, `0`, `1`, `2` or `3`, default `1`) is how many years
+  ahead a year's spending buys growth: year `t` reinvests `(Rev_{t+lag} - Rev_{t+lag-1}) / S/C`.
+  `1` is section 18.3's convention and his ginzu default; `0` reproduces his 2018 Alphabet sheet,
+  which has no lag; he used `3` for Nvidia in 2024-25. Anything else is a validation error, and
+  any value other than `1` prints a warning. Leave the switch alone unless the company's assets
+  take longer than a year to earn anything.
+- `horizon` (optional, `5` or `10`, **default `10`**) is section 18.2's structure. At `10` the
+  per-year lists may hold five entries (years 1-5 judged, years 6-10 by rule) or ten (the fade
+  years shaped by hand); at `5` they hold five and the model stops at year 5. Any other length is
+  a validation error naming what the horizon accepts. Whichever horizon a file carries, the other
+  structure is computed as a reference value next to every case.
 
 Nulls: a `null` in a scenario cell stops that scenario and the report says which cell. A
 `null` in a shared cell (base year, bridge, cost-of-capital build) stops every scenario.
@@ -285,12 +293,38 @@ Convention differences found by reading his formulas cell by cell:
   no tax benefit (Valuation output row 7, no NOL modelling).
 - Terminal reinvestment `g / ROIC` applies only when terminal growth is positive (cell M8).
 - The `g_T` of section 18.3's terminal block is the scenario's terminal growth input:
-  `Rev_{T+1} = Rev_T x (1 + g_terminal)`, so the last explicit year's reinvestment is sized for
-  terminal growth. In the 10-year fade this coincides with year-10 growth, as in his sheet.
-- `horizon: 10` follows his structure: years 1-5 use the start tax rate, the company cost of
-  capital and `sales_to_capital.value`; years 6-10 fade tax and cost of capital linearly to
-  their terminal values and use `value_late`. The 10-year-fade reference shown next to every
-  case is built from the first five explicit years the same way.
+  `Rev_{T+1} = Rev_T x (1 + g_terminal)`, so the last forecast year's reinvestment is sized for
+  terminal growth. At a ten-year horizon this coincides with year-10 growth, as in his sheet.
+- **`horizon: 10` is the default** (section 18.2) and follows his structure: years 1-5 use the
+  start tax rate, the company cost of capital and `sales_to_capital.value`; years 6-10 fade tax
+  and cost of capital linearly to their terminal values and use `value_late`. Per-year lists
+  (`revenue_growth.values`, `operating_margin.values`, `reinvestment_override.values`) may hold
+  **five entries**, in which case `engine.fade_years` builds years 6-10 by rule (growth linear
+  from year-5 growth to terminal growth, the margin held at its year-5 level, per-year
+  reinvestment overrides stopping), or **ten**, which are used exactly as written. A file may
+  mix the two: each list is judged on its own length.
+- **Every case carries a reference run with the other structure** (`engine.reference_inputs`,
+  `ScenarioResult.reference`, labelled by `ScenarioResult.reference_label`). At `horizon: 10` the
+  reference is the **5-year stop**: the same five explicit years, terminal value at year 5, the
+  terminal settings applied in year 6 and the tax rate and cost of capital held at their start
+  values, which is bit for bit what the same file computes at `horizon: 5`. At `horizon: 5` the
+  reference is the **10-year fade**. The results table, the app and the bar chart name whichever
+  applies; the weighted row is the weighted average of the three references.
+- `switches.reinvestment_lag` takes 0, 1 (the default), 2 or 3, as his ginzu sheet does (he used
+  3 for Nvidia in 2024-25): year `t` reinvests `(Rev_{t+lag} - Rev_{t+lag-1}) / S/C`, and revenue
+  past the horizon grows at terminal growth.
+- The transition check (section 18.2, diagnostic 7) reports the percentage change in free cash
+  flow from the last explicit year to the terminal year and the two returns on capital. A small
+  notch downwards is normal, because the terminal year reinvests `g / ROIC` whatever the last
+  explicit year spent (his own Alphabet February 2024 sheet is 10.7% down, Microsoft 21%), so the
+  check flags only a fall of more than 15% or a terminal return below half the last year's
+  implied return. A flagged case also gets a line in the run's warnings.
+- Terminal return-on-capital premiums (section 18.4 rule 5): the bear case must be 0, and the
+  soft ceilings are 8 points for the base case and 12 for the bull, above which
+  `allow_large_premium` and a reason are required and the engine warns. Damodaran's own choices
+  for wide moats were 4 points (Alphabet 2018) and 11.5 (Nvidia 2023). The engine also warns,
+  without stopping, when the resulting terminal return on capital is at or above the base-year
+  return.
 - Implied ROIC divides the year's after-tax operating income by invested capital at the start
   of the year, rolled forward with reinvestment (row 40). Base-year invested capital includes
   the R&D asset when `capitalize_rnd` is on (row 39).

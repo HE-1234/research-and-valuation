@@ -105,3 +105,37 @@ def test_ticker_resolution_needs_repo_root(tmp_path, capsys):
     finally:
         os.chdir(cwd)
     assert "does not exist" in capsys.readouterr().err
+
+
+def test_horizon_ten_on_a_five_entry_file_marks_the_fade_years_and_names_the_reference(capsys):
+    """`--set horizon=10` on a five-entry file is the section 18.2 default structure."""
+    assert main([str(FIXTURE), "--dry-run", *OFFLINE, "--set", "horizon=10"]) == 0
+    out = capsys.readouterr().out
+    assert "| 5-year stop value per share |" in out
+    assert "10-year-fade" not in out
+
+
+def test_valuation_md_marks_the_fade_years_and_the_transition_check(tmp_path, capsys):
+    root = tmp_path
+    (root / "AGENTS.md").write_text("# stub\n", encoding="utf-8")
+    vdir = root / "companies" / "EXMP" / "valuation"
+    vdir.mkdir(parents=True)
+    target = vdir / "assumptions.yaml"
+    shutil.copy(FIXTURE, target)
+    assert main([str(target), *OFFLINE, "--set", "horizon=10"]) == 0
+    text = (vdir / "valuation.md").read_text(encoding="utf-8")
+    assert "| 5-year stop value per share |" in text
+    assert "| How the year is set |" in text
+    assert "| 6 | by rule |" in text and "| 5 | from the assumptions |" in text
+    assert "| 10 | by rule |" in text
+    assert "Years 6-10 are built by rule from year 5" in text
+    assert "7. The step from the last explicit year into the terminal year" in text
+    assert "horizon 10 years (5 set in the assumptions, the rest by rule)" in text
+    capsys.readouterr()
+
+
+def test_five_year_file_keeps_the_ten_year_fade_as_its_reference(capsys):
+    assert main([str(FIXTURE), "--dry-run", *OFFLINE, "--set", "horizon=5"]) == 0
+    out = capsys.readouterr().out
+    assert "| 10-year fade value per share |" in out
+    assert "5-year stop" not in out

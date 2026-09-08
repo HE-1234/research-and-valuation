@@ -7,11 +7,22 @@ and are listed in the README:
   a loss carries no tax benefit (sheet row 7, no NOL);
 * terminal reinvestment ``g / ROIC`` applies only when terminal growth is
   positive (sheet cell M8);
+* ``switches.reinvestment_lag`` is the ginzu lag: year ``t`` reinvests
+  ``(Rev_{t+lag} - Rev_{t+lag-1}) / SC``, so 1 (the default) means this year's
+  spending buys next year's growth, 0 means the same year's, and 2 or 3 push it
+  further out (he used 3 for Nvidia in 2024-25).  Revenue past the horizon grows
+  at terminal growth;
 * implied ROIC divides the year's after-tax operating income by the invested
   capital at the start of that year (sheet row 40);
-* the "10-year fade" structure for ``horizon: 10`` holds the start tax rate and
-  the company cost of capital for years 1-5 and fades both linearly to their
-  terminal values over years 6-10 (sheet rows 6 and 12).
+* ``horizon: 10`` is the default and is his structure: years 1-5 hold the start
+  tax rate, the company cost of capital and ``sales_to_capital.value``; years
+  6-10 fade tax and cost of capital linearly to their terminal values and use
+  ``value_late`` (sheet rows 6 and 12).  Per-year lists may carry five entries,
+  in which case :func:`fade_years` builds years 6-10 by the rule of section
+  18.2, or ten, which are used as given;
+* every case also carries a **reference** run with the other structure
+  (:func:`reference_inputs`): the 5-year stop when the horizon is 10, the
+  10-year fade when it is 5.
 """
 
 from __future__ import annotations
@@ -22,8 +33,8 @@ from typing import Any
 
 from . import __version__
 from .schema import (
-    SCENARIO_NAMES, WEIGHTED_SCENARIOS, SchemaError, Validation, get_path, is_riskfree,
-    terminal_growth_rule, validate,
+    EXPLICIT_YEARS, SCENARIO_NAMES, WEIGHTED_SCENARIOS, SchemaError, Validation, get_path, horizon_of,
+    is_riskfree, terminal_growth_rule, validate,
 )
 
 
@@ -126,6 +137,10 @@ class ScenarioInputs:
     reinvestment_lag: int = 1
     weight: float | None = None
     terminal_growth_is_riskfree: bool = False   # the YAML said "riskfree"; the number is the run's rate
+    # the years the analyst set explicitly; the rest were built by the rule of section 18.2.  ``None``
+    # means every year of the horizon came from the file.  It follows the revenue-growth list, which
+    # is the list that defines the shape of the fade.
+    explicit_years: int | None = None
 
 
 # --------------------------------------------------------------------------- #
@@ -188,7 +203,10 @@ class ScenarioResult:
     price: float
     upside: float
     terminal_share: float
-    fade_reference: "ScenarioResult | None" = None
+    # the same inputs run with the other structure of section 18.2: the 5-year stop when this run
+    # is ten years long, the 10-year fade when it is five.  ``reference_label`` names which.
+    reference: "ScenarioResult | None" = None
+    reference_label: str = ""
     warnings: list[str] = field(default_factory=list)
 
 
@@ -200,7 +218,7 @@ class WeightedResult:
     per_share: float
     upside: float
     terminal_share: float
-    fade_per_share: float
+    reference_per_share: float
     weights: dict[str, float]
 
 
@@ -213,6 +231,7 @@ class ValuationResult:
     computed_at: str
     engine_version: str
     horizon: int
+    reference_label: str          # "5-year stop" at horizon 10, "10-year fade" at horizon 5
     market: MarketInputs
     base_year: BaseYear
     bridge: Bridge
@@ -369,8 +388,14 @@ def build_cost_of_capital(doc: dict[str, Any], market: MarketInputs) -> CostOfCa
 
 
 def scenario_inputs(doc: dict[str, Any], name: str, coc: CostOfCapital) -> ScenarioInputs:
+    """One scenario's inputs, resolved to numbers and to the full length of the horizon.
+
+    With ``horizon: 10`` and five-entry lists the analyst has judged years 1-5 and
+    :func:`fade_years` builds years 6-10 by the rule of section 18.2; ten-entry lists are used
+    exactly as given.
+    """
     s = doc["scenarios"][name]
-    horizon = int(doc.get("horizon", 5))
+    horizon = horizon_of(doc)
     override = (s.get("reinvestment_override") or {}).get("values") or [None] * horizon
     pinned = s.get("cost_of_capital_override")
     wacc = coc.wacc if pinned is None else float(pinned)
@@ -378,9 +403,10 @@ def scenario_inputs(doc: dict[str, Any], name: str, coc: CostOfCapital) -> Scena
     lag = int((doc.get("switches") or {}).get("reinvestment_lag", 1))
     raw_growth = s["terminal"]["growth"]["value"]
     riskfree = is_riskfree(raw_growth)
-    return ScenarioInputs(
+    growth = [float(x) for x in s["revenue_growth"]["values"]]
+    inp = ScenarioInputs(
         name=name, horizon=horizon,
-        growth=[float(x) for x in s["revenue_growth"]["values"]],
+        growth=growth,
         margin=[float(x) for x in s["operating_margin"]["values"]],
         sales_to_capital=float(s["sales_to_capital"]["value"]),
         sales_to_capital_late=float(s["sales_to_capital"]["value_late"]),
@@ -394,6 +420,9 @@ def scenario_inputs(doc: dict[str, Any], name: str, coc: CostOfCapital) -> Scena
         weight=None if s.get("weight") is None else float(s["weight"]),
         terminal_growth_is_riskfree=riskfree,
     )
+    if horizon > EXPLICIT_YEARS and len(growth) == EXPLICIT_YEARS:
+        inp = fade_years(inp)
+    return inp
 
 
 # --------------------------------------------------------------------------- #
@@ -426,14 +455,62 @@ def after_tax(ebit: float, tax: float) -> float:
     return ebit * (1.0 - tax) if ebit > 0 else ebit
 
 
-def fade_inputs(inp: ScenarioInputs) -> ScenarioInputs:
-    """The 10-year-fade reference of section 18.2 built from the first five explicit years."""
-    g5, gt = inp.growth[4], inp.terminal_growth
-    growth = inp.growth[:5] + [g5 - (g5 - gt) * k / 5 for k in range(1, 6)]
-    margin = inp.margin[:5] + [inp.margin[4]] * 5
-    override = list(inp.reinvestment_override[:5]) + [None] * 5
-    return replace(inp, name=f"{inp.name} (10-year fade)", horizon=10, growth=growth,
-                   margin=margin, reinvestment_override=override)
+def faded_growth(year5_growth: float, terminal_growth: float) -> list[float]:
+    """Years 6-10 revenue growth: linear from the year-5 rate to terminal growth (section 18.2)."""
+    return [year5_growth - (year5_growth - terminal_growth) * k / 5 for k in range(1, 6)]
+
+
+def faded_margin(year5_margin: float) -> list[float]:
+    """Years 6-10 operating margin: the year-5 level, held (section 18.2)."""
+    return [year5_margin] * 5
+
+
+def fade_years(inp: ScenarioInputs) -> ScenarioInputs:
+    """Years 6-10 built by the rule of section 18.2 from the five explicit years.
+
+    Growth moves linearly from year-5 growth to terminal growth, the margin holds at its year-5
+    level, per-year reinvestment overrides stop (years 6-10 use sales-to-capital, which switches
+    to ``value_late``), and the tax rate and cost of capital fade in :func:`tax_path` and
+    :func:`wacc_path`.  A list that already carries ten entries is left exactly as it is, so an
+    analyst who shaped the fade years by hand keeps them.
+    """
+    n = EXPLICIT_YEARS
+    growth = list(inp.growth) if len(inp.growth) > n else list(inp.growth) + faded_growth(inp.growth[n - 1],
+                                                                                          inp.terminal_growth)
+    margin = list(inp.margin) if len(inp.margin) > n else list(inp.margin) + faded_margin(inp.margin[n - 1])
+    override = list(inp.reinvestment_override)
+    override = override if len(override) > n else override[:n] + [None] * 5
+    return replace(inp, horizon=10, growth=growth, margin=margin, reinvestment_override=override,
+                   explicit_years=n)
+
+
+def stop_years(inp: ScenarioInputs) -> ScenarioInputs:
+    """The 5-year stop of section 18.2: the same five explicit years, terminal value at year 5.
+
+    The terminal settings then apply in year 6, and the tax rate and cost of capital stay at their
+    start values throughout, exactly as a ``horizon: 5`` file computes.
+    """
+    n = EXPLICIT_YEARS
+    return replace(inp, horizon=n, growth=list(inp.growth[:n]), margin=list(inp.margin[:n]),
+                   reinvestment_override=list(inp.reinvestment_override[:n]), explicit_years=None)
+
+
+REFERENCE_LABELS = {10: "5-year stop", 5: "10-year fade"}
+
+
+def reference_label(horizon: int) -> str:
+    """What the companion structure of section 18.2 is called for this horizon."""
+    return REFERENCE_LABELS.get(horizon, "reference")
+
+
+def reference_inputs(inp: ScenarioInputs) -> ScenarioInputs:
+    """The same inputs run with the other structure (section 18.2).
+
+    A ten-year model's reference is the 5-year stop; a five-year model's reference is the 10-year
+    fade, so the owner always sees what the other choice of length would be worth.
+    """
+    other = stop_years(inp) if inp.horizon > EXPLICIT_YEARS else fade_years(inp)
+    return replace(other, name=f"{inp.name} ({reference_label(inp.horizon)})")
 
 
 def run_scenario(inp: ScenarioInputs, base: BaseYear, bridge: Bridge, price: float) -> ScenarioResult:
@@ -444,7 +521,9 @@ def run_scenario(inp: ScenarioInputs, base: BaseYear, bridge: Bridge, price: flo
     revenues = [base.revenue]
     for g in inp.growth:
         revenues.append(revenues[-1] * (1.0 + g))
-    revenues.append(revenues[T] * (1.0 + inp.terminal_growth))      # Rev_{T+1}
+    # Rev_{T+1} onwards grow at terminal growth; a lag above 1 reaches that far past the horizon.
+    for _ in range(max(1, inp.reinvestment_lag)):
+        revenues.append(revenues[-1] * (1.0 + inp.terminal_growth))
     taxes, waccs, scs = tax_path(inp), wacc_path(inp), sales_to_capital_path(inp)
     rows: list[YearRow] = []
     df = 1.0
@@ -456,7 +535,8 @@ def run_scenario(inp: ScenarioInputs, base: BaseYear, bridge: Bridge, price: flo
         if override is not None:
             reinvestment, source = override, "override"
         else:
-            delta = revenues[t + 1] - revenues[t] if inp.reinvestment_lag == 1 else revenues[t] - revenues[t - 1]
+            lag = inp.reinvestment_lag
+            delta = revenues[t + lag] - revenues[t + lag - 1]
             reinvestment, source = delta / scs[t - 1], "sales_to_capital"
         fcff = eat - reinvestment
         df *= 1.0 / (1.0 + waccs[t - 1])
@@ -523,6 +603,20 @@ def _terminal_growth_check(doc: dict[str, Any], name: str, inp: ScenarioInputs,
     return terminal_growth_rule(name, inp.terminal_growth, rf, node if isinstance(node, dict) else {})
 
 
+def _terminal_roic_check(name: str, res: ScenarioResult, base: BaseYear) -> str | None:
+    """Section 18.4 rule 5: the terminal return on capital must sit below the base-year return.
+
+    A warning, never a stop: the arithmetic is sound, but a company still earning today's return
+    forever is an assumption the reviewer has to defend.
+    """
+    if base.roic is None:
+        return None
+    if res.terminal.roic < base.roic - 1e-12:
+        return None
+    return (f"{name}: terminal return on capital {res.terminal.roic:.2%} is at or above the base-year return on "
+            f"capital {base.roic:.2%}; a mature company should earn less than the company earns today")
+
+
 def _weighted(results: dict[str, ScenarioResult]) -> WeightedResult | None:
     if any(n not in results for n in WEIGHTED_SCENARIOS):
         return None
@@ -535,12 +629,12 @@ def _weighted(results: dict[str, ScenarioResult]) -> WeightedResult | None:
     gc = sum(weights[n] * results[n].going_concern_value for n in WEIGHTED_SCENARIOS)
     per_share = w("per_share")
     price = results["base"].price
-    fade = sum(weights[n] * results[n].fade_reference.per_share for n in WEIGHTED_SCENARIOS
-               if results[n].fade_reference is not None)
+    ref = sum(weights[n] * results[n].reference.per_share for n in WEIGHTED_SCENARIOS
+              if results[n].reference is not None)
     return WeightedResult(
         operating_assets=w("operating_assets"), enterprise_value=results["base"].enterprise_value,
         equity=w("equity"), per_share=per_share, upside=per_share / price - 1.0 if price else 0.0,
-        terminal_share=pv_tv / gc if gc else 0.0, fade_per_share=fade, weights=weights,
+        terminal_share=pv_tv / gc if gc else 0.0, reference_per_share=ref, weights=weights,
     )
 
 
@@ -573,13 +667,18 @@ def compute(doc: dict[str, Any], market: MarketInputs, validation: Validation | 
             continue
         try:
             res = run_scenario(inp, base, bridge, market.price)
-            res.fade_reference = run_scenario(fade_inputs(inp), base, bridge, market.price)
+            res.reference_label = reference_label(inp.horizon)
+            res.reference = run_scenario(reference_inputs(inp), base, bridge, market.price)
         except EngineError as exc:
             stopped[name] = [str(exc)]
             continue
         if warn:
             res.warnings.append(warn)
             warnings.append(warn)
+        roic_warn = _terminal_roic_check(name, res, base)
+        if roic_warn:
+            res.warnings.append(roic_warn)
+            warnings.append(roic_warn)
         results[name] = res
     for name, reasons in stopped.items():
         warnings.append(f"{name} scenario not computed: " + "; ".join(reasons))
@@ -592,7 +691,8 @@ def compute(doc: dict[str, Any], market: MarketInputs, validation: Validation | 
         ticker=str(doc.get("ticker")), company=str(doc.get("company")),
         as_of_quarter=str(doc.get("as_of_quarter")), as_of_date=_text(doc.get("as_of_date")),
         computed_at=datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        engine_version=__version__, horizon=int(doc.get("horizon", 5)), market=market, base_year=base,
+        engine_version=__version__, horizon=horizon_of(doc), reference_label=reference_label(horizon_of(doc)),
+        market=market, base_year=base,
         bridge=bridge, cost_of_capital=coc, scenarios=results, weighted=_weighted(results),
         stopped=stopped, skipped=skipped, warnings=list(dict.fromkeys(warnings)), assumptions=doc,
     )

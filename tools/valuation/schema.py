@@ -23,10 +23,20 @@ import yaml
 
 SCENARIO_NAMES = ("bear", "base", "bull", "management")
 WEIGHTED_SCENARIOS = ("bear", "base", "bull")
-LARGE_PREMIUM = 0.05
+# Section 18.4 rule 5: the bear case gives up the moat entirely, so its premium must be zero; the base
+# and bull cases carry soft ceilings (Damodaran's own choices were 4 points for Alphabet 2018 and 11.5
+# for Nvidia 2023).  Above the ceiling the engine still computes, but only with `allow_large_premium`.
+LARGE_PREMIUM = {"base": 0.08, "bull": 0.12, "management": 0.08}
+DEFAULT_LARGE_PREMIUM = 0.08
 WEIGHT_TOLERANCE = 1e-6
 HORIZONS = (5, 10)
+DEFAULT_HORIZON = 10           # five explicit years plus five faded by rule (section 18.2)
+EXPLICIT_YEARS = 5             # the years the analyst judges when the horizon is 10
 RISKFREE = "riskfree"          # terminal.growth.value may be this string: "equal to the run's risk-free rate"
+# switches.reinvestment_lag: year t reinvests (Rev_{t+lag} - Rev_{t+lag-1}) / sales-to-capital, as his
+# ginzu sheet does.  1 is the default (this year's spending buys next year's growth); he used 3 for
+# Nvidia in 2024-25.
+REINVESTMENT_LAGS = (0, 1, 2, 3)
 
 TOP_LEVEL_KEYS = {
     "schema", "ticker", "company", "as_of_quarter", "as_of_date", "drafted",
@@ -107,6 +117,22 @@ def get_path(doc: Any, path: str, default: Any = None) -> Any:
         except (KeyError, IndexError, TypeError):
             return default
     return node
+
+
+def horizon_of(doc: Any) -> int:
+    """The model horizon: 10 by default (five explicit years plus five faded by rule, section 18.2).
+
+    A file may say ``horizon: 5`` for a company already close to stable growth; anything else
+    falls back to the default so that a bad value never changes the arithmetic silently (the
+    validator reports it separately).
+    """
+    h = get_path(doc, "horizon", DEFAULT_HORIZON)
+    return int(h) if h in HORIZONS else DEFAULT_HORIZON
+
+
+def year_list_lengths(horizon: int) -> tuple[int, ...]:
+    """The per-year list lengths a horizon accepts: five or ten at horizon 10, five at horizon 5."""
+    return (EXPLICIT_YEARS, horizon) if horizon > EXPLICIT_YEARS else (horizon,)
 
 
 def coerce_scalar(text: str) -> Any:
@@ -267,7 +293,7 @@ def _check_top(v: Validation, doc: dict[str, Any]) -> None:
         v.warnings.append(f"currency: engine formats money as USD; got {doc.get('currency')!r}")
     if doc.get("units", "millions") != "millions":
         v.errors.append(f"units: must be 'millions', got {doc.get('units')!r}")
-    horizon = doc.get("horizon", 5)
+    horizon = doc.get("horizon", DEFAULT_HORIZON)
     if horizon not in HORIZONS:
         v.errors.append(f"horizon: must be 5 or 10, got {horizon!r}")
 
@@ -320,11 +346,14 @@ def _check_switches(v: Validation, doc: dict[str, Any]) -> None:
         if get_path(doc, "base_year.rnd_expense.value") is None:
             v.shared_nulls.append("base_year.rnd_expense.value")
     lag = sw.get("reinvestment_lag", 1)
-    if lag not in (0, 1):
-        v.errors.append(f"switches.reinvestment_lag: must be 0 or 1, got {lag!r}")
+    if lag not in REINVESTMENT_LAGS:
+        v.errors.append(f"switches.reinvestment_lag: must be 0, 1, 2 or 3, got {lag!r}")
     elif lag == 0:
         v.warnings.append("switches.reinvestment_lag is 0: reinvestment funds the same year's "
                           "growth (section 18.3 default is a one-year lag)")
+    elif lag != 1:
+        v.warnings.append(f"switches.reinvestment_lag is {lag}: reinvestment funds the growth of {lag} years "
+                          "later (section 18.3 default is a one-year lag)")
 
 
 def _check_bridge(v: Validation, doc: dict[str, Any]) -> None:
@@ -463,11 +492,13 @@ def _check_year_list(v: Validation, doc: Any, path: str, horizon: int, scenario:
         if get_path(doc, path) is not None and isinstance(get_path(doc, path), dict):
             return  # error already recorded (missing `values`)
         return
+    allowed = year_list_lengths(horizon)
+    wanted = " or ".join(str(n) for n in allowed)
     if not isinstance(values, list):
-        v.errors.append(f"{path}.values: must be a list of {horizon} numbers")
+        v.errors.append(f"{path}.values: must be a list of {wanted} numbers")
         return
-    if len(values) != horizon:
-        v.errors.append(f"{path}.values: expected {horizon} entries (horizon {horizon}), got {len(values)}")
+    if len(values) not in allowed:
+        v.errors.append(f"{path}.values: expected {wanted} entries (horizon {horizon}), got {len(values)}")
         return
     for i, x in enumerate(values):
         p = f"{path}.values.{i}"
@@ -496,6 +527,17 @@ def terminal_growth_rule(scenario: str, growth: float, risk_free: float,
                       f"(allow_above_riskfree is true; reason: {node.get('reason', '')})")
     return (f"scenarios.{scenario}.terminal.growth.value: {growth:.4f} is above the risk-free rate "
             f"{risk_free:.4f}; set allow_above_riskfree: true and give a reason (section 18.4 rule 5)"), None
+
+
+def large_premium_ceiling(scenario: str) -> float:
+    """Section 18.4 rule 5: the soft ceiling on a scenario's terminal return-on-capital premium.
+
+    Damodaran's own choices for wide moats were 4 points (Alphabet 2018) and 11.5 points
+    (Nvidia 2023), so the base case is capped at 8 points and the bull at 12; above the cap the
+    engine still computes, but only with ``allow_large_premium`` and a reason.  The bear case
+    must be 0 (checked separately).
+    """
+    return LARGE_PREMIUM.get(scenario, DEFAULT_LARGE_PREMIUM)
 
 
 def _check_terminal(v: Validation, doc: Any, sp: str, scenario: str) -> None:
@@ -527,16 +569,20 @@ def _check_terminal(v: Validation, doc: Any, sp: str, scenario: str) -> None:
     _require(v, f"{p_path}.value", prem, scenario)
     pnode = get_path(doc, p_path) or {}
     if isinstance(pnode, dict) and prem is not None:
+        ceiling = large_premium_ceiling(scenario)
         flag = pnode.get("allow_large_premium", False)
         if not isinstance(flag, bool):
             v.errors.append(f"{p_path}.allow_large_premium: must be true or false")
-        elif prem > LARGE_PREMIUM and not flag:
-            v.errors.append(f"{p_path}.value: {prem} is above {LARGE_PREMIUM}; set allow_large_premium: "
-                            "true and give a reason (section 18.4 rule 5)")
-        elif prem > LARGE_PREMIUM and flag:
+        elif scenario == "bear" and prem != 0.0:
+            v.errors.append(f"{p_path}.value: {prem} must be 0 in the bear case, where the moat is gone "
+                            "(section 18.4 rule 5)")
+        elif prem > ceiling and not flag:
+            v.errors.append(f"{p_path}.value: {prem} is above {ceiling} for the {scenario} case; set "
+                            "allow_large_premium: true and give a reason (section 18.4 rule 5)")
+        elif prem > ceiling and flag:
             if not pnode.get("reason"):
                 v.errors.append(f"{p_path}.allow_large_premium is true but no reason is given")
-            v.warnings.append(f"{scenario}: terminal ROIC premium {prem:.3f} is above {LARGE_PREMIUM} "
+            v.warnings.append(f"{scenario}: terminal ROIC premium {prem:.3f} is above {ceiling} "
                               f"(allow_large_premium is true; reason: {pnode.get('reason', '')})")
         if prem < 0:
             v.warnings.append(f"{p_path}.value: negative premium means terminal ROIC below cost of capital")
@@ -601,9 +647,7 @@ def _check_scenarios(v: Validation, doc: dict[str, Any]) -> None:
     sc = _mapping(v, doc, "scenarios")
     if sc is None:
         return
-    horizon = doc.get("horizon", 5)
-    if horizon not in HORIZONS:
-        horizon = 5
+    horizon = horizon_of(doc)
     for name in sc:
         if name not in SCENARIO_NAMES:
             v.errors.append(f"scenarios.{name}: unknown scenario; only bear, base, bull, management")

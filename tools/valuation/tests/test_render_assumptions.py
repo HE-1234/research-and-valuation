@@ -139,3 +139,43 @@ def test_sources_table_is_the_final_section():
     assert text.index("## 9. Change log") < text.index("## Sources")
     del doc["sources"]
     assert "## Sources" not in render_assumptions(doc)
+
+
+def test_ten_year_horizon_prints_the_by_rule_line_under_the_per_year_tables():
+    """Section 18.4: five explicit years in the table, one line per case for the years the rule builds."""
+    doc = load(FIXTURE)
+    doc["horizon"] = 10
+    text = render_assumptions(doc)
+    assert "| Revenue growth, years 1-5 (years 6-10 by rule) |" in text
+    assert "| Operating margin, years 1-5 (years 6-10 by rule) |" in text
+    assert "| Sales-to-capital, years 6-10 |" in text                       # real model years now
+    assert "10 forecast years, then a terminal value: years 1-5 are set below and years 6-10 are built by rule" in text
+    # terminal growth is not known until a run fetches the rate, so it is named in words
+    assert "- Base, years 6-10 by rule: growth moves from 20.0% to the risk-free rate; margin holds at 26.0% " \
+           "through year 10." in text
+    assert "- Bull, years 6-10 by rule: growth eases from 15.0% to 4.0%; margin holds at 34.0% through year 10." in text
+    # the premium row names the new ceilings
+    assert "| A large premium is allowed (above base 8, bull 12 points) |" in text
+
+
+def test_five_year_horizon_says_the_late_ratio_is_for_the_reference_only():
+    doc = load(FIXTURE)                                                     # the fixture says horizon: 5
+    text = render_assumptions(doc)
+    assert "| Sales-to-capital, years 6-10 of the 10-year reference |" in text
+    assert "| Revenue growth, years 1-5 |" in text
+    assert "by rule" not in text
+    assert "5 forecast years, then a terminal value" in text
+
+
+def test_ten_entry_lists_show_ten_columns_and_no_by_rule_line():
+    doc = load(FIXTURE)
+    doc["horizon"] = 10
+    for name in ("bear", "base", "bull", "management"):
+        sc = doc["scenarios"][name]
+        sc["revenue_growth"]["values"] = list(sc["revenue_growth"]["values"]) + [0.04] * 5
+        sc["operating_margin"]["values"] = list(sc["operating_margin"]["values"]) + [sc["operating_margin"]["values"][4]] * 5
+        sc["reinvestment_override"]["values"] = list(sc["reinvestment_override"]["values"]) + [None] * 5
+    text = render_assumptions(doc)
+    assert "| Revenue growth, years 1-10 |" in text
+    assert "| Reinvestment override, years 1-10 (USD millions) |" in text
+    assert "by rule" not in text

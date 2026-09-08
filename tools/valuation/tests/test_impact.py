@@ -95,3 +95,18 @@ def test_a_nudge_that_stops_the_case_is_reported_not_raised(doc):
     tight["cost_of_capital"]["terminal"] = {"method": "value", "value": 0.0425, "reason": "test"}
     with pytest.raises(EngineError):
         impact_ranking(tight, MARKET)
+
+
+def test_nudges_work_at_a_ten_year_horizon_with_five_entry_lists(doc):
+    """Section 18.2: the nudges act on the resolved ten-year paths, so nothing changes shape."""
+    doc["horizon"] = 10
+    ranking = impact_ranking(doc, MARKET)
+    assert len(ranking) == 7
+    assert all(i.change is not None for i in ranking)
+    by = {i.factor: i for i in ranking}
+    assert by["revenue_growth"].change > 0 and by["operating_margin"].change > 0
+    assert by["cost_of_capital"].change < 0
+    # the ten-year base value is above the five-year one, so the ranking starts from a different number
+    five = {i.factor: i for i in impact_ranking({**doc, "horizon": 5}, MARKET)}
+    assert by["revenue_growth"].base_per_share > five["revenue_growth"].base_per_share
+    assert page_order(ranking)[:2] == ["revenue_growth", "operating_margin"]

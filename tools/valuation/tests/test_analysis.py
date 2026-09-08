@@ -7,7 +7,8 @@ from pathlib import Path
 
 from valuation import compute
 from valuation.analysis import (
-    average_growth, reverse_dcf, run_analysis, sensitivity_growth_margin, sensitivity_wacc_growth,
+    average_growth, fcff_change, reverse_dcf, run_analysis, sensitivity_growth_margin, sensitivity_wacc_growth,
+    transition_flag,
 )
 from valuation.engine import MarketInputs, run_scenario
 from valuation.schema import load_yaml
@@ -67,11 +68,11 @@ def test_average_growth_is_cagr():
     assert math.isclose(average_growth(res), expected, rel_tol=1e-12)
 
 
-def test_run_analysis_on_example_has_six_diagnostics_with_dataset_dates():
+def test_run_analysis_on_example_has_seven_diagnostics_with_dataset_dates():
     result = compute(load_yaml(FIXTURE), MARKET)
     analysis = result.analysis or run_analysis(result)
     assert analysis.scenario == "base"
-    assert len(analysis.diagnostics) == 6
+    assert len(analysis.diagnostics) == 7                      # Damodaran's six plus the transition check
     assert analysis.industry is not None
     beta = analysis.industry.unlevered_beta_cash_corrected
     assert beta.value is not None and beta.matched_name == "Semiconductor" and beta.dataset_date
@@ -80,3 +81,50 @@ def test_run_analysis_on_example_has_six_diagnostics_with_dataset_dates():
     assert analysis.reverse is not None and analysis.reverse.implied_growth is not None
     # Year-T revenue 8,000 * 1.2^5 = 19,906 against a 60,000 market: no flag.
     assert analysis.diagnostics[1].flag is False
+    # Diagnostic 1 says history is context when the path is more than five points off it (rule 11):
+    # the base case averages 20% against the recorded 14%.
+    assert "context, not an anchor" in (analysis.diagnostics[0].note or "")
+
+
+def test_transition_check_flags_a_cliff_and_leaves_a_smooth_case_alone():
+    """A small terminal-year notch is normal (his own sheets have one); a cliff is not (section 18.2)."""
+    by, br = base_year(), bridge()
+    # The hand-worked case is a cliff: year-5 cash flow 225.47 against a terminal 139.58, 38% down.
+    cliff = run_scenario(hand_inputs(), by, br, 200.0)
+    assert fcff_change(cliff.rows[-1].fcff, cliff.terminal.fcff) < -0.15
+    assert transition_flag(cliff.rows[-1].fcff, cliff.terminal.fcff, cliff.rows[-1].roic, cliff.terminal.roic)
+    # Terminal growth of zero means no terminal reinvestment, so only the tax step remains: 6% down, no flag.
+    smooth = run_scenario(hand_inputs(terminal_growth=0.0), by, br, 200.0)
+    assert -0.15 < fcff_change(smooth.rows[-1].fcff, smooth.terminal.fcff) < 0
+    assert not transition_flag(smooth.rows[-1].fcff, smooth.terminal.fcff, smooth.rows[-1].roic, smooth.terminal.roic)
+    # A 10% notch, like his Alphabet February 2024 sheet, is inside the tolerance...
+    assert not transition_flag(100.0, 89.0, 0.20, 0.15)
+    # ... a 20% one is not, and neither is a terminal return below half the last year's.
+    assert transition_flag(100.0, 79.0, 0.20, 0.15)
+    assert transition_flag(100.0, 100.0, 0.30, 0.14)
+    assert not transition_flag(100.0, 100.0, 0.30, 0.16)
+
+
+def test_transition_check_diagnostic_reports_the_change_and_warns_when_flagged():
+    result = compute(load_yaml(FIXTURE), MARKET)
+    diag = result.analysis.diagnostics[-1]
+    assert diag.title.startswith("7. The step from the last explicit year")
+    assert diag.flag is True
+    text = " ".join(v for _k, v in diag.rows)
+    assert "a change of -" in text and "to terminal year" in text
+    assert "return on capital" in " ".join(k for k, _v in diag.rows)
+    assert "A small drop is normal" in (diag.note or "")
+    assert any("is far below the year-5 free cash flow" in w for w in result.warnings)
+    # a file whose terminal settings agree with its last year neither flags nor warns: no terminal growth
+    # (so no terminal reinvestment and no revenue step), the same tax rate, and a premium that keeps the
+    # terminal return above half the year-5 implied return
+    doc = load_yaml(FIXTURE)
+    premiums = {"bear": 0.0, "base": 0.03, "bull": 0.10, "management": 0.05}
+    for name, premium in premiums.items():
+        s = doc["scenarios"][name]
+        s["terminal"]["growth"] = {"value": 0.0, "reason": "no growth forever"}
+        s["terminal"]["roic_premium"] = {"value": premium, "allow_large_premium": False, "reason": "test"}
+        s["tax_rate"]["terminal"] = s["tax_rate"]["start"]
+    quiet = compute(doc, MARKET)
+    assert quiet.analysis.diagnostics[-1].flag is False
+    assert not any("free cash flow" in w for w in quiet.warnings)

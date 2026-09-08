@@ -47,7 +47,10 @@ from valuation.engine import ValuationResult
 from valuation.impact import FACTOR_LABELS, Impact, impact_ranking
 from valuation.market import MarketError
 from valuation.render_assumptions import write_assumptions_md
-from valuation.schema import SCENARIO_NAMES, WEIGHTED_SCENARIOS, get_path, is_riskfree, split_path
+from valuation.engine import faded_growth
+from valuation.schema import (
+    EXPLICIT_YEARS, SCENARIO_NAMES, WEIGHTED_SCENARIOS, get_path, horizon_of, is_riskfree, split_path,
+)
 
 
 
@@ -134,7 +137,7 @@ _JARGON: list[tuple[re.Pattern[str], str]] = [(re.compile(p), r) for p, r in [
     (r"\bhistorical_revenue_cagr\b", "the company's own five-year revenue growth"),
     (r"\bhistorical_operating_margin\b", "the company's own five-year operating margin"),
     (r"\ballow_above_riskfree\b", "'Allow growth above the risk-free rate'"),
-    (r"\ballow_large_premium\b", "'Allow a premium above 5 points'"),
+    (r"\ballow_large_premium\b", "'Allow a large premium'"),
     (r"\bdilution_note\b", "the dilution note"),
     (r"\bsales_to_capital\b", "sales-to-capital"),
     (r"\brevenue_growth\b", "revenue growth"),
@@ -188,7 +191,7 @@ _FIELDS: dict[str, tuple[str, str]] = {
     "terminal.growth.value": ("terminal growth", "growth"),
     "terminal.growth.allow_above_riskfree": ("'Allow growth above the risk-free rate'", "bool"),
     "terminal.roic_premium.value": ("terminal return-on-capital premium", "pct2"),
-    "terminal.roic_premium.allow_large_premium": ("'Allow a premium above 5 points'", "bool"),
+    "terminal.roic_premium.allow_large_premium": ("'Allow a large premium'", "bool"),
     "cost_of_capital_override": ("cost of capital override", "pct2"),
 }
 # top-level cell prefix -> (words, kind); longest prefix wins
@@ -344,8 +347,16 @@ def _rate(text: str, digits: int = 2) -> str:
         return text
 
 
+def _points(text: str) -> str:
+    """A decimal threshold as points of return ("0.08" -> "8 points")."""
+    try:
+        return f"{float(text) * 100:g} points"
+    except ValueError:
+        return text
+
+
 _TICK_ABOVE = "tick 'Allow growth above the risk-free rate' on the Terminal value page or lower the number"
-_TICK_PREMIUM = "tick 'Allow a premium above 5 points' on the Terminal value page or lower it"
+_TICK_PREMIUM = "tick 'Allow a large premium' on the Terminal value page or lower it"
 _RULES: list[tuple[re.Pattern[str], Callable[[re.Match[str]], str]]] = [(re.compile(p), f) for p, f in [
     (r"\s*\((?:section\s*)?§?\s*18\.\d+(?:\s+rule\s+\d+)?\)", lambda m: ""),
     (r";?\s*pass --set \S+(?: or write a (?:number|decimal) in assumptions\.yaml)?", lambda m: "; type a value on the Start page"),
@@ -359,15 +370,24 @@ _RULES: list[tuple[re.Pattern[str], Callable[[re.Match[str]], str]]] = [(re.comp
      lambda m: f"{_case(m.group(1))}: the terminal cost of capital {_rate(m.group(2))} must be above terminal growth {_rate(m.group(3))}; lower the growth or raise the terminal cost of capital"),
     (r"(\w+): terminal ROIC (-?[\d.]+) must be positive",
      lambda m: f"{_case(m.group(1))}: the terminal return on capital ({_rate(m.group(2))}) must be positive; raise the premium"),
-    (r"(\w+): terminal ROIC premium ([\d.]+) is above 0\.05 \(allow_large_premium is true; reason: (.*?)\)",
-     lambda m: f"{_case(m.group(1))}: the terminal return-on-capital premium {_rate(m.group(2))} is above 5 points, allowed with the reason: {m.group(3)}"),
-    (r"(\S+)\.value: ([\d.]+) is above 0\.05; set allow_large_premium: true and give a reason",
-     lambda m: f"{describe_path(m.group(1) + '.value')[0]} {_rate(m.group(2))} is above 5 points; {_TICK_PREMIUM}"),
+    (r"(\w+): terminal ROIC premium ([\d.]+) is above ([\d.]+) \(allow_large_premium is true; reason: (.*?)\)",
+     lambda m: f"{_case(m.group(1))}: the terminal return-on-capital premium {_rate(m.group(2))} is above "
+               f"{_points(m.group(3))}, allowed with the reason: {m.group(4)}"),
+    (r"(\S+)\.value: ([\d.]+) is above ([\d.]+) for the \w+ case; set allow_large_premium: true and give a reason",
+     lambda m: f"{describe_path(m.group(1) + '.value')[0]} {_rate(m.group(2))} is above {_points(m.group(3))}; "
+               f"{_TICK_PREMIUM}"),
+    (r"(\S+)\.value: ([\d.]+) must be 0 in the bear case, where the moat is gone",
+     lambda m: f"{describe_path(m.group(1) + '.value')[0]} is {_rate(m.group(2))} and must be zero: the bear case "
+               "assumes the advantage is gone, so the return on capital falls to the cost of capital"),
+    (r"^(bear|base|bull|management): terminal return on capital ",
+     lambda m: f"{_case(m.group(1))}: the terminal return on capital "),
+    (r"^(bear|base|bull|management): the terminal year's free cash flow ",
+     lambda m: f"{_case(m.group(1))}: the terminal year's free cash flow "),
     (r"(\w+): cost of capital pinned to ([\d.]+) by cost_of_capital_override.*",
      lambda m: f"{_case(m.group(1))} discounts at its own rate of {_rate(m.group(2))} instead of the shared cost of capital"),
     (r"(\S+): rates are decimals \(0\.12, not 12\); got (\S+)",
      lambda m: f"{describe_path(m.group(1))[0]}: a rate must be below 100%; got {m.group(2)}"),
-    (r"(\S+)\.values: expected (\d+) entries \(horizon \d+\), got (\d+)",
+    (r"(\S+)\.values: expected (\d+(?: or \d+)?) entries \(horizon \d+\), got (\d+)",
      lambda m: f"{describe_path(m.group(1) + '.values')[0]} needs {m.group(2)} yearly values and has {m.group(3)}"),
     (r"(\S+): expected a number, got (.*)", lambda m: f"{describe_path(m.group(1))[0]}: expected a number, got {m.group(2)}"),
     (r"(\S+): must be >= ([-\d.]+), got ([-\d.]+)",
@@ -392,7 +412,7 @@ _RULES: list[tuple[re.Pattern[str], Callable[[re.Match[str]], str]]] = [(re.comp
     (r"\bset allow_above_riskfree: true\b", lambda m: _TICK_ABOVE),
     (r"\bset allow_large_premium: true\b", lambda m: _TICK_PREMIUM),
     (r"\ballow_above_riskfree\b", lambda m: "'Allow growth above the risk-free rate'"),
-    (r"\ballow_large_premium\b", lambda m: "'Allow a premium above 5 points'"),
+    (r"\ballow_large_premium\b", lambda m: "'Allow a large premium'"),
     (r"§\s*", lambda m: "section "),
 ]]
 
@@ -462,7 +482,79 @@ def load_company(root: Path, ticker: str, *, reset_walk: bool = False) -> None:
 
 
 def horizon(doc: dict[str, Any]) -> int:
-    return int(doc.get("horizon", 5)) if doc.get("horizon") in (5, 10) else 5
+    """The model horizon: ten years unless the file says five (section 18.2)."""
+    return horizon_of(doc)
+
+
+def explicit_years(doc: dict[str, Any], T: int) -> int:
+    """How many years the owner sets on the factor pages.
+
+    Ten by default means five years judged and five built by rule, so the pages show five boxes; a
+    file whose lists carry ten entries has been shaped by hand and shows ten.
+    """
+    if T <= EXPLICIT_YEARS:
+        return T
+    for name in (doc.get("scenarios") or {}):
+        values = get_path(doc, f"scenarios.{name}.revenue_growth.values")
+        if isinstance(values, list) and len(values) > EXPLICIT_YEARS:
+            return T
+    return EXPLICIT_YEARS
+
+
+def year_entries(doc: dict[str, Any], path: str, T: int) -> int:
+    """The number of per-year boxes one cell shows: its own list length when the rule fills the rest."""
+    values = get_path(doc, f"{path}.values")
+    if T > EXPLICIT_YEARS and isinstance(values, list) and len(values) == EXPLICIT_YEARS:
+        return EXPLICIT_YEARS
+    return T
+
+
+def terminal_growth_now(doc: dict[str, Any], name: str, market: MarketInputs | None) -> float | None:
+    """The terminal growth this run would use for a case: the fetched risk-free rate, or the number."""
+    raw = get_path(doc, f"scenarios.{name}.terminal.growth.value")
+    if is_riskfree(raw):
+        return None if market is None else market.risk_free_rate
+    try:
+        return None if raw is None else float(raw)
+    except (TypeError, ValueError):
+        return None
+
+
+def fade_line(doc: dict[str, Any], name: str, cell: str, T: int, market: MarketInputs | None) -> str | None:
+    """The read-only line under the five boxes: the years 6-10 the rule builds from the year-5 input.
+
+    ``None`` when there is nothing to show (a ten-entry list, a five-year model, or an empty year-5
+    box), so the page simply leaves it out.
+    """
+    n = year_entries(doc, f"scenarios.{name}.{cell}", T)
+    if n >= T:
+        return None
+    values = get_path(doc, f"scenarios.{name}.{cell}.values")
+    if not isinstance(values, list) or len(values) < n or values[n - 1] is None:
+        return None
+    year5 = float(values[n - 1])
+    if cell == "operating_margin":
+        return f"Years {n + 1}-{T} by rule: the margin holds at {pct(year5)} through year {T}."
+    terminal = terminal_growth_now(doc, name, market)
+    if terminal is None:
+        return f"Years {n + 1}-{T} by rule: growth moves in equal steps from {pct(year5)} to terminal growth."
+    steps = " / ".join(pct(g) for g in faded_growth(year5, terminal))
+    return (f"Years {n + 1}-{T} by rule: {steps}, easing from {pct(year5)} in year {n} to the terminal growth of "
+            f"{pct2(terminal)}.")
+
+
+def fade_clause(doc: dict[str, Any], name: str, T: int, market: MarketInputs | None) -> str | None:
+    """The short clause the Stories page adds under each case's two defining paths."""
+    n = year_entries(doc, f"scenarios.{name}.revenue_growth", T)
+    if n >= T:
+        return None
+    margin = get_path(doc, f"scenarios.{name}.operating_margin.values")
+    m5 = margin[n - 1] if isinstance(margin, list) and len(margin) >= n and margin[n - 1] is not None else None
+    terminal = terminal_growth_now(doc, name, market)
+    raw = get_path(doc, f"scenarios.{name}.terminal.growth.value")
+    to = "the risk-free rate" if is_riskfree(raw) else (pct2(terminal) if terminal is not None else "terminal growth")
+    tail = f", with the margin holding at {pct(m5)}" if m5 is not None else ""
+    return f"Then by rule: growth eases to {to} by year {T}{tail}."
 
 
 def set_in(doc: Any, path: str, value: Any) -> None:
@@ -601,8 +693,13 @@ def w_terminal_growth(doc: dict[str, Any], path: str, rf: float, *, container=No
 
 def year_boxes(doc: dict[str, Any], path: str, T: int, *, percent: bool = True, fmt: str = "%.1f",
                step: float = 10.0, placeholder: str = "empty") -> None:
-    """Number boxes labelled Year 1..Year T bound to ``path.values.<i>``: rows of five for percentages, rows
-    of three for money (six-digit figures need the width at laptop sizes)."""
+    """Number boxes labelled Year 1..Year N bound to ``path.values.<i>``: rows of five for percentages, rows
+    of three for money (six-digit figures need the width at laptop sizes).
+
+    ``T`` is the horizon; a cell whose list holds only the five years the analyst set (years 6-10
+    come from the rule of section 18.2) shows five boxes, and a ten-entry list shows ten.
+    """
+    T = year_entries(doc, path, T)
     values = get_path(doc, f"{path}.values")
     if not isinstance(values, list) or len(values) != T:
         values = (list(values) if isinstance(values, list) else []) + [None] * T
@@ -815,31 +912,41 @@ def market_boxes(doc: dict[str, Any], ticker: str) -> None:
 # --------------------------------------------------------------------------- #
 
 def resize_horizon(doc: dict[str, Any], T: int) -> str:
-    """Set ``horizon`` and pad or cut every per-year list; returns a note for the owner."""
-    old = int(doc.get("horizon", 5))
+    """Set ``horizon`` and keep every per-year list a length the new horizon accepts.
+
+    Going from five years to ten changes nothing in the lists: the five years already set stay, and
+    the rule of section 18.2 builds years 6-10.  Going the other way, a list shaped by hand over ten
+    years is cut to its first five, because a five-year model has nowhere to put the rest.
+    """
+    was = horizon(doc)
     doc["horizon"] = T
-    for name, sc in (doc.get("scenarios") or {}).items():
-        if not isinstance(sc, dict):
-            continue
-        for k in ("revenue_growth", "operating_margin", "reinvestment_override"):
-            node = sc.get(k)
-            if not isinstance(node, dict) or not isinstance(node.get("values"), list):
+    cut = 0
+    if T < was:
+        for name, sc in (doc.get("scenarios") or {}).items():
+            if not isinstance(sc, dict):
                 continue
-            values = list(node["values"])
-            if len(values) < T:
-                filler = None if k == "reinvestment_override" or not values else values[-1]
-                values += [filler] * (T - len(values))
-            node["values"] = values[:T]
-    if T > old:
-        return (f"Horizon set to {T} years. Every per-year list was extended from {old} to {T} entries by repeating "
-                "its last value (reinvestment overrides get empty cells). Edit years 6-10 on the factor pages.")
-    return f"Horizon set to {T} years. Per-year lists were cut to their first {T} entries."
+            for k in ("revenue_growth", "operating_margin", "reinvestment_override"):
+                node = sc.get(k)
+                if not isinstance(node, dict) or not isinstance(node.get("values"), list):
+                    continue
+                if len(node["values"]) > T:
+                    node["values"] = list(node["values"])[:T]
+                    cut += 1
+    if T > was:
+        return (f"Forecast set to {T} years: the {EXPLICIT_YEARS} years you set, then {T - EXPLICIT_YEARS} more built "
+                "by rule (growth eases to terminal growth, the margin holds). The five-year stop is now the reference "
+                "value shown next to each case.")
+    note = (f"Forecast set to {T} years: the model stops at year {T} and takes the terminal value there. The ten-year "
+            "version is now the reference value shown next to each case.")
+    if cut:
+        note += f" {cut} per-year list(s) longer than {T} years were cut to their first {T} entries."
+    return note
 
 
 def _horizon_cb(k: str) -> None:
     T = int(st.session_state[k])
     doc = working()
-    if T != int(doc.get("horizon", 5)):
+    if T != horizon(doc):
         st.session_state["horizon_note"] = resize_horizon(doc, T)
         bump_gen()
 
@@ -849,7 +956,8 @@ def horizon_control(doc: dict[str, Any]) -> None:
     k = key("horizon")
     st.radio("Forecast years before the terminal value", [5, 10], index=[5, 10].index(cur), horizontal=True, key=k,
              on_change=_horizon_cb, args=(k,),
-             help="Five years is the default; the 10-year-fade reference is always shown next to it.")
+             help="Ten years is the default: the five you set, then five more built by rule. Five stops the model at "
+                  "year 5. Whichever you choose, the other one is computed as a reference next to every case.")
     note = st.session_state.get("horizon_note")
     if note:
         st.info(note)
@@ -1049,13 +1157,17 @@ def _restart_cb(root: Path, ticker: str) -> None:
 # Results table and charts
 # --------------------------------------------------------------------------- #
 
-RESULT_COLUMNS = ["Case", "Weight", "Value per share", "Price", "Upside / downside", "Terminal-value share",
-                  "10-year-fade per share", "Operating assets", "Enterprise value", "Equity value"]
+def result_columns(reference: str) -> list[str]:
+    """The results-table columns; the reference column is named after the other structure (section 18.2)."""
+    return ["Case", "Weight", "Value per share", "Price", "Upside / downside", "Terminal-value share",
+            f"{reference} per share", "Operating assets", "Enterprise value", "Equity value"]
 
 
 def results_table(result: ValuationResult) -> pd.DataFrame:
     """The section 18.5 results table: one row per case plus the weighted row (money in USD millions)."""
     doc = result.assumptions
+    reference = result.reference_label or "Reference"
+    ref_column = f"{reference} per share"
     rows = []
     for name in SCENARIO_NAMES:
         if name not in (doc.get("scenarios") or {}):
@@ -1066,22 +1178,22 @@ def results_table(result: ValuationResult) -> pd.DataFrame:
         if sc is None:
             rows.append({"Case": CASE_LABELS[name], "Weight": wtxt, "Value per share": "not computed"})
             continue
-        fade = sc.fade_reference.per_share if sc.fade_reference else None
+        ref = sc.reference.per_share if sc.reference else None
         rows.append({"Case": CASE_LABELS[name], "Weight": wtxt, "Value per share": per_share(sc.per_share),
                      "Price": per_share(sc.price), "Upside / downside": pct(sc.upside),
-                     "Terminal-value share": pct(sc.terminal_share), "10-year-fade per share": per_share(fade),
+                     "Terminal-value share": pct(sc.terminal_share), ref_column: per_share(ref),
                      "Operating assets": money(sc.operating_assets), "Enterprise value": money(sc.enterprise_value),
                      "Equity value": money(sc.equity)})
     if result.weighted:
         w = result.weighted
         rows.append({"Case": "Weighted expected", "Weight": "100%", "Value per share": per_share(w.per_share),
                      "Price": per_share(result.market.price), "Upside / downside": pct(w.upside),
-                     "Terminal-value share": pct(w.terminal_share), "10-year-fade per share": per_share(w.fade_per_share),
+                     "Terminal-value share": pct(w.terminal_share), ref_column: per_share(w.reference_per_share),
                      "Operating assets": money(w.operating_assets), "Enterprise value": money(w.enterprise_value),
                      "Equity value": money(w.equity)})
     else:
         rows.append({"Case": "Weighted expected", "Weight": "", "Value per share": "not computed"})
-    return pd.DataFrame(rows, columns=RESULT_COLUMNS).fillna("")
+    return pd.DataFrame(rows, columns=result_columns(reference)).fillna("")
 
 
 def result_notes(result: ValuationResult) -> list[str]:
@@ -1152,18 +1264,20 @@ def static_table(df: pd.DataFrame) -> None:
 
 
 def value_chart(result: ValuationResult) -> alt.LayerChart | None:
+    label = result.reference_label or "reference"
     data = []
     for name in WEIGHTED_SCENARIOS:
         sc = result.scenarios.get(name)
         if sc is not None:
-            fade = sc.fade_reference.per_share if sc.fade_reference else None
-            data.append({"case": CASE_LABELS[name], "value": sc.per_share, "fade": fade,
+            ref = sc.reference.per_share if sc.reference else None
+            data.append({"case": CASE_LABELS[name], "value": sc.per_share, "fade": ref,
                          "value_label": per_share(sc.per_share),
-                         "fade_label": f"10-year fade {per_share(fade)}" if fade is not None else ""})
+                         "fade_label": f"{label} {per_share(ref)}" if ref is not None else ""})
     if result.weighted:
         w = result.weighted
-        data.append({"case": "Weighted", "value": w.per_share, "fade": w.fade_per_share, "value_label": per_share(w.per_share),
-                     "fade_label": f"10-year fade {per_share(w.fade_per_share)}"})
+        data.append({"case": "Weighted", "value": w.per_share, "fade": w.reference_per_share,
+                     "value_label": per_share(w.per_share),
+                     "fade_label": f"{label} {per_share(w.reference_per_share)}"})
     if not data:
         return None
     for d in data:
@@ -1175,10 +1289,10 @@ def value_chart(result: ValuationResult) -> alt.LayerChart | None:
     bars = base.mark_bar(color=BLUE, cornerRadiusTopLeft=4, cornerRadiusTopRight=4, size=140).encode(
         y=alt.Y("value:Q", title="Value per share (USD)"),
         tooltip=[alt.Tooltip("case:N", title="Case"), alt.Tooltip("value:Q", title="Value per share", format=",.2f"),
-                 alt.Tooltip("fade:Q", title="10-year-fade reference", format=",.2f")])
+                 alt.Tooltip("fade:Q", title=f"{label} reference", format=",.2f")])
     # the value per share sits just inside the top of each bar (white on blue, so it never crosses the dashed
-    # price line); a bar too short for that carries it above; the 10-year-fade reference is a lighter label
-    # inside the foot of a bar tall enough to hold both
+    # price line); a bar too short for that carries it above; the other structure's reference value is a
+    # lighter label inside the foot of a bar tall enough to hold both
     top = max(max(d["value"] for d in data), price)
     tall = alt.datum.value > 0.18 * top
     values_in = base.transform_filter(tall).mark_text(baseline="top", dy=8, color="#ffffff", fontSize=14,

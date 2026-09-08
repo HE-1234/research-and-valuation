@@ -9,7 +9,8 @@ as_of_date: 2026-08-28
 drafted: 2026-09-07
 currency: USD
 units: millions
-horizon: 5                       # explicit years; the 10-year-fade reference is always computed too
+horizon: 5                       # 10 is the default (five explicit years plus five faded by rule); 5 stops
+                                 # the model at year 5. The other structure is always computed as a reference.
 
 base_year:
   period: "Q3 FY2026 - Q2 FY2027 (TTM)"
@@ -32,6 +33,7 @@ switches:
   capitalize_rnd: false
   rnd_amortization_years: 5
   rnd_history: [1200, 1400, 1600, 1800, 1950]   # oldest first; only used if capitalize_rnd
+  reinvestment_lag: 1                          # years ahead that spending buys growth: 0, 1 (default), 2 or 3
 
 bridge:
   cash_and_marketable_securities: {value: 1500, source: "[10-Q Q2 FY2027, Balance sheet]"}
@@ -150,7 +152,8 @@ scenarios:
       growth:              {value: 0.04, allow_above_riskfree: false,
                             reason: "A decimal is also allowed; 4% sits at or below the risk-free rate."}
       roic_premium:        {value: 0.05, allow_large_premium: false,
-                            reason: "At the ceiling; the owner prefers to err low."}
+                            reason: "Five points, well inside the twelve a bull case may carry, and above Damodaran's
+                              four for Alphabet in 2018."}
   management:
     computable: true
     reason: "Management gave a three-year revenue target and a long-term margin target."

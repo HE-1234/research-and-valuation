@@ -258,19 +258,55 @@ def test_write_valuation_refuses_with_unsaved_changes_and_start_over_reloads(rep
     assert "## 1. Results" in (vdir / "valuation.md").read_text(encoding="utf-8")
 
 
-def test_horizon_switch_pads_lists_and_shows_ten_boxes(repo: Path):
+def test_horizon_switch_to_ten_keeps_five_boxes_and_shows_the_fade_line(repo: Path):
+    """Section 18.2: ten years means five set and five by rule, so the lists and the boxes stay at five."""
     at = run_app()
     gen = at.session_state["gen"]
     at.radio(key=f"w{gen}:horizon").set_value(10).run()
     assert_clean(at)
     doc = at.session_state["working"]
     assert doc["horizon"] == 10
-    assert doc["scenarios"]["base"]["revenue_growth"]["values"] == [0.20] * 10
-    assert doc["scenarios"]["bull"]["reinvestment_override"]["values"] == [400, None, None, None, None] + [None] * 5
-    assert at.session_state["last_result"].horizon == 10
-    assert any("Horizon set to 10" in i.value for i in at.info)
+    assert doc["scenarios"]["base"]["revenue_growth"]["values"] == [0.20] * 5     # untouched
+    assert doc["scenarios"]["bull"]["reinvestment_override"]["values"] == [400, None, None, None, None]
+    result = at.session_state["last_result"]
+    assert result.horizon == 10 and result.reference_label == "5-year stop"
+    assert len(result.scenarios["base"].rows) == 10
+    assert any("Forecast set to 10 years" in i.value for i in at.info)
+
+    go_to(at, "revenue_growth")
+    assert len(at.number_input) == 20                              # four cases, five boxes each
+    captions = [c.value for c in at.caption]
+    fades = [c for c in captions if c.startswith("Years 6-10 by rule:")]
+    assert len(fades) == 4                                          # one per case
+    # the base case eases from 20% to the run's risk-free rate in five equal steps
+    assert "16.9% / 13.7% / 10.6% / 7.4% / 4.3%" in fades[1]
+    assert "the terminal growth of 4.25%" in fades[1]
+    go_to(at, "operating_margin")
+    holds = [c.value for c in at.caption if "the margin holds at" in c.value]
+    assert holds and "Years 6-10 by rule: the margin holds at 26.0% through year 10." in holds
+    # the results table names the other structure
+    go_to(at, "results")
+    table = at.table[0].value
+    assert "5-year stop per share" in list(table.columns)
+    assert "10-year fade per share" not in list(table.columns)
+
+
+def test_ten_entry_lists_show_ten_boxes_and_no_fade_line(repo: Path):
+    """A file whose analyst shaped years 6-10 by hand gets ten boxes and no rule line (section 18.2)."""
+    yaml_path = repo / "companies" / "EXMP" / "valuation" / "assumptions.yaml"
+    doc = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))
+    doc["horizon"] = 10
+    for name in ("bear", "base", "bull", "management"):
+        sc = doc["scenarios"][name]
+        sc["revenue_growth"]["values"] = list(sc["revenue_growth"]["values"]) + [0.04] * 5
+        sc["operating_margin"]["values"] = list(sc["operating_margin"]["values"]) + [sc["operating_margin"]["values"][4]] * 5
+        sc["reinvestment_override"]["values"] = list(sc["reinvestment_override"]["values"]) + [None] * 5
+    yaml_path.write_text(yaml.safe_dump(doc, sort_keys=False, allow_unicode=True), encoding="utf-8")
+    at = run_app()
+    assert_clean(at)
     go_to(at, "revenue_growth")
     assert len(at.number_input) == 40                              # four cases, ten boxes each
+    assert not any(c.value.startswith("Years 6-10 by rule:") for c in at.caption)
 
 
 def test_commit_messages_follow_section_18_7(repo: Path):
@@ -302,19 +338,54 @@ def test_commit_messages_follow_section_18_7(repo: Path):
     assert any("Nothing to commit" in s.value for s in at.success)
 
 
+BANNED = (r"(?<![\\])\$|[×Σ≤≥−÷→]|§|\b(?:scenarios|base_year|bridge|cost_of_capital|diagnostics)\.\w+"
+          r"|--set|= False|= True|\bnull\b|used_as|reinvestment_override|allow_above_riskfree|allow_large_premium")
+
+
 def test_no_dollar_signs_math_symbols_or_internals_in_the_apps_prose(repo: Path):
     """Streamlit reads ``$`` as a formula; the owner never sees maths symbols, dotted paths, YAML keys,
     section citations or option tokens."""
     import re
 
     at = run_app()
-    banned = re.compile(r"(?<![\\])\$|[×Σ≤≥−÷→]|§|\b(?:scenarios|base_year|bridge|cost_of_capital|diagnostics)\.\w+"
-                        r"|--set|= False|= True|\bnull\b|used_as|reinvestment_override|allow_above_riskfree")
+    banned = re.compile(BANNED)
     for page in PAGES:
         go_to(at, page)
         texts = [m.value for m in at.markdown] + [c.value for c in at.caption] + [w.value for w in at.warning]
         for text in texts:
             assert not banned.search(text), (page, text)
+
+
+def test_the_ten_year_walk_renders_every_page_in_plain_words(repo: Path):
+    """The default structure of section 18.2, end to end: the Start paragraph, the story clauses, the
+    fade lines, the marked year-by-year table and the transition check, none of them leaking internals."""
+    import re
+
+    yaml_path = repo / "companies" / "EXMP" / "valuation" / "assumptions.yaml"
+    yaml_path.write_text(yaml_path.read_text(encoding="utf-8").replace("horizon: 5", "horizon: 10"), encoding="utf-8")
+    at = run_app()
+    assert_clean(at)
+    banned = re.compile(BANNED)
+    assert any("ten years: five you set" in m.value for m in at.markdown)
+    for page in PAGES:
+        go_to(at, page)
+        assert_clean(at)
+        texts = [m.value for m in at.markdown] + [c.value for c in at.caption] + [w.value for w in at.warning]
+        for text in texts:
+            assert not banned.search(text), (page, text)
+        if page == "stories":
+            clauses = [c.value for c in at.caption if c.value.startswith("Then by rule:")]
+            assert len(clauses) == 4                                  # bear, base, bull and the management case
+            assert "growth eases to the risk-free rate by year 10" in clauses[1]
+            assert "the margin holding at 26.0%" in clauses[1]
+        if page == "results":
+            assert any("5-year stop per share" in list(t.value.columns) for t in at.table)
+            years = [t.value for t in at.table if "Year" in list(t.value.columns)
+                     and "Free cash flow" in list(t.value.columns)]
+            assert years and "10 (by rule)" in list(years[0]["Year"])
+            diags = [t.value for t in at.table if list(t.value.columns) == ["Item", "Value"]]
+            text = " ".join(str(x) for t in diags for x in t["Item"])
+            assert "free cash flow (USD millions)" in text            # the transition check is on the page
 
 
 def test_company_change_resets_the_walk_to_start(repo: Path):
@@ -414,4 +485,5 @@ def test_working_notes_with_a_duplicate_column_pipe_table_render_without_a_trace
     assert tables and list(tables[0].columns) == ["Year", "Ratio", "Ratio (2)"]
     assert any("FY2023    206     305" in c.value for c in at.code)
     go_to(at, "results")
-    assert not any("Bull case: " in m.value or "used as" in m.value for m in at.markdown)
+    assert not any("used as" in m.value for m in at.markdown)
+    assert not any(m.value.count("Bull case") > 1 for m in at.markdown)     # never the case name twice
