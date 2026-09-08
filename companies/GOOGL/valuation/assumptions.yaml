@@ -166,7 +166,7 @@ market:
   price: auto
   risk_free_rate: auto
   equity_risk_premium: auto
-  mature_market_erp: 0.045
+  mature_market_erp: 0.04
   marginal_tax_rate: 0.25
 
 cost_of_capital:
@@ -229,13 +229,13 @@ scenarios:
     story: |
       People increasingly ask chat assistants instead of searching, and the ads next to those answers pay less, so Search growth slides into the low single digits within a few years. Alphabet keeps spending on the data centers it has already ordered, so capital spending still rises in 2027 as management promised, and the machines arrive and depreciate just as Cloud demand cools once customers have built their first AI systems; the heavy spending never earns its keep and is cut back only afterwards. Operating margins fall below the 2022–2023 lows, this time with far more machinery to pay for. At the end of the five years the moat is assumed gone and the business earns only its cost of capital.
     revenue_growth:
-      values: [0.15, 0.09, 0.06, 0.04, 0.03]
+      values: [0.2, 0.15, 0.14, 0.14, 0.12]
       reason: "Year 1 still grows 15%, because the cloud orders already signed and the chip-system sales due in 2027 are largely locked in (outlook.md sections 3 and 4). Growth then drops below even the 2022–2023 lows: AI answers eat into searches, cloud demand cools once customers have built their first AI systems, and the cost of Alphabet's search defaults creeps up (business.md section 6, risks 1 and 5)."
       detail: |
         History as in the base case. Year 1 leans on the Cloud backlog of 513,900, just over half of it due within 24 months and largely contracted, plus TPU system sales landing in 2027 [10-Q Q2 2026, Note 2] [Q2 2026 call, p.12–13]. Search & other is assumed to slow sharply from 17%. Years 2–5 sit below the 2022–2023 troughs of 9.8% and 8.7% as the backlog is worked through, Cloud demand normalizes and the TAC rate rises [10-K FY2023, Item 8] [10-K FY2025, Item 7].
       source: "[10-Q Q2 2026, Note 2] [Q2 2026 call, p.12–13] [10-K FY2025, Item 7] [10-K FY2023, Item 8]"
     operating_margin:
-      values: [0.31, 0.28, 0.26, 0.24, 0.23]
+      values: [0.31, 0.3, 0.3, 0.3, 0.3]
       reason: "Margins fall below the 2022 low, this time with far more machinery to pay for: depreciation on data centers already ordered keeps climbing while revenue barely grows, and energy, rented capacity and the price of search defaults all push the wrong way (outlook.md section 4; business.md sections 5 and 6). With growth of 3–9% a year there is no extra scale to offset any of it."
       detail: |
         Starting point: trailing-twelve-month GAAP margin 33.1%, against FY2022–2023 margins of 26–27% earned with capex at only 10–11% of revenue (business.md section 3 table) [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-K FY2023, Item 8]. On this case's capex path (200,000 in 2026 and about 239,000 of committed spending in 2027, cut back only afterwards; see the reinvestment override row) depreciation of property and equipment rises from 5.7% of trailing revenue to about 9% in year 2 and 16% by year 5, because revenue grows slowly: a headwind of roughly 10 points. The depreciation schedule assumes 60% servers over six years and 40% data centers and network over 20 years, management's 60/40 split [Q2 2026 call, p.11] [Q2 2026 call, p.13–14]. Acquired-intangible amortization is 0.2% of revenue and immaterial to the path.
@@ -272,13 +272,13 @@ scenarios:
     story: |
       AI makes Search bigger rather than smaller, but growth slows from today's pace as it is measured against last year's strong growth and pays more for computing per answer. Cloud keeps converting its half-trillion-dollar backlog and the TPU hardware sales arrive in 2027, so revenue grows about 20% in the first year before easing toward single digits. Capital spending rises again in 2027 as management has promised and then eases back as depreciation catches up. Depreciation from the build-out eats a few points of margin, only partly offset by Cloud becoming as profitable as the older businesses. The habit, distribution and data advantages described in business.md §5 let Alphabet keep earning a modest premium over its cost of capital in the long run.
     revenue_growth:
-      values: [0.20, 0.16, 0.13, 0.10, 0.08]
+      values: [0.23, 0.19, 0.17, 0.14, 0.13]
       reason: "Year 1 grows 20%: Cloud converts a backlog worth more than a year of company-wide revenue, the chip-system sales arrive in 2027, and Search keeps growing but slower than its recent burst (outlook.md sections 2 and 4). Growth then fades year by year toward the single digits of 2022–2023 as the backlog is worked off and Search matures. The scorecard shows management delivering on its capex and Cloud claims, so the backlog is taken at face value."
       detail: |
         History (business.md section 2 table; outlook.md section 1): 9.8% (2022), 8.7% (2023), 13.9% (2024), 15.1% (2025) and 23.1% in the first half of 2026, the last with a one-point currency tailwind [10-K FY2023, Item 8] [10-K FY2025, Item 7]. Year 1 (July 2026–June 2027) at 20%: the Cloud backlog of 513,900 with just over half due within 24 months means Cloud alone should add over 50,000 a year against trailing-twelve-month Cloud revenue of 77,617; TPU system sales land mostly in 2027; Search & other slows from 17% as it laps a strong 2025 and faces a slight currency headwind [10-Q Q2 2026, Note 2] [Q2 2026 call, p.12–13]. Management met or beat its capex and Cloud claims last quarter (scorecard.md, Q2 2026).
       source: "[10-Q Q2 2026, Note 2] [Q2 2026 call, p.12–13] [10-K FY2025, Item 7] [10-K FY2023, Item 8]"
     operating_margin:
-      values: [0.33, 0.32, 0.31, 0.30, 0.30]
+      values: [0.33, 0.33, 0.31, 0.30, 0.30]
       reason: "Margins slip about three points over five years and then hold: the depreciation management has guided for is the big headwind (outlook.md section 4), and cost discipline, a falling traffic-acquisition rate and Cloud becoming as profitable as the older businesses roughly cover it (business.md section 3; outlook.md section 1). The three points of slippage are the room left for energy, rented capacity and the low-margin chip-system sales described in outlook.md section 3."
       detail: |
         Starting point: trailing-twelve-month GAAP margin 33.1%, first half of 2026 35.0%, FY2021–2025 31%, 26%, 27%, 32%, 32% (business.md section 3 table) [10-K FY2025, Item 8] [10-Q Q2 2026, Item 1] [10-Q Q2 2026, Item 2]. Management says the build-out 'will continue to put pressure on the P&L in the form of higher depreciation expense and related data center operations costs, such as energy' (outlook.md section 4) [Q2 2026 call, p.13–14].
@@ -322,7 +322,7 @@ scenarios:
     story: |
       Alphabet turns out to own the whole AI stack, from its own chips to its own models to the products billions of people already use, and that lets it take a large share of both AI advertising and AI cloud computing. Search grows faster than before because AI answers create more questions and richer ads, Cloud approaches the profitability of the older businesses, and TPU systems become a real hardware business. Capital spending rises further in 2027 to meet the demand, and revenue more than doubles in five years while margins hold near today's level despite the heavier machinery. The moat is strong enough to earn a five-point premium over its cost of capital indefinitely.
     revenue_growth:
-      values: [0.24, 0.21, 0.17, 0.13, 0.10]
+      values: [0.26, 0.23, 0.2, 0.19, 0.17]
       reason: "Growth holds roughly the 23–24% pace of the first half of 2026 for a year and then fades more slowly than in the base case, on the view that AI answers create more questions and richer ads while Cloud and the chip-system business compound (outlook.md sections 2 and 3). Even year 5 at 10% is below what Alphabet did in 2024 and 2025, but the case only works if Search keeps growing in the mid-teens."
       detail: |
         History as in the base case. What supports the faster path: the Cloud backlog grew by more than 50,000 in one quarter to 513,900 and customers use more than they commit (outlook.md section 3); AI Mode passed one billion monthly users and the Gemini app 950 million (outlook.md section 2); TPU sales become a new revenue line [10-Q Q2 2026, Note 2] [Q2 2026 call, p.3–4] [Q2 2026 call, p.12] [Q2 2026 release, p.1]. Search & other grew in the mid-teens in the first half of 2026, which is what the case leans on (outlook.md section 1).
@@ -452,3 +452,26 @@ sources:
   - {tag: "[8-K 2026-06-05 (preferred)]", file: "sources/2026-Q2/8-K-2026-06-05-preferred.txt", date: "2026-06-05", note: "mandatory convertible preferred offering and capped calls"}
   - {tag: "[Damodaran betas.xls, …]", file: "tools/valuation/data/damodaran/betas.csv", date: "2026-01-05", note: "engine-cached dataset, dated as cited in the source tag; not read by the analyst"}
   - {tag: "[Yahoo price 338.46 on 2026-09-04]", file: "none (fetched)", date: "2026-09-04", note: "spot price fetched by the engine at run time; nothing cached in the repo"}
+owner_edited: "2026-09-08T01:30:23"
+changelog:
+  - {at: "2026-09-08T01:30:23", path: market.mature_market_erp, old: 0.045, new: 0.04, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bear.revenue_growth.values.0, old: 0.15, new: 0.2, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bear.revenue_growth.values.1, old: 0.09, new: 0.15, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bear.revenue_growth.values.2, old: 0.06, new: 0.14, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bear.revenue_growth.values.3, old: 0.04, new: 0.14, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bear.revenue_growth.values.4, old: 0.03, new: 0.12, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bear.operating_margin.values.1, old: 0.28, new: 0.3, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bear.operating_margin.values.2, old: 0.26, new: 0.3, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bear.operating_margin.values.3, old: 0.24, new: 0.3, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bear.operating_margin.values.4, old: 0.23, new: 0.3, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.base.revenue_growth.values.0, old: 0.2, new: 0.23, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.base.revenue_growth.values.1, old: 0.16, new: 0.19, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.base.revenue_growth.values.2, old: 0.13, new: 0.17, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.base.revenue_growth.values.3, old: 0.1, new: 0.14, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.base.revenue_growth.values.4, old: 0.08, new: 0.13, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.base.operating_margin.values.1, old: 0.32, new: 0.33, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bull.revenue_growth.values.0, old: 0.24, new: 0.26, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bull.revenue_growth.values.1, old: 0.21, new: 0.23, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bull.revenue_growth.values.2, old: 0.17, new: 0.2, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bull.revenue_growth.values.3, old: 0.13, new: 0.19, note: null}
+  - {at: "2026-09-08T01:30:23", path: scenarios.bull.revenue_growth.values.4, old: 0.1, new: 0.17, note: null}

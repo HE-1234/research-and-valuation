@@ -9,8 +9,10 @@ This file is a read-only view of the valuation inputs for Alphabet Inc. (GOOGL),
 | As-of quarter | 2026-Q2 |
 | As-of date (quarter cutoff) | 2026-07-23 |
 | Drafted | 2026-09-07 |
+| Owner edited (last save from the app) | 2026-09-08T01:30:23 |
 | Horizon | 5 explicit years, then a terminal value |
 | Currency and units | USD, millions |
+| Owner changes on record | 21 (see the change log at the end) |
 
 ## 1. The stories
 
@@ -42,8 +44,8 @@ Rows are inputs and columns are cases. Per-year cells read year 1 / year 2 / ...
 |---|---|---|---|---|
 | Weight | 25.0% | 50.0% | 25.0% | not weighted |
 | Computable | always | always | always | no |
-| Revenue growth, years 1-5 | 15.0% / 9.0% / 6.0% / 4.0% / 3.0% | 20.0% / 16.0% / 13.0% / 10.0% / 8.0% | 24.0% / 21.0% / 17.0% / 13.0% / 10.0% | — / — / — / — / — |
-| Operating margin, years 1-5 | 31.0% / 28.0% / 26.0% / 24.0% / 23.0% | 33.0% / 32.0% / 31.0% / 30.0% / 30.0% | 34.0% / 35.0% / 35.0% / 35.0% / 35.0% | — / — / — / — / — |
+| Revenue growth, years 1-5 | 20.0% / 15.0% / 14.0% / 14.0% / 12.0% | 23.0% / 19.0% / 17.0% / 14.0% / 13.0% | 26.0% / 23.0% / 20.0% / 19.0% / 17.0% | — / — / — / — / — |
+| Operating margin, years 1-5 | 31.0% / 30.0% / 30.0% / 30.0% / 30.0% | 33.0% / 33.0% / 31.0% / 30.0% / 30.0% | 34.0% / 35.0% / 35.0% / 35.0% / 35.0% | — / — / — / — / — |
 | Sales-to-capital, years 1-5 | 0.60 | 0.90 | 1.30 | — |
 | Sales-to-capital, years 6-10 of the 10-year reference | 0.90 | 1.20 | 1.60 | — |
 | Reinvestment override, years 1-5 (USD millions) | 173,970 / 187,000 / — / — / — | 173,970 / 187,000 / — / — / — | 173,970 / 208,000 / — / — / — | 173,970 / — / — / — / — |
@@ -239,7 +241,7 @@ Dilution note: A $40.0 billion at-the-market program was set up in June 2026 and
 | Price (USD per share) | auto | fetched from Yahoo at compute time |
 | Risk-free rate | auto | latest ten-year Treasury yield from FRED at compute time |
 | Equity risk premium | auto | latest row of Damodaran's cached monthly dataset |
-| Mature-market equity risk premium | 4.50% | used for the terminal cost of capital |
+| Mature-market equity risk premium | 4.00% | used for the terminal cost of capital |
 | Marginal tax rate | 25.0% | used in the cost of capital build |
 
 ## 6. Cost of capital inputs
@@ -293,6 +295,34 @@ Everything management has said in numbers or in words, whether or not it was use
 | Free cash flow | we expect the free cash flow will remain under pressure driven by our investments in technical infrastructure | [Q2 2026 call, p.14] | not numeric |
 | Equity markets and ATM program | At this point, we're not planning to go back to the equity markets, with the exception of ... the ATM, or at‑the‑market, offering that we will do to address ... the tax on SBC, which we'll do for some period of time. | [Q2 2026 call, p.18] | the dilution note |
 | Depreciation and hiring | will continue to put pressure on the P&L in the form of higher depreciation expense and related data center operations costs, such as energy. We also expect to continue hiring in key investment areas such as AI and cloud | [Q2 2026 call, p.13–14] | not numeric (informs analyst margin paths) |
+
+## 9. Change log
+
+Every change the owner saved from the app, oldest first. Values are shown as the file holds them.
+
+| When | Input | Before | After | Note |
+|---|---|---|---|---|
+| 2026-09-08T01:30:23 | `market.mature_market_erp` | 0.045 | 0.04 | — |
+| 2026-09-08T01:30:23 | `scenarios.bear.revenue_growth.values.0` | 0.15 | 0.2 | — |
+| 2026-09-08T01:30:23 | `scenarios.bear.revenue_growth.values.1` | 0.09 | 0.15 | — |
+| 2026-09-08T01:30:23 | `scenarios.bear.revenue_growth.values.2` | 0.06 | 0.14 | — |
+| 2026-09-08T01:30:23 | `scenarios.bear.revenue_growth.values.3` | 0.04 | 0.14 | — |
+| 2026-09-08T01:30:23 | `scenarios.bear.revenue_growth.values.4` | 0.03 | 0.12 | — |
+| 2026-09-08T01:30:23 | `scenarios.bear.operating_margin.values.1` | 0.28 | 0.3 | — |
+| 2026-09-08T01:30:23 | `scenarios.bear.operating_margin.values.2` | 0.26 | 0.3 | — |
+| 2026-09-08T01:30:23 | `scenarios.bear.operating_margin.values.3` | 0.24 | 0.3 | — |
+| 2026-09-08T01:30:23 | `scenarios.bear.operating_margin.values.4` | 0.23 | 0.3 | — |
+| 2026-09-08T01:30:23 | `scenarios.base.revenue_growth.values.0` | 0.2 | 0.23 | — |
+| 2026-09-08T01:30:23 | `scenarios.base.revenue_growth.values.1` | 0.16 | 0.19 | — |
+| 2026-09-08T01:30:23 | `scenarios.base.revenue_growth.values.2` | 0.13 | 0.17 | — |
+| 2026-09-08T01:30:23 | `scenarios.base.revenue_growth.values.3` | 0.1 | 0.14 | — |
+| 2026-09-08T01:30:23 | `scenarios.base.revenue_growth.values.4` | 0.08 | 0.13 | — |
+| 2026-09-08T01:30:23 | `scenarios.base.operating_margin.values.1` | 0.32 | 0.33 | — |
+| 2026-09-08T01:30:23 | `scenarios.bull.revenue_growth.values.0` | 0.24 | 0.26 | — |
+| 2026-09-08T01:30:23 | `scenarios.bull.revenue_growth.values.1` | 0.21 | 0.23 | — |
+| 2026-09-08T01:30:23 | `scenarios.bull.revenue_growth.values.2` | 0.17 | 0.2 | — |
+| 2026-09-08T01:30:23 | `scenarios.bull.revenue_growth.values.3` | 0.13 | 0.19 | — |
+| 2026-09-08T01:30:23 | `scenarios.bull.revenue_growth.values.4` | 0.1 | 0.17 | — |
 
 ## Sources
 
