@@ -89,6 +89,12 @@ scenarios:
       The custom-chip business loses its biggest customer to an in-house design after two years.
       Growth slows to the pace of the wider chip market and margins stay where they are today.
       Reinvestment stays heavy because the company keeps chasing the next design win.
+    story_to_numbers:
+      - {says: "Year one still follows the order book.", drives: "revenue growth, year 1", number: "10%"}
+      - {says: "The biggest customer moves to an in-house design after two years.", drives: "revenue growth, years 3 to 5", number: "4% a year, the pace of the wider chip market"}
+      - {says: "Margins stay where they are today.", drives: "operating margin, years 1 to 5", number: "16% throughout"}
+      - {says: "Reinvestment stays heavy because the company keeps chasing the next design win.", drives: "sales-to-capital, early and late", number: "1.2 and 1.2"}
+      - {says: "Once the customer is gone there is no moat left.", drives: "terminal return-on-capital premium", number: "0"}
     revenue_growth:        {values: [0.10, 0.06, 0.04, 0.04, 0.04],
                             reason: "Year one follows the order book; then market-rate growth. See outlook.md section 4.",
                             source: "[Q2 FY2027 call]"}
@@ -111,6 +117,11 @@ scenarios:
       The company keeps its two big custom-chip customers and adds a third by year three.
       Revenue grows well above the market for two years and then settles toward it.
       Margins widen as acquired amortization rolls off and fixed costs are spread over more revenue.
+    story_to_numbers:
+      - {says: "Keeps its two big custom-chip customers and adds a third by year three.", drives: "revenue growth, years 1 to 5", number: "20% a year"}
+      - {says: "Margins widen as acquired amortization rolls off and fixed costs are spread over more revenue.", drives: "operating margin, years 1 to 5", number: "18% rising two points a year to 26%"}
+      - {says: "A fabless model needs less capital than the industry early on.", drives: "sales-to-capital, early and late", number: "1.5 then 1.2"}
+      - {says: "Design wins are sticky for a product generation.", drives: "terminal return-on-capital premium", number: "3 points above the cost of capital"}
     revenue_growth:        {values: [0.20, 0.20, 0.20, 0.20, 0.20],
                             reason: "Backlog plus one new program per year; see outlook.md section 3.",
                             source: "[Q2 FY2027 call]"}
@@ -135,6 +146,12 @@ scenarios:
       Every hyperscaler that talks to the company signs up, and the optical business doubles.
       Growth stays far above the market for the whole five years.
       Margins reach the level of the best fabless peers.
+    story_to_numbers:
+      - {says: "Every hyperscaler that talks to the company signs up.", drives: "revenue growth, years 1 to 2", number: "30% a year"}
+      - {says: "Growth stays far above the market for the whole five years.", drives: "revenue growth, years 3 to 5", number: "25%, 20%, 15%"}
+      - {says: "Margins reach the level of the best fabless peers.", drives: "operating margin, year 5", number: "34%"}
+      - {says: "The optical business doubles on the same factories.", drives: "sales-to-capital, early and late", number: "1.8 then 1.5"}
+      - {says: "Two product generations of lock-in.", drives: "terminal return-on-capital premium", number: "5 points above the cost of capital"}
     revenue_growth:        {values: [0.30, 0.30, 0.25, 0.20, 0.15],
                             reason: "Management's total-addressable-market path; outlook.md section 3.",
                             source: "[Q2 FY2027 slides, p.8]"}
@@ -164,6 +181,9 @@ scenarios:
          source: "[Q2 FY2027 slides, p.12]", used_as: "operating_margin year 5"}
       - {item: "Capital spending", quote: "capex will be up significantly next year",
          source: "[Q2 FY2027 call]", used_as: "not numeric"}
+    story_to_numbers:
+      - {says: "Revenue of 12 billion USD in fiscal 2028.", drives: "revenue growth, years 1 to 2", number: "22% a year", source: "[Q2 FY2027 call]"}
+      - {says: "The long-term operating model.", drives: "operating margin, year 5", number: "32%"}
     revenue_growth:        {values: [0.22, 0.22, 0.18, 0.15, 0.12],
                             reason: "Two years at the pace implied by the FY2028 target, then fading. Fiscal years mapped to the nearest model year.",
                             source: "[Q2 FY2027 call]"}

@@ -201,6 +201,11 @@ valid example with made-up numbers and comments on every block. Notes beyond sec
   tables, arithmetic). The validator accepts it silently, the app shows it in a "Working notes"
   fold-out under the reason, and `assumptions.md` prints it as an indented paragraph after the
   reason.
+- `scenarios.<name>.story_to_numbers` (section 18.4 rule 14) is a list of rows
+  `{says, drives, number[, source]}`: a sentence of the story, the input it sets, and the number
+  as written in that input. It is Damodaran's own story-to-numbers table. The validator warns
+  when a computed case has none (older drafts predate the rule) and errors on a malformed row;
+  `assumptions.md` prints it under the story and the app shows it on the stories page.
 - `diagnostics.historical_revenue_cagr` and `diagnostics.historical_operating_margin`
   (optional cells, `{value, source, reason}`) feed the "company's own history" columns of
   the diagnostics in section 18.5 item 9; nothing else in the schema carries that history.

@@ -367,3 +367,39 @@ def test_sources_block_is_accepted_silently_and_checked_for_shape(doc):
     assert any("sources: must be a list" in e for e in validate(doc).errors)
     del doc["sources"]
     assert validate(doc).ok
+
+
+def test_story_to_numbers_fixture_has_a_table_in_every_computed_case(doc):
+    v = validate(doc)
+    assert not [w for w in v.warnings if "story_to_numbers" in w], v.warnings
+
+
+def test_story_to_numbers_missing_is_a_warning_not_an_error(doc):
+    del doc["scenarios"]["bull"]["story_to_numbers"]
+    v = validate(doc)
+    assert v.ok
+    assert any(w.startswith("scenarios.bull.story_to_numbers: missing") for w in v.warnings)
+
+
+def test_story_to_numbers_rows_need_says_drives_and_number(doc):
+    rows = doc["scenarios"]["base"]["story_to_numbers"]
+    n = len(rows)
+    rows[0]["says"] = ""
+    rows.append({"drives": "operating margin, year 5", "number": "26%", "extra": 1})
+    rows.append({"says": "Growth holds.", "drives": "revenue growth, year 1"})
+    v = validate(doc)
+    assert errors_mentioning(v, "scenarios.base.story_to_numbers.0.says")
+    assert errors_mentioning(v, f"scenarios.base.story_to_numbers.{n}.says")
+    assert errors_mentioning(v, f"scenarios.base.story_to_numbers.{n + 1}.number")
+    assert any(f"scenarios.base.story_to_numbers.{n}.extra: unknown key" in w for w in v.warnings)
+
+
+def test_story_to_numbers_must_be_a_list_of_mappings(doc):
+    doc["scenarios"]["bear"]["story_to_numbers"] = "growth 10%"
+    assert errors_mentioning(validate(doc), "scenarios.bear.story_to_numbers: must be a non-empty list")
+    doc["scenarios"]["bear"]["story_to_numbers"] = []
+    assert errors_mentioning(validate(doc), "scenarios.bear.story_to_numbers: must be a non-empty list")
+    doc["scenarios"]["bear"]["story_to_numbers"] = [["says", "drives", "number"]]
+    assert errors_mentioning(validate(doc), "scenarios.bear.story_to_numbers.0: each row must be a mapping")
+    doc["scenarios"]["bear"]["story_to_numbers"] = [{"says": "Flat margins.", "drives": "operating margin", "number": 0.16}]
+    assert validate(doc).ok                                     # a numeric number is fine

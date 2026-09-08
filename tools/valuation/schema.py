@@ -56,7 +56,9 @@ SCENARIO_KEYS = {
     "weight", "story", "revenue_growth", "operating_margin", "sales_to_capital",
     "reinvestment_override", "tax_rate", "cost_of_capital_override", "terminal",
     "computable", "reason", "guidance", "detail",
+    "story_to_numbers",            # rows {says, drives, number[, source]}: each sentence of the story and the input it sets
 }
+STORY_TO_NUMBERS_KEYS = {"says", "drives", "number", "source"}
 # Any input cell ({value, reason, source}) may also carry `detail`: the working notes behind a short
 # reason (section 18.4).  Cells are never checked for unknown keys, so `detail` is accepted silently.
 # Optional diagnostics cells beyond section 18.4 (see README): the company's own
@@ -595,6 +597,34 @@ def _check_terminal(v: Validation, doc: Any, sp: str, scenario: str) -> None:
             v.warnings.append(f"{p_path}.value: negative premium means terminal ROIC below cost of capital")
 
 
+def _check_story_to_numbers(v: Validation, s: dict[str, Any], sp: str) -> None:
+    """The story-to-numbers table (section 18.4 rule 14): one row per sentence of the story that sets an
+    input.  Absent is a warning (older drafts predate the rule); present but malformed is an error."""
+    path = f"{sp}.story_to_numbers"
+    rows = s.get("story_to_numbers")
+    if rows is None:
+        v.warnings.append(f"{path}: missing; every input of a computed case should trace to a sentence of "
+                          "its story (section 18.4 rule 14)")
+        return
+    if not isinstance(rows, list) or not rows:
+        v.errors.append(f"{path}: must be a non-empty list of rows, each {{says, drives, number}}")
+        return
+    for i, row in enumerate(rows):
+        rp = f"{path}.{i}"
+        if not isinstance(row, dict):
+            v.errors.append(f"{rp}: each row must be a mapping with says, drives and number")
+            continue
+        for key in row:
+            if key not in STORY_TO_NUMBERS_KEYS:
+                v.warnings.append(f"{rp}.{key}: unknown key (ignored)")
+        for key in ("says", "drives"):
+            if not isinstance(row.get(key), str) or not row[key].strip():
+                v.errors.append(f"{rp}.{key}: required; a short plain sentence")
+        number = row.get("number")
+        if number is None or (isinstance(number, str) and not number.strip()):
+            v.errors.append(f"{rp}.number: required; the number that sentence sets, as it appears in the input")
+
+
 def _check_scenario(v: Validation, doc: dict[str, Any], name: str, horizon: int) -> None:
     sp = f"scenarios.{name}"
     s = _mapping(v, doc, sp)
@@ -622,6 +652,7 @@ def _check_scenario(v: Validation, doc: dict[str, Any], name: str, horizon: int)
             v.errors.append(f"{sp}.weight: required number between 0 and 1")
     if name != "management" and (not isinstance(s.get("story"), str) or not s.get("story", "").strip()):
         v.warnings.append(f"{sp}.story: missing; the stories section will be blank for this case")
+    _check_story_to_numbers(v, s, sp)
     _check_year_list(v, doc, f"{sp}.revenue_growth", horizon, name, required=True, lo=-0.99, hi=5.0, warn_hi=1.0)
     _check_year_list(v, doc, f"{sp}.operating_margin", horizon, name, required=True, lo=-5.0, hi=0.99)
     if get_path(doc, f"{sp}.reinvestment_override") is not None:

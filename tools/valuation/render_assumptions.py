@@ -181,9 +181,33 @@ def stories(doc: dict[str, Any]) -> str:
             title += f" (weight {_pct(sc.get('weight'))})"
         story = (sc.get("story") or "").strip()
         parts += ["", title, "", story or "(no story given)"]
+        rows = sc.get("story_to_numbers")
+        if isinstance(rows, list) and rows:
+            parts += ["", "How the story becomes numbers:", "", story_to_numbers_table(rows)]
         if name == "management" and sc.get("reason"):
             parts += ["", f"Why this case is {'computed' if sc.get('computable') else 'not computed'}: {sc['reason'].strip()}"]
     return "\n".join(parts)
+
+
+def story_to_numbers_rows(rows: list[Any]) -> tuple[list[str], list[list[str]]]:
+    """Headers and body for a story-to-numbers table (section 18.4 rule 14): what the story says, which
+    input it sets, the number, and the source when any row has one.  Malformed rows are skipped, never raised."""
+    clean = [r for r in rows if isinstance(r, dict)]
+    with_source = any(r.get("source") for r in clean)
+    headers = ["What the story says", "Which input it sets", "The number"] + (["Source"] if with_source else [])
+    body = []
+    for r in clean:
+        cells = [str(r.get("says") or DASH), str(r.get("drives") or DASH),
+                 DASH if r.get("number") in (None, "") else str(r.get("number"))]
+        if with_source:
+            cells.append(str(r.get("source") or DASH))
+        body.append(cells)
+    return headers, body
+
+
+def story_to_numbers_table(rows: list[Any]) -> str:
+    headers, body = story_to_numbers_rows(rows)
+    return table(headers, body)
 
 
 def _terminal_growth(doc: dict[str, Any], name: str) -> str:

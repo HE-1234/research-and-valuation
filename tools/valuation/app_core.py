@@ -140,6 +140,7 @@ _JARGON: list[tuple[re.Pattern[str], str]] = [(re.compile(p), r) for p, r in [
     (r"\ballow_above_riskfree\b", "'Allow growth above the risk-free rate'"),
     (r"\ballow_large_premium\b", "'Allow a large premium'"),
     (r"\bdilution_note\b", "the dilution note"),
+    (r"\bstory_to_numbers\b", "the story-to-numbers table"),
     (r"\bsales_to_capital\b", "sales-to-capital"),
     (r"\brevenue_growth\b", "revenue growth"),
     (r"\boperating_margin\b", "operating margin"),

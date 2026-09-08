@@ -182,3 +182,33 @@ def test_ten_entry_lists_show_ten_columns_and_no_by_rule_line():
     assert "| Revenue growth, years 1-10 |" in text
     assert "| Reinvestment override, years 1-10 (USD millions) |" in text
     assert "by rule" not in text
+
+
+def test_story_to_numbers_table_prints_under_each_story():
+    doc = load(FIXTURE)
+    text = render_assumptions(doc)
+    i = text.index("The company keeps its two big custom-chip customers")
+    j = text.index("How the story becomes numbers:", i)
+    assert j < text.index("## 2. Scenario inputs")
+    assert "| What the story says | Which input it sets | The number |" in text[j:j + 200]
+    assert "| Keeps its two big custom-chip customers and adds a third by year three. | revenue growth, years 1 to 5 | 20% a year |" in text
+    # the management table carries a source on one row, so it gets a fourth column
+    k = text.index("How the story becomes numbers:", text.index("### Management"))
+    assert "| What the story says | Which input it sets | The number | Source |" in text[k:k + 200]
+    assert "| 22% a year | [Q2 FY2027 call] |" in text[k:]
+    assert "| 32% | — |" in text[k:]
+    # a pipe or a line break inside a cell never breaks the table; a malformed row is skipped
+    doc["scenarios"]["bear"]["story_to_numbers"].append({"says": "a | b\nc", "drives": "x", "number": 0.04})
+    doc["scenarios"]["bear"]["story_to_numbers"].append("not a row")
+    text = render_assumptions(doc)
+    assert "| a \\| b c | x | 0.04 |" in text
+    assert "not a row" not in text
+    assert "Traceback" not in text
+
+
+def test_story_without_a_table_prints_no_table():
+    doc = load(FIXTURE)
+    del doc["scenarios"]["bear"]["story_to_numbers"]
+    text = render_assumptions(doc)
+    i = text.index("The custom-chip business loses its biggest customer")
+    assert "How the story becomes numbers:" not in text[i:text.index("### Base")]

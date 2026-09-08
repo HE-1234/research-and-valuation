@@ -33,6 +33,7 @@ from valuation.app_core import (
     warning_sentence, working_notes, year_boxes,
 )
 from valuation.engine import ValuationResult
+from valuation.render_assumptions import story_to_numbers_rows
 from valuation.schema import EXPLICIT_YEARS, WEIGHTED_SCENARIOS, get_path, is_riskfree, large_premium_ceiling
 
 
@@ -356,6 +357,13 @@ def page_stories(ctx: Ctx) -> None:
     tail = (f" Years {ctx.explicit + 1} to {ctx.T} follow the rule quoted under each table."
             if ctx.explicit < ctx.T else "")
     st.caption(f"Y1 to Y{ctx.explicit} are the forecast years 1 to {ctx.explicit}.{tail}")
+    for name in WEIGHTED_SCENARIOS:
+        rows = get_path(doc, f"scenarios.{name}.story_to_numbers")
+        if isinstance(rows, list) and rows:
+            st.markdown(f"**How the {CASE_LABELS[name].lower()} story becomes numbers.** Each sentence of the story "
+                        "and the input it sets; the pages that follow ask you for those inputs.")
+            headers, body = story_to_numbers_rows(rows)
+            static_table(pd.DataFrame(body, columns=headers))
     with st.container(border=True):
         computable = management_computable(doc)
         status = ("computed as a fourth, unweighted case" if computable else "not computed, recorded only")

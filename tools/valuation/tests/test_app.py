@@ -98,6 +98,12 @@ def test_start_page_shows_ranking_and_next_walks_to_stories_and_revenue(repo: Pa
     assert list(paths.columns) == ["Year", "Revenue growth", "Operating margin"]
     assert list(paths.iloc[0]) == ["Y1", "20.0%", "18.0%"] and list(paths.iloc[4]) == ["Y5", "20.0%", "26.0%"]
     assert any("Y1 to Y5 are the forecast years" in c.value for c in at.caption)
+    # the story-to-numbers tables sit below the three story columns, one per weighted case, read-only
+    s2n = [t.value for t in at.table if "What the story says" in list(t.value.columns)]
+    assert len(s2n) == 3
+    assert list(s2n[1].iloc[0]) == ["Keeps its two big custom-chip customers and adds a third by year three.",
+                                    "revenue growth, years 1 to 5", "20% a year"]
+    assert any("How the base story becomes numbers" in m.value for m in at.markdown)
 
     assert not any("With your current inputs" in c.value for c in at.sidebar.caption)      # still none on Stories
     at.button(key="next_btn").click().run()
