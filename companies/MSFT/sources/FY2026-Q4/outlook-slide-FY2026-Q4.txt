@@ -1,0 +1,73 @@
+# Microsoft "Fourth Quarter Fiscal Year 2026 Outlook" slide deck (CDN object OutlookFY26Q4, a pptx without extension, 6 slides), dated April 29, 2026, published with the Q3 FY2026 results. It is last quarter's written guidance FOR the as-of quarter (Q4 FY2026), cached so the writer can fill the "what management had said to expect" column.
+# ENTIRE FILE IS OCR. The pptx has no text layer; each slide is one embedded PNG (1920x1080). Extracted from ppt/media/ and read with tesseract 5 (--psm 3) on 2026-09-08 by the ir gatherer. Slides 3-5 are two-column tables (item | guidance); tesseract read the columns of slides 4 and 5 out of order, so the item-to-guidance pairing below was re-done by eye from the slide image, and every number was checked by eye.
+# Source: https://aka.ms/outlookfy26q3 (link text "View Outlook of FY26Q3" on https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q3/press-release-webcast) -> 301 -> https://view.officeapps.live.com/op/view.aspx?src=https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/OutlookFY26Q4 ; file fetched from https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/OutlookFY26Q4 (CDN Last-Modified 2026-04-30 09:12:33 GMT).
+
+=== slide 1 ===
+Microsoft
+Fourth Quarter
+Fiscal Year 2026 Outlook
+April 29, 2026
+Satya Nadella
+Amy Hood
+Jonathan Neilson
+
+=== slide 2 ===
+Agenda
+Financial Summary and Highlights
+Business Highlights
+Segment Overview and Highlights
+Appendix
+All growth comparisons in this presentation relate to the corresponding period of last fiscal year unless otherwise noted. Numbers may not foot due to rounding.
+Microsoft 3
+[Note: this agenda page appears to be carried over from the results deck; it is what the outlook pptx contains as slide 2.]
+
+=== slide 3 ===
+FY26 Q4 Outlook
+Foreign currency impact | • Increase to total revenue growth of less than 1 point, with roughly 1 point in Productivity and Business Processes and More Personal Computing, with no meaningful impact to Intelligent Cloud
+ | • Increase to COGS growth of roughly 1 point and no impact to Opex growth
+Total Company | • Revenue of $86.7 to $87.8 billion
+Productivity and Business Processes | • Revenue of $37.0 to $37.3 billion
+Intelligent Cloud | • Revenue of $37.95 to $38.25 billion
+More Personal Computing | • Revenue of $11.75 to $12.25 billion
+Cost of revenue | • COGS of $29.4 to $29.6 billion
+Operating expenses | • Expenses of $19.3 to $19.4 billion
+Other income and expense | • Expected to be roughly $(100) million excluding any impact from our investments in OpenAI
+Effective tax rate | • Approximately 19% excluding any impact from our investments in OpenAI
+Capital expenditures | • Capital expenditures expected to increase to over $40 billion
+Microsoft 3
+
+=== slide 4 ===
+FY26 Q4 Outlook Detail
+Commercial Business
+Commercial bookings | • Healthy growth on a growing expiry base when adjusted for OpenAI contracts in the prior year
+Microsoft Cloud gross margin percentage | • Roughly 64%
+Productivity and Business Processes
+Microsoft 365 Commercial cloud revenue | • Growth between 13% to 14% in constant currency
+ | • Growth between 15% to 16% in constant currency when adjusting for prior-year in-period revenue recognition
+Microsoft 365 Commercial products revenue | • Growth in mid-single digits
+Microsoft 365 Consumer cloud revenue | • Growth in the low-twenties
+LinkedIn revenue | • Growth of approximately 10%
+Dynamics 365 revenue | • Growth in low-double digits
+Intelligent Cloud
+Azure and other cloud services revenue | • Growth between 39% to 40% in constant currency
+Server products revenue | • Decline in mid-single digits
+More Personal Computing
+Windows OEM and Devices revenue | • Decline in mid- to high-teens
+Search advertising revenue (ex TAC) | • Growth in high-single digits
+Xbox content and services revenue | • Decline in low-teens
+Microsoft 4
+
+=== slide 5 ===
+Outlook
+Calendar Year 2026 Outlook
+Capital expenditures | • Expect capital expenditures of approximately $190 billion, including roughly $25 billion from higher component pricing
+Azure and other cloud services revenue | • Azure revenue growth expected to show some modest acceleration in the second half of the year compared with half one
+Fiscal Year 2027 Outlook
+Revenue | • Total revenue expected to grow double-digits
+Operating expenses | • Operating expenses expected to grow in mid- to high-single digits
+Operating income | • Operating income expected to grow double-digits
+Microsoft 5
+
+=== slide 6 ===
+Microsoft
+© Copyright Microsoft Corporation. All rights reserved.

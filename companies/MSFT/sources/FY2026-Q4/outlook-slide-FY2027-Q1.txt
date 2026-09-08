@@ -1,0 +1,80 @@
+# Microsoft "First Quarter Fiscal Year 2027 Outlook" slide deck (OutlookFY27Q1.pptx, 6 slides), dated July 29, 2026, published with the Q4 FY2026 results. This is Microsoft's only written guidance document; the press release carries none.
+# ENTIRE FILE IS OCR. The pptx has no text layer; each slide is one embedded PNG (2488x1400; slide 5 1920x1080). Extracted from ppt/media/ and read with tesseract 5 (--psm 3) on 2026-09-08 by the ir gatherer. Slides 3-5 are two-column tables (item | guidance); tesseract read the columns out of order on slide 4, so the item-to-guidance pairing below was re-done by eye from the slide image, and every number was checked by eye. Every dollar range and percentage also matches Amy Hood's spoken guidance in transcript.txt (same folder).
+# Source: https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/OutlookFY27Q1.pptx (CDN Last-Modified 2026-07-30 22:30:42 GMT), linked from https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast.
+
+=== slide 1 ===
+Microsoft
+First Quarter
+Fiscal Year 2027 Outlook
+July 29, 2026
+Satya Nadella
+Amy Hood
+Jonathan Neilson
+
+=== slide 2 ===
+This presentation contains forward-looking statements, which are any predictions, projections, or other statements about future events. These statements are based on current expectations and assumptions that are subject to risks and uncertainties. Actual results could materially differ because of factors discussed in today's earnings press release, in the comments made during the conference call, and in the Risk Factors section and other sections of our Form 10-K, Forms 10-Q, and other reports and filings with the Securities and Exchange Commission.
+We do not undertake any duty to update forward-looking statements.
+Microsoft 2
+
+=== slide 3 ===
+FY27 Q1 Outlook
+Foreign currency impact | • Decrease to total revenue growth by less than 1 point, with roughly 1 point in Productivity and Business Processes, less than 1 point in Intelligent Cloud, and no meaningful impact in More Personal Computing
+ | • No meaningful impact to COGS or operating expense growth
+Total Company | • Revenue of $89.85 to $90.95 billion
+Productivity and Business Processes | • Revenue of $36.7 to $37.0 billion
+Intelligent Cloud | • Revenue of $40.95 to $41.25 billion
+More Personal Computing | • Revenue of $12.2 to $12.7 billion
+Cost of revenue | • COGS of $29.6 to $29.8 billion
+Operating expenses | • Expenses of $16.8 to $16.9 billion
+Other income and expense | • Expected to be roughly $(100) million excluding any impact from our investments in OpenAI
+Operating margin | • Expected to remain relatively flat year-over-year
+Effective tax rate | • Approximately 20%
+Capital expenditures | • Expected to be over $50 billion including the lease reclassification impact from the useful life update
+Microsoft 3
+
+=== slide 4 ===
+FY27 Q1 Outlook Detail
+Commercial Business
+Commercial bookings | • Healthy growth on a growing expiry base when adjusted for OpenAI contracts in the prior year
+Microsoft Cloud gross margin percentage | • Relatively stable quarter-over-quarter
+Productivity and Business Processes
+Microsoft 365 Commercial cloud revenue | • Growth of approximately 15% in constant currency
+ | • Growth of approximately 16% in constant currency when adjusting for prior-year in-period revenue recognition
+Microsoft 365 Commercial products revenue | • Growth in mid-single digits
+Microsoft 365 Consumer cloud revenue | • Growth in the mid-teens
+LinkedIn revenue | • Growth in high-single digits
+Dynamics 365 revenue | • Growth in low-teens
+Intelligent Cloud
+Azure and other cloud services revenue | • Growth of approximately 45% in constant currency
+Server products revenue | • Decline in low- to mid-single digits
+More Personal Computing
+Windows OEM and Devices revenue | • Decline in low-twenties
+Search advertising revenue (ex TAC) | • Growth in mid-single digits
+XBOX revenue | • Content and services revenue expected to decline in mid-single digits
+ | • Hardware revenue should decline year-over-year
+Microsoft 4
+
+=== slide 5 ===
+Outlook
+2026 Calendar Year
+Capital expenditures | • Investment expectations remain unchanged. Capital expenditures are expected to be approximately $175 billion, including the impact of the useful life change on future lease classification.
+Azure and other cloud services revenue | • Growth in H1 of FY27 expected to accelerate when compared to H2 FY26
+FY27 Full Year
+Foreign currency impact | • Decrease full-year revenue growth by less than 1 point
+ | • No meaningful impact to COGS or operating expense growth
+Revenue | • Total revenue expected to grow double-digits
+  Microsoft 365 Commercial cloud revenue | • Growth expected to show acceleration through the year
+  Microsoft 365 Commercial products revenue | • Decline in the mid-single digits
+  Server products revenue | • Decline in the mid-single digits
+  Windows OEM and Devices revenue | • Decline in high-teens
+Operating expenses | • Growth in mid- to high-single digits
+Operating income | • Operating income expected to grow double-digits
+ | • Operating margin expected to be down less than a point
+Effective tax rate | • Approximately 20%
+Capital expenditures | • Expected to grow year-over-year
+Cash flow | • Free cash flow expected to remain positive
+Microsoft 5
+
+=== slide 6 ===
+Microsoft
+© Copyright Microsoft Corporation. All rights reserved.

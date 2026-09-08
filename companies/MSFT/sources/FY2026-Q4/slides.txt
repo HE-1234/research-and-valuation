@@ -1,0 +1,357 @@
+# Microsoft FY26 Q4 earnings slides (SlidesFY26Q4.pptx, 23 slides, "Fourth Quarter Fiscal Year 2026 Results", July 29, 2026).
+# ENTIRE FILE IS OCR. The pptx contains no text: every slide is a single embedded PNG (1600x900 to 2496x1664). Each PNG was extracted from ppt/media/ and read with tesseract 5 (--psm 3) at native resolution on 2026-09-08 by the ir gatherer. Every number on slides 4-13 and 16-22 was then checked by eye against the slide image; the three bar-chart slides (8, 10, 12), whose data labels tesseract scrambled, were transcribed by eye into the "chart data" blocks below. Corrections to the raw OCR are listed in MANIFEST-ir.md. Slide 11 is embedded twice in the pptx (two identical PNGs); it is given once.
+# Source: https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SlidesFY26Q4.pptx (CDN Last-Modified 2026-07-30 22:30:42 GMT).
+
+=== slide 1 ===
+Microsoft
+Fourth Quarter
+Fiscal Year 2026 Results
+July 29, 2026
+Satya Nadella
+Amy Hood
+Jonathan Neilson
+
+=== slide 2 ===
+This presentation contains forward-looking statements, which are any predictions, projections, or other statements about future events. These statements are based on current expectations and assumptions that are subject to risks and uncertainties. Actual results could materially differ because of factors discussed in today's earnings press release, in the comments made during the conference call, and in the Risk Factors section and other sections of our Form 10-K, Forms 10-Q, and other reports and filings with the Securities and Exchange Commission. We do not undertake any duty to update forward-looking statements.
+Microsoft 2
+
+=== slide 3 ===
+Agenda
+Financial Summary and Highlights
+Business Highlights
+Segment Overview and Highlights
+Appendix
+All growth comparisons in this presentation relate to the corresponding period of last fiscal year unless otherwise noted. Numbers may not foot due to rounding.
+Microsoft 3
+
+=== slide 4 ===
+FY26 Q4 Financial Summary
+GAAP and CC results
+($ in billions, except per share amounts) | FY26 Q4 | Growth | CC Growth*
+Productivity and Business Processes | $37.8 | 14% | 14%
+Intelligent Cloud | $39.3 | 32% | 31%
+More Personal Computing | $12.9 | (4)% | (5)%
+Revenue | $90.0 | 18% | 17%
+Cost of revenue | $29.5 | 23% | 22%
+Gross margin | $60.5 | 15% | 15%
+Gross margin percentage | 67% | (1) pt | -
+Operating expense | $19.9 | 10% | 10%
+Operating income | $40.6 | 18% | 18%
+Operating income percentage | 45% | 0 pts | -
+Other income and expense | $3.4 | - | -
+Net income | $35.8 | 31% | 31%
+Diluted earnings per share | $4.81 | 32% | 32%
+*See Appendix for reconciliation of GAAP and non-GAAP measures, including constant currency ("CC").
+
+Summary of Results
+• Revenue increased 18% (up 17% CC) driven by Microsoft Cloud growth of 27%
+• Cost of revenue increased 23% (up 22% CC) driven by growth in Microsoft Cloud
+• Gross margin increased 15%. Gross margin percentage decreased driven by sales mix shift to Azure as well as continued investments in AI infrastructure and growing product usage, partially offset by efficiency gains across the Microsoft Cloud.
+• Operating expenses were $19.9 billion and increased 10% primarily driven by continued investments in R&D compute capacity, talent, and data to support product development that benefits the entire portfolio
+• Total company headcount decreased 2% year-over-year
+• Operating income increased 18%
+• Other income and expense was $3.4 billion driven by a gain of $3.2 billion from our investment in Anthropic
+• Effective tax rate was 19%
+• Diluted earnings per share was $4.81, up 32%
+Microsoft 4
+
+=== slide 5 ===
+FY26 Q4 Impact to Financial Results
+
+Impact from Investments in OpenAI
+The following table adjusts for the impact from investments in OpenAI and reconciles our financial results reported in accordance with generally accepted accounting principles (GAAP) to non-GAAP financial results
+($ in billions, except per share amounts) | FY26 Q4 As Reported (GAAP) | FY26 Q4 Impact from OpenAI* | FY26 Q4 As Adjusted (non-GAAP) | FY25 Q4 As Reported (GAAP) | FY25 Q4 Impact from OpenAI* | FY25 Q4 As Adjusted (non-GAAP) | Growth % Y/Y GAAP | Growth Net Impact from OpenAI* | Growth % Y/Y Non-GAAP
+Other income and expense | $3.4 | $(0.6) | $2.8 | $(1.7) | $2.1 | $0.4 | - | $(2.7) | -
+Net income | $35.8 | $(0.5) | $35.3 | $27.2 | $1.6 | $28.8 | 31% | $(2.1) | 22%
+Diluted earnings per share | $4.81 | $(0.07) | $4.74 | $3.65 | $0.21 | $3.86 | 32% | $(0.28) | 23%
+
+Impact from Discrete Items
+Several discrete items impacted our financial results in the quarter when compared to our forward-looking guidance provided on April 29, 2026, resulting in a benefit of $0.27 on diluted earnings per share
+Operating Income | • Severance expense and impairment charges in XBOX, partially offset by lower-than-expected expenses related to the Voluntary Retirement Program, negatively impacted operating income by $(0.5) billion and diluted earnings per share by $(0.06)
+Other Income and Expense | • A gain of $3.2 billion from our investment in Anthropic positively impacted diluted earnings per share by $0.33
+Net Income | • The discrete items noted above had a positive impact of $2.0 billion on net income inclusive of tax impact
+Diluted EPS | • The discrete items noted above had a positive impact of $0.27 on diluted earnings per share
+*Impact from OpenAI adjusts for the impact from investments in OpenAI. See Appendix for reconciliation of GAAP and non-GAAP measures.
+Microsoft 5
+
+=== slide 6 ===
+FY26 Q4 Financial Highlights
+
+Cash Returned to Shareholders
+• Returned $10.2 billion to shareholders with $6.8 billion in dividends and $3.4 billion in share repurchases
+
+Capital Expenditures
+• Capital expenditures, including assets acquired under finance leases, increased 70% to $41.0 billion to support customer demand for our cloud and AI offerings and included the impact from higher component pricing. Roughly two-thirds of capital expenditures were for short-lived assets, primarily CPUs and GPUs, which support Azure demand, growing first-party apps, R&D by our product teams, as well as continued replacement for end-of-life server and networking equipment. The remainder was for long-lived assets which will support long-term monetization.
+• Cash paid for property and equipment was $35.8 billion, up 110%, primarily for spend on short-lived assets as well as timing differences between receipt of goods and payment
+• Finance leases, primarily for large datacenter sites, were $5.6 billion and are recognized at the time of lease commencement
+
+Cash Flow
+• Cash flow from operations was $55.4 billion, up 30%, driven by strong cloud billings and collections, partially offset by an increase in operating lease payments
+• Free cash flow was $19.6 billion, down 23%, reflecting higher capital expenditures as we invest against strong demand
+
+Trended Financial Highlights | FY25 Q4 | FY26 Q1 | FY26 Q2 | FY26 Q3 | FY26 Q4
+Capital expenditures (in billions) | $24.2 | $34.9 | $37.5 | $31.9 | $41.0
+Cash paid for property and equipment (in billions) | $17.1 | $19.4 | $29.9 | $30.9 | $35.8
+Finance leases (in billions) | $6.5 | $11.1 | $6.7 | $4.7 | $5.6
+Short-lived asset mix of capital expenditures | <half | ~half | ~2/3's | ~2/3's | ~2/3's
+
+Includes non-GAAP constant currency ("CC") growth and free cash flow. See Appendix for reconciliation of GAAP and non-GAAP measures. Growth rates in GAAP and CC are equivalent unless otherwise noted. Growth rates include non-GAAP CC growth (GAAP % / CC %).
+Microsoft 6
+
+=== slide 7 ===
+FY26 Q4 Business Highlights
+
+Commercial Business
+• Commercial bookings grew 18%, driven by strong execution in our core annuity sales motions, when excluding the impact from OpenAI. Commercial bookings increased 10% (up 11% CC) when including Azure commitments from OpenAI.
+• Commercial remaining performance obligation (RPO) of $678 billion grew 84%, with all sequential growth driven by commitments from customers outside of frontier model companies. RPO increased 25% when excluding OpenAI.
+• RPO, including OpenAI, has a weighted average duration of 2.3 years. Roughly 30% will be recognized in revenue in the next 12 months, up 37%. The remaining portion, recognized beyond the next 12 months, increased 112%.
+
+Microsoft Cloud
+• Microsoft Cloud revenue of $59.3 billion increased 27%, reflecting strong demand across Azure and first-party AI applications and services
+• Microsoft Cloud gross margin percentage decreased year-over-year to 65% driven by sales mix shift to Azure, as well as continued investments in AI infrastructure and growing product usage, partially offset by efficiency gains in Azure and Microsoft 365 Commercial cloud
+
+Investor Metrics | FY25 Q4 | FY26 Q1 | FY26 Q2 | FY26 Q3 | FY26 Q4
+Commercial bookings growth (y/y) | 37% / 30% | 112% / 111% | 230% / 228% | (4)% / (6)% | 10% / 11%
+Commercial remaining performance obligation (in billions) | $368 | $392 | $625 | $627 | $678
+Microsoft Cloud revenue (in billions) | $46.7 | $49.1 | $51.5 | $54.5 | $59.3
+Microsoft Cloud revenue growth (y/y) | 27% / 25% | 26% / 25% | 26% / 24% | 29% / 25% | 27%
+Microsoft Cloud gross margin percentage | 68% | 68% | 67% | 66% | 65%
+Growth rates include non-GAAP CC growth (GAAP % / CC %).
+Microsoft Cloud includes Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of LinkedIn, and Dynamics 365. Includes non-GAAP constant currency ("CC") growth. See Appendix for reconciliation of GAAP and non-GAAP measures. Growth rates in GAAP and CC are equivalent unless otherwise noted.
+Microsoft 7
+
+=== slide 8 ===
+FY26 Q4 Segment Overview: Productivity and Business Processes
+
+Results
+• Revenue grew 14% driven by Microsoft 365 Commercial cloud
+• Cost of revenue grew 16% driven by investments in AI infrastructure to support M365 Copilot seat and usage growth
+• Gross margin dollars grew 14% (up 13% CC) and gross margin percentage decreased slightly with increased M365 Copilot usage as we continue to invest in product quality and drive further efficiency gains in Microsoft 365 Commercial cloud
+• Operating expenses grew 11% primarily driven by continued investments in R&D compute capacity, talent, and data to support product development that benefits the entire portfolio
+• Operating income grew 15% (up 14% CC) and operating margins increased slightly driven by operating leverage
+
+Segment revenue and operating income trend ($ in billions) [bar chart; chart data transcribed by eye]
+ | FY25 Q4 | FY26 Q1 | FY26 Q2 | FY26 Q3 | FY26 Q4
+Revenue | $33.1 | $33.0 | $34.1 | $35.0 | $37.8 (+14%)
+Operating income | $19.0 | $20.4 | $20.6 | $21.0 | $21.9 (+15%, +14% CC)
+
+Includes non-GAAP constant currency ("CC") growth. See Appendix for reconciliation of GAAP and non-GAAP measures. Growth rates in GAAP and CC are equivalent unless otherwise noted.
+Microsoft 8
+
+=== slide 9 ===
+FY26 Q4 Segment Highlights: Productivity and Business Processes
+
+Microsoft 365 Commercial
+• Microsoft 365 Commercial cloud revenue grew 16% on an adjusted basis, normalized for the prior year comparable that benefited from 2 points of in-period revenue recognition, and grew 14% on a reported basis. Results were driven by growth in revenue per user from premium offerings, including M365 Copilot, which surpassed 30 million paid seats. Microsoft 365 Commercial seats grew 6% driven by small and medium business and frontline worker offerings.
+• Microsoft 365 Commercial products revenue grew 19% driven by a higher mix of large, long-duration Microsoft 365 contracts that carry higher in-period revenue recognition from the Windows Commercial on-premises component
+
+Microsoft 365 Consumer
+• Microsoft 365 Consumer cloud revenue grew 24% (up 22% CC) driven by growth in revenue per user and Microsoft 365 Consumer subscriber growth of 7%
+
+LinkedIn
+• LinkedIn revenue grew 12% (up 10% CC) primarily driven by growth in Marketing Solutions
+
+Dynamics
+• Dynamics 365 revenue grew 13% (up 12% CC) against a strong prior-year comparable, with continued moderation in bookings
+
+Investor Metrics | FY25 Q4 | FY26 Q1 | FY26 Q2 | FY26 Q3 | FY26 Q4
+Microsoft 365 Commercial cloud revenue growth (y/y) | 18% / 16% | 17% / 15% | 17% / 14% | 19% / 15% | 14%
+Microsoft 365 Commercial seat growth (y/y) | 6% | 6% | 6% | 6% | 6%
+Microsoft 365 Consumer cloud revenue growth (y/y) | 20% | 26% / 25% | 29% / 27% | 33% / 29% | 24% / 22%
+LinkedIn revenue growth (y/y) | 9% / 8% | 10% / 9% | 11% / 10% | 12% / 9% | 12% / 10%
+Dynamics 365 revenue growth (y/y) | 23% / 21% | 18% / 16% | 19% / 17% | 22% / 17% | 13% / 12%
+Growth rates include non-GAAP CC growth (GAAP % / CC %).
+Includes non-GAAP constant currency ("CC") growth. See Appendix for reconciliation of GAAP and non-GAAP measures. Growth rates in GAAP and CC are equivalent unless otherwise noted.
+Microsoft 9
+
+=== slide 10 ===
+FY26 Q4 Segment Overview: Intelligent Cloud
+
+Results
+• Revenue grew 32% (up 31% CC) driven by Azure
+• Cost of revenue grew 42% driven by investments in AI infrastructure to support growing customer demand and increased GitHub Copilot usage
+• Gross margin dollars grew 24% and gross margin percentage decreased primarily driven by sales mix shift to Azure, as well as the continued scaling of our AI infrastructure ahead of growing demand, partially offset by efficiency gains in Azure
+• Operating expenses grew 10% primarily driven by continued investments in R&D compute capacity, talent, and data to support product development that benefits the entire portfolio
+• Operating income grew 31% and operating margins were relatively unchanged as mix shift to Azure and the impact from scaling our AI infrastructure were offset by improved operating leverage
+
+Segment revenue and operating income trend ($ in billions) [bar chart; chart data transcribed by eye]
+ | FY25 Q4 | FY26 Q1 | FY26 Q2 | FY26 Q3 | FY26 Q4
+Revenue | $29.9 | $30.9 | $32.9 | $34.7 | $39.3 (+32%, +31% CC)
+Operating income | $12.1 | $13.4 | $13.9 | $13.8 | $16.0 (+31%)
+
+Includes non-GAAP constant currency ("CC") growth. See Appendix for reconciliation of GAAP and non-GAAP measures. Growth rates in GAAP and CC are equivalent unless otherwise noted.
+Microsoft 10
+
+=== slide 11 ===
+FY26 Q4 Segment Highlights: Intelligent Cloud
+
+Server Products and Cloud Services
+• Azure and other cloud services revenue grew 43% driven by strong demand for services across the platform with continued growth across all workloads
+• Server products revenue was relatively unchanged (down 1% CC) driven by continued customer shift to cloud, partially offset by higher purchasing of licenses running in multi-cloud environments
+
+Enterprise and Partner Services
+• Enterprise and partner services revenue grew 6% (up 5% CC) driven by Enterprise Support Services
+
+Investor Metrics | FY25 Q4 | FY26 Q1 | FY26 Q2 | FY26 Q3 | FY26 Q4
+Azure and other cloud services revenue growth (y/y) | 39% | 40% / 39% | 39% / 38% | 40% / 39% | 43%
+
+Trended Revenue Growth | FY25 Q4 | FY26 Q1 | FY26 Q2 | FY26 Q3 | FY26 Q4
+Server products revenue growth (y/y) | (2)% / (3)% | 1% / 0% | 2% / 1% | 1% / (3)% | 0% / (1)%
+Enterprise and partner services revenue growth (y/y) | 7% / 6% | 5% / 3% | 8% / 7% | 7% / 4% | 6% / 5%
+Growth rates include non-GAAP CC growth (GAAP % / CC %).
+Includes non-GAAP constant currency ("CC") growth. See Appendix for reconciliation of GAAP and non-GAAP measures. Growth rates in GAAP and CC are equivalent unless otherwise noted.
+Microsoft 11
+
+=== slide 12 ===
+FY26 Q4 Segment Overview: More Personal Computing
+
+Results
+• Revenue declined 4% (down 5% CC) driven by XBOX and Windows OEM and Devices, partially offset by growth in Search advertising
+• Cost of revenue declined 8% driven by lower amortization of acquired intangible assets from the Activision acquisition
+• Gross margin dollars declined 2% and gross margin percentage increased, driven by lower amortization of acquired intangible assets from the Activision acquisition
+• Operating expenses grew 8% (up 7% CC) driven by continued investments in R&D compute capacity, talent, and data to support product development that benefits the entire portfolio, as well as impairment charges in XBOX
+• Operating income declined 14% (down 15% CC) and operating margins decreased driven by R&D investments, partially offset by higher gross margins
+
+Segment revenue and operating income trend ($ in billions) [bar chart; chart data transcribed by eye]
+ | FY25 Q4 | FY26 Q1 | FY26 Q2 | FY26 Q3 | FY26 Q4
+Revenue | $13.5 | $13.8 | $14.3 | $13.2 | $12.9 (-4%, -5% CC)
+Operating income | $3.2 | $4.2 | $3.8 | $3.7 | $2.7 (-14%, -15% CC)
+
+Includes non-GAAP constant currency ("CC") growth. See Appendix for reconciliation of GAAP and non-GAAP measures. Growth rates in GAAP and CC are equivalent unless otherwise noted.
+Microsoft 12
+
+=== slide 13 ===
+FY26 Q4 Segment Highlights: More Personal Computing
+
+Windows OEM and Devices
+• Windows OEM and Devices declined 7% driven by lower PC market demand and a high prior year comparable from Windows 10 end of support, partially offset by inventory builds
+
+XBOX
+• XBOX content and services revenue declined 10% on a prior year comparable that benefited from strong first-party content performance
+• XBOX hardware revenue declined 13% (down 14% CC)
+
+Search
+• Search advertising revenue excluding traffic acquisition costs grew 10% (up 9% CC) driven by higher revenue per search and search volume
+
+Investor Metrics | FY25 Q4 | FY26 Q1 | FY26 Q2 | FY26 Q3 | FY26 Q4
+Windows OEM and Devices revenue growth (y/y) | 3% | 6% | 1% / 0% | (2)% / (3)% | (7)%
+XBOX content and services revenue growth (y/y) | 13% / 12% | 1% / 0% | (5)% / (6)% | (5)% / (7)% | (10)%
+Search advertising revenue (ex TAC) growth (y/y) | 21% / 20% | 16% / 15% | 10% / 9% | 12% / 9% | 10% / 9%
+Growth rates include non-GAAP CC growth (GAAP % / CC %).
+Includes non-GAAP constant currency ("CC") growth. See Appendix for reconciliation of GAAP and non-GAAP measures. Growth rates in GAAP and CC are equivalent unless otherwise noted.
+Microsoft 13
+
+=== slide 14 ===
+Appendix
+
+=== slide 15 ===
+Reconciliation of GAAP and Non-GAAP Financial Measures
+Our presentation of fourth-quarter performance includes non-GAAP financial measures.
+The following slides provide reconciliations between the GAAP and non-GAAP financial measures presented:
+• Impact from investments in OpenAI
+• Constant currency reconciliations
+• Cash flow reconciliation
+15
+
+=== slide 16 ===
+Impact from investments in OpenAI
+Three Months Ended June 30,
+($ in millions, except per share amounts) | 2026 As Reported (GAAP) | 2026 Adjustment* | 2026 As Adjusted (non-GAAP) | 2025 As Reported (GAAP) | 2025 Adjustment* | 2025 As Adjusted (non-GAAP) | Percentage Change Y/Y GAAP | Constant Currency | Non-GAAP | Non-GAAP Constant Currency
+Other Income and Expense | $3,444 | $(632) | $2,812 | ($1,707) | $2,071 | $364 | - | - | - | -
+Effective Tax Rate | 19% | 0 pts | 19% | 17% | 0 pts | 17% | 2 pts | - | 2 pts | -
+Net Income | $35,766 | $(480) | $35,286 | $27,233 | $1,575 | $28,808 | 31% | 31% | 22% | 22%
+Diluted Earnings per Share | $4.81 | $(0.07) | $4.74 | $3.65 | $0.21 | $3.86 | 32% | 32% | 23% | 23%
+*Adjustment is the impact from investments in OpenAI
+The non-GAAP measures adjust for the impact from investments in OpenAI. We believe these non-GAAP measures aid investors by providing additional insight into our operational performance and help clarify trends affecting our business. For comparability of reporting, management considers non-GAAP measures in conjunction with GAAP financial results when evaluating business performance. The non-GAAP financial measures should not be considered as a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP.
+16
+
+=== slide 17 ===
+Constant Currency Reconciliation
+Three Months Ended June 30,
+($ in millions, except per share amounts) | 2026 As Reported (GAAP) | 2026 As Adjusted (non-GAAP) | 2025 As Reported (GAAP) | 2025 As Adjusted (non-GAAP) | Percentage Change Y/Y GAAP | Percentage Change Y/Y Non-GAAP | Constant Currency Impact | Percentage Change Y/Y Constant Currency | Percentage Change Y/Y Non-GAAP Constant Currency
+Revenue | $90,007 | - | $76,441 | - | 18% | - | $391 | 17% | -
+Cost of Revenue | $29,525 | - | $24,014 | - | 23% | - | $125 | 22% | -
+Gross Margin | $60,482 | - | $52,427 | - | 15% | - | $266 | 15% | -
+Operating Expenses | $19,879 | - | $18,104 | - | 10% | - | $(3) | 10% | -
+Operating Income | $40,603 | - | $34,323 | - | 18% | - | $269 | 18% | -
+Net Income | $35,766 | $35,286 | $27,233 | $28,808 | 31% | 22% | $40 | 31% | 22%
+Diluted Earnings per Share | $4.81 | $4.74 | $3.65 | $3.86 | 32% | 23% | $0.01 | 32% | 23%
+We present constant currency information to provide a framework for assessing how our underlying businesses performed excluding the effect of foreign currency rate fluctuations. To present this information, current and comparative prior period results for entities reporting in currencies other than United States dollars are converted into United States dollars using the average exchange rates from the comparative period rather than the actual exchange rates in effect during the respective periods. The non-GAAP financial measures presented should not be considered as a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP. All growth comparisons relate to the corresponding period in the last fiscal year.
+17
+
+=== slide 18 ===
+Constant Currency Reconciliation
+Segment Revenue
+Three Months Ended June 30,
+($ in millions) | 2026 As Reported (GAAP) | 2025 As Reported (GAAP) | Percentage Change Y/Y GAAP | Constant Currency Impact | Percentage Change Y/Y Constant Currency
+Productivity and Business Processes | $37,847 | $33,112 | 14% | $244 | 14%
+Intelligent Cloud | $39,306 | $29,878 | 32% | $80 | 31%
+More Personal Computing | $12,854 | $13,451 | (4)% | $67 | (5)%
+We present constant currency information to provide a framework for assessing how our underlying businesses performed excluding the effect of foreign currency rate fluctuations. To present this information, current and comparative prior period results for entities reporting in currencies other than United States dollars are converted into United States dollars using the average exchange rates from the comparative period rather than the actual exchange rates in effect during the respective periods. The non-GAAP financial measures presented should not be considered as a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP. All growth comparisons relate to the corresponding period in the last fiscal year.
+18
+
+=== slide 19 ===
+Constant Currency Reconciliation
+Segment Cost of Revenue — Three Months Ended June 30, 2026
+ | Percentage Change Y/Y (GAAP) | Constant Currency Impact | Percentage Change Y/Y Constant Currency
+Productivity and Business Processes | 16% | 0% | 16%
+Intelligent Cloud | 42% | 0% | 42%
+More Personal Computing | (8)% | 0% | (8)%
+Segment Gross Margin — Three Months Ended June 30, 2026
+ | Percentage Change Y/Y (GAAP) | Constant Currency Impact | Percentage Change Y/Y Constant Currency
+Productivity and Business Processes | 14% | (1)% | 13%
+Intelligent Cloud | 24% | 0% | 24%
+More Personal Computing | (2)% | 0% | (2)%
+We present constant currency information to provide a framework for assessing how our underlying businesses performed excluding the effect of foreign currency rate fluctuations. To present this information, current and comparative prior period results for entities reporting in currencies other than United States dollars are converted into United States dollars using the average exchange rates from the comparative period rather than the actual exchange rates in effect during the respective periods. The non-GAAP financial measures presented should not be considered as a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP. All growth comparisons relate to the corresponding period in the last fiscal year.
+19
+
+=== slide 20 ===
+Constant Currency Reconciliation
+Segment Operating Expense — Three Months Ended June 30, 2026
+ | Percentage Change Y/Y (GAAP) | Constant Currency Impact | Percentage Change Y/Y Constant Currency
+Productivity and Business Processes | 11% | 0% | 11%
+Intelligent Cloud | 10% | 0% | 10%
+More Personal Computing | 8% | (1)% | 7%
+Segment Operating Income — Three Months Ended June 30, 2026
+ | Percentage Change Y/Y (GAAP) | Constant Currency Impact | Percentage Change Y/Y Constant Currency
+Productivity and Business Processes | 15% | (1)% | 14%
+Intelligent Cloud | 31% | 0% | 31%
+More Personal Computing | (14)% | (1)% | (15)%
+We present constant currency information to provide a framework for assessing how our underlying businesses performed excluding the effect of foreign currency rate fluctuations. To present this information, current and comparative prior period results for entities reporting in currencies other than United States dollars are converted into United States dollars using the average exchange rates from the comparative period rather than the actual exchange rates in effect during the respective periods. The non-GAAP financial measures presented should not be considered as a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP. All growth comparisons relate to the corresponding period in the last fiscal year.
+20
+
+=== slide 21 ===
+Constant Currency Reconciliation
+Selected Product and Service Information — Three Months Ended June 30, 2026
+ | Percentage Change Y/Y (GAAP) | Constant Currency Impact | Percentage Change Y/Y Constant Currency
+Commercial bookings | 10% | 1% | 11%
+Commercial remaining performance obligation | 84% | 0% | 84%
+Microsoft Cloud revenue | 27% | 0% | 27%
+Microsoft 365 Commercial cloud revenue | 14% | 0% | 14%
+Microsoft 365 Commercial products revenue | 19% | 0% | 19%
+Microsoft 365 Consumer cloud revenue | 24% | (2)% | 22%
+LinkedIn revenue | 12% | (2)% | 10%
+Dynamics 365 revenue | 13% | (1)% | 12%
+Azure and other cloud services revenue | 43% | 0% | 43%
+Server products revenue | 0% | (1)% | (1)%
+Enterprise and partner services revenue | 6% | (1)% | 5%
+Windows OEM and Devices revenue | (7)% | 0% | (7)%
+XBOX content and services revenue | (10)% | 0% | (10)%
+XBOX hardware revenue | (13)% | (1)% | (14)%
+Search advertising revenue excluding traffic acquisition costs | 10% | (1)% | 9%
+We present constant currency information to provide a framework for assessing how our underlying businesses performed excluding the effect of foreign currency rate fluctuations. To present this information, current and comparative prior period results for entities reporting in currencies other than United States dollars are converted into United States dollars using the average exchange rates from the comparative period rather than the actual exchange rates in effect during the respective periods. The non-GAAP financial measures presented should not be considered as a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP. All growth comparisons relate to the corresponding period in the last fiscal year.
+21
+
+=== slide 22 ===
+Cash Flow Reconciliation
+Three Months Ended June 30,
+($ in millions) | 2026 | 2025 | Percentage Change Y/Y
+Net Cash from Operations (GAAP) | $55,441 | $42,647 | 30%
+Additions to Property and Equipment | $(35,802) | $(17,079) | 110%
+Free Cash Flow | $19,639 | $25,568 | (23)%
+Free cash flow is included as an additional clarifying item to aid investors by providing additional insight into our operational performance and helping clarify trends affecting our business. This non-GAAP financial measure should not be considered as a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP.
+22
+
+=== slide 23 ===
+Microsoft
+© Copyright Microsoft Corporation. All rights reserved.
