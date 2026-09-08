@@ -96,7 +96,8 @@ def test_start_page_shows_ranking_and_next_walks_to_stories_and_revenue(repo: Pa
     assert [s.key.split(".")[1] for s in stories] == ["bear", "base", "bull"]
     paths = at.table[1].value                                   # the base case's two defining paths, one row per year
     assert list(paths.columns) == ["Year", "Revenue growth", "Operating margin"]
-    assert list(paths.iloc[0]) == ["Year 1", "20.0%", "18.0%"] and list(paths.iloc[4]) == ["Year 5", "20.0%", "26.0%"]
+    assert list(paths.iloc[0]) == ["Y1", "20.0%", "18.0%"] and list(paths.iloc[4]) == ["Y5", "20.0%", "26.0%"]
+    assert any("Y1 to Y5 are the forecast years" in c.value for c in at.caption)
 
     assert not any("With your current inputs" in c.value for c in at.sidebar.caption)      # still none on Stories
     at.button(key="next_btn").click().run()
@@ -370,3 +371,29 @@ def test_facts_page_lists_where_the_numbers_come_from(repo: Path):
     assert tables
     first = [str(x).replace("\\", "") for x in tables[0].iloc[0]]        # cells are markdown-escaped for display
     assert first == ["[10-Q Q2 FY2027, ...]", "sources/FY2027-Q2/10-Q-FY2027-Q2.txt", "2026-08-28", "quarter ended 2026-08-01"]
+
+
+def test_file_changed_on_disk_shows_a_banner_and_disables_save(repo: Path):
+    yaml_path = repo / "companies" / "EXMP" / "valuation" / "assumptions.yaml"
+    at = run_app()
+    go_to(at, "reinvestment")
+    gen = at.session_state["gen"]
+    at.number_input(key=f"w{gen}:scenarios.base.sales_to_capital.value").set_value(2.0).run()
+    # another process (an agent redraft) rewrites the file while the walk is open
+    text = yaml_path.read_text(encoding="utf-8").replace("weight: 0.25\n    story: |\n      The custom-chip",
+                                                          "weight: 0.25\n    story: |\n      REWRITTEN The custom-chip")
+    assert "REWRITTEN" in text
+    yaml_path.write_text(text, encoding="utf-8")
+    import os, time
+    os.utime(yaml_path, (time.time() + 5, time.time() + 5))
+    at.run()
+    assert_clean(at)
+    assert any("changed on disk" in w.value for w in at.warning)
+    go_to(at, "results")
+    assert at.button(key="save_btn").disabled and at.button(key="write_btn").disabled
+    assert not any("Input" in t.value.columns for t in at.table)          # the file's edits are not listed as the owner's
+    assert any("Disabled: the file changed on disk" in c.value for c in at.caption)
+    at.button(key="restart_btn").click().run()
+    assert_clean(at)
+    assert at.session_state["page"] == 0 and not any("changed on disk" in w.value for w in at.warning)
+    assert "REWRITTEN" in at.session_state["working"]["scenarios"]["bear"]["story"]

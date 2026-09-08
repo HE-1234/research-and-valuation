@@ -8,10 +8,10 @@ a copy of the resolved :class:`~valuation.engine.ScenarioInputs`.
 
 The nudges:
 
-* revenue growth: +1 point in every explicit year;
-* operating margin: +1 point in every explicit year;
+* revenue growth: +1 point in every forecast year;
+* operating margin: +1 point in every forecast year;
 * reinvestment: sales-to-capital +10% of its value (both the early and the late ratio), and
-  every explicit per-year override +10%;
+  every given per-year override +10%;
 * cost of capital: +0.5 point on the company's rate (the terminal rate follows only when the
   terminal method is ``hold``);
 * terminal value: terminal growth +0.25 point, capped at the risk-free rate; when the growth
@@ -57,9 +57,9 @@ class Impact:
 
 def _nudges(inp: ScenarioInputs, risk_free: float) -> list[tuple[str, str, ScenarioInputs]]:
     out: list[tuple[str, str, ScenarioInputs]] = []
-    out.append(("revenue_growth", "+1 point of growth in every explicit year",
+    out.append(("revenue_growth", "+1 point of growth in every forecast year",
                 replace(inp, growth=[g + 0.01 for g in inp.growth])))
-    out.append(("operating_margin", "+1 point of margin in every explicit year",
+    out.append(("operating_margin", "+1 point of margin in every forecast year",
                 replace(inp, margin=[m + 0.01 for m in inp.margin])))
     overrides = [None if x is None else x * 1.10 for x in inp.reinvestment_override]
     has_override = any(x is not None for x in inp.reinvestment_override)
@@ -78,7 +78,7 @@ def _nudges(inp: ScenarioInputs, risk_free: float) -> list[tuple[str, str, Scena
                     replace(inp, terminal_growth=inp.terminal_growth - 0.0025)))
     out.append(("terminal_roic", "terminal return-on-capital premium +1 point",
                 replace(inp, roic_premium=inp.roic_premium + 0.01)))
-    out.append(("taxes_weights", "tax rate in the explicit years +1 point (weights change no case's value)",
+    out.append(("taxes_weights", "tax rate in the forecast years +1 point (weights change no case's value)",
                 replace(inp, tax_start=inp.tax_start + 0.01)))
     return out
 

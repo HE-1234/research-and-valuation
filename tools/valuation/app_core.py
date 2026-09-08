@@ -63,9 +63,13 @@ _WIDE = ({"width": "stretch"} if "width" in inspect.signature(st.dataframe).para
          else {"use_container_width": True})
 NA = "n/a"
 # option tokens in the YAML -> words on screen
-METHOD_WORDS = {"build": "Built from beta and debt", "pinned": "One typed rate"}
-TERMINAL_METHOD_WORDS = {"mature": "Mature company: risk-free rate plus the mature-market premium",
-                         "hold": "Keep the company's own rate forever", "value": "A typed rate"}
+METHOD_WORDS = {"build": "Built from parts", "pinned": "One number"}
+METHOD_HELP = ("Built from parts: risk-free rate plus beta times the equity risk premium, blended with the after-tax cost "
+               "of debt. One number: a cost of capital typed in as is.")
+TERMINAL_METHOD_WORDS = {"mature": "Mature company rate", "hold": "Hold the company's rate", "value": "A number I set"}
+TERMINAL_METHOD_HELP = ("Mature company rate: the risk-free rate plus the mature-market premium (Damodaran's default). "
+                        "Hold the company's rate: keep the cost of capital built above forever. A number I set: a rate "
+                        "typed in.")
 
 
 # --------------------------------------------------------------------------- #
@@ -114,6 +118,7 @@ def raw(x: Any) -> str:
 _MD_SPECIAL = "\\$*_`#<>~[]|"
 # words for keys, citations and maths symbols that analysts' reasons still carry
 _JARGON: list[tuple[re.Pattern[str], str]] = [(re.compile(p), r) for p, r in [
+    (r"\bby rule[,;]?\s*\(\s*§\s*18\.\d+\s+rule\s+\d+\s*\)", "by rule"),      # the sentence already says so
     (r"\(\s*§\s*18\.\d+\s+rule\s+\d+\s*\)", "(by rule)"),
     (r"§\s*18\.\d+\s+rule\s+\d+", "the rule"),
     (r"§\s*", "section "),
@@ -139,6 +144,7 @@ _JARGON: list[tuple[re.Pattern[str], str]] = [(re.compile(p), r) for p, r in [
     (r"which the owner can test with --set", "which the owner can test in the app"),
     (r"\s*--set\s+\S+", ""),
     (r"×", " x "), (r"÷", " / "), (r"−", "-"), (r"→", " to "), (r"≤", "<="), (r"≥", ">="), (r"Σ", "sum"),
+    (r"Δ\s*", "change in "),
 ]]
 
 
@@ -586,22 +592,25 @@ def w_terminal_growth(doc: dict[str, Any], path: str, rf: float, *, container=No
     c = container or st
     cur = get_path(doc, path)
     k = key(path + "#riskfree")
-    c.checkbox(f"Equal to the risk-free rate ({pct(rf, 2)} today; Damodaran's default)", value=is_riskfree(cur), key=k,
-               on_change=_riskfree_cb, args=(k, path, rf))
+    c.checkbox(f"Equal to the risk-free rate ({pct(rf, 2)})", value=is_riskfree(cur), key=k,
+               on_change=_riskfree_cb, args=(k, path, rf),
+               help="Damodaran's default: growth forever equals the risk-free rate used in this run.")
     if not is_riskfree(cur):
         w_pct(doc, path, "Terminal growth (%), forever", container=c, step=0.25)
 
 
 def year_boxes(doc: dict[str, Any], path: str, T: int, *, percent: bool = True, fmt: str = "%.1f",
                step: float = 10.0, placeholder: str = "empty") -> None:
-    """Number boxes labelled Year 1..Year T in rows of five, bound to ``path.values.<i>``."""
+    """Number boxes labelled Year 1..Year T bound to ``path.values.<i>``: rows of five for percentages, rows
+    of three for money (six-digit figures need the width at laptop sizes)."""
     values = get_path(doc, f"{path}.values")
     if not isinstance(values, list) or len(values) != T:
         values = (list(values) if isinstance(values, list) else []) + [None] * T
         set_in(doc, f"{path}.values", values[:T])
-    for start in range(0, T, 5):
-        cols = st.columns(5)
-        for t, c in zip(range(start, min(start + 5, T)), cols):
+    per_row = 5 if percent else 3
+    for start in range(0, T, per_row):
+        cols = st.columns(per_row)
+        for t, c in zip(range(start, min(start + per_row, T)), cols):
             p = f"{path}.values.{t}"
             label = f"Year {t + 1}" + (" (%)" if percent else "")
             if percent:
@@ -624,10 +633,52 @@ def reason_block(doc: dict[str, Any], cell_path: str, *, container=None, title: 
     detail = node.get("detail")
     if detail:
         with c.expander("Working notes"):
-            st.markdown(md(detail))
+            working_notes(detail)
     source = node.get("source")
     if source:
         c.caption("Source: " + md(source))
+
+
+def detail_blocks(text: str) -> list[tuple[str, Any]]:
+    """Split working notes into blocks: ("table", DataFrame) for pipe tables, ("code", text) for
+    whitespace-aligned columns, ("text", text) otherwise.  Markdown would collapse the spacing of a
+    table typed with spaces, so those are shown preformatted."""
+    out: list[tuple[str, Any]] = []
+    for block in re.split(r"\n\s*\n", str(text).strip()):
+        lines = [ln.rstrip() for ln in block.splitlines() if ln.strip()]
+        if not lines:
+            continue
+        piped = [ln for ln in lines if ln.count("|") >= 2]
+        if len(piped) >= 2 and len(piped) >= len(lines) - 1:
+            rows = []
+            for ln in piped:
+                cells = [c.strip() for c in ln.strip().strip("|").split("|")]
+                if all(re.fullmatch(r":?-{2,}:?", c) for c in cells if c):
+                    continue                                     # the markdown separator line
+                rows.append(cells)
+            if len(rows) >= 2:
+                width = max(len(r) for r in rows)
+                rows = [r + [""] * (width - len(r)) for r in rows]
+                header = [h or f"col {i + 1}" for i, h in enumerate(rows[0])]
+                out.append(("table", pd.DataFrame(rows[1:], columns=header)))
+                continue
+        aligned = [ln for ln in lines if re.search(r"\S {2,}\S", ln)]
+        if len(lines) >= 2 and len(aligned) * 2 >= len(lines):
+            out.append(("code", "\n".join(lines)))
+            continue
+        out.append(("text", block))
+    return out
+
+
+def working_notes(text: str) -> None:
+    """Render a cell's ``detail``: tables as tables, aligned columns preformatted, prose as prose."""
+    for kind, payload in detail_blocks(text):
+        if kind == "table":
+            static_table(payload)
+        elif kind == "code":
+            st.code(payload, language=None)
+        else:
+            st.markdown(md(payload))
 
 
 # --------------------------------------------------------------------------- #
@@ -853,6 +904,17 @@ def ranking_table(ranking: list[Impact]) -> pd.DataFrame:
 # Save, write, commit
 # --------------------------------------------------------------------------- #
 
+def file_changed_on_disk(path: Path) -> bool:
+    """True when the assumptions file no longer matches the snapshot taken at load (an agent redraft, a save
+    from another session); the working copy must then be reloaded before anything is saved."""
+    rt = st.session_state.get("rt")
+    return rt is not None and not rt.snapshot.matches(Path(path))
+
+
+STALE_BANNER = ("The assumptions file changed on disk since you loaded it. Start over to reload; Save is disabled "
+                "until then, and the differences below are not listed because they are not your changes.")
+
+
 def unsaved_changes(doc: dict[str, Any], path: Path) -> list[yamlio.Change]:
     try:
         return yamlio.diff_against_file(path, doc)
@@ -1021,13 +1083,24 @@ def result_notes(result: ValuationResult) -> list[str]:
             continue
         sc = result.scenarios.get(name)
         if sc is None:
-            why = "; ".join(result.stopped.get(name, [])) or result.skipped.get(name, "not computed")
-            notes.append(f"{CASE_LABELS[name]} case not computed: {plain_message(why)}")
+            if name in result.stopped:
+                notes.append(stop_sentence(name, "; ".join(result.stopped[name])))
+            else:
+                notes.append(f"{CASE_LABELS[name]} case not computed; its reason and the guidance on record are on "
+                             "the Revenue growth page.")
         else:
             notes += [plain_message(w) for w in sc.warnings]
     if not result.weighted:
         notes.append("Weighted expected value not computed because a weighted case is missing.")
     return notes
+
+
+def stop_sentence(name: str, why: str, lead: str = "not computed") -> str:
+    """'Bull case not computed: terminal growth ...' without repeating the case name when the engine's message
+    already starts with '<Case> case:'; one sentence, ending with a full stop."""
+    text = plain_message(why)
+    text = re.sub(rf"^{re.escape(CASE_LABELS[name])} case:\s*", "", text).rstrip(".")
+    return f"{CASE_LABELS[name]} case {lead}: {text}."
 
 
 def static_table(df: pd.DataFrame) -> None:

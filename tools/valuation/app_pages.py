@@ -24,11 +24,11 @@ import streamlit as st
 
 from valuation import MarketInputs
 from valuation.app_core import (
-    _WIDE, CASE_LABELS, METHOD_WORDS, NA, TERMINAL_METHOD_WORDS, _commit_cb, _restart_cb, _save_cb, _write_cb,
-    changes_table, heatmap, horizon_control, market_boxes, md, money, num, path_list, pct, pct2, pending_commit,
-    per_share, plain_message, ranking_for, ranking_table, reason_block, result_notes, results_table, shares,
-    static_table, unsaved_changes, value_chart, w_bool, w_choice, w_line, w_number, w_pct, w_text, w_terminal_growth,
-    year_boxes,
+    _WIDE, CASE_LABELS, METHOD_HELP, METHOD_WORDS, NA, STALE_BANNER, TERMINAL_METHOD_HELP, TERMINAL_METHOD_WORDS,
+    _commit_cb, _restart_cb, _save_cb, _write_cb, changes_table, file_changed_on_disk, heatmap, horizon_control,
+    market_boxes, md, money, num, path_list, pct, pct2, pending_commit, per_share, plain_message, ranking_for,
+    ranking_table, reason_block, result_notes, results_table, shares, static_table, stop_sentence, unsaved_changes,
+    value_chart, w_bool, w_choice, w_line, w_number, w_pct, w_text, w_terminal_growth, working_notes, year_boxes,
 )
 from valuation.engine import ValuationResult
 from valuation.schema import WEIGHTED_SCENARIOS, get_path, is_riskfree
@@ -236,7 +236,7 @@ def case_stop_note(ctx: Ctx, name: str) -> None:
         return
     why = "; ".join(ctx.result.stopped.get(name, []))
     if why:
-        st.warning(md(f"{CASE_LABELS[name]} case not computed with the current inputs: {plain_message(why)}"))
+        st.warning(md(stop_sentence(name, why, "not computed with the current inputs")))
 
 
 def paths_table(doc: dict[str, Any], name: str, T: int) -> pd.DataFrame:
@@ -248,7 +248,7 @@ def paths_table(doc: dict[str, Any], name: str, T: int) -> pd.DataFrame:
     def at(values: list[Any], t: int) -> str:
         return pct(values[t]) if t < len(values) and values[t] is not None else NA
 
-    return pd.DataFrame([{"Year": f"Year {t + 1}", "Revenue growth": at(growth, t), "Operating margin": at(margin, t)}
+    return pd.DataFrame([{"Year": f"Y{t + 1}", "Revenue growth": at(growth, t), "Operating margin": at(margin, t)}
                          for t in range(T)])
 
 
@@ -315,6 +315,7 @@ def page_stories(ctx: Ctx) -> None:
             static_table(paths_table(doc, name, ctx.T))
             w_text(doc, f"{p}.story", "Story (three to five plain sentences)", height=height,
                    convert=lambda x: (x or "").rstrip() + "\n" if (x or "").strip() else "")
+    st.caption(f"Y1 to Y{ctx.T} are the forecast years 1 to {ctx.T}.")
     with st.container(border=True):
         computable = management_computable(doc)
         status = ("computed as a fourth, unweighted case" if computable else "not computed, recorded only")
@@ -391,7 +392,7 @@ def page_reinvestment(ctx: Ctx) -> None:
     explanation("reinvestment")
     for name in cases_in(doc):
         if name == "management" and not management_computable(doc):
-            management_note(doc, with_guidance=False)
+            management_note(doc, with_guidance=True)
             continue
         p = f"scenarios.{name}"
         with st.container(border=True):
@@ -442,12 +443,13 @@ def page_cost_of_capital(ctx: Ctx) -> None:
         st.markdown("#### How the rate is built (shared by every case)")
         method = get_path(doc, "cost_of_capital.method") or "build"
         c1, c2, c3, c4 = st.columns(4)
-        w_choice(doc, "cost_of_capital.method", "Method", ["build", "pinned"], words=METHOD_WORDS, container=c1)
+        w_choice(doc, "cost_of_capital.method", "Method", ["build", "pinned"], words=METHOD_WORDS, container=c1,
+                 help=METHOD_HELP)
         if ctx.market is not None:
-            c3.metric("Risk-free rate (from Start)", pct2(ctx.market.risk_free_rate))
-            c4.metric("Equity risk premium (from Start)", pct2(ctx.market.equity_risk_premium))
+            c3.metric("Risk-free rate", pct2(ctx.market.risk_free_rate), help="From the Start page.")
+            c4.metric("Equity risk premium", pct2(ctx.market.equity_risk_premium), help="From the Start page.")
         if method == "pinned":
-            w_pct(doc, "cost_of_capital.pinned_value", "Typed cost of capital (%)", container=c2, step=0.25)
+            w_pct(doc, "cost_of_capital.pinned_value", "Cost of capital (%)", container=c2, step=0.25)
         else:
             ind = get_path(doc, "cost_of_capital.build.damodaran_industry") or {}
             st.markdown(f"**Damodaran industry:** {md(ind.get('value') or NA)}. {md(ind.get('reason') or '')}")
@@ -493,13 +495,14 @@ def page_terminal(ctx: Ctx) -> None:
         st.markdown("#### Terminal cost of capital (shared by every case)")
         term = get_path(doc, "cost_of_capital.terminal") or {}
         st.markdown(md(term.get("reason")) if term.get("reason") else "*No reason given.*")
-        c1, c2, _c3, _c4 = st.columns([2, 1, 1, 1])
+        c1, c2, _c3 = st.columns([3, 2, 1])
         w_choice(doc, "cost_of_capital.terminal.method", "Method", ["mature", "hold", "value"],
-                 words=TERMINAL_METHOD_WORDS, container=c1)
+                 words=TERMINAL_METHOD_WORDS, container=c1, help=TERMINAL_METHOD_HELP)
         if term.get("method") == "value":
-            w_pct(doc, "cost_of_capital.terminal.value", "Typed rate (%)", container=c2, step=0.25)
+            w_pct(doc, "cost_of_capital.terminal.value", "Rate (%)", container=c2, step=0.25)
         elif term.get("method", "mature") == "mature":
-            w_pct(doc, "market.mature_market_erp", "Mature-market premium (%)", container=c2, step=0.25)
+            w_pct(doc, "market.mature_market_erp", "Mature premium (%)", container=c2, step=0.25,
+                  help="The premium a mature company pays over the risk-free rate; Damodaran's default is 4.5%.")
         if ctx.result is not None:
             c = ctx.result.cost_of_capital
             st.markdown(f"**Resulting terminal cost of capital:** {pct2(c.terminal_wacc)} "
@@ -544,7 +547,7 @@ def page_taxes_weights(ctx: Ctx) -> None:
                     f"marginal (statutory) rate {pct(get_path(doc, 'market.marginal_tax_rate'))}.")
     for name in cases_in(doc):
         if name == "management" and not management_computable(doc):
-            management_note(doc, with_guidance=False)
+            management_note(doc, with_guidance=True)
             continue
         p = f"scenarios.{name}"
         with st.container(border=True):
@@ -612,7 +615,7 @@ def facts_table(doc: dict[str, Any], facts: list[tuple[str, str, str]], items: l
         details = [(label, get_path(doc, f"{path}.detail")) for path, label, _k in facts if get_path(doc, f"{path}.detail")]
         for label, detail in details:
             with st.expander(f"Working notes: {label}"):
-                st.markdown(md(detail))
+                working_notes(detail)
 
 
 def facts_editor(doc: dict[str, Any], facts: list[tuple[str, str, str]], items: list[tuple[str, str]] | None = None) -> None:
@@ -700,8 +703,10 @@ def page_facts(ctx: Ctx) -> None:
     coc = doc.get("cost_of_capital") or {}
     if edit:
         c1, c2, _c3, _c4 = st.columns(4)
-        w_choice(doc, "cost_of_capital.method", "Method", ["build", "pinned"], words=METHOD_WORDS, container=c1)
-        w_pct(doc, "cost_of_capital.pinned_value", "Typed cost of capital (%)", container=c2, step=0.25)
+        w_choice(doc, "cost_of_capital.method", "Method", ["build", "pinned"], words=METHOD_WORDS, container=c1,
+                 help=METHOD_HELP)
+        w_pct(doc, "cost_of_capital.pinned_value", "Cost of capital (%; when the method is One number)", container=c2,
+              step=0.25)
         left, right = st.columns([1, 3])
         w_line(doc, "cost_of_capital.build.damodaran_industry.value", "Damodaran industry", container=left)
         w_text(doc, "cost_of_capital.build.damodaran_industry.reason", "Reason", height=80, container=right)
@@ -718,7 +723,7 @@ def page_facts(ctx: Ctx) -> None:
     else:
         rows = [{"Item": "Method", "Value": METHOD_WORDS.get(coc.get("method"), coc.get("method") or NA), "Reason": "", "Source": ""}]
         if coc.get("pinned_value") is not None:
-            rows.append({"Item": "Typed cost of capital", "Value": pct2(coc.get("pinned_value")), "Reason": "", "Source": ""})
+            rows.append({"Item": "Cost of capital (one number)", "Value": pct2(coc.get("pinned_value")), "Reason": "", "Source": ""})
         ind = get_path(doc, "cost_of_capital.build.damodaran_industry") or {}
         rows.append({"Item": "Damodaran industry", "Value": ind.get("value") or NA, "Reason": ind.get("reason") or "", "Source": ""})
         for path, label, fmt, _step in COC_INPUTS:
@@ -834,6 +839,7 @@ def _warnings(result: ValuationResult | None, error: str | None) -> None:
     items = list(result.warnings)
     if result.analysis:
         items += [w for w in result.analysis.warnings if w not in items]
+    items = [w for w in items if "(ignored)" not in w]              # validator notes about unknown keys are not the owner's business
     if not items:
         st.success("None.")
     for w in items:
@@ -864,7 +870,10 @@ def page_results(ctx: Ctx) -> None:
             st.caption("The number on each bar is the value per share. The lighter label at the foot is the 10-year-fade "
                        "reference: the same case with five more years in which growth fades to the terminal rate, "
                        "shown so the cost of stopping the forecast at five years is visible.")
-    diff = unsaved_changes(doc, ctx.path)
+    stale = file_changed_on_disk(ctx.path)
+    diff = [] if stale else unsaved_changes(doc, ctx.path)
+    if stale:
+        st.warning(STALE_BANNER)
     with st.expander("Sensitivity"):
         if result is None or result.analysis is None:
             st.info("Sensitivity grids appear once the model computes.")
@@ -891,8 +900,10 @@ def page_results(ctx: Ctx) -> None:
             _diagnostics(result)
     with st.expander("Warnings", expanded=bool(result and result.warnings)):
         _warnings(result, ctx.error)
-    with st.expander(f"Unsaved changes ({len(diff)})", expanded=bool(diff)):
-        if diff:
+    with st.expander("Unsaved changes" if stale else f"Unsaved changes ({len(diff)})", expanded=bool(diff)):
+        if stale:
+            st.caption("Not listed: the file on disk is newer than the copy you loaded. Start over to reload it.")
+        elif diff:
             static_table(changes_table(diff))
         else:
             st.caption("None. The working copy matches the file.")
@@ -905,13 +916,16 @@ def page_results(ctx: Ctx) -> None:
     st.text_input("Note for the change log (one line, optional; saved with every changed cell)", key=note_key,
                   placeholder="why you changed these cells")
     c1, c2, c3, _c4 = st.columns(4)
-    c1.button("Save to the assumptions file", key="save_btn", type="primary", disabled=not diff,
+    c1.button("Save to the assumptions file", key="save_btn", type="primary", disabled=stale or not diff,
               on_click=_save_cb, args=(ctx.root, ctx.ticker, ctx.path, note_key), **_WIDE)
-    c2.button("Write the report (valuation.md)", key="write_btn", disabled=bool(diff), on_click=_write_cb, args=(ctx.path,),
-              **_WIDE)
+    c2.button("Write the report (valuation.md)", key="write_btn", disabled=stale or bool(diff), on_click=_write_cb,
+              args=(ctx.path,), **_WIDE)
     files, message = pending_commit(ctx.root, ctx.ticker)
     c3.button("Record in the repository", key="commit_btn", on_click=_commit_cb, args=(ctx.root, ctx.ticker), **_WIDE)
-    if diff:
+    if stale:
+        c1.caption("Disabled: the file changed on disk. Start over to reload it.")
+        c2.caption("Disabled until the file is reloaded.")
+    elif diff:
         c1.caption(f"{len(diff)} change(s) waiting to be saved.")
         c2.caption("Disabled until you save, so the report always matches the file.")
     else:
@@ -928,8 +942,13 @@ def page_results(ctx: Ctx) -> None:
     if st.session_state.get("git_output"):
         with st.expander("Output of the last commit", expanded=True):
             st.code(st.session_state["git_output"])
-    with st.expander("Start over"):
-        if diff:
+    with st.expander("Start over", expanded=stale):
+        if stale:
+            st.markdown("The assumptions file changed on disk. Start over reloads it and returns to Start; edits made in "
+                        "this session are dropped.")
+            st.button("Start over and reload the file", key="restart_btn", type="primary", on_click=_restart_cb,
+                      args=(ctx.root, ctx.ticker))
+        elif diff:
             st.markdown(f"Start over reloads the assumptions file from disk, drops your {len(diff)} unsaved change(s), and "
                         "returns to Start.")
             if st.session_state.get("confirm_restart"):

@@ -17,8 +17,8 @@ from __future__ import annotations
 import streamlit as st
 
 from valuation.app_core import (
-    _WIDE, baseline_values, company_tickers, compute_result, horizon, load_company, market_inputs, ranking_for,
-    readout_line, repo_root, working,
+    _WIDE, STALE_BANNER, baseline_values, company_tickers, compute_result, file_changed_on_disk, horizon, load_company,
+    market_inputs, ranking_for, readout_line, repo_root, working,
 )
 from valuation.app_pages import (
     PAGE_TITLES, Ctx, page_cost_of_capital, page_facts, page_operating_margin, page_reinvestment, page_results,
@@ -139,6 +139,8 @@ def main() -> None:
             getattr(st, kind)(msg)
     if error and page == "start" and market is not None:
         st.error("The model cannot compute yet: " + error + ".")
+    if page != "results" and file_changed_on_disk(path):
+        st.warning(STALE_BANNER)
 
     if page == "start":
         page_start(ctx, tickers, lambda: _company_cb(root))

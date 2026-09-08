@@ -6,7 +6,7 @@ import pytest
 
 streamlit = pytest.importorskip("streamlit")
 
-from valuation.app_core import describe_path, md, plain_message, show_value  # noqa: E402
+from valuation.app_core import describe_path, detail_blocks, md, plain_message, show_value, stop_sentence  # noqa: E402
 
 
 def test_weights_message_is_a_plain_sentence_with_percentages():
@@ -57,6 +57,38 @@ def test_describe_path_and_show_value_match_the_pages():
 
 
 def test_md_maps_keys_citations_and_maths_symbols_to_words_and_escapes_dollars():
-    text = md("Equal to the fetched rate, by rule (§18.4 rule 5); see reinvestment_override; 1.34× the base; $195–205 billion")
+    text = md("Zero for the bear (§18.4 rule 5); see reinvestment_override; 1.34× the base; $195–205 billion")
     assert "(by rule)" in text and "the per-year reinvestment overrides" in text and "1.34 x the base" in text
     assert "\\$195" in text and "§" not in text and "×" not in text
+
+
+def test_stop_sentence_does_not_double_the_case_name():
+    raw = ("scenarios.bull.terminal.growth.value: 0.0600 is above the risk-free rate 0.0475; set allow_above_riskfree: "
+           "true and give a reason (section 18.4 rule 5)")
+    text = stop_sentence("bull", raw)
+    assert text.startswith("Bull case not computed: terminal growth 6.00% is above the risk-free rate 4.75%; tick")
+    assert text.count("Bull case") == 1 and text.endswith(".")
+    # a message that names the cell (not the case) keeps its words
+    assert stop_sentence("bull", "scenarios.bull.sales_to_capital.value_late is null", "not computed with the current inputs") == (
+        "Bull case not computed with the current inputs: Bull case, sales-to-capital, years 6-10 is empty.")
+
+
+def test_md_drops_the_citation_when_the_sentence_already_says_by_rule():
+    assert md("Equal to the fetched rate, by rule (§18.4 rule 5); no company grows forever.") == \
+        "Equal to the fetched rate, by rule; no company grows forever."
+    assert "(by rule)" in md("Zero for the bear case (§18.4 rule 5).")
+    assert md("Year  change in Revenue") == md("Year  ΔRevenue")
+
+
+def test_detail_blocks_keep_tables_and_aligned_columns_readable():
+    notes = ("Prose first.\n\n"
+             "| Year | Revenue | Capex |\n|---|---|---|\n| FY2023 | 1,457 | 206 |\n| FY2024 | -412 | 336 |\n\n"
+             "Year      Revenue  Capex   D&A\nFY2023    +1,457   206     305\nFY2024      -412   336     300\n\n"
+             "Closing sentence.")
+    blocks = detail_blocks(notes)
+    kinds = [k for k, _ in blocks]
+    assert kinds == ["text", "table", "code", "text"]
+    table = blocks[1][1]
+    assert list(table.columns) == ["Year", "Revenue", "Capex"] and list(table.iloc[1]) == ["FY2024", "-412", "336"]
+    assert "FY2023    +1,457   206     305" in blocks[2][1]
+    assert detail_blocks("Just one paragraph of prose with 12 numbers.") == [("text", "Just one paragraph of prose with 12 numbers.")]
