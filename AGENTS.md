@@ -539,7 +539,7 @@ cost_of_capital:
     reason: "..."
 
 diagnostics:
-  final_year_market_size:   {value: null, source: "[...]", reason: "the 'big market' test: total spend the company could address in year T"}
+  final_year_market_size:   {value: null, source: "[...]", reason: "the 'big market' test: total spend the company could address in the final model year (year 10 by default); a sourced nearer-year market carried forward at a stated growth rate is allowed if the reason labels it an inference and gives the arithmetic in detail"}
   historical_revenue_cagr:  {value: null, source: "[...]", reason: "optional: the company's own five-year revenue growth, for the 'vs own history' check"}
   historical_operating_margin: {value: null, source: "[...]", reason: "optional: the company's own five-year average GAAP operating margin"}
 
@@ -611,7 +611,7 @@ In this order:
 6. **Base-case year-by-year table**: one row per model year (ten by default, the fade years marked "by rule"), then the terminal year: revenue, growth, margin, after-tax operating income, reinvestment, free cash flow, discount factor, present value, implied ROIC.
 7. **Sensitivity grids** for the base case: cost of capital × terminal growth; average 5-year revenue growth × year-5 margin. Value per share in each cell; the base-case cell marked.
 8. **Reverse DCF**: the constant annual revenue growth over the horizon that, with base-case margins, reinvestment, cost of capital, and terminal settings, makes operating assets equal today's enterprise value. Also the year-5 margin that does the same at base-case growth.
-9. **Diagnostics** (Damodaran's six plus the transition check): revenue growth vs industry average and the company's own five-year history (labelled as context, not an anchor, per rule 11); year-T revenue vs `final_year_market_size`; year-5 margin vs industry average and own history; implied ROIC path vs cost of capital; terminal-value share; a flag when value per share is above 2× or below 0.5× the price; and the §18.2 transition check (terminal-year free cash flow and return on capital against the final explicit year, flagged on a cliff). Industry figures come from the cached datasets (§18.8) and are labelled with their dataset date.
+9. **Diagnostics** (Damodaran's six plus the transition check): revenue growth vs industry average and the company's own five-year history (labelled as context, not an anchor, per rule 11); final-model-year revenue vs `final_year_market_size` (year 10 by default; the analyst's `detail` also shows the nearer year the sources actually give); year-5 margin vs industry average and own history; implied ROIC path vs cost of capital; terminal-value share; a flag when value per share is above 2× or below 0.5× the price; and the §18.2 transition check (terminal-year free cash flow and return on capital against the final explicit year, flagged on a cliff). Industry figures come from the cached datasets (§18.8) and are labelled with their dataset date.
 10. **Warnings**: every rule override, every `null` that stopped a scenario, any fetch that fell back to a manual value.
 11. Glossary and Sources (the YAML's source tags mapped to cached files, plus dataset and feed URLs with fetch dates).
 
