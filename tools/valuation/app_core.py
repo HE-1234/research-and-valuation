@@ -586,7 +586,11 @@ def fade_clauses(doc: dict[str, Any], name: str, T: int, market: MarketInputs | 
         growth = f"Then {fade_verb(g5, terminal)} {pct(terminal, digits)} by year {T}."
     elif g5 is not None:
         growth = f"Then moving in equal steps to terminal growth by year {T}."
-    margin = None if m5 is None else f"Then held at {pct(m5)} through year {T}."
+    margins = get_path(doc, f"scenarios.{name}.operating_margin.values")
+    if isinstance(margins, list) and len(margins) >= T and margins[T - 1] is not None:
+        margin = f"Then written year by year, ending at {pct(float(margins[T - 1]))} in year {T}."
+    else:
+        margin = None if m5 is None else f"Then held at {pct(m5)} through year {T}."
     return growth, margin
 
 

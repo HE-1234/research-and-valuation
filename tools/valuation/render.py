@@ -264,13 +264,20 @@ def fade_verb(year5_growth: float | None, last_growth: float | None) -> str:
 
 
 def fade_sentence(year5_growth: float | None, last_growth: float | None, year5_margin: float | None,
-                  *, terminal_words: str | None = None) -> str:
-    """"growth easing from 20.0% to 4.2%; margin held at 26.0%" - the rule of section 18.2 in words."""
+                  *, terminal_words: str | None = None, margin_end: float | None = None) -> str:
+    """"growth easing from 20.0% to 4.2%; margin held at 26.0%" - the rule of section 18.2 in words.
+
+    ``margin_end`` is the final-year margin when the case writes all ten margin years itself; when it
+    differs from the year-5 figure the margin clause describes the written path instead of "held".
+    """
     digits = rate_digits(year5_growth, last_growth)
     verb = fade_verb(year5_growth, last_growth).replace(" to", "")          # "easing" / "moving up"
     to = terminal_words or pct(last_growth, digits)
-    return (f"growth {verb} from {pct(year5_growth, digits)} to {to}; "
-            f"margin held at {pct(year5_margin)}")
+    if margin_end is not None and year5_margin is not None and abs(margin_end - year5_margin) > 1e-9:
+        margin = f"margin written year by year from {pct(year5_margin)} to {pct(margin_end)}"
+    else:
+        margin = f"margin held at {pct(year5_margin)}"
+    return f"growth {verb} from {pct(year5_growth, digits)} to {to}; {margin}"
 
 
 def _by_rule_note(result: ValuationResult) -> str:
@@ -278,13 +285,15 @@ def _by_rule_note(result: ValuationResult) -> str:
     n = _explicit_years(result)
     if n >= result.horizon:
         return ""
-    lines = [f"- {name}: " + fade_sentence(sc.inputs.growth[n - 1], sc.inputs.growth[-1], sc.inputs.margin[n - 1])
+    lines = [f"- {name}: " + fade_sentence(sc.inputs.growth[n - 1], sc.inputs.growth[-1], sc.inputs.margin[n - 1],
+                                           margin_end=sc.inputs.margin[-1])
              + f" through year {result.horizon}."
              for name, sc in result.scenarios.items()]
     return (f"\nYears {n + 1}-{result.horizon} are built by rule from year {n}, not written in the assumptions: "
             "growth moves in equal steps to terminal growth, the margin holds at its year-"
-            f"{n} level, per-year reinvestment figures stop, and sales-to-capital switches to the "
-            f"years {n + 1}-{result.horizon} ratio.\n\n" + "\n".join(lines) + "\n")
+            f"{n} level unless a case writes all {result.horizon} margin years itself, per-year reinvestment "
+            f"figures stop, and sales-to-capital switches to the years {n + 1}-{result.horizon} ratio.\n\n"
+            + "\n".join(lines) + "\n")
 
 
 def assumptions_section(result: ValuationResult) -> str:

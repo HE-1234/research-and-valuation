@@ -183,3 +183,16 @@ def test_wide_working_notes_tables_are_narrowed_not_scrolled():
     assert all(len(t.columns) <= 6 for t in parts)
     narrow = wide[["Year", "Revenue", "Capex"]]
     assert narrow_tables(narrow)[0].equals(narrow)                 # six columns or fewer pass through
+
+
+def test_fade_clauses_describe_a_written_ten_entry_margin_path():
+    from pathlib import Path
+    from valuation.app_core import fade_clauses
+    from valuation.schema import load_yaml
+    doc = load_yaml(Path(__file__).resolve().parent / "fixtures" / "example_assumptions.yaml")
+    doc["horizon"] = 10
+    assert fade_clauses(doc, "bull", 10, None)[1] == "Then held at 34.0% through year 10."
+    doc["scenarios"]["bull"]["operating_margin"]["values"] = [0.20, 0.24, 0.28, 0.32, 0.34, 0.33, 0.32, 0.31, 0.30, 0.30]
+    growth, margin = fade_clauses(doc, "bull", 10, None)
+    assert margin == "Then written year by year, ending at 30.0% in year 10."
+    assert growth is not None

@@ -149,11 +149,11 @@ Rows are inputs and columns are cases. Per-year cells read year 1 / year 2 / ...
 | Terminal return on capital: points above the cost of capital | 0.00% | 8.00% | 11.00% | — |
 | A large premium is allowed (above base 8, bull 12 points) | no | no | no | no |
 
-Years 6-10 are not written in the file; the engine builds them from the last year set above: growth moves in equal steps to terminal growth, the margin holds, per-year reinvestment figures stop, and sales-to-capital switches to the years 6-10 ratio.
+Years 6-10 are not written in the file; the engine builds them from the last year set above: growth moves in equal steps to terminal growth, the margin holds (except where a case writes all 10 margin years itself, as the bull case does here), per-year reinvestment figures stop, and sales-to-capital switches to the years 6-10 ratio.
 
 - Bear, years 6-10 by rule: growth moving from 5.00% to the risk-free rate; margin held at 25.0% through year 10.
 - Base, years 6-10 by rule: growth moving from 15.0% to the risk-free rate; margin held at 35.0% through year 10.
-- Bull, years 6-10 by rule: growth moving from 20.0% to the risk-free rate; margin held at 40.0% through year 10.
+- Bull, years 6-10 by rule: growth moving from 20.0% to the risk-free rate; margin written year by year from 40.0% to 36.0% through year 10.
 
 ### Bear: reasons
 

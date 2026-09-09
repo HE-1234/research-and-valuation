@@ -212,3 +212,26 @@ def test_story_without_a_table_prints_no_table():
     text = render_assumptions(doc)
     i = text.index("The custom-chip business loses its biggest customer")
     assert "How the story becomes numbers:" not in text[i:text.index("### Base")]
+
+
+def test_by_rule_line_describes_a_written_ten_entry_margin_path():
+    """A case that writes all ten margin years is not "held at" its year-5 figure (MRVL bull, 2026-09-09)."""
+    doc = load(FIXTURE)
+    doc["horizon"] = 10
+    doc["scenarios"]["bull"]["operating_margin"]["values"] = [0.20, 0.24, 0.28, 0.32, 0.34, 0.33, 0.32, 0.31, 0.30, 0.30]
+    text = render_assumptions(doc)
+    bull = next(l for l in text.splitlines() if l.startswith("- Bull, years 6-10 by rule:"))
+    assert bull.endswith("; margin written year by year from 34.0% to 30.0% through year 10."), bull
+    assert "- Base, years 6-10 by rule: growth moving from 20.0% to the risk-free rate; margin held at 26.0% through year 10." in text
+    assert "the margin holds (except where a case writes all 10 margin years itself, as the bull case does here)" in text
+
+
+def test_valuation_md_by_rule_note_describes_a_written_margin_path():
+    from valuation import MarketInputs, compute, render
+    doc = load(FIXTURE)
+    doc["horizon"] = 10
+    doc["scenarios"]["bull"]["operating_margin"]["values"] = [0.20, 0.24, 0.28, 0.32, 0.34, 0.33, 0.32, 0.31, 0.30, 0.30]
+    text = render(compute(doc, MarketInputs(price=70.0, risk_free_rate=0.05, equity_risk_premium=0.042)))
+    assert "margin written year by year from 34.0% to 30.0% through year 10." in text
+    assert "margin held at 26.0% through year 10." in text
+    assert "unless a case writes all 10 margin years itself" in text

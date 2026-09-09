@@ -241,7 +241,8 @@ def by_rule_lines(doc: dict[str, Any]) -> list[str]:
         # one rounding for every rate in the sentence (audit 4, item 7)
         digits = rate_digits(float(g5), g_last)
         words = "the risk-free rate" if is_riskfree(raw) else (_pct(raw, digits) if raw is not None else DASH)
-        sentence = fade_sentence(g5, g_last, m5, terminal_words=words)
+        m_end = float(margin[T - 1]) if isinstance(margin, list) and len(margin) >= T and margin[T - 1] is not None else None
+        sentence = fade_sentence(g5, g_last, m5, terminal_words=words, margin_end=m_end)
         out.append(f"- {SCENARIO_LABELS[name]}, years {n + 1}-{T} by rule: {sentence} through year {T}.")
     return out
 
@@ -293,9 +294,15 @@ def scenario_table(doc: dict[str, Any]) -> str:
              table(["Input"] + [SCENARIO_LABELS[n] for n in cases], rows)]
     lines = by_rule_lines(doc)
     if lines:
+        written = [SCENARIO_LABELS[n].lower() for n in cases
+                   if isinstance(_cell(doc, f"scenarios.{n}.operating_margin", "values"), list)
+                   and len(_cell(doc, f"scenarios.{n}.operating_margin", "values")) >= T]
+        holds = ("the margin holds" if not written else
+                 f"the margin holds (except where a case writes all {T} margin years itself, as the "
+                 f"{' and '.join(written)} case{'s do' if len(written) > 1 else ' does'} here)")
         parts += ["", f"Years {_year_columns(doc, 'revenue_growth') + 1}-{T} are not written in the file; the engine "
-                      "builds them from the last year set above: growth moves in equal steps to terminal growth, the "
-                      "margin holds, per-year reinvestment figures stop, and sales-to-capital switches to the years "
+                      f"builds them from the last year set above: growth moves in equal steps to terminal growth, "
+                      f"{holds}, per-year reinvestment figures stop, and sales-to-capital switches to the years "
                       "6-10 ratio.", ""] + lines
     return "\n".join(parts)
 
