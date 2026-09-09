@@ -1,0 +1,280 @@
+# Vistra Corp. (VST) Form 8-K filed 2026-01-05 | accession 0001193125-26-002589 | items 1.01,3.02,7.01,9.01
+# Primary document: https://www.sec.gov/Archives/edgar/data/1692819/000119312526002589/d62722d8k.htm
+# Fetched 2026-09-09 from SEC EDGAR; extracted text only (BeautifulSoup); exhibits appended below if any.
+
+==== 8-K BODY ====
+8-K
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+FORM 8-K
+
+CURRENT REPORT
+
+Pursuant to Section 13 or 15(d)
+
+of the Securities Exchange Act of 1934
+
+Date of Report (Date of earliest event reported): December 31, 2025
+
+VISTRA CORP.
+
+(Exact name of registrant as specified in its charter)
+
+Delaware | 001-38086 | 36-4833255
+(State or other jurisdiction of incorporation or organization) | (Commission File Number) | (I.R.S. Employer Identification No.)
+
+6555 Sierra Drive Irving , TX | 75039
+(Address of principal executive offices) | (Zip Code)
+
+(214) 812-4600
+
+(Registrant’s telephone number, including area code)
+
+N/A
+
+(Former name or former address, if changed since last report)
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.l4a-12)
+
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240. 14d-2(b))
+
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of Each Class | Trading Symbol(s) | Name of Each Exchange on Which Registered
+Common stock, par value $0.01 per share | VST | New York Stock Exchange
+Indicate by check
+NYSE Texas
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+
+Emerging growth company ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+
+Item 1.01 | Entry into a Material Definitive Agreement
+
+Transaction Agreements
+
+On December 31, 2025, Vistra Operations Company LLC, a Delaware limited liability company (“Buyer”) and an indirect wholly owned subsidiary of Vistra Corp. (“Vistra”), and, for the limited purposes set forth therein, Vistra, entered into a Purchase and Sale Agreement (the “Purchase Agreement”) with Q-Generation Holdings, LLC (the “Seller”). Under the Purchase Agreement, Buyer has agreed to acquire from Seller one hundred percent (100%) of the limited liability company interests in Q-Generation, LLC, a Delaware limited liability company (the “Acquired Company”) (the transactions contemplated by the Purchase Agreement, the “Purchase Transaction”).
+
+Concurrently with the execution of the Purchase Agreement, Buyer and TSVME LLC, a Delaware limited liability company and wholly owned subsidiary of Buyer (“Merger Sub”), entered into an Agreement and Plan of Merger (the “Merger Agreement”, and, together with the Purchase Agreement, the “Transaction Agreements”, and each a “Transaction Agreement”) with Hamilton Holdings II, LLC, a Delaware limited liability company and indirect subsidiary of the Acquired Company (the “Target Company”), and Seller solely for purposes of Article II of the Merger Agreement and in its capacity as Members’ Representative (as defined in the Merger Agreement). Under the Merger Agreement, Merger Sub will merge with and into the Target Company (together with all transactions contemplated by the Merger Agreement, the “Merger,” and the Merger together with the Purchase Transaction, the “Transactions”), with the Target Company surviving such merger (the “Surviving Company”) on the terms and subject to the conditions set forth in the Merger Agreement and in accordance with the Delaware Limited Liability Company Act. Immediately following the consummation of the transactions contemplated by the Purchase Agreement and prior to the Merger, Buyer will contribute Merger Sub to a direct or indirect wholly owned subsidiary of the Acquired Company. As a result of the Merger, the Surviving Company will be a wholly owned subsidiary of the Acquired Company, and Merger Sub will cease to exist. The Transaction Agreements and Transactions were approved by Vistra’s Board of Directors.
+
+Pursuant to the Transaction Agreements, and in consideration for the limited liability company interests of the Acquired Company, consideration for the Merger, and other consideration received thereunder, the Buyer and Vistra will pay consideration at Closing (as defined in the Purchase Agreement or Merger Agreement, as applicable) consisting of approximately (i) $2.3 billion in cash (the “Cash Consideration”) (net of adjustments for the assumption of an estimated $1.5 billion of outstanding indebtedness of the Acquired Company and its subsidiaries as of Closing, and is subject to change based on the then-outstanding principal amounts at the time of Closing) and (ii) 5,000,000 shares of Vistra common stock, par value $0.01, issued to Seller, at a mutually agreed-upon value of $185 per share (the “Stock Consideration”). The Cash Consideration is subject to certain customary adjustments, including net working capital, cash and indebtedness, as specified in the Transaction Agreements. Buyer expects to finance the Cash Consideration with the proceeds of debt financing. In connection with its entry into the Transaction Agreements, Buyer entered into a debt commitment letter, dated December 31, 2025, and related fee letters with Goldman Sachs Bank USA (“GSB”), pursuant to which, and subject to the terms and conditions set forth therein, GSB has committed to provide up to approximately $2.0 billion in an aggregate principal amount of senior secured bridge loans under a 364-day senior secured bridge loan credit facility (the “Acquisition Bridge Facility”). The proceeds of the loans under the Acquisition Bridge Facility would be used to finance, in part, the Transactions and the payment of fees and expenses incurred in connection with the Transactions. The Acquisition Bridge Facility is subject to customary commitment reductions in the event that certain permanent debt financing is obtained on or prior to the date of Closing and customary closing conditions, including that substantially concurrently with the initial funding under the Acquisition Bridge Facility, the Transactions shall be consummated.
+
+Consummation of the Transactions is subject to customary closing conditions, including receipt of all requisite regulatory approvals, including approvals of the Federal Energy Regulatory Commission under the Federal Power Act, the expiration or termination of all applicable waiting periods under the Hart-Scott-Rodino Antitrust Improvements Act of 1976 and, solely, in the case of the Purchase Transaction, approvals of (i) the New Hampshire Site Evaluation Committee, (ii) the Public Utility Commission of Texas, and (iii) the Connecticut Public Utilities Regulatory Commission (collectively “Specified Regulatory Approvals”). The Closing of each of the Purchase Transaction and the Merger is conditioned upon the other being consummated substantially concurrently.
+
+The Transaction Agreements contain representations, warranties and covenants for the respective parties that are customary for transactions of this nature, including among others, covenants regarding the conduct of the businesses of the Company Entities (as defined in the Purchase Agreement and Merger Agreement, respectively) during the pendency of the Transactions, public announcements, casualty and condemnation procedures, and the preparation of materials and taking of other necessary actions to obtain the regulatory approvals applicable to each party. Furthermore, pursuant to the Purchase Agreement, Vistra will file with the U.S. Securities and Exchange Commission (the “SEC”) within 5 business days of the Closing of the Purchase Transaction a registration statement registering for resale on a continuous basis the shares of Vistra common stock comprising the Stock Consideration. The Seller has agreed to not transfer the Stock Consideration for a period beginning on the Closing Date (as defined in the Purchase Agreement) and continuing through the close of trading on the date that is three months after the Closing Date, subject to certain exceptions.
+
+The Transaction Agreements contain certain customary termination rights, including that, as to each of the Transaction Agreements, each of Seller and Buyer has the right to terminate (i) after December 31, 2026 (the “Termination Date”), unless all conditions to Closing have been met, except the Specified Regulatory Approvals, in which case, Buyer or Seller may elect to extend the Termination Date twice, in the case of each extension, by up to an additional ninety days and (ii) if, with respect to a Transaction Agreement, the other Transaction Agreement is terminated.
+
+Buyer will be required to pay a termination fee of, as to the Purchase Agreement, $77,839,364, or as to the Merger Agreement, $72,160,636 (each, a “Reverse Termination Fee”) if the respective Transaction Agreement is validly terminated by Seller due to Buyer’s failure to consummate the respective Transaction following: (i) satisfaction of all mutual and Buyer-specific conditions to Closing, (ii) Buyer’s failure to consummate the respective Transaction within five business days after all conditions to Closing have been met (subject to certain extensions), (iii) Seller’s notification to Buyer following the end of or after such period that it (or the Target Company, as applicable) is ready, willing and able to consummate the Closing and (iv) Buyer’s failure to consummate the applicable Transaction within five business days after receipt of such notice from Seller. In addition, if the Reverse Termination Fee becomes payable as described in the preceding sentence under one of the Transaction Agreements, then it also becomes payable under the other Transaction Agreement if such other Transaction Agreement is also terminated. The Buyer’s monetary liability under a Transaction Agreement is capped at an amount equal to the Reverse Termination Fee and certain expense reimbursements when and if due under the applicable Transaction Agreement.
+
+The Transaction Agreements also provide that Seller, on one hand, or Buyer, on the other hand, may seek to specifically enforce the obligations under the Transaction Agreements under the terms and conditions set forth in the Transaction Agreements but in no event will Seller be entitled to receive both a termination fee and a grant of specific performance under either Transaction Agreement.
+
+The foregoing description of the Transaction Agreements does not purport to be complete and is qualified in its entirety by the full text of the Purchase Agreement and Merger Agreement, copies of which are filed as Exhibits 2.1 and 2.2, respectively, hereto and are incorporated by reference herein. The Transaction Agreements have been attached to provide investors with information regarding their terms. They are not intended to provide any other factual information about Vistra, Buyer, Seller, the Acquired Company or the Target Company. In particular, the representations, warranties and covenants of each party set forth in the Transaction Agreements have been made only for the purposes of, and were and are solely for the benefit of the parties to, the Transaction Agreements, may be subject to limitations agreed upon by the contracting parties, including being qualified by confidential disclosure letters made for the purposes of allocating contractual risk between the parties to the Transaction Agreements instead of establishing these matters as facts, and may be subject to standards of materiality applicable to the contracting parties that differ from those applicable to investors. Accordingly, the representations and warranties may not describe the actual state of affairs at the date they were made or at any other time, and investors should not rely on them as statements of fact. The confidential disclosure schedules contain information that modifies, qualifies and creates exceptions to the representations and warranties and certain covenants set forth in the Transaction Agreements.
+
+Item 3.02. | Unregistered Sale of Equity Securities.
+
+The information set forth under Item 1.01 of this Current Report is hereby incorporated by reference into this Item 3.02. The shares of Vistra common stock comprising the Stock Consideration will be issued in reliance on the exemption from registration requirements provided by Section 4(a)(2) of the Securities Act of 1933, as amended (the “Securities Act”) to a person who is an “accredited investor” as that term is defined in Rule 501 of Regulation D promulgated by the SEC, without the use of any general solicitation or advertising to market or otherwise offer the securities for sale. Vistra will rely upon representations, warranties, certifications and agreements of Seller in support of the satisfaction of the conditions contained in Section 4(a)(2) of the Securities Act and the rules and regulations promulgated thereunder. None of the shares of Vistra common stock comprising the Stock Consideration have been registered under the Securities Act or applicable state securities laws and none may be offered or sold in the United States absent registration under the Securities Act or an exemption from such registration requirements.
+
+Item 7.01. | Regulation FD Disclosure.
+
+On January 5, 2026, Vistra issued a press release announcing entry into the Transaction Agreements. A copy of this press release is attached hereto as Exhibit 99.1 and is incorporated herein by reference.
+
+In accordance with General Instruction B.2 of Form 8-K, the information set forth in this Item 7.01 and in the attached Exhibit 99.1 is deemed to be furnished and shall not be deemed to be “filed” for purposes of Section 18 of the Exchange Act.
+
+Forward Looking Statements
+
+The information presented herein includes forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. These forward-looking statements, which are based on current expectations, estimates and projections about the industry and markets in which Vistra operates and beliefs of and assumptions made by Vistra’s management, involve risks and uncertainties, which are difficult to predict and are not guarantees of future performance, that could significantly affect the financial results of Vistra. All statements, other than statements of historical facts, that are presented herein, or in response to questions or otherwise, that
+
+address activities, events or developments that may occur in the future, including such matters as activities related to our financial or operational projections including financial condition and cash flows, projected synergy, net debt targets, capital allocation, capital expenditures, liquidity, projected Adjusted EBITDA to free cash flow conversion rate, dividend policy, business strategy, competitive strengths, goals, future acquisitions or dispositions, development or operation of power generation assets, market and industry developments and the growth of our businesses and operations, including potential large load center opportunities (often, but not always, through the use of words or phrases, or the negative variations of those words or other comparable words of a future or forward-looking nature, including, but not limited to: “intends,” “plans,” “will likely,” “unlikely,” “believe,” “confident”, “expect,” “seek,” “anticipate,” “estimate,” “continue,” “will,” “shall,” “should,” “could,” “may,” “might,” “predict,” “project,” “forecast,” “target,” “potential,” “goal,” “objective,” “guidance” and “outlook”), are forward-looking statements. Readers are cautioned not to place undue reliance on forward-looking statements.
+
+Although Vistra believes that in making any such forward-looking statement, Vistra’s expectations are based on reasonable assumptions, any such forward-looking statement involves uncertainties and risks that could cause results to differ materially from those projected in or implied by any such forward-looking statement, including, but not limited to: (i) the ultimate outcome of the acquisition of the Acquired Company; (ii) Vistra, Buyer and Seller’s ability to consummate the Transactions; (iii) the conditions to the completion of the Transactions; (iv) that the regulatory approvals required for the Transactions may not be obtained on the terms expected or on the anticipated schedule or at all; (v) Vistra, Buyer and Seller’s ability to meet expectations regarding the timing, completion and accounting and tax treatments of the transactions contemplated by the Transaction Agreements; (vi) the possibility that Vistra may be unable to achieve anticipated benefits within the expected time-frames or at all and to successfully integrate the Acquired Company’s operations with those of Vistra; (vii) that such integration may be more difficult, time-consuming or costly than expected; and (viii) those additional risks and factors discussed in reports filed with the Securities and Exchange Commission by Vistra from time to time, including the uncertainties and risks discussed in the sections entitled “Risk Factors” and “Forward-Looking Statements” in Vistra’s annual report on Form 10-K for the year ended December 31, 2024 and subsequently filed quarterly reports on Form 10-Q.
+
+Item 9.01. | Financial Statements and Exhibits.
+
+(d) | Exhibits.
+
+Exhibit No. | Description
+2.1* | Purchase and Sale Agreement, dated as of December 31, 2025, by and among Q-Generation Holdings, LLC, Vistra Operations Company LLC and Vistra Corp.
+2.2* | Agreement and Plan of Merger, dated as of December 31, 2025, by and among Hamilton Holdings II, LLC, Vistra Operations Company LLC, TSVME LLC and Q-Generation Holdings, LLC.
+99.1 | Press Release dated January 5, 2026.
+104 | The cover page from this Current Report on Form 8-K, formatted in Inline XBRL.
+
+* | Certain schedules and other similar attachments to this exhibit have been omitted from this filing pursuant to Item 601(a)(5) of Regulation S-K. The Registrant will provide a copy of such omitted documents to the Securities and Exchange Commission upon request.
+
+SIGNATURES
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.
+
+Dated: January 5, 2026
+VISTRA CORP.
+By: | /s/ Kristopher E. Moldovan
+Name: | Kristopher E. Moldovan
+Title: | Executive Vice President and Chief Financial Officer
+
+
+==== EXHIBIT EX-99.1 (https://www.sec.gov/Archives/edgar/data/1692819/000119312526002589/d62722dex991.htm) ====
+EX-99.1
+4
+d62722dex991.htm
+EX-99.1
+
+EX-99.1
+
+Exhibit 99.1
+
+Vistra Adds to its Industry-Leading Generation Portfolio
+
+with Acquisition of Cogentrix
+
+Highlights
+
+ | Acquisition of Cogentrix includes ~5,500 megawatts of modern natural gas generation assets at an attractive purchase price, net of expected tax benefits, of approximately $730/kW of capacity.
+
+ | Acquisition is expected to deliver mid-single digit Ongoing Operations AFCFbG 1 per share accretion in 2027 and high single-digit accretion on average over 2027-2029.
+
+ | Reiterating previously communicated capital allocation plan, including long-term net leverage target of less than 3x 2 , the expected return of capital to shareholders by way of the planned $300 million in annual dividends, and at least $1 billion of share repurchases each year.
+
+IRVING, Texas, Jan. 5, 2026 — Vistra Corp. (NYSE: VST) today announced it has executed definitive agreements to acquire Cogentrix Energy,
+consisting of 10 modern natural gas generation facilities totaling approximately 5,500 MW of capacity. Cogentrix is indirectly owned by funds managed by Quantum Capital Group. The acquisition includes three combined cycle gas turbine facilities and
+two combustion turbine facilities located across PJM, four combined cycle gas turbine facilities in ISO New England, and one cogeneration facility in ERCOT.
+
+Vistra will acquire these assets at a net purchase price of approximately $4.0 billion, which is comprised of the payment of approximately
+$2.3 billion of cash consideration and approximately $0.9 billion of Vistra stock consideration (5 million shares of common stock at a mutually agreed-upon value of $185 per share) to be issued to Quantum, and the assumption of
+approximately $1.5 billion of outstanding indebtedness at Cogentrix, less approximately $0.7 billion of net present value of expected tax benefits generated directly as a result of the transaction. The consideration payable is also subject
+to certain customary net working capital, cash, and indebtedness adjustments. The approximately $4.0 billion net purchase price implies a multiple of approximately 7.25x the 2027 expected Adjusted EBITDA contribution and approximately $730/kW
+for the portfolio.
+
+“The Vistra team is excited to announce the acquisition of the Cogentrix portfolio, marking the second opportunistic expansion
+of our generation footprint over the past year to support our ability to serve growing customer demand in our key markets,” said Vistra President and CEO Jim Burke. “Successfully integrating and operating generation assets is a major
+undertaking, and our talented team continues to demonstrate that it is a core competency of our company.”
+
+Burke continued, “Our diversified
+fleet, anchored on natural gas and nuclear generation, will play a critical role in the reliability, affordability, and flexibility of U.S. power grids. The addition of this natural gas portfolio is a great way to start another year of growth for
+Vistra as we’ve completed, acquired, or developed projects in each of the competitive power regions where we operate. Vistra continues to look for opportunities that allow us to meet the growing demand of customers and meet our disciplined
+investment thresholds. We look forward to closing the transaction and welcoming new team members to the Vistra family.”
+
+Vistra – Press Release
+
+Jan. 5, 2026, Page 2
+
+“We are pleased to have reached an agreement to sell substantially all of the Cogentrix portfolio to
+Vistra,” said Wil VanLoh, Founder and CEO of Quantum Capital Group. “We are excited to become shareholders of Vistra and have much confidence in Vistra’s ability to deliver long-term value through its industry-leading portfolio and
+operational excellence. Quantum thanks the Cogentrix team for their partnership and looks forward to seeing the business continue to grow as part of Vistra.”
+
+Acquisition of Cogentrix Portfolio
+
+Portfolio Overview
+
+Asset | State | ISO | Size (MW) | Technology
+Patriot | Pennsylvania | PJM | 881 | CCGT
+Hamilton-Liberty | Pennsylvania | PJM | 881 | CCGT
+Lakewood | New Jersey | PJM | 286 | CCGT
+Rock Springs | Maryland | PJM | 740 | CT
+Ocean | New Jersey | PJM | 375 | CT
+Newington | New Hampshire | ISO-NE | 624 | CCGT
+Bridgeport | Connecticut | ISO-NE | 558 | CCGT
+Tiverton | Rhode Island | ISO-NE | 297 | CCGT
+Rumford | Maine | ISO-NE | 271 | CCGT
+Altura Cogeneration | Texas | ERCOT | 583 | Cogeneration
+Total | 5,496
+
+Note: Vistra is acquiring 100% ownership in all the above plants, including the 25% interest in the Patriot and
+Hamilton-Liberty plants not currently owned by Cogentrix.
+
+Vistra – Press Release
+
+Jan. 5, 2026, Page 3
+
+Strategic Rationale
+
+ | Adds Attractive Portfolio of Modern and Efficient Natural Gas Assets : Cogentrix portfolio is composed of a modern and efficient set of gas assets that adds baseload-weighted capacity, complements Vistra’s fleet, and enhances Vistra’s efficient generation capabilities. The portfolio has an average heat rate of approximately 7,800 Btu / kWh and features the Patriot and Hamilton-Liberty plants, which are 2016 COD facilities with sub 7,000 Btu / kWh heat rates.
+
+ | Expands Integrated Fleet in Key Regions: Acquisition diversifies and expands Vistra’s geographic footprint by adding 5,500 MW of net capacity across some of the most attractive and fastest-growing power regions in North America: PJM, ISO New England, and ERCOT. Combined with our current fleet, Vistra’s generation portfolio will consist of approximately 50,000 MW of capacity across the US.
+
+ | Fully Aligns with Vistra’s Disciplined Approach to Capital Allocation: Acquisition expected to deliver immediate benefits to Vistra shareholders, including Ongoing Operations AFCFbG 1 per share accretion in the mid-single digits in 2027 and high single-digit accretion on average over 2027-2029, driven by an attractive cash flow generation profile of the Cogentrix portfolio and expected tax benefits generated directly as a result of the transaction. Vistra expects the transaction to exceed its mid-teens levered return target.
+
+ | Maintains Strength and Resilience of Vistra’s Balance Sheet: Equity consideration reflects Vistra’s commitment to continuing the execution of its disciplined capital allocation plan and to a strong balance sheet, including investment grade credit ratings.
+
+Conditions and Timing
+
+The transaction is subject to
+certain regulatory approvals, including by the Federal Energy Regulatory Commission, the Department of Justice under the Hart-Scott-Rodino Act, and certain state regulatory approvals, and is expected to close in mid-to-late-2026.
+
+Advisors
+
+Goldman Sachs & Co. LLC. is serving as exclusive financial advisor, and Latham & Watkins LLP, Sidley Austin, LLP, and Cleary Gottlieb
+Steen & Hamilton LLP are serving as legal advisors, to Vistra.
+
+Evercore is serving as exclusive financial advisor, and King & Spalding
+LLP is serving as legal advisor, to Cogentrix Energy, a portfolio company of Quantum Capital Group.
+
+About Vistra
+
+Vistra (NYSE: VST) is a leading, Fortune 500 integrated retail electricity and power generation company based in Irving, Texas, that provides essential
+resources to customers, businesses, and communities from California to Maine. Vistra is a leader in transforming the energy landscape, with an unyielding focus on reliability, affordability, and sustainability. The company safely operates a
+reliable, efficient power generation fleet of natural gas, nuclear, coal, solar, and battery energy storage facilities while taking an innovative, customer-centric approach to its retail business. Learn more at https://www.vistracorp.com.
+
+Vistra – Press Release
+
+Jan. 5, 2026, Page 4
+
+Media
+
+Meranda Cohn
+
+214-875-8004
+
+Media.Relations@vistracorp.com
+
+Analysts
+
+Eric Micek
+
+214-812-0046
+
+Investor@vistracorp.com
+
+1 Ongoing Operations excludes
+the Asset Closure segment. Ongoing Operations Adjusted EBITDA and Ongoing Operations Adjusted Free Cash Flow before Growth are non-GAAP financial measures. Any reference to “Ongoing Operations Adjusted
+FCFbG” is a reference to Ongoing Operations Adjusted Free Cash Flow before Growth.
+
+2 Based on Ongoing Operations Adjusted EBITDA and excludes
+Project Level Financings (i.e. Vistra Zero $697 million TLB and BCOP credit facility loans).
+
+Cautionary Note Regarding Forward-Looking Statements
+
+The information presented herein includes forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. These
+forward-looking statements, which are based on current expectations, estimates and projections about the industry and markets in which Vistra Corp. (“Vistra”) operates and beliefs of and assumptions made by Vistra’s management,
+involve risks and uncertainties, which are difficult to predict and are not guarantees of future performance, that could significantly affect the financial results of Vistra. All statements, other than statements of historical facts, that are
+presented herein, or in response to questions or otherwise, that address activities, events or developments that may occur in the future, including such matters as activities related to our financial or operational projections including financial
+condition and cash flows, projected synergy, net debt targets, capital allocation, capital expenditures, liquidity, projected Adjusted EBITDA to free cash flow conversion rate, dividend policy, business strategy, competitive strengths, goals, future
+acquisitions or dispositions, development or operation of power generation assets, market and industry developments and the growth of our businesses and operations, including potential large load center opportunities (often, but not always, through
+the use of words or phrases, or the negative variations of those words or other comparable words of a future or forward-looking nature, including, but not limited to: “intends,” “plans,” “will likely,”
+“unlikely,” “believe,” “confident”, “expect,” “seek,” “anticipate,” “estimate,” “continue,” “will,” “shall,”
+“should,” “could,” “may,” “might,” “predict,” “project,” “forecast,” “target,” “potential,” “goal,” “objective,”
+“guidance” and “outlook”), are forward-looking statements. Readers are cautioned not to place undue reliance on forward-looking statements. Although Vistra believes that in making any such forward-looking statement,
+Vistra’s expectations are based on reasonable assumptions, any such forward-looking statement involves uncertainties and risks that could cause results to differ materially from those projected in or implied by any such forward-looking
+statement, including, but not limited to: (i) adverse changes in general economic or market conditions (including changes in interest rates) or changes in political conditions or federal or state laws and regulations; (ii) the ability of
+Vistra to execute upon its contemplated strategic, capital allocation, performance, and cost-saving initiatives, including the closing of the Cogentrix acquisition, and to successfully integrate acquired businesses; (iii) actions by credit
+ratings agencies; (iv) the severity, magnitude and duration of extreme weather events, contingencies and uncertainties relating thereto, most of which are difficult to predict and many of which are beyond our control, and the resulting effects
+on our results of operations, financial condition and cash flows; and (v) those additional risks and factors discussed in reports filed with the Securities and Exchange Commission by Vistra from time to time, including the uncertainties and
+risks discussed in the sections entitled “Risk Factors” and “Forward-Looking Statements” in Vistra’s annual report on Form 10-K for the year ended December 31, 2024 and
+subsequently filed quarterly reports on Form 10-Q.
+
+Any forward-looking statement speaks only at the date on which
+it is made, and except as may be required by law, Vistra will not undertake any obligation to update any forward-looking statement to reflect events or circumstances after the date on which it is made or to reflect the occurrence of unanticipated
+events. New factors emerge from time to time, and it is not possible to predict all of them; nor can Vistra assess the impact of each such factor or the extent to which any factor, or combination of factors, may cause results to differ materially
+from those contained in any forward-looking statement.

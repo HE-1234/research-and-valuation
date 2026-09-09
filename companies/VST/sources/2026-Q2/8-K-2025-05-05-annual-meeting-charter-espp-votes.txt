@@ -1,0 +1,209 @@
+# Vistra Corp. (VST) Form 8-K filed 2025-05-05 | accession 0001193125-25-112869 | items 3.03,5.02,5.03,5.07,9.01
+# Primary document: https://www.sec.gov/Archives/edgar/data/1692819/000119312525112869/d786785d8k.htm
+# Fetched 2026-09-09 from SEC EDGAR; extracted text only (BeautifulSoup); exhibits appended below if any.
+
+==== 8-K BODY ====
+8-K
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+Washington, DC 20549
+
+FORM 8-K
+
+CURRENT REPORT
+
+Pursuant to Section 13 or 15(d)
+
+of the Securities Exchange Act of 1934
+
+Date of Report (Date of earliest event reported): April 30, 2025
+
+VISTRA CORP.
+
+(Exact name of registrant as specified in its charter)
+
+Delaware | 001-38086 | 36-4833255
+(State or other jurisdiction of incorporation or organization) | (Commission File Number) | (I.R.S. Employer Identification No.)
+
+6555 Sierra Drive Irving , TX | 75039
+(Address of principal executive offices) | (Zip Code)
+
+(214) 812-4600
+
+(Registrant’s telephone number, including area code)
+
+N/A
+
+(Former name or former address, if changed since last report)
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.l4a-12)
+
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240. 14d-2(b))
+
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of Each Class | Trading Symbol(s) | Name of Each Exchange on Which Registered
+Common stock, par value $0.01 per share | VST | New York Stock Exchange
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+
+Emerging growth company ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+
+Item 3.03. | Material Modification to Rights of Security Holders.
+
+At the 2025 Annual Meeting of Stockholders (the “Annual Meeting”) of Vistra Corp. (the “Company”) held on April 30, 2025, the stockholders of the Company approved three amendments (the “Charter Amendments”) to the Company’s restated certificate of incorporation (the “Restated Certificate of Incorporation”), each of which had been previously approved by the Company’s Board of Directors (the “Board”), subject to stockholder approval. The Charter Amendments effected the following changes, respectively: (i) the exculpation from liability for certain Company officers under certain circumstances, as permitted by Delaware law; (ii) the repeal of provisions relating to the waiver of corporate opportunities in favor of former principal stockholders of the Company; and (iii) the removal of the 66 2/3% supermajority voting standards for the Company’s stockholders to amend certain provisions of the Restated Certificate of Incorporation, replacing such provisions with a simple majority standard in each case, as applicable following the stockholder vote (the “Supermajority Amendment”). The Charter Amendments were each described in detail in the Company’s definitive proxy statement on Schedule 14A filed with the Securities and Exchange Commission on March 19, 2025, in connection with the Annual Meeting (the “Proxy Statement”) under Proposals 3, 4 and 5, which descriptions are incorporated herein by reference.
+
+The Charter Amendments became effective on May 2, 2025, when the Company filed with the Secretary of State of Delaware an amended and restated certificate of incorporation (the “Amended and Restated Certificate of Incorporation”), reflecting the Charter Amendments, a copy of which is filed with this Current Report on Form 8-K as Exhibit 3.1 and is incorporated herein by reference.
+
+Contingent upon stockholder approval of the Supermajority Amendment at the Annual Meeting and the subsequent filing of the Amended and Restated Certificate of Incorporation, the Board approved an amendment to the Company’s amended and restated bylaws (the “Bylaws”), to conform the Bylaws to the proposed Supermajority Amendment, as described above. Such amendment is reflected in the Company’s amended and restated Bylaws (the “Amended and Restated Bylaws”), a copy of which is filed with this Current Report on Form 8-K as Exhibit 3.2 and is incorporated herein by reference. The Amended and Restated Bylaws became effective contemporaneously with the filing of the Amended and Restated Certificate of Incorporation.
+
+The descriptions of the amendments contained herein are qualified in their entirety by reference to the full text of the Company’s Amended and Restated Certificate of Incorporation and the Amended and Restated Bylaws.
+
+Item 5.02. | Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangement of Certain Officers.
+
+At the Annual Meeting the stockholders of the Company approved the Company’s 2025 Employee Stock Purchase Plan (the “Plan”), which had been previously approved by the Board, subject to stockholder approval. The Plan became effective as of the date of stockholder approval, on April 30, 2025. The Plan is designed to allow eligible employees of the Company to purchase shares of the Company’s common stock, par value $0.01 per share (“Common Stock”) with their accumulated payroll deductions and authorizes the issuance of up to 1,000,000 shares of Common Stock pursuant to the Plan. The Plan was described under Proposal 6 of the Company’s Proxy Statement.
+
+The description of the Plan contained herein is qualified in its entirety by reference to the actual terms of the Plan, a copy of which is filed with this Current Report on Form 8-K as Exhibit 10.1 and incorporated herein by reference.
+
+Item 5.03. | Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year.
+
+To the extent required, the information set forth above under Item 3.03 is hereby incorporated by reference into this Item 5.03.
+
+Item 5.07. | Submission of Matters to a Vote of Security Holders
+
+On April 30, 2025, the Company held its Annual Meeting, at which a quorum was present. The final voting results regarding each proposal are set forth in the following tables.
+
+Proposal One - Election of Directors - Voting results for Proposal One were as follows:
+
+Scott B. Helm:
+
+For | Against | Abstain | Broker Non-Votes
+269,283,340 | 1,370,827 | 128,897 | 25,793,966
+
+Hilary E. Ackermann:
+
+For | Against | Abstain | Broker Non-Votes
+264,111,844 | 6,515,177 | 156,043 | 25,793,966
+
+Arcilia C. Acosta:
+
+For | Against | Abstain | Broker Non-Votes
+268,560,083 | 1,861,611 | 361,370 | 25,793,966
+
+Gavin R. Baiera:
+
+For | Against | Abstain | Broker Non-Votes
+269,039,548 | 1,579,462 | 164,054 | 25,793,966
+
+Paul M. Barbas:
+
+For | Against | Abstain | Broker Non-Votes
+269,010,580 | 1,619,704 | 152,780 | 25,793,966
+
+James A. Burke:
+
+For | Against | Abstain | Broker Nonvotes
+269,724,846 | 915,738 | 142,480 | 25,793,966
+
+Lisa Crutchfield:
+
+For | Against | Abstain | Broker Non-Votes
+269,104,486 | 1,521,601 | 156,977 | 25,793,966
+
+Julie A. Lagacy:
+
+For | Against | Abstain | Broker Non-Votes
+267,984,657 | 2,616,571 | 181,836 | 25,793,966
+
+John W. (Bill) Pitesa:
+
+For | Against | Abstain | Broker Non-Votes
+270,322,901 | 328,245 | 131,918 | 25,793,966
+
+John R. (J. R.) Sult:
+
+For | Against | Abstain | Broker Non-Votes
+268,998,862 | 1,650,626 | 133,575 | 25,793,966
+
+Robert C. Walters:
+
+For | Against | Abstain | Broker Non-Votes
+270,273,455 | 354,347 | 155,262 | 25,793,966
+
+As a result, Scott B. Helm, Hilary E. Ackermann, Arcilia C. Acosta, Gavin R. Baiera, Paul M. Barbas, James A. Burke, Lisa Crutchfield, Julie A. Lagacy, John W. (Bill) Pitesa, John R. (J. R.) Sult, and Robert C. Walters were elected to the Board.
+
+Proposal Two - Approval, on an Advisory Basis, of 2024 Named Executive Officer Compensation. Voting results were as follows:
+
+For | Against | Abstain | Broker Non-Votes
+262,998,299 | 7,462,968 | 321,797 | 25,793,966
+
+As a result, the 2024 compensation of the named executive officers was approved on an advisory basis.
+
+Proposal Three - Approval of an Amendment to the Company’s Restated Certificate of Incorporation to provide for the exculpation of officers as permitted by Delaware law. Voting results were as follows:
+
+For | Against | Abstain | Broker Nonvotes
+244,327,268 | 26,307,519 | 148,277 | 25,793,967
+
+As a result, the amendment to the Company’s Restated Certificate of Incorporation to provide for the exculpation of officers as permitted by Delaware law was approved.
+
+Proposal Four – Approval of an Amendment to the Company’s Restated Certificate of Incorporation to repeal provisions relating to the waiver of corporate opportunities in favor of former principal stockholders of the Company. Voting results were as follows:
+
+For | Against | Abstain | Broker Non-Votes
+268,683,117 | 1,891,520 | 208,426 | 25,793,967
+
+As a result, the amendment to the Company’s Restated Certificate of Incorporation to repeal provisions relating to the waiver of corporate opportunities in favor of former principal stockholders of the Company was approved.
+
+Proposal Five– Approval of an Amendment to the Company’s Restated Certificate of Incorporation to remove supermajority voting standards. Voting results were as follows:
+
+For | Against | Abstain | Broker Non-Votes
+268,362,390 | 2,238,453 | 182,220 | 25,793,967
+
+As a result, the amendment to the Company’s Restated Certificate of Incorporation to remove supermajority voting standards was approved.
+
+Proposal Six – Approval of the Company’s 2025 Employee Stock Purchase Plan. Voting results were as follows:
+
+For | Against | Abstain | Broker Non-Votes
+269,996,050 | 658,870 | 128,144 | 25,793,966
+
+As a result, the Company’s 2025 Employee Stock Purchase Plan was approved.
+
+Proposal Seven - Ratification of the Appointment of Deloitte & Touche LLP as the Company’s Independent Registered Public Accounting Firm for the Year Ending December 31, 2025. Voting results were as follows:
+
+For | Against | Abstain
+289,344,039 | 7,107,898 | 125,094
+
+As a result, the Company’s appointment of Deloitte & Touche LLP as the Company’s independent registered public accounting firm for the year ending December 31, 2025 was ratified.
+
+Item 9.01. | Financial Statements and Exhibits.
+
+(d) Exhibits.
+
+The following exhibit is filed in accordance with the provisions of Item 601 of Regulation S-K:
+
+Exhibit No. | Description
+3.1 | Amended and Restated Certificate of Incorporation of Vistra Corp., effective as of May 2, 2025
+3.2 | Amended and Restated Bylaws of Vistra Corp., effective as of May 2, 2025
+10.1 | 2025 Employee Stock Purchase Plan, effective as of April 30, 2025
+104 | Cover Page Interactive Data File (embedded within the Inline XBRL document).
+
+SIGNATURES
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.
+
+Dated: May 5, 2025
+
+VISTRA CORP.
+By: | /s/ Yuki Whitmire
+Name: | Yuki Whitmire
+Title: | Vice President, Associate General Counsel, and Corporate Secretary

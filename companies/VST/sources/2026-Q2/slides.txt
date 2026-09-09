@@ -1,0 +1,1071 @@
+    Second Quarter 2026 Results
+
+    August 7, 2026
+
+
+
+
+1
+ Safe Harbor Statements
+ Cautionary Note Regarding Forward-Looking Statements
+ The information presented herein includes forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. These forward-looking statements, which are based on current expectations, estimates and projections about the industry and markets in
+ which Vistra Corp. (“Vistra”) operates and beliefs of and assumptions made by Vistra’s management, involve risks and uncertainties, which are difficult to predict and are not guarantees of future performance, that could significantly affect the financial results of Vistra. All statements,
+ other than statements of historical facts, that are presented herein, or in response to questions or otherwise, that address activities, events or developments that may occur in the future, including such matters as activities related to our financial or operational projections including
+ financial condition and cash flows, projected synergy, net debt targets, capital allocation, capital expenditures, liquidity, projected Adjusted EBITDA to free cash flow conversion rate, dividend policy, business strategy, competitive strengths, goals, future acquisitions or dispositions,
+ development or operation of power generation assets, market and industry developments and the growth of our businesses and operations, including potential transactions with large load facilities at our nuclear and natural gas plants (often, but not always, through the use of words
+ or phrases, or the negative variations of those words or other comparable words of a future or forward-looking nature, including, but not limited to: “intends,” “plans,” “will likely,” “unlikely,” “believe,” “confident,” “expect,” “seek,” “anticipate,” “estimate,” “continue,” “will,” “shall,”
+ “should,” “could,” “may,” “might,” “predict,” “project,” “forecast,” “target,” “potential,” “goal,” “objective,” “guidance,” “on track,” and “outlook”), are forward-looking statements. Readers are cautioned not to place undue reliance on forward-looking statements. Although Vistra
+ believes that in making any such forward-looking statement, Vistra’s expectations are based on reasonable assumptions, any such forward-looking statement involves uncertainties and risks that could cause results to differ materially from those projected in or implied by any such
+ forward-looking statement, including, but not limited to: (i) adverse changes in general economic or market conditions (including changes in interest rates) or changes in political conditions or federal or state laws and regulations; (ii) the ability of Vistra to execute upon its
+ contemplated strategic, capital allocation, performance, and cost-saving initiatives, and to successfully integrate acquired businesses, including our ability to execute the acquisition of Cogentrix Energy; (iii) actions by credit ratings agencies; (iv) the severity, magnitude and duration of
+ extreme weather events, contingencies and uncertainties relating thereto, most of which are difficult to predict and many of which are beyond our control, and the resulting effects on our results of operations, financial condition and cash flows; and (v) those additional risks and
+ factors discussed in reports filed with the Securities and Exchange Commission by Vistra from time to time, including the uncertainties and risks discussed in the sections entitled “Risk Factors” and “Forward-Looking Statements” in Vistra’s annual report on Form 10-K and
+ subsequently filed quarterly reports on Form 10-Q.
+
+ Any forward-looking statement speaks only at the date on which it is made, and except as may be required by law, Vistra will not undertake any obligation to update any forward-looking statement to reflect events or circumstances after the date on which it is made or to reflect the
+ occurrence of unanticipated events. New factors emerge from time to time, and it is not possible to predict all of them; nor can Vistra assess the impact of each such factor or the extent to which any factor, or combination of factors, may cause results to differ materially from those
+ contained in any forward-looking statement.
+
+ Disclaimer Regarding Industry and Market Data
+ Certain industry and market data used in this presentation is based on independent industry publications, government publications, reports by market research firms or other published independent sources. We did not commission any of these publications, reports or other sources.
+ Some data is also based on good faith estimates, which are derived from our review of internal surveys, as well as the independent sources listed above. Industry publications, reports and other sources generally state that they have obtained information from sources believed to be
+ reliable, but do not guarantee the accuracy and completeness of such information. While we believe that each of these publications, reports and other sources is reliable, we have not independently investigated or verified the information contained or referred to therein and make no
+ representation as to the accuracy or completeness of such information. Forecasts are particularly likely to be inaccurate, especially over long periods of time, and we often do not know what assumptions were used in preparing such forecasts. Statements regarding industry and
+ market data used in this presentation involve risks and uncertainties and are subject to change based on various factors, including those discussed above under the heading “Cautionary Note Regarding Forward-Looking Statements”.
+
+ About Non-GAAP Financial Measures and Items Affecting Comparability
+ “Adjusted EBITDA” (EBITDA as adjusted for unrealized gains or losses from hedging activities, transition and merger expenses, non-cash compensation expenses, nuclear decommissioning trust income, asset retirement obligation expenses, and certain other items described from
+ time to time in Vistra’s earnings releases), “Adjusted Free Cash Flow before Growth” (or “Adjusted FCFbG”) (cash from operating activities excluding changes in margin deposits and working capital and adjusted for maintenance capital expenditures, other net investment activities,
+ and other items described from time to time in Vistra’s earnings releases), “Ongoing Operations Adjusted EBITDA” (adjusted EBITDA less adjusted EBITDA from Asset Closure segment), “Ongoing Operations Adjusted Free Cash Flow before Growth” or “Ongoing Operations Adjusted
+ FCFbG” (and its per share equivalent) (adjusted free cash flow before growth less cash flow from operating activities from Asset Closure segment before growth) are “non-GAAP financial measures.” A non-GAAP financial measure is a numerical measure of financial performance that
+ excludes or includes amounts so as to be different than the most directly comparable measure calculated and presented in accordance with GAAP in Vistra’s consolidated statements of operations, comprehensive income, changes in stockholders’ equity and cash flows. Non-GAAP
+ financial measures should not be considered in isolation or as a substitute for the most directly comparable GAAP measures. Vistra’s non-GAAP financial measures may be different from non-GAAP financial measures used by other companies.
+
+ Vistra uses Adjusted EBITDA as a measure of performance and believes that analysis of its business by external users is enhanced by visibility to both Net Income prepared in accordance with GAAP and Adjusted EBITDA. Vistra uses Adjusted Free Cash Flow before Growth as a
+ measure of liquidity and performance, and believes it is a useful metric to assess current performance in the period and that analysis of capital available to allocate for debt service, growth, and return of capital to stockholders is supported by disclosure of both cash provided by (used
+ in) operating activities prepared in accordance with GAAP as well as Adjusted Free Cash Flow before Growth. Vistra uses Ongoing Operations Adjusted EBITDA as a measure of performance and Ongoing Operations Adjusted Free Cash Flow before Growth as a measure of liquidity and
+ performance, and Vistra’s management and board of directors have found it informative to view the Asset Closure segment as separate and distinct from Vistra’s ongoing operations. The schedules attached to this earnings presentation reconcile the non-GAAP financial measures to
+ the most directly comparable financial measures calculated and presented in accordance with U.S. GAAP.
+
+
+
+
+22         Q2 2026 Investor Presentation
+ Agenda
+ Welcome and Safe Harbor
+ Eric Micek, Vice President of Investor Relations
+
+
+
+ Q2 2026 Highlights
+ Jim Burke, President & Chief Executive Officer
+
+
+
+ Q2 2026 Finance Update
+ Kris Moldovan, Executive Vice President & Chief Financial Officer
+
+
+
+33   Q2 2026 Investor Presentation
+     Q2 2026 Highlights
+     Jim Burke
+     President & Chief Executive Officer
+
+
+
+
+44   Q2 2026 Investor Presentation
+     Q2 2026 At-A-Glance
+
+                            DELIVERED                                                                                    REAFFIRMED                                                                                       COMMITTED
+
+                     ~$1.8B                                                                        ~$6.8-$7.6B                                                                                                             up to
+                                                                                                                                                                                                                                   $1B
+                         Q2 2026 Adj. EBITDA1                                                              2026 Adj. EBITDA guidance range1, 2                                                                                Helix Platform
+
+
+         Strong fleet performance during                                                                    2026 Adj. FCFbG1,2 guidance                                                          Platform comprised of top tier players
+              recent PJM heat wave                                                                         range of $3.925-$4.725 billion                                                               in the data center space
+
+
+        Successful completion of spring                                                                    2027 Adj. EBITDA Midpoint                                                               Expect increased project pipeline to
+               outage season                                                                             Opportunity3 of $7.4-$7.8 billion                                                        realize additional value for our assets
+
+
+
+1)   “Adj. EBITDA” is a reference to Ongoing Operations Adjusted EBITDA; “Adj. FCFbG” is a reference to Ongoing Operations Adjusted Free Cash Flow before Growth; Adj. EBITDA and Adj. FCFbG are non-GAAP financial measures. See the “Non-GAAP Reconciliation” tables at the end of
+     this presentation for further details.
+2)   Ongoing Operations Adjusted EBITDA and Ongoing Operations Adjusted FCFbG guidance ranges for 2026 based on market curves as of Oct. 31, 2025 and exclude the potential contribution from the Cogentrix acquisition. Vistra believes the nuclear production tax credit (PTC) should
+     provide downside Ongoing Operations Adjusted EBITDA support.
+3)   Ongoing Operations Adjusted EBITDA midpoint opportunity for 2027 based on market curves as of Oct. 31, 2025. Midpoint opportunities are not intended to be guidance and represent only our estimate of potential opportunities for Adjusted EBITDA in 2027. Actual results could vary
+     and are subject to a number of risks, uncertainties and factors, including power price market movements and our hedging strategy. We have not provided a quantitative reconciliation of the Adjusted EBITDA opportunity for 2027 to GAAP net income (loss) because we cannot, without
+     unreasonable effort, calculate certain reconciling items with confidence due to the variability, complexity, and limited visibility of the adjusting items that would be excluded from Adjusted EBITDA in such out-year period. Excludes any potential contribution from the Cogentrix
+     acquisition and the announced long-term power purchase agreements with Meta.
+
+
+5          Q2 2026 Investor Presentation
+     Clear Improvement In Our Markets
+     Both ERCOT and PJM have seen an improvement in peak load growth
+
+PJM Load Growth                                                                               PJM and ERCOT Energy
+Peak load by year (GW)                                                                        Year-over-year weather adjusted growth in load (MWh) by quarter (%)1
+
+
+                                                                                                                                                  .
+                                                                                                               .                .
+                                                                                                                                                                      .
+
+                                         0.6% CAGR                                3.0% CAGR                                                 .
+                                                                                                                                                             .
+                                                                                                         .                .
+
+
+ERCOT Load Growth
+Peak load by year (GW)
+                                                                                                                                                                 TD
+
+
+                                                                                                                                    P    ERCOT
+
+
+
+                                                                                                  • Annual peak load growth of ~3% in each market since 2022
+                                        2.4% CAGR                                 3.3% CAGR       • Expect annual energy growth of ~2-3% in PJM and ~4-6% in ERCOT
+                                                                                                  • New peak load records set in both PJM and ERCOT in 2026
+1)    Source: PJM and ERCOT load data, weather adjusted. YTD through June 2026.
+
+
+6          Q2 2026 Investor Presentation
+     Q2 2026 Finance Update
+     Kris Moldovan
+     Executive Vice President & Chief Financial Officer
+
+
+
+
+77   Q2 2026 Investor Presentation
+     Q2 2026 Results
+     Strong second quarter results driving over 30% growth compared to last year
+
+
+Q2 2026 Financial Results                                                                                                                           Key Drivers
+Adjusted EBITDA1,2 ($ in millions)
+                                                                                                                                                     •      Strong generation results driven by higher capacity
+                                                                                                                  ,                                         revenue and higher realized prices
+                                                                                                 ,
+                                                                                ,                                                                    •      Optimizing the dispatch of generation units in
+                                            ,                                                                 ,                                             response to market conditions
+                                                                                             ,
+           ,               ,                                                ,
+                                                                                                                                                     •      Restart of Martin Lake Unit 1
+
+                                                                                                                                                     •      Contribution from the assets acquired from Lotus
+                                                                         TD               TD               TD
+                                                Retail         Generation
+
+
+
+
+1)    “Adjusted EBITDA” is a reference to Ongoing Operations Adjusted EBITDA; Adjusted EBITDA is a non-GAAP financial measure. See the “Non-GAAP Reconciliation” tables at the end of this presentation for further details. Ongoing Operations Adjusted EBITDA excludes results from
+      Asset Closure segment of $(24) million, $(17) million, and $(23) million in each of Q2 2024, Q2 2025, and Q2 2026, respectively, and $(44) million, $(41) million, and $(42) million in each of YTD 2024, YTD 2025, and YTD 2026, respectively.
+2)    Generation includes Texas, East, West, and Corp./Other.
+
+
+8          Q2 2026 Investor Presentation
+     Near-Term Outlook
+     Reaffirming 2026 guidance and maintaining range for 2027 midpoint opportunity
+
+
+
+Vistra Earnings Outlook                                                                                                     Key Drivers of Outlook
+Adjusted EBITDA1,2 ($ in millions)                                                                                          • Hedge percentages of ~100%, ~94%, and ~72% for 2026, 2027, and 2028,
+                                                                                     ,                                        respectively3
+                                                ,                                     ,
+                                                 ,
+                                                                                                                            • Expected to convert 60%+ of Adj. EBITDA to Adj. FCFbG over the medium term1
+
+            ,
+                                                             ,                                                              Upside Drivers for Future Consideration
+                                                              ,
+                                                                                                                            • Expected closing of previously announced Cogentrix acquisition
+                          ,
+                                                                                                                            • Power Purchase Agreements (“PPAs”) with eta at our P nuclear sites and
+                                                                                                                              AWS at Comanche Peak leading to nearly 50% of EBITDA from Retail and
+                                                                                                                              contracted revenue sources
+                                                                                                                            • Future PPAs and potential improvement in power market fundamentals
+                      A                               E                                   E
+                                                Guidance                             idpoint
+                                                 Range                             Opportunity
+                                    Adj. EBITDA               Adj. FCFbG
+
+
+1)    “Adj. EBITDA” is a reference to Ongoing Operations Adjusted EBITDA; “Adj. FCFbG” is a reference to Ongoing Operations Adjusted Free Cash Flow before Growth; Adj. EBITDA and Adj. FCFbG are non-GAAP financial measures. See the “Non-GAAP Reconciliation” tables at the end of
+      this presentation for further details.
+2)    Midpoint opportunities are not intended to be guidance and represent only our estimate of potential opportunities for Adjusted EBITDA in 2027. See footnote 3 on slide 5.
+3)    As of Aug. 3, 2026.
+
+
+9          Q2 2026 Investor Presentation
+     Disciplined Capital Allocation
+     Incremental free cash flow for allocation to drive additional value for shareholders
+
+
+                      >$10B
+                                                                                      Return of Capital to Shareholders
+                                                                                      • ~$1.2 billion remaining under existing share repurchase authorizations expected to be utilized no later than year end
+       Expected cumulative cash to allocate                                             20273
+                 in 2026 - 20271                                                      • Targeting at least ~$1 billion in share repurchases and ~$300 million in common dividends annually4
+
+
+
+                                                                                      Resilient Balance Sheet
+           ~$7.5-$8B                                                                  • Targeting to continue to improve credit ratings
+                                                                                      • Projected cash available for allocation of ~$2–$2.5 billion assumes net debt / Adj. EBITDA of ~2.3x5 at YE 2027
+        Expected cumulative cash uses for
+     shareholder returns and growth projects2
+
+
+                                                                                      Strategic Investments
+
+           ~$2-$2.5B
+                                                                                      •    Target mid-teens or higher levered returns on growth investments
+                                                                                      •    Expect to close Cogentrix in late 2026 and Permian Peakers expected to be online by Q2 2028
+     Projected cash still available for allocation                                    •    Oak Hill Phase 2 construction started this year
+                 Through YE 2027                                                      •    First Helix contribution assumed to be in 2026
+
+
+1)    Includes contribution from Meta PPAs and assumes Cogentrix closes in late 2026. All remaining figures represent potential cumulative cash flows for the period Dec. 31, 2025 to Dec. 31, 2027. Assumes 2027 Adj. EBITDA midpoint opportunity range of $7.4 to $7.8 billion and 60%
+      conversion ratio to Adj. FCFbG. Growth and development capex shown net of expected financing. Includes PTC and assumes an interpretation of the definition of "gross receipts" which excludes hedges pending U.S. Treasury and Internal Revenue Service guidance. From June 30,
+      2026 to Aug. 3, 2026, we repurchased approximately 437,000 shares of common stock at an average price of $154.78 for total consideration of approximately $68 million.
+2)    Assumes ~$3 billion for share repurchases, common dividends, and preferred dividends. Assumes ~$4.5-$5.0 billion for growth investments, including the Cogentrix acquisition, the Permian Gas units, PJM nuclear uprates, and the initial contribution to Helix.
+3)    As of Aug. 3, 2026.
+4)    Subject to board approval.
+5)    Adjusted EBITDA is a reference to Ongoing Operations Adjusted EBITDA, which is a non-GAAP financial measure. For illustrative purposes only. Excludes all non-recourse financings.
+
+
+10         Q2 2026 Investor Presentation
+     About Vistra
+
+
+
+11
+11   Q2 2026 Investor Presentation
+America’s Leading Integrated Power Provider
+Integrated Fortune 500 retail electricity and power generation company based in Irving, Texas
+
+                                                                                       Products and services in 18 states and Washington D.C.,
+                                                                                       including all major competitive wholesale markets in the U.S.
+                                                                                       Retail
+                                                                                       •    Serving approximately 5 million residential, commercial, and industrial retail
+                                                                                            customers
+                                                                                       •    Industry leading energy plans and services designed to help customers
+                                                                                            control usage and bill size
+
+                                                                                       Generation
+                                                                                       •   One of the largest competitive power generators in the U.S.
+                                                                                       •   ~44,000 MW of generation powered by a diverse portfolio of natural gas,
+                                                                                           nuclear, coal, solar, and battery energy storage
+                                                                                       •   Owns and operates the second-largest competitive nuclear power fleet
+                                                                                           in the U.S.
+
+                                                                                                                                           1                         1
+
+
+
+
+ Note: As of May 1, 2026.
+ 1)    Based on actual production; includes full-year of assets acquired from Lotus.
+
+
+
+12        Q2 2026 Investor Presentation
+Delivering Against our Strategic Priorities
+Sound operational and financial execution to achieve disciplined growth and enhanced earnings power
+
+
+ Integrated Business Model
+     – Commercial availability consistently above
+       90%
+     – Best in-class retail business with consistent
+       operating results
+
+ Disciplined Capital Allocation
+     – Repurchased ~30% of outstanding shares
+       since Nov. 2021
+     – Opportunistic, value enhancing growth                                                                    YTD 2026
+       investments                                                                                              Cogentrix Acquisition
+                                                                                            2025
+                                                                                                                Meta / PJM Nuclear PPAs
+ Resilient Balance Sheet                                                                    Lotus Assets
+                                                                                            Acquisition         Oak Hill Solar 2
+     – Leverage approaching low 2x
+     – Achieved investment grade credit ratings at                   2024                   AWS / Comanche
+       S&P and Fitch                                                 Texas Gas              Peak PPA
+
+                                                                                                                       +
+                                                                     Augmentations
+                                                       2023                                 Permian Gas Units
+ Strategic Energy Transition                                         Coleto Creek                                                Additional
+                                                       Energy                               Miami Fort                              growth
+     – Executing on our organic growth pipeline,                     Conversion
+       including Vistra Zero                           Harbor                               Conversion                     opportunities for
+     – Nuclear PPAs enhance financial stability and    Acquisition   Oak Hill and Pulaski                                          new and
+       operating capabilities while adding capacity                  PPAs                                                   existing assets
+
+
+
+13     Q2 2026 Investor Presentation
+Environmental Stewardship
+Sustainably growing our portfolio while balancing reliability and affordability of power
+
+Portfolio Transformation
+Vistra zero-carbon capacity (MW) and generation carbon emissions intensity (Scope 1 mt CO2e/MWh)
+                                                                                           8,281
+                                                             7,922
+                                                                            7,722                  Transforming our portfolio
+                                                                                                    Generation carbon emission intensity has
+                                                                                                    fallen 25% since 2021
+
+
+                                                                                                    Capacity increases since 2021 have
+                                                                                                    included nuclear, solar, battery, and natural
+                                                                                                    gas
+                                               3,758
+                                 3,408
+                  2,880                                                                             Solar generation exceeded 1 TWh for first
+     2,300                                                                                          time in 2025
+
+
+                                                                                                    Total zero-carbon generation represented
+                                                                                                    25% of generation volumes in 2025
+
+
+
+
+14    Q2 2026 Investor Presentation
+    Supporting Employees and Our Communities
+    Vistra’s Purpose: Lighting up lives, powering a better way forward
+
+                      STAKEHOLDER ENGAGEMENT                                                                     AWARDS & RECOGNITION
+Employee Support
+ • Launched an employee stock purchase program, supporting employee
+   participation in Vistra’s long-term financial success                                             Newsweek 2025                                     U.S. News & World Report
+                                                                                                     Most Trustworthy                                  Best Companies to Work
+ • Introduction of a student loan debt match, enabling Vistra employees to contribute                Companies in America                              For 2025-2026
+   to student loan debt while still receiving a 401(k) company match
+ • 15 Employee Resource Groups open to all employees with focus on Vistra culture,
+   business innovation, skills development, and the community
+
+
+Employee Health & Safety                 Community Support                                                                                              D CEO 2025 Corporate
+                                                                                                      Newsweek 2026
+                                                                                                                                                        Partner of the Year:
+                                           • Contributed $150,000 for the 2025                        America’s Most
+               • 0.52 Total Recordable                                                                                                                  TXU Energy
+                                                                                                      Charitable Companies
+                                             annual Beat the Heat campaign,
+                 Incident Rate
+                                             which included more than 30 events
+                 achieved in 2025
+                                             with local non-profit social service
+                                             agencies to distribute A/C units and
+                                             box fans to families in need
+                                                                                                     Best Corporations for                              Disability:IN – 2025 Best
+               • 14 Facilities             • In 2025, Vistra contributed more than                   Veteran’s Business                                 Place to Work for
+                 recognized with OSHA        $12 million in charitable giving and                    Enterprises®                                       Disability and Inclusion
+                 VPP Star Rating             community investment to support
+                                             education, economic development,
+                                             community welfare, employee                                                     REPORTING
+                                             involvement, and sustainability
+                                                                                        2025 Sustainability Report                  2025 Supplemental Disclosure Appendix
+                                                                                        2025 CDP Questionnaire Response             Green Finance Framework
+
+
+   15     Q2 2026 Investor Presentation
+     Appendix
+
+
+
+
+16
+16   Q2 2026 Investor Presentation
+ Retail Overview
+ Strong operational and financial results
+
+Highlights
+✓ Strong operational results; continue to be the top-rated large retailer in the Texas PUC ratings
+✓ TXU Energy’s Beat the Heat program provided cooling assistance through distribution of box fans, window air conditioning units, and
+  support for community cooling centers
+
+
+
+
+Retail Volumes                                                               Energy Degree Days
+(in TWh)                                                                     (Dallas-Fort Worth Area)
+                                               133.4 139.1                   1,000           10-yr Range       10-yr Avg.
+                                                                                             2025              2026
+                                                                               800
+                         93.1    98.1   97.4
+                  90.3
+           77.6                                                                600
+ 63.7                                                        66.6   61.9
+                                                                               400
+
+                                                                               200
+
+                                                                                  0
+ 2018      2019   2020   2021   2022    2023   2024   2025 YTD '25 YTD '26             Jan   Feb Mar       Apr May Jun      Jul   Aug Sep Oct Nov Dec
+
+17      Q2 2026 Investor Presentation
+     Corporate Debt Profile
+     Vistra remains committed to maintaining investment grade credit ratings
+
+                                                     Balances ($ in millions) 1                                                                                                                                    Q2 2026
+                                                       Funded Revolving Credit Facilities                                                                                                                              $0
+                                                       Senior Unsecured Notes                                                                                                                                       17,650
+                                                                                               2
+                                                       Revenue Bond Obligations                                                                                                                                       431
+                                                       Accounts Receivable Financings                                                                                                                                 300
+                                                       Forward Repurchase Obligations4                                                                                                                                613
+                                                       Equipment Financing Agreements                                                                                                                                  50
+                                                                         1
+                                                        Total Debt                                                                                                                                                 $19,044
+                                                       Less: cash and cash equivalents                                                                                                                               (435)
+                                                                                                                                   1
+                                                        Total Net Debt (before Cash Margin Deposits)                                                                                                               $18,609
+                                                       Less: Net Cash Margin Deposits                                                                                                                               (1,314)
+                                                                                                                               1
+                                                        Total Net Debt (after Cash Margin Deposits)                                                                                                                $17,295
+                                                     Illustrative Leverage Metrics
+                                                       Adjusted EBITDA (Consolidated Ongoing Operations) 3                                                                                                         $7,200
+                                                                                                   1,3
+                                                       Gross Debt / Adj. EBITDA (x)                                                                                                                                   2.6x
+                                                                                              1,3
+                                                     Net Debt / Adj. EBITDA (x)                                                                                                                                      2.6x
+                                                     Net Debt / Adj. EBITDA (x) after Cash Margin Deposits 1,3                                                                                                       2.4x
+
+
+
+
+1)    Excludes Project Level Financings.
+2)    Reflects Energy Harbor loan obligations associated with various revenue bonds issued by Ohio and Pennsylvania governmental entities. These loan obligations are indirectly secured by a pledge of mortgage bonds issued by certain Energy Harbor entities.
+3)    Reflects 2026 Ongoing Operations Adjusted EBITDA guidance midpoint.
+4)    Represents the NPV of the total $631M scheduled payments on the remaining repurchase obligation discounted at 6%.
+
+
+18          Q2 2026 Investor Presentation
+  Comprehensive Hedging Program Overview
+  Effective June 30, 2026
+
+                                                                                                                                           Balance of 2026                                                                         2027
+                                                                                                                      Texas               West         East                     Total                Texas              West                East               Total
+            Nuclear/Renewable/Coal Gen Position
+             Expected Generation (TWh)                                                                                 25                                      30                 55                  46                                      52                 98
+             % Hedged                                                                                                 100%                                    98%                98%                 100%                                    74%                85%
+                                                        Sensitivity to Power Price: + $2.50/MWh ($M)                   $16                                    $2                 $19                  $13                                    $35                 $48
+                                                                                     - $2.50/MWh ($M)                  $0                                     ($2)               ($2)                 $0                                    ($35)               ($35)
+            Gas Gen Position
+             Expected Generation (TWh)                                                                                 27                   2                  39                68                    49                 3                   69                120
+             % Hedged                                                                                                 100%                100%                99%               100%                  69%                78%                 97%                85%
+                                                    Sensitivity to Spark Spread 1 : + $1.00/MWh ($M)                    $1                 $0                 $1                  $2                  $14                 $1                 $3                  $18
+                                                                                    - $1.00/MWh ($M)                    ($1)               $0                 ($0)                ($1)               ($16)                ($1)               ($1)               ($18)
+            Natural Gas Position
+             Net Position (Bcf)                                                                                          -8                  1                  1                  -6                  -39                 6                 -83                -116
+                                              Sensitivity to Natural Gas Price: + $0.25/MMBtu ($M)                      ($2)               $0                 $0                  ($2)               ($10)                $2                ($21)               ($29)
+                                                                                 - $0.25/MMBtu ($M)                     $2                 ($0)               ($0)                $2                  $10                 ($2)               $21                 $29
+            Total % Hedged                                                                                                                                                      100%                                                                           92%
+            Realized Price Summary
+             Hedge Value vs Market ($M)                                                                               $290               $22                ($812)             ($500)               $63                  $16              ($547)              ($468)
+                                                            2
+             Premium/Discount vs Hub Price ($M)                                                                       $384               $33                 ($5)               $412               $1,122                $85               $143               $1,350
+              Total Difference ($M)                                                                                   $674               $55                ($817)              ($88)              $1,185               $101              ($404)               $882
+             Around-the-Clock (ATC) Hub Price3 ($/MWh)                                                               $42.69             $43.09              $59.66             $52.25              $46.32              $43.34             $57.77              $52.57
+             Premium/Discount vs Hub Price3 ($/MWh)                                                                  $13.09             $23.01             ($11.76)            ($0.71)             $12.47              $30.52             ($3.36)              $4.04
+               Total Realized Price ($/MWh)                                                                          $55.78             $66.09             $47.90              $51.54              $58.80              $73.86             $54.40              $56.61
+Note: Amounts may not sum due to rounding. Hedge and market value represents generation only (excludes retail). Excludes any potential impacts from the acquisition of Cogentrix.
+1)    This sensitivity assumes a 7.2 MMBtu/MWh Heat Rate, therefore the change in spark spread is equal to the change in power price minus 7.2 times the change in delivered gas price.
+2)    The forecasted premium over the Hub Price includes shape impact for estimated dispatch generation as compared to running ATC, plant basis vs. hubs, and estimated value from projected future incremental power sales based on Vistra’s fundamental point of view.
+3)    TEXAS: 90% North Hub, 10% West Hub; EAST: 50% AD Hub, 15% Mass Hub, 10% Ni Hub, 10% Western Hub, 10% Indiana Hub, 5% NY Zone A.
+
+
+19         Q2 2026 Investor Presentation
+  Forward Market Pricing
+  Effective June 30, 2026
+
+                                                                                   Bal. 2026        2027          2028                                                                                          Bal. 2026   2027     2028
+            Power (ATC, $/MWh)                                                                                                            Spark Spreads (ATC, $/MWh)
+            ERCOT North Hub                                                         $42.59        $46.26        $50.11
+            ERCOT West Hub                                                          $43.58        $46.93        $52.00                    Texas                                                        cont.
+            PJM AD Hub                                                              $57.87        $54.62        $54.89                    ERCOT North Hub-Houston Ship Channel                         90%       $19.49     $21.57   $22.81
+            PJM Ni Hub                                                              $44.70        $40.42        $40.79                    ERCOT West Hub-Permian Basin                                 10%       $30.91     $29.91   $34.95
+            PJM Western Hub                                                         $71.07        $66.51        $66.40                     Texas Weighted Average                                                $20.63     $22.40   $24.02
+            MISO Indiana Hub                                                        $54.37        $52.58        $55.01
+            ISONE Mass Hub                                                          $71.91        $76.97        $72.71                    East                                                         cont.
+            New York Zone A                                                         $58.42        $59.23        $58.00                    PJM AD Hub-Dominion South                                    15%       $37.30     $33.03   $31.73
+            CAISO NP15                                                              $43.09        $43.34        $51.23                    PJM AD Hub-Tetco ELA                                         15%       $32.40     $28.19   $26.84
+            Texas Weighted Average 1                                                $42.69        $46.32        $50.30                    PJM Ni Hub-Chicago Citygate                                  15%       $20.35     $13.62   $12.14
+            East Weighted Average 1                                                 $59.66        $57.77        $57.47                    PJM Western Hub-Tetco M3                                     15%       $46.70     $36.43   $35.03
+                                                                                                                                          ISONE Mass Hub-Algonquin Citygate                            30%       $35.51     $28.81   $27.26
+            Gas ($/MMBtu)                                                                                                                 New York Zone A-Dominion South                               10%       $37.84     $37.65   $34.84
+            NYMEX                                                                    $3.38         $3.46         $3.67                     East Weighted Average                                                 $34.95     $29.10   $27.52
+            Houston Ship Channel                                                     $2.86         $3.08         $3.44
+            Permian Basin                                                            $1.41         $2.02         $2.02                    West
+            Dominion South                                                           $2.51         $2.65         $2.87                    CAISO NP15-PG&E Citygate                                               $20.56     $16.99   $21.44
+            Tetco ELA                                                                $3.19         $3.32         $3.55
+            Chicago Citygate                                                         $3.03         $3.37         $3.63
+            Tetco M3                                                                 $3.04         $3.83         $4.01
+            Algonquin Citygate                                                       $4.71         $6.34         $5.97
+            PG&E Citygate                                                            $2.78         $3.31         $3.79
+Note: Contribution to segment spark spreads are approximate.
+1)    Texas weighted average based on 90% ERCOT North Hub, 10% ERCOT West Hub. East weighted average based on 50% AD Hub, 15% Mass Hub, 10% Ni Hub, 10% Western Hub, 10% Indiana Hub, and 5% New York Zone A.
+
+
+20         Q2 2026 Investor Presentation
+  Capacity Positions
+  Effective July 27, 2026
+
+                     Tenor                         Zone               Position (MW)            Auction Clear ($/MW-day)                                        Tenor                        Zone                Position (MW)            Auction Clear ($/KW-mo)
+             East                                                                                                                                      East
+             2026/2027                         PJM - RTO                    4,047                           $329.17                                    Summer 2026                          NYISO                      929                             $5.35
+             2026/2027                         PJM - ATSI                   2,048                           $329.17                                    2026/2027                           ISO-NE                     3,442                            $2.59
+             2026/2027                       PJM - COMED                    2,091                           $329.17                                    2026/2027                            MISO                      1,750                            $3.84
+             2026/2027                        PJM - DEOK                     990                            $329.17                                    2027/2028                           ISO-NE                     3,750                            $3.58
+             2026/2027                        PJM - DOM                      212                            $329.17
+             2026/2027                       PJM - EMAAC                    1,783                           $329.17
+             2026/2027                        PJM - MAAC                     575                            $329.17                                    West
+             2027/2028                         PJM - RTO                    3,976                           $333.44                                    2026                                CAISO                      1,415
+             2027/2028                         PJM - ATSI                   2,036                           $333.44                                    2027                                CAISO                      1,265
+             2027/2028                       PJM - COMED                    1,124                           $333.44
+             2027/2028                        PJM - DEOK                     939                            $333.44
+             2027/2028                        PJM - DOM                      213                            $333.44
+             2027/2028                       PJM - EMAAC                    1,718                           $333.44
+             2027/2028                        PJM - MAAC                     561                            $333.44
+             2028/2029                         PJM - RTO                    4,130                           $325.00
+             2028/2029                         PJM - ATSI                   2,070                           $325.00
+             2028/2029                       PJM - COMED                    1,174                           $325.00
+             2028/2029                        PJM - DEOK                     928                            $325.00
+             2028/2029                        PJM - DOM                      220                            $325.00
+             2028/2029                       PJM - EMAAC                    1,819                           $325.00
+             2028/2029                        PJM - MAAC                     585                            $325.00
+
+
+Note: PJM capacity positions represent volumes cleared and purchased in primary annual auctions, incremental auctions, and transitional auctions. Also includes bilateral transactions. ISO-NE represents capacity auction results, supplemental auctions, and bilateral capacity sales.
+NYISO represents capacity auction results and bilateral capacity sales; Winter period covers November through April and Summer period covers May through October. MISO positions represent volumes cleared and purchased in primary annual auctions, incremental auctions, and
+transitional auctions. West capacity position does not include Moss 100 or 300 as they were moved to ACS. West prices based on proprietary contracts and are not disclosed. Prices reflect cleared auction values.
+
+
+21         Q2 2026 Investor Presentation
+  Generation Metrics
+  Effective June 30, 2026
+
+Total Generation (TWh)                                Q2 2025              Q2 2026             YTD 2025            YTD 2026                        CCGT Capacity Factor (%)                           Q2 2025   Q2 2026   YTD 2025   YTD 2026
+ Texas                                                   20.8                22.7                 40.8                 42.8                         Texas                                              55%       63%        52%        56%
+ East                                                    24.3                27.0                 51.8                 57.0                         East                                               51%       54%        57%        58%
+ West                                                    0.5                  0.5                  1.0                  0.9                         West                                               25%       25%        24%        21%
+  Total Ongoing Operations                              45.6                 50.2                 93.6                100.7
+
+
+Commercial Availabilty (%)                            Q2 2025              Q2 2026             YTD 2025            YTD 2026                        Coal Capacity Factor (%)                           Q2 2025   Q2 2026   YTD 2025   YTD 2026
+ Texas Gas                                             97.0%               98.9%                98.0%                98.8%                          Texas                                              50%       60%        53%        56%
+ Texas Coal                                            77.0%               88.0%                76.0%                83.1%                          East                                               47%       36%        54%        44%
+ East Gas                                              94.6%               96.8%                97.8%                96.5%
+ East Coal                                             86.0%               90.6%                88.4%                82.4%                         Nuclear Capacity Factor (%) 1                      Q2 2025   Q2 2026   YTD 2025   YTD 2026
+ West                                                  92.3%               98.3%                94.7%                91.8%                          Texas                                              86%       85%        93%        93%
+  Total                                                91.8%                95.7%                93.6%                93.6%                         East                                               91%       90%        89%        91%
+
+
+
+
+Note: All 2025 periods include the Martin Lake Unit 1 outage.
+1)    Includes planned outages at Perry in Mar.-Apr. 2025, Comanche Peak 1 in Apr.-May 2025, Davis-Besse in Mar. 2026, Beaver Valley Unit 2 in Apr.-May 2026, and Comanche Peak Unit 2 in May 2026.
+
+
+22         Q2 2026 Investor Presentation
+  Asset Fleet Details
+  Effective June 30, 2026
+  Asset                                                        Location                                        ISO                                     Technology                 Primary Fuel    Net Capacity (MW)
+   Ennis                                                       Ennis, TX                                      ERCOT                                       CCGT                        Gas                366
+   Forney                                                     Forney, TX                                      ERCOT                                       CCGT                        Gas               1,912
+   Hays                                                    San Marcos, TX                                     ERCOT                                       CCGT                        Gas               1,122
+   Lamar                                                       Paris, TX                                      ERCOT                                       CCGT                        Gas               1,180
+   Midlothian                                               Midlothian, TX                                    ERCOT                                       CCGT                        Gas               1,596
+   Odessa                                                     Odessa, TX                                      ERCOT                                       CCGT                        Gas               1,180
+   Wise                                                      Poolville, TX                                    ERCOT                                       CCGT                        Gas                787
+   DeCordova                                                 Granbury, TX                                     ERCOT                                         CT                        Gas                358
+   Morgan Creek                                           Colorado City, TX                                   ERCOT                                         CT                        Gas                536
+   Permian Basin                                            Monahans, TX                                      ERCOT                                         CT                        Gas                447
+   Graham                                                    Graham, TX                                       ERCOT                                         ST                        Gas                630
+   Lake Hubbard                                               Dallas, TX                                      ERCOT                                         ST                        Gas                921
+   Stryker Creek                                               Rusk, TX                                       ERCOT                                         ST                        Gas                685
+   Trinidad                                                  Trinidad, TX                                     ERCOT                                         ST                        Gas                244
+   Martin Lake                                                Tatum, TX                                       ERCOT                                         ST                        Coal              2,455
+   Oak Grove                                                 Franklin, TX                                     ERCOT                                         ST                        Coal              1,710
+   Coleto Creek                                               Goliad, TX                                      ERCOT                                         ST                        Coal               650
+   Comanche Peak I & II                                     Glen Rose, TX                                     ERCOT                                      Nuclear                    Uranium             2,400
+   Brightside                                            Live Oak County, TX                                  ERCOT                                        Solar                      Solar              50
+   Emerald Grove                                          Crane County, TX                                    ERCOT                                        Solar                      Solar              108
+   Oak Hill                                                Rusk County, TX                                    ERCOT                                        Solar                      Solar              200
+   Upton 2                                                Upton County, TX                                    ERCOT                                    Solar/Battery              Solar/Battery          190
+   DeCordova                                                 Granbury, TX                                     ERCOT                                       Battery                    Battery             260
+    Total Texas                                                                                                                                                                                        19,987
+
+
+
+
+Note: Approximate net generation capacity, actual net generation capacity may vary based on a number of factors including ambient temperature. Capacity based on winter rating.
+
+
+23         Q2 2026 Investor Presentation
+  Asset Fleet Details
+  Effective June 30, 2026
+  Asset                                                      Location                                          ISO                                      Technology                                  Primary Fuel                               Net Capacity (MW)
+   Moss Landing I & II                                    Moss Landing, CA                                    CAISO                                       CCGT                                          Gas                                          1,020
+   Moss Landing                                           Moss Landing, CA                                    CAISO                                       Battery                                      Battery                                        350
+   Oakland                                                  Oakland, CA                                       CAISO                                         CT                                           Oil                                          110
+   Greenleaf                                               Yuba City, CA                                      CAISO                                         CT                                          Gas                                            49
+    Total West                                                                                                                                                                                                                                       1,529
+
+    Beaver Falls                                           Beaver Falls, NY                                    NYISO                                       CCGT                                           Gas                                          108
+    Independence                                             Oswego, NY                                        NYISO                                       CCGT                                           Gas                                         1,212
+    Syracuse                                                  Solvay, NY                                       NYISO                                       CCGT                                           Gas                                          103
+    Bellingham                                             Bellingham, MA                                     ISO-NE                                       CCGT                                           Gas                                          566
+    Blackstone                                             Blackstone, MA                                     ISO-NE                                       CCGT                                           Gas                                          544
+    Casco Bay                                                 Veazie, ME                                      ISO-NE                                       CCGT                                           Gas                                          543
+    Lake Road                                                Dayville, CT                                     ISO-NE                                       CCGT                                           Gas                                          827
+    Manchester                                              Providence, RI                                    ISO-NE                                       CCGT                                           Gas                                          510
+    MASSPOWER                                            Indian Orchard, MA                                   ISO-NE                                       CCGT                                           Gas                                          281
+    Milford                                                   Milford, CT                                     ISO-NE                                       CCGT                                           Gas                                          600
+    Fairless                                               Fairless Hills, PA                                   PJM                                        CCGT                                           Gas                                         1,320
+    Fayette                                                Masontown, PA                                        PJM                                        CCGT                                           Gas                                          726
+    Garrison                                                   Dover, DE                                        PJM                                        CCGT                                           Gas                                          309
+    Hanging Rock                                             Ironton, OH                                        PJM                                        CCGT                                           Gas                                         1,430
+    Hopewell                                                Hopewell, VA                                        PJM                                        CCGT                                           Gas                                          370
+                                                                                                                                                                                                                                             (continued on next page)
+
+
+
+
+Note: Beaver Falls, Syracuse, and Casco Bay assets pending sale. Approximate net generation capacity, actual net generation capacity may vary based on a number of factors including ambient temperature. Capacity based on winter rating.
+
+
+24         Q2 2026 Investor Presentation
+  Asset Fleet Details
+  Effective June 30, 2026
+  Asset                                                         Location                                          ISO                                      Technology             Primary Fuel    Net Capacity (MW)
+   Kendall                                                    Minooka, IL                                         PJM                                         CCGT                    Gas               1,288
+   Liberty                                                   Eddystone, PA                                        PJM                                         CCGT                    Gas                607
+   Ontelaunee                                                 Reading, PA                                         PJM                                         CCGT                    Gas                600
+   Sayreville                                                 Sayreville, NJ                                      PJM                                         CCGT                    Gas                349
+   Washington                                                  Beverly, OH                                        PJM                                         CCGT                    Gas                711
+   Calumet                                                     Chicago, IL                                        PJM                                           CT                    Gas                380
+   Dicks Creek                                                Monroe, OH                                          PJM                                           CT                    Gas                155
+   Hazleton                                                 Pardeesville, PA                                      PJM                                           CT                    Gas                158
+   Pleasants                                                Saint Marys, WV                                       PJM                                           CT                    Gas                388
+   Miami Fort (CT)                                          North Bend, OH                                        PJM                                           CT                     Oil                77
+   Baldwin                                                     Baldwin, IL                                        MISO                                          ST                    Coal              1,185
+   Newton                                                      Newton, IL                                         MISO                                          ST                    Coal               615
+   Kincaid                                                     Kincaid, IL                                        PJM                                           ST                    Coal              1,108
+   Miami Fort 7 & 8                                         North Bend, OH                                        PJM                                           ST                    Coal              1,020
+   Beaver Valley I & II                                     Shippingport, PA                                      PJM                                        Nuclear                Uranium             1,872
+   Perry                                                        Perry, OH                                         PJM                                        Nuclear                Uranium             1,268
+   Davis-Besse                                              Oak Harbor, OH                                        PJM                                        Nuclear                Uranium              908
+   Baldwin                                                     Baldwin, IL                                        MISO                                     Solar/Battery          Solar/Battery           70
+   Coffeen                                                     Coffeen, IL                                        MISO                                     Solar/Battery          Solar/Battery           46
+   Newton                                                      Newton, IL                                         MISO                                     Solar/Battery          Solar/Battery           54
+    Total East                                                                                                                                                                                         22,308
+  Total Capacity                                                                                                                                                                                       43,824
+
+
+
+
+Note: Approximate net generation capacity, actual net generation capacity may vary based on a number of factors including ambient temperature. Capacity based on winter rating.
+
+
+25         Q2 2026 Investor Presentation
+     Capital Expenditures1
+                                    Category ($ in millions)                                                                                                         2024A                         2025A                          2026E
+                                     Nuclear & Fossil Maintenance                 2,3
+                                                                                                                                                                      $793                         $1,006                       ~$1,025
+                                     Nuclear Fuel4                                                                                                                     345                           305                           ~475
+                                     Non-Recurring         5
+                                                                                                                                                                         6                          (208)                         ~(175)
+                                     Solar & Energy Storage Development6                                                                                               604                           635                           ~300
+                                     Helix Contribution                                                                                                                  -                             -                           ~500
+                                     Other Growth7                                                                                                                     155                           426                           ~900
+                                       Total Capital Expenditures                                                                                                   $1,903                         $2,164                       ~$3,025
+                                            Non-Recurring5                                                                                                              (6)                          208                           ~175
+                                            Solar & Energy Storage Development6                                                                                       (604)                         (635)                         ~(300)
+                                            Helix Contribution                                                                                                           -                             -                          ~(500)
+                                            Other Growth7                                                                                                             (155)                         (426)                         ~(900)
+                                    Adjusted Capital Expenditures                                                                                                   $1,138                         $1,311                       ~$1,500
+
+
+
+
+1)   Capital summary for 2026E prepared as of Aug. 3, 2026. Capital expenditure projection is on a cash basis, excludes capitalized interest, and reflects LTSA payments on an accrual basis. Projected capex estimates subject to change based upon market conditions. Includes expected
+     impacts related to Meta PPA uprates and excludes any potential impacts from Cogentrix.
+2)   Reflects expenditures under the long-term maintenance contracts in place for our gas fleet in the year installed (excludes prepayment changes under these long-term contracts of $(9)M in 2024A, $27M in 2025A, and $62M in 2026E).
+3)   Includes IT, Corporate, and Other.
+4)   Nuclear fuel capex shown net of nuclear fuel sales. 2024A and 2025A amounts exclude gains on nuclear fuel sales of $38M and $10M, respectively.
+5)   Non-recurring capital expenditures include non-recurring IT, Corporate, insurance proceeds, and Other.
+6)   Expect to partially fund with Project Level financings.
+7)   Includes growth capital expenditures for new and existing assets.
+
+
+26         Q2 2026 Investor Presentation
+  Vistra Zero Portfolio and Development Pipeline
+  Effective July 31, 2026
+Online Assets                          Location                 ISO              In-Service Year              Net Capacity (MW)                 Development Pipeline                     Location                 ISO         Status, In-Service Year           Net Capacity (MW)
+Beaver Valley I & II              Shippingport, PA              PJM                 1976 / 1987                       1,872                       Perry                                 Perry, OH                 PJM           Under Development                        213
+Davis-Besse                        Oak Harbor, OH               PJM                     1978                           908                        Davis-Besse                       Oak Harbor, OH                PJM           Under Development                         80
+Perry                                  Perry, OH                PJM                     1986                          1,268                       Beaver Valley 2                   Shippingport, PA              PJM           Under Development                         70
+Comanche Peak I & II                Glen Rose, TX             ERCOT                 1990 / 1993                       2,400                       Beaver Valley 1                   Shippingport, PA              PJM           Under Development                         70
+ Total Nuclear                                                                                                        6,448                        Total Nuclear                                                                                                         433
+
+
+Upton 2                           Upton County, TX            ERCOT                     2018                           180                        Pulaski                          Pulaski County, IL            MISO           In Construction, 2026                    405
+Brightside                      Live Oak County, TX           ERCOT                     2022                            50                        Oak Hill 2                        Rusk County, TX             ERCOT           In Construction, 2027                    200
+Emerald Grove                     Crane County, TX            ERCOT                     2022                           108                        Kincaid                               Kincaid, IL               PJM           Under Development                         20
+Baldwin                               Baldwin, IL              MISO                     2024                            68                         Total Solar                                                                                                           625
+Coffeen                               Coffeen, IL              MISO                     2024                            44
+Oak Hill 1                         Rusk County, TX            ERCOT                     2025                           200                        Edwards                             Bartonville, IL            MISO           Under Development                         37
+Newton                                Newton, IL               MISO                     2026                            52                        Joppa                                  Joppa, IL               MISO           Under Development                         37
+Deer Creek                        Tulare County, CA           CAISO                     2026                            50                         Total Energy Storage                                                                                                   74
+ Total Solar                                                                                                           752
+
+
+Upton 2                           Upton County, TX            ERCOT                     2018                            10
+DeCordova                         Hood County, TX             ERCOT                     2022                           260
+Moss Landing Phase III            Moss Landing, CA            CAISO                     2023                           350
+Baldwin                               Baldwin, IL              MISO                     2024                             2
+Coffeen                               Coffeen, IL              MISO                     2024                             2
+Newton                                Newton, IL               MISO                     2026                             2
+Deer Creek                        Tulare County, CA           CAISO                     2026                            50
+ Total Energy Storage                                                                                                  676
+
+Note: Estimated in service years for development pipeline subject to change. Capacity shown on a 100% ownership basis. Approximate net generation capacity, actual net generation capacity may vary based on a number of factors including ambient temperature. Moss Landing 100 and
+300 MW battery facilities were moved from the West segment to ACS in Q4 2025 and Q1 2025, respectively.
+
+
+27         Q2 2026 Investor Presentation
+     Non-GAAP Reconciliations
+
+
+
+28
+28   Q2 2026 Investor Presentation
+     Non-GAAP Reconciliations
+     Three Months Ended June 30, 2026 (Unaudited, Millions of Dollars)
+                                                                                                                                                                                  Eliminations /    Ongoing
+                                                                                                                                                                                       Corp and   Operations     Asset Vistra Corp.
+                                                                                                                          Retail              Texas                  East    West         Other Consolidated   Closure Consolidated
+Net income (loss)                                                                                                          $484                $592                $(166)     $28        $(517)        $421     $(116)        $305
+     Income tax expense                                                                                                         0                   0                    0      0          122          122         0          122
+     Interest expense and related charges (a)                                                                                 10                  (10)                (24)     (4)         339          311         1          312
+     Depreciation and amortization (b)                                                                                        10                 213                 302       14           18          557         3          560
+EBITDA before Adjustments                                                                                                   504                  795                 112       38          (38)       1,411      (112)       1,299
+     Unrealized net (gain) loss resulting from commodity hedging transactions                                               261                 (446)                629       28            0          472         0          472
+     Purchase accounting impacts                                                                                                1                   0                 (14)      0          (13)         (26)        0          (26)
+     Non-cash compensation expenses                                                                                             0                   0                    0      0           35           35         0           35
+     Transition and merger expenses                                                                                             1                   0                    2      0           12           15         0           15
+     Insurance income (c)                                                                                                       0                 (48)                   0      0            0          (48)        0          (48)
+     Decommissioning-related activities (d)                                                                                     0                   4                 (95)      1            0          (90)       90            0
+     Other, net                                                                                                                 6                   6                    8      1          (23)          (2)       (1)          (3)
+Adjusted EBITDA                                                                                                            $773                $311                 $642      $68         $(27)      $1,767      $(23)      $1,744
+
+
+
+
+a)     Corporate and Other includes $9 million of unrealized mark-to-market net losses on interest rate swaps.
+b)     Includes nuclear fuel amortization of $30 million and $86 million, respectively, in the Texas and East segments.
+c)     Includes involuntary conversion gain recognized from Martin Lake Incident property damage insurance in the Texas segment.
+d)     Includes NDT (income) loss of the PJM nuclear facilities, ARO and environmental remediation expenses, and other expenses associated with the Moss Landing Incident.
+
+
+29          Q2 2026 Investor Presentation
+     Non-GAAP Reconciliations
+     Three Months Ended June 30, 2025 (Unaudited, Millions of Dollars)
+                                                                                                                                                                                            Eliminations /    Ongoing
+                                                                                                                                                                                                 Corp and   Operations                            Asset Vistra Corp.
+                                                                                                                         Retail               Texas                 East               West         Other Consolidated                          Closure Consolidated
+Net income (loss)                                                                                                        $(123)                $863                $120                 $(50)                $(440)                    $370       $(43)        $327
+     Income tax expense                                                                                                        0                    0                   1                    0                    75                     76          0           76
+     Interest expense and related charges (a)                                                                                 17                 (18)                  (8)                  (1)                 312                     302          1          303
+     Depreciation and amortization (b)                                                                                        24                197                  412                   16                     20                    669         (1)         668
+EBITDA before Adjustments                                                                                                    (82)             1,042                  525                  (35)                   (33)                  1,417       (43)       1,374
+     Unrealized net (gain) loss resulting from hedging transactions                                                         841                (900)                 (39)                  82                      0                     (16)        0          (16)
+     Purchase accounting impacts                                                                                               8                    0                   9                    0                     0                     17          0           17
+     Non-cash compensation expenses                                                                                            0                    0                   0                    0                    25                     25          0           25
+     Transition and merger expenses                                                                                            5                    0                   0                    0                    17                     22          0           22
+     Impairment of long-lived assets                                                                                           0                  68                    0                    0                     0                     68          0           68
+     Insurance income (c)                                                                                                      0                 (80)                   0                    0                     0                     (80)      (21)        (101)
+     Decommissioning-related activities (d)                                                                                    0                    4                (81)                    0                     0                     (77)       43          (34)
+     ERP system implementation expenses                                                                                        3                    3                   3                    0                     0                       9         1           10
+     Other, net (e)                                                                                                          (19)                   5                   1                    2                   (25)                    (36)        3          (33)
+Adjusted EBITDA                                                                                                           $756                 $142                $418                  $49                   $(16)              $1,349          $(17)      $1,332
+
+a)     Includes $26 million of unrealized mark-to-market net losses on interest rate swaps.
+b)     Includes nuclear fuel amortization of $30 million and $92 million, respectively, in the Texas and East segments.
+c)     Includes involuntary conversion gain recognized from Martin Lake Incident property damage insurance in the Texas segment and revenues from Moss Landing Incident business interruption proceeds in the Asset Closure segment.
+d)     Represents net of all NDT (income) loss of the PJM nuclear facilities and all ARO and environmental remediation expenses.
+e)     Includes the final application of bill credits to large commercial and industrial customers that curtailed their usage during Winter Storm Uri in the Retail segment.
+
+
+30           Q2 2026 Investor Presentation
+     Non-GAAP Reconciliations
+     Three Months Ended June 30, 2024 (Unaudited, Millions of Dollars)
+
+                                                                                                                                                                       Eliminations /    Ongoing
+                                                                                                                                                                            Corp and   Operations     Asset Vistra Corp.
+                                                                                                                         Retail              Texas        East    West         Other Consolidated   Closure Consolidated
+Net income (loss)                                                                                                         $897               $(573)       $518    $119        $(463)        $498      $(31)        $467
+     Income tax expense                                                                                                        0                     0       0       0          159          159         0          159
+     Interest expense and related charges (a)                                                                                16                    (12)     (1)      0          237          240         1          241
+     Depreciation and amortization (b)                                                                                       31                   160     304       14           18          527         7          534
+EBITDA before Adjustments                                                                                                  944                    (425)   821      133          (49)       1,424       (23)       1,401
+     Unrealized net (gain) loss resulting from hedging transactions                                                       (162)                   656     (460)    (77)           0          (43)       (2)         (45)
+     Purchase accounting impacts                                                                                               0                     0      (3)      0            0           (3)        0           (3)
+     Non-cash compensation expenses                                                                                            0                     0       0       0           32           32         0           32
+     Transition and merger expenses                                                                                            1                     0       0       0           24           25         0           25
+     Decommissioning-related activities (c)                                                                                    0                     5     (15)      0            0          (10)        0          (10)
+     ERP system implementation                                                                                                 4                     3       3       0            0           10         1           11
+     Other, net                                                                                                                2                     3      (1)      2          (29)         (23)        0          (23)
+Adjusted EBITDA                                                                                                           $789                $242        $345     $58         $(22)      $1,412      $(24)      $1,388
+
+
+
+
+a)     Includes $11 million of unrealized mark-to-market net gains on interest rate swaps.
+b)     Includes nuclear fuel amortization of $26 million and $71 million, respectively, in the Texas and East segments.
+c)     Represents net of all NDT (income) loss, ARO accretion expense for operating assets, and ARO remeasurement impacts for operating assets.
+
+
+31          Q2 2026 Investor Presentation
+     Non-GAAP Reconciliations
+     Six Months Ended June 30, 2026 (Unaudited, Millions of Dollars)
+                                                                                                                                                                                            Eliminations /    Ongoing
+                                                                                                                                                                                                 Corp and   Operations                         Asset Vistra Corp.
+                                                                                                                         Retail              Texas                  East               West         Other Consolidated                       Closure Consolidated
+Net income (loss)                                                                                                        $(240)            $2,683                   $10                  $62              $(1,045)                 $1,470     $(136)      $1,334
+     Income tax expense                                                                                                        0                   0                    0                   0                  305                   305          0          305
+     Interest expense and related charges (a)                                                                                23                  (24)                (46)                  (7)                 628                   574          1          575
+     Depreciation and amortization (b)                                                                                       20                 424                 657                   28                     36                 1,165         6        1,171
+EBITDA before Adjustments                                                                                                 (197)              3,083                  621                   83                    (76)                3,514      (129)       3,385
+     Unrealized net (gain) loss resulting from commodity hedging transactions                                            1,026              (2,168)                 854                   37                       0                 (251)        0         (251)
+     Purchase accounting impacts                                                                                               1                   0                 (15)                   0                   (13)                  (27)        0          (27)
+     Non-cash compensation expenses                                                                                            0                   0                    0                   0                    67                   67          0           67
+     Transition and merger expenses                                                                                            0                   0                    2                   0                    24                   26          0           26
+     Insurance income (c)                                                                                                      0                 (48)                   0                   0                      0                  (48)       (6)         (54)
+     Decommissioning-related activities (d)                                                                                    0                   8                 (35)                   1                      0                  (26)       92           66
+     Other, net                                                                                                              11                   22                  16                    3                   (46)                    6         1            7
+Adjusted EBITDA                                                                                                           $841                $897              $1,443                 $124                   $(44)                $3,261      $(42)      $3,219
+
+
+
+
+a)     Corporate and Other includes $7 million of unrealized mark-to-market net gains on interest rate swaps.
+b)     Includes nuclear fuel amortization of $66 million and $176 million, respectively, in the Texas and East segments.
+c)     Includes involuntary conversion gain recognized from Martin Lake Incident property damage insurance in Texas segment and revenues from Moss Landing Incident business interruption proceeds in the Asset Closure segment.
+d)     Includes NDT (income) loss of the PJM nuclear facilities, ARO and environmental remediation expenses, and other expenses associated with the Moss Landing Incident.
+
+
+32          Q2 2026 Investor Presentation
+     Non-GAAP Reconciliations
+     Six Months Ended June 30, 2025 (Unaudited, Millions of Dollars)
+
+                                                                                                                                                                                            Eliminations /    Ongoing
+                                                                                                                                                                                                 Corp and   Operations                            Asset Vistra Corp.
+                                                                                                                         Retail               Texas                 East               West         Other Consolidated                          Closure Consolidated
+Net income (loss)                                                                                                      $1,009                  $143               $(370)                 $27                 $(639)                    $170      $(111)         $59
+     Income tax expense (benefit)                                                                                              0                    0                   1                    0                 (101)                    (100)        0         (100)
+     Interest expense and related charges (a)                                                                                 35                 (32)                (20)                   (2)                 639                     620          2          622
+     Depreciation and amortization (b)                                                                                        47                378                  808                   31                     39                   1,303        (2)       1,301
+EBITDA before Adjustments                                                                                                1,091                  489                  419                   56                    (62)                  1,993      (111)       1,882
+     Unrealized net (gain) loss resulting from hedging transactions                                                        (156)                130                  528                   50                      0                    552         (1)         551
+     Purchase accounting impacts                                                                                               8                    0                  23                    0                     0                     31          0           31
+     Non-cash compensation expenses                                                                                            0                    0                   0                    0                    46                     46          0           46
+     Transition and merger expenses                                                                                            5                    0                   1                    0                    34                     40          0           40
+     Impairment of long-lived assets                                                                                           0                  68                    0                    0                     0                     68          0           68
+     Insurance Income (c)                                                                                                      0                 (80)                   0                    0                     0                     (80)      (21)        (101)
+     Decommissioning-related activities (d)                                                                                    0                    9                (46)                    0                     0                     (37)       89           52
+     ERP system implementation expenses                                                                                        3                    3                   3                    0                     0                       9         1           10
+     Other, net (e)                                                                                                          (11)                 13                    4                    5                   (44)                    (33)        2          (31)
+Adjusted EBITDA                                                                                                           $940                 $632                $932                $111                    $(26)              $2,589          $(41)      $2,548
+
+a)     Includes $74 million of unrealized mark-to-market net losses on interest rate swaps.
+b)     Includes nuclear fuel amortization of $61 million and $176 million, respectively, in the Texas and East segments.
+c)     Includes involuntary conversion gain recognized from Martin Lake Incident property damage insurance in the Texas segment and revenues from Moss Landing Incident business interruption proceeds in the Asset Closure segment.
+d)     Represents net of all NDT (income) loss of the PJM nuclear facilities and all ARO and environmental remediation expenses.
+e)     Includes the final application of bill credits to large commercial and industrial customers that curtailed their usage during Winter Storm Uri in the Retail segment.
+
+
+33           Q2 2026 Investor Presentation
+     Non-GAAP Reconciliations
+     Six Months Ended June 30, 2024 (Unaudited, Millions of Dollars)
+
+                                                                                                                                                                       Eliminations /    Ongoing
+                                                                                                                                                                            Corp and   Operations     Asset Vistra Corp.
+                                                                                                                         Retail              Texas        East    West         Other Consolidated   Closure Consolidated
+Net income (loss)                                                                                                      $1,458                $(909)       $345    $287        $(640)        $541      $(56)        $485
+     Income tax expense                                                                                                        0                     0       0       0          139          139         0          139
+     Interest expense and related charges (a)                                                                                22                    (22)      0       0          409          409         2          411
+     Depreciation and amortization (b)                                                                                       54                   320     537       28           33          972        14          986
+EBITDA before Adjustments                                                                                                1,534                    (611)   882      315          (59)       2,061       (40)       2,021
+     Unrealized net (gain) loss resulting from hedging transactions                                                       (786)              1,260        (131)   (207)           0          136        (6)         130
+     Purchase accounting impacts                                                                                              (1)                    0      (4)      0          (14)         (19)        0          (19)
+     Impacts of Tax Receivable Agreement (c)                                                                                   0                     0       0       0           (5)          (5)        0           (5)
+     Non-cash compensation expenses                                                                                            0                     0       0       0           53           53         0           53
+     Transition and merger expenses                                                                                            2                     0       6       0           52           60         0           60
+     Decommissioning-related activities (d)                                                                                    0                   11      (40)      1            0          (28)        0          (28)
+     ERP system implementation                                                                                                 6                     5       5       1            0           17         1           18
+     Other, net                                                                                                                6                     6      (5)      3          (63)         (53)        1          (52)
+Adjusted EBITDA                                                                                                           $761                $671        $713    $113         $(36)      $2,222      $(44)      $2,178
+
+
+
+
+a)     Includes $58 million of unrealized mark-to-market net gains on interest rate swaps.
+b)     Includes nuclear fuel amortization of $52 million and $94 million, respectively, in the Texas and East segments.
+c)     Includes $10 million gain recognized on the repurchase of TRA Rights.
+d)     Represents net of all NDT (income) loss, ARO accretion expense for operating assets, and ARO remeasurement impacts for operating assets.
+
+
+34          Q2 2026 Investor Presentation
+  Non-GAAP Reconciliations
+  Twelve Months Ended December 31, 2025 (Unaudited, Millions of Dollars)
+
+                                                                                                                                                                                           Eliminations /    Ongoing
+                                                                                                                                                                                                Corp and   Operations                           Asset Vistra Corp.
+                                                                                                                        Retail              Texas                  East               West         Other Consolidated                         Closure Consolidated
+Net income (loss)                                                                                                     $1,290              $1,604                  $(91)                $54              $(1,634)                $1,223         $(279)        $944
+  Income tax expense                                                                                                          0                   0                   1                    0                  178                     179          0          179
+  Interest expense and related charges (a)                                                                                  67                 (53)                 (50)                  (7)              1,218                     1,175         4        1,179
+  Depreciation and amortization (b)                                                                                         94                 771              1,474                    61                     75                   2,475        (2)       2,473
+EBITDA before Adjustments                                                                                              1,451                2,322               1,334                  108                   (163)                   5,052      (277)       4,775
+  Unrealized net (gain) loss resulting from hedging transactions                                                          148                 (479)             1,013                  128                       0                    810         (2)         808
+  Purchase accounting impacts                                                                                               17                    1                  33                    0                     0                     51          0           51
+  Non-cash compensation expenses                                                                                              0                   0                   0                    0                  113                     113          0          113
+  Transition and merger expenses                                                                                              6                  (1)                  3                    0                    67                     75          0           75
+  Impairment of long-lived and other assets                                                                                   0                 68                    5                    0                     0                     73        155          228
+  Insurance income (c)                                                                                                        0               (120)                   0                    0                     0                    (120)      (71)        (191)
+  Decommissioning-related activities (d)                                                                                      0                 15                (127)                    1                     0                    (111)      116            5
+  ERP system implementation expenses                                                                                          3                   3                   4                    0                     0                     10          1           11
+  Other, net                                                                                                                 (3)                25                   17                    7                   (87)                    (41)        4          (37)
+Adjusted EBITDA                                                                                                       $1,622              $1,834              $2,282                  $244                   $(70)              $5,912          $(74)      $5,838
+
+Notes: Reflects the transfer of Moss Landing 100 MW battery facility to the Asset Closure Segment.
+a)   Corporate and other includes $67 million of unrealized mark-to-market net losses on interest rate swaps.
+b)   Includes nuclear fuel amortization of $133 million and $354 million, respectively, in the Texas and East segments.
+c)   Includes involuntary conversion gain recognized from Martin Lake Incident property damage insurance in the Texas segment and revenues from Moss Landing Incident business interruption proceeds in the Asset Closure segment.
+d)   Represents net of all NDT (income) loss of the PJM nuclear facilities and all ARO and environmental remediation expenses and other expenses associated with the Moss Landing Incident.
+
+
+35         Q2 2026 Investor Presentation
+     Non-GAAP Reconciliations – Adjusted FCFbG
+     Twelve Months Ended December 31, 2025 (Unaudited, Millions of Dollars)
+
+                                                                                                                                                                                                     Ongoing            Asset        Vistra
+                                                                                                                                                                                                   Operations         Closure Consolidated
+                          Adjusted EBITDA                                                                                                                                                                   $5,912      $(74)       $5,838
+                            Interest paid, net (a)                                                                                                                                                          (1,158)        0         (1,158)
+                            Taxes paid                                                                                                                                                                         (89)        0            (89)
+                            Change in working capital, margin deposits, and accrued environmental allowance obligations                                                                                       (625)       13          (612)
+                            Reclamation and remediation expenditures                                                                                                                                           (38)      (58)           (96)
+                            ERP implementation expenditures                                                                                                                                                    (42)        0            (42)
+                            Transition and merger expenditures                                                                                                                                                (118)        0          (118)
+                            Other changes in other operating assets and liabilities                                                                                                                           306         41           347
+                          Cash provided by (used in) operating activities                                                                                                                                    4,148       (78)        4,070
+                            Capital expenditures for maintenance including net nuclear fuel purchases and LTSA prepayments (b)                                                                              (1,348)        0         (1,348)
+                            Change in working capital, margin deposits, and accrued environmental allowance obligations                                                                                       625        (13)          612
+                            Transition and merger expenditures                                                                                                                                                118          0           118
+                            Interest on noncontrolling interest repurchase obligation                                                                                                                         105          0           105
+                            ERP implementation expenditures                                                                                                                                                    42          0            42
+                            Other net investing activities (c)                                                                                                                                                 (98)        0            (98)
+                          Adjusted free cash flow before growth                                                                                                                                             $3,592      $(91)       $3,501
+
+
+
+a)    Net of interest received.
+b)    Excludes $1,126 million of capital expenditures related to growth and development and includes $111 million insurance recoveries related to property damage associated with the Martin Lake outage.
+c)    Includes net contributions to nuclear decommissioning trusts and other.
+
+
+36          Q2 2026 Investor Presentation
+  Non-GAAP Reconciliations – Guidance
+  2026 Guidance (Unaudited, Millions of Dollars)
+
+                                                                                                                                    Ongoing Operations                                                   Asset Closure                                Vistra Corp. Consolidated
+                                                                                                                             Low                          High                            Low                          High                            Low                          High
+  Net Income (loss)                                                                                                      $3,100                        $3,730                            $(90)                         $(90)                        $3,010                        $3,640
+   Income tax expense                                                                                                         830                        1,000                                0                             0                           830                        1,000
+   Interest expense and related charges (a)                                                                                1,200                         1,200                                0                             0                         1,200                        1,200
+   Depreciation and amortization (b)                                                                                       2,150                         2,150                                0                             0                         2,150                        2,150
+  EBITDA before adjustments                                                                                              $7,280                        $8,080                            $(90)                         $(90)                        $7,190                        $7,990
+   Unrealized net (gain) loss resulting from hedging transactions                                                           (728)                        (728)                                0                             0                         (728)                         (728)
+   Fresh start/purchase accounting impacts                                                                                     58                            58                               0                             0                             58                            58
+   Non-cash compensation expenses                                                                                             137                          137                                0                             0                           137                           137
+   Transition and merger expenses                                                                                              29                            29                               0                             0                             29                            29
+   Decommissioning activities (c)                                                                                              64                            64                              22                           22                              86                            86
+   ERP system implementation expenses & other transformational
+                                                                                                                               17                            17                               0                             0                             17                            17
+   initiatives
+   Other, net                                                                                                                (57)                          (57)                            (12)                         (12)                            (69)                          (69)
+  Adjusted EBITDA guidance                                                                                               $6,800                        $7,600                            $(80)                         $(80)                        $6,720                        $7,520
+
+
+
+
+Regulation G Table for 2026 Guidance prepared as of Nov. 6, 2025, based on market curves as of Oct. 31, 2025. Excludes the potential contribution from the Cogentrix acquisition. Vistra believes the nuclear production tax credit (PTC) should provide downside Ongoing Operations Adjusted
+EBITDA support.
+a)   Includes $60 million interest related to noncontrolling interest repurchase.
+b)   Includes nuclear fuel amortization of $423 million.
+c)   Represents net of all NDT income (loss) of the PJM nuclear facilities, ARO accretion expense for operating assets and ARO remeasurement impacts for operating assets.
+
+
+37         Q2 2026 Investor Presentation
+  Non-GAAP Reconciliations – Guidance
+  2026 Guidance (Unaudited, Millions of Dollars)
+
+                                                                                                                               Ongoing Operations                                                      Asset Closure                               Vistra Corp. Consolidated
+                                                                                                                          Low                           High                             Low                          High                             Low                           High
+Adjusted EBITDA guidance                                                                                               $6,800                        $7,600                             $(80)                         $(80)                         $6,720                        $7,520
+ Interest paid, net                                                                                                   (1,125)                        (1,125)                                 0                              0                      (1,125)                        (1,125)
+ Tax (paid) / received                                                                                                   (111)                         (111)                                 0                              0                         (111)                         (111)
+ Working capital, margin deposits, and accrued environmental
+                                                                                                                           640                            640                                0                              0                           640                            640
+ allowances
+ Reclamation and remediation                                                                                               (78)                          (78)                            (80)                           (80)                          (158)                         (158)
+ ERP system implementation expenses & other transformational
+                                                                                                                           (16)                          (16)                                0                              0                           (16)                          (16)
+ initiatives
+ Other changes in other operating assets and liabilities                                                                 (112)                         (112)                               (5)                            (5)                         (117)                         (117)
+Cash provided by (used in) operating activities                                                                        $5,998                        $6,798                           $(165)                        $(165)                          $5,833                        $6,633
+ Capital expenditures including nuclear fuel purchases and LTSA
+                                                                                                                      (1,536)                        (1,536)                                 0                              0                      (1,536)                        (1,536)
+ prepayments
+ Other net investing activities                                                                                            (20)                          (20)                                0                              0                           (20)                          (20)
+ Working capital, margin deposits, and accrued environmental
+                                                                                                                         (640)                         (640)                                 0                              0                         (640)                         (640)
+ allowances
+ Transition and merger expenditures                                                                                          41                            41                                0                              0                             41                            41
+ Interest on noncontrolling interest repurchase obligation                                                                   60                            60                                0                              0                             60                            60
+ ERP system implementation expenses & other transformational
+                                                                                                                             22                            22                                0                              0                             22                            22
+ initiatives
+Adjusted free cash flow before growth guidance                                                                         $3,925                        $4,725                           $(165)                        $(165)                          $3,760                        $4,560
+
+
+Regulation G Table for 2026 Guidance prepared as of Nov. 6, 2025, based on market curves as of Oct. 31, 2025. Excludes the potential contribution from the Cogentrix acquisition. Vistra believes the nuclear production tax credit (PTC) should provide downside Ongoing Operations Adjusted
+EBITDA support.
+
+
+ 38        Q2 2026 Investor Presentation
+     Lighting up lives,
+     powering a better way forward
+
+
+
+39
+39   Q2 2026 Investor Presentation
+
