@@ -1,0 +1,213 @@
+Robinhood Markets, Inc. - Q2'26 Earnings Supplement.xlsx (IR site 'Supplemental Information, Including Monthly Metrics'; server Last-Modified 2026-07-29 15:56 GMT; workbook modified 2026-07-29 13:43). Converted to text with openpyxl; one sheet per section, cells separated by ' | ', empty rows dropped, numbers as stored (unrounded where the workbook holds unrounded values).
+
+======== SHEET: Quarterly GAAP P&L (in millions (state: visible)
+ | Robinhood Markets, Inc. / Condensed Consolidated Statements of Operations / (Unaudited, in millions)
+ |  | 2023 |  |  |  | 2024 |  |  |  |  | 2025 |  |  |  |  | 2026
+ |  | Q2 | Q3 | Q4 |  | Q1 | Q2 | Q3 | Q4 |  | Q1 | Q2 | Q3 | Q4 |  | Q1 | Q2
+ | Revenues:
+ | Options | 127 | 124 | 121 |  | 154 | 182 | 202 | 222 |  | 240 | 265 | 304 | 314 |  | 260 | 342
+ | Cryptocurrencies | 31 | 23 | 43 |  | 126 | 81 | 61 | 358 |  | 252 | 160 | 268 | 221 |  | 134 | 100
+ | Equities | 25 | 27 | 25 |  | 39 | 40 | 37 | 61 |  | 56 | 66 | 86 | 94 |  | 82 | 129
+ | Event Contracts | 0 | 0 | 0 |  | 0 | 0 | 0 | 5 |  | 3 | 10 | 27 | 101 |  | 104 | 156
+ | Other | 10 | 11 | 11 |  | 10 | 24 | 19 | 26 |  | 32 | 38 | 45 | 46 |  | 43 | 49
+ |    Transaction-based revenues | 193 | 185 | 200 |  | 329 | 327 | 319 | 672 |  | 583 | 539 | 730 | 776 |  | 623 | 776
+ |    Net interest revenues | 234 | 251 | 236 |  | 254 | 285 | 274 | 296 |  | 290 | 357 | 456 | 411 |  | 359 | 389
+ |    Other revenues | 59 | 31 | 35 |  | 35 | 70 | 44 | 46 |  | 54 | 93 | 88 | 96 |  | 85 | 143
+ |       Total net revenues | 486 | 467 | 471 |  | 618 | 682 | 637 | 1014 |  | 927 | 989 | 1274 | 1283 |  | 1067 | 1308
+ | Operating expenses:
+ |    Brokerage and transaction | 39 | 39 | 32 |  | 35 | 40 | 39 | 50 |  | 50 | 48 | 56 | 57 |  | 60 | 62
+ |    Technology and development | 207 | 202 | 197 |  | 196 | 209 | 205 | 208 |  | 214 | 214 | 237 | 232 |  | 241 | 256
+ |    Operations | 30 | 27 | 26 |  | 28 | 28 | 27 | 29 |  | 31 | 29 | 33 | 37 |  | 38 | 57
+ |    Provision for credit losses | 6 | 14 | 14 |  | 16 | 18 | 23 | 19 |  | 24 | 28 | 26 | 36 |  | 36 | 56
+ |    Marketing | 25 | 28 | 43 |  | 67 | 64 | 59 | 82 |  | 105 | 99 | 102 | 93 |  | 107 | 104
+ |    General and administrative | 159 | 230 | 133 |  | 118 | 134 | 133 | 70 |  | 133 | 132 | 185 | 178 |  | 174 | 199
+ |       Total operating expenses | 466 | 540 | 445 |  | 460 | 493 | 486 | 458 |  | 557 | 550 | 639 | 633 |  | 656 | 734
+ | Other income (expense), net | 2 | -2 | 3 |  | 4 | 2 | 2 | 2 |  | 1 | 3 | -1 | 11 |  | 0 | 135
+ | Income (loss) before income taxes | 22 | -75 | 29 |  | 162 | 191 | 153 | 558 |  | 371 | 442 | 634 | 661 |  | 411 | 709
+ | Provision for (benefit from) income taxes | -3 | 10 | -1 |  | 5 | 3 | 3 | -358 |  | 35 | 56 | 78 | 56 |  | 65 | 136
+ | Net income (loss) | 25 | -85 | 30 |  | 157 | 188 | 150 | 916 |  | 336 | 386 | 556 | 605 |  | 346 | 573
+ | Net income (loss) attributable to non-controlling interests | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 |  | -4 | 12
+ | Net income (loss) attributable to Robinhood | 25 | -85 | 30 |  | 157 | 188 | 150 | 916 |  | 336 | 386 | 556 | 605 |  | 350 | 561
+ | Net income (loss) attributable to Robinhood common stockholders
+ | Basic | 25 | -85 | 30 |  | 157 | 188 | 150 | 916 |  | 336 | 386 | 556 | 605 |  | 350 | 561
+ | Diluted | 25 | -85 | 30 |  | 157 | 188 | 150 | 916 |  | 336 | 386 | 556 | 605 |  | 350 | 561
+ | Net income (loss) per share attributable to common stockholders:
+ | Basic | 0.03 | -0.09 | 0.03 |  | 0.18 | 0.21 | 0.17 | 1.04 |  | 0.38 | 0.44 | 0.63 | 0.67 |  | 0.39 | 0.62
+ | Diluted | 0.03 | -0.09 | 0.03 |  | 0.18 | 0.21 | 0.17 | 1.01 |  | 0.37 | 0.42 | 0.61 | 0.66 |  | 0.38 | 0.62
+ | Weighted-average shares used to compute net income (loss) per share attributable to common stockholders:
+ | Basic | 905 | 895 | 867 |  | 875 | 881 | 884 | 884 |  | 885 | 882 | 889 | 898 |  | 899 | 899
+ | Diluted | 921 | 895 | 883 |  | 896 | 904 | 906 | 908 |  | 909 | 909 | 918 | 918 |  | 915 | 912
+
+======== SHEET: Quarterly Balance Sheet (in mil (state: visible)
+ | Robinhood Markets, Inc. / Condensed Consolidated Balance Sheets / (Unaudited, in millions)
+ |  | 2023 |  |  |  | 2024 |  |  |  |  | 2025 |  |  |  |  | 2026
+ |  | Q2 | Q3 | Q4 |  | Q1 | Q2 | Q3 | Q4 |  | Q1 | Q2 | Q3 | Q4 |  | Q1 | Q2
+ | Assets
+ | Current assets:
+ | Cash and cash equivalents | 5829 | 4889 | 4835 |  | 4717 | 4524 | 4611 | 4332 |  | 4416 | 4162 | 4331 | 4261 |  | 5012 | 5362
+ | Cash, cash equivalents, and securities segregated under federal and other regulations | 4220 | 3448 | 4448 |  | 4521 | 4584 | 5547 | 4724 |  | 4442 | 8939 | 8443 | 5749 |  | 10874 | 12023
+ | Receivables from brokers, dealers, and clearing organizations | 117 | 63 | 89 |  | 207 | 149 | 139 | 471 |  | 267 | 374 | 482 | 426 |  | 484 | 672
+ | Receivables from users, net | 3313 | 3704 | 3495 |  | 4303 | 5040 | 5546 | 8239 |  | 9167 | 9685 | 14390 | 17994 |  | 18115 | 22799
+ | Securities borrowed | 960 | 1204 | 1602 |  | 2107 | 2217 | 3704 | 3236 |  | 4114 | 6159 | 6607 | 2408 |  | 3355 | 6036
+ | Deposits with clearing organizations | 223 | 275 | 338 |  | 585 | 551 | 464 | 489 |  | 641 | 720 | 1440 | 702 |  | 694 | 1240
+ | User-held fractional shares | 1409 | 1396 | 1592 |  | 1975 | 2011 | 2201 | 2530 |  | 2531 | 3083 | 3618 | 3782 |  | 3819 | 4764
+ | Held-to-maturity investments | 321 | 372 | 413 |  | 495 | 503 | 527 | 398 |  | 192 | 134 | 53 | 0 |  | 0 | 0
+ | Prepaid expenses | 88 | 75 | 63 |  | 64 | 65 | 86 | 75 |  | 89 | 108 | 128 | 127 |  | 182 | 196
+ | Deferred customer match incentives | 1 | 2 | 11 |  | 32 | 67 | 73 | 100 |  | 113 | 124 | 161 | 185 |  | 207 | 220
+ | Other current assets | 122 | 128 | 196 |  | 316 | 352 | 251 | 509 |  | 243 | 345 | 326 | 671 |  | 671 | 1220
+ | Total current assets | 16603 | 15556 | 17082 |  | 19322 | 20063 | 23149 | 25103 |  | 26215 | 33833 | 39979 | 36305 |  | 43413 | 54532
+ | Property, software, and equipment, net | 131 | 123 | 120 |  | 122 | 123 | 133 | 139 |  | 140 | 149 | 150 | 154 |  | 162 | 177
+ | Goodwill | 100 | 164 | 175 |  | 175 | 179 | 179 | 179 |  | 292 | 383 | 386 | 385 |  | 401 | 516
+ | Intangible assets, net | 21 | 53 | 48 |  | 46 | 45 | 39 | 38 |  | 109 | 191 | 172 | 168 |  | 203 | 246
+ | Non-current held-to-maturity investments | 165 | 118 | 73 |  | 10 | 2 | 0 | 0 |  | 0 | 0 | 0 | 0 |  | 0 | 0
+ | Non-current deferred customer match incentives | 5 | 8 | 19 |  | 71 | 159 | 159 | 195 |  | 238 | 267 | 360 | 428 |  | 522 | 579
+ | Non-current prepaid expenses | 6 | 3 | 4 |  | 3 | 22 | 22 | 17 |  | 17 | 15 | 13 | 11 |  | 11 | 21
+ | Other non-current assets | 126 | 110 | 103 |  | 116 | 110 | 108 | 516 |  | 506 | 486 | 392 | 686 |  | 762 | 479
+ | Total assets | 17157 | 16135 | 17624 |  | 19865 | 20703 | 23789 | 26187 |  | 27517 | 35324 | 41452 | 38137 |  | 45474 | 56550
+ | Liabilities and stockholders' equity
+ | Current liabilities:
+ | Accounts payable and accrued expenses | 236 | 373 | 384 |  | 351 | 386 | 443 | 397 |  | 319 | 369 | 399 | 463 |  | 522 | 646
+ | Payables to users | 5111 | 4325 | 5097 |  | 6074 | 5789 | 6264 | 7448 |  | 7116 | 10511 | 12317 | 11986 |  | 16780 | 17243
+ | Securities loaned | 2982 | 3245 | 3547 |  | 4215 | 5091 | 7306 | 7463 |  | 9098 | 12640 | 15666 | 11626 |  | 13387 | 20536
+ | Fractional shares repurchase obligation | 1409 | 1396 | 1592 |  | 1975 | 2011 | 2201 | 2530 |  | 2531 | 3083 | 3618 | 3782 |  | 3819 | 4764
+ | Convertible senior notes, net , current portion
+ | Other current liabilities | 115 | 126 | 217 |  | 275 | 220 | 288 | 266 |  | 367 | 519 | 762 | 914 |  | 1046 | 1387
+ | Total current liabilities | 9853 | 9465 | 10837 |  | 12890 | 13497 | 16502 | 18104 |  | 19431 | 27122 | 32762 | 28771 |  | 35554 | 44576
+ | Long-term borrowings |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 2170
+ | Other non-current liabilities | 117 | 96 | 91 |  | 90 | 84 | 79 | 111 |  | 133 | 130 | 123 | 215 |  | 232 | 263
+ | Total liabilities | 9970 | 9561 | 10928 |  | 12980 | 13581 | 16581 | 18215 |  | 19564 | 27252 | 32885 | 28986 |  | 35786 | 47009
+ | Stockholders' equity:
+ | Common stock | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 |  | 0 | 0 | 0
+ | Additional paid-in capital | 12581 | 12054 | 12145 |  | 12176 | 12223 | 12158 | 12008 |  | 11652 | 11378 | 11317 | 11284 |  | 11119 | 10731
+ | Accumulated other comprehensive income (loss) | -3 | -4 | -3 |  | -2 | 0 | 1 | -1 |  | 0 | 7 | 7 | 8 |  | 2 | -10
+ | Accumulated deficit | -5391 | -5476 | -5446 |  | -5289 | -5101 | -4951 | -4035 |  | -3699 | -3313 | -2757 | -2152 |  | -1802 | -1241
+ | Non-controlling interests | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 |  | 0 | 0 | 0 | 11 |  | 369 | 61
+ |       Total stockholders' equity | 7187 | 6574 | 6696 |  | 6885 | 7122 | 7208 | 7972 |  | 7953 | 8072 | 8567 | 9151 |  | 9688 | 9541
+ |       Total liabilities and stockholders' equity | 17157 | 16135 | 17624 |  | 19865 | 20703 | 23789 | 26187 |  | 27517 | 35324 | 41452 | 38137 |  | 45474 | 56550
+
+======== SHEET: Quarterly KPIs (state: visible)
+ | Robinhood Markets, Inc. and Consolidated Subsidiaries / Quarterly Metrics Report for Q2 2026  / (Unaudited)
+ |  | 2023 |  |  |  | 2024 |  |  |  |  | 2025 |  |  |  |  | 2026 |  |  | Change
+ |  | Q2 | Q3 | Q4 |  | Q1 | Q2 | Q3 | Q4 |  | Q1 | Q2 | Q3 | Q4 |  | Q1 | Q2 |  | Q/Q | Y/Y
+ | (M - in millions, B - in billions)
+ | Funded Customer Growth (M)
+ | Funded Customers1, 2 | 23.2 | 23.3 | 23.4 |  | 23.9 | 24.2 | 24.3 | 25.2 |  | 25.8 | 26.5 | 26.8 | 27 |  | 27.4 | 28.4 |  | 0.04 | 0.07
+ | Engagement (M)
+ | Monthly Active Users (MAU)1 | 10.8 | 10.3 | 10.9 |  | 13.7 | 11.8 | 11 | 14.9 |  | 14.4 | 12.8 | 13.8 | 13 |  | 13.5 | 14.1 |  | 0.04 | 0.1
+ | Asset Growth ($B)
+ | Total Platform Assets1, 3 | 88.8 | 86.5 | 102.6 |  | 129.6 | 139.7 | 152.2 | 192.9 |  | 220.6 | 278.6 | 332.7 | 322.1 |  | 307.3 | 368.7 |  | 0.2 | 0.32
+ | Net Deposits4 | 4.1 | 4 | 4.6 |  | 11.2 | 13.2 | 10 | 16.1 |  | 18 | 13.8 | 20.4 | 15.9 |  | 17.7 | 21.7 |  | 0.23 | 0.57
+ | Trading
+ | Equities and Options Trading Days | 62 | 62.5 | 62.5 |  | 61 | 63 | 63.5 | 63 |  | 60 | 62 | 63.5 | 63 |  | 61 | 62 |  | 0.02 | 0
+ | Crypto and Prediction Markets Trading Days | 91 | 92 | 92 |  | 91 | 91 | 92 | 92 |  | 90 | 91 | 92 | 92 |  | 90 | 91 |  | 0.01 | 0
+ | Total Trading Volumes1, 3, 5
+ |     Equity ($B) | 155.2 | 173.3 | 166.8 |  | 225 | 243.6 | 286.2 | 423.3 |  | 413.2 | 517.3 | 647.2 | 710.3 |  | 637.8 | 955.8 |  | 0.5 | 0.85
+ |     Options Contracts (M) | 283.3 | 300.8 | 296.4 |  | 343.6 | 389.7 | 443.4 | 477.2 |  | 500.1 | 515.4 | 610.1 | 659.2 |  | 586.3 | 773.8 |  | 0.32 | 0.5
+ |     Crypto ($B) | 9.1 | 6.8 | 12.8 |  | 36 | 21.5 | 14.4 | 71 |  | 46.1 | 35 | 80.2 | 82.4 |  | 65.7 | 40.4 |  | -0.39 | 0.15
+ |         Robinhood App  | 9.1 | 6.8 | 12.8 |  | 36 | 21.5 | 14.4 | 71 |  | 46.1 | 28.3 | 39.8 | 34 |  | 23.8 | 18.3 |  | -0.23 | -0.35
+ |         Bitstamp  | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 |  | 0 | 6.7 | 40.5 | 48.4 |  | 41.9 | 22.1 |  | -0.47 | 2.3
+ |     Event Contracts (B) | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 |  | 0.3 | 1 | 2.3 | 8.5 |  | 8.8 | 13.6 |  | 0.55 | NM
+ | Average Daily Trading Volumes6
+ |     Equity ($B) | 2.5 | 2.8 | 2.7 |  | 3.7 | 3.9 | 4.5 | 6.7 |  | 6.9 | 8.3 | 10.2 | 11.3 |  | 10.5 | 15.4 |  | 0.47 | 0.86
+ |     Options Contracts (M) | 4.6 | 4.8 | 4.7 |  | 5.6 | 6.2 | 7 | 7.6 |  | 8.3 | 8.3 | 9.6 | 10.5 |  | 9.6 | 12.5 |  | 0.3 | 0.51
+ |     Crypto ($M) | 100 | 74 | 139 |  | 396 | 236 | 157 | 772 |  | 512 | 385 | 873 | 896 |  | 730 | 444 |  | -0.39 | 0.15
+ |         Robinhood App  | 100 | 74 | 139 |  | 396 | 236 | 157 | 772 |  | 512 | 311 | 433 | 370 |  | 264 | 201 |  | -0.24 | -0.35
+ |         Bitstamp  | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 |  | 0 | 74 | 440 | 526 |  | 466 | 243 |  | -0.48 | 2.28
+ |     Event Contracts (M) | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 |  | 3 | 11 | 25 | 92 |  | 98 | 149 |  | 0.52 | NM
+ | Daily Average Trades (DATs) (M)3
+ |     Equity | 1.5 | 1.6 | 1.5 |  | 1.9 | 2 | 2 | 2.4 |  | 3.2 | 3.3 | 3.8 | 4 |  | 4.1 | 4.8 |  | 0.17 | 0.45
+ |     Options | 0.6 | 0.6 | 0.6 |  | 0.8 | 0.8 | 0.9 | 1 |  | 1.1 | 1.2 | 1.2 | 1.2 |  | 1.2 | 1.6 |  | 0.33 | 0.33
+ |     Crypto7 | 0.2 | 0.2 | 0.2 |  | 0.4 | 0.3 | 0.2 | 0.8 |  | 0.7 | 0.5 | 1 | 1 |  | 0.9 | 0.7 |  | -0.22 | 0.4
+ | Interest Earning Assets ($B)
+ | Margin Book1 | 3.3 | 3.6 | 3.5 |  | 4.1 | 5 | 5.5 | 7.9 |  | 8.8 | 9.5 | 13.9 | 16.8 |  | 17 | 21.6 |  | 0.27 | 1.27
+ | Cash and Deposits1, 8 | 10.8 | 9.2 | 10.2 |  | 10.4 | 10.3 | 11.2 | 10 |  | 9.8 | 14 | 14.4 | 11 |  | 16.7 | 18.7 |  | 0.12 | 0.34
+ | Cash Sweep1, 8, 9 | 11.9 | 13.6 | 16.4 |  | 19 | 20.9 | 24.5 | 26.1 |  | 28.2 | 32.7 | 35.4 | 32.8 |  | 26 | 29.7 |  | 0.14 | -0.09
+ | Securities Lending ($M)
+ | Total Securities Lending Revenue | 48 | 44 | 34 |  | 42 | 65 | 59 | 70 |  | 71 | 112 | 173 | 132 |  | 92 | 109 |  | 0.18 | -0.03
+ | Securities Lending, Net | 27 | 17 | 9 |  | 15 | 34 | 19 | 26 |  | 23 | 54 | 87 | 26 |  | 4 | 10 |  | 1.5 | -0.81
+ | See the "Definitions" page for definitions and additional information.
+ | (1) Values shown represent the last month of the quarter indicated. Please refer to the "Definitions" page for full definition. / (2) Q2 2026 includes ~300K Funded Customers from WonderFi, which we acquired on 6/1/2026. / (3) Starting in Q2 2026, Total Platform Assets and Robinhood App Crypto Notional Volume include results from WonderFi. / (4) Starting in June 2025, Net Deposits include results from Bitstamp. Starting in March 2026, Net Deposits include results from TradePMR. Starting in June 2026, Net Deposits include results from WonderFi  / (5) Values shown are actual results, and may differ from the sum of monthly metrics due to rounding. / (6) Average daily volumes ("ADVs") defined as Total Trading Volume in a given period divided by the applicable number of trading days in said period. / (7) Crypto DATs do not include Bitstamp Institutional activity. / (8) In February 2026, we updated our brokerage High-Yield Cash program to fund growth in margin lending. Under the updated program, the first $10 thousand in enrolled balances per eligible customer are held as free credit balances where the customer continues to earn the same interest rate. This resulted in over $6 billion of Cash Sweep balances moving to free credit balances in February 2026. / (9) Starting in December 2025, includes Robinhood Banking balances.
+
+======== SHEET: Monthly KPIs (state: visible)
+ | Robinhood Markets, Inc. and Consolidated Subsidiaries / Monthly Metrics Report for June 2026 / (Unaudited)
+ |  | 2023 |  |  |  |  |  |  |  |  |  | 2024 |  |  |  |  |  |  |  |  |  |  |  |  | 2025 |  |  |  |  |  |  |  |  |  |  |  |  | 2026 |  |  |  |  |  |  | Change
+ |  | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |  | Jan | Feb | Mar | Apr | May  | Jun | Jul | Aug | Sep | Oct | Nov | Dec |  | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |  | Jan | Feb | Mar | Apr | May | Jun |  | M/M | Y/Y
+ | (M - in millions, B - in billions)
+ | Funded Customer Growth (M)
+ | Funded Customers1 | 23.1 | 23.1 | 23.2 | 23.2 | 23.2 | 23.3 | 23.3 | 23.3 | 23.4 |  | 23.5 | 23.6 | 23.9 | 24 | 24.1 | 24.2 | 24.2 | 24.3 | 24.3 | 24.4 | 24.8 | 25.2 |  | 25.5 | 25.6 | 25.8 | 25.9 | 25.9 | 26.5 | 26.7 | 26.7 | 26.8 | 27.1 | 26.9 | 27 |  | 27.2 | 27.4 | 27.4 | 27.6 | 27.7 | 28.4 |  | 0.03 | 0.07
+ | Asset Growth ($B)
+ | Total Platform Assets2 | 77.4 | 81.8 | 88.8 | 94.5 | 89.7 | 86.5 | 84.6 | 94.4 | 102.6 |  | 102.4 | 118.7 | 129.6 | 123.3 | 135 | 139.7 | 144.5 | 143.6 | 152.2 | 159.7 | 194.6 | 192.9 |  | 203.7 | 187.4 | 220.6 | 232.3 | 255.3 | 278.6 | 298 | 303.9 | 332.7 | 342.6 | 324.5 | 322.1 |  | 324.4 | 314.2 | 307.3 | 345.4 | 377 | 368.7 |  | -0.02 | 0.32
+ | Net Deposits3 | 1.4 | 1.6 | 1.1 | 1.4 | 1.6 | 1 | 1 | 1.4 | 2.2 |  | 3.8 | 3.6 | 3.8 | 4.9 | 3.6 | 4.7 | 4.2 | 3.3 | 2.5 | 5.2 | 5.6 | 5.3 |  | 5.6 | 4.8 | 7.6 | 6.8 | 3.5 | 3.5 | 6.4 | 4.8 | 9.2 | 5.6 | 7.1 | 3.2 |  | 4.5 | 5.6 | 7.6 | 6 | 5.6 | 10.1 |  | NM | NM
+ | Trading
+ | Equities and Options Trading Days | 19 | 22 | 21 | 19.5 | 23 | 20 | 22 | 20.5 | 20 |  | 21 | 20 | 20 | 22 | 22 | 19 | 21.5 | 22 | 20 | 23 | 19.5 | 20.5 |  | 20 | 19 | 21 | 21 | 21 | 20 | 21.5 | 21 | 21 | 23 | 18.5 | 21.5 |  | 20 | 19 | 22 | 21 | 20 | 21 |  | 0.05 | 0.05
+ | Crypto and Prediction Markets Trading Days | 30 | 31 | 30 | 31 | 31 | 30 | 31 | 30 | 31 |  | 31 | 29 | 31 | 30 | 31 | 30 | 31 | 31 | 30 | 31 | 30 | 31 |  | 31 | 28 | 31 | 30 | 31 | 30 | 31 | 31 | 30 | 31 | 30 | 31 |  | 31 | 28 | 31 | 30 | 31 | 30 |  | -0.03 | 0
+ | Total Trading Volumes
+ |     Equity ($B) | 38.9 | 49.4 | 66.9 | 69.2 | 59.8 | 44.2 | 50.8 | 52.9 | 63.2 |  | 59.3 | 80.9 | 84.7 | 70.7 | 86.8 | 86.1 | 104.4 | 96.2 | 85.5 | 126.4 | 147.1 | 149.8 |  | 144.7 | 142.9 | 125.6 | 157.8 | 180.5 | 179.1 | 209.1 | 199.2 | 238.8 | 320.1 | 201.5 | 188.6 |  | 227.3 | 194.4 | 216.1 | 248.5 | 315.3 | 392 |  | 0.24 | 1.19
+ |     Options Contracts (M) | 75.3 | 97.5 | 110.5 | 106.1 | 107.3 | 87.3 | 96.6 | 95.3 | 104.5 |  | 106.2 | 119.1 | 118.2 | 126.6 | 131.9 | 131.1 | 160.5 | 146.9 | 136.1 | 158 | 155.5 | 163.7 |  | 166.6 | 165.6 | 167.9 | 167.5 | 179.8 | 168.1 | 195.8 | 195.5 | 218.8 | 266.7 | 193.2 | 199.4 |  | 200 | 180.3 | 205.9 | 224.8 | 231.1 | 318 |  | 0.38 | 0.89
+ |     Crypto ($B)2 | 3.7 | 2.1 | 3.3 | 3.4 | 2.2 | 1.2 | 2.3 | 4 | 6.5 |  | 5.9 | 6.5 | 23.6 | 10.1 | 7.1 | 4.3 | 5.3 | 5.4 | 3.7 | 5.6 | 35.2 | 30.2 |  | 20.4 | 14.4 | 11.3 | 8.6 | 11.7 | 14.7 | 28.7 | 28.1 | 23.5 | 32.5 | 28.6 | 21.2 |  | 22.9 | 25 | 17.8 | 11.9 | 12.2 | 16.3 |  | 0.34 | 0.11
+ |         Robinhood App  | 3.7 | 2.1 | 3.3 | 3.4 | 2.2 | 1.2 | 2.3 | 4 | 6.5 |  | 5.9 | 6.5 | 23.6 | 10.1 | 7.1 | 4.3 | 5.3 | 5.4 | 3.7 | 5.6 | 35.2 | 30.2 |  | 20.4 | 14.4 | 11.3 | 8.6 | 11.7 | 8 | 16.8 | 13.7 | 9.3 | 13.9 | 12 | 8.1 |  | 8.7 | 9.4 | 5.7 | 5.4 | 5.9 | 6.9 |  | 0.17 | -0.14
+ |         Bitstamp | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 | 0 | 6.7 | 11.9 | 14.4 | 14.2 | 18.6 | 16.6 | 13.1 |  | 14.2 | 15.6 | 12.1 | 6.5 | 6.3 | 9.4 |  | 0.49 | 0.4
+ |     Event Contracts (B) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.1 | 0.5 | 0 |  | 0 | 0 | 0.3 | 0.2 | 0.3 | 0.4 | 0.3 | 0.3 | 1.7 | 2.5 | 3 | 2.9 |  | 3.4 | 2.4 | 3 | 3.2 | 3.9 | 6.4 |  | 0.64 | NM
+ | Average Daily Trading Volumes4
+ |   Equity ($B) | 2 | 2.2 | 3.2 | 3.5 | 2.6 | 2.2 | 2.3 | 2.6 | 3.2 |  | 2.8 | 4 | 4.2 | 3.2 | 3.9 | 4.5 | 4.9 | 4.4 | 4.3 | 5.5 | 7.5 | 7.3 |  | 7.2 | 7.5 | 6 | 7.5 | 8.6 | 9 | 9.7 | 9.5 | 11.4 | 13.9 | 10.9 | 8.8 |  | 11.4 | 10.2 | 9.8 | 11.8 | 15.8 | 18.7 |  | 0.18 | 1.08
+ |   Options Contracts (M) | 4 | 4.4 | 5.3 | 5.4 | 4.7 | 4.4 | 4.4 | 4.6 | 5.2 |  | 5.1 | 6 | 5.9 | 5.8 | 6 | 6.9 | 7.5 | 6.7 | 6.8 | 6.9 | 8 | 8 |  | 8.3 | 8.7 | 8 | 8 | 8.6 | 8.4 | 9.1 | 9.3 | 10.4 | 11.6 | 10.4 | 9.3 |  | 10 | 9.5 | 9.4 | 10.7 | 11.6 | 15.1 |  | 0.3 | 0.8
+ |   Crypto ($M) | 123 | 68 | 110 | 110 | 71 | 40 | 74 | 133 | 210 |  | 190 | 224 | 761 | 337 | 229 | 143 | 171 | 174 | 123 | 181 | 1173 | 974 |  | 658 | 514 | 365 | 287 | 377 | 490 | 926 | 906 | 783 | 1048 | 953 | 684 |  | 739 | 893 | 574 | 397 | 393 | 543 |  | 0.38 | 0.11
+ |     Robinhood App | 123 | 68 | 110 | 110 | 71 | 40 | 74 | 133 | 210 |  | 190 | 224 | 761 | 337 | 229 | 143 | 171 | 174 | 123 | 181 | 1173 | 974 |  | 658 | 514 | 365 | 287 | 377 | 267 | 542 | 442 | 310 | 448 | 400 | 261 |  | 281 | 336 | 184 | 180 | 190 | 230 |  | 0.21 | -0.14
+ |     Bitstamp | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 | 0 | 223 | 384 | 465 | 473 | 600 | 553 | 423 |  | 458 | 557 | 390 | 217 | 203 | 313 |  | 0.54 | 0.4
+ |   Event Contracts (M) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 17 | 0 |  | 0 | 0 | 10 | 7 | 10 | 13 | 10 | 10 | 57 | 81 | 100 | 94 |  | 110 | 86 | 97 | 107 | 126 | 213 |  | 0.69 | NM
+ | Daily Average Trades (DATs) (M)
+ |   Equity | 1.4 | 1.5 | 1.7 | 1.7 | 1.5 | 1.5 | 1.4 | 1.4 | 1.8 |  | 1.7 | 1.9 | 2.2 | 1.8 | 2 | 2.2 | 2.1 | 1.9 | 2 | 2 | 2.5 | 2.8 |  | 3.3 | 3.2 | 3 | 3.3 | 3.1 | 3.5 | 3.7 | 3.6 | 4.1 | 4.4 | 3.9 | 3.6 |  | 4.2 | 4 | 4 | 4 | 4.8 | 5.7 |  | 0.19 | 0.63
+ |   Options | 0.5 | 0.6 | 0.7 | 0.7 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  | 0.7 | 0.8 | 0.8 | 0.8 | 0.8 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 1 | 1 |  | 1.1 | 1.2 | 1.1 | 1.2 | 1.2 | 1.1 | 1.1 | 1.2 | 1.3 | 1.4 | 1.3 | 1.1 |  | 1.3 | 1.3 | 1.2 | 1.3 | 1.5 | 2.1 |  | 0.4 | 0.91
+ |   Crypto5 | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 | 0.1 | 0.2 | 0.2 | 0.3 |  | 0.3 | 0.3 | 0.7 | 0.4 | 0.3 | 0.3 | 0.3 | 0.3 | 0.2 | 0.2 | 1 | 1 |  | 0.9 | 0.7 | 0.6 | 0.5 | 0.5 | 0.7 | 1.1 | 1 | 0.9 | 1.1 | 1.1 | 0.9 |  | 1 | 1.1 | 0.7 | 0.6 | 0.7 | 0.8 |  | 0.14 | 0.14
+ | Interest Earning Assets ($B)
+ | Margin Book | 3.1 | 3.1 | 3.3 | 3.4 | 3.5 | 3.6 | 3.5 | 3.4 | 3.5 |  | 3.6 | 3.8 | 4.1 | 4.1 | 4.5 | 5 | 5.4 | 5.5 | 5.5 | 6.2 | 6.8 | 7.9 |  | 8.3 | 8.7 | 8.8 | 8.4 | 9 | 9.5 | 11.4 | 12.5 | 13.9 | 16.5 | 16.8 | 16.8 |  | 18.4 | 17.2 | 17 | 18 | 19.5 | 21.6 |  | 0.11 | 1.27
+ | Cash and Deposits6 | 9.9 | 10.5 | 10.8 | 10.7 | 9.8 | 9.2 | 9 | 9.5 | 10.2 |  | 9.6 | 10.1 | 10.4 | 10.4 | 10.3 | 10.3 | 9.4 | 9.7 | 11.2 | 11.3 | 11.3 | 10 |  | 10.7 | 9.9 | 9.8 | 11.4 | 12.1 | 14 | 14.6 | 14.3 | 14.4 | 14.7 | 12.1 | 11 |  | 11.7 | 16.5 | 16.7 | 18.1 | 18.6 | 18.7 |  | 0.01 | 0.34
+ | Cash Sweep6, 7 | 9.6 | 11.2 | 11.9 | 12.7 | 13.3 | 13.6 | 13.9 | 15.2 | 16.4 |  | 16.8 | 18.1 | 19 | 19.1 | 20.3 | 20.9 | 21.8 | 22.8 | 24.5 | 25.5 | 26.5 | 26.1 |  | 26.3 | 26.2 | 28.2 | 28.9 | 30.8 | 32.7 | 33.6 | 34.1 | 35.4 | 34.2 | 32.5 | 32.8 |  | 31.5 | 25.8 | 26 | 27.6 | 28.8 | 29.7 |  | 0.03 | -0.09
+ | Securities Lending ($M)
+ | Total Securities Lending Revenue | 18 | 15 | 15 | 17 | 17 | 10 | 11 | 11 | 12 |  | 12 | 13 | 17 | 21 | 23 | 21 | 21 | 20 | 18 | 19 | 23 | 28 |  | 25 | 22 | 24 | 25 | 33 | 54 | 61 | 53 | 59 | 60 | 34 | 38 |  | 34 | 25 | 33 | 32 | 36 | 41 |  | 0.14 | -0.24
+ |   Securities Lending, Net | 11 | 9 | 7 | 8 | 7 | 1 | 2 | 3 | 3 |  | 3 | 5 | 7 | 11 | 13 | 10 | 9 | 6 | 4 | 6 | 8 | 12 |  | 10 | 6 | 7 | 9 | 13 | 32 | 37 | 24 | 26 | 24 | 0 | 2 |  | 4 | -1 | 1 | 3 | 5 | 2 |  | -0.6 | -0.94
+ | See the "Definitions" page for definitions and additional information.
+ | (1) June 2026 includes ~300K Funded Customers from WonderFi, which we acquired on 6/1/2026.
+ | (2) Starting in June 2026, Total Platform Assets and Robinhood App Crypto Notional Volume include results from WonderFi.
+ | (3) Starting in June 2025, Net Deposits include results from Bitstamp. Starting in March 2026, Net Deposits include results from TradePMR. Starting in June 2026, Net Deposits include results from WonderFi.
+ | (4) Average daily volumes ("ADVs") defined as Total Trading Volume in a given period divided by the applicable number of trading days in said period.
+ | (5) Crypto DATs do not include Bitstamp Institutional activity.
+ | (6) In February 2026, we updated our brokerage High-Yield Cash program to fund growth in margin lending. Under the updated program, the first $10 thousand in enrolled balances per eligible customer are held as free credit balances where the customer continues to earn the same interest rate. This resulted in over $6 billion of Cash Sweep balances moving to free credit balances in February 2026.
+ | (7) Starting in December 2025, includes Robinhood Banking balances.
+
+======== SHEET: Definitions (state: visible)
+Key Performance Metrics
+Funded Customers:
+We define a Funded Customer as a unique person who has at least one account with a Robinhood entity and, within the past 45 calendar days (a) had an account balance that was greater than zero (excluding amounts that are deposited into a Funded Customer account by the Company with no action taken by the unique person) or (b) completed a transaction using any such account. Individuals who share a funded joint investing account (which launched in July 2024) are each considered to be a Funded Customer. Starting in Q1 2025, individuals who are customers of Registered Investment Advisors ("RIAs") that use the TradePMR platform, and, starting in June 2025, customers of Bitstamp are also considered Funded Customers. Starting in June 2026, customers of WonderFi are also considered Funded Customers.
+Total Platform Assets:
+ / We define Total Platform Assets as the sum of the fair value of all equities, options, cryptocurrency, futures (including options on futures and swaps, including event contracts), cash held by users in their accounts, net of receivables from users (previously reported as Assets Under Custody), and any such assets managed by RIAs using TradePMR’s platform that are not custodied by Robinhood, as of a stated date or period end on a trade date basis. Net Deposits and net market gains (losses) drive the change in Total Platform Assets in any given period. Starting in June 2025, the fair value of all cryptocurrency includes cryptocurrency on Bitstamp. Starting in June 2026, the fair value of all cryptocurrency also includes cryptocurrency on WonderFi. Total Platform Assets also include cryptocurrency lent through platform-enabled lending programs, where customers may recall such assets at any time through the platform.
+Net Deposits:
+We define Net Deposits as all cash deposits and asset transfers from customers, as well as dividends, interest, staking rewards, and cash or assets earned in connection with Company promotions (such as account transfer and retirement match incentives, free stock bonuses) received by customers, net of reversals, customer cash withdrawals, margin and lending interest, Robinhood Gold subscription fees, and assets transferred off of our platforms for a stated period. Prior to the second quarter of 2024, Net Deposits did not include inflows from cash or assets earned in connection with Company promotions and prior to January 2024, Net Deposits did not include inflows from dividends and interest or outflows from Robinhood Gold subscription fees and margin interest, although we have not restated amounts in prior periods as the impact to those figures was immaterial. Starting in June 2025, Net Deposits include results from Bitstamp. As previously  disclosed, due to data limitations we did not include TradePMR client figures in our Net Deposits key performance metric prior to March 2026. Starting in March 2026, Net Deposits include results from TradePMR. Starting in June 2026, Net Deposits also include results from WonderFi.
+Additional Operating Metrics
+Margin Book:
+We define Margin Book as our period-end aggregate outstanding margin loan balances receivable (i.e., the period-end total amount we are owed by customers on loans made for the purchase of securities, supported by a pledge of assets in their margin-enabled brokerage accounts). This includes margin loan balances from customers of RIAs using TradePMR’s platform.
+Cash Sweep:
+We define Cash Sweep as the period-end total amount of participating users’ uninvested brokerage and banking cash that has been automatically “swept” or moved from their accounts into deposits for their benefit at a network of program banks. This is an off-balance-sheet amount. Robinhood earns a net interest spread on Cash Sweep balances based on the interest rate offered by the banks less the interest rate given to users as stated in our program terms. This includes balances from customers of RIAs using TradePMR’s platform. In February 2026, we updated our brokerage High-Yield Cash program to fund growth in margin lending, resulting in over $6 billion of Cash Sweep balances moving to Cash and Deposits in the form of customer free credit balances.
+Notional Trading Volume:
+We define Notional Trading Volume, or Notional Volume, for any specified asset class as the aggregate dollar value (purchase price or sale price as applicable) of trades executed in that asset class on our platforms over a specified period of time. Crypto Notional Volume includes both Robinhood App Notional Volume and Bitstamp Notional Volume. Robinhood App Notional Volume represents the dollar value of executed crypto trades on the Robinhood platform over a specified period of time, and, starting in June 2026, includes the dollar value of executed crypto trades from WonderFi customers. Bitstamp Notional Volume represents the dollar value of executed crypto trades on the Bitstamp platform over a specified period of time. For example, each $1 of transaction value executed between a buyer and seller is counted as $1 of transaction value in the relevant period, rather than $2 if counted for each of the buyer and seller.
+Options Contracts Traded:
+We define Options Contracts Traded as the total number of options contracts bought or sold over a specified period of time. Each contract generally entitles the holder to trade 100 shares of the underlying stock.
+Event Contracts Traded:
+We define Event Contracts Traded as the total number of event contracts bought or sold over a specified period of time through our Prediction Markets Hub. Each contract can be traded at $0.01 increments up to $1 and is worth $1 upon settlement.
+Total Trading Volumes:
+Total Trading Volumes represent Notional Trading Volumes for Equity and Crypto, and Options Contracts Traded for Options, and Event Contracts Traded for Event Contracts.
+Total Securities Lending Revenue:
+Total Securities Lending Revenue includes net rebates and interest on cash collateral for both margin based and fully paid securities lending.
+Monthly Active Users (“MAU”):
+We define MAUs as the number of unique persons who, using one or more accounts with a Robinhood entity, meet one of the following criteria at any point during a specified calendar month: a) executes a debit card or credit card transaction, b) transitions between two different screens on a mobile device while logged into their account or c) loads a page in a web browser while logged into their account. A person need not satisfy these conditions on a recurring monthly basis or be a Funded Customer to be included in MAU. MAU figures in this supplement reflect MAU for the last month of the relevant period presented. We utilize MAU to measure how many customers interact with our products and services during a given month. MAU does not measure the frequency or duration of the interaction, but we consider it a useful indicator for engagement. Additionally, MAUs are positively correlated with, but are not indicative of, the performance of revenue and other key performance indicators.
+Cash and Deposits:
+We define Cash and Deposits as the period-end sum of cash and cash equivalents, restricted cash, segregated cash, cash equivalents, and securities under federal and other regulations, deposits with clearing organizations, and investments.
+Securities Lending, Net:
+Securities Lending, Net includes net rebates for both margin based and fully paid securities lending, as well as interest on cash collateral for fully paid securities lending. It does not include interest on cash collateral for margin based securities lending.
+Glossary Terms
+Daily Average Trades (“DATs”)
+We define DATs for any asset class as the total number of trades for a given asset class executed during a given period divided by the number of trading days for a given asset class in that period.
+The Quarterly KPIs and Monthly KPIs tabs disclose each quarter's or each month's, as applicable, number of trading days for equities and options. For crypto, the number of trading days is equal to the number of calendar days in the quarter or month.
+Free Credit Balances and Other:
+We define Free Credit Balances and Other as the period-end total amount of users' uninvested cash in their accounts that is not participating in the "Cash Sweep" program.
+

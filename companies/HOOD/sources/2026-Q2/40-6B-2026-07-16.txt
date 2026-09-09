@@ -1,0 +1,1256 @@
+40-6B
+1
+dp249846_406b.htm
+FORM 40-6B
+
+SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+____________________
+
+File No. [●]
+
+____________________
+
+Robinhood Markets, Inc.
+
+and
+
+Robinhood Employee Fund, LP
+
+(Name of Applicants)
+
+____________________
+
+85 Willow Road
+
+Menlo Park, CA 94025
+
+(Address of principal offices of Applicants)
+
+____________________
+
+APPLICATION PURSUANT TO SECTIONS 6(b) AND 6(e)
+OF THE INVESTMENT COMPANY ACT OF 1940 FOR AN ORDER EXEMPTING APPLICANTS FROM CERTAIN PROVISIONS OF THAT ACT
+
+Written communications regarding this Application
+and copies of
+
+all orders should be addressed to the following persons:
+
+John Markle Maureen Montgomery 85 Willow Road Menlo Park, CA 94025 (650) 761-7789 | Christopher P. Healey Davis Polk & Wardwell LLP 1050 17th Street, NW Washington, DC 20036 (202) 962-7000 christopher.healey@davispolk.com Gregory S. Rowland Davis Polk & Wardwell LLP 450 Lexington Avenue New York, NY 10017 (212) 450-4000 gregory.rowland@davispolk.com
+
+The Application consists of 24 pages, including exhibits.
+
+Table of Contents
+
+Page
+I. | Summary | 1
+II. | Statement of Facts | 2
+A. | Robinhood and the Partnerships | 2
+B. | Eligible Employees and Qualified Participants | 3
+C. | Structure of the Partnerships | 5
+D. | Management | 7
+E. | Investments | 9
+F. | Distributions | 10
+G. | Reports and Accounting | 11
+H. | Partnership Term and Dissolution | 11
+III. | Request for Relief and Legal Analysis | 11
+A. | Status as Employees Securities Companies | 11
+B. | Community of Interests | 12
+C. | Burdens of Compliance | 12
+D. | Specific Relief | 12
+1. | Section 17(a) | 12
+2. | Section 17(d) and Rule 17d-1 | 13
+3. | Section 17(e) and Rule 17e-1 | 14
+4. | Section 17(f) | 15
+5. | Section 17(g) and Rule 17g-1 | 16
+6. | Section 17(j) and Rule 17j-1 | 17
+7. | Sections 30(a), (b), (e) and (h) | 17
+8. | Rule 38a-1 | 17
+IV. | Applicants’ Conditions | 18
+V. | Procedural Matters | 19
+
+i
+
+SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+In the Matter of Robinhood Markets, Inc. 85 Willow Road Menlo Park, CA 94025 File No. [●] | x : : : : : : : x | Application Pursuant to Sections 6(b) and
+6(e) of the Investment Company Act of 1940 for an Order Exempting Applicants from Certain Provisions of that Act
+
+I. | Summary
+
+Robinhood Markets, Inc., a Delaware corporation
+(“Robinhood”) and its Affiliates (as defined in Rule 12b-2 promulgated under the Securities Exchange Act of 1934, as
+amended (the “1934 Act”)) have established Robinhood Employee Fund, LP (the “Investment Fund”
+and together with Robinhood, the “Applicants”) and may in the future organize partnerships, limited liability companies,
+corporations, business or statutory trusts or other entities, domiciled inside or outside of the United States, or series of any of the
+foregoing (to the extent such series is an issuer for purposes of the 1940 Act), as “employees’ securities companies”
+as defined in Section 2(a)(13) of the 1940 Act (each, a “Partnership” and collectively with the Investment Fund, the
+“Partnerships”). The Applicants hereby request an order (the “Order”) of the U.S. Securities and Exchange
+Commission (the “Commission”) under Sections 6(b) and 6(e) of the Investment Company Act of 1940, as amended (the “1940
+Act”) exempting the Partnerships from all provisions of the 1940 Act and the rules and regulations under the 1940 Act, except Sections
+9, 17, 30, 36 through 53, and the rules and regulations thereunder (the “Rules and Regulations”). With respect
+to Sections 17(a), (d), (e), (f), (g), and (j) and 30(a), (b), (e), and (h) of the 1940 Act and the Rules and Regulations, and Rule 38a-1
+under the 1940 Act, Applicants request a limited exemption as set forth in this application (the “Application”).
+
+No form having been prescribed by the Commission,
+the Applicants proceed under Rule 0-2 under the 1940 Act.
+
+The Applicants state that any Partnership offered
+in reliance on Rule 6b-1 under the 1940 Act prior to a final determination on the Application by the Commission will comply with all of
+the terms and conditions stated in the most recent version of the Application filed with the Commission.
+
+The Investment Fund has been, and any other Partnerships
+will be, established for Eligible Employees (as defined below) of Robinhood as part of a program designed to create investment opportunities
+that are competitive with those at other investment management and financial services firms, to facilitate the recruitment and retention
+of high caliber professionals. Each Partnership will have a general partner, managing member or other such similar entity (a “General
+Partner”) that manages, operates and controls such Partnership. Robinhood will control each Partnership within the meaning of
+Section 2(a)(9) of the 1940 Act.
+
+Eligible Employees given the opportunity to invest
+in the Partnerships will include Robinhood employees who are engaged in various aspects of the investment management or related financial
+services businesses, or in administrative, financial, accounting, legal, marketing or operational activities related to such businesses.
+Eligible Employees and certain of their family members will be individuals who (i) satisfy certain financial and sophistication standards
+and will not need the protection of the regulatory safeguards intended to protect the public, and (ii) will be “accredited investors”
+under Rule 501(a)(5), Rule 501(a)(6), 501(a)(10) or 501(a)(11) of Regulation D under the Securities Act of 1933 (the “1933 Act”),
+except that up to 35 Limited Partners in any Partnership may not be accredited investors.
+
+1
+
+All potential investors in the Partnership (the
+“Limited Partners”) will be informed that, among other things, (i) interests in the Partnerships (the “Interests”)
+will be sold in transactions exempt under Section 4(a)(2) of the 1933 Act (“Section 4(a)(2)”), or Regulation D or Regulation
+S promulgated thereunder, and thus offered without registration under and without the protections afforded by the 1933 Act, and (ii) the
+Partnerships will be exempt from most provisions of the 1940 Act and from the protections afforded thereby.
+
+The Applicants believe that, in view of the facts
+described below and the conditions contained in this Application, and in view of the access to information, investment sophistication
+and financial capacity of the Limited Partners, the concerns regarding overreaching and abuse of investors that the 1940 Act was designed
+to prevent will not be present.
+
+II. | Statement of Facts
+
+A statement of the facts relied upon as the basis
+for the action of the Commission herein requested is as follows:
+
+A. Robinhood
+and the Partnerships
+
+Robinhood’s Business
+
+Robinhood operates a financial services platform
+that serves primarily investors in the United States. Through the platform, users can, among other things, invest in stocks, exchange-traded
+funds, American depository receipts, options, futures, event contracts, and cryptocurrencies, and can hold these assets in individual
+brokerage and retirement accounts The Robinhood platform also provides investment advisory services to funds and other clients. Further,
+it also provides Robinhood Gold, a paid subscription providing higher yields on uninvested cash, larger instant deposits, margin investing,
+and expanded research and market data. Robinhood also offers credit cards, cash cards, and spending accounts, and cryptocurrency wallets.
+Robinhood was incorporated in 2013 and is headquartered in Menlo Park, California.
+
+The Investment Fund
+
+Robinhood formed the Investment Fund on July 1,
+2026, as a limited partnership organized under the laws of the State of Delaware. Robinhood is the initial investor in the Investment
+Fund and may sell all or some of its interest in the Investment Fund to Eligible Employees and their Qualified Participants (both
+as defined below) in accordance with the terms of this Application. Robinhood Employee Fund GP, LLC, a Delaware limited liability company
+(the “General Partner”) currently serves as the General Partner of the Investment Fund and is responsible for managing the
+business of the Investment Fund. Robinhood Ventures DE, LLC will serve as investment adviser to the Investment Fund. As of the filing
+date of this Application, the terms of the Investment Fund have not yet been finalized and it has not yet commenced operations as an
+investment vehicle for Eligible Employees and their Qualified Participants. The Investment Fund will be structured and operate
+as a Partnership as described below.
+
+The Partnerships
+
+Robinhood formed the Investment Fund, and may
+form additional Partnerships, for the benefit of Eligible Employees and their Qualified Participants (as defined below) as part of a program
+designed to create capital building opportunities that are competitive with those at other financial services firms and to facilitate
+the recruitment and retention of high caliber professionals. The Partnerships will enable Eligible Employees and their Qualified Participants
+to pool their investment resources and to have the opportunity to receive the benefit of certain investment opportunities without the
+necessity of having each investor identify the opportunities and analyze their investment merit. Robinhood intends the Partnerships to
+provide long-term financial incentives for all Limited Partners to preserve Robinhood’s competitive advantage and to align the financial
+interests of all Limited Partners with those of Robinhood’s clients. Pooling of resources should allow Limited Partners diversification
+of investments and participation in investments that usually would not be available to them as individual investors. Each Partnership
+will comply with the terms and conditions of this Application.
+
+In some instances, Robinhood may form a Partnership
+to co-invest with one or more investment funds or separate accounts organized primarily for the benefit of investors who are not affiliated
+with Robinhood over which a Robinhood entity or an Unaffiliated Subadviser (as defined below) exercises investment discretion (each, a
+“Third-Party Fund”) in all or a portion of such Third-Party Funds’
+investments or to invest in one or more Third-Party Funds.
+
+2
+
+A Partnership will be structured as a limited
+partnership, limited liability company, corporation, business or statutory trust or other entity, or series of any of the foregoing, organized
+under the laws of the State of Delaware or any other U.S. or non-U.S. jurisdiction. A Partnership may be organized under the laws of a
+non-U.S. jurisdiction to address any tax, legal, accounting and regulatory considerations applicable to certain Eligible Employees in
+certain jurisdictions or the nature of the investment program. A Partnership may serve as a “master fund” for other Partnerships.
+The investment objectives and policies of the Partnerships may vary from Partnership to Partnership. A Partnership will operate in accordance
+with its limited partnership agreement, operating agreement or other organizational documents (each, a “Partnership Agreement”).
+Each Partnership will operate as a closed-end or open-end investment company, and a particular Partnership may operate as a “diversified”
+or “non-diversified” vehicle within the meaning of the 1940 Act.
+
+A Robinhood entity will be a General Partner of
+each Partnership. A General Partner will be structured as a limited partnership, limited liability company, corporation or other type
+of entity organized under the laws of the State of Delaware or any other U.S. or non-U.S. jurisdiction. The duties and responsibilities
+of a General Partner with respect to a Partnership will be set forth in the applicable Partnership Agreement. If a limited liability company
+structure is used for a Partnership, generally neither the General Partner nor any of the members of the limited liability company would
+be liable to third parties for the obligations of the Partnership.
+
+The General Partner or another Robinhood entity
+will serve as investment adviser (the “Investment Adviser”) to a Partnership. The Investment Adviser will be registered
+as an investment adviser under the Investment Advisers Act of 1940, as amended (the “Advisers Act”), if required under
+applicable law. The determination as to whether a General Partner or other Investment Adviser to a Partnership is required to register
+under the Advisers Act will be made by Robinhood; no relief in respect of such determination is requested herein. Each Investment Adviser
+to a Partnership shall comply with the standards prescribed in Sections 9, 36 and 37 of the 1940 Act. The Applicants represent and concede
+that the Investment Adviser in managing a Partnership is an “investment adviser” within the meaning of Sections 9 and 36 of
+the 1940 Act and is subject to those sections.
+
+B. Eligible
+Employees and Qualified Participants
+
+Interests in a Partnership will be offered without
+registration in a transaction exempt under Section 4(a) (2), or Regulation D or Regulation S1 promulgated thereunder, and
+will be sold only to: (i) Eligible Employees; (ii) at the request of Eligible Employees and the discretion of the General Partner, to
+Qualified Participants of such Eligible Employees or (iii) to Robinhood entities.
+
+In order to qualify as an “Eligible
+Employee,” (a) an individual must (i) be a current or former employee, officer or director or current Consultant (as defined
+below) of Robinhood and (ii) except for certain individuals who meet the definition of “knowledgeable employee” in Rule 3c-5(a)(4)
+under the 1940 Act as if the Partnerships were “Covered Companies” within the meaning of the rule and a limited number of
+other employees of Robinhood2 (collectively, “Non-Accredited Investors”), meet
+the standards of an “accredited investor” under Rule 501(a)(5), Rule 501(a)(6), 501(a)(10) or 501(a)(11) of Regulation D,
+or (b) an entity must (i) be a current Consultant of Robinhood and (ii) meet the standards of an “accredited investor” under
+Rule 501(a) of Regulation D. A Partnership may not have more than 35 Non-Accredited Investors.
+
+_________________
+
+1 | The Applicants may rely on Regulation S to offer Interests in
+a Partnership to Robinhood entities, Eligible Employees and their Qualified Participants who are based outside of the United States and
+are not U.S. Persons in order to create investment opportunities for such persons. The Applicants may also offer Interests to such persons
+in reliance on Section 4(a)(2) or Regulation D. Any such persons will be required to meet the eligibility criteria described herein in
+order to participate in a Partnership.
+
+2 | Eligible Employees who are Non-Accredited Investors must meet
+the sophistication requirements set forth in Rule 506(b)(2) (ii) of Regulation D under the 1933 Act and may be permitted to invest his
+or her own funds in the Partnership if, at the time of such Eligible Employee’s investment in a Partnership, he or she (a) has
+a graduate degree in business, law or accounting, (b) has a minimum of five years of consulting, investment management, investment banking,
+legal or similar business experience, and (c) has had reportable income from all sources of at least $100,000 in each of the two most
+recent years and a reasonable expectation of income from all sources of at least $140,000 in each year in which such person will be committed
+to make investments in a Partnership. In addition, such Eligible Employee will not be permitted to invest in any year more than 10% of
+his or her income from all sources for the immediately preceding year in the aggregate in such Partnership and in all other Partnerships
+in which he or she has previously invested.
+
+3
+
+At the request of an Eligible Employee and the
+discretion of the General Partner, Interests may be assigned by such Eligible Employee, or sold directly by the Partnership, to a Qualified
+Participant of an Eligible Employee. In order to qualify as a “Qualified Participant,” an individual or entity must
+(i) be an Eligible Family Member or Eligible Investment Vehicle (in each case as defined below), respectively, of an Eligible Employee
+and (ii) if purchasing an Interest from a Partnership, except as discussed below, come within one of the categories of an “accredited
+investor” under Rule 501(a) of Regulation D. An “Eligible Family Member” is a spouse (or spousal equivalent
+as defined in Rule 501(j) of Regulation D of the 1933 Act), parent, child, spouse (or spousal equivalent as defined in Rule 501(j) of
+Regulation D of the 1933 Act) of a child, brother, sister or grandchild of an Eligible Employee, including step and adoptive relationships.
+An “Eligible Investment Vehicle” is (a) a trust of which the trustee, grantor and/or beneficiary is an Eligible Employee,
+(b) a partnership, corporation or other entity controlled by an Eligible Employee,3 or (c) a trust or other entity established
+solely for the benefit of an Eligible Employee and/or one or more Eligible Family Members of an Eligible Employee. An Eligible Employee
+or Eligible Family Member may purchase an Interest through an Eligible Investment Vehicle only if either (i) except for Non-Accredited
+Investors within any 35 Non-Accredited Investors limit discussed above, the investment vehicle is an “accredited investor”
+as defined in Rule 501(a) of Regulation D, or (ii) the Eligible Employee is a settlor and principal investment decision-maker with respect
+to the investment vehicle. If such investment vehicle is an entity other than a trust, the term “settlor” shall be read to
+mean a person who created such vehicle, alone or together with other eligible individuals, and contributed funds to such vehicle. Eligible
+Investment Vehicles that are Non-Accredited Investors will be counted in accordance with Regulation D toward the 35 Non-Accredited Investors
+limit discussed above.
+
+Because of the requirements described above,
+Interests in each Partnership will be held by persons and entities with a close nexus to Robinhood through employment (or other ongoing
+relationship in the case of Consultants (as defined below)) and/or family ties. However, the status of an individual or entity as a Qualified
+Participant will not be affected by the termination of employment or other relationship of the relevant Eligible Employee, except under
+the circumstances described below with respect to Consultants and Eligible Employees under “Structure of the Partnerships.”4
+The General Partner will have the absolute right to require the repurchase, redemption, forced withdrawal or transfer of any Interest
+for its fair market value if (among other reasons) the General Partner determines in good faith that any Limited Partner’s continued
+ownership of such Interest in a Partnership jeopardizes such Partnership’s status as an “employees’ securities company”
+under the 1940 Act and as contemplated by this Application.
+
+It is anticipated that, at the sole discretion
+of the General Partner, current consultants or business or legal advisors of Robinhood may be offered the opportunity to participate in
+the Partnerships. Robinhood believes that persons or entities whom Robinhood has engaged on retainer to provide services and professional
+expertise on an ongoing basis as regular consultants or business or legal advisors to Robinhood (each, a “Consultant”)
+share a community of interest with Robinhood and Robinhood’s employees. In order to participate in a Partnership, Consultants must
+be currently engaged by Robinhood and will be required to be an “accredited investor” under Rule 501(a) of Regulation D. If
+a Consultant is an entity (such as, for example, a law firm or consulting firm), and the Consultant proposes to invest in the Partnership
+through a partnership, corporation or other entity that is controlled by the Consultant, the individual participants in such partnership,
+corporation or other entity will be limited to senior level employees, members or partners of the Consultant who are responsible for the
+activities of the Consultant and will be required to qualify as “accredited investor” under
+Rule 501(a) of Regulation D. In addition, such entities will be limited to businesses controlled by individuals who have levels of expertise
+and sophistication in the area of investments in securities that are comparable to Eligible Employees who are employees, officers or directors
+of Robinhood and who have an interest in maintaining an ongoing relationship with Robinhood. Most importantly, the individuals participating
+through such entities will belong to that class of persons who will have access to the directors and officers of the General Partner and/or
+the directors and officers of Robinhood responsible for making investments for the Partnerships similar to the access afforded Eligible
+Employees who are employees, officers or directors of Robinhood. Accordingly, there will be a close nexus between Robinhood and such entities.
+
+_________________
+
+3 | The inclusion of partnerships, corporations, or other entities
+controlled by an Eligible Employee in the definition of “Eligible Investment Vehicle” is intended to enable Eligible Employees
+to make investments in the Partnerships through personal investment vehicles for the purpose of personal and family investment and estate
+planning objectives. Accordingly, there is a close nexus between Robinhood and the investment vehicle through the individual who controls
+the vehicle.
+
+4 | As permitted under Section 2(a)(13) of the 1940 Act, Interests
+may be held by current and former employees, officers and directors of Robinhood and their Qualified Participants.
+
+4
+
+The limitations on the class of persons who may
+subscribe for, acquire or hold Interests, in conjunction with other characteristics of the Partnerships, will qualify each Partnership
+as an “employees’ securities company” under Section 2(a)(13) of the 1940 Act.5 Investing in the Partnerships
+will be voluntary on the part of Eligible Employees and their Qualified Participants. No sales load or similar fee of any kind will be
+charged in connection with the sale of Interests. Eligible Employees will be experienced in the investment management or related financial
+services businesses or in administrative, financial, accounting, legal, marketing or operational activities related thereto. Eligible
+Employees will be individuals who satisfy certain financial and sophistication standards, are able to make investment decisions on their
+own and will not need the protection of the regulatory safeguards intended to protect the public.
+
+Prior to offering Interests to an Eligible Employee
+or its Qualified Participants, a General Partner must reasonably believe that each Eligible Employee or Qualified Participant will be
+capable of understanding and evaluating the merits and risks of participating in a Partnership and that each such individual is able to
+bear the economic risk of such participation and afford a complete loss of his or her investments in Partnerships. The General Partner
+may impose more restrictive suitability standards in its sole discretion.
+
+C. Structure
+of the Partnerships
+
+The management of each Partnership will be vested
+in its General Partner. All Partnerships will have only Eligible Employees, Qualified Participants, or Robinhood entities as Limited Partners,
+may have minimum capital commitments, capital contributions or subscription amounts and will have restrictions with respect to transferability
+of Interests.
+
+While the terms of a Partnership will be determined
+by Robinhood in its discretion, these terms will be fully disclosed to each Eligible Employee and, if a Qualified Participant of such
+Eligible Employee is required to make an investment decision with respect to whether or not to participate in a Partnership, to such Qualified
+Participant, at the time such Eligible Employee or Qualified Participant is invited to participate in the Partnership. Among other things,
+each Eligible Employee and, if a Qualified Participant of such Eligible Employee is required to make an investment decision with respect
+to whether or not to participate in a Partnership, such Qualified Participant, will be furnished with offering materials, including a
+copy of the applicable Partnership Agreement for the relevant Partnership, which will set forth in full the terms applicable to a Limited
+Partner’s Interest in a Partnership.
+
+In some instances, Robinhood may provide a portion
+of the initial capital for each Partnership in order for the Partnership to satisfy the definition of “qualified purchaser”
+(as defined in Section 2(a)(51) of the 1940 Act and the rules thereunder). In the event that Robinhood provides such initial capital,
+Robinhood may retain such Interests, but may also withdraw or sell such Interests to Eligible Employees or their Qualified Participants
+as Eligible Employees or their Qualified Participants purchase Interests over time and, in the case of any such sale, the sale price will
+be equal to the lesser of (i) the amount actually paid by or on behalf of Robinhood to acquire the Interest, plus interest, less any distributions
+or withdrawals, and (ii) the fair market value of the Interest determined at the time of the sale as determined in good faith by Robinhood.
+These practices will be fully disclosed to Eligible Employees and their Qualified Participants. Interests so acquired by a Robinhood entity
+will be acquired from the Partnership at the same price as Interests purchased by the other Limited Partners and, while held by Robinhood,
+will be voted in proportion to the votes of the other Limited Partners (if any). In addition, the Robinhood entity may award these Interests
+at any time during the life of the Partnership to Eligible Employees as bonus or similar compensation. The sale or award of these Interests
+by Robinhood will have no dilutive effect upon the Interests of already existing Limited Partners because the Interests will have already
+been issued and sold at the closing of the Partnership of the Robinhood entity. Interests awarded as bonus or similar compensation may
+be subject to vesting arrangements to be determined by Robinhood.
+
+_________________
+
+5 | Section 2(a)(13) of the 1940 Act defines an “employees’
+securities company” as “any investment company or similar issuer all of the outstanding securities of which (other than short-term
+paper) are beneficially owned (A) by the employees or persons on retainer of a single employer or of two or more employers each of which
+is an affiliated company of the other, (B) by former employees of such employer or employers, (C) by members of the immediate family
+of such employees, persons on retainer, or former employees, (D) by any two or more of the foregoing classes of persons, or (E) by such
+employer or employers together with any one or more of the foregoing classes of persons.”
+
+5
+
+Eligible Employees may be offered the opportunity
+to participate in a Partnership through deferred or bonus compensation programs pursuant to which they will be granted awards of (i)
+Interests in a Partnership or (ii) economic interests substantially similar to those which would be achieved by direct investments in
+a Partnership of the deferred or bonus amounts. The deferred compensation plans and/or an Eligible Employee’s interest in such
+plans: (i) will be subject to the applicable terms and conditions of the Application,6 (ii) will only be offered to Eligible
+Employees who are current employees, officers, directors or Consultants of Robinhood, (iii) will have restrictions on transferability,
+including prohibitions on assignment or transfer except in the event of the Eligible Employee’s death or as otherwise required
+by law or the relevant Partnership Agreement, and (iv) will provide information to participants equivalent to that provided to investors
+and prospective investors in the corresponding Partnership, including, without limitation, disclosure documents and audited financial
+information.
+
+The purchase price for an Interest may be payable
+in full upon subscription or in installments as determined by the General Partner. Eligible Employees may be offered the opportunity
+to acquire Interests pursuant to the arranging of recourse and non-recourse loans having terms as determined by the General Partner.7
+A Partnership may permit capital contributions to be payable in a manner that varies from other Partnerships, including payment through
+capital calls. The General Partner may defer all or a portion of a scheduled installment payment on prior written notice to the Limited
+Partners. Upon prior written notice, the General Partner may require payment of all or any part of a deferred payment. The General Partner
+may determine that all or a portion of the amounts deferred will not be needed to fund Partnership investments. If this determination
+is made, the General Partner may elect to cancel irrevocably the outstanding obligation of Limited Partners to pay all or a portion of
+the amounts deferred.
+
+A Limited Partner that fails to contribute any
+part of its capital commitment or any portion of a fee calculated with respect to that Limited Partner shall be in default. The terms
+and conditions relating to a default with respect to the Interests in a Partnership will be fully disclosed to Limited Partners prior
+to the acceptance of their subscription documents.
+
+A General Partner may have the right, but not
+the obligation, to repurchase, redeem, force a withdrawal or transfer of the Interest of (i) an Eligible Employee who ceases to be an
+employee, officer, director or current Consultant of any Robinhood entity for any reason or (ii) any Qualified Participant of any person
+described in clause (i). The Partnership Agreement or private placement memorandum for each Partnership will describe, if applicable,
+the amount that a Limited Partner would receive upon any such repurchase, redemption, forced withdrawal or transfer of its Interest. If
+a General Partner were to exercise such a right to repurchase, redeem, force the withdrawal of or transfer such an Interest, the relevant
+Limited Partner would receive upon repurchase, redemption, forced withdrawal or transfer of its Interest, at a minimum, the lesser of
+(i) the amount actually paid by or (subject to any vesting requirements) on behalf of the Limited Partner to acquire the Interest, plus
+interest, less any distributions or withdrawals, and (ii) the fair market value of the Interest determined at the time of the repurchase,
+redemption, forced withdrawal or transfer as determined in good faith by the General Partner.
+
+Interests in each Partnership will be non-transferable
+except with the prior written consent of the General Partner, and, in any event, no person or entity will be admitted into the Partnership
+as a Limited Partner unless such person is (i) an Eligible Employee, (ii) a Qualified Participant or (iii) a Robinhood entity. Consequently,
+the limitations on the transferability of Interests in the Partnership ensure that the community of interest among the participants will
+continue through the life of the Partnership.
+
+_________________
+
+6 | For purposes of this Application, a Partnership will be deemed
+to be formed with respect to each deferred compensation plan and each reference to “Partnership,” “capital contribution,”
+“General Partner,” “Limited Partner” and “Interest” in this Application will be deemed to refer to
+the deferred compensation plan, the notional capital contribution to the deferred compensation plan, Robinhood, a participant of the
+deferred compensation plan and participation rights in the deferred compensation plan, respectively.
+
+7 | In no case will a loan to a prospective Limited Partner be extended
+or arranged if prohibited by law, including the Sarbanes Oxley Act of 2002. If a Robinhood entity extends a loan to a Limited Partner,
+the loan will be made at an interest rate no less favorable to the Limited Partner than that which could be obtained on an arm’s
+length basis.
+
+6
+
+Each private placement memorandum or Partnership
+Agreement of a Partnership will describe the consequences, if any, for a Limited Partner’s Interest in the event of termination
+of the Limited Partner’s (or relevant Eligible Employee’s) employment or role as a Consultant with Robinhood, whether for
+cause or not, or upon his or her bankruptcy, voluntary resignation, death, permanent disability, retirement or otherwise, such as whether
+a Robinhood entity will be required to or will have the option to acquire, or whether the General Partner will have the right to require
+the repurchase, redemption, forced withdrawal or transfer of, all or a part of the Limited Partner’s Interest. If a Robinhood entity
+acquires, or the General Partner requires the repurchase, redemption, forced withdrawal or transfer of, a Limited Partner’s Interest
+as a consequence of such a circumstance, such Limited Partner would receive the amount described above in Section II.C for repurchase,
+redemption, forced withdrawal or transfer of its Interest. Once a Consultant’s ongoing relationship with a Robinhood entity is terminated:
+(i) such Consultant and its Qualified Participants, if any, will not be permitted to contribute any additional capital to a Partnership;
+and (ii) the existing Interests of such Consultant and its Qualified Participants, if any, as of the date of such termination will (A)
+to the extent the governing documents of a Partnership provide for periodic redemptions or withdrawals in the ordinary course, be redeemed
+or withdrawn as of the next regularly scheduled redemption or withdrawal date and (B) to the extent the governing documents of a Partnership
+do not provide for such periodic redemptions or withdrawals (e.g., as a result of the vehicle primarily investing in illiquid investments),
+be retained. The amount to be received by the Limited Partner will be subject to any applicable vesting schedule or forfeiture provisions
+and to the extent there is an oversubscription for a regularly scheduled redemption or withdrawal, existing Interests of the Limited Partner
+will be redeemed or withdrawn on a pro rata basis with all other Limited Partners who have made a request, in accordance with the governing
+documents, to be redeemed or withdrawn as of that redemption or withdrawal date and any subsequent regularly scheduled redemption or withdrawal
+date until all of such Limited Partner’s existing Interests are redeemed or withdrawn. Even if a General Partner were to exercise
+its right to require the repurchase, redemption, forced withdrawal or transfer of part of a Limited Partner’s Interest, the Limited
+Partner may still be required to make additional capital contributions for the payment of the Management Fee (as defined below) or other
+expenses relating to Partnership investments in which the Limited Partner retains an interest.
+
+Robinhood may make loans to a Partnership, purchase
+Interests in a Partnership, commit capital to a Partnership, and contribute capital to a Partnership. Robinhood may do so, for example,
+in order to satisfy the definition of “qualified purchaser” (as defined in Section 2(a)(51) of the 1940 Act and the rules
+thereunder), to provide critical mass to a Partnership to implement the Partnership’s investment strategy or to acquire Interests
+that will be awarded to Eligible Employees. As Eligible Employees or their Qualified Participants subsequently purchase interests in the
+Partnership over time, Robinhood may redeem its Interests, withdraw its capital or sell its commitments or Interests in a Partnership
+to Limited Partners. If Robinhood makes loans to a Partnership, the lender will be entitled to receive interest, provided that, the
+interest rate will be no less favorable to the borrower than the rate obtainable on an arm’s length basis. The possibility of any
+such borrowings, as well as the terms thereof, will be disclosed to Limited Partners prior to their investment in a Partnership. Any indebtedness
+of the Partnership will be the debt of the Partnership and without recourse to its Limited Partners. The Partnership will retain the right
+to require the payment of any unfunded capital contributions from its Limited Partners for any appropriate Partnership purposes, including
+the payment of Partnership indebtedness, fees or expenses, and may be permitted to assign this right to any lender to the Partnership.
+A Partnership will not borrow from any person if the borrowing would cause any person not named in Section 2(a)(13) of the 1940 Act to
+own securities of the Partnership (other than short-term paper). A Partnership will not lend any funds to Robinhood.
+
+D. Management
+
+The General Partner will be responsible for the
+overall management of each Partnership and will have the authority to make all decisions regarding the acquisition, management and disposition
+of Partnership investments. However, the General Partner may be permitted to delegate certain of its responsibilities regarding the acquisition,
+management and disposition of Partnership investments to an Investment Adviser, provided that the ultimate responsibility for,
+and control of, each Partnership remain with the General Partner. If the General Partner determines that a Partnership should enter into any side-by-side investment
+with an unaffiliated entity, the General Partner will be permitted to engage as sub-investment adviser the unaffiliated entity (an “Unaffiliated
+Subadviser”), which will be responsible for the management of such side-by-side investment. Where the General Partner has appointed
+a separate Investment Adviser, the Applicants anticipate that the General Partner will, in most cases, exercise its authority only after
+receiving a recommendation from the Investment Adviser as to the matter to be acted upon. The General Partner may delegate administrative
+responsibilities for a Partnership to a Robinhood entity or a third-party administrator. For the avoidance of doubt, a Robinhood entity
+will be ultimately responsible for the affairs and investments of each Partnership.
+
+7
+
+An Investment Adviser may be paid a management
+fee (“Management Fee”) for its services to a Partnership, which fee will generally be determined as a percentage
+of the capital commitments or assets under management (appreciated capital commitments) of the Limited Partners. A General Partner or
+Investment Adviser may receive a performance-based fee, allocation or distribution (“Performance-Based Compensation”)8
+based on the net gains of the Partnership’s investments, in addition to any amount allocable to the General Partner’s or
+Investment Adviser’s capital contribution. All or a portion of any Performance-Based Compensation may be paid to individuals who
+are officers, employees or stockholders of the Investment Adviser or their “affiliated persons,” as defined in Section 2(a)(3)
+of the 1940 Act. Certain of the Partnerships may not pay Performance-Based Compensation or a Management Fee, but may pay a fee for administrative
+services to a Robinhood entity.
+
+If an Unaffiliated Subadviser is entitled to receive
+Performance-Based Compensation, it may also act as an additional General Partner (or as a special limited partner, special member or equivalent)
+of a Partnership solely in order to address certain tax issues relating to the Performance-Based Compensation. In all such instances,
+however, a Robinhood entity will also be a General Partner of the Partnership and will have exclusive responsibility for making the determinations
+required to be made by a General Partner under this Application. No Unaffiliated Subadviser will beneficially own any outstanding securities
+of a Partnership.
+
+A Robinhood entity will not receive any management
+fees or other compensation at both the Partnership level and the Aggregation Vehicle or Underlying Fund level (each as defined below)
+with respect to a Partnership’s investment in an Aggregation Vehicle or Underlying Fund sponsored or advised by Robinhood (so as
+to avoid duplication). For the avoidance of doubt, a Robinhood entity may charge a Management Fee or Performance-Based Compensation at
+the Partnership level with respect to a Partnership’s investment in an Aggregation Vehicle or Underlying Fund managed by a third
+party even if the third party is paid a Management Fee or Performance-Based Compensation at the Aggregation Vehicle or Underlying Fund
+level.
+
+Expenses that may be charged by the General Partner
+or the Investment Adviser to the Partnership could include legal and accounting fees, organizational expenses, administrative expenses
+and other operating expenses (including the Partnership’s pro rata share of expenses incurred by the General Partner or the Investment
+Adviser in connection with potential investments). Where a Partnership is formed to invest concurrently with Third- Party Funds, organizational
+expenses may include such Partnership’s pro rata share of organizational expenses attributable to such Third-Party Funds. Robinhood
+reserves the right to pay for organizational expenses with respect to a Partnership.
+
+_________________
+
+8 | “Performance-Based Compensation,” e.g., “carried
+interest” or “performance allocations”, is a fee, allocation or distribution to the General Partner, a Limited Partner
+or an Investment Adviser based on net gains, distributions or returns in addition to the amount allocable to any such entity in proportion
+to its capital contributions. A General Partner, Limited Partner or an Investment Adviser that is registered as an investment adviser
+under the Advisers Act may charge Performance-Based Compensation only if permitted by Rule 205-3 under the Advisers Act. If the General
+Partner, Limited Partner or an Investment Adviser is not registered under the Advisers Act, any Performance-Based Compensation will comply
+with Section 205(b)(3) of the Advisers Act (with such Partnership treated as though it were a business development company solely for
+the purpose of that section). In addition, a Partnership may invest in other private capital partnerships that themselves are charged
+performance-based compensation meeting the requirements of Rule 205-3 under the Advisers Act. Limited Partners in such Partnerships will
+receive disclosure of the consequences and costs associated with such arrangements.
+
+8
+
+Changes recommended by tax counsel to the Partnerships
+may be made to the structure of Robinhood entities (including the General Partners) and Robinhood entities’ (including the General
+Partners’) contribution to the Partnerships, if any, so as not to impair the tax status of the Partnerships.
+
+The Applicants represent and concede that each
+General Partner and Investment Adviser managing a Partnership is an “investment adviser” within the meaning of Sections 9
+and 36 of the 1940 Act and is subject to those sections. In addition, without limiting any recordkeeping requirement imposed by the Advisers
+Act, a Partnership and its General Partner and Investment Adviser will maintain and preserve such accounts, books and other documents
+constituting the record forming the basis for the audited financial statements that are to be provided to the Limited Partners or that
+are necessary or appropriate to record transactions with the Partnership. All such records will be subject to examination by the Commission
+staff.
+
+E. Investments
+
+Each of the Partnerships will operate as a diversified
+or non-diversified, closed-end or open-end investment company of the management type within the meaning of the 1940 Act; provided,
+that the governing documents of a Partnership may provide for periodic subscriptions, redemptions or withdrawals. The investment objectives
+and policies of each Partnership and whether it will operate as a diversified or non-diversified closed-end or open-end vehicle may vary
+from Partnership to Partnership, and will be set forth in the offering documents relating to the specific Partnership.
+
+Partnerships may be expected to seek capital appreciation
+through speculative and high-risk investments. Potential investments for the Partnerships include a wide variety of liquid and illiquid
+U.S. and non-U.S. assets, securities, commodities, derivatives and alternative investments, including but not limited to public and private
+debt and equity securities, real estate, commodity futures, derivatives and other financial assets.
+
+Each Partnership may invest either directly or
+indirectly through investments in limited partnerships and other investment pools (including pools that are exempt from registration
+in reliance on Section 3(c)(1) or 3(c)(7) or other exemptions from registration under the 1940 Act) and investments in registered investment
+companies sponsored or advised by Robinhood or by third parties (each, an “Underlying Fund”).9 Investments
+may be made side by side with Robinhood entities and through investment pools (including “Aggregation Vehicles”)
+sponsored or managed by a Robinhood entity or an unaffiliated entity.10
+
+It is possible that an investment program may
+be structured in which a Partnership will co-invest in a portfolio company with Robinhood or a Third- Party Fund. A Partnership that is
+formed to co-invest with Robinhood or one or more Third-Party Funds will co-invest in each or a portion of the investments made by Robinhood
+or the relevant Third-Party Funds for which the Partnership was formed in accordance with its Partnership Agreement. Side-by-side investments
+held by a Third-Party Fund, or by a Robinhood entity in a transaction in which the Robinhood entity’s investment was made pursuant
+to a contractual obligation to a Third-Party Fund, will not be subject to the restrictions contained in Condition 3 below. The General
+Partner will not delegate management and investment discretion for the Partnership to an Unaffiliated Subadviser or a sponsor
+of a Third-Party Fund. All other side-by-side investments held by Robinhood entities will be subject to the restrictions contained in
+Condition 3.
+
+_________________
+
+9 | Applicants are not requesting any exemption from any provision
+of the 1940 Act or any rule thereunder that may govern the eligibility of a Partnership to invest in an entity relying on Section 3(c)(l)
+or 3(c)(7) of the 1940 Act or any such entity’s status under the 1940 Act.
+
+10 | An “Aggregation Vehicle” is an investment pool sponsored
+or managed by a Robinhood entity that is formed solely for the purpose of permitting a Partnership, Third-Party Funds or other Robinhood
+entities to collectively invest in other entities. It may often be more efficient for a Partnership, Third-Party Funds or other Robinhood
+entities to invest in an entity together through an Aggregation Vehicle rather than having each investor separately acquire a direct
+interest in such entity. An Aggregation Vehicle will not be used to issue interests that discriminate against a Partnership or provide
+preferential treatment to a Robinhood entity or other Robinhood-related investors with respect to a portfolio company investment. Because
+no investment decisions are made at the Aggregation Vehicle level, the fact that a person who participates in the Partnership’s
+decision to acquire an interest in an Aggregation Vehicle also serves as an officer, director, general partner or investment adviser
+of the Aggregation Vehicle would not create a conflict of interest on the part of such person.
+
+9
+
+In compliance with Section 12(d)(l)(A)(i) of the
+1940 Act, a Partnership will not purchase or otherwise acquire any security issued by a registered investment company if, immediately
+after such purchase or acquisition, the Partnership would own in the aggregate more than 3% of the outstanding voting stock of such investment
+company (unless the Partnership complies with an applicable exemption from the requirements of Section 12(d)(1)(A)(i)). In addition, a
+Partnership may acquire shares of money market funds in compliance with Rule 12d1-1 under the 1940 Act.
+
+A substantial percentage of a Partnership’s
+investments may be made available to it by Robinhood. The amount of any particular investment made available to a Partnership will depend
+upon particular circumstances relating to the investment.
+
+To the extent authorized by applicable governing
+documents but subject to applicable law and the terms and conditions hereof, a Partnership will be permitted to enter into transactions
+involving (i) Robinhood, (ii) a portfolio company, (iii) any partner or person or entity affiliated with Robinhood, or (iv) a Third-Party
+Fund. Such transactions may include, without limitation, the purchase or sale by a Partnership of an investment, or an interest therein,
+from or to Robinhood or a Third-Party Fund, acting as principal. Additionally, Robinhood (including the General Partner) may receive fees
+or other compensation and expense reimbursement in various forms for services rendered to companies or other entities in which the Partnerships
+invest or competitors of such entities. Such fees or other compensation may include, without limitation, transaction fees, closing fees,
+monitoring fees, advisory fees, placement fees, organization or service fees, financing fees, management fees, directors’ fees,
+performance-based fees, fees for brokerage and clearing services and compensation in the form of performance-based compensation entitling
+the Robinhood entity to share disproportionately in income or capital gains or similar compensation. Employees of Robinhood may serve
+as officers or directors of such entities pursuant to rights held by a Partnership or Robinhood or the Third-Party Funds to designate
+such officers or directors, and receive officers’ and directors’ fees and expense reimbursement in connection with such services.
+Robinhood reserves the right not to charge or to waive all or a part of any such fees or other compensation that a Partnership otherwise
+might incur or bear indirectly or to reduce any fees that it charges to a Partnership by all or a portion of such fees. However, any such
+fees or other compensation or expense reimbursement received by a Robinhood entity generally will not be shared with any Partnership.
+
+Robinhood entities may also engage in activities
+in the normal course of their investment management and related financial services businesses that may conflict with the interests of
+the Limited Partners. For example, Robinhood entities may have pre-existing relationships with companies in which a Partnership invests.
+Robinhood entities may represent potential buyers and sellers of, or may be involved in the restructuring of, a company in which the Partnership
+may have an investment interest, and the Partnership may thus be limited or precluded from investing in or selling securities issued by
+such a company.
+
+Robinhood entities may come into possession of
+inside information concerning specific companies and a Partnership’s investment flexibility may be constrained as a consequence
+of Robinhood’s inability to use the information for investment purposes. Furthermore, a Robinhood entity may act as a broker for
+both a Partnership and for another person on the other side of the transaction. These potential conflicts of interest, to the extent relevant
+to an investment in a Partnership, will be disclosed to the Limited Partners.
+
+F. Distributions
+
+The profits and losses of a Partnership will be
+determined in compliance with applicable tax rules and regulations and in accordance with the governing documents of the Partnership.
+Cash in the amounts apportioned to the General Partner (if any) may be distributed to the General Partner. Unless otherwise specifically
+provided in the Partnership Agreement, the capital accounts of the Limited Partners will not be reduced below zero. Distributions of Partnership
+profits will be made at the time and in the amounts determined by the General Partner in accordance with the terms of the Partnership
+Agreement. The General Partner will have discretion in distributing cash and proceeds from the Partnership’s investments to the
+Limited Partners.
+
+The General Partner may, in its sole discretion,
+establish reserves for liabilities and expenses of the Partnership, invest such proceeds in temporary investments and/or hold back such
+proceeds and use them to fund the Partnership’s liabilities and capital commitments. Securities
+being distributed in kind will be valued at fair market value in good faith by the General Partner or by an independent third-party appointed
+by the General Partner. At the discretion of the General Partner, distributions may also be made to enable the Limited Partners to pay
+taxes on attributable income or to comply with applicable tax rules and regulations.
+
+10
+
+G. Reports and
+Accounting
+
+A Partnership will send its Limited Partners
+an annual financial statement within 120 days after the end of each fiscal year of the Partnership, or as soon as practicable after the
+end of the Partnership’s fiscal year. The annual financial statement will be audited11 by independent certified public
+accountants. In addition, as soon as practicable after the end of each fiscal year of a Partnership, a report will be sent to each Limited
+Partner setting forth the information with respect to such Limited Partner’s share of income, gains, losses, credits and other
+items for U.S. federal and state income tax purposes resulting from the operation of the Partnership during that year.
+
+H. Partnership
+Term and Dissolution
+
+The term of a Partnership will be set forth in
+its Partnership Agreement. Each Partnership may be dissolved prior to the expiration of its term upon the occurrence of certain specified
+events, also set forth in its Partnership Agreement. Upon dissolution of a Partnership, the Partnership’s assets will be distributed
+in accordance with its Partnership Agreement.
+
+III. Request for Relief
+and Legal Analysis
+
+Applicants respectfully request that the Commission
+issue an Order pursuant to Sections 6(b) and 6(e) of the 1940 Act exempting the Partnerships from all provisions of the 1940 Act and the
+rules and regulations under the 1940 Act, except Sections 9, 17, 30, 36 through 53, and the Rules and Regulations. With respect to Sections
+17(a), (d), (e), (f), (g), and (j) and 30(a), (b), (e), and (h) of the 1940 Act and the Rules and Regulations, and Rule 38a-1 under the
+1940 Act, Applicants request a limited exemption as set forth in this Application.
+
+Applicants state that in the event a Partnership
+is offered in reliance on Rule 6b-1 under the 1940 Act prior to a final determination of the Application by the Commission, such Partnership
+will comply with all of the terms and conditions stated in the most recent version of the Application filed with the Commission.
+
+A. Status as
+Employees Securities Companies
+
+Each Partnership will be an “employees’
+securities company” as that term is defined in Section 2(a)(13) of the 1940 Act. Under Section 6(b) of the 1940 Act, the Commission
+is required, upon application, to exempt an employees’ securities company if and to the extent that the exemption is consistent
+with the protection of investors. Section 6(b) requires the Commission to give due weight to, among other things: (i) the form of organization
+and the capital structure of the company; (ii) the persons who will own and control the company’s voting securities, evidences of
+indebtedness and other securities; (iii) the prices at which securities issued by the company will be sold and any applicable sales load;
+(iv) the disposition of the proceeds of the securities issued by the company; (v) the character of securities in which those proceeds
+will be invested; and (vi) the existence of any relationship between the company and the issuers of securities held by the company. The
+Applicants submit that the Commission should grant the requested relief on the basis of these factors as applied to the Partnerships.
+
+Section 7 of the 1940 Act generally prohibits
+investment companies that are not registered under Section 8 of the 1940 Act from selling or redeeming their securities. Under Section
+6(e) of the 1940 Act, the Commission, in connection with any Order exempting an investment company from any provision of Section 7 of
+the 1940 Act, may require that certain provisions apply to such company, and to other persons in their transactions and relations with
+such company, as though the company were registered under the 1940 Act, if the Commission deems such requirements necessary or appropriate
+in the public interest or for the protection of investors.
+
+_________________
+
+11 | “Audit” will have the meaning defined in Rule l-02(d)
+of Regulation S-X.
+
+11
+
+B. Community
+of Interests
+
+The Applicants assert that the protections afforded
+by the 1940 Act are generally unnecessary for a Partnership in view of the community of economic and other interests among the Limited
+Partners and Robinhood. The community of interest is based on (i) the concern of Robinhood with the morale of its employees and the ability
+of Robinhood to attract and retain highly qualified personnel; (ii) the absence of any public group of investors in the Partnerships;
+(iii) Robinhood’s participation in the investments of a Partnership through its general partner interest and, in certain circumstances,
+as a limited partner, in co-investing Third-Party Funds. In the last example, a Partnership’s co-investments with partnerships managed
+by Robinhood or its affiliates, where Robinhood has an economic interest that is aligned with that of the Partnership, provides Robinhood
+with an economic incentive to act in the best interests of the Partnership.
+
+The Applicants also note that a Partnership’s
+investment program will be conceived and organized by persons who may be directly or indirectly investing, or eligible to invest, in such
+Partnership. Further, the Partnerships will not be promoted to Eligible Employees by persons outside of Robinhood seeking to profit from
+fees for investment advice or from the distribution of securities.
+
+Robinhood represents, as to each Partnership,
+that:
+
+1. Robinhood will control the Partnership
+within the meaning of Section 2(a)(9) of the 1940 Act. A General Partner and any other person acting for or on behalf of the Partnership
+shall act in the best interest of the Partnership and its security holders.
+
+2. Whenever Robinhood, the General
+Partner or any other person acting for or on behalf of the Partnership is required or permitted to make a decision, take or approve an
+action, or omit to do any of the foregoing in such person’s discretion, then such person shall exercise such discretion in accordance
+with reasonableness and good faith and any fiduciary duties owed to the Partnership and its security holders. Any person that acts for
+or on behalf of a Partnership, including any General Partner of a Partnership, will be (as applicable) an “employee, officer, director,
+member of an advisory board, investment adviser, or depositor” of the Partnership within the meaning of Sections 9 and 36 of the
+1940 Act and will be subject to those sections.
+
+3. The governing documents for, and
+any other contractual arrangement regarding, the Partnership, will not contain any provision which protects or purports to protect Robinhood,
+the General Partner or their delegates (if any) against any liability to the Partnership or its security holders to which such person
+would otherwise be subject by reason of willful misconduct, bad faith or gross negligence in the performance of such person’s duties,
+or by reason of such person’s reckless disregard of such person’s obligations and duties under such contract or organizational
+documents.
+
+C. Burdens of
+Compliance
+
+The Applicants maintain that requiring the Partnerships
+to comply with the various provisions of the 1940 Act would present the Partnerships with unnecessary burdens. As noted above, the operation
+of the Partnerships is not likely to result in the abuses that the 1940 Act was designed to remedy. In addition, the Applicants note that
+the Partnership Agreement of each Partnership will provide substantial protection to investors by (i) containing specific requirements
+with respect to matters such as valuations and access of Limited Partners to reports and (ii) restricting the General Partner’s
+authority in a number of respects, including limiting its ability to make certain amendments to the Partnership Agreement without the
+requisite amount of consents from the Limited Partners.
+
+D. Specific
+Relief
+
+1. Section 17(a)
+
+Section 17(a) generally prohibits any affiliated
+person of a registered investment company or any affiliated person of such affiliated person, acting as principal, from knowingly selling
+or purchasing any security or other property to or from the investment company.
+
+The Applicants request an exemption from
+Section 17(a) of the 1940 Act to the extent necessary to (a) permit Robinhood or a Third-Party Fund (or any “affiliated
+person,” as defined in the 1940 Act, of Robinhood or any such Third-Party Fund), acting as principal, to purchase or sell
+securities or other property to or from any Partnership or any company controlled by such Partnership; and (b) permit a Partnership
+to invest in or engage in any transaction with Robinhood, acting as principal, (i) in which such Partnership,
+any entity controlled by such Partnership or Robinhood or any Third-Party Fund has invested or will invest, or (ii) with which such Partnership,
+any entity controlled by such Partnership or Robinhood or any Third-Party Fund is or will become otherwise affiliated. Any such transactions
+to which any Partnership is a party will be effected only after a determination by the General Partner that the requirements of Conditions
+1, 2 and 6 below have been satisfied. In addition, these transactions will be effected only to the extent not prohibited by the applicable
+governing documents. To the extent any of the transactions described under the request for exemption from Section 17(d) (and Rule 17d-1)
+would come within the purview of Section 17(a), such transactions are incorporated hereunder and an exemption from such section is also
+requested.
+
+12
+
+The requested relief will not extend to any transactions
+between a Partnership and an Unaffiliated Subadviser or an affiliated person of an Unaffiliated Subadviser or between a Partnership and
+any person who is not an employee, officer or director of Robinhood or is an entity outside of Robinhood and is an affiliated person of
+the Partnership as defined in Section 2(a)(3)(E) of the 1940 Act (an “Advisory Person”) or any affiliated person of
+such a person.
+
+The Applicants submit that the exemption it seeks
+from Section 17(a) of the 1940 Act will be consistent with the purposes of the Partnerships and the protection of investors. Limited Partners
+will be informed in a Partnership’s offering materials of the possible extent of the Partnership’s dealings with Robinhood
+and of the potential conflicts of interest that may exist. As professionals engaged in financial services businesses, the Limited Partners
+will be able to evaluate the risks associated with those dealings. The Applicants assert that, moreover, the community of interest among
+the Limited Partners and Robinhood will serve to reduce the risk of abuse in transactions involving Robinhood.
+
+The considerations described above will protect
+each Partnership and limit the possibilities of conflict of interest and abuse of the type that Section 17(a) was designed to prevent.
+Consistent with the foregoing, the Partnerships agree to abide by the conditions set forth below to the relief requested from Section
+17(a). In addition, the Applicants, on behalf of the Partnerships, represent that any transactions otherwise subject to Section 17(a)
+of the 1940 Act, for which exemptive relief has not been requested, would require approval of the Commission.
+
+2. Section 17(d)
+and Rule 17d-1
+
+Section 17(d) of the 1940 Act and Rule 17d-1 thereunder
+prohibit any affiliated person or principal underwriter of a registered investment company, or any affiliated person of such person or
+principal underwriter, acting as principal, from participating in any joint arrangement with the company unless authorized by the Commission.
+The Applicants request relief to permit affiliated persons of the Partnerships (such as the General Partner, the Investment Adviser, any
+Robinhood entity or any Third-Party Fund), or affiliated persons of any such persons, to participate in, or effect any transaction in
+connection with, any joint enterprise or other joint arrangement or profit-sharing plan in which a Partnership or any company controlled
+by a Partnership participates. The relief requested would permit, among other things, co-investments by the Partnerships, Third-Party
+Funds and individual members or employees, officers, directors or Consultants of Robinhood making their own individual investment decisions
+apart from Robinhood. To the extent any of the transactions described under the request for relief from Section 17(a) would come within
+the purview of Section 17(d), such transactions are incorporated hereunder and relief from such section is also requested.
+
+The requested relief will not extend to any transaction
+in which an Unaffiliated Subadviser or an Advisory Person, or an affiliated person of either such person, has an interest, except in connection
+with a Third-Party Fund sponsored by an Unaffiliated Subadviser.
+
+The Applicants submit that it is likely that suitable
+investments will be brought to the attention of a Partnership because of its affiliation with Robinhood or Robinhood’s capital resources.
+The Applicants also submit that the types of investment opportunities considered by a Partnership often require each investor to make
+funds available in an amount that may be substantially greater than what a Partnership may be able to make available on its own. The Applicants
+contend that, as a result, the only way in which a Partnership may be able to participate in these opportunities may be to co-invest with
+other persons, including its affiliated persons. The Applicants note that each Partnership will primarily be organized for the benefit
+of Eligible Employees as an incentive for them to remain with Robinhood and for the generation and maintenance of goodwill. The Applicants
+believe that, if co-investments with Robinhood entities are prohibited, the appeal of the Partnerships would be significantly diminished.
+The Applicants assert that Eligible Employees wish to participate in such co-investment
+opportunities because they believe that (i) the resources of Robinhood enable it to analyze investment opportunities to an extent that
+Eligible Employees would not be able to duplicate, (ii) investments made by Robinhood will not be generally available to investors even
+of the financial status of the Eligible Employees, and (iii) Eligible Employees will be able to pool their investment resources, thus
+achieving greater diversification of their individual investment portfolios.
+
+13
+
+The Applicants assert that the flexibility to
+structure co-investments and joint investments will not involve abuses of the type Section 17(d) and Rule 17d-1 were designed to prevent.
+The Applicants state that the concern that permitting co-investments by Robinhood and a Partnership might lead to less advantageous treatment
+of the Partnership should be mitigated by the fact that Robinhood will be acutely concerned with its relationship with the investors in
+the Partnership and the fact that senior officers and directors of Robinhood entities will be investing in the Partnership. In addition,
+the Applicants assert that compliance with Section 17(d) would cause the Partnership to forgo investment opportunities simply because
+the Partnership, a Limited Partner, the General Partner or any other affiliated person of the Partnership (or any affiliated person of
+such affiliated person) made a similar investment.
+
+Co-investments with Third-Party Funds, or by a
+Robinhood entity pursuant to a contractual obligation to a Third-Party Fund, will not be subject to Condition 3 below. The Applicants
+note that it is common for a Third-Party Fund to require that Robinhood invest its own capital in Third-Party Fund investments and that
+Robinhood investments be subject to substantially the same terms as those applicable to the Third-Party Fund. The Applicants believe it
+is important that the interests of the Third-Party Fund take priority over the interests of the Partnerships and that the Third-Party
+Fund not be burdened or otherwise affected by activities of the Partnerships. In addition, the Applicants assert that the relationship
+of a Partnership to a Third-Party Fund is fundamentally different from a Partnership’s relationship to Robinhood. The Applicants
+contend that the focus of, and the rationale for, the protections contained in the requested relief are to protect the Partnerships from
+any overreaching by Robinhood in the employer/employee context, whereas the same concerns are not present with respect to the Partnerships
+vis-a-vis a Third-Party Fund.
+
+In summary, the requested relief under Section
+17(d) of the 1940 Act is necessary in light of the purpose of each Partnership. Given the criteria for Eligible Employees and the conditions
+with which the Partnerships have agreed to comply, the requested relief is appropriate in light of the purposes of the 1940 Act.
+
+The considerations described above will protect
+each Partnership and limit the possibilities of conflict of interest and abuse of the type which Section 17(d) was designed to prevent.
+Consistent with the foregoing, the Partnerships agree to abide by the conditions set forth below to the relief requested from Section
+17(d) and Rule 17d-l. In addition, the Applicants represent that any transactions otherwise subject to Section 17(d) of the 1940 Act and
+Rule 17d-1 thereunder, for which exemptive relief has not been requested, would require approval by the Commission.
+
+3. Section 17(e)
+and Rule 17e-1
+
+Section 17(e) of the 1940 Act and Rule 17e-1 under
+the 1940 Act limit the compensation an affiliated person may receive when acting as agent or broker for a registered investment company.
+The Applicants request an exemption from Section 17(e) to permit a Robinhood entity (including the General Partner) that acts as an agent
+or broker to receive placement fees, advisory fees or other compensation from a Partnership in connection with the purchase or sale by
+the Partnership of securities, provided that, the fees or other compensation are deemed “usual and customary.” The
+Applicants state that for the purposes of the Application, fees or other compensation that are charged or received by a Robinhood entity
+will be deemed “usual and customary” only if (i) the Partnership is purchasing or selling securities with other unaffiliated
+third parties, including Third-Party Funds, (ii) the fees or other compensation being charged to the Partnership (directly or indirectly)
+are also being charged to the unaffiliated third parties, including Third-Party Funds, and (iii) the amount of securities being purchased
+or sold by the Partnership (directly or indirectly) does not exceed 50% of the total amount of securities being purchased or sold by the
+Partnership (directly or indirectly) and the unaffiliated third parties, including Third-Party Funds. The Applicants assert that, because
+Robinhood does not wish to appear to be favoring the Partnerships, compliance with Section 17(e) would prevent a Partnership from participating
+in transactions where the Partnership is being charged lower fees than unaffiliated third parties also participating in the transaction.
+The concerns of overreaching and abuse that Section 17(e) and Rule 17e-1 were designed to prevent are alleviated by the conditions that
+ensure that the fees or other compensation paid by a Partnership to a Robinhood entity are
+those negotiated at arm’s length with unaffiliated third parties.
+
+14
+
+Rule 17e-1(b) requires that a majority of directors
+who are not “interested persons” (as defined in Section 2(a)(19) of the 1940 Act) take actions and make approvals regarding
+commissions, fees or other remuneration. Rule 17e-1(c) requires the board of directors of an investment company relying on the rule to
+satisfy the fund governance standards set forth in Rule 0-l(a)(7) (the “Fund Governance Standards”). The Applicants
+request an exemption from Rule 17e-1 to the extent necessary to permit each Partnership to comply with the rule without having a majority
+of the directors12 of the General Partner who are not interested persons take actions and make determinations as set forth
+in paragraph (b) of the rule and without having to satisfy the standards set forth in paragraph (c) of the rule. The Applicants state
+that because all the directors or other governing body of the General Partner will be affiliated persons, without the relief requested,
+a Partnership could not comply with Rule 17e-1. The Applicants state that each Partnership will comply with Rule 17e-l by having a majority
+of the directors (or members of a comparable body) of the Partnership or its General Partner take such actions and make such approvals
+as set forth in the rule. The Applicants state that each Partnership will otherwise comply with Rule 17e-1.
+
+4. Section 17(f)
+
+Section 17(f) of the 1940 Act provides that the
+securities and similar investments of a registered management investment company must be placed in the custody of a bank, a member of
+a national securities exchange or the company itself in accordance with Commission rules. Rule 17f-1 under the 1940 Act specifies the
+requirements that must be satisfied for a registered management investment company to maintain custody of its securities and similar investments
+with a company that is a member of a national securities exchange. The Applicants request relief from Section 17(f) of the 1940 Act and
+subsections (a), (b) (to the extent such subsection refers to contractual requirements), (c) and (d) of Rule 17f-1 under the 1940 Act
+to the extent necessary to permit a Robinhood entity to act as custodian for a Partnership without a written contract. Since there is
+a close association between a Partnership and Robinhood, requiring a detailed written contract would expose the Partnership to unnecessary
+burden and expense. The Applicants also request relief from the requirement in paragraph (b)(4) of the rule that an independent accountant
+periodically verify the Partnership’s assets held by the custodian. The Applicants believe that, because of the community of interest
+between Robinhood and the Partnerships and the existing requirement for an independent audit, compliance with this requirement would be
+unnecessary. Except as set forth above, a Partnership relying on Rule 17f-1 will otherwise comply with the provisions of the rule.
+
+Section 17(f) of the 1940 Act designates the entities
+that may act as investment company custodians, and Rule 17f-2 under the 1940 Act specifies the requirements that must be satisfied for
+a registered management investment company to act as a custodian of its own investments. The Applicants request relief from Section 17(f)
+of the 1940 Act and Rule 17f-2 under the 1940 Act to permit the following exceptions from the requirements of Rule 17f-2: (i) a Partnership’s
+investments may be kept in the locked files of Robinhood, the General Partner or the Investment Adviser; (ii) for purposes of paragraph
+(d) of the rule, (a) employees of the General Partner (or Robinhood) will be deemed to be employees of the Partnerships, (b) directors,
+officers or managers of the General Partner (or Robinhood) will be deemed to be officers of the Partnership, and (c) the General Partner
+or its board of directors will be deemed to be the board of directors of the Partnership; and (iii) in place of the verification procedure
+under paragraph (f) of the rule, verification will be effected quarterly by two employees of the General Partner or any Robinhood entity
+that serves as investment adviser to a Partnership, each of whom will have sufficient knowledge, sophistication and experience in business
+matters to perform such examination. With respect to certain Partnerships, some of their investments may be evidenced only by partnership
+agreements, subscription agreements, participation agreements or similar documents, rather than by negotiable certificates that could
+be misappropriated. The Applicants assert that, for such a Partnership, these instruments are most suitably kept in the files of Robinhood,
+the General Partner or the Robinhood entity that serves as investment adviser to the Partnership, where they can be referred to as necessary.
+The Applicants will comply with all other provisions of Rule 17f-2.
+
+_________________
+
+12 | All references to directors or boards of directors of the General
+Partner made herein are intended to include the substantial equivalent in respect of an entity that does not have a board of directors
+(e.g., “managers” or “boards of managers” of a Delaware limited liability company).
+
+15
+
+5. Section 17(g)
+and Rule 17g-1
+
+Section 17(g) of the 1940 Act and Rule 17g-1 under
+the 1940 Act generally require the bonding of officers and employees of a registered investment company who have access to its securities
+or funds. Rule 17g-1 requires that a majority of directors who are not interested persons of a registered investment company take certain
+actions and give certain approvals relating to fidelity bonding. Paragraph (g) of Rule 17g-1 sets forth certain materials relating to
+the fidelity bond that must be filed with the Commission and certain notices relating to the fidelity bond that must be given to each
+member of the investment company’s board of directors. Paragraph (h) of Rule 17g-1 provides that an investment company must designate
+one of its officers to make the filings and give the notices required by paragraph (g). Paragraph (j) of Rule 17g-1 exempts a joint insured
+bond provided and maintained by an investment company and one or more parties from the prohibitions on joint transactions contained in
+Section 17(d) of the 1940 Act and the rules thereunder.
+
+The Applicants request relief to the extent necessary
+to permit the General Partner’s board of directors or other governing body, who may be deemed interested persons, to take actions
+and make determinations as set forth in the rule. The Applicants also request an exemption from the requirements of: (i) paragraph (g)
+of Rule 17g-1 relating to the filing of copies of fidelity bonds and related information with the Commission and the provision of notices
+to the board of directors; (ii) paragraph (h) of the rule relating to the appointment of a person to make the filings and provide the
+notices required by paragraph (g); and (iii) paragraph (j)(3) of the rule relating to compliance with the Fund Governance Standards. The
+Partnerships will comply with all other requirements of Rule 17g-1.
+
+The Applicants state that, because all directors
+or other governing body of the General Partner will be affiliated persons, a Partnership could not comply with Rule 17g-1 without the
+requested relief. In light of the purpose of the Partnerships, and the community of interest among the Partnerships and between the Partnerships
+and the General Partner, the Applicants believe that little purpose would be served by this requirement even if it were feasible. Specifically,
+each Partnership will comply with Rule 17g-1 by having a majority of the General Partner’s directors (or members of a comparable
+body) take actions and make determinations as set forth in the rule.
+
+The Applicants believe that the filing requirements
+are burdensome and unnecessary as applied to the Partnerships. The applicable General Partner will maintain the materials otherwise required
+to be filed with the Commission by paragraph (g) of Rule 17g-1 and agree that all such materials will be subject to examination by the
+Commission and its staff. The General Partner will designate a person to maintain the records otherwise required to be filed with the
+Commission under paragraph (g) of the rule. The Applicants submit that no purpose would be served in complying with the requirements of
+the rule related to filing information with the Commission. While filing information related to fidelity bonds may serve to protect public
+investors, as employees’ securities companies, the Partnerships will not have public investors. Exempting the Partnerships from
+these provisions does not diminish investor protections, as Limited Partners will receive the protections offered by the Partnerships’
+compliance with other provisions of Rule 17g-1. Moreover, the Partnerships will not be making other filings with the Commission, such
+as those related to a registration statement, and no purpose would be served by establishing filing requirements solely for Rule 17g-1.
+
+In addition, the Applicants maintain that the
+notices otherwise required to be given to each member of the board of directors of an investment company by paragraph (g) of Rule 17g-1
+would be unnecessary as the Partnerships do not and will not have independent boards of directors. The General Partner of a Partnership
+will be the functional equivalent of the board of directors of an investment company. As stated above, the General Partner appoints the
+person responsible for maintaining the information that would otherwise be filed with the Commission under paragraph (g) of the rule and
+has access to all such information. The information that would otherwise be filed with the Commission under paragraph (g) of the rule
+includes the full scope of the information for which notices would otherwise be given to the board of directors under the rule. It therefore
+would be unnecessary to give notices to the General Partner regarding this information.
+
+For the same reasons, the Applicants believe that
+the requirements relating to disinterested directors and their counsel in paragraph (j)(3) of Rule 17g-1 are burdensome and unnecessary
+as applied to the Partnerships. As discussed above, the Partnerships will have no boards of directors, and therefore it is not feasible
+to require the approval of joint fidelity bonds by disinterested directors of the Partnerships. Moreover, in light of the purpose of the
+Partnerships and the community of interest among the Partnerships and between the Partnerships and the applicable General Partner, the
+Applicants believe that little purpose would be served by this requirement even if it were feasible. The Applicants also state that each
+Partnership will otherwise comply with Rule 17g-1. The fidelity bond of each Partnership will cover Robinhood employees who have access
+to the securities and funds of the Partnership.
+
+16
+
+6. Section 17(j)
+and Rule 17j-1
+
+Section 17(j) of the 1940 Act and paragraph (b)
+of Rule 17j-1 under the 1940 Act make it unlawful for certain enumerated persons to engage in fraudulent or deceptive practices in connection
+with the purchase or sale of a security held or to be acquired by a registered investment company. Rule 17j-1 also requires that every
+registered investment company adopt a written code of ethics and that every access person of a registered investment company report personal
+securities transactions. The Applicants request relief from Section 17(j) and the provisions of Rule 17j-1, except for the antifraud provisions
+of paragraph (b), because they are unnecessarily burdensome as applied to the Partnerships. Requiring each Partnership to adopt a written
+code of ethics and requiring access persons to report each of their securities transactions would be time consuming and expensive and
+would serve little purpose in light of, among other things, the community of interest among the participants in the Partnership by virtue
+of their common association with Robinhood (either as employees or Consultants of Robinhood) and the substantial and largely overlapping
+protections afforded by the conditions with which such Partnership has agreed to comply. The Applicants believe that the requested exemption
+is consistent with the purposes of the 1940 Act, because the dangers against which Section 17(j) and Rule 17j-1 are intended to guard
+are not present in the case of any Partnership. The relief requested will only extend to Robinhood entities and is not requested with
+respect to any Unaffiliated Subadviser or Advisory Person.
+
+7. Sections
+30(a), (b), (e) and (h)
+
+The Applicants request an exemption from the requirements
+in Sections 30(a), 30(b) and 30(e) of the 1940 Act, and the rules promulgated thereunder, that registered investment companies prepare
+and file with the Commission and mail to their shareholders certain periodic reports and financial statements. The Applicants contend
+that the forms prescribed by the Commission for periodic reports have little relevance to the Partnerships and would entail administrative
+and legal costs that outweigh any benefit to the Limited Partners. The Applicants request relief to the extent necessary to permit each
+Partnership to report annually to its Limited Partners as described herein. The Applicants also request an exemption from Section 30(h)
+of the 1940 Act to the extent necessary to exempt the General Partner of each Partnership, members of the General Partner, any board of
+managers or directors or committee of Robinhood employees to whom the General Partner may delegate its functions, and any other persons
+who may be deemed to be members of an advisory board of a Partnership, or any other persons otherwise subject to Section 30(h), from filing
+Forms 3, 4 and 5 under Section 16(a) of the 1934 Act with respect to their ownership of Interests in the Partnership. The Applicants assert
+that, because there will be no trading market and the transfers of Interests will be severely restricted, these filings are unnecessary
+for the protection of investors and burdensome to those required to make them.
+
+8. Rule 38a-1
+
+Rule 38a-1 requires that every registered investment
+company adopt and implement written compliance policies and procedures and review those policies and procedures annually. Rule 38a-1 also
+requires the designation of a chief compliance officer, and requires the chief compliance officer to report directly to the fund’s
+board.
+
+Each Partnership will comply with Rule 38a-l(a),
+(c) and (d), except that (i) since the Partnership does not have a board of directors, the board of directors or other governing body
+of the General Partner will fulfill the responsibilities assigned to the Partnership’s board of directors under the rule, and (ii)
+since the board of directors or other governing body of the General Partner does not have any disinterested members, (a) approval by a
+majority of the disinterested board members required by Rule 38a-1 will not be obtained, and (b) the Partnerships will comply with the
+requirement in Rule 38a-l(a)(4)(iv) that the chief compliance officer meet with the independent directors by having the chief compliance
+officer meet with the board of directors or other governing body of the General Partner as constituted.
+
+Each Partnership will adopt written policies and
+procedures reasonably designed to prevent violations of the terms and conditions of this Application, will appoint a chief compliance
+officer and will comply with the terms and conditions of this Application.
+
+17
+
+IV. | Applicants’ Conditions
+
+The Applicants agree that any order granting the
+requested relief will be subject to the following conditions:
+
+1. Each proposed transaction involving
+a Partnership otherwise prohibited by Section 17(a) or Section 17(d) of the 1940 Act and Rule 17d-1 under the 1940 Act to which a Partnership
+is a party (the “Section 17 Transactions”) will be effected only if the applicable General Partner determines that
+(i) the terms of the Section 17 Transaction, including the consideration to be paid or received, are fair and reasonable to the Limited
+Partners of the Partnership and do not involve overreaching of the Partnership or its Limited Partners on the part of any person concerned,
+and (ii) the Section 17 Transaction is consistent with the interests of the Limited Partners, the Partnership’s organizational
+documents and the Partnership’s reports to its Limited Partners.13 In addition, the applicable General Partner of a
+Partnership will record and preserve a description of all Section 17 Transactions, the General Partner’s findings, the information
+or materials upon which the findings are based and the basis for the findings. All such records will be maintained for the life of the
+Partnership and at least six years thereafter and will be subject to examination by the Commission and its staff.14
+
+2. The General Partner of each Partnership
+will adopt, and periodically review and update, procedures designed to ensure that reasonable inquiry is made, prior to the consummation
+of any Section 17 Transaction, with respect to the possible involvement in the transaction of any affiliated person or promoter of or
+principal underwriter for the Partnership or any affiliated person of such person, promoter or principal underwriter.
+
+3. The General Partner of each Partnership
+will not invest the funds of the Partnership in any investment in which an Affiliated Co-Investor (as defined below) has acquired or
+proposes to acquire the same class of securities of the same issuer and where the investment transaction involves a joint enterprise
+or other joint arrangement within the meaning of Rule 17d-1 in which the Partnership and an Affiliated Co-Investor are participants (each
+such investment, a “Rule 17d-1 Investment”), unless any such Affiliated Co-Investor, prior to disposing of all or
+part of its investment, (i) gives the General Partner sufficient, but not less than one day’s, notice of its intent to dispose
+of its investment, and (ii) refrains from disposing of its investment unless the Partnership has the opportunity to dispose of the Partnership’s
+investment prior to or concurrently with, on the same terms as and pro rata with, the Affiliated Co-Investor.15 The term “Affiliated
+Co-Investor” with respect to any Partnership means any person who is (i) an “affiliated person” (as such term is
+defined in Section 2(a)(3) of the 1940 Act) of the Partnership (other than a Third-Party Fund), (ii) Robinhood, (iii) an officer or director
+of Robinhood, (iv) an Eligible Employee, or (v) an entity (other than a Third-Party Fund) in which a Robinhood entity acts as a general
+partner or has a similar capacity to control the sale or other disposition of the entity’s securities. The restrictions contained
+in this condition, however, shall not be deemed to limit or prevent the disposition of an investment by an Affiliated Co-Investor (i)
+to its direct or indirect wholly owned subsidiary, to any company (a “Parent”) of which the Affiliated Co-Investor
+is a direct or indirect wholly owned subsidiary or to a direct or indirect wholly owned subsidiary of its Parent, (ii) to immediate family
+members of the Affiliated Co-Investor or a trust or other investment vehicle established for any Affiliated Co-Investor or any such immediate
+family member, or (iii) when the investment is comprised of securities that are (a) listed on a national securities exchange registered
+under Section 6 of the 1934 Act, (b) NMS stocks pursuant to Section 11A(a)(2) of the 1934 Act and Rule 600(a) of Regulation NMS thereunder,
+(c) government securities as defined in Section 2(a)(16) of the 1940 Act or other securities that meet the definition of “Eligible
+Security” in Rule 2a-7 under the 1940 Act, or (d) listed or traded on any foreign securities exchange or board of trade that
+satisfies regulatory requirements under the law of the jurisdiction in which such foreign securities exchange or board of trade is organized
+similar to those that apply to a national securities exchange or a national market system for securities.
+
+_________________
+
+13 | If a Partnership invests through an Aggregation Vehicle and
+such investment is a Section 17 Transaction, this condition will apply with respect to both the investment in the Aggregation Vehicle
+and any investment by the Aggregation Vehicle of Partnership funds.
+
+14 | Each Partnership will preserve the accounts, books and other
+documents required to be maintained in an easily accessible place for the first two years.
+
+15 | If a Partnership invests in a Rule 17d-1 Investment through
+an Aggregation Vehicle, the requirements of clauses (i) and (ii) of this sentence shall apply to both the Affiliated Co-Investor’s
+disposition of such Rule 17d-1 Investment and, if the Affiliated Co-Investor also holds a Rule 17d-1 Investment through such Aggregation
+Vehicle, its disposition of all or part of its investment in the Aggregation Vehicle.
+
+18
+
+4. Each Partnership and its General
+Partner will maintain and preserve, for the life of the Partnership and at least six years thereafter, such accounts, books and other
+documents constituting the record forming the basis for the audited financial statements that are to be provided to the Limited Partners
+in the Partnership, and each annual report of the Partnership required to be sent to the Limited Partners, and agree that all such records
+will be subject to examination by the Commission and its staff.16
+
+5. Within 120 days after the end of
+each fiscal year of each Partnership, or as soon as practicable thereafter, the General Partner of each Partnership will send to each
+Limited Partner having an Interest in the Partnership at any time during the fiscal year then ended Partnership financial statements audited
+by the Partnership’s independent accountants, except under certain circumstances in the case of a Partnership formed to make a single
+portfolio investment. In such cases, the Partnership may send unaudited financial statements, but each Limited Partner will receive financial
+statements of the single portfolio investment audited by such entity’s independent accountants. At the end of each fiscal year,
+the General Partner will make or cause to be made a valuation of all of the assets of the Partnership as of such fiscal year end in a
+manner consistent with customary practice with respect to the valuation of assets of the kind held by the Partnership. In addition, within
+120 days after the end of each fiscal year of each Partnership (or as soon as practicable thereafter), the General Partner will send a
+report to each person who was a Limited Partner at any time during the fiscal year then ended, setting forth such tax information as shall
+be necessary for the preparation by the Limited Partner of that partner’s federal and state income tax returns and a report of the
+investment activities of the Partnership during that fiscal year.
+
+6. If a Partnership makes purchases
+or sales from or to an entity affiliated with the Partnership by reason of an officer, director or employee of a Robinhood entity (i)
+serving as an officer, director, general partner, manager or investment adviser of the entity (other than an entity that is an Aggregation
+Vehicle), or (ii) having a 5% or more investment in the entity, such individual will not participate in the Partnership’s determination
+of whether or not to effect the purchase or sale.
+
+V. | Procedural Matters
+
+Pursuant to Rule 0-2(f) under the 1940 Act, the
+Applicants state that their address is as indicated on the cover page of this Application. The Applicants further state that all written
+communications concerning this Application should be directed to:
+
+Christopher P. Healey
+
+Davis Polk & Wardwell LLP
+
+1050 17th Street, NW
+
+Washington, DC 20036
+
+(202) 962-7000
+
+christopher.healey@davispolk.com
+
+Gregory S. Rowland
+
+Davis Polk & Wardwell LLP
+
+450 Lexington Avenue
+
+New York, NY 10017
+
+(212) 450-4000
+
+gregory.rowland@davispolk.com
+
+The Applicants request that the Commission issue
+the requested order pursuant to Rule 0-5 under the 1940 Act without a hearing being held.
+
+Pursuant to Rule 0-2(c)(1) under the 1940 Act,
+the Applicants state that under the provisions of the Applicants’ governing instruments, the responsibility for the management of
+its affairs and business is vested in its officers or other governing body, as applicable. The Applicants represent that the undersigned
+individual is authorized to file this Application in its name and on its behalf.
+
+_________________
+
+16 | Each Partnership will preserve the accounts, books, and other
+documents required to be maintained in an easily accessible place for the first two years.
+
+19
+
+For the foregoing reasons, the Applicants request
+that the Commission enter an order pursuant to Sections 6(b) and 6(e) of the 1940 Act granting the Applicants the relief sought by this
+Application.
+
+The Applicants named below have caused this
+Application to be duly signed on their behalf on July 16, 2026. The certification required by Rule 0-2(c)(l) under the 1940 Act is
+attached as Exhibit A of this Application, and the verification required by Rule 0-2(d) under the 1940 Act is attached as Exhibit B
+of this Application.
+
+ROBINHOOD MARKETS, INC.
+By: | /s/ Shiv Verma
+Name: | Shiv Verma
+Title: | Chief Financial Officer
+
+ROBINHOOD EMPLOYEE FUND, LP By: Robinhood Employee Fund GP, LLC, its general partner By: Robinhood Markets, Inc., its sole member
+By: | /s/ Shiv Verma
+Name: | Shiv Verma
+Title: | Chief Financial Officer
+
+20
+
+Exhibit A
+
+AUTHORIZATION
+
+OFFICER’S CERTIFICATE
+
+The undersigned, being a duly appointed officer
+of Robinhood Markets, Inc., does hereby certify that this Application is signed by Shiv Verma, Chief Financial Officer of Robinhood Markets,
+Inc., pursuant to the general authority vested in him as such under his appointment as Chief Financial Officer of Robinhood Markets, Inc.
+
+IN WITNESS WHEREOF, I have set my hand this July
+16, 2026.
+
+ROBINHOOD MARKETS, INC.
+By: | /s/ Shiv Verma
+Name: | Shiv Verma
+Title: | Chief Financial Officer
+
+The undersigned, being a duly appointed officer
+of Robinhood Markets, Inc., the sole member of the general partner of Robinhood Employee Fund, LP, does hereby certify that this Application
+is signed by Shiv Verma, Chief Financial Officer of Robinhood Markets, Inc., pursuant to the general authority vested in him as such under
+his appointment as Chief Financial Officer of Robinhood Markets, Inc.
+
+IN WITNESS WHEREOF, I have set my hand this July
+16, 2026.
+
+ROBINHOOD EMPLOYEE FUND, LP By: Robinhood Employee Fund GP, LLC, its general partner By: Robinhood Markets, Inc., its sole member
+By: | /s/ Shiv Verma
+Name: | Shiv Verma
+Title: | Chief Financial Officer
+
+21
+
+Exhibit B
+
+VERIFICATION
+
+The undersigned states that he has duly
+executed the foregoing Application, dated July 16, 2026 for and on behalf of Robinhood Markets, Inc., that he is the Chief Financial
+Officer of Robinhood Markets, Inc., and that all actions by partners, stockholders, directors and other bodies necessary to
+authorize the undersigned to execute and file such instrument have been taken. The undersigned further states that he is familiar
+with such instrument, and the contents thereof, and that the facts therein set forth are true to the best of his knowledge,
+information and belief.
+
+ROBINHOOD MARKETS, INC.
+By: | /s/ Shiv Verma
+Name: | Shiv Verma
+Title: | Chief Financial Officer
+
+The undersigned states that he has duly
+executed the foregoing Application, dated July 16, 2026 for and on behalf of Robinhood Employee Fund, LP, that he is the Chief
+Financial Officer of Robinhood Markets, Inc., the sole member of the general partner of Robinhood Employee Fund, LP, and that all
+actions by partners, stockholders, directors and other bodies necessary to authorize the undersigned to execute and file such
+instrument have been taken. The undersigned further states that he is familiar with such instrument, and the contents thereof, and
+that the facts therein set forth are true to the best of his knowledge, information and belief.
+
+ROBINHOOD EMPLOYEE FUND, LP By: Robinhood Employee Fund GP, LLC, its general partner By: Robinhood Markets, Inc., its sole member
+By: | /s/ Shiv Verma
+Name: | Shiv Verma
+Title: | Chief Financial Officer
+
+22

@@ -1,0 +1,222 @@
+Robinhood Markets, Inc. and Consolidated Subsidiaries
+Monthly Metrics Report for May 2026
+(Unaudited)
+
+
+                                                                                                                                                              2025                                                                                                                                                    2026                                                                         Change
+                                                                             Apr                   May                Jun                   Jul                Aug                  Sep                  Oct                  Nov                  Dec                       Jan                  Feb                  Mar                  Apr                  May                      M/M                 Y/Y
+M - in millions; B - in billions
+Funded Customer Growth (M)
+Funded Customers                                                             25.9                  25.9              26.5                  26.7               26.7                  26.8                 27.1                 26.9                 27.0                      27.2                 27.4                 27.4                 27.6                 27.7                        -                 7%
+
+
+Asset Growth ($B)
+Total Platform Assets                                                       $232.3             $255.3               $278.6               $298.0              $303.9               $332.7               $342.6               $324.5               $322.1                    $324.4               $314.2               $307.3               $345.4                $377.0                     9%                 48%
+Net Deposits¹                                                                $6.8                  $3.5              $3.5                  $6.4               $4.8                  $9.2                 $5.6                 $7.1                 $3.2                      $4.5                 $5.6                 $7.6                 $6.0                 $5.6                      NM                 NM
+
+
+Trading
+Equities and Options Trading Days                                            21.0                  21.0              20.0                  21.5               21.0                  21.0                 23.0                 18.5                 21.5                      20.0                 19.0                 22.0                 21.0                 20.0                     (5%)                (5%)
+Crypto and Prediction Markets Trading Days                                   30                     31                 30                   31                  31                   30                   31                   30                   31                        31                   28                   31                   30                   31                       3%                   -
+
+
+Total Trading Volumes
+ Equity ($B)                                                                $157.8             $180.5               $179.1               $209.1              $199.2               $238.8               $320.1               $201.5               $188.6                    $227.3               $194.4               $216.1               $248.5                $315.3                    27%                 75%
+ Options Contracts (M)                                                      167.5                  179.8             168.1                195.8               195.5                218.8                266.7                193.2                199.4                     200.0                180.3                205.9                224.8                231.1                      3%                 29%
+ Crypto ($B)²                                                                $8.6                  $11.7             $14.7                $28.7               $28.1                $23.5                $32.5                $28.6                $21.2                     $22.9                $25.0                $17.8                $11.9                $12.2                      3%                  4%
+   Robinhood App                                                             $8.6                  $11.7             $8.0                 $16.8               $13.7                 $9.3                $13.9                $12.0                 $8.1                      $8.7                 $9.4                 $5.7                 $5.4                 $5.9                      9%                 (50%)
+   Bitstamp                                                                   -                      -               $6.7                 $11.9               $14.4                $14.2                $18.6                $16.6                $13.1                     $14.2                $15.6                $12.1                 $6.5                 $6.3                     (3%)                 NA
+ Event Contracts (B)                                                         0.2                    0.3               0.4                   0.3                0.3                  1.7                   2.5                  3.0                  2.9                      3.4                  2.4                   3.0                  3.2                  3.9                     22%                 NM
+
+
+Average Daily Trading Volumes³
+ Equity ($B)                                                                 $7.5                  $8.6              $9.0                  $9.7               $9.5                 $11.4                $13.9                $10.9                 $8.8                     $11.4                $10.2                 $9.8                $11.8                $15.8                     34%                 84%
+ Options Contracts (M)                                                       8.0                    8.6               8.4                   9.1                9.3                  10.4                 11.6                 10.4                  9.3                      10.0                 9.5                   9.4                 10.7                 11.6                      8%                 35%
+ Crypto ($M)                                                                $287                   $377              $490                 $926                $906                 $783                $1,048                $953                  $684                     $739                 $893                 $574                  $397                 $393                     (1%)                 4%
+   Robinhood App                                                            $287                   $377              $267                 $542                $442                 $310                 $448                 $400                  $261                     $281                 $336                 $184                  $180                 $190                      6%                 (50%)
+   Bitstamp                                                                   -                      -               $223                 $384                $465                 $473                 $600                 $553                  $423                     $458                 $557                 $390                  $217                 $203                     (6%)                 NA
+ Event Contracts (M)                                                          7                     10                 13                   10                  10                   57                   81                  100                   94                       110                   86                   97                  107                  126                      18%                 NM
+
+
+Daily Average Trades (DATs) (M)⁴
+ Equity                                                                      3.3                    3.1               3.5                   3.7                3.6                  4.1                   4.4                  3.9                  3.6                      4.2                  4.0                   4.0                  4.0                  4.8                     20%                 55%
+ Options                                                                     1.2                    1.2               1.1                   1.1                1.2                  1.3                   1.4                  1.3                  1.1                      1.3                  1.3                   1.2                  1.3                  1.5                     15%                 25%
+ Crypto                                                                      0.5                    0.5               0.7                   1.1                1.0                  0.9                   1.1                  1.1                  0.9                      1.0                  1.1                   0.7                  0.6                  0.7                     17%                 40%
+
+
+Interest Earning Assets ($B)
+Margin Book                                                                  $8.4                  $9.0              $9.5                 $11.4               $12.5                $13.9                $16.5                $16.8                $16.8                     $18.4                $17.2                $17.0                $18.0                $19.5                      8%                 117%
+Cash and Deposits⁵ ⁶                                                        $11.4                  $12.1             $14.0                $14.6               $14.3                $14.4                $14.7                $12.1                $11.0                     $11.7                $16.5                $16.7                $18.1                $18.6                      3%                 54%
+Cash Sweep⁶ ⁷                                                               $28.9                  $30.8             $32.7                $33.6               $34.1                $35.4                $34.2                $32.5                $32.8                     $31.5                $25.8                $26.0                $27.6                $28.8                      4%                 (6%)
+
+
+Securities Lending ($M)
+Total Securities Lending Revenue                                             $25                   $33                $54                  $61                 $53                  $59                  $60                  $34                  $38                       $34                  $25                  $33                  $32                  $36                      13%                  9%
+ Securities Lending, Net⁵                                                    $9                    $13                $32                  $37                 $24                  $26                  $24                    -                   $2                        $4                  ($1)                  $1                   $3                   $5                      67%                 (62%)
+
+1. Starting in June 2025, Net Deposits include results from Bitstamp. Starting in March 2026, Net Deposits include results from TradePMR (March 2026 Net Deposits included TradePMR Net Deposits for all of Q1 2026).
+
+2. Refer to following page for definition of Notional Trading Volumes.
+3. Average daily volumes ("ADVs") defined as Total Trading Volume in a given period divided by the applicable number of trading days in said period.
+4. Refer to following page for definition of Daily Average Trades (DATs).
+5. Refer to following page for the definitions of Cash and Deposits and Securities Lending, Net.
+6. In February 2026, we updated our brokerage High-Yield Cash program to fund growth in margin lending. Under the updated program, the first $10 thousand in enrolled balances per eligible customer are held as free credit balances where the customer continues to earn the same interest rate. This resulted in over $6 billion of Cash Sweep balances moving to free credit balances in February 2026.
+7. Starting in December 2025, includes Robinhood Banking balances.
+See the following page for definitions and additional information.
+
+
+
+2026 Product Progress Announcements
+Jan-26
+ 17 US Crypto assets added in Q1 2026
+ Scanner widget and keyboard shortcuts available on Robinhood Legend
+ Prediction markets custom combos available to customers
+ 10 EU Crypto assets added in Q1 2026
+ Multi-currency wallets for international customers
+ Cortex Portfolio Digests available to Gold subscribers
+ Robinhood Strategies return comparisons
+ Tiered pricing available through Crypto Trading API
+ Linked trading sessions between Robinhood Legend and mobile app
+ Complimentary tax filing and estate planning for Robinhood Concierge customers
+Feb-26
+ Stocks and shares ISA accounts available to UK customers
+ Complimentary DIY tax filing through april tax solutions
+ Robinhood Chain launches public testnet
+ Introducing Robinhood Ventures Fund I (RVI)
+Mar-26
+ Introducing custodial and trust accounts
+ Introducing the Robinhood Platinum Card
+ Introducing Robinhood Family Hub
+ Robinhood Strategies tax aware transfers
+ Introducing Early Dividends
+ Robinhood Ventures Fund I (RVI) IPO
+ Robinhood Social beta is live
+ Up to 10x leverage and tiered margin on perpetual futures for EU customers
+Apr-26
+ Robinhood Gold rewards hub
+ Robinhood tapped as brokerage for Trump Accounts, alongside BNY
+ Index options extended hours and overnight trading
+ Robinhood secures in-principle approval to launch brokerage in Singapore
+May-26
+ Crytpo trading in multiple individual accounts
+ Early Dividends available to US and UK customers
+ EntryPoint newsletter by Sherwood Media
+ Agentic Trading
+ Agentic Credit Card
+ Trump Accounts app available for download
+Disclosures
+
+Monthly Metrics Reports:
+
+
+Monthly Metrics Reports (“Reports”) provide certain limited purpose monthly statistical and operational results of Robinhood Markets, Inc. and its consolidated
+subsidiaries (“we,” “Robinhood,” or the “Company”). This Report is presented without commentary and should be read together with our most recent quarterly and
+annual results and U.S. Securities and Exchange Commission (“SEC”) filings on Forms 10-K, 10-Q, and 8-K, which are available on the Financials tab of our Investor
+Relations website at investors.robinhood.com.
+
+
+We intend to make these Reports available on a regular basis on the “Overview” tab of our Investor Relations website. We expect Reports regarding each of the first
+two months of each fiscal quarter to be available around the middle of the following month. We expect the Report for the third month of each fiscal quarter to be
+available shortly after our quarterly earnings are announced regarding such completed quarter. If you would like to sign up to receive an email alert whenever a new
+Report is available, please visit the Resources tab of our Investor Relations website.
+
+
+We use the "Overview" tab of our Investor Relations website (accessible at investors.robinhood.com/overview) and our Newsroom (accessible at
+newsroom.aboutrobinhood.com), as means of disclosing information to the public in a broad, non-exclusionary manner for purposes of the SEC Regulation Fair
+Disclosure (Reg. FD). Investors should routinely monitor those web pages, in addition to our press releases, SEC filings, and public conference calls and webcasts, as
+information posted on them could be deemed to be material information.
+
+
+Additional Information:
+
+
+The information in this Report is unaudited and the information for the months in the most recent fiscal quarter is preliminary, based on our estimates and subject to
+completion of our financial closing procedures. Final results for the quarter, as reported in our quarterly and annual filings with the SEC, might vary from the information
+in this Report.
+
+
+Monthly percentage change represents the most recent calendar month as compared to the immediately preceding calendar month. Yearly percentage change
+represents the most recent calendar month as compared to the same month of the prior year.
+
+
+Definitions
+
+Funded Customers: We define a Funded Customer as a unique person who has at least one account with a Robinhood entity and, within the past 45 calendar days
+(a) had an account balance that was greater than zero (excluding amounts that are deposited into a Funded Customer account by the Company with no action taken
+by the unique person) or (b) completed a transaction using any such account. Individuals who share a funded joint investing account (which launched in July 2024) are
+each considered to be a Funded Customer. Starting in Q1 2025, individuals who are customers of Registered Investment Advisors ("RIAs") that use the TradePMR
+platform, and, starting in June 2025, customers of Bitstamp, are also considered Funded Customers.
+
+
+Total Platform Assets: We define Total Platform Assets as the sum of the fair value of all equities, options, cryptocurrency, futures (including options on futures and
+swaps, including event contracts), cash held by users in their accounts, net of receivables from users (previously reported as Assets Under Custody), and any such
+assets managed by RIAs using TradePMR’s platform that are not custodied by Robinhood, as of a stated date or period end on a trade date basis. Net Deposits and
+net market gains (losses) drive the change in Total Platform Assets in any given period. Starting in June 2025, the fair value of all cryptocurrency includes
+cryptocurrency on Bitstamp. Total Platform Assets also include cryptocurrency lent through platform-enabled lending programs, where customers may recall such
+assets at any time through the platform.
+
+
+Net Deposits: We define Net Deposits as all cash deposits and asset transfers from customers, as well as dividends, interest, staking rewards, and cash or assets
+earned in connection with Company promotions (such as account transfer and retirement match incentives, free stock bonuses) received by customers, net of
+reversals, customer cash withdrawals, margin and lending interest, Robinhood Gold subscription fees, and assets transferred off of our platforms for a stated period.
+Starting in June 2025, Net Deposits include results from Bitstamp. Starting in March 2026, Net Deposits include results from TradePMR.
+
+
+Growth Rate and Annualized Growth Rate with Respect to Net Deposits: Growth rate is calculated as aggregate Net Deposits over a specified 12-month period,
+divided by Total Platform Assets for the fiscal quarter that immediately precedes such 12-month period. Annualized growth rate is calculated as Net Deposits for a
+specified quarter multiplied by 4 and divided by Total Platform Assets for the immediately preceding quarter.
+
+
+Notional Trading Volume: We define Notional Trading Volume, or Notional Volume, for any specified asset class as the aggregate dollar value (purchase price or sale
+price as applicable) of trades executed in that asset class on our platforms over a specified period of time. Crypto Notional Volume includes both Robinhood App
+Notional Volume and, starting in June 2025, Bitstamp Notional Volume. Robinhood App Notional Volume represents the dollar value of executed crypto trades on the
+Robinhood platform over a specified period of time. Bitstamp Notional Volume represents the dollar value of executed crypto trades on the Bitstamp platform over a
+specified period of time. For example, each $1 of transaction value executed between a buyer and seller is counted as $1 of transaction value in the relevant period,
+rather than $2 if counted for each of the buyer and seller.
+
+
+Options Contracts Traded: We define Options Contracts Traded as the total number of options contracts bought or sold over a specified period of time. Each
+contract generally entitles the holder to trade 100 shares of the underlying stock.
+
+
+Event Contracts Traded: We define Event Contracts Traded as the total number of event contracts bought or sold over a specified period of time through our
+Prediction Markets Hub. Each contract can be traded at $0.01 increments up to $1 and is worth $1 upon settlement.
+
+
+Total Trading Volumes: Total Trading Volumes represent Notional Trading Volumes for Equity and Crypto, and Options Contracts Traded for Options and Event
+Contracts Traded for Event Contracts.
+
+
+Daily Average Trades (“DATs”): We define DATs for any asset class as the total number of trades for a given asset class executed during a given period divided by the
+number of trading days for a given asset class in that period. The monthly metrics slide discloses each month’s number of trading days for equities and options. For
+crypto, the number of trading days is equal to the number of calendar days in the month
+
+
+Cash Sweep: We define Cash Sweep as the period-end total amount of participating users’ uninvested brokerage and banking cash that has been automatically
+“swept” or moved from their accounts into deposits for their benefit at a network of program banks. This is an off-balance-sheet amount. Robinhood earns a net
+interest spread on Cash Sweep balances based on the interest rate offered by the banks less the interest rate given to users as stated in our program terms. This
+includes balances from customers of RIAs using TradePMR’s platform.
+
+
+Margin Book: We define Margin Book as our period-end aggregate outstanding margin loan balances receivable (i.e., the period-end total amount we are owed by
+customers on loans made for the purchase of securities, supported by a pledge of assets in their margin-enabled brokerage accounts). This includes margin loan
+balances from customers of RIAs using TradePMR’s platform.
+
+
+Cash and Deposits: We define Cash and Deposits as the period-end sum of cash and cash equivalents, restricted cash, segregated cash, cash equivalents, and
+securities under federal and other regulations, deposits with clearing organizations, and investments.
+
+
+Total Securities Lending Revenue: Total Securities Lending Revenue includes net rebates and interest on cash collateral for both margin based and fully paid
+securities lending.
+
+
+Securities Lending, Net: Securities Lending, Net includes net rebates for both margin based and fully paid securities lending, as well as interest on cash collateral for
+fully paid securities lending. It does not include interest on cash collateral for margin based securities lending.
+
+
+Trademarks
+
+“Robinhood” and the Robinhood feather logo are registered trademarks of Robinhood Markets, Inc. All other names are trademarks and/or registered trademarks of
+their respective owners.
+
