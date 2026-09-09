@@ -1,0 +1,349 @@
+Coherent Corp. - Third Quarter Fiscal 2026 Investor Presentation, May 6, 2026 (prior-quarter earnings slides)
+Source: 8-K Exhibit 99.2 filed 2026-05-06, accession 0001193125-26-208972, https://www.sec.gov/Archives/edgar/data/820318/000119312526208972/d57080dex992.htm (HTML exhibit, 16 slides, each a JPEG image with a hidden 1-pt text layer; slides separated by the exhibit's own page-break markers). Fetched 2026-09-09.
+Page N below = Nth slide of the exhibit; each slide's text layer ends with its printed footer number ("N Copyright 2026, Coherent. All rights reserved."), so page tags are verifiable. Slide boundaries are the exhibit's page breaks, not inferred.
+Each slide has two blocks: [TEXT LAYER] = the hidden text under the image, verbatim (this deck's text layer is a normal PDF text layer, so tables read correctly with 'Mar 31, 2026 ... Mar 31, 2025' headers); [OCR OF SLIDE IMAGE] = tesseract 5.3.4 output on the JPEG (g57080ex99_2p<N>g1.jpg). OCR may garble digits; the release (press-release-FY2026-Q3.txt) governs.
+
+=== Slide 1 (p.1) ===
+[TEXT LAYER]
+Exhibit 99.2 INVESTOR PRESENTATION Third Quarter Fiscal 2026 May 6, 2026 Copyright 2026, Coherent. All rights reserved. 1
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+INVESTOR
+PRESENTATION
+Third Quarter Fiscal 2026
+May 6, 2026
+see cmon COHERENT
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 2 (p.2) ===
+[TEXT LAYER]
+FORWARD-LOOKING STATEMENTS This presentation contains forward-looking statements relating to future events and expectations, including our expectations regarding our estimates and projections for our business outlook for the fourth quarter of fiscal 2026, each of which is based on certain assumptions and contingencies. The forward-looking statements are made pursuant to the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995 and relate to the Company’s performance on a going-forward basis. The forward-looking statements in this investor presentation involve risks and uncertainties, which could cause actual results, performance, or trends to differ materially from those described in this presentation. The Company believes that all forward-looking statements made by it in this presentation have a reasonable basis, but there can be no assurance that management’s expectations, beliefs, or projections as expressed in the forward-looking statements will actually occur or prove to be correct. In addition to general industry and global economic conditions, factors that could cause actual results to differ materially from those discussed in the forward-looking statements in this presentation include but are not limited to: (i) the failure of any one or more of the assumptions stated herein to prove to be correct; (ii) changes in demand in the Company’s end markets along with the Company’s ability to respond to such market changes; (iii) our failure to accurately estimate customer demand and future sales accurately and/or fluctuations in purchasing patterns of customers and end users; (iv) the ability of the Company to retain and hire key employees; (v) the terms of the Company’s indebtedness and ability to service such debt; (vi) the timely release of new products and acceptance of such new products by the market; (vii) the introduction of new products by competitors and other competitive responses; (viii) the risks to realizing the benefits of investments in R&D and commercialization of innovations; (ix) the risks that the Company’s stock price will not trade in line with industrial technology leaders; (x) the impact of international conflict (such as the current armed conflict in the Middle East) and economic volatility in either domestic or foreign markets, including risks related to the impact of trade protection measures, such as import tariffs by the United States or retaliatory actions taken by other countries; and/or (xi) the risks relating to forward-looking statements and other “Risk Factors” identified from time to time in our filings with the Securities and Exchange Commission (“SEC”), including our Annual Report on Form 10-K for the fiscal year ended June 30, 2025, and our subsequently filed Quarterly Reports on Form 10-Q, which filings are available from the SEC. The Company disclaims any obligation to update information contained in these forward-looking statements, whether as a result of new information, future events or developments, or otherwise. Unless otherwise indicated in this presentation, all information in this presentation is as of May 6, 2026. This presentation contains non-GAAP financial measures and key metrics relating to the Company’s past performance. We believe the presentation of these non-GAAP financial measures enhances investors' overall understanding of our historical financial performance and assists investors in comparing our performance across reporting periods. These non-GAAP financial measures are in addition to, and not a substitute for or superior to, measures of financial performance prepared in accordance with U.S. GAAP. There are a number of limitations related to the use of these non-GAAP financial measures versus their nearest GAAP equivalents. For example, other companies may calculate non-GAAP financial measures differently or may use other measures to evaluate their performance, all of which could reduce the usefulness of our non-GAAP financial measures as tools for comparison. As required by Regulation G, we have provided reconciliations of those measures to the most directly comparable GAAP measures in the section captioned “GAAP to NON-GAAP RECONCILIATION.” The Company has not provided a quantitative reconciliation of forward-looking non-GAAP gross margin percentage, non-GAAP operating expenses, non-GAAP tax rate and non-GAAP earnings per share, because we cannot, without unreasonable efforts, forecast certain items required to develop comparable GAAP measures. These items include, without limitation, restructuring charges; integration, site consolidation and other expenses; foreign exchange gains (losses); and share based compensation expense. The variability of these items could significantly impact our future GAAP financial results and we believe that the inclusion of any such reconciliations would imply a degree or precision that could be confusing or misleading to investors. 2 Copyright 2026, Coherent. All rights reserved.
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+This presentation contains forward sookng statements lating to fue events and expectaons, including our expectation regarding our estimates and projections for our business outok forthe fourth
+<uarteroffcal 2028, each of which is based on certain assumptions and contingencies The forWarddookng statements ate made pursant¥o the safe harbor provisions ofthe U.S. Private Secures
+Ligation Reform Act of 1995 and relate othe Companys performance ona going orvard bass, Te forwarooking statements in this investor presentation ivoWe risks and uncertain, which cous
+cate actal ests, perfarmance, or tends fo dir mately from tose described in ths presentaton,
+Te Company believes that al frvardsooking statements made by tn this presentation havea reasonable basis, but here canbe no assurance that managements expectations, eles, or projections
+as expressed inthe forard-ooking statements wil actualy occror prove be correct. In acto o general incusry and gobal economic condone actors that cols cause actual esuts oof
+tater from those dscuseedin te forarc-lookng statements ints presentation clude But are net imited to: ) te ale of anyone or more of te assumptions stated Neen to prove tobe core
+(i) changes in demand inthe Company's end markets along wih the Companys ably fo respond to such market changes; i) our fale to accurately estimate customer demand and future sales
+accurately andlor huctuatonsn purchasing patems of customers and end users; the aby ofthe Company to retain and ire Key employees; the terms ofthe Company’ indebtedness and ably
+to serve such debt (vi) the timely release of new products ané acceptance of such neW produc the marke) the inzoducton of new prosuets by competitors and other competitive responses:
+(wt) the risks to ealing the Denes of investments R&D and commersazaton of innovaons: (the rsks thatthe Company's stock price il nt adel ine wth industria technology leader 3)
+the impact of international cone (svch a the cent armed confit nthe MidsleEast) and econome voli in ether domest of foregn markets, ncusng risk elated tothe mpact of rade
+protection measures, such a impor tars by the United Sats or retaliatory actons taken by oer countries; andlor (x) the risks relating to forward-looking statements and other "Rsk Factors identified
+from ime to time nou ings wi the Secures and Exchange Commission (SEC). nding our Annual Report on Form 10-K forthe fiscal year ended June 30,2025, nd our subsequent led
+tary Reports on Form 10.0, which ngs are avaiable fom the SEC. The Company disclaims any obligation to update information contained in thes forwar-oking statements, whether as a result
+of new information, ture evens or developmen, or otherwise
+Uniess otherwise indicated inthis presentation alinfomationin this presentation sas of May 6, 2026. This presentation contains non-GAAP fnancial measures and key mes relating tothe Companys
+past performance We beieve the presentation ofthese non-GAAP fnancia measures enhances investor’ overall understanding of ou historical anal performance and assists investors in comparing
+tur perfomance across reporting periods, These non-GAAP nancial measures arin adaon fo, and nota subst or or supe o, measures of nancial perfomance prepared in accordance with
+U.S. GAAP, There are a numberof imtatons related tothe use ofthese non-GAAP financial measures versus tei nearest GAAP equivalents. For example, cher companies may calculate non-GAAP
+fnanci measures diferenty or may use other measures oevalate the performance allot which col edie the usefulness of our non-GAAP franca measures as tol for comparison As quired
+by Regulation G, we have provided reconciliations of those measures to the most directly comparable GAAP measures in the section captioned “GAAP to NON-GAAP RECONCILIATION.” The Company
+ras not provided a quantatve reconciliation of foardooking non-GAAP gross margin percentage, non-GAAP operating expenses, non-GAAP ax rate and non-GAAP eamings per share, because we
+cannot, whout unreasonable elo, forecas certain tems required to develop comparable GAAP measures. These lems ncude, witout iniaton resructring charges: integration, site consolation
+and other expenses; foreign exchange gains (osees) and share based compensation expense, The varabity of these ems cou signicaympact cur fture GAAP nancial esis and we beleve
+that the incision of any uch econctatons would mpl a degree or precision hat ould be confusing or misleading to avestors
+C@HERENT opi 208, Coherent lot eee 2
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 3 (p.3) ===
+[TEXT LAYER]
+GROSS MARGIN AND EARNINGS PER SHARE GAAP TO NON-GAAP RECONCILIATIONS $ Millions (Unaudited) Mar 31, 2026 Dec 31, 2025 Sep 30, 2025 Jun 30, 2025 Mar 31, 2025 Gross margin on GAAP basis 680 623 579 546 528 Share-based compensation 6 6 6 6 5 Amortization of acquired intangibles 28 28 28 31 44 Integration, site consolidation and other — — — — — Gross margin on non-GAAP basis 714 657 613 582 577 $ for EPS, $ Millions for shares (Unaudited) Mar 31, 2026 Dec 31, 2025 Sep 30, 2025 Jun 30, 2025 Mar 31, 2025 Common shares, GAAP 190.2 167.5 156.2 155.5 155.2 Effect of dilutive securities: Common stock equivalents 6.1 5.5 4.6 — — Series B Redeemable Preferred Stock — 19.8 29.9 — — Diluted weighted average common shares, 196.4 192.8 190.7 155.5 155.2 GAAP Common shares, Non-GAAP 190.2 167.5 156.2 155.5 155.2 Effect of dilutive securities: Common stock equivalents 6.1 5.5 4.6 3.7 4.0 Series B Redeemable Preferred Stock — 19.8 29.9 — — Diluted weighted average common shares, 196.4 192.8 190.7 159.2 159.1 Non-GAAP Net earnings (loss) attributable to Coherent Corp., GAAP Basic Earnings (Loss) Per Share 1.01 0.87 1.24 (0.83) (0.11) Diluted Earnings (Loss) Per Share 0.97 0.76 1.19 (0.83) (0.11) Net earnings attributable to Coherent Corp., non-GAAP Basic Earnings Per Share 1.45 1.47 1.20 1.02 0.93 Diluted Earnings Per Share 1.41 1.29 1.16 1.00 0.91 3 Copyright 2026, Coherent. All rights reserved.
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+GROSS MARGIN AND EARNINGS PER SHARE GAAP TO NON-GAAP RECONCILIATIONS
+“hans Unnaieg war 5, 08 poe 3,28 Sop 0 2008 Jon 30,2008 war 3,2
+‘ross margin on GAAP base 0 co or oo oa
+Stared compensation ¢ ¢ ¢ ° 3
+‘Averizaton of aoqitedwlangbis Pa 2 2 a a
+Ingato, ste conection and ter = = a = =
+roe argn on non-GAAP basis Tia 7 a we a
+Common shares, GAAP "902 “678 ee vas 1882
+Ett of uve secures
+Conon tock equals os 5s 46 - -
+Sees 8 RedeumateProfared Stock = 98 ne = =
+iui waged avenge commen snes, “28 “or cm er
+Common shares, Non-GAAP 102 167s 1882 ‘888 1382
+Etot of ive secures
+Conn ck are ot 5s 46 ar 40
+Seren © Redeumate Prefred Stock = 198 29 = =
+Bie weied ave conmon sana “oe “oor mr a
+Nat earnings (ss) tibutabl to Coheront
+Corp, GAAP
+Basic Earing (Loss) Per Share 101 oar 1a (089) oa
+Diuted Eamnge (Los) er Share oer ore 48 (080) (oa)
+Nat earings atrbuabe to Coherent Cor,
+non-oaar
+asi Earings Per Share 14s var 120 102 099
+Dike Eamnge Per Shae vai 12 18 100 oat
+C@HERENT conan 208, Chr A ps esa 2
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 4 (p.4) ===
+[TEXT LAYER]
+Q3 FY26 NON-GAAP FINANCIAL RESULTS Revenue Growth Acceleration and Gross Margin Expansion Driven by Datacenter Demand REVENUE GROSS MARGIN EARNINGS PER SHARE * * * 27% 105BP 55% $1.41 in Q3 FY26 vs. $0.91 in Q3 FY25 39.6% in Q3 FY26 vs. 38.5% in Q3 FY25 $1.80B in Q3 FY26 vs. $1.41B in Q3 FY25* Coherent Enters the S&P 500® as Scale and Leadership Accelerate NVIDIA and Coherent Partner on Advanced Laser and Optical Networking Products for AI Datacenters Revenue Mix Reflects Rapid Growth of Datacenter & Communications Segment* INDUSTRIAL 25% DATACENTER & COMMUNICATIONS INDUSTRIAL 75% DATACENTER & 41% 2%* COMMUNICATIONS Q3 FY26/Q3 FY25 Q3 FY26/Q3 FY25 *Revenue and revenue growth are shown on a pro forma basis to exclude for all periods revenue from the sale of our former Aerospace & Defense business, which closed on September 2, 2025 and our Munich, Germany business, which closed on January 30, 2026. Gross margin and earnings per share are based on financial results reported May 6, 2026. Please refer to reconciliation of GAAP to Non-GAAP gross margin, and reconciliation of GAAP and Non-GAAP EPS. 4 C Co op py yr riig gh htt 2 20 02 26 6,, C Co oh he er re en ntt.. A Allll r riig gh htts s r re es se er rv ve ed d..
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+Revenue Growth Acceleration and Gross Margin Expansion Driven by Datacenter Demand
+REVENUE GROSS MARGIN EARNINGS PER SHARE
+% ® ® 55%
+® 27% 105BP 55%
+$1.80B in Q3 FY26 vs. $1.41B in Q3 FY25" 39.6% in Q3 FY26 vs, 38.5% in Q3 FY25 $1.41 in Q3 FY26 vs. $0.91 in Q3 FY25.
+Coherent Enters the S&P 5000 as Scale and Leadership Accelerate
+(_ NuipiA and Coherent Partner on Advanced Laser and Optical Networking Products for Al Datacenters
+Revenue Mix Reflects Rapid Growth of Datacenter & Communications Segment*
+INDUSTRIAL
+@ DATACENTER & COMMUNICATIONS @ inoustRIAL
+DATACENTER & @® 41% © 2%
+COMMUNICATIONS, 326/08 F725 03 7126/03 Fr25
+“Revenue andreverve gout re shown ono oma bai fo exc fr a pero revenue om the sale of our omer Aerospace & Defense bushes, whch cased on September? 2025 ond ou Munch, Germany buses, which closed
+an Jonvry 3,208, rons mergn and earings per share oe baced on hance! ests reported ay & 2026 Pees fro econcoton of GAAP fo Hon GAAP goss arp, ond econcoton of GAAP and Non GAAP EPS.
+C@HERENT opi 2028, Coherent Alo eee 4
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 5 (p.5) ===
+[TEXT LAYER]
+QUARTERLY REVENUE BY MARKET SEGMENT Quarterly Revenue Trend 2,000 1,806 1,686 1,800 1,581 1,529 1,600 1,498 1,400 1,200 1,000 800 600 400 200 0 Q3 FY25 Q4 FY25 Q1 FY26 Q2 FY26 Q3 FY26 Industrial 529 511 491 478 444 Datacenter and 969 1,018 1,090 1,208 1,362 Communications 5 Copyright 2026, Coherent. All rights reserved. Revenue ($M)
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+QUARTERLY REVENUE BY MARKET SEGMENT
+2,000
+1,806
+1,800 1,686
+1,600 1,498 1,529 158
+_ 1,400
+a 1,200
+Z 1,000
+3 800
+© 600
+400
+200
+° a3FY2s — Q4FY25 © QIFY26 © Q2FY26 «OS FY26
+f= Industrial 529 sit 491 478 444
+& Datacenter and 969 4,018 1,090 1,208 1,362
+C@HERENT opi 208, Coherent lot eee s
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 6 (p.6) ===
+[TEXT LAYER]
+BUILDING THE NEXT-GEN AI DATACENTER Meeting customer demands for scalable, high-performance and efficient infrastructure SCALING ACCELERATING ENHANCING CAPACITY PERFORMANCE EFFICIENCY • Ramping Datacenter and Communications • Multiple CPO architectures, Silicon Photonics, • Advanced thermal and cooling solutions for capacity – end to end, from materials to systems InP, and VCSEL, enable flexible networks dense, high performance AI environments • On track to double internal InP output by • 400G/lane links delivering higher bandwidth • Improved power efficiency per bit across year-end and more than double again by 2027 and faster data transfer optical systems • 6-inch platform producing EMLs, CW lasers, and • Advanced multi-rail optical transport delivering • Materials innovation reducing cost and photodiodes, with higher yields than 3-inch lines 4X fiber capacity energy consumption 6 Copyright 2026, Coherent. All rights reserved.
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+Meeting customer demands for scalable, high-performance and efficient infrastructure
+| 2 = Cee
+_ - ety
+a ee | — aries ye
+SCALING ACCELERATING ENHANCING
+CAPACITY PERFORMANCE EFFICIENCY
++ Ramping Datacenter and Communications + Multiple CPO architectures, Silicon Photonics, + Advanced thermal and cooling solutions for
+capacity — end to end, from materials to systems InP, and VCSEL, enable flexible networks dense, high performance Al environments
++ On track to double internal InP output by + 400G/lane links delivering higher bandwidth + Improved power efficiency per bit across
+year-end and more than double again by 2027 and faster data transfer optical systems
++ 6-inch platform producing EMLs, CW lasers, and + Advanced multi-rail optical transport delivering + Materials innovation reducing cost and
+photodiodes, with higher yields than 3-inch lines 4X fiber capacity energy consumption
+C@HERENT opi 208, Coherent lot eee 6
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 7 (p.7) ===
+[TEXT LAYER]
+INVESTING TO EXPAND TECHNOLOGY LEADERSHIP AND UNMATCHED MANUFACTURING SCALE Recent Announcements SCALING INDIUM PHOSPHIDE (InP) STRENGTHENING U.S. EXTENDING PLATFORM LEADERSHIP IN NEXT-GEN AI WAFER PRODUCTION IN TEXAS MANUFACTURING FOOTPRINT End-to-end optical integration, Increasing InP output to Advancing U.S. capacity from devices to manufacturing support accelerating 6-inch expansion and manufacturing scale, positions Coherent to wafer demand, positioning resilience, supported by lead next-generation AI Coherent at the forefront of AI NVIDIA’s $2B investment in architectures infrastructure growth Coherent Read more here Read more here Read more here 7 Copyright 2026, Coherent. All rights reserved.
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+INVESTING TO EXPAND TECHNOLOGY LEADERSHIP
+AND UNMATCHED MANUFACTURING SCALE
+Recent Announcements
+EXTENDING PLATFORM SCALING INDIUM PHOSPHIDE (InP) STRENGTHENING U.S.
+LEADERSHIP IN NEXT-GEN Al WAFER PRODUCTION IN TEXAS MANUFACTURING FOOTPRINT
+End-to-end optical integration, Increasing InP output to Advancing U.S. capacity
+from devices to manufacturing support accelerating 6-inch expansion and manufacturing
+scale, positions Coherent to wafer demand, positioning resilience, supported by
+lead next-generation Al Coherent at the forefront of Al NVIDIA's $2B investment in
+architectures infrastructure growth Coherent
+Read more here Read more here Read more here
+C@HERENT opi 208, Coherent lot eee 7
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 8 (p.8) ===
+[TEXT LAYER]
+ENTERING A NEW PHASE OF ACCELERATED GROWTH New Growth Optical Circuit Switch Multi-rail Thermal Solutions CPO/NPO Engines Adding $20B+ Incremental SAM New Revenue Now H2 2026 H1 2027 H2 2027 Transceivers DCI Transceivers Transport/Transmission Optical Components Existing Growth 1.6T, 3.2T, 6.4T ZR/ZR+ Engines $50B+ SAM rd SAM estimates are for calendar 2030 based on 3 party and internal estimates. 8 Copyright 2026, Coherent. All rights reserved.
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+ENTERING A NEW PHASE OF ACCELERATED GROWTH
+New Growth Optical Circuit Switch CPO/NPO Multi-rail ‘Thermal Solutions
+Engines econ
+wwangsose EE to)
+Incremental SAM “ee =e
+emia Now 22026 |) H22027_ |
+Transceiver Det Transceive Transport/Transmissi Optical c ts
+Extn Growth Tansee Det anscoher ransport/Transmission cal smoeets
+$50B+ SAM A L 7 PA LN
+<A estimates re fr ealenda 2020 based on party and internal stints.
+C@HERENT cop 2028, Cohen Als sre 8
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 9 (p.9) ===
+[TEXT LAYER]
+(1) FOURTH QUARTER FISCAL 2026 OUTLOOK REVENUE $1.91 billion to $2.05 billion NON-GAAP GROSS MARGIN 39.0% to 41.0% NON-GAAP OPERATING EXPENSES $360 million to $380 million NON-GAAP TAX RATE 18% to 20% NON-GAAP EARNINGS PER SHARE $1.52 to $1.72 (1) The Company has not provided a quantitative reconciliation of forward-looking non-GAAP gross margin percentage, non-GAAP operating expenses, non-GAAP tax rate and non-GAAP earnings per share, because we cannot, without unreasonable efforts, forecast certain items required to develop comparable GAAP measures. These items include, without limitation, restructuring charges, integration, site consolidation and other expenses, foreign exchange gains (losses), and share based compensation expense. The variability of these items could significantly impact our future GAAP financial results and we believe that the inclusion of any such reconciliations would imply a degree or precision that could be confusing or misleading to investors. 9 Copyright 2026, Coherent. All rights reserved.
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+FOURTH QUARTER FISCAL 2026 OUTLOOK “)
+REVENUE $1.91 billion to $2.05 billion
+NON-GAAP GROSS MARGIN 39.0% to 41.0%
+NON-GAAP OPERATING EXPENSES $360 million to $380 million
+NON-GAAP TAX RATE 18% to 20%
+NON-GAAP EARNINGS PER SHARE $1.52 to $1.72
+(The Company as not provided a quanilatve reconeliton of rwardooking non-GAAP gross margin percentage, non-GAAP opeaing expenses, non-GAAP tax rate and non-GAAP
+tamings per share, because we cannot, wihou uieasonabl cots, forces cain ems fequred to develop conparabie GAAP measures, These tome incude,wihout tation,
+resting charges, iagrton, ste consoldation ad oer expenses, frelgn exchange gas (sees), ad share based compensalon expanse, The vaibly of tese Hers could
+Signtianty ped out hate GAAP Marcil esis and we baleve hate ision oan euch reconclaions would imply a degree of preslon hal coud be contig of meloaing to
+invedtor.
+C@HERENT con 28, cahanet t ssa 2
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 10 (p.10) ===
+[TEXT LAYER]
+GAAP TO NON-GAAP RECONCILIATION 10 Copyright 2026, Coherent. All rights reserved.
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+GAAP TO NON-GAAP
+RECONCILIATION
+C@HERENT sono cone agen .
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 11 (p.11) ===
+[TEXT LAYER]
+* GROSS MARGIN RECONCILIATION $ Millions (Unaudited) Mar 31, 2026 Dec 31, 2025 Sep 30, 2025 Jun 30, 2025 Mar 31, 2025 Gross margin on GAAP basis 680 623 579 546 528 Share-based compensation 6 6 6 6 5 Amortization of acquired intangibles 28 28 28 31 44 Integration, site consolidation and other — — — — — Gross margin on non-GAAP basis 714 657 613 582 577 * Amounts may not foot due to rounding 11 Copyright 2026, Coherent. All rights reserved.
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+*
+GROSS MARGIN RECONCILIATION
+$ Millions (Unaudited) Mar 31, 2026 Dec 31, 2025 Sep 30, 2025 Jun 30, 2025 Mar 31, 2025
+Gross margin on GAAP basis 680 623 579 546 528
+‘Share-based compensation 6 6 6 6 5
+Amortization of acquired intangibles 28 28 28 31 44
+Integration, site consolidation and other = = = = =
+Gross margin on non-GAAP basis 714 657 613 582 577
+‘Amounts may not foot due to rounding
+C@HERENT opi 208, Coherent lot eee "
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 12 (p.12) ===
+[TEXT LAYER]
+* OPERATING EXPENSES RECONCILIATION $ Millions (Unaudited) Mar 31, 2026 Dec 31, 2025 Sep 30, 2025 Jun 30, 2025 Mar 31, 2025 R&D on GAAP basis 186 166 155 156 151 Share-based compensation (7) (7) (7) (6) (5) Amortization of acquired intangibles — — — — (4) R&D on non-GAAP basis 178 159 148 149 141 SG&A on GAAP basis 268 259 252 245 231 Share-based compensation (37) (32) (32) (33) (30) Amortization of acquired intangibles (42) (43) (42) (41) (40) Financing fees — (1) — — — Integration, site consolidation and other (19) (21) (23) (14) (6) SG&A on non-GAAP basis 170 162 156 157 156 Restructuring on GAAP basis 34 4 19 54 74 Restructuring (34) (4) (19) (54) (74) Restructuring on non-GAAP basis — — — — — Impairment of assets held-for-sale on GAAP — 11 9 85 — basis Impairment of assets held-for-sale — (11) (9) (85) — Impairment of assets held-fo-sale on non- — — — — — GAAP basis Gain on sale of business on GAAP basis (9) — (115) — — Gain on sale of business 9 — 115 — — Gain on sale of business on non-GAAP basis — — — — — * Amounts may not foot due to rounding 12 Copyright 2026, Coherent. All rights reserved.
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+OPERATING EXPENSES RECONCILIATION *
+mons nates Wit f02s boc m5 Sep 0 2008 Jun 30,2085 war 0, a
+RAD on GAAP beso ‘28 te is ‘ee ‘st
+‘Share-based compensation ” fu} fu) 6) (5)
+eration of ogres ranges = - 2 = ns
+AD on non-GAAP basis i = 7m 7m ‘at
+808A on GAAP basis 208 29 2s as 1
+Share bved compensation en e 9) 0)
+‘Arran of cqited anges «a «s) (@) a )
+Fianing eos = 3 7 °
+Integration, site consolidation and other (19) (21) (23) (14) (8)
+‘Besa onnonGhap pesig 170168 gr 50
+Restructuring on GAAP basis “ 4 ® # ”
+esr ow 9 & a
+Restructuring on non GAAP base = = = 7 =
+Impsimentof asst heldforeateon GAAP a ° s _
+oa
+Inpament of sas eto 7 “9 © es =
+Triplet of eases heko-ale On Dow
+Saar base = = = = =
+Gain on sae of busines on GAAP basis © - 8) - -
+Gano alo bss 2 = its = =
+Gain on sale ofbusiness on nonGAAP bate — 7 - 7 =
+Amount may ot fot dv rounding
+C@HERENT apy 2028, Coerent A area 2
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 13 (p.13) ===
+[TEXT LAYER]
+* INCOME FROM OPERATIONS RECONCILIATION $ Millions (Unaudited) Mar 31, 2026 Dec 31, 2025 Sep 30, 2025 Jun 30, 2025 Mar 31, 2025 Op. income on GAAP basis 201 184 259 6 72 Share-based compensation 51 45 45 44 40 Amortization of acquired intangibles 71 71 70 72 87 Restructuring charges 34 4 19 54 74 Financing fees — 1 — — — Impairment of assets held-for-sale — 11 9 85 — Gain on sale of business (9) — (115) — — Integration, site consolidation and other 19 21 22 14 6 Op. income on non-GAAP basis 366 336 309 275 279 Non-GAAP Op. Margin Percentage 20.3 % 19.9 % 19.5 % 18.0 % 18.6 % * Amounts may not foot due to rounding 13 Copyright 2026, Coherent. All rights reserved.
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+INCOME FROM OPERATIONS RECONCILIATION *
+$ Millions (Unaudited) Mar 31, 2026 Dec 31, 2025 Sep 30, 2025 Jun 30, 2025 Mar 31, 2025
+‘Op. income on GAAP basis 201 184 259 6 72
+‘Share-based compensation 51 45 45 44 40
+Amortization of acquired intangibles a 1 70 2 87
+Restructuring charges 34 4 19 54 74
+Financing fees - 1 = = -
+Impairment of assets held-for-sale - " 9 85 -
+Gain on sale of business @) = (115) - -
+Integration, site consolidation and other 19 24 22 14 6
+‘Op. income on non-GAAP basis 366 336 309 275 279
+Non-GAAP Op. Margin Percentage 20.3 % 19.9 % 19.5% 18.0% 18.6%
+‘Amounts may not foot due to rounding
+C@HERENT opi 208, Coherent lot eee 13
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 14 (p.14) ===
+[TEXT LAYER]
+* NET EARNINGS RECONCILIATION $ Millions (Unaudited) Mar 31, 2026 Dec 31, 2025 Sep 30, 2025 Jun 30, 2025 Mar 31, 2025 Net earnings (loss) attributable to Coherent 191 147 226 (96) 16 Corp. on GAAP basis Share-based compensation 51 45 45 44 40 Amortization of acquired intangibles 71 71 70 72 87 Foreign currency exch. (gains) losses 1 (2) (1) 37 17 Restructuring charges 34 4 19 54 74 Impairment of assets held-for-sale — 11 9 85 — Gain on sale of business (9) — (115) — — Integration, site consolidation and other 19 21 22 14 6 Gain on sale of investment (14) (15) (7) — — Financing fees — 1 12 — — Non-controlling interest impact of non-GAAP (6) — — — (12) items Tax impact of non-GAAP measures (61) (33) (60) (18) (51) . Net earnings attributable to Coherent Corp. 276 248 221 192 177 on non-GAAP basis * Amounts may not foot due to rounding 14 Copyright 2026, Coherent. All rights reserved.
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+NET EARNINGS RECONCILIATION *
+$ Millions (Unaudited) Mar 31, 2026 Dec 31, 2025 Sep 30, 2025 Jun 30, 2025, Mar 31, 2025
+Net earnings (loss) attributable to Coherent
+Corp. on GAAP basis 191 147 226 (96) 16
+‘Share-based compensation 51 45 45 44 40
+Amortization of acquired intangibles 71 71 70 72 87
+Foreign currency exch. (gains) losses 1 (2) a) 37 7
+Restructuring charges 34 4 19 54 14
+Impairment of assets held-for-sale _ 1 9 85 _—
+Gain on sale of business [O) - (115) - -
+Integration, site consolidation and other 19 21 22 14 6
+Gain on sale of investment (14) (15) U) - -
+Financing fees - 1 12 - -
+Non-controlli terest it of non-GAAP
+Non sonraling interest impact of non-G @ _ _ _ 12)
+Tax impact of non-GAAP measures ( (33) (60) (18) (51)
+‘Net earnings attributable to Coherent Corp.
+oe nom GAAP basis 276 248 224 192 77
+Amounts may not foot due to rounding
+C@HERENT opi 208, Coherent lot eee “
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 15 (p.15) ===
+[TEXT LAYER]
+* NET EARNINGS PER COMMON SHARE $ for EPS, $ Millions for shares (Unaudited) Mar 31, 2026 Dec 31, 2025 Sep 30, 2025 Jun 30, 2025 Mar 31, 2025 Common shares, GAAP 190.2 167.5 156.2 155.5 155.2 Effect of dilutive securities: Common stock equivalents 6.1 5.5 4.6 — — Series B Redeemable Preferred Stock — 19.8 29.9 — — Diluted weighted average common shares, 196.4 192.8 190.7 155.5 155.2 GAAP Common shares, Non-GAAP 190.2 167.5 156.2 155.5 155.2 Effect of dilutive securities: Common stock equivalents 6.1 5.5 4.6 3.7 4.0 Series B Redeemable Preferred Stock — 19.8 29.9 — — Diluted weighted average common shares, 196.4 192.8 190.7 159.2 159.1 Non-GAAP Net earnings (loss) attributable to Coherent Corp., GAAP Basic Earnings (Loss) Per Share 1.01 0.87 1.24 (0.83) (0.11) Diluted Earnings (Loss) Per Share 0.97 0.76 1.19 (0.83) (0.11) Net earnings attributable to Coherent Corp., non-GAAP Basic Earnings Per Share 1.45 1.47 1.20 1.02 0.93 Diluted Earnings Per Share 1.41 1.29 1.16 1.00 0.91 * Amounts may not foot due to rounding 15 Copyright 2026, Coherent. All rights reserved.
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+NET EARNINGS PER COMMON SHARE”
+‘Common shares, GAAP 1902 1675 1562 1555 1552
+Effet of tive secures
+‘Common stock equivalents 6 ss 46 - -
+Series B Redeemable Prefered Stock = 198 209 = =
+Diluted weighted average common shares,
+Dilute 1964 1028 1907 1555 1552
+‘Common shares, Non-GAAP 190.2 167.5 156.2 155.5 155.2
+Effet of dutve secures
+‘Common stock equivalents ea 35 46 ar 40
+Series 8 Redeemable Proered Stock = 198 209 = =
+Diluted weighted average common share,
+Dituted wa 1964 1928 1907 1592 1501
+Net earnings (loss) attributable to Coherent
+Corp., GAAP
+Basic Eamings (Los) Per Share 101 087 124 (083) (1
+Dilated Earnings (oss) Per Share os7 076 119 (023) (1
+Net earings atibutabo to Coherent Corp,
+non-GAAP
+Basic Earnings Per Share 145 147 1.20 1.02 oss
+Dilated Earnings Per Share 1 429 116 4.00 ost
+Amount ay not fol to rounding
+C@HERENT con 0, coment een 18
+[/OCR OF SLIDE IMAGE]
+
+=== Slide 16 (p.16) ===
+[TEXT LAYER]
+coherent.com/company/investor-relations
+[/TEXT LAYER]
+[OCR OF SLIDE IMAGE]
+coherent.com/company/investor-relations
+[/OCR OF SLIDE IMAGE]

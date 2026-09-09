@@ -1,0 +1,164 @@
+===== 8-K filed 2025-12-16, accession 0000820318-25-000024, body iivi-20251216.htm =====
+Source: https://www.sec.gov/Archives/edgar/data/820318/000082031825000024/iivi-20251216.htm
+
+iivi-20251216
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+FORM 8-K
+
+CURRENT REPORT
+
+Pursuant to Section 13 or 15(d)
+
+of the Securities Exchange Act of 1934
+
+Date of Report (Date of earliest event Reported): December 16, 2025
+
+Coherent Corp.
+
+(Exact Name of Registrant as Specified in Charter)
+
+Pennsylvania | 001-39375 | 25-1214948
+(State or Other Jurisdiction of Incorporation) | (Commission File Number) | (I.R.S. Employer Identification Number)
+
+375 Saxonburg Boulevard,
+
+Saxonburg, Pennsylvania 16056
+
+(Address of Principal Executive Office) (Zip Code)
+
+(724) 352-4455
+
+(Registrant's telephone number, including area code)
+
+Not Applicable
+
+(Former name or former address, if changed since last report)
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+
+☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+
+☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+
+☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common Stock, no par value | COHR | New York Stock Exchange
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+
+Emerging growth company ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+
+Item 8.01. Other Events.
+
+As previously disclosed in a Current Report on Form 10-K dated August 15, 2025, effective with the beginning of its 2026 fiscal year on July 1, 2025, Coherent Corp. (the “Company”) began operating under two revised business segments: Datacenter & Communications; and Industrial. The Company’s businesses are organized and managed under two segments based on similarities in products and services.
+
+The Company is filing information under Item 8.01 of this Current Report on Form 8-K (this “Form 8-K”) to (i) provide investors with recast historical financial information for periods prior to the segment change, and (ii) incorporate by reference that recast historical financial information into the Company’s filings with the Securities and Exchange Commission, including registration statements filed under the Securities Act of 1933, as amended.
+
+The following items from the Company’s Annual Report on Form 10-K for the fiscal year ended June 30, 2025 (the “2025 Form 10-K”) are being revised and updated from their previous presentation solely to reflect the Company’s new segment structure, as reflected in Exhibit 99.1 to this Form 8-K:
+
+•Part I, Item 1. Business;
+
+•Part II, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations; and
+
+•Part II, Item 8. Financial Statements and Supplementary Data.
+
+Except for minor, non-substantive revisions, only the following notes to the consolidated financial statements have been revised from their previous presentation:
+
+•Note 1 - Nature of Business and Summary of Significant Accounting Policies;
+
+•Note 3 - Revenue from Contracts with Customers;
+
+•Note 6 - Goodwill and Other Intangible Assets;
+
+•Note 14 - Segment and Geographic Reporting;
+
+•Note 20 - Restructuring Plans; and
+
+•Note 21 - Assets Held-for-Sale.
+
+The changes referred to above had no impact on the Company’s historical consolidated financial position, results of operations or cash flows, and the recast financial information contained in Exhibit 99.1 to this Form 8-K does not represent a restatement of previously issued financial statements.
+
+Also included in Exhibit 99.1 is the report of Ernst & Young LLP, our independent registered public accounting firm, on the consolidated financial statements, which is unchanged from the report included in the 2025 Form 10-K, other than the dual date to include the recast and reissuance of the consolidated financial statement footnote information.
+
+This Form 8-K does not modify or update other 2025 Form 10-K information in any way, nor does it reflect any subsequent information or events, other than as required to reflect the change in segments as described above.
+
+The information in this Form 8-K, including Exhibit 99.1, should be read in conjunction with the 2025 Form 10-K and any other documents filed by the Company pursuant to the Securities Exchange Act of 1934, as amended, subsequent to August 15, 2025, which are incorporated herein by reference.
+
+Item 9.01. Financial Statements and Exhibits.
+
+(d)Exhibits
+
+23.01 | Consent of Ernst & Young, LLP.
+99.1 | Revised Part I, Item 1. "Business," Part II, Item 7. "Management's Discussion and Analysis of Financial Condition and Results of Operations," and Part II, Item 8. "Financial Statements and Supplementary Data" of Coherent Corp.'s Annual Report on Form 10-K for the year ended June 30, 2025.
+104 | Cover Page Interactive Data File (embedded within the Inline XBRL document).
+
+SIGNATURE
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+
+Coherent Corp.
+Date: December 16, 2025 | By: | /s/ Sherri Luther
+Sherri Luther
+Chief Financial Officer and Treasurer
+===== EX-23.01 consent of Ernst & Young =====
+Source: https://www.sec.gov/Archives/edgar/data/820318/000082031825000024/exhibit2301-accountingfirm.htm
+
+EX-23.01
+2
+exhibit2301-accountingfirm.htm
+EX-23.01
+
+Document
+
+Exhibit 23.01
+
+Consent of Independent Registered Public Accounting Firm
+
+We consent to the incorporation by reference in the following Registration Statements:
+
+1Registration Statement (Form S-8 No. 333-184805) pertaining to the II-VI Incorporated 2012 Omnibus Incentive Plan,
+
+2Registration Statement (Form S-8 No. 333-199855) pertaining to the Amended and Restated II-VI Incorporated 2012 Omnibus Incentive Plan,
+
+3Registration Statement (Form S-8 No. 333-228367) pertaining to the II-VI Incorporated 2018 Employee Stock Purchase Plan,
+
+4Registration Statement (Form S-8 No. 333-228368) pertaining to the II-VI Incorporated 2018 Omnibus Incentive Plan,
+
+5Registration Statement (Form S-8 No. 333-249995) pertaining to the II-VI Incorporated Amended and Restated 2018 Omnibus Incentive Plan,
+
+6Registration Statement (Form S-8 No. 333-266007) pertaining to the Coherent, Inc. 2011 Equity Incentive Plan and Coherent, Inc. Equity Incentive Plan,
+
+7Registration statement (Form S-8 No. 333-274069) pertaining to the Amended and Restated II-VI Incorporated 2005 Deferred Compensation Plan,
+
+8Registration Statement (Form S-8 No. 333-275627) pertaining to the Coherent Corp. Employee Stock Purchase Plan,
+
+9Registration Statement (Form S-8 No. 333-275628) pertaining to the Coherent Corp. Omnibus Incentive Plan,
+
+10Registration Statement (Form S-3 No. 333-258526) pertaining to II-VI Incorporated’s common stock and preferred stock,
+
+11Registration Statement (Form S-3 No. 333-266529) pertaining to II-VI Incorporated’s common stock and preferred stock,
+
+12Registration Statement (Form S-8 No. 333-281591) pertaining to Coherent Corp.’s common stock, and
+
+13Registration Statement (Form S-8 No. 333-283032) pertaining to Coherent Corp.’s common stock;
+
+of our report dated August 14, 2025 (except for the effects of the reportable segment change disclosed in Notes 1, 3, 6, 14, 20 and 21, as to which the date is December 16, 2025), with respect to the consolidated financial statements and the financial statement schedule of Coherent Corp. and Subsidiaries and our report dated August 14, 2025, with respect to the effectiveness of internal control over financial reporting of Coherent Corp. and Subsidiaries, included in this Current Report (Form 8-K) of Coherent Corp.
+
+/s/ Ernst & Young LLP
+
+Pittsburgh, Pennsylvania
+
+December 16, 2025
