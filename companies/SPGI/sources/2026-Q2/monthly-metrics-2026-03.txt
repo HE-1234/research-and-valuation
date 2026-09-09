@@ -1,0 +1,41 @@
+### SHEET: S&P Global Ratings (dims A1:I71)
+S&P Global Ratings - Billed Issuance
+Billed Issuance (total par value of issuance billed by S&P Global Ratings) |  | '26 v. '25
+ % Change |  | '25 v. '24
+ % Change
+January |  | 0.03 |  | -0.03
+February |  | 0.22 |  | 0.06
+March |  | 0.13 |  | 0.22
+April |  |  |  | -0.19
+May |  |  |  | -0.08
+June |  |  |  | 0.13
+July |  |  |  | 0.11
+August |  |  |  | 0.23
+September |  |  |  | 0.09
+October |  |  |  | 0.36
+November |  |  |  | 0.3
+December |  |  |  | 0.14
+Definition:  S&P Global Ratings’ Billed Issuance includes loans, and excludes issuance billed under the frequent issuer program, as well as items that don’t impact transaction revenue including unrated debt and most international public finance
+Source:  S&P Global Ratings
+Published on 4/15/2026
+
+### SHEET: S&P Dow Jones Indices (dims A1:L22)
+S&P Dow Jones Indices - Average Daily Volume of Exchange-Traded Derivatives (ETDs)
+Average Daily Volume of ETDs |  | 2026 ADV                 (in millions of contracts) | '26 v. '25
+ % Change |  | 2025 ADV                 (in millions of contracts) | '25 v. '24
+ % Change
+January |  | 9.619107210000001 | 0.06689299134871352 |  | 9.016 | 0.066
+February |  | 10.848 | 0.201 |  | 9.031 | 0.072
+March |  | 13.269 | 0.162 |  | 11.423 | 0.29
+April |  |  |  |  | 11.212 | 0.186
+May |  |  |  |  | 8.402 | 0.109
+June |  |  |  |  | 8.855 | 0.044
+July |  |  |  |  | 7.794 | -0.113
+August |  |  |  |  | 8.687 | -0.065
+September |  |  |  |  | 9.576 | 0.041
+October |  |  |  |  | 10.051 | 0.282
+November |  |  |  |  | 11.0839763684211 | 0.346
+December |  |  |  |  | 9.184 | 0.106
+Definition:  Average Daily Volume (ADV) as disclosed here represents the average volume of contracts per trading day in the given month for Exchange-Traded Derivatives (ETDs) associated with SPDJI Intellectual Property (such as the S&P 500). Beginning in December 2025, ADV excludes event contracts.
+Source:  S&P Dow Jones Indices
+Published on 4/15/2026

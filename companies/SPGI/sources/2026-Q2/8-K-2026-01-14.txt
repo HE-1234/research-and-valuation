@@ -1,0 +1,75 @@
+# 8-K/A filed 2026-01-14 (event date 2025-11-04), accession 0000064040-26-000004
+# Index: https://www.sec.gov/Archives/edgar/data/64040/000006404026000004/0000064040-26-000004-index.htm
+# Items: Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers
+# Documents in filing index: spgi-20251104.htmiXBRL [8-K/A] 8-K/A (24436 bytes); 0000064040-26-000004.txt [] Complete submission text file (138257 bytes); spgi-20251104.xsd [EX-101.SCH] XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT (1798 bytes); spgi-20251104_lab.xml [EX-101.LAB] XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT (21880 bytes); spgi-20251104_pre.xml [EX-101.PRE] XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT (12522 bytes); spgi-20251104_htm.xml [XML] EXTRACTED XBRL INSTANCE DOCUMENT (2705 bytes)
+# Cached below (non-XBRL, non-graphic): spgi-20251104.htmiXBRL
+
+
+===== spgi-20251104.htmiXBRL [8-K/A] 8-K/A =====
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+FORM 8-K/A
+
+Amendment No. 1 to Form 8-K
+
+CURRENT REPORT
+
+Pursuant to Section 13 or 15(d) of the
+
+Securities Exchange Act of 1934
+
+Date of Report: November 4, 2025
+
+S&P Global Inc.
+
+(Exact Name of Registrant as specified in its charter)
+
+New York | 1-1023 | 13-1026995
+(State or other jurisdiction of incorporation or organization) | (Commission File No.) | (IRS Employer Identification No.)
+
+55 Water Street, New York, New York 10041
+
+(Address of Principal Executive Offices) (Zip Code)
+
+(212) 438-1000
+
+(Registrant’s telephone number, including area code)
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+
+☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+
+☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+
+☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+Title of each class | Trading Symbol | Name of Exchange on which registered
+Common stock (par value $1.00 per share) | SPGI | New York Stock Exchange
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+
+Emerging growth company ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+
+Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.
+
+On November 10, 2025, S&P Global Inc. (the "Registrant") announced that its Board of Directors (the "Board") appointed Robert Moritz to serve as a Director of the Registrant, effective March 1, 2026. This amendment is to update the effective date of Mr. Moritz's appointment to the Board and the committees to which he is appointed to February 1, 2026.
+
+SIGNATURES
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this Amendment to be signed on its behalf by the undersigned hereunto duly authorized.
+
+S&P Global Inc.
+/s/ | Judah Bareli
+By: | Judah Bareli
+Vice President, Associate General Counsel – Corporate & Assistant Corporate Secretary
+
+Dated: January 14, 2026

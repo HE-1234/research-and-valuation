@@ -1,0 +1,485 @@
+2Q 2026
+Earnings Supplemental Disclosure
+
+
+
+July 28, 2026
+
+                                   1
+Safe Harbor statement under the Private
+Securities Litigation Reform Act of 1995
+This presentation contains “forward-looking               Forward-looking statements are subject to inherent risks and uncertainties. Factors that could cause actual results to differ materially from those expressed or implied in forward-looking
+statements,” as defined in the Private Securities         statements include, among other things:
+Litigation Reform Act of 1995. These statements,          •   worldwide economic, financial, political, regulatory, and geopolitical conditions (including slower GDP            ▪   our ability to attract, incentivize and retain key employees, especially in a competitive business
+which express management’s current views                      growth or recession, restrictions on trade (e.g., tariffs and disruptions to shipping in connection with the           environment;
+                                                              military conflict in the Middle East), instability in the banking sector and inflation), and factors that          ▪   our ability to successfully navigate key organizational changes;
+concerning future events, trends, contingencies or                                                                                                                               ▪   the continuously evolving regulatory environment in Europe, the United States and elsewhere
+                                                              contribute to uncertainty and volatility (e.g., supply chain risk), geopolitical uncertainty (including military
+results, appear at various places in this                     conflict), natural and man-made disasters, civil unrest, public health crises (e.g., pandemics), and                   around the globe affecting each of our businesses and the products they offer, and our compliance
+presentation and use words like “anticipate,”                 conditions that result from legislative, regulatory, trade and policy changes, including from the U.S.                 therewith;
+“assume,” “believe,” “continue,” “estimate,”                  administration;                                                                                                    ▪   the Company’s exposure to potential criminal sanctions or civil penalties for noncompliance with
+                                                          •   the volatility and health of debt, equity, commodities and energy markets, including credit quality and                foreign and U.S. laws and regulations that are applicable in the jurisdictions in which it operates,
+“expect,” “forecast,” “future,” “intend,” “plan,”                                                                                                                                    including sanctions laws relating to countries such as Iran, Russia and Venezuela, anti-corruption
+                                                              spreads, the composition and mix of credit maturity profiles, the level of liquidity and future debt
+“potential,” “predict,” “project,” “strategy,” “target”       issuances, equity flows from active to passive, fluctuations in average asset prices in global equities,               laws such as the U.S. Foreign Corrupt Practices Act and the U.K. Bribery Act of 2010, and local laws
+and similar terms, and future or conditional tense            demand for investment products that track indices and assessments and trading volumes of certain
+                                                                                                                                                                                     prohibiting corrupt payments to government officials, as well as import and export restrictions;
+                                                                                                                                                                                 ▪   the Company’s ability to make acquisitions and dispositions and successfully integrate the
+verbs like “could,” “may,” “might,” “should,” “will”          exchange traded derivatives;
+                                                                                                                                                                                     businesses we acquire;
+and “would.” For example, management may use              •   the demand and market for credit ratings in and across the sectors and geographies where the
+                                                                                                                                                                                 ▪   consolidation of the Company’s customers, suppliers or competitors;
+                                                              Company operates;
+forward-looking statements when addressing                •   the Company’s ability to maintain adequate physical, technical and administrative safeguards to protect
+                                                                                                                                                                                 ▪   the ability of the Company, and its third-party service providers, to maintain adequate physical and
+topics such as: the outcome of contingencies;                                                                                                                                        technological infrastructure;
+                                                              the security of confidential information and data, or protect against a system or network disruption that          ▪   the Company’s ability to successfully recover from a disaster or other business continuity problem,
+future actions by regulators; changes in the                  results in regulatory penalties and remedial costs or improper disclosure of confidential information or               such as an earthquake, hurricane, flood, civil unrest, protests, military conflict, terrorist attack,
+Company’s business strategies and methods of                  data;                                                                                                                  outbreak of pandemic or contagious diseases, security breach, cyber attack, data breach, power
+generating revenue; the development and                   •   the outcome of litigation, government and regulatory proceedings, investigations and inquiries;                        loss, telecommunications failure or other natural or man-made event;
+                                                          •   concerns in the marketplace affecting the Company’s credibility or otherwise affecting market                      ▪   the impact on the Company’s revenue and net income caused by fluctuations in foreign currency
+performance of the Company’s services and                     perceptions of the integrity or utility of independent credit ratings, benchmarks, indices and other                   exchange rates;
+products; the expected impact of acquisitions and             services;                                                                                                          ▪   the impact of changes in applicable tax or accounting requirements on the Company;
+dispositions; the Company’s effective tax rates;          •   the level of merger and acquisition activity in the United States and abroad;                                      ▪   the ability of the separation of Mobility Global to qualify for tax-free treatment for U.S. federal income
+and the Company’s cost structure, dividend policy,        •   the level of the Company’s future cash flows and capital investments;                                                  tax purposes;
+                                                          •   the effect of competitive products (including those incorporating artificial intelligence ("AI")) and pricing,     ▪   any disruption to the Company’s business in connection with the separation of Mobility Global; and
+cash flows or liquidity.                                      including the level of success of new product developments and global expansion;                                   ▪   any loss of synergies from separating the businesses of Mobility Global and the Company that
+                                                          •   the impact of customer cost-cutting pressures;                                                                         adversely impact the results of operations of both businesses, or the companies resulting from the
+                                                          •   a decline in the demand for our products and services by our customers and other market participants;                  separation of Mobility Global not realizing all of the expected benefits of the separation.
+                                                          •   our ability to develop new products or technologies, to integrate our products with new technologies
+                                                              (e.g., AI), or to compete with new products or technologies offered by new or existing competitors;                The factors noted above are not exhaustive. The Company and its subsidiaries operate in a dynamic
+                                                          •   the introduction of competing products (including those developed by AI) or technologies by other                  business environment in which new risks emerge frequently. Accordingly, the Company cautions readers
+                                                              companies;                                                                                                         not to place undue reliance on any forward-looking statements, which speak only as of the dates on
+                                                                                                                                                                                 which they are made. The Company undertakes no obligation to update or revise any forward-looking
+                                                          •   our ability to protect our intellectual property from unauthorized use and infringement, including by
+                                                                                                                                                                                 statement to reflect events or circumstances arising after the date on which it is made, except as
+                                                              others using AI technologies, and to operate our business without violating third-party intellectual
+                                                                                                                                                                                 required by applicable law. Further information about the Company’s businesses, including information
+                                                              property rights, including through our own use of AI in our products and services;                                 about factors that could materially affect its results of operations and financial condition, is contained in
+                                                                                                                                                                                 the Company’s filings with the SEC, including Item 1A, Risk Factors in our most recently filed Annual
+                                                                                                                                                                                 Report on Form 10-K.
+
+                                                                                                                                                                                                                                                                                  2
+Comparison of adjusted information to
+U.S. GAAP information
+The Company reports its financial results in accordance with accounting principles generally accepted in the United States ("GAAP"). Company financial results are presented on an as-reported basis, and on
+a pro forma basis as if the Mobility spin-off had closed on January 1, 2023, for periods including fiscal years 2023, 2024 and 2025, and the three and six months ended June 30, 2026; the pro forma basis
+agrees to the Company’s unaudited pro forma combined consolidated financial information presented in accordance with Article 11 of Regulation S-X. The Company also refers to and presents certain
+additional non-GAAP financial measures, within the meaning of Regulation G under the Securities Exchange Act of 1934. These measures are: adjusted (as recast) segment revenue; trailing twelve-month
+adjusted (as recast) segment revenue; pro forma non-GAAP adjusted operating profit and margin; trailing twelve-month pro forma non-GAAP adjusted operating profit and margin; pro forma non-GAAP
+adjusted expenses; pro forma non-GAAP adjusted corporate unallocated expense; pro forma non-GAAP organic constant currency revenue; pro forma non-GAAP adjusted interest expense, net; pro forma
+non-GAAP adjusted effective tax rate; pro forma non-GAAP adjusted net income (less NCI); pro forma non-GAAP adjusted diluted EPS; free cash flow and adjusted free cash flow, excluding certain items;
+EBITDA and adjusted EBITDA; adjusted gross debt; and adjusted net debt.
+
+The Company is not able to provide reconciliations of certain forward-looking non-GAAP financial measures to comparable GAAP measures because certain items required for such reconciliations are outside
+of the Company's control and/or cannot be reasonably predicted without unreasonable effort.
+
+The Company’s non-GAAP measures include adjustments that reflect how management views our businesses. The Company believes these non-GAAP financial measures provide useful supplemental
+information that, in the case of non-GAAP financial measures other than free cash flow and adjusted free cash flow excluding certain items, enables investors to better compare the Company’s performance
+across periods, and management also uses these measures internally to assess the operating performance of its business, to assess performance for employee compensation purposes and to decide how to
+allocate resources. The Company believes that the presentation of free cash flow and adjusted free cash flow excluding certain items allows investors to evaluate the cash generated from our underlying
+operations in a manner similar to the method used by management and that such measures are useful in evaluating the cash available to us to prepay debt, make strategic acquisitions and investments, and
+repurchase stock. However, investors should not consider any of these non-GAAP measures in isolation from, or as a substitute for, the financial information that the Company reports.
+
+The Company’s earnings releases, including its earnings release dated July 28, 2026, contain financial measures calculated in accordance with GAAP that correspond to the non-GAAP measures included in
+this presentation, and the earnings releases and this presentation contain reconciliations of such GAAP and non-GAAP measures. The Company’s earnings releases and this presentation are available on the
+Company’s website at https://investor.spglobal.com/quarterly-earnings.
+
+
+
+
+                                                                                                                                                                                                               3
+Table of Contents
+
+
+
+     Section                      Page
+     Financial Results             5
+     Guidance                      15
+     Appendix & Reconciliations    19
+
+
+
+
+                                         4
+Financial Results
+
+
+
+
+                    5
+Enterprise financial results
+
+
+Adjusted financials*                                                                                                                           2Q 2026                            2Q 2025                            Change
+Revenue                                                                                                                                          $3,678                             $3,317                              +11%
+Corporate unallocated expense                                                                                                                       $42                                $43                               (4)%
+Total expense                                                                                                                                    $1,681                             $1,583                                +6%
+Operating profit                                                                                                                                 $1,998                             $1,734                              +15%
+Operating margin                                                                                                                                 54.3%                              52.3%                           +200 bps
+Interest expense, net                                                                                                                               $89                                $83                                +8%
+Adjusted effective tax rate                                                                                                                      19.8%                              23.3%                           (350) bps
+Net income (less NCI)                                                                                                                            $1,429                             $1,201                              +19%
+Diluted EPS                                                                                                                                       $4.83                              $3.92                              +23%
+Weighted average diluted shares outstanding                                                                                                       295.5                              306.1                               (3)%
+Adjusted Free Cash Flow, excluding certain items                                                                                                 $1,370                             $1,357                                +1%
+($ in millions, except per share data; some amounts may not sum due to rounding)
+
+
+                *All financials other than revenue, adjusted free cash flow, excluding certain items, and weighted average diluted shares outstanding refer to pro forma non-GAAP adjusted metrics. Revenue and weighted average
+                diluted shares outstanding refer to pro forma metrics. Adjusted free cash flow, excluding certain items refers to a non-GAAP adjusted metric.                                                                      6
+Non-GAAP adjustments
+
+
+Pre-tax items excluded to arrive at adjusted results        2Q 2026
+Deal-related amortization                                    $199
+Restructuring                                                 44
+Acquisition and disposition-related costs                      8
+Gain on dispositions                                          (11)
+TSA Adjustment                                                (6)
+Other                                                          7
+Total                                                        $241
+($ in millions; some amounts may not sum due to rounding)
+
+
+
+
+                                                                      7
+Adjusted Free Cash Flow, excluding certain items
+
+
+                                                    2Q 2026
+Cash provided by operating activities                $1,439
+Capital expenditures                                  (38)
+Distributions to non-controlling interest holders     (71)
+Free cash flow                                       $1,330
+Employee severance and transition costs               25
+Acquisition and disposition-related costs              1
+Tax on gain from divestitures                          8
+Payment of legal costs                                 6
+Adjusted free cash flow, excluding certain items     $1,370
+($ in millions)
+
+
+
+
+• Paid dividends of $287 million in 2Q 2026
+
+                                                              8
+Adjusted gross leverage
+
+
+                                                                                                                                                       2Q 2026
+Cash and cash equivalents1                                                                                                                                $4,141
+Short- and long-term debt2                                                                                                                               $13,170
+Adjusted gross debt to adjusted EBITDA3                                                                                                                        2.5x
+Adjusted net debt to adjusted EBITDA4                                                                                                                          1.9x
+Gross debt to EBITDA5                                                                                                                                          1.7x
+($ in millions; adjusted EBITDA excludes contributions from Mobility)
+   1. Cash and cash equivalents includes restricted cash and excludes $186 million of cash that became sole assets of Mobility Global Inc. following the separation on
+      July 1, 2026
+
+   2. Short- and long-term debt excludes $2.0 billion of bonds that became sole liabilities of Mobility Global Inc. following the separation on July 1, 2026
+
+   3. Adjusted Q2 gross debt includes unfunded portion of pension liabilities (~$189 million), redeemable noncontrolling interests (~$5.0 billion), and the expected NPV of
+      operating leases (~$578 million); Adjusted EBITDA includes EBITDA plus net lease expense (~$108 million) less income adjustment on qualified U.S. pension plans
+      (~$(16) million)
+
+   4. Adjusted net debt represents adjusted gross debt less cash and cash equivalents
+
+   5. Earnings Before Interest, Taxes, Depreciation and Amortization ("EBITDA") includes adjustments to pro forma non-GAAP adjusted operating profit as depicted on
+      Exhibit 6 of the Company’s 2Q 2026 quarterly earnings release furnished to the SEC on July 28, 2026
+                                                                                                                                                                      9
+2Q 2026 Inorganic and foreign currency impacts
+
+
+                                                                                                                                                                              Market
+Inorganic Impact                                                 Ratings                              Indices                              Energy                                                                     Total
+                                                                                                                                                                           Intelligence
+   Net Impact of Acquisitions &
+                                                                    0.2%                                 0.3%                                0.3%                               (0.1)%                                0.1%
+   Divestitures on Revenue1
+
+Foreign Currency Impact
+
+   Revenue                                                           $4.9                               $(0.2)                                $0.3                                $0.4                                 $5.4
+
+   Expense                                                           $2.9                               $(0.4)                               $(1.2)                               $3.9                                 $5.1
+
+   Adjusted Operating Profit                                         $7.8                               $(0.6)                               $(0.9)                               $4.3                                $10.5
+($ in millions; numbers in parentheses indicate unfavorable impact; some amounts may not sum due to rounding)
+
+
+Key factors mitigating impact of currency changes
+• S&P Global revenue had a favorable impact primarily driven by the weakening of the USD against the EUR, with the most impact occurring
+  within Ratings.
+
+
+                1. Net Impact includes revenue contributions from acquisitions in the current period less revenue from divestitures in all periods.
+                Note: All financials other than revenue refer to pro forma non-GAAP adjusted metrics. Revenue refers to pro forma revenue on a consolidated basis, GAAP revenue for Ratings and Indices, and adjusted (as recast)
+                revenue for Energy and Market Intelligence.                                                                                                                                                                         10
+Financial results: S&P Global Ratings
+
+
+Adjusted 2Q results*                                                                                                                   2Q 2026   2Q 2025   Change
+Revenue                                                                                                                                $1,339    $1,148     +17%
+   Transaction                                                                                                                           $746      $597      +25%
+
+   Non-transaction                                                                                                                       $593      $551      +8%
+
+Segment operating profit                                                                                                                $917      $750      +22%
+Segment operating margin                                                                                                                68.5%     65.4%    +310 bps
+($ in millions)
+
+
+
+
+2Q 2026 highlights:
+• Revenue increased 17%, driven by higher transaction revenue from debt ratings and growth in non-transaction revenue
+  from fee revenue, RES activity, and Crisil.
+• Adjusted expenses increased 6%, driven by higher compensation costs and continued investments in strategic initiatives.
+
+
+
+                  *All financials, other than revenue, refer to pro forma non-GAAP adjusted metrics. Revenue refers to GAAP revenue.                                11
+Financial results: S&P Dow Jones Indices
+
+
+Adjusted 2Q results*                                                                                                                   2Q 2026   2Q 2025   Change
+Revenue                                                                                                                                 $534      $446      +20%
+Recurring revenue as % of revenue                                                                                                       81.5%     81.9%    (40) bps
+Segment operating profit                                                                                                                $382      $315      +21%
+Segment operating margin                                                                                                                71.5%     70.6%    +90 bps
+($ in millions)
+
+
+
+
+2Q 2026 highlights:
+• Revenue increased 20%, primarily driven by growth in asset-linked fees, supported by higher AUM, and strong trading
+  volumes in exchange-traded derivatives.
+• Adjusted expenses increased 16%, primarily driven by an increase in strategic growth investments and higher
+  compensation.
+
+
+
+
+                  *All financials, other than revenue, refer to pro forma non-GAAP adjusted metrics. Revenue refers to GAAP revenue.                               12
+Financial results: S&P Global Energy
+
+
+Adjusted 2Q results*                                                                                                                                    2Q 2026   2Q 2025   Change
+Revenue                                                                                                                                                  $623      $607      +3%
+Recurring revenue as % of revenue                                                                                                                        91.2%     90.3%    +90 bps
+Segment operating profit                                                                                                                                 $296      $284      +4%
+Segment operating margin                                                                                                                                 47.5%     46.8%    +70 bps
+($ in millions)
+
+
+
+
+2Q 2026 highlights:
+• Revenue increased 3%, primarily driven by mid-single digit growth in Platts, supported by strong demand for Price
+  Assessments. This was partially offset by muted trading volumes in Global Trading Services and comparatively lower
+  growth in CERA.
+• Adjusted expenses increased 1%, driven by higher compensation costs and ongoing investments in strategic growth
+  initiatives, partially offset by productivity initiatives.
+
+
+                  *All financials, other than revenue, refer to pro forma non-GAAP adjusted metrics. Revenue refers to adjusted (as recast) revenue..                              13
+Financial results: S&P Global Market Intelligence
+
+
+Adjusted 2Q results*                                                                                                                                   2Q 2026   2Q 2025   Change
+Revenue                                                                                                                                                $1,235    $1,165      +6%
+Recurring revenue as % of revenue                                                                                                                       97.0%     96.8%    +20 bps
+Segment operating profit                                                                                                                                $445      $405      +10%
+Segment operating margin                                                                                                                                36.0%     34.8%    +120 bps
+Operating profit from OSTTRA JV (net of tax, not included above)                                                                                         $—        $23       N/M
+($ in millions)
+
+
+
+
+2Q 2026 highlights:
+• Revenue increased 6%, driven by high-single digit growth in Kensho Data & Platforms (including contributions from With
+  Intelligence) and low-single growth in Enterprise Solutions (including the impact of the EDM and thinkFolio divestitures).
+• Adjusted expenses increased 4%, reflecting With Intelligence expenses and higher compensation, partially offset by the
+  divestitures of EDM and thinkFolio and productivity savings.
+
+                  *All financials, other than revenue, refer to pro forma non-GAAP adjusted metrics. Revenue refers to adjusted (as recast) revenue.
+                  Note: N/M - Represents a change equal to or in excess of 100% or not meaningful                                                                                  14
+2026 Guidance
+
+
+
+
+                15
+2026 Enterprise GAAP financial guidance, from continuing operations
+
+
+
+
+              Revenue growth                                                                                                                                                 5.9% to 7.9%
+              Corporate Unallocated Expense                                                                                                                            $205 to $215 million
+              Deal-related Amortization                                                                                                                                      ~$785 million
+              Operating Profit Margin expansion                                                                                                                             335 to 360 bps
+              Interest Expense, net                                                                                                                                    $365 to $385 million
+             Tax Rate                                                                                                                                                         22% to 23%
+              Diluted EPS                                                                                                                                                 $16.35 to $16.60
+              Capital Expenditures                                                                                                                                     $190 to $210 million
+
+
+
+
+     Note: GAAP financial guidance in the table above refers to expected results from continuing operations for the full year 2026. Effective July 1, 2026, the operations of Mobility will qualify as discontinued operations for
+     full year 2026 results.                                                                                                                                                                                                         16
+2026 Enterprise adjusted financial guidance
+
+
+             Organic, Constant Currency Revenue growth                                                                                                                 6.0% to 8.0%
+               Net impact to reported revenue growth from Acquisitions & Divestitures                                                                                        -0.2%
+               Net impact to reported revenue growth from Foreign Exchange                                                                                                    0.1%
+             Reported Revenue growth                                                                                                                                   5.9% to 7.9%
+             Corporate Unallocated Expense                                                                                                                       $185 to $195 million
+             Deal-related Amortization                                                                                                                                 ~$785 million
+             Operating Profit Margin expansion                                                                                                                          35 to 60 bps
+             Operating Profit Margin expansion, excluding OSTTRA                                                                                                       75 to 100 bps
+             Interest Expense, net                                                                                                                               $390 to $410 million
+             Tax Rate                                                                                                                                                   22% to 23%
+             Diluted EPS                                                                                                                                            $17.50 to $17.75
+             Capital Expenditures                                                                                                                                $190 to $210 million
+
+
+
+
+     Note: Adjusted financial guidance in the table above refers to non-GAAP adjusted results and is projected against the pro forma non-GAAP adjusted financials for the full year 2025 that the Company provided in a
+     press release dated July 6, 2026. Adjusted guidance at the consolidated level is not comparable to adjusted guidance previously issued, which assumed a full-year contribution from Mobility.                        17
+2026 Division financial guidance
+
+
+
+                                                                        Former Division
+                                                                                                                                                    Current
+                                                                           Guidance
+
+                                                                                                                                                         Net impact to reported
+                                                                          OCC Revenue                           OCC Revenue                              revenue growth from:
+                                                                            Growth                                Growth
+                                                                                                                                                       A&D                             FX
+        S&P Global Ratings                                                     4% to 7%                              5% to 8%                          0.2%                           0.1%
+
+        S&P Dow Jones Indices                                                 10% to 12%                           12% to 14%                          0.2%                           0.1%
+
+        S&P Global Energy                                                     4.5% to 6%                           4.5% to 6%                          -1.6%                             -
+
+        S&P Global Market Intelligence                                        5.5% to 7%                           5.5% to 7%                          0.2%                           0.1%
+
+
+
+
+     Note: OCC = organic constant currency, A&D = acquisitions & divestitures, FX = foreign exchange; Revenue growth is presented with respect to GAAP revenue for Ratings and Indices and adjusted (as recast)
+     revenue for Energy and Market Intelligence.                                                                                                                                                                  18
+Appendix & Reconciliations
+
+
+
+
+                             19
+Quarterly global rated issuance*
+
+                      United States                                                                            Europe                                                             Asia
+
+                                               $1,197         $1,170
+                  $1,088
+     $931                        $970
+
+
+                                                                                                                                   $602          $646
+                                                                                      $577
+                                                                                                     $477           $426
+
+                                                                                                                                                                          $191             $179    $221
+                                                                                                                                                                  $148             $120
+
+
+     2Q25         3Q25           4Q25          1Q26           2Q26                    2Q25          3Q25           4Q25           1Q26           2Q26             2Q25    3Q25    4Q25    1Q26     2Q26
+
+•   United States issuance increased 26% y/y                                    •      Europe issuance increased 12% y/y                                          •   Asia issuance increased 49% y/y
+      ◦ Investment Grade increased 42%                                                   ◦ Investment Grade increased 9%                                                ◦ Investment Grade increased 47%
+      ◦ High Yield increased 25%                                                         ◦ High Yield increased 7%                                                      ◦ High Yield increased 96%
+      ◦ Public Finance increased 1%                                                      ◦ Structured Finance increased 24%                                             ◦ Structured Finance increased 50%
+      ◦ Structured Finance increased 35%                                                 ◦ Bank Loans increased 7%
+      ◦ Bank Loans increased 3%
+
+($ in billions)
+
+
+
+
+                  *Excludes sovereign and non-rated issuance. Structured finance issuance includes amounts when a transaction closes, not when initially priced
+                  Sources: Refinitiv, Green Street Advisors, and LCD                                                                                                                                 20
+Global rated issuance
+
+
+                                        Investment-Grade                                                              Global High-Yield Issuance &
+                                                                                                                        Leveraged Loan Volume*
+                                                                                             $1,111
+                                                                                                  $1,028
+                                 $966                           $979
+
+                                                                        $801
+                                                 $726                          $749
+                                         $684
+         $647                                                                         $644
+                  $527
+                                                        $441                                                                                                        $453
+                         $406                                                                                                      $392                 $382 $361                        $402
+                                                                                                                            $354          $330                                    $343
+                                                                                                                                                 $273                      $299
+                                                                                                           $176 $190 $163
+
+
+
+         2Q23 3Q23 4Q23 1Q24 2Q24 3Q24 4Q24 1Q25 2Q25 3Q25 4Q25 1Q26 2Q26                                  2Q23 3Q23 4Q23 1Q24 2Q24 3Q24 4Q24 1Q25 2Q25 3Q25 4Q25 1Q26 2Q26
+
+                                        Industrials           Financial Services                                        High-Yield Issuance             Leveraged Loan Volume
+($ in billions)
+
+
+
+
+                  *Leveraged Loan data only available for U.S. and Europe
+                  Sources: Refinitiv, Green Street Advisors, and LCD                                                                                                                            21
+2Q 2026 Trailing twelve-month adjusted operating profit margin
+                                                                                                                                                                                                                                    Trailing
+                                                                                                                                       Q3 2025              Q4 2025             Q1 2026              Q2 2026
+                                                                                                                                                                                                                              twelve-month
+Ratings                                  Revenue                                                                                             $1,240               $1,187              $1,302               $1,339                       $5,068
+                                         Adjusted operating profit                                                                            $831                 $735                $878                 $917                        $3,361
+                                         TTM Adjusted operating profit margin                                                                                                                                                           66.3%
+Indices                                  Revenue                                                                                                $462                $498                 $519                 $534                      $2,013
+                                         Adjusted operating profit                                                                              $325                $340                 $379                 $382                      $1,426
+                                         TTM Adjusted operating profit margin                                                                                                                                                           70.8%
+Energy                                   Revenue                                                                                                $609                $629                 $724                 $623                      $2,585
+                                         Adjusted operating profit                                                                              $281                $272                 $348                 $296                      $1,197
+                                         TTM Adjusted operating profit margin                                                                                                                                                           46.3%
+Market Intelligence                      Revenue                                                                                             $1,183               $1,211              $1,224               $1,235                       $4,853
+                                         Adjusted operating profit                                                                            $416                 $377                $402                 $445                        $1,640
+                                         TTM Adjusted operating profit margin                                                                                                                                                           33.8%
+S&P Global                               Revenue                                                                                             $3,443               $3,472              $3,717               $3,678                      $14,310
+                                         Adjusted operating profit                                                                           $1,819               $1,676              $1,967               $1,998                       $7,460
+                                         TTM Adjusted operating profit margin                                                                                                                                                           52.1%
+S&P Global ex-OSTTRA JV                  Revenue                                                                                             $3,443               $3,472              $3,717               $3,678                      $14,310
+                                         Adjusted operating profit                                                                           $1,819               $1,676              $1,967               $1,998                       $7,460
+                                         Adjusted equity in income on unconsolidated subsidiaries                                               $21                   $0                  $0                   $0                          $21
+                                         Adjusted operating profit excluding OSTTRA JV                                                       $1,798               $1,676              $1,967               $1,998                       $7,439
+                                         TTM Adjusted operating profit margin                                                                                                                                                           52.0%
+
+
+
+
+              ($ in millions; totals presented may not sum due to rounding)
+              Note: All financials other than revenue refer to pro forma non-GAAP adjusted metrics. Revenue refers to pro forma revenue on a consolidated basis, GAAP revenue for Ratings and Indices, and adjusted (as recast)
+              revenue for Energy and Market Intelligence.                                                                                                                                                                         22
+

@@ -1,0 +1,596 @@
+                              1Q 2026
+S&P Global Quarterly Update
+April 28, 2026
+
+
+
+
+                                    1
+Safe Harbor statement under the Private Securities
+Litigation Reform Act of 1995
+This presentation contains “forward-looking statements,” as defined in the Private Securities Litigation Reform Act of          •   our ability to protect our intellectual property from unauthorized use and infringement, including by others using AI
+1995. These statements, which express management’s current views concerning future events, trends, contingencies                    technologies, and to operate our business without violating third-party intellectual property rights, including
+or results, appear at various places in this presentation and use words like “anticipate,” “assume,” “believe,”                     through our own use of AI in our products and services;
+“continue,” “estimate,” “expect,” “forecast,” “future,” “intend,” “plan,” “potential,” “predict,” “project,” “strategy,”        •   our ability to attract, incentivize and retain key employees, especially in a competitive business environment;
+“target” and similar terms, and future or conditional tense verbs like “could,” “may,” “might,” “should,” “will” and            •   our ability to successfully navigate key organizational changes;
+“would.” For example, management may use forward-looking statements when addressing topics such as: the outcome                 •   the continuously evolving regulatory environment in Europe, the United States and elsewhere around the globe
+of contingencies; future actions by regulators; changes in the Company’s business strategies and methods of                         affecting each of our businesses and the products they offer, and our compliance therewith;
+generating revenue; the development and performance of the Company’s services and products; the expected impact                 •   the Company’s exposure to potential criminal sanctions or civil penalties for noncompliance with foreign and U.S.
+of acquisitions and dispositions; the Company’s effective tax rates; the Company’s cost structure, dividend policy,                 laws and regulations that are applicable in the jurisdictions in which it operates, including sanctions laws relating to
+cash flows or liquidity; and the anticipated separation of S&P Global Mobility (“Mobility”) into a standalone public                countries such as Iran, Russia and Venezuela, anti-corruption laws such as the U.S. Foreign Corrupt Practices Act
+company.                                                                                                                            and the U.K. Bribery Act of 2010, and local laws prohibiting corrupt payments to government officials, as well as
+                                                                                                                                    import and export restrictions;
+Forward-looking statements are subject to inherent risks and uncertainties. Factors that could cause actual results to          •   the Company’s ability to make acquisitions and dispositions and successfully integrate the businesses we acquire;
+differ materially from those expressed or implied in forward-looking statements include, among other things:                    •   consolidation of the Company’s customers, suppliers or competitors;
+                                                                                                                                •   the ability of the Company, and its third-party service providers, to maintain adequate physical and technological
+•   worldwide economic, financial, political, and regulatory conditions (including slower GDP growth or recession,                  infrastructure;
+    restrictions on trade (e.g., tariffs), instability in the banking sector and inflation), and factors that contribute to     •   the Company’s ability to successfully recover from a disaster or other business continuity problem, such as an
+    uncertainty and volatility (e.g., supply chain risk), geopolitical uncertainty (including military conflict), natural and       earthquake, hurricane, flood, civil unrest, protests, military conflict, terrorist attack, outbreak of pandemic or
+    man-made disasters, civil unrest, public health crises (e.g., pandemics), and conditions that result from legislative,          contagious diseases, security breach, cyber attack, data breach, power loss, telecommunications failure or other
+    regulatory, trade and policy changes, including from the U.S. administration;                                                   natural or man-made event;
+•   the volatility and health of debt, equity, commodities, energy and automotive markets, including credit quality and         •   the impact on the Company’s revenue and net income caused by fluctuations in foreign currency exchange rates;
+    spreads, the composition and mix of credit maturity profiles, the level of liquidity and future debt issuances, equity      •   the impact of changes in applicable tax or accounting requirements on the Company;
+    flows from active to passive, fluctuations in average asset prices in global equities, demand for investment                •   the separation of Mobility not being consummated within the anticipated time period or at all;
+    products that track indices and assessments and trading volumes of certain exchange-traded derivatives;                     •   the ability of the separation of Mobility to qualify for tax-free treatment for U.S. federal income tax purposes;
+•   the demand and market for credit ratings in and across the sectors and geographies where the Company operates;              •   any disruption to the Company’s business in connection with the proposed separation of Mobility;
+•   the Company’s ability to maintain adequate physical, technical and administrative safeguards to protect the                 •   any loss of synergies from separating the businesses of Mobility and the Company that adversely impact the
+    security of confidential information and data, or protect against a system or network disruption that results in                results of operations of both businesses, or the companies resulting from the separation of Mobility not realizing all
+    regulatory penalties and remedial costs or improper disclosure of confidential information or data;                             of the expected benefits of the separation; and
+•   the outcome of litigation, government and regulatory proceedings, investigations and inquiries;                             •   following the separation of Mobility, the combined value of the common stock of the two publicly-traded
+•   concerns in the marketplace affecting the Company’s credibility or otherwise affecting market perceptions of the                companies not being equal to or greater than the value of the Company’s common stock had the separation not
+    integrity or utility of independent credit ratings, benchmarks, indices and other services;                                     occurred.
+•   the level of merger and acquisition activity in the United States and abroad;
+•   the level of the Company’s future cash flows and capital investments;                                                       The factors noted above are not exhaustive. The Company and its subsidiaries operate in a dynamic business
+•   the effect of competitive products (including those incorporating artificial intelligence ("AI")) and pricing, including    environment in which new risks emerge frequently. Accordingly, the Company cautions readers not to place undue
+    the level of success of new product developments and global expansion;                                                      reliance on any forward-looking statements, which speak only as of the dates on which they are made. The Company
+•   the impact of customer cost-cutting pressures;                                                                              undertakes no obligation to update or revise any forward-looking statement to reflect events or circumstances arising
+•   a decline in the demand for our products and services by our customers and other market participants;                       after the date on which it is made, except as required by applicable law. Further information about the Company’s
+•   our ability to develop new products or technologies, to integrate our products with new technologies (e.g., AI), or to      businesses, including information about factors that could materially affect its results of operations and financial
+    compete with new products or technologies offered by new or existing competitors;                                           condition, is contained in the Company’s filings with the SEC, including Item 1A, Risk Factors in our most recently filed
+•   the introduction of competing products (including those developed by AI) or technologies by other companies;                Annual Report on Form 10-K.
+
+
+                                                                                                                                                                                                                                                       2
+Comparison of adjusted information to U.S. GAAP information
+This presentation includes Company financials on an as-reported basis. The Company also refers     The Company's non-GAAP measures include adjustments that reflect how management views
+to and presents certain additional non-GAAP financial measures, within the meaning of              our businesses. The Company believes these non-GAAP financial measures provide useful
+Regulation G under the Securities Exchange Act of 1934. These measures are: adjusted operating     supplemental information that enables investors to better compare the Company's
+profit and margin; trailing twelve-month adjusted operating margin; organic constant currency      performance across periods, and management also uses these measures internally to assess
+revenue; adjusted expenses; and adjusted diluted EPS.                                              the operating performance of its business, to assess performance for employee compensation
+                                                                                                   purposes and to decide how to allocate resources. However, investors should not consider any
+The Company is not able to provide reconciliations of certain forward-looking non-GAAP financial   of these non-GAAP measures in isolation from, or as a substitute for, the financial information
+measures to comparable GAAP measures because certain items required for such                       that the Company reports.
+reconciliations are outside of the Company's control and/or cannot be reasonably predicted
+without unreasonable effort.                                                                       The Company's earnings releases, including its earnings release dated April 28, 2026, contain
+                                                                                                   financial measures calculated in accordance with GAAP that correspond to the non-GAAP
+                                                                                                   measures included in this presentation, and the earnings releases and the Earnings
+                                                                                                   Supplemental Disclosure contain reconciliations of such GAAP and non-GAAP measures. The
+                                                                                                   Company's earnings releases and the Earnings Supplemental Disclosure are available on the
+                                                                                                   Company's website at https://investor.spglobal.com/guarterly-earnings.
+
+
+
+
+European regulations affecting investors in credit rating agencies
+European Union Regulation 1060/2009 (as amended) applies to credit rating agencies (CRAs)          Any person obtaining direct or indirect ownership or control of 5% or more or 10% or more of
+registered in the European Union (“EU”) and therefore to the activities of S&P Global Ratings      the shares in S&P Global Inc. may (i) impact how S&P Global Ratings can conduct its CRA
+Europe Limited, an indirect wholly-owned subsidiary of S&P Global Inc., which is registered        activities in the EU and the UK, and/or (ii) themselves become directly impacted by EU
+and regulated as a CRA with the European Securities and Markets Authority.                         Regulation 1060/2009 (as amended) and the Credit Rating Agencies (Amendment etc.) (EU Exit)
+                                                                                                   Regulations 2019.
+The United Kingdom’s Credit Rating Agencies (Amendment etc.) (EU Exit) Regulations 2019
+applies to CRAs registered in the United Kingdom (“UK”) and therefore to the activities of S&P     Persons who have or expect to obtain such shareholdings in S&P Global Inc. should promptly
+Global Ratings UK Limited, an indirect wholly-owned subsidiary of S&P Global Inc., which is        contact S&P Global’s Investor Relations department (investor.relations@spglobal.com) for
+registered and regulated as a CRA with the Financial Conduct Authority.                            more information and should also obtain independent legal advice in such respect.
+
+
+
+
+                                                                                                                                                                                                     3
+Advancing
+Essential
+Intelligence
+Martina Cheung
+President and CEO
+
+
+
+
+                    4
+First quarter highlights
+Financial updates                                                                                          Operating updates
+•   Revenue increased 10%, or 9% on an organic                                                             •     Disciplined execution in a volatile and dynamic
+    constant currency basis                                                                                      operating environment
+•   Revenue from subscription products increased 6%,                                                       •     Continued progress in all three pillars of our strategic
+    and market-driven businesses increased 14%                                                                   vision
+•   Adjusted operating profit increased 12% y/y, while                                                     •     Launched innovative new products in private
+    TTM adjusted operating margins expanded 140 bps                                                              markets and decentralized finance
+•   Adjusted diluted EPS increased 14% y/y                                                                 •     Rapid innovation in artificial intelligence with strong
+                                                                                                                 early signals on customer adoption of AI solutions
+•   We now expect to return 100% or more of 2026
+    adjusted free cash flow through dividends and
+    repurchases
+
+
+
+
+           Note: All financials other than revenue refer to non-GAAP adjusted metrics. Revenue refers to GAAP revenue.                                                      5
+Macro uncertainty driving heightened volatility
+            Key External Themes                                                        Market Snapshot
+                                                      Dispersion among S&P 500 sectors
+                      •   Iran war                    Year-to-date index performance through March 31, 2026
+     Geopolitical     •   Oil risk premium
+     Shock            •   Macro uncertainty                (5%)                +37%                      (10%) (24%)
+                                                          S&P 500                 Energy                 Financials       Software
+
+                      •   Widening spreads
+     Private Credit   •   Private credit repricing
+     Stress           •   Marks challenged
+                                                      Broad-based market stress
+                                                      Monthly averages through March 31, 2026
+
+
+                                                            Oil Volatility              Equity Volatility           Spreads Widening
+                                                               $69 $96                                  26              2.7 2.9 3.2
+                      •   New frontier-model                 $64                                16 19
+     Technology           capabilities in AI
+     Acceleration     •   Growth in areas like DeFi         Brent Crude                           VIX                High-yield OAS
+                          and Quantum                                                   Jan       Feb         Mar
+
+
+
+
+                                                                                                                                       6
+Debt & Equity Market Conditions
+ Billed Issuance                                                                              Updates on market conditions
+ ($ in billions)
+                                                                                              •   Investment-grade issuance was very strong despite the
+                                                                 +14%                             current macro environment with non-financial supply
+                                                                                                  leading the way, driven by continued hyper-scaler
+                                                                             $1,230               issuance and large M&A-driven transactions. Growth was
+                                                  $1,083                                          partially offset by a decline in Bank Loan volumes
+
+                                                                               $621    41%    •   U.S. equity inflows across the industry were $164 billion in
+                                                    $440                                          the first quarter. Global ETD revenue for S&P Global
+                                                                                                  increased 18% year over year in the first quarter
+
+         Investment Grade                           $113                        $117   4%
+                                                                                              •   Updated guidance assumes billed issuance growth in the
+         High-Yield                                                                               low to mid-single-digit range
+         Other1                                     $530                       $491    (7%)
+                                                                                              •   Updated guidance also assumes U.S. equity markets low
+                                                                                                  single-digit appreciation from year-end 2025 to year-end
+                                                                                                  2026 and low double-digit growth in ETD volumes y/y in
+                                                  1Q ’25                      1Q ’26              2026
+
+
+                   1. Other includes Bank Loans, Structured Finance, and Government.
+                   Note: Some amounts may not sum due to rounding.
+                   Source: S&P Global Ratings                                                                                                                    7
+               ADVANCE
+               Market
+               Leadership
+
+Advancing      EXPAND
+Essential      High-Growth
+               Adjacencies
+Intelligence
+               AMPLIFY
+               Enterprise
+               Capabilities & AI
+                                   8
+       Volatility in the first quarter drove record
+       performance across key products
+
+
+
+Record-setting revenue   Record-setting Global      Record-setting quarterly
+along with expanded      Trading Services           average daily volume for
+partnerships spanning    quarterly revenue fueled   S&P 500 Exchange-
+energy, finance,         by increased trading       Traded Derivatives
+technology, and other    volumes
+sectors
+
+
+
+                                                                               9
+          Capturing upside through increased usage of
+          S&P Global products & data
+Increased usage across multiple platforms                                                                   Advancing AI with Kensho
+•   More than 300 customers now under contract or in
+    trial periods for Kensho LLM-Ready APIs                                                                                                             Labs
+•   API call volume doubled from February 2026 to
+    March 2026                                                                                                 Kensho teams continue to work closely
+                                                                                                               with CCO clients to develop innovative AI-
+•   S&P Global Market Intelligence: ACV among
+    customers who purchased at least one AI product                                                            first solutions leveraging S&P Global data.
+    increased at 1.3x the rate of ACV growth among other
+    customers1
+                                                                                                            Automating workflows                      Connecting data                   Enabling AI at scale
+                                                                                                                                                                                              AI-Ready Data
+•   S&P Global Energy: ACV among customers who                                                                                                                                          
+                                                                                                                                                                                             MCP
+    purchased at least one AI product increased at 2x                                                                                                                                        Grounding Agent
+    the rate of ACV growth among other customers1                                                                                                                                            S&P Global Plug-ins
+                                                                                                                                                                                              for Claude Cowork
+
+
+
+           1. ACV (Annualized Contract Value) represents the annualized value of the recurring portion of customer contracts. It is calculated by determining the total committed recurring contract value for the current
+           period and excludes non-recurring fees and other one-time amounts.                                                                                                                                              10
+  S&P Global Market Intelligence’s
+  Data Differentiation
+  As a % of 2025 MI Revenue 1
+Undifferentiated                                   12%                                                                     Select Examples
+
+Advisory, Consulting,                                                           Advisory, Consulting, & Events
+                                                    11%                         Powered by proprietary data that we generate from events such as those hosted by
+& Events                                                                        With Intelligence, capturing unique insights into client intentions and preferences
+
+                                                                                Workflow Tools
+Workflow Tools                                     37%                          Our proprietary data is often used as input to help power our workflow tools (e.g.,
+                                                                                Loan Reference Data in WSO)
+
+                                                                                Curated Data                               Contributed Data          Reference Data
+Proprietary &                                                                   •   Computstat                             •   Visible Alpha         •   GICS
+                                                   18%                          •   Panjiva                                •   Totem                 •   LXIDs
+Curated Data                                                                    •   Fixed Income & Loan                    •   With Intelligence –   •   Cross Reference
+                                                                                    Reference Data                             Select Datasets           Data
+
+                                                                               Benchmarks
+Benchmarks                                         23%                         Redistribution of S&P Global Ratings content: Ratings Direct, Ratings Xpress
+
+
+Total Revenue                                     100%
+
+
+  1. Revenue for full year 2025 excludes contributions from EDM and thinkFolio; some amounts may not sum due to rounding                                                   11
+                         Evolving S&P Capital IQ Pro from web-based to AI-native tool,
+                                amplifying the value of our differentiated data
+
+Current Capital IQ Value Creation Stack                              Value Amplification in the Context of AI-driven Future
+
+           User Front End                                            • Deploying AI-native capabilities like Chat IQ, Document
+           (e.g., web-based desktop, Excel, mobile)                    Intelligence, Chart Explainer, and Drift.AI
+
+
+           Productivity Tools                                        • Developing “skills” to make tools, proprietary standards,
+           (e.g., screener, charting)                                  and features of the Capital IQ Pro desktop available
+                                                                       natively within frontier AI platforms
+
+           CapIQ Standards                                           • Exploring opportunities with evolving delivery
+           (e.g., financial analysis, valuations, and comparables)
+                                                                       mechanisms, including Agent to Agent Protocol (A2A)
+
+                                                                     • Increased usage reflected in enterprise pricing over time
+           Differentiated Data
+
+
+                                                                                                                                   12
+           Innovation continues across high-growth adjacent
+           markets
+         Private Markets                                                            Energy Expansion                                                          DeFi & Digital Assets
+
+•   Launched Private Markets                                       •     Launch of CERA Titan, a new                                            •     Launch of iBoxx U.S.
+    Performance Analytics                                                AI-native platform for                                                       Treasuries Index as the first
+    datasets in partnership with                                         upstream data & insights,                                                    major benchmark available as
+    Cambridge Associates and                                             marking an important                                                         a native digital asset on a
+    Mercer                                                               milestone in the new                                                         blockchain
+•   Integration of new datasets                                          Upstream strategy                                                      •     Rated the first-ever bitcoin-
+    for private equity, asset level                                •     Announced an agreement to                                                    backed securitization
+    data, fund of fund data to be                                        divest the software portfolio
+    launched throughout the year                                         of the Upstream business,
+•   Launch of S&P Lincoln U.S.                                           with the transaction expected
+    and Europe Senior Debt                                               to close in 2H26 or early 2027
+    Indices1
+
+           1. https://www.spglobal.com/spdji/en/index-launches/article/sp-dow-jones-indices-and-lincoln-international-unveil-new-benchmarks-for-the-private-loan-market-with-launch-of-sp-lincoln-senior-debt-
+           indices/ Note: Corrected from original published slide; previously shown under DeFi & Digital Assets                                                                                                  13
+First quarter & TTM performance
+                                                                1Q ’26 Revenue                                   TTM Adjusted                         TTM Adjusted
+   Financial Performance                                            Growth                                      Operating Margin                    Operating Margin Y/Y
+
+                                                                            8%                                             34.2%                         +160 bps
+
+                                                                           13%                                            65.6%                          +220 bps
+
+                                                                            7%                                             47.9%                         +80 bps
+
+                                                                            8%                                             40.2%                         +110 bps
+
+                                                                           17%                                             71.3%                         +90 bps
+
+   Total S&P Global                                                        10%                                             50.7%                         +140 bps
+
+   Total S&P Global ex-OSTTRA                                                                                             50.4%                          +180 bps
+
+
+        Note: All financials other than revenue refer to non-GAAP adjusted metrics in all periods. Revenue refers to GAAP revenue in all periods.                          14
+1Q 2026
+Financial Results
+& 2026 Guidance
+Eric Aboaf
+Chief Financial Officer
+
+
+
+
+                          15
+First quarter enterprise financial results
+Revenue                                                                                                             Adjusted Operating Profit & Expense
+($ in millions)                                                        +10%                                         ($ in millions)
+
+                                                                                 $4,171                                                                                            $4,171
+                                                        $3,777                      $519            +17%
+                                                                                                                                                                         $3,777
+     Indices                                               $445                    $454             +8%
+                                                           $420                                                            Adjusted Operating Profit                               $2,159   +12%
+     Mobility                                                                       $652            +7%                                                                   $1,920
+                                                            $612
+                                                                                                                           Adjusted Expenses
+     Energy
+                                                                                   $1,302           +13%                   Adjusted Operating Margin                      50.8%     51.8%
+     Ratings                                               $1,149
+
+     Market Intelligence                                                                                                                                                  $1,857   $2,012   +8%
+                                                           $1,199                  $1,296           +8%
+
+
+                                                          1Q ’25                  1Q ’26                                                                                 1Q ’25    1Q ’26
+                                                                                                                                            Adjusted Operating Margin,
+                                           Organic Constant Currency Revenue Growth: +9%                                                                                  50.2%     51.8%
+                                                                                                                                  excluding contributions from OSTTRA
+
+
+                                         Adjusted Diluted Earnings Per Share: $4.97 (+14% y/y)
+                  (some amounts may not sum due to rounding)
+                  Note: Totals presented reflect intersegment elimination of $48 million in 1Q 2025 and $52 million in 1Q 2026.
+                  All financials other than revenue refer to non-GAAP adjusted metrics. Revenue refers to GAAP revenue.                                                                        16
+S&P Global Market Intelligence
+Revenue                                                                                                           Adjusted Operating Profit & Expense
+($ in millions)                                                                                                  ($ in millions)
+                                                                      +8%
+
+                                                                               $1,296                                                                         $1,296
+                                                        $1,199                                                                                       $1,199
+     Data, Analytics, & Insights 1                                                                                       Adjusted Operating Profit             $436    +11%
+     Enterprise Solutions 2                                                       $760           +11%                    Adjusted Expenses            $394
+                                                          $686                                                                                                 33.6%
+     Credit & Risk Solutions                                                                                             Adjusted Operating Margin    32.8%
+
+
+
+                                                                                                                                                      $805     $860    +7%
+ Revenue growth by type:                                  $299                    $308           +3%
+  Subscription: +6%
+  Non-subscription: +35%                                   $215                   $228           +6%
+  Recurring Variable: +12%
+ Organic, Constant Currency: +6%                         1Q ’25                  1Q ’26                                                              1Q ’25   1Q ’26
+
+
+
+
+                  (some amounts may not sum due to rounding)
+                  1. Excluding the impact of acquisitions, growth in Data, Analytics, & Insights would have been 5%
+                  2. Excluding the impact of divestitures, growth in Enterprise Solutions would have been 14%
+                  Note: All financials other than revenue refer to non-GAAP adjusted metrics. Revenue refers to GAAP revenue.                                                 17
+S&P Global Ratings
+Revenue                                                                                                           Adjusted Operating Profit & Expense
+($ in millions)                                                                                                  ($ in millions)
+                                                                      +13%
+
+     Crisil, Other 1                                                           $1,302                                                                         $1,302
+     Governments                                        $1,149                    $151           +18%                                                $1,149
+                                                           $127                    $86           +19%                    Adjusted Operating Profit
+     Structured Finance                                    $72                    $157           +13%                    Adjusted Expenses
+                                                           $139
+     Financials                                                                   $188           0%
+                                                                                                                                                               $882    +16%
+                                                                                                                         Adjusted Operating Margin    $761
+                                                           $188
+     Corporates
+
+                                                                                                                                                      66.2%    67.8%
+Revenue growth by type:                                                           $720           +16%
+                                                          $622
+ Transaction: +15%
+                                                                                                                                                      $388     $420    +8%
+ Non-transaction: +11%
+Organic, Constant Currency: +11%
+                                                         1Q ’25                  1Q ’26                                                              1Q ’25   1Q ’26
+
+
+
+
+                  (some amounts may not sum due to rounding)
+                  1. Other includes intersegment royalty, Taiwan Ratings Corporation, and adjustments.
+                  Note: All financials other than revenue refer to non-GAAP adjusted metrics. Revenue refers to GAAP revenue.                                             18
+S&P Global Energy
+Revenue                                                                                                           Adjusted Operating Profit & Expense
+($ in millions)                                                                                                  ($ in millions)
+                                                                       +7%
+
+                                                                                $652                                                                          $652
+                                                         $612                                                                                        $612
+     Advisory & Transactional Services                                            $145           +15%                    Adjusted Operating Profit
+                                                           $126
+     Upstream Data & Insights
+                                                                                  $101           -5%
+                                                                                                                         Adjusted Expenses           $294
+                                                                                                                                                              $322     +9%
+     Price Assessments                                     $106
+                                                                                                                         Adjusted Operating Margin
+     Energy & Resources Data & Insights                                                                                                                       49.3%
+                                                                                  $200           +6%                                                 48.1%
+                                                           $188
+
+Revenue growth by type:                                                                                                                                       $330
+                                                                                                                                                     $318              +4%
+ Subscription: +4%
+                                                           $192                   $206           +7%
+ Non-subscription: +13%
+ Sales usage-based royalties: +27%
+Organic, Constant Currency: +7%                          1Q ’25                  1Q ’26                                                              1Q ’25   1Q ’26
+
+
+
+
+                  (some amounts may not sum due to rounding)
+                  Note: All financials other than revenue refer to non-GAAP adjusted metrics. Revenue refers to GAAP revenue.                                            19
+S&P Dow Jones Indices
+Revenue                                                                                                           Adjusted Operating Profit & Expense
+($ in millions)                                                                                                  ($ in millions)
+                                                                      +17%
+
+                                                                                $519                                                                          $519
+     Data & Custom Subscriptions                        $445                       $84           +12%
+                                                                                                                         Adjusted Operating Profit   $445
+                                                           $76
+     Exchange-Traded Derivatives                                                   $96           +18%                    Adjusted Expenses
+     Asset-Linked Fees                                     $81
+                                                                                                                         Adjusted Operating Margin            $383     +18%
+                                                                                                                                                     $324
+
+
+                                                                                  $339           +18%
+Revenue growth by type:                                   $288                                                                                       72.9%    73.8%
+ Subscription: +12%
+ Sales usage-based royalties: +18%                                                                                                                    $121     $136    +13%
+ Asset-linked fees: +18%
+Organic, Constant Currency: +16%                         1Q ’25                  1Q ’26                                                              1Q ’25   1Q ’26
+
+
+
+
+                  (some amounts may not sum due to rounding)
+                  Note: All financials other than revenue refer to non-GAAP adjusted metrics. Revenue refers to GAAP revenue.                                             20
+S&P Global Mobility
+Revenue                                                                                                           Adjusted Operating Profit & Expense
+($ in millions)                                                                                                  ($ in millions)
+                                                                      +8%
+
+                                                                                $454                                                                          $454
+                                                         $420                                                                                        $420
+     Financials & Other                                                            $82           +8%
+                                                                                                                         Adjusted Operating Profit
+                                                           $76
+                                                                                                                                                               $182    +12%
+     Manufacturing                                                                 $89           +5%                     Adjusted Expenses            $162
+                                                           $85
+     Dealer                                                                                                              Adjusted Operating Margin            40.0%
+                                                                                                                                                     38.5%
+
+
+                                                                                  $283           +9%                                                           $272    +5%
+Revenue growth by type:                                   $259                                                                                       $258
+ Subscription: +8%
+ Non-subscription: +7%
+Organic, Constant Currency: +7%
+                                                         1Q ’25                  1Q ’26                                                              1Q ’25   1Q ’26
+
+
+
+
+                  (some amounts may not sum due to rounding)
+                  Note: All financials other than revenue refer to non-GAAP adjusted metrics. Revenue refers to GAAP revenue.                                                21
+2026 macroeconomic assumptions
+Real GDP                                          United States                                               Platts Dated                                              Billed Issuance
+Growth 1                                          CPI 2                                                       Brent 3                                                   Growth 4
+
+3.2%                                              3.2%                                                        $87                                                       Low to mid-
+                                                                                                                                                                        single-digit
+Global                                                                                                         Average Per Barrel
+United States 2.2%
+Eurozone          1.0%
+China             4.4%
+India             7.1%
+
+
+
+
+           1. S&P Global Ratings Economic Research - Global Economic Outlook Q2 2026 (3/31/26)
+           2. S&P Global Ratings Economic Research - Economic Outlook U.S. Q2 2026 (3/25/26)
+           3. S&P Global Energy (Commodity Insights) Global Crude Oil Markets Short-Term Outlook (3/31/26)
+           4. Internal estimate developed by S&P Global Ratings management; Includes loans, and excludes issuance billed under the frequent issuer program, as well as items that don’t impact transaction revenue
+           including unrated debt and most international public finance                                                                                                                                              22
+Updated 2026 Enterprise financial guidance
+                                                                                                                            Previous                                               Current
+
+ Organic, Constant Currency Revenue growth                                                                                6.0% to 8.0%                                          6.0% to 8.0%
+  Net impact to reported revenue growth from acquisitions & divestitures                                                             0.2%                                                0.2%
+  Net impact to reported revenue growth from foreign exchange                                                                        0.4%                                                0.1%
+
+ Reported Revenue growth                                                                                                  6.6% to 8.6%                                          6.3% to 8.3%
+
+ Adjusted operating profit margin expansion                                                                                10 to 35 bps                                          10 to 35 bps
+
+ Adjusted operating profit margin expansion,
+                                                                                                                           50 to 75 bps                                          50 to 75 bps
+ excluding OSTTRA
+
+ Adjusted Diluted EPS                                                                                                  $19.40 to $19.65                                      $19.40 to $19.65
+  Y/Y % Growth                                                                                                               +9% to +10% y/y                                      +9% to +10% y/y
+
+
+            Note: The Company is not providing 2026 GAAP guidance at this time, other than reported revenue growth and capital expenditures. Given the inherent uncertainty around the timing of the spin of the
+            Company’s Mobility division, and other related factors, management cannot reliably predict all of the necessary components of GAAP measures without unreasonable effort. Guidance assumes contributions
+            from Mobility for the full year and excludes any impact from anticipated stranded costs. The Company expects to update adjusted guidance to exclude Mobility and institute GAAP guidance upon completion
+            of the spin.                                                                                                                                                                                             23
+Updated 2026 Division financial guidance1
+                                                             Previous                                                                          Current
+                                                                    Net impact to reported                                                        Net impact to reported
+                                OCC                                                                                             OCC               revenue growth from:
+                                                                    revenue growth from:
+                           Revenue Growth                                                                                  Revenue Growth
+                                                                      A&D                          FX                                              A&D            FX
+
+                                5.5% to 7%                            0.7%                       0.1%                             5.5% to 7%       0.4%           0.1%
+
+                                  4% to 7%                                -                      0.9%                             4% to 7%           -            0.1%
+
+                                5.5% to 7%                                -                         -                             4.5% to 6%         -              -
+
+                                 7.5% to 9%                               -                      0.4%                             7.5% to 9%         -           0.2%
+
+                                10% to 12%                            0.3%                          -                             10% to 12%       0.2%           0.1%
+
+
+
+     1. Guidance assumes contributions from Mobility for the full year and excludes any impact from anticipated stranded costs.
+     Note: OCC = organic constant currency, A&D = acquisitions & divestitures, FX = foreign exchange                                                                       24
+1Q 2026
+Earnings Call Q&A
+Martina Cheung
+President and CEO
+
+Eric Aboaf
+Chief Financial Officer
+
+Mark Grant
+Senior Vice President,
+Investor Relations and Treasurer
+
+
+
+
+April 28, 2026
+
+                                   25
+1Q 2026
+Earnings Call
+Martina Cheung                     REPLAY OPTIONS
+President and CEO
+                                   Internet: Replay available for one year
+Eric Aboaf                         Go to http://investor.spglobal.com
+Chief Financial Officer
+
+Mark Grant                         Telephone: Replay available through May 28, 2026
+Senior Vice President,             Domestic:    866-360-7720
+Investor Relations and Treasurer
+                                   International: 203-369-0172
+                                   No password required
+
+
+April 28, 2026
+
+                                                                                      26
+
