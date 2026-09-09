@@ -1,0 +1,88 @@
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, D.C. 20549
+
+FORM 8-K
+
+CURRENT REPORT
+
+PURSUANT TO SECTION 13 OR 15(D) OF THE
+
+SECURITIES EXCHANGE ACT OF 1934
+
+Date of report (Date of earliest event reported) | December 22, 2025
+
+AMERICAN ELECTRIC POWER COMPANY, INC.
+
+(Exact Name of Registrant as Specified in Its Charter)
+
+New York | 1-3525 | 13-4922640
+(State or Other Jurisdiction of | (Commission File Number) | (IRS Employer Identification
+Incorporation) | No.)
+
+1 Riverside Plaza, | Columbus, | OH | 43215
+(Address of Principal Executive Offices) | (Zip Code)
+
+(Registrant's Telephone Number, Including Area Code) | (614) | 716-1000
+
+(Former Name or Former Address, if Changed Since Last Report)
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):
+
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common Stock, $6.50 par value | AEP | The NASDAQ Stock Market LLC
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+Emerging growth company | ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+□
+
+Item 1.01. Entry Into a Material Definitive Agreement.
+
+On December 22, 2025, American Electric Power Company, Inc. (“American Electric Power,” “AEP” or the “Company”) entered into a Board Observer Agreement (the “Board Observer Agreement”) with Carl C. Icahn, Icahn Partners LP, Icahn Partners Master Fund LP, Icahn Enterprises G.P. Inc., Icahn Enterprises Holdings L.P., IPH GP LLC, Icahn Capital LP, Icahn Onshore LP, Icahn Offshore LP and Beckton Corp (collectively, the “Icahn Group”) and Andrew J. Teno.
+
+Pursuant to the Board Observer Agreement, Andrew J. Teno shall have the right to serve as a non-voting observer to the Board of Directors of the Company (the “Board”).
+
+Pursuant to the Board Observer Agreement, the Icahn Group has agreed to certain customary standstill and mutual non-disparagement restrictions. The Board Observer Agreement may be terminated by either the Company or the Icahn Group at any time upon notice to the other party.
+
+The foregoing description of the Board Observer Agreement does not purport to be complete and is subject to, and qualified in its entirety by, reference to the full text of the Board Observer Agreement, a copy of which will be filed as an exhibit to the Company’s Annual Report on Form 10-K for the year ending December 31, 2025.
+
+Item 1.02. Termination of a Material Definitive Agreement.
+
+Pursuant to the execution of the Board Observer Agreement (as discussed under Item 1.01 of this Current Report on Form 8-K), the Company and the Icahn Group agreed to terminate the Director Appointment and Nomination Agreement (the “Nomination Agreement”), dated as of February 12, 2024, by and among the Icahn Group, the Company and, solely with respect to the provisions applicable to the New Independent Director (as defined in the Nomination Agreement), the New Independent Director. The termination of the Nomination Agreement was effective as of December 22, 2025.
+
+Item 5.03 Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year
+
+On December 2, 2025, the Board approved, effective July 1, 2026, a reduction in the number of active committees of the Board from seven to five by (i) eliminating the Finance Committee and distributing its responsibilities and duties between the full Board and the Audit Committee, and (ii) combining the Nominating and Governance Committee and the Human Resources Committee, and renaming the combined committee the Nomination, Governance & Compensation Committee. These changes were made to eliminate overlapping content currently presented in the Audit Committee, Finance Committee, and Chief Financial Officer’s Board reports and consolidate the complementary work of the Human Resources Committee and Nominating and Governance Committee.
+
+On December 22, 2025, the Board adopted amendments to the By-Laws (the “By-Laws”) of the Company, effective July 1, 2026, to update Section 17 of the By-Laws to reflect a change in the name of the Committee on Directors and Corporate Governance to Nomination, Governance & Compensation Committee.
+
+The foregoing description is qualified in its entirety by reference to the text of the By-Laws filed as Exhibit 3(b) to this Current Report on Form 8-K.
+
+Item 9.01. Financial Statements and Exhibits
+
+(d) Exhibits
+
+3(b) | Amended By-Laws of American Electric Power Company, Inc., as amended December 22 , 2025 and effective July 1, 2026.
+
+SIGNATURE
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the Company has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+
+AMERICAN ELECTRIC POWER COMPANY, INC.
+
+By: | /s/ David C. House
+Name: | David C. House
+Title: | Assistant Secretary
+
+December 29, 2025

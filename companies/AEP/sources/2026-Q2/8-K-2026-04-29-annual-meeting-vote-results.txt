@@ -1,0 +1,126 @@
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, D.C. 20549
+
+FORM 8-K
+
+CURRENT REPORT
+
+PURSUANT TO SECTION 13 OR 15(D) OF THE
+
+SECURITIES EXCHANGE ACT OF 1934
+
+Date of report (Date of earliest event reported) | April 28, 2026
+
+AMERICAN ELECTRIC POWER COMPANY, INC.
+
+(Exact Name of Registrant as Specified in Its Charter)
+
+New York | 1-3525 | 13-4922640
+(State or Other Jurisdiction of | (Commission File Number) | (IRS Employer Identification
+Incorporation) | No.)
+
+1 Riverside Plaza, | Columbus, | OH | 43215
+(Address of Principal Executive Offices) | (Zip Code)
+
+(Registrant's Telephone Number, Including Area Code) | (614) | 716-1000
+
+(Former Name or Former Address, if Changed Since Last Report)
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):
+
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common Stock, $6.50 par value | AEP | The NASDAQ Stock Market LLC
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+Emerging growth company | ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+□
+
+Item 5.03 Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year
+
+American Electric Power Company, Inc. (the “Company”) held its annual meeting of shareholders (the “Annual Meeting”) on April 28, 2026, at which the shareholders of the Company approved an amendment of the Company’s Restated Certificate of Incorporation (the “Certificate of Incorporation”) to increase the authorized number of shares of common stock, par value of $6.50 per share, from 600,000,000 shares to 900,000,000 shares. The amendment to the Certificate of Incorporation will become effective upon the filing of a Certificate of Amendment of the Certificate of Incorporation (the “Certificate of Amendment”) with the Secretary of State of the State of New York.
+
+The foregoing description is qualified in its entirety by reference to the Certificate of Amendment, a copy of which is filed as Exhibit 3.1 to this Current Report on Form 8-K and incorporated herein by reference.
+
+As previously disclosed in the Company's Current Report Form 8-K filed on December 29, 2025, the Board of Directors of the Company (the “Board”) adopted amendments to the By-Laws of the Company (the “By-Laws”) , effective July 1, 2026, to update Section 17 of the By-Laws to reflect a change in the name of the Committee on Directors and Corporate Governance to the Nomination, Governance & Compensation Committee (the “Committee Name Amendment”). On April 28, 2026, the Board adopted an amendment to the By-Laws to change the effective date of the Committee Name Amendment to May 1, 2026.
+
+The foregoing description is qualified in its entirety by reference to the By-Laws, a copy of which is filed as Exhibit 3.2 to this Current Report on Form 8-K and incorporated herein by reference.
+
+Item 5.07 Submission of Matters to a Vote of Security Holders
+
+At the Annual Meeting, the Company’s shareholders voted on the proposals as set forth below. The proposals are described in detail in the Company’s definitive proxy statement on Schedule 14A filed on March 18, 2026.
+
+Proposal 1
+
+The Company’s shareholders elected ten individuals to serve as directors of the Company as set forth below:
+
+Name | Votes For | Votes Against | Abstentions | Broker Non-Votes
+Bill Fehrman | 386,204,572 | 18,354,978 | 762,673 | 62,458,845
+Ben Fowke | 394,364,184 | 10,196,571 | 762,008 | 62,458,845
+Art A. Garcia | 393,093,122 | 11,457,834 | 771,807 | 62,458,845
+Sandra Beach Lin | 368,368,344 | 36,245,355 | 708,524 | 62,458,845
+Margaret M. McCarthy | 395,765,202 | 8,829,297 | 728,265 | 62,458,845
+Daryl Roberts | 394,359,318 | 10,159,272 | 804,173 | 62,458,845
+Joseph G. Sauvage | 397,282,785 | 7,228,516 | 810,922 | 62,458,845
+Daniel G. Stoddard | 397,311,996 | 7,208,244 | 802,523 | 62,458,845
+Sara Martinez Tucker | 338,879,468 | 65,740,066 | 703,230 | 62,458,845
+Lewis Von Thaer | 397,617,847 | 6,897,077 | 807,839 | 62,458,845
+
+Proposal 2
+
+The Company’s shareholders ratified the appointment of PricewaterhouseCoopers LLP as the Company’s independent registered public accounting firm for the 2026 fiscal year as set forth below:
+
+Votes For | Votes Against | Abstentions
+464,780,982 | 2,291,056 | 708,159
+
+Proposal 3
+
+The Company’s shareholders approved an amendment to the Certificate of Incorporation to increase the authorized number of shares of common stock as set forth below:
+
+Votes For | Votes Against | Abstentions | Broker Non-Votes
+455,458,201 | 10,646,514 | 1,676,893 | —
+
+Proposal 4
+
+The Company’s shareholders approved the AEP Employee Stock Purchase Plan as set forth below:
+
+Votes For | Votes Against | Abstentions | Broker Non-Votes
+402,422,881 | 1,770,002 | 1,129,880 | 62,458,845
+
+Proposal 5
+
+The Company’s shareholders approved, on an advisory basis, the Company’s named executive officer compensation as set forth below:
+
+Votes For | Votes Against | Abstentions | Broker Non-Votes
+332,608,628 | 70,774,562 | 1,939,574 | 62,458,845
+
+Item 9.01. Financial Statements and Exhibits
+
+(d) Exhibits
+
+3.1 | Certificate of Amendment to the Restated Certificate of Incorporation of American Electric Power Company, Inc.
+3.2 | By-Laws of American Electric Power Company, Inc., as amended April 28, 2026 and effective May 1, 2026.
+104 | Cover Page Interactive Data File - The cover page iXBRL tags are embedded within the inline XBRL document.
+
+SIGNATURE
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+
+AMERICAN ELECTRIC POWER COMPANY, INC.
+
+By: | /s/ David C. House
+Name: | David C. House
+Title: | Assistant Secretary
+
+Date: April 29, 2026

@@ -1,0 +1,534 @@
+AMERICAN ELECTRIC POWER COMPANY, INC.
+      AND SUBSIDIARY COMPANIES
+
+    PRESENTATION MATERIALS FOR
+   PRESS RELEASE & EARNINGS CALL
+               as of:
+            June 30, 2026
+
+
+
+
+                                        Page 1
+         AMERICAN ELECTRIC POWER COMPANY, INC.
+               AND SUBSIDIARY COMPANIES
+                 PRESENTATION MATERIALS FOR
+                PRESS RELEASE & EARNINGS CALL
+                            as of:
+                         June 30, 2026
+                                    Contents
+Consolidated Income Statements - Segments
+     Year-to-Date 2026 - GAAP Earnings                              page 3
+     Year-to-Date 2026 - Operating Earnings                         page 4
+     Year-to-Date 2026 - Difference from GAAP                       page 5
+     Quarter-to-Date 2026 - GAAP Earnings                           page 6
+     Quarter-to-Date 2026 - Operating Earnings                      page 7
+     Quarter-to-Date 2026 - Difference from GAAP                    page 8
+
+Consolidated Income Statements - Operating Earnings
+     Year-to-Date 2026 - Vertically Integrated Utilities            page 9
+     Year-to-Date 2026 - Transmission & Distribution Utilities      page 10
+     Quarter-to-Date 2026 - Vertically Integrated Utilities         page 11
+     Quarter-to-Date 2026 - Transmission & Distribution Utilities   page 12
+
+
+
+
+                                                                              Page 2
+                                                                       AMERICAN ELECTRIC POWER COMPANY, INC.
+                                                                             AND SUBSIDIARY COMPANIES
+                                                                      CONSOLIDATED STATEMENTS OF OPERATIONS
+
+                                                                                                 YTD Jun 2026
+                                                                                    Preliminary, unaudited results
+
+(in millions)
+                                                                                                                             AEP
+                                                                              Vertical Int            Trans & Dist                       Generation &
+GAAP Earnings                                                                  Utilities                Utilities
+                                                                                                                         Transmission
+                                                                                                                                          Marketing
+                                                                                                                                                         Corp & Other        Eliminations           Total AEP
+                                                                                                                            Holdco
+                                 REVENUE
+TOTAL REVENUE                                                             $          6,560        $           3,192      $      1,208    $      1,661    $         61    $         (1,217)      $       11,465
+
+                                 EXPENSES
+Purchased Electricity, Fuel and Other Consumables Used for Electric
+Generation                                                                           1,975                      458                 -           1,442               -                (154)               3,721
+Maintenance and Other Operation                                                      2,072                    1,235               110              15              65              (1,078)               2,419
+Asset Impairments and Other Related Charges                                             31                        -                 -               -               -                   -                   31
+Depreciation and Amortization                                                        1,128                      427               261              10              (9)                  -                1,817
+Taxes Other Than Income Taxes                                                          287                      390               177               1               -                  15                  870
+TOTAL EXPENSES                                                                       5,493                    2,510               548           1,468              56              (1,217)               8,858
+OPERATING INCOME                                                                     1,067                      682               660            193                5                       -            2,607
+Other Income                                                                             9                        1                 6              23              51                 (70)                  20
+Non-Service Pension (Costs)/Benefits                                                    23                       22                 -              10               2                   -                   57
+AFUDC                                                                                   44                       53                48               -               -                   -                  145
+Interest Expense                                                                      (509)                    (222)             (137)             (3)           (336)                 70               (1,137)
+INCOME BEFORE INCOME TAXES & EQUITY EARNINGS                                           634                      536               577            223             (278)                      -            1,692
+Income Taxes                                                                          (112)                      77               130              51             (50)                      -               96
+Equity Earnings                                                                          1                        -                49               -               4                       -               54
+
+NET INCOME                                                                             747                      459               496            172             (224)                      -            1,650
+
+Net Income - Noncontrolling Interests                                                        1                       -             62               -               -                       -               63
+
+EARNINGS ATTRIBUTABLE TO AEP COMMON SHAREHOLDERS                          $            746        $             459      $        434    $       172     $       (224)   $                  -   $        1,587
+
+
+
+
+                                                                                                                                                                                                                  Page 3
+                                                                       AMERICAN ELECTRIC POWER COMPANY, INC.
+                                                                             AND SUBSIDIARY COMPANIES
+                                                                      CONSOLIDATED STATEMENTS OF OPERATIONS
+
+                                                                                                 YTD Jun 2026
+                                                                                    Preliminary, unaudited results
+
+(in millions, except EPS)
+                                                                                                                             AEP
+                                                                              Vertical Int            Trans & Dist                           Generation &
+Operating Earnings (non-GAAP)                                                  Utilities                Utilities
+                                                                                                                         Transmission
+                                                                                                                                              Marketing
+                                                                                                                                                                 Corp & Other        Eliminations           Total AEP
+                                                                                                                            Holdco
+                                 REVENUE
+TOTAL REVENUE                                                             $          6,585        $           3,196      $      1,208    $          1,672    $             61    $         (1,217)      $       11,505
+
+                                 EXPENSES
+Purchased Electricity, Fuel and Other Consumables Used for Electric
+Generation                                                                           1,975                      458                 -               1,442                   -                (154)               3,721
+Maintenance and Other Operation                                                      2,072                    1,217               110                  15                  65              (1,078)               2,401
+Asset Impairments and Other Related Charges                                              -                        -                 -                   -                   -                   -                    -
+Depreciation and Amortization                                                        1,158                      427               261                  10                  (9)                  -                1,847
+Taxes Other Than Income Taxes                                                          287                      390               177                   1                   -                  15                  870
+TOTAL EXPENSES                                                                       5,492                    2,492               548               1,468                  56              (1,217)               8,839
+OPERATING INCOME                                                                     1,093                      704               660                 204                   5                       -            2,666
+Other Income                                                                             9                        1                 6                  23                  51                 (70)                  20
+Non-Service Pension (Costs)/Benefits                                                    23                       22                 -                  10                   2                   -                   57
+AFUDC                                                                                   44                       53                48                   -                   -                   -                  145
+Interest Expense                                                                      (509)                    (222)             (137)                 (3)               (336)                 70               (1,137)
+INCOME BEFORE INCOME TAXES & EQUITY EARNINGS                                           660                      558               577                 234                (278)                      -            1,751
+Income Taxes                                                                          (106)                      82               130                  53                 (50)                      -              109
+Equity Earnings                                                                          1                        -                49                   -                   4                       -               54
+
+NET INCOME                                                                             767                      476               496                 181                (224)                      -            1,696
+
+Net Income - Noncontrolling Interests                                                        1                       -             62                   -                   -                       -               63
+
+   OPERATING EARNINGS                                                     $            766        $             476      $        434    $            181    $           (224)   $                  -   $        1,633
+
+   OPERATING EARNINGS PER SHARE                                                       1.41                     0.88              0.80                0.33               (0.41)                                    3.01
+     Based on Average Shares of: 543.1 million
+
+
+
+
+                                                                                                                                                                                                                          Page 4
+                                                                       AMERICAN ELECTRIC POWER COMPANY, INC.
+                                                                             AND SUBSIDIARY COMPANIES
+                                                                      CONSOLIDATED STATEMENTS OF OPERATIONS
+
+                                                                                                 YTD Jun 2026
+                                                                                    Preliminary, unaudited results
+
+(in millions)
+                                                                                                                             AEP
+Differences between GAAP and Operating Earnings (non-                         Vertical Int            Trans & Dist                            Generation &
+                                                                                                                         Transmission                             Corp & Other         Eliminations           Total AEP
+GAAP)                                                                          Utilities                Utilities                              Marketing
+                                                                                                                            Holdco
+                                 REVENUE
+TOTAL REVENUE                                                             $             (25)      $              (4)     $            -   $            (11)   $                -   $                  -   $          (40)
+
+                                 EXPENSES
+Purchased Electricity, Fuel and Other Consumables Used for Electric
+Generation                                                                                -                       -                   -                  -                     -                      -                -
+Maintenance and Other Operation                                                           -                      18                   -                  -                     -                      -               18
+Asset Impairments and Other Related Charges                                              31                       -                   -                  -                     -                      -               31
+Depreciation and Amortization                                                           (30)                      -                   -                  -                     -                      -              (30)
+Taxes Other Than Income Taxes                                                             -                       -                   -                  -                     -                      -                -
+TOTAL EXPENSES                                                                            1                      18                   -                  -                     -                      -               19
+OPERATING INCOME                                                                        (26)                    (22)                  -                (11)                    -                      -              (59)
+Other Income                                                                                 -                       -                -                  -                     -                      -                   -
+Non-Service Pension (Costs)/Benefits                                                         -                       -                -                  -                     -                      -                   -
+AFUDC                                                                                        -                       -                -                  -                     -                      -                   -
+Interest Expense                                                                             -                       -                -                  -                     -                      -                   -
+INCOME BEFORE INCOME TAXES & EQUITY EARNINGS                                            (26)                    (22)                  -                (11)                    -                      -              (59)
+Income Taxes                                                                             (6)                     (5)                  -                 (2)                    -                      -              (13)
+Equity Earnings                                                                           -                       -                   -                  -                     -                      -                -
+
+NET INCOME                                                                              (20)                    (17)                  -                 (9)                    -                      -              (46)
+
+Net Income - Noncontrolling Interests                                                        -                       -                -                  -                     -                      -                   -
+
+   Earnings Variance                                                      $             (20)      $             (17)     $        -       $             (9)   $            -       $            -         $          (46)
+
+Adjustments, before-tax
+    Mark-to-Market Impact of Commodity Hedging Activities                                (7)                      -                   -                (11)                    -                      -              (18)
+    Impact of WVPSC Order                                                                35                       -                   -                  -                     -                      -               35
+    Pirkey Plant Partial Disallowance                                                   (31)                      -                   -                  -                     -                      -              (31)
+    Unified Tracker Mechanism Partial Disallowance                                        -                     (22)                  -                  -                     -                      -              (22)
+    Wholesale Customer Contract Agreements                                              (23)                      -                   -                  -                     -                      -              (23)
+Income Tax Effect of Adjustments                                                          6                       5                   -                  2                     -                      -               13
+Total Adjustments                                                                       (20)                    (17)                  -                 (9)                    -                      -              (46)
+
+
+
+
+                                                                                                                                                                                                                              Page 5
+                                                                       AMERICAN ELECTRIC POWER COMPANY, INC.
+                                                                             AND SUBSIDIARY COMPANIES
+                                                                      CONSOLIDATED STATEMENTS OF OPERATIONS
+                                                                                   Quarter-to-Date
+                                                                                    June 30, 2026
+                                                                                    Preliminary, unaudited results
+
+(in millions)
+                                                                                                                            AEP
+                                                                              Vertical Int           Trans & Dist                       Generation &
+GAAP Earnings                                                                  Utilities               Utilities
+                                                                                                                        Transmission
+                                                                                                                                         Marketing
+                                                                                                                                                        Corp & Other        Eliminations           Total AEP
+                                                                                                                           Holdco
+                                 REVENUE
+TOTAL REVENUE                                                             $          3,120       $           1,583      $        610    $       709     $         30    $           (607)      $        5,445
+
+                                 EXPENSES
+Purchased Electricity, Fuel and Other Consumables Used for Electric
+Generation                                                                             900                     187                 -            588                -                 (72)               1,603
+Maintenance and Other Operation                                                      1,055                     655                57              6               27                (542)               1,258
+Asset Impairments and Other Related Charges                                              -                       -                 -              -                -                   -                    -
+Depreciation and Amortization                                                          569                     210               130              5               (4)                  -                  910
+Taxes Other Than Income Taxes                                                          143                     190                87              -                -                   7                  427
+TOTAL EXPENSES                                                                       2,667                   1,242               274            599               23                (607)               4,198
+OPERATING INCOME                                                                       453                     341               336            110                7                       -            1,247
+Other Income                                                                             3                       1                 4              13              29                 (36)                  14
+Non-Service Pension (Costs)/Benefits                                                     6                       6                 -               5               2                   -                   19
+AFUDC                                                                                   21                      28                26               -               -                   -                   75
+Interest Expense                                                                      (264)                   (117)              (68)             (2)           (170)                 36                 (585)
+INCOME BEFORE INCOME TAXES & EQUITY EARNINGS                                           219                     259               298            126             (132)                      -              770
+Income Taxes                                                                            (64)                    37                63              29             (13)                      -               52
+Equity Earnings                                                                           1                      -                24               -               4                       -               29
+
+NET INCOME                                                                             284                     222               259              97            (115)                      -              747
+
+Net Income - Noncontrolling Interests                                                        -                      -             34               -               -                       -               34
+
+EARNINGS ATTRIBUTABLE TO AEP COMMON SHAREHOLDERS                          $            284       $             222      $        225    $         97    $       (115)   $                  -   $          713
+
+
+
+
+                                                                                                                                                                                                                 Page 6
+                                                                            AND SUBSIDIARY COMPANIES
+                                                                      CONSOLIDATED STATEMENTS OF OPERATIONS
+                                                                                  Quarter-to-Date
+                                                                                   June 30, 2026
+                                                                                    Preliminary, unaudited results
+
+(in millions, except EPS)
+                                                                                                                            AEP
+                                                                              Vertical Int           Trans & Dist                       Generation &
+Operating Earnings (non-GAAP)                                                  Utilities               Utilities
+                                                                                                                        Transmission
+                                                                                                                                         Marketing
+                                                                                                                                                        Corp & Other        Eliminations           Total AEP
+                                                                                                                           Holdco
+                                 REVENUE
+TOTAL REVENUE                                                             $          3,142       $           1,587      $        610    $       701     $         30    $           (607)      $        5,463
+
+                                 EXPENSES
+Purchased Electricity, Fuel and Other Consumables Used for Electric
+Generation                                                                             900                     187                 -            588                -                 (72)               1,603
+Maintenance and Other Operation                                                      1,055                     637                57              6               27                (542)               1,240
+Asset Impairments and Other Related Charges                                              -                       -                 -              -                -                   -                    -
+Depreciation and Amortization                                                          569                     210               130              5               (4)                  -                  910
+Taxes Other Than Income Taxes                                                          143                     190                87              -                -                   7                  427
+TOTAL EXPENSES                                                                       2,667                   1,224               274            599               23                (607)               4,180
+OPERATING INCOME                                                                       475                     363               336            102                7                       -            1,283
+Other Income                                                                             3                       1                 4              13              29                 (36)                  14
+Non-Service Pension (Costs)/Benefits                                                     6                       6                 -               5               2                   -                   19
+AFUDC                                                                                   21                      28                26               -               -                   -                   75
+Interest Expense                                                                      (263)                   (117)              (68)             (2)           (170)                 36                 (584)
+INCOME BEFORE INCOME TAXES & EQUITY EARNINGS                                           242                     281               298            118             (132)                      -              807
+Income Taxes                                                                            (59)                    42                63              27             (13)                      -               60
+Equity Earnings                                                                           1                      -                24               -               4                       -               29
+
+NET INCOME                                                                             302                     239               259              91            (115)                      -              776
+
+Net Income - Noncontrolling Interests                                                        -                      -             34               -               -                       -               34
+
+  OPERATING EARNINGS                                                      $            302       $             239      $        225    $         91    $       (115)   $            -         $          742
+
+  OPERATING EARNINGS PER SHARE                                                        0.56                    0.44              0.41            0.17           (0.22)                                    1.36
+   Based on Average Shares of: 544.2 million
+
+
+
+
+                                                                                                                                                                                                                 Page 7
+                                                                       AMERICAN ELECTRIC POWER COMPANY, INC.
+                                                                             AND SUBSIDIARY COMPANIES
+                                                                      CONSOLIDATED STATEMENTS OF OPERATIONS
+                                                                                   Quarter-to-Date
+                                                                                    June 30, 2026
+                                                                                    Preliminary, unaudited results
+
+(in millions)
+                                                                                                                            AEP
+Differences between GAAP and Operating Earnings (non-                         Vertical Int           Trans & Dist                        Generation &
+                                                                                                                        Transmission                     Corp & Other         Eliminations           Total AEP
+GAAP)                                                                          Utilities               Utilities                          Marketing
+                                                                                                                           Holdco
+                                 REVENUE
+TOTAL REVENUE                                                             $             (22)     $              (4)     $            -   $          8    $            -   $                  -   $          (18)
+
+                                 EXPENSES
+Purchased Electricity, Fuel and Other Consumables Used for Electric
+Generation                                                                                   -                   -                   -              -                 -                      -                -
+Maintenance and Other Operation                                                              -                  18                   -              -                 -                      -               18
+Asset Impairments and Other Related Charges                                                  -                   -                   -              -                 -                      -                -
+Depreciation and Amortization                                                                -                   -                   -              -                 -                      -                -
+Taxes Other Than Income Taxes                                                                -                   -                   -              -                 -                      -                -
+TOTAL EXPENSES                                                                               -                  18                   -              -                 -                      -               18
+OPERATING INCOME                                                                        (22)                   (22)                  -              8                 -                      -              (36)
+Other Income                                                                              -                         -                -              -                 -                      -                -
+Non-Service Pension (Costs)/Benefits                                                      -                         -                -              -                 -                      -                -
+AFUDC                                                                                     -                         -                -              -                 -                      -                -
+Interest Expense                                                                         (1)                        -                -              -                 -                      -               (1)
+INCOME BEFORE INCOME TAXES & EQUITY EARNINGS                                            (23)                   (22)                  -              8                 -                      -              (37)
+Income Taxes                                                                             (5)                    (5)                  -              2                 -                      -               (8)
+Equity Earnings                                                                           -                      -                   -              -                 -                      -                -
+
+NET INCOME                                                                              (18)                   (17)                  -              6                 -                      -              (29)
+
+Net Income - Noncontrolling Interests                                                        -                      -                -              -                 -                      -                   -
+
+   Earnings Variance                                                      $             (18)     $             (17)     $        -       $          6    $        -       $            -         $          (29)
+
+Adjustments, before-tax
+    Mark-to-Market Impact of Commodity Hedging Activities                                 -                      -                   -              8                 -                      -                8
+    Unified Tracker Mechanism Partial Disallowance                                        -                    (22)                  -              -                 -                      -              (22)
+    Wholesale Customer Contract Agreements                                              (23)                     -                   -              -                 -                      -              (23)
+Income Tax Effect of Adjustments                                                          5                      5                   -             (2)                -                      -                8
+Total Adjustments                                                                       (18)                   (17)                  -              6                 -                      -              (29)
+
+
+
+
+                                                                                                                                                                                                                     Page 8
+                                                                                                            AMERICAN ELECTRIC POWER COMPANY, INC.
+                                                                                                                  AND SUBSIDIARY COMPANIES
+                                                                                                           CONSOLIDATED STATEMENTS OF OPERATIONS
+
+                                                                                                                                    YTD Jun 2026
+                                                                                                                            Preliminary, unaudited results
+
+(in millions)
+                                                                                                                                                                                                                           Southwestern
+                                                                                Appalachian        Wheeling Power                              I&M Power                               Kingsport         Public Service                                                     Vertical Int
+Operating Earnings (non-GAAP)                                                 Power Company          Company
+                                                                                                                        AEP Generating
+                                                                                                                                               Company
+                                                                                                                                                               Kentucky Power
+                                                                                                                                                                                        Power            Co - Oklahoma
+                                                                                                                                                                                                                           Electric Power        Eliminations (a)
+                                                                                                                                                                                                                                                                             Utilities
+                                                                                                                                                                                                                                 Co.
+                               REVENUE
+TOTAL REVENUE                                                                 $        2,079      $            227      $         149      $        1,740      $          413      $           106       $         960     $        1,181    $               (270)      $          6,585
+
+                              EXPENSES
+Purchased Electricity, Fuel and Other Consumables Used for Electric
+Generation                                                                               641                    79                 81                 519                 143                   77                 344                327                    (236)                 1,975
+Maintenance and Other Operation                                                          623                    75                 31                 546                 131                   11                 345                347                     (37)                 2,072
+Depreciation and Amortization                                                            356                    36                 29                 269                  71                    6                 147                244                       -                  1,158
+Taxes Other Than Income Taxes                                                             92                     7                  3                  50                  13                    5                  45                 72                       -                    287
+TOTAL EXPENSES                                                                         1,712                   197                144               1,384                 358                   99                 881                990                    (273)                 5,492
+OPERATING INCOME                                                                         367                    30                   5                356                  55                      7                79                191                       3                  1,093
+Other Income                                                                               2                     -                   -                  3                   -                       1                -                  3                           -                  9
+Non-Service Pension (Costs)/Benefits                                                       8                     1                   2                  7                   3                       -               (1)                 3                           -                 23
+AFUDC                                                                                      7                     -                   -                 13                   4                       -                5                 15                           -                 44
+Interest Expense                                                                        (156)                  (20)                 (2)               (92)                (41)                     (4)             (86)              (108)                          -               (509)
+INCOME BEFORE INCOME TAXES & EQUITY EARNINGS                                             228                    11                   5                287                  21                      4                 (3)              104                       3                    660
+Income Taxes                                                                               6                    (2)                  1                 37                   4                      1               (72)               (82)                      1                   (106)
+Equity Earnings                                                                            -                     -                   -                  -                   -                      -                 -                  -                       1                      1
+
+NET INCOME                                                                               222                    13                   4                250                  17                      3                69                186                       3                    767
+
+Net Income - Noncontrolling Interests                                                       -                     -                  -                     -                 -                      -                 -                 1                           -                      1
+
+   OPERATING EARNINGS (non-GAAP)                                              $          222      $             13      $            4     $          250      $           17      $               3     $          69     $          185    $                  3       $            766
+
+Adjustments, before-tax
+    Mark-to-Market Impact of Commodity Hedging Activities                                  -                     -                   -                  (7)                  -                      -                 -                 -                           -                  (7)
+    Impact of WVPSC Order                                                                 29                     6                   -                   -                   -                      -                 -                 -                           -                  35
+    Pirkey Plant Partial Disallowance                                                      -                     -                   -                   -                   -                      -                 -               (31)                          -                 (31)
+    Wholesale Customer Contract Agreements                                                 -                     -                   -                   -                   -                      -                 -               (23)                          -                 (23)
+Income Tax Effect of Adjustments                                                          (6)                   (1)                  -                   2                   -                      -                 -                11                           -                   6
+GAAP / Reported Earnings                                                                 245                    18                   4                245                  17                      3                69                142                       3                    746
+
+(a) Primarily represent the elimination of intercompany activities and immaterial rounding adjustments to reconcile segment presentations to the subsidiary companies' financial statements.
+
+
+
+
+                                                                                                                                                                                                                                                                                               Page 9
+                                                 AMERICAN ELECTRIC POWER COMPANY, INC.
+                                                       AND SUBSIDIARY COMPANIES
+                                                CONSOLIDATED STATEMENTS OF OPERATIONS
+
+                                                                        YTD Jun 2026
+                                                                Preliminary, unaudited results
+
+(in millions)
+
+                                                                                                                                                        Trans & Dist
+Operating Earnings (non-GAAP)                                                    Ohio Power           AEP Texas            Eliminations (a)
+                                                                                                                                                          Utilities
+
+                              REVENUE
+TOTAL REVENUE                                                                $         2,097      $         1,099      $                       -    $          3,196
+
+                              EXPENSES
+Purchased Electricity, Fuel and Other Consumables Used for Electric
+Generation                                                                               459                    -                             (1)                458
+Maintenance and Other Operation                                                          830                  389                             (2)              1,217
+Depreciation and Amortization                                                            202                  225                              -                 427
+Taxes Other Than Income Taxes                                                            304                   85                              1                 390
+TOTAL EXPENSES                                                                         1,795                  699                             (2)              2,492
+OPERATING INCOME                                                                        302                   400                             2                  704
+Other Income                                                                               -                    1                              -                   1
+Non-Service Pension (Costs)/Benefits                                                      12                   12                             (2)                 22
+AFUDC                                                                                     13                   39                              1                  53
+Interest Expense                                                                         (77)                (144)                            (1)               (222)
+INCOME BEFORE INCOME TAXES & EQUITY EARNINGS                                            250                   308                              -                 558
+Income Taxes                                                                             24                       58                           -                  82
+Equity Earnings                                                                           -                        -                           -                   -
+
+NET INCOME                                                                              226                   250                              -                 476
+
+Net Income - Noncontrolling Interests                                                         -                    -                           -                       -
+
+  OPERATING EARNINGS (non-GAAP)                                              $          226       $           250      $                       -    $            476
+
+Adjustments, before-tax
+   Unified Tracker Mechanism Partial Disallowance                                             -               (22)                             -                 (22)
+Income Tax Effect of Adjustments                                                              -                 5                              -                   5
+GAAP / Reported Earnings                                                                226                   233                              -                 459
+
+(a) Primarily represent the elimination of intercompany activities and immaterial rounding adjustments to reconcile segment presentations to the subsidiary
+companies' financial statements.
+
+
+
+
+                                                                                                                                                                           Page 10
+                                                                                                          AMERICAN ELECTRIC POWER COMPANY, INC.
+                                                                                                                AND SUBSIDIARY COMPANIES
+                                                                                                         CONSOLIDATED STATEMENTS OF OPERATIONS
+                                                                                                                      Quarter-to-Date
+                                                                                                                       June 30, 2026
+                                                                                                                           Preliminary, unaudited results
+
+(in millions)
+                                                                              Appalachian        Wheeling Power                                I&M Power           Kentucky            Kingsport         Public Service        Southwestern                                       Vertical Int
+Operating Earnings (non-GAAP)                                               Power Company          Company
+                                                                                                                       AEP Generating
+                                                                                                                                               Company              Power               Power            Co - Oklahoma      Electric Power Co.
+                                                                                                                                                                                                                                                       Eliminations (a)
+                                                                                                                                                                                                                                                                                   Utilities
+
+                              REVENUE
+TOTAL REVENUE                                                                $         916       $           105       $             68    $          800      $         196       $              50     $         521      $            610       $               (124)      $          3,142
+
+                              EXPENSES
+Purchased Electricity, Fuel and Other Consumables Used for Electric
+Generation                                                                             277                       34                  32               210                 62                      35               180                   156                        (86)                   900
+Maintenance and Other Operation                                                        307                       38                  18               282                 66                       6               179                   183                        (24)                 1,055
+Depreciation and Amortization                                                          164                       14                  14               138                 39                       3                74                   123                        -                      569
+Taxes Other Than Income Taxes                                                           45                        4                   2                26                  7                       2                22                    35                        -                      143
+TOTAL EXPENSES                                                                         793                       90                  66               656                174                      46               455                   497                       (110)                 2,667
+OPERATING INCOME                                                                       123                       15                   2               144                     22                   4                   66                113                        (14)                   475
+Other Income                                                                              1                  -                   -                      1                 -                        1               -                        1                           (1)                  3
+Non-Service Pension (Costs)/Benefits                                                      4                       1                   1                 3                 -                   -                     (3)                     2                           (2)                  6
+AFUDC                                                                                     3                  -                   -                      7                   2                 -                      2                      7                       -                       21
+Interest Expense                                                                        (80)                     (9)                 (1)              (49)                (20)                     (3)             (43)                   (58)                      -                     (263)
+INCOME BEFORE INCOME TAXES & EQUITY EARNINGS                                                51                    7                   2               106                      4                   2                   22                     65                    (17)                   242
+Income Taxes                                                                                 1                    3              -                         9                   1                   1               (32)                   (39)                          (3)                 (59)
+Equity Earnings                                                                         -                    -                   -                    -                   -                   -                    -                      -                              1                    1
+
+NET INCOME                                                                                  50                    4                   2                   97                   3                   1                   54                104                        (13)                   302
+
+Net Income - Noncontrolling Interests                                                   -                    -                   -                    -                   -                   -                    -                      -                         -                       -
+
+  OPERATING EARNINGS (non-GAAP)                                              $              50   $                4    $              2    $              97   $               3   $               1     $             54   $            104       $                (13)      $            302
+
+Adjustments, before-tax
+   Wholesale Customer Contract Agreements                                                    -                    -                   -                    -                   -                   -                    -                 (23)                        -                    (23)
+Income Tax Effect of Adjustments                                                             -                    -                   -                    -                   -                   -                    -                   5                         -                      5
+GAAP / Reported Earnings                                                                    50                    4                   2                   97                   3                   1                   54                  86                       (13)                   284
+
+(a) Primarily represent the elimination of intercompany activities and immaterial rounding adjustments to reconcile segment presentations to the subsidiary companies' financial statements.
+
+
+
+
+                                                                                                                                                                                                                                                                                                   Page 11
+                                                AMERICAN ELECTRIC POWER COMPANY, INC.
+                                                      AND SUBSIDIARY COMPANIES
+                                               CONSOLIDATED STATEMENTS OF OPERATIONS
+                                                            Quarter-to-Date
+                                                             June 30, 2026
+                                                               Preliminary, unaudited results
+
+(in millions)
+
+                                                                                                                                                       Trans & Dist
+Operating Earnings (non-GAAP)                                                     Ohio Power           AEP Texas            Eliminations (a)
+                                                                                                                                                         Utilities
+
+                               REVENUE
+TOTAL REVENUE                                                                 $         1,012      $           575      $                -         $          1,587
+
+                              EXPENSES
+Purchased Electricity, Fuel and Other Consumables Used for Electric
+Generation                                                                               188                   -                             (1)                187
+Maintenance and Other Operation                                                          436                   203                           (2)                637
+Depreciation and Amortization                                                             91                   120                           (1)                210
+Taxes Other Than Income Taxes                                                            148                     40                           2                 190
+TOTAL EXPENSES                                                                           863                   363                           (2)              1,224
+OPERATING INCOME                                                                         149                   212                           2                  363
+Other Income                                                                              -                      1                       -                        1
+Non-Service Pension (Costs)/Benefits                                                        3                    6                           (3)                  6
+AFUDC                                                                                       6                   20                            2                  28
+Interest Expense                                                                          (37)                 (78)                          (2)               (117)
+INCOME BEFORE INCOME TAXES & EQUITY EARNINGS                                             121                   161                           (1)                281
+Income Taxes                                                                                  12                   31                        (1)                    42
+Equity Earnings                                                                           -                    -                         -                      -
+
+NET INCOME                                                                               109                   130                       -                      239
+
+Net Income - Noncontrolling Interests                                                     -                    -                         -                      -
+
+  OPERATING EARNINGS (non-GAAP)                                               $          109       $           130      $                -         $            239
+
+Adjustments, before-tax
+   Unified Tracker Mechanism Partial Disallowance                                         -                    (22)                      -                      (22)
+Income Tax Effect of Adjustments                                                          -                      5                       -                        5
+GAAP / Reported Earnings                                                                  109                  113                       -                      222
+
+
+(a) Primarily represent the elimination of intercompany activities and immaterial rounding adjustments to reconcile segment presentations to the subsidiary
+companies' financial statements.
+
+
+
+
+                                                                                                                                                                         Page 12
+

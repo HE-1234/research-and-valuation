@@ -1,0 +1,68 @@
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, D.C. 20549
+
+FORM 8-K
+
+CURRENT REPORT
+
+PURSUANT TO SECTION 13 OR 15(D) OF THE
+
+SECURITIES EXCHANGE ACT OF 1934
+
+Date of report (Date of earliest event reported) | January 4, 2026
+
+AMERICAN ELECTRIC POWER COMPANY, INC.
+
+(Exact Name of Registrant as Specified in Its Charter)
+
+New York | 1-3525 | 13-4922640
+(State or Other Jurisdiction of | (Commission File Number) | (IRS Employer Identification
+Incorporation) | No.)
+
+1 Riverside Plaza, | Columbus, | OH | 43215
+(Address of Principal Executive Offices) | (Zip Code)
+
+(Registrant's Telephone Number, Including Area Code) | (614) | 716-1000
+
+(Former Name or Former Address, if Changed Since Last Report)
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):
+
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Registrant | Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+American Electric Power Company, Inc. | Common Stock, $6.50 par value | AEP | The NASDAQ Stock Market LLC
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+Emerging growth company | ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+□
+
+Item 8.01.Other Events
+
+As previously disclosed, in November 2024 a subsidiary of AEP executed a purchase agreement to acquire 100 MWs of solid oxide fuel cells with an option to purchase an additional 900 MWs.
+
+On January 4, 2026, an unregulated subsidiary of AEP executed (i) an unconditional purchase agreement to acquire a substantial portion of its option for solid oxide fuel cells for the development and construction of a fuel cell generation facility for approximately $2.65 billion, and (ii) a 20 year offtake arrangement with a high investment grade third party customer for 100% of the output of the fuel cell generation facility expected to be located near Cheyenne, Wyoming. The offtake arrangement is subject to certain conditions which AEP expects to be satisfied by second quarter 2026. Should the conditions not be satisfied, AEP will be financially compensated for all capital and costs incurred.
+
+104 | Cover Page Interactive Data File - The cover page iXBRL tags are embedded within the inline XBRL document.
+
+SIGNATURE
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+
+AMERICAN ELECTRIC POWER COMPANY, INC.
+
+By: | /s/ David C. House
+Name: | David C. House
+Title | Assistant Secretary
+
+January 8, 2026

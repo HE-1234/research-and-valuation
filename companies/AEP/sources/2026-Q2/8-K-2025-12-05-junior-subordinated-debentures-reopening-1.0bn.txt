@@ -1,0 +1,80 @@
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, D.C. 20549
+
+FORM 8-K
+
+CURRENT REPORT
+
+PURSUANT TO SECTION 13 OR 15(D) OF THE
+
+SECURITIES EXCHANGE ACT OF 1934
+
+Date of report (Date of earliest event reported) | December 3, 2025
+
+AMERICAN ELECTRIC POWER COMPANY, INC.
+
+(Exact Name of Registrant as Specified in Its Charter)
+
+New York | 1-3525 | 13-4922640
+(State or Other Jurisdiction of | (Commission File Number) | (IRS Employer Identification
+Incorporation) | No.)
+
+1 Riverside Plaza, | Columbus, | OH | 43215
+(Address of Principal Executive Offices) | (Zip Code)
+
+(Registrant's Telephone Number, Including Area Code) | (614) | 716-1000
+
+(Former Name or Former Address, if Changed Since Last Report)
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):
+
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Registrant | Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+American Electric Power Company, Inc. | Common Stock, $6.50 par value | AEP | The NASDAQ Stock Market LLC
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+Emerging growth company | ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+□
+
+Item 8.01.Other Events
+
+On December 3, 2025, American Electric Power Company, Inc. (the “Company”) entered into an Underwriting Agreement with Guggenheim Securities, LLC, J.P. Morgan Securities LLC, MUFG Securities Americas Inc., PNC Capital Markets LLC, Scotia Capital (USA) Inc., and Wells Fargo Securities, LLC as representatives of the underwriters named therein, relating to the offering and sale by the Company of $400,000,000 of 5.800% Fixed-to-Fixed Reset Rate Junior Subordinated Debentures, Series C, due 2056 (the “Series C Debentures”) and $600,000,000 of 6.050% Fixed-to-Fixed Reset Rate Junior Subordinated Debentures, Series D, due 2056 (the “Series D Debentures,” collectively, the “Debentures”). The Series C Debentures are part of the same series of debt securities issued by the Company on September 25, 2025. Upon completion of this offering, the aggregate principal amount of outstanding Senior C Debentures is $1,500,000,000. The Series D Debentures are part of the same series of debt securities issued by the Company on September 25, 2025. Upon completion of this offering, the aggregate principal amount of outstanding Senior D Debentures is $1,500,000,000.
+
+Item 9.01. Financial Statements and Exhibits
+
+(c) Exhibits
+
+1(a) | Underwriting Agreement, dated December 3 , 2025, between the Company and the Underwriters named in Exhibit 1 thereto, in connection with the sale of the Debentures.
+
+4(a) | Amended and Restated Supplemental Indenture No. 7 between the Company and The Bank of New York Mellon Trust Company, N.A. as trustee, dated December 5, 2025, establishing the terms of the Debentures.
+
+4(b) | Form of the Debentures (included in Exhibit 4(a) hereto).
+
+5(a) | Opinion of David C. House regarding the legality of the Debentures.
+
+8(a) | Opinion of Gibson, Dunn & Crutcher LLP regarding certain tax matters.
+
+104 | Cover Page Interactive Data File - The cover page iXBRL tags are embedded within the inline XBRL document.
+
+SIGNATURE
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+
+AMERICAN ELECTRIC POWER COMPANY, INC.
+
+By: | /s/ David C. House
+Name: | David C. House
+Title | Assistant Secretary
+
+December 5, 2025

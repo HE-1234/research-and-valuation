@@ -1,0 +1,70 @@
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, D.C. 20549
+
+FORM 8-K
+
+CURRENT REPORT
+
+PURSUANT TO SECTION 13 OR 15(D) OF THE
+
+SECURITIES EXCHANGE ACT OF 1934
+
+Date of report (Date of earliest event reported) | December 18, 2025
+
+AMERICAN ELECTRIC POWER COMPANY, INC.
+
+(Exact Name of Registrant as Specified in Its Charter)
+
+New York | 1-3525 | 13-4922640
+(State or Other Jurisdiction of | (Commission File Number) | (IRS Employer Identification
+Incorporation) | No.)
+
+1 Riverside Plaza, | Columbus, | OH | 43215
+(Address of Principal Executive Offices) | (Zip Code)
+
+(Registrant's Telephone Number, Including Area Code) | (614) | 716-1000
+
+(Former Name or Former Address, if Changed Since Last Report)
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):
+
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common Stock, $6.50 par value | AEP | The NASDAQ Stock Market LLC
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+Emerging growth company | ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+□
+
+Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.
+
+On December 18, 2025, the Board of Directors ("Board") of American Electric Power Company, Inc. ("AEP") granted a special equity award to William J. Fehrman, AEP’s Chair, President and Chief Executive Officer, as part of AEP's retention strategy and to promote further alignment between Mr. Fehrman’s compensation and Company performance.
+
+1.$10,000,000 in performance shares that will vest, provided that Mr. Fehrman remains continuously employed by AEP through December 31, 2030. The number of shares that vest is based on the average relative total shareholder return ("rTSR") for each of the five years in the above period. rTSR will be measured from the close price of AEP and peer company common stock on the last business day of the prior year through the 20-day average closing price as of the last business day of the year or period. The performance score will range from 0% to 200% based on rTSR performance from the 20th percentile to the 80th percentile, respectively; and
+
+2.$5,000,000 restricted stock units that will vest, subject to his continuous AEP employment, on December 31, 2030.
+
+104 | Cover Page Interactive Data File - The cover page iXBRL tags are embedded within the inline XBRL document.
+
+SIGNATURE
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the Company has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+
+AMERICAN ELECTRIC POWER COMPANY, INC.
+
+By: | /s/ David C. House
+Name: | David C. House
+Title: | Assistant Secretary
+
+December 19, 2025

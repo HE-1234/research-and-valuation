@@ -1,0 +1,1199 @@
+First Quarter
+2026 Earnings
+Presentation
+May 5, 2026
+Cautionary Note Regarding Forward-
+Looking Statements
+This presentation contains forward-looking statements. Words such as “expect,” “anticipate,” “intend,” “plan,” “believe,” “will,” “should,” “could,” “would,” “project,” “continue” and similar expressions, including statements reflecting future results or
+guidance and statements of outlook are intended to identify forward-looking statements but are not the exclusive means of identifying such statements. Although AEP and each of its Registrant Subsidiaries believe that their expectations are
+based on reasonable assumptions, any such statements may be influenced by factors that could cause actual outcomes and results to differ materially from those projected. Among the factors that could cause actual results to differ materially
+from those in the forward-looking statements are: changes in economic conditions, electric market demand and demographic patterns in AEP’s service territory, the economic impact of increased global conflicts and trade tensions, and the
+adoption or expansion of economic sanctions, tariffs, trade restrictions or changes in trade policy, inflationary or deflationary interest rate trends, new legislation or regulation adopted in the states in which we operate or federal legislation or
+regulation adopted that alters the regulatory framework or that prevents the timely recovery of costs and investments, volatility and disruptions in financial markets precipitated by any cause, including fiscal and monetary policy or instability in the
+banking industry; particularly developments affecting the availability or cost of capital to finance new capital projects and refinance existing debt, the availability and cost of funds to finance working capital and capital needs, particularly (i) if
+expected sources of capital, such as proceeds from the sale of tax credits and anticipated securitizations do not materialize or do not materialize at the level anticipated, and (ii) during periods when the time lag between incurring costs and
+recovery is long and the costs are material, changing demand for electricity including large load contractual commitments, the risks and uncertainties associated with wildfires, including damages caused by wildfires, the extent of each
+Registrant’s liability in connection with wildfires, investigations and outcomes associated with legal proceedings, demand or similar actions, inability to recover wildfire costs through insurance or through rates and the impact on financial condition
+and the reputation of each Registrant, the impact of extreme weather conditions, natural disasters and catastrophic events such as storms, wildfires and drought conditions that pose significant risks including potential litigation and the inability to
+recover significant damages and restoration costs incurred, limitations or restrictions on the amounts and types of insurance available to cover losses that might arise in connection with natural disasters, wildfires or operations, the cost of fuel
+and its transportation, the creditworthiness and performance of parties who supply and transport fuel and the cost of storing and disposing of used fuel, including coal ash and spent nuclear fuel, the availability of fuel and necessary generation
+capacity and performance of generation plants, the ability to recover fuel and other energy costs through regulated or competitive electric rates, the ability to plan for, develop, construct, acquire, or integrate a broad range of generation and
+energy storage resources, as well as related transmission and distribution infrastructure, including obtaining necessary regulatory approvals, permits, and incentives; complying with cost caps and other regulatory or contractual requirements; and
+recovering associated costs and earning an appropriate return while meeting reliability, affordability, environmental, and customer-service obligations, the disruption of AEP’s business operations due to impacts of economic or market conditions,
+costs of compliance with potential government regulations, electricity usage, supply chain issues, customers, service providers, vendors and suppliers caused by, natural disasters or other events, construction and development risks associated
+with the completion of the 2026-2030 capital investment plan, including shortages or delays in labor, materials, equipment or parts, prolonged or recurring U.S. federal government shutdowns could adversely affect AEP’s operations, regulatory
+approvals, financial performance and could cause volatility in the capital markets which may interrupt our access to capital, new legislation, litigation or government regulation, including changes to tax laws and regulations, oversight of nuclear
+generation, evolving environmental standards, energy commodity trading and new or modified requirements related to emissions of sulfur, nitrogen, mercury, carbon, soot or particulate matter and other substances that could impact the
+continued operation, cost recovery and/or profitability of generation plants and related assets, the impact of tax legislation or associated Department of Treasury guidance, including potential changes to existing tax incentives, on capital plans,
+results of operations, financial condition, cash flows or credit ratings, the risks before, during and after generation of electricity associated with the fuels used or the byproducts and wastes of such fuels, including coal ash and spent nuclear fuel,
+timing and resolution of pending and future rate cases, negotiations and other regulatory decisions, including rate or other recovery of new investments in generation, distribution and transmission service and environmental compliance,
+resolution of litigation or regulatory proceedings or investigation, the ability to efficiently manage and recover operation, maintenance and development project costs, prices and demand for power generated and sold in wholesale markets,
+changes in technology, including new, developing, alternative or distributed sources of generation, the ability to recover through rates any remaining unrecovered investment in generation units that may be retired before the end of their
+previously projected useful lives, volatility and changes in markets for coal and other energy-related commodities, particularly changes in the price of natural gas, the impact of changing expectations and demands of customers, regulators,
+investors and stakeholders, including development, adoption and use of AI by us, our customers, and our third party vendors and evolving expectations related to sustainability, customer affordability concerns may impact regulatory recovery
+outcomes and future rate design, changes in utility regulation, policies, methodologies for evaluating and approving load interconnection, and the allocation of costs within regional transmission organizations, including ERCOT, PJM and SPP and
+the impacts of potential market changes within those regional transmission organizations, changes in the creditworthiness of the counterparties with contractual arrangements, including participants in the energy trading market, actions of rating
+agencies, including changes in ratings impacting the cost of debt, geopolitical developments continue to create uncertainty in global energy markets and have contributed to increased volatility in fuel supply and pricing. Shifts in global market
+conditions and broader supply-chain pressures may influence natural gas prices, power-generation economics and customer demand patterns, the impact of volatility in the capital markets on the value of the investments held by the pension,
+OPEB and nuclear decommissioning trust fund and a captive insurance entity and the impact of such volatility on future funding requirements, accounting standards periodically issued by accounting standard-setting bodies, the ability to
+successfully defend against cybersecurity threats, other risks and unforeseen events, including wars and military conflicts, the effects of terrorism (including increased security costs), embargoes, labor strikes impacting material supply chains,
+global information technology disruptions and other catastrophic events, the ability to attract and retain requisite work force and key personnel, including senior management. Forward-looking statements in this document are presented as of the
+date of this document. Except to the extent required by applicable law, management undertakes no obligation to update or revise any forward-looking statement.
+
+                                                                                                                                Darcy Reese, Vice President                                   Annie Pribisko, Director
+                                                                                                                                Investor Relations                                            Investor Relations
+                                                                                                                                614-716-2614                                                  614-716-2646
+2   Q1-26 Earnings Presentation
+                                                                                                                                dlreese@aep.com                                               acpribisko@aep.com
+Non-GAAP Financial Measures
+AEP reports its financial results in accordance with accounting principles generally accepted in the United States (GAAP). AEP supplements its reporting of financial information with certain non-GAAP financial
+measures, including operating earnings (non-GAAP), operating EPS (non-GAAP), adjusted equity (non-GAAP) and FFO to total debt (non-GAAP). Operating earnings exclude certain gains and losses and other
+specified items, including mark-to-market adjustments from commodity hedging activities and other items as set forth in the reconciliation in the Appendix. Adjusted equity is adjusted for Midwest Transmission Holdings
+Noncontrolling Interest Transaction. FFO to total debt is adjusted for capital and operating leases, pension, capitalized interest, adjustments related to hybrid debt, deferred fuel, minority interest and changes in working
+capital. Operating earnings could differ from GAAP earnings for matters such as impairments, divestitures, or changes in accounting principles. AEP management is not able to forecast if any of these items will occur or
+any amounts that may be reported for future periods. Therefore, AEP is not able to provide a corresponding GAAP equivalent for earnings guidance. Reflecting special items recorded through the first quarter of 2026,
+the estimated earnings per share on a GAAP basis would be $6.12 to $6.42 per share.
+
+This information is intended to enhance an investor’s overall understanding of period over period financial results and provide an indication of AEP’s baseline operating performance by excluding items that are
+considered by management to be not directly related to the ongoing operations of the business. In addition, this information is among the primary indicators management uses as a basis for evaluating performance,
+allocating resources, setting incentive compensation targets and planning and forecasting of future periods.
+
+These non-GAAP financial measures are not a presentation defined under GAAP and may not be comparable to other companies’ presentations. AEP has provided these non-GAAP financial measures as supplemental
+information and in addition to the financial measures that are calculated and presented in accordance with GAAP. These non-GAAP measures should not be deemed more useful than, a substitute for, or an alternative
+to the most comparable GAAP measures provided in the materials presented. Reconciliations of these non-GAAP measures to the most comparable GAAP measures are provided in the Appendix and supplemental
+schedules to this presentation.
+
+Throughout this presentation, we use the terms operating earnings, operating EPS, adjusted equity and FFO to total debt. The Appendix and supplemental schedules accessible on our website contain reconciliations of
+these terms to the most comparable GAAP measure.
+
+
+
+
+  3   Q1-26 Earnings Presentation
+Accelerating Growth and Driving Value
+High-quality, pure-play electric utility strategically positioned in growth regions, rooted in innovation and
+ready to meet unprecedented customer demand.
+                                                                                                                                                                KEY GROWTH STATES:
+VISION Improve customers’ lives with reliable, affordable power
+                                                                                                                                                         INDIANA, OHIO, OKLAHOMA AND TEXAS
+
+FOOTPRINT
+ 5.6M customers throughout high-growth regions
+ 32 GW of diverse owned and contracted generating capacity
+ 40K transmission miles and 252K distribution miles
+ Own and operate the largest transmission network in the U.S.
+
+
+FINANCIAL STRENGTH
+ $78B updated 5-year capital plan plus line of sight to over $10B of additional capital
+ ~11% rate base compound annual growth rate (CAGR) expected through 2030
+ ~63 GW1 incremental contracted load by 2030
+ 7%-9% expected operating earnings growth rate with a CAGR of greater than 9% through 2030
+
+
+EXECUTING OUR STRATEGY TO DRIVE VALUE
+ Growth: We are strategically        Customers: By leveraging our size and scale, we are                                                          Partnerships: We are deepening relationships
+ positioned to invest in high-growth securing critically needed resources including over 10 GW                                                    with regulators, policymakers, customers and
+ opportunities that drive financial  of gas-fired turbine capacity already secured from major                                                     suppliers to advance system affordability, reliability
+ performance                         manufacturers to meet rising demand across the system                                                        and resiliency across our service territories
+                                     1 Management’s load growth expectations are based on underlying trends. Commercial load, driven by growth in energy intensive subsectors such as AI driven data center demand, is anticipated to be
+
+4   Q1-26 Earnings Presentation      the largest component of retail load growth. Forecasted data center demand growth is supported by existing and future customer financial agreements, which are subject to certain terms and conditions.
+                                     Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+Financial Guidance Overview
+Driving significant infrastructure investment, expected to deliver an attractive ~10%-13% annual TSR.
+
+                                  2026-2030 Outlook                                                                                                     2026 Guidance
+
+                    ~10%-13% Total Annual                                                                                                                   $6.15-$6.45
+                                                                                                                                                     2026 Operating EPS Guidance
+               Expected Shareholder Return (TSR)                                                                                                          Based off the 2025 guidance
+                                                                                                                                                                range midpoint
+
+
+
+                       7%-9%                                                ~3%                                                                                       $13B
+      Annual Operating Earnings Growth Rate
+                                                                        Dividend Yield                                                                              2026 Capital
+       With an expected CAGR of greater than 9%
+                                                                           2026-2030                                                                                 Investment
+                            through 2030
+
+
+
+
+         $78B                   + Over $10B                          Nearly 11%                                                                                      >50%
+     Updated Capital Plan            Line of Sight Capital            Rate Base Growth                                                          2026 Operating Earnings from High-
+         2026-2030                         2026-2030                   CAGR through 2030                                                          Growth Transmission Business1
+
+
+
+                     14%-15%                                             63 GW                                                                                       7 GW
+               Targeted FFO/Debt Range                        Incremental Contracted Load by 2030                                                         Incremental Contracted
+                            2026-2030                        Up from 56 GW disclosed on Q4 2025 call                                                           Load in 2026
+
+
+                                                                         1 Includes AEP Transmission Holdco and transmission investments in AEP operating companies. Calculated using 2026E transmission earnings of
+
+ 5   Q1-26 Earnings Presentation                                         $3.34 as a percentage of the 2026 guidance midpoint of $6.30.
+                                                                         Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+Key Messages
+Bill Fehrman
+Chairman, President and CEO
+
+
+
+
+                              Cook Nuclear Plant
+Key Messages
+Focused execution on updated $78B capital plan to capture generational growth while prioritizing affordability.
+
+                               ✓ Reporting Q1 2026 EPS GAAP of $1.61 and Operating of $1.64                                                                                    Q1 2026 OPERATING EPS1
+ Q1 2026 Financial
+
+
+
+
+                               ✓ Regulated earned ROE increased to 9.3% for the 12 months ended 3/31/2026, projected to reach 9.5%                                                                               $1.64
+     Highlights
+
+
+
+
+                                  by 2030 as AEP continues to develop regulatory strategies designed to address affordability
+                                                                                                                                                                                        $1.54
+                               ✓ FFO/Debt was 14.7% on an S&P basis and 13.9% on a Moody’s basis at 3/31/2026, reflecting our
+                                  commitment to a healthy balance sheet
+                               ✓ Issued $665M of the $1B in ATM equity at an average price of approximately $131 per share, fulfilling
+                                  two-thirds of full-year 2026 equity needs to support capital execution while preserving customer
+                                                                                                                                                                                         2025                     2026
+                                  affordability
+
+
+
+                               ✓ Forecasting up to $16B of cost offsets generated for existing customers from current large-load                                                     FINANCIAL UPDATES
+     Outlook and Strategy
+
+
+
+
+                                  contracts2 through their allocated contributions to fixed expenses over the life of the agreements
+                                                                                                                                                                            ✓ Reaffirming 2026 operating
+                               ✓ Continued load growth supported by 63 GW of incremental contracted load by 2030, up from the 56 GW                                               earnings guidance of $6.15-
+                                  load forecast disclosed last quarter; contracted customers must meet high credit standards through                                              $6.45 per share and annual
+                                  direct credit quality, parent guarantees or credit support compliant with tariff requirements                                                   operating earnings growth rate
+                               ✓ Increased 2026-2030 capital plan by $6B to $78B which reflects transmission investments and I&M gas                                              of 7%-9% with a CAGR of
+                                  generation that come online later in the 5-year plan and support long-term operating earnings growth                                            greater than 9% through 2030
+                                  rate CAGR of greater than 9% through 2030
+                                                                                                                                                                            ✓ Maintaining FFO/Debt targeted
+                               ✓ Line of sight to over $10B of additional capital projects, including Ohio’s Piketon transmission project,                                        range of 14%-15% for 2026-
+                                  Wyoming fuel cell initiative and new generation projects                                                                                        2030
+
+                                                                                                  1 Refer to Appendix for the GAAP to operating earnings reconciliation.
+                                                                                                  2 ESA contracts within vertically integrated utilities.
+      7                     Q1-26 Earnings Presentation                                           Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+Diverse Commercial and Industrial Footprint
+                                                                                                                                                                           1
+
+Diverse customer base provides a foundation for long-term infrastructure partnerships and drives economic growth.
+   Contracted customers must meet high credit
+                                                                                                                                 Data Centers                  Data Centers
+    standards through investment grade credit                                                                                    Granger, IN                  Columbus, OH
+   quality, parent guarantees or credit support                                                                               AEP Load Not Public           AEP Load Not Public
+        compliant with tariff requirements                                             Data Centers
+                                                                                      Fort Wayne, IN
+Market capitalization of the majority of our hyperscale                             AEP Load Not Public                                                                          Data Center
+                                                                                                                                                                                 Piketon, OH
+customers ranges between $1.7 trillion and $4.0 trillion.
+                                                                                                                                                                           10 GW Campus at Buildout
+
+
+                                                                          Stargate Data Center
+                                                                                                                                                                                  Data Centers
+                                                                               Abilene, TX
+                                                                                                                            Data Centers                                       Putnam County, WV
+                                                                          AEP Load Not Public
+                                                                                                                             Tulsa, OK                                         AEP Load Not Public
+                                                                                                                         AEP Load Not Public
+
+                                                                            LNG Expansion                                                                               Steel Manufacturing
+                                                                           Corpus Christi, TX                                                                            Apple Grove, WV
+Approximately 90% are data centers primarily consisting of
+                                                                          AEP Load Not Public                                                                           AEP Load Not Public
+hyperscale customers.
+
+              11%
+                                                                                                                                                            Data Centers
+                                                                                                                                                           Shreveport, LA
+                                                                                                                                                         AEP Load Not Public
+               63 GW
+
+                                  Data Centers2
+                                  Industrials
+                    89%
+
+
+  8   Q1-26 Earnings Presentation
+                                                             1 Companies shown in the graph do not reflect all projects included in the load forecast.
+                                                                                                                                                              New data centers announced in Q1 2026
+                                                             2 Includes crypto customers.
+2026-2030 Significant Transmission Growth
+Expanded transmission capital forecast that now totals $33B reflecting AEP’s continued momentum in
+strengthening the nation’s electricity backbone and further solidifying our industry-leading position.
+
+$3.5B increase to transmission                                                            MISO Award
+                                           SPP                                            (Wisconsin)
+capital forecast
+                                           Awards
+•       $1.6B SPP projects awarded in
+        November 2025 and February 2026
+
+•       $1.9B PJM projects awarded in
+        February 2026
+
+Updated $33B transmission
+capital forecast for 2026-2030
+
+•       ~50% reinvest in the core                 ERCOT
+                                                  Awards                                         PJM Awards
+•       ~50% invest in growth and expand                                                         and Announced
+        the business                          Awards totaling ~$3.5B increase the
+                                              transmission capital plan to $33B for
+                                              2026-2030
+Executed strategic partnership                Awards included in the original $30B
+agreements with Quanta to                     transmission capital plan for 2026-2030
+
+accelerate transmission buildout              Awards with an in-service date mostly
+                                              beyond the 2026-2030 period (2034)
+                                              Announced Piketon transmission project;
+                                              not included in the $33B transmission
+    9   Q1-26 Earnings Presentation
+                                              capital plan for 2026-2030
+2026-2030 New Generation Resources
+Expanded generation forecast now $24B; AEP is well positioned to advance generation solutions to meet
+customer demand.
+$2.5B increase to generation capital forecast, raising the forecast to $24B for
+2026-2030                                                                                              Our current plan reflects a diverse generation mix
+  •    Increase reflects I&M gas generation including Big Sandy Peaker Plant and Sycamore              including natural gas, solar, wind and storage
+       Riverside Energy Center
+                                                                                                       The projects below are included in AEP’s 5-year capital plan. Additional
+                                                                                                       resources are in development and have not yet been publicly disclosed.
+AEP is well equipped to execute large-scale buildouts
+                                                                                                                                        Natural Gas Investment Examples:
+  •    Secured over 10 GW of gas-fired turbine capacity from major manufacturers                                                                 Welsh 1,056 MW
+                                                                                                                                                Sycamore 918 MW
+  •    Advanced interconnection progress across PJM and SPP, secured 450 MW of capacity                                                          Oregon 870 MW
+       and submitted requests for 9 projects to date with additional filings planned later this year                                             Hallsville 450 MW
+  •    Leveraging reputable EPC contractors to secure labor and equipment, combined with                                                       Northeastern 450 MW
+       AEP expertise to deliver projects efficiently and at a competitive cost for customers                                                    Big Sandy 318 MW
+
+  •    Applied standardized designs and rigorous project controls to manage schedule, costs
+       and risks                                                                                                                           Solar Investment Examples:
+                                                                                                                                               Lake Trout 245 MW
+                                                                                                                                                Mayapple 224 MW
+                                                                                                                                                 Algodon 150 MW
+AEP is pursuing multiple methods to cost-effectively meet our customers’
+energy needs including:
+  •    Purchase sale agreements through a competitive RFP process                                                                          Wind Investment Examples:
+                                                                                                                                               Lazbuddie 265 MW
+  •    Bi-lateral acquisitions as the quickest option for incremental owned capacity
+                                                                                                                                               Grover Hill 140 MW
+  •    Power purchase and capacity purchase agreements to help cover short-term capacity or
+       energy needs
+
+  10   Q1-26 Earnings Presentation
+Delivering Affordable and Reliable Power
+Residential rate impacts are mitigated through load growth, including 63 GW of contracted load by 2030 (up
+from 56 GW disclosed last quarter) as well as disciplined cost management and efficient financing.
+Large load growth supports affordability with residential rates projected to
+                                                                                                 Disciplined cost management with O&M
+increase ~3.5%1 annually on a system average over the forecasted period
+                                                                                                 increasing modestly while rate base grew at
+      •   Forecasting up to $16B of cost offsets generated for existing                          roughly double the pace
+          customers from our current large-load contracts2 through their allocated
+          contributions to fixed expenses over the life of the agreements
+                                                                                                    Total AEP Rate Base
+      •   Filed for a rate reduction in AEP Ohio and plan to pursue a rate reduction for I&M’s      (~8% CAGR from 2022-2026)
+          Indiana base rate case this summer, reflecting large load growth and filing
+          structures designed to support customer affordability                                                                                                         $85B
+                                                                                                              $62B
+Focused customer service with disciplined cost management
+      •   Customer interruption duration index is improving, demonstrating meaningful
+          progress in strengthening customer service through more reliable power.
+                                                                                                             2022A                                                      2026E
+      •   Focused O&M efficiency amid rapid rate base growth
+                                                                                                    Untracked O&M         Tracked O&M
+Federal grants and U.S. Department of Energy (DOE) loan guarantees
+provide customer savings
+      •   Received award notices totaling more than $315M in grants to deliver customer
+          savings over the grant periods                                                                                                                           $3.1B        $3.3B
+                                                                                                                  $2.9B                   $2.8B
+                                                                                                    $3.0B
+      •   Executed on $1.6B of DOE loan guarantees related to transmission projects with
+          projected $275M in customer savings over the life of the loans
+                                                                                                    $1.1B         $1.2B                   $1.5B                    $1.5B        $1.5B
+      •   Applied for additional DOE loans to fund generation and transmission investments
+          with staged loan closings throughout 2026                                                 2022A        2023A                    2024A                   2025A         2026E
+                                                                                                              1 Based on certain regulatory cost allocation assumptions.
+
+ 11   Q1-26 Earnings Presentation                                                                             2 ESA contracts within vertically integrated utilities.
+Innovative Data Center and Large Load
+Tariffs Advancing Affordability
+Collaborated with stakeholders and pioneered data center and large load tariff solutions to support
+customer and system needs, including our key growth states of Indiana, Ohio, Oklahoma and Texas.
+ Operating                                         Long-term Contract        Minimum Demand                                                                                      Collateral
+                      Minimum Threshold                                                                                     Termination Fee                                                                Status
+ Companies                                               Period                  Charge1,2                                                                                       Required
+
+                       25 MW Individual Site,             12 Years                                                          After 5 Years,
+ AEP Ohio
+                           Aggregated              (Includes 4-year ramp)
+                                                                                    85%
+                                                                                                           minimum bills for remaining term (max 3 years)                             ✓                  Approved
+
+                      100 MW Individual Site,           12-17 Years                                                          After Year 5,
+ APCo West Virginia
+                       150 MW Aggregated          (Depends on ramp period)
+                                                                                    80%
+                                                                                                           minimum bills for remaining term (max 5 years)                             ✓                  Approved
+
+                       70 MW Individual Site,           12-17 Years                                                          After Year 5,
+ I&M Indiana
+                        150 MW Aggregated         (Depends on ramp period)
+                                                                                    80%
+                                                                                                           minimum bills for remaining term (max 5 years)                             ✓                  Approved
+
+                                                                                                                             After Year 5,
+ KPCo Kentucky         150 MW Individual Site             20 Years                  90%
+                                                                                                           minimum bills for remaining term (max 5 years)                             ✓                  Approved
+
+                      100 MW Individual Site,           12-17 Years                                                          After Year 5,
+ APCo Virginia
+                       150 MW Aggregated          (Depends on ramp period)
+                                                                                    80%
+                                                                                                           minimum bills for remaining term (max 5 years)                             ✓                    Pending
+
+                       50 MW Individual Site,           15-20 Years                                                          After Year 5,
+ I&M Michigan
+                           Aggregated             (Depends on ramp period)
+                                                                                    90%
+                                                                                                           minimum bills for remaining term (max 5 years)                             ✓                    Pending
+
+                       75 MW+ Individual Site,                                                             After Year 5, minimum bills for remaining term
+                                                   10-15 years for 75 MW+
+                            Aggregated                                                                               (max 5 years) for 75 MW+
+ PSO Oklahoma
+                      10-75 MW Individual Site,
+                                                   2-5 years for 10-75 MW
+                                                  (Depends on ramp period)
+                                                                                    80%
+                                                                                                           After Year 2, minimum bills for remaining term                             ✓                    Pending
+                            Aggregated                                                                              (max 2 years) for 10-75 MW
+                                                        12-17 Years            Percentage not
+ SWEPCO Texas            75 MW Aggregated
+                                                  (Depends on ramp period)    publicly disclosed
+                                                                                                              12 years plus any designated ramp period                                ✓                    Pending
+
+
+
+                                                                                                   1 Percentage may be higher based on prior period’s peak demand.
+ 12   Q1-26 Earnings Presentation                                                                  2 Indiana, Michigan, Texas, Virginia and West Virginia tariff minimum bill calculations also include an energy component.
+Recent Regulatory Progress
+Focused operational excellence results in improved regulatory outcomes.
+
+                 ✓   Order received in April 2026 for the AEP Ohio
+                     distribution base case, including an affordability    ✓
+                                                                           Filed the base rate case and large-load tariff in
+                     measure resulting in a rate decrease for customers    January 2026; the large load tariff supports
+                     and establishing new revenue caps for the             residential customer affordability.
+                     Distribution Investment Rider.
+
+
+                 ✓   Reconsideration filing order received in
+                     February 2026 for the West Virginia base case,
+                                                                           ✓   Order received in January 2026 for the Arkansas
+                                                                               base case, approving an $85M revenue increase
+                     increasing the authorized ROE to 9.75% from the
+                                                                               and an ROE of 9.65%.
+                     original 9.25% in the August order.
+
+                 ✓   Order received in April 2026 for the West Virginia    ✓   Order received in February 2026 from the Arkansas
+                                                                               Administrative Law Judge, approving SWEPCO’s
+                     2024 Modified Rate Base Cost (MRBC)
+                     infrastructure investment tracker authorizing             request to construct new natural gas plants including
+                     recovery for the full applicable period.                  a flex-up option.
+
+
+                 ✓   Order received in January 2026 approving I&M’s        ✓   Order received in March 2026 for the Louisiana
+                                                                               Formula Rate Plan, increasing the authorized ROE
+                     Expedited Generation Resource Plan in Indiana
+                     and allowing I&M to move forward with resource            to 9.7%.
+                     additions in approximately half the time required
+
+                                                                           ✓
+                     under traditional methods.
+
+                 ✓   Announced in February 2026, I&M plans to file its
+                     next Indiana base rate case this summer proposing
+                                                                               Reached a settlement in principle in April 2026 for
+                                                                               the Texas base case and filed a motion to abate the
+                                                                               hearing.
+                     a customer rate reduction supporting affordability.
+
+ 13   Q1-26 Earnings Presentation
+First Quarter 2026
+Results and Financial
+Growth Outlook
+Trevor Mihalik
+EVP and CFO
+First Quarter Operating Earnings Drivers
+Solid first quarter financial performance provides momentum and strong foundation for full-year results.
+
+
+
+                                                                       0.08                      (0.05)                            0.03                      (0.16)
+                                            0.20                                                                                                                                      $1.64
+                                                                                         O&M                $(0.02)       Retail           $(0.04)
+                                                                                                                                                                                      Per Share
+                                                             Rate Changes       $0.03    Other Taxes        $(0.02)       Wholesale        $0.02
+
+                 $1.54                                       Weather           $(0.04)   Other              $(0.01)       Other            $0.05
+                                                                                                                                                     O&M               $(0.03)
+                  Per Share                                  Normalized
+                                                                                $0.03                                                                Net Interest      $(0.02)
+                                                             Sales
+
+                                  Rate Changes     $0.20     Transmission                                                                            Income Taxes      $(0.06)
+                                                                                $0.07
+                                                             Revenue
+                                  Weather          $(0.03)                                                                                           Other             $(0.05)
+                                                             Other             $(0.01)
+                                  Normalized
+                                                   $0.08
+                                  Sales
+                                  Transmission
+                                                   $0.05
+                                  Revenue
+                                  Reliability
+                                                   $(0.14)
+                                  Spend
+                                  O&M              $(0.01)
+
+                                  Income Taxes     $0.02
+
+                                  Other            $0.03
+
+
+
+                                        VERTICALLY            TRANSMISSION AND                    AEP                          GENERATION                CORPORATE
+                 2025 Actual            INTEGRATED              DISTRIBUTION                 TRANSMISSION                                                                           2026 Actual
+                                                                                                                               & MARKETING               AND OTHER
+                                          UTILITIES               UTILITIES                    HOLDCO
+                2026 Actual EPS             $0.86                   $0.44                        $0.39                             $0.17                     $(0.22)                   $1.64
+                                                                                                                      0
+
+
+
+ 15   Q1-26 Earnings Presentation
+                                                                Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+2026-2030 Load Growth
+Incremental contracted load of 63 GW by 2030 backed by Electric Service Agreements (ESAs) and Letters of
+Agreement (LOAs) and further supported by approximately 190 GW of active projects in the interconnection queue.
+
+              Cumulative Contracted                                                     Load Growth Summary of 63 GW
+                 Load Additions   63 GW                                                                                100% Senate Bill 6 (SB6) compliant load
+                                                           6
+                                                                                           41 GW                        backed by LOAs; ERCOT contracting
+                                                                                           in ERCOT                        structure allows for LOAs only
+        SPP
+        PJM                                  49 GW
+                                                           16
+
+                                                                 63 GW
+        ERCOT                                    3
+                                                                                           16 GW                             100% LOAs and ~95% ESAs
+                                                12               Contracted Load            in PJM
+                               33 GW                             Additions by 2030
+                                   2
+
+                                                                                                                             100% LOAs and ~45% ESAs;
+                                   9
+                                                                                           6 GW                       continue to convert new load development
+                 17 GW                                     41                               in SPP                       into ESAs as discussions progress
+                    1                           34
+                    6
+                                  22
+      7 GW
+        4          10
+                                                                             11%                                                    2% 2%
+        3                                                                                                                      4%
+
+   2026E         2027E         2028E          2029E      2030E                                                            8%                               Texas (~41 GW)
+                                                                                                      Data Centers1                                        Ohio (~12 GW)
+                GW by Year, Totaling 63 GW (2026-2030)                                                Industrials                                          Oklahoma (~5 GW)
+      2026E      2027E          2028E         2029E      2030E                  63 GW                                                63 GW                 Indiana (~3 GW)
+                                                                                                                       19%
+      7 GW       10 GW         16 GW          16 GW      14 GW                                                                                             Louisiana (~1 GW)
+                                                                                                                                              65%          Virginia (~1 GW)
+
+
+ 16     Q1-26 Earnings Presentation                                                  89%
+                                                                                                                                                        1 Includes crypto customers.
+ERCOT Load Growth
+SB6-compliant load rises to 41 GW1 by 2030 with roughly 60 GW in the interconnection queue; AEP Texas is
+proactively collaborating with ERCOT to advance solutions to meet significant demand.
+
+                    AEP Texas Load                                             SB6 Criteria                                                          AEP Texas SB6 Compliant Contracted
+                                                                                                                                                               Load Additions
+                                                        1. Show financial capability or commitment;
+                                                                                                                                                    GW of large load included in AEP’s
+                             12%                           AEP Texas requires upfront construction
+               Industrials                                                                                                                          April 2026 Regional Transmission                                    31 GW
+                                                           funding as part of the LOA                                                               Planning (RTP) Filing
+                                                        2. Pay upfront ERCOT study fee
+                                                                                                                                                    Additional incremental load since the
+                                                        3. Provide proof of site control                                                                                                                                10 GW
+                               41 GW                                                                                                                April 2026 RTP filing
+                                                        4. Disclose intended sources of generation
+ Data Centers2
+ Industrials                                            5. Disclose other active projects that could                                                AEP Texas SB6 compliant
+                                                           affect the request                                                                                                                                           41 GW
+                                                                                                                                                    contracted load additions
+                                   88%
+
+
+
+                                                        ERCOT Industries                                                                  Active Requests                                                    Load
+                                                        Data Center2                                                                                  78                                                   52 GW
+       Roughly 60 GW of the                             Oil and Gas                                                                                    5                                                    1 GW
+          190 GW active
+                                                        Chemical Manufacturing                                                                         1                                                    1 GW
+         interconnection
+                                                        Industrial Gas Manufacturing                                                                   4                                                    1 GW
+        queue is in ERCOT
+                                                        Other                                                                                          7                                                    3 GW
+                                                        Total                                                                                         95                                                   58 GW
+                                         1 New load timing will be influenced by resource availability; ERCOT demand growth based on customer-signed energization dates is significantly larger than the current peak demand of approximately 8 GW.
+ 17     Q1-26 Earnings Presentation      2 Includes crypto customers.
+2026-2030 Investment Growth
+$78B updated capital plan with line of sight to over $10B of additional capital projects.
+                                                    5% Other
+
+Capital Plan of $78B               $4B
+
+Supports Nearly 11%
+                            $3B   Corp                      1
+
+                            Other                                                     22% Distribution                                                                             $134
+                            Gen
+                                                                                                                                                                     $123
+Rate Base CAGR                                                            $17B
+                                                                                                                                                        $110
+                                                                       Distribution
+through 2030         $13B New                                                                                                             $95                                       $68
+                                             Generation                                                                    $85
+                  31% Generation                          $78B                                             $80
+                                                                                                                                                        $57
+                                                                                                                                                                      $64
+
+                                                          2026-2030                                                                       $48
+                                               $8B          Capital                                                       $44
+                                                                                                           $42
+                                            Renewables     Forecast
+       Distribution $17B                                                                                                                                                            $40
+                                                                                                                                                                      $36
+                                                                           $20B                                                                         $33
+       Transmission $33B                                                                                                                  $29
+                                                      $13B             Transmission                        $23            $25
+       Generation $24B                            Transmission
+                                                                                                                                                        $20           $23           $26
+       Other $4B                                     Holdco                                                $15            $16             $18
+
+  1 Includes AEP and operating companies.
+                                                                                                          2025A           2026E          2027E          2028E        2029E        2030E
+                                                                        42% Transmission                   VIU      T&D     Transmission Holdco/JVs
+
+                                                                                                         Projects                In-Service Date        Status
+ 5-Year Capital Plan Reconciliation (2026-2030)                                                                                                         Offtake arrangement is subject to
+                                                                                                         Fuel Cells              Expect in service
+                                                                               Line of Sight to          (Wyoming)               no later than 2030
+                                                                                                                                                        certain conditions which AEP expects to
+ Capital Plan Disclosed Fall 2025                                              Over $10B of                                                             be satisfied by 2Q-26
+                                                                $72B
+                                                                               Additional Capital        Piketon
+                                                                                                                                 Expect in service
+                                                                                                                                                        Initial route planning is underway and
+ PJM and SPP Transmission and I&M Gas Generation                                                         Transmission                                   regulatory bodies including PUCO and
+                                                                 $6B           for 2026-2030             (Ohio)
+                                                                                                                                 for the site in 2029
+                                                                                                                                                        FERC must approve certain steps
+ Updated Capital Plan Q1 2026                                   $78B
+                                                                                                         New Generation Resources
+  18     Q1-26 Earnings Presentation
+2026-2030 Financing Plan
+Growth equity increased $1.1B relative to the plan shared last fall representing 18% of the $6B increase
+to the capital plan.
+($ in millions)                               2026E                                     2027E                           2028E-2030E                                 Total
+Cash from Operations                          $ 7,800                                   $ 8,600                               $ 30,700                            $ 47,100
+Capital and JV Equity Contribution           (12,900)                                  (14,200)                               (50,800)                            (77,900)
+Other Investing Activities1                    (200)                                     (200)                                  (700)                              (1,100)
+Common Dividends2                             (2,100)                                   (2,200)                                (6,800)                            (11,100)
+Required Capital                             $ (7,400)                                 $ (8,000)                              $ (27,600)                         $ (43,000)
+Financing
+Required Capital                             $ (7,400)                                 $ (8,000)                              $ (27,600)                         $ (43,000)
+Long-term Debt Maturities                     (2,300)                                   (1,500)                                (7,200)                            (11,000)
+Securitization Amortizations                   (200)                                     (300)                                  (700)                              (1,200)
+Equity:
+     Settlement of 2025 Equity Forward         1,800                                         -                                    -                                 1,800
+     Dividend Reinvestment Plan                  180                                      180                                    540                                 900
+     ATM Program                               1,000                                         -                       3,000 ($1B per year)                           4,000
+     Growth Equity                                 -                                         -                                  3,000                               3,000
+Debt Capital Market Activity3                $ (6,920)                                 $ (9,620)                              $ (28,960)                         $ (45,500)
+Financial Metrics
+Debt to Capitalization (GAAP)                                           Approximately 60%-63%
+FFO/Debt (S&P and Moody’s)                                            14%-15% Targeted Range
+                                         1 Other investing mainly relates to AFUDC and timing of nuclear fuel acquisitions.
+                                         2 Dividends per share remain constant until approved by Board of Directors. Dividends evaluated by Board of Directors each quarter and may be
+
+                                         adjusted based on capital allocation priorities and other strategic considerations. Target payout ratio range is 50%-60% of operating earnings.
+                                         3 Could include equity-like instruments.
+
+19    Q1-26 Earnings Presentation        Actual cash flows will vary by company and jurisdiction based on regulatory outcomes.
+                                         Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+Closing Remarks
+                                                                                                                                 Guidance Overview
+
+             Delivered strong Q1 2026 financial performance; positive                                                                         63 GW
+     1       regulatory progress with a focus on affordability                                                            Incremental Contracted Load by 2030
+                                                                                                                                    Up from 56 GW
+
+
+             Continued load growth story driven by 63 GW of incremental                                                   $78B                          + Over $10B
+     2       contracted load by 2030                                                                                     Updated
+                                                                                                                                                            Line of Sight Capital
+                                                                                                                        Capital Plan
+                                                                                                                                                                 2026-2030
+                                                                                                                         2026-2030
+             Expanded capital plan to $78B supporting a 7%-9% annual
+             operating earnings growth rate with an expected CAGR now
+     3       greater than 9% through 2030; line of sight to over $10B of                                                              Nearly 11%
+             additional capital                                                                                                            Rate Base CAGR
+                                                                                                                                             through 2030
+
+     4       Fund growth in a disciplined manner with only a modest increase
+             in incremental equity to support the expanded capital plan                                                                       7%-9%
+                                                                                                                            Annual Operating Earnings Growth
+                                                                                                                             Rate with an Expected CAGR of
+             Collaborated with stakeholders to advance regulatory strategies                                                  Greater than 9% through 2030
+     5       designed to address key issues including affordability with up to
+             $16B in forecasted cost offsets over the life of the contracts                                                                 14%-15%
+                                                                                                                                   Targeted FFO/Debt Range
+                                                                                                                                          2026-2030
+
+20   Q1-26 Earnings Presentation
+                                                           Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+Appendix 1
+Forecasted Highlights
+We are strategically investing
+and well positioned to execute
+on high-growth opportunities
+that drive financial
+performance
+C&I Sales Trends and Revenues in 2026
+Financial performance supported by rising Commercial and Industrial (C&I) sales trends and further
+strengthened by minimum demand charges in data center and large load customer agreements.
+
+
+C&I GWh Sales1                                  C&I Revenues2
+Three Months Ended 3/31/2026                    Three Months Ended 3/31/2026
+% Change vs. Same Period Prior Year             (Including Minimum Demand Charges)
+                                                % Change vs. Same Period Prior Year
+                                                            20.4%                                                                Revenues are
+                                                                                                                            protected by minimum
+                                                                                   15.5%                                    demand requirements
+                                  13.6%                                                                                           in customer
+                                                                                                                            agreements, providing
+                                                                                                                            revenue stability even
+             5.9%                                                                                                           if customer ramps are
+                                                                                                                                    delayed
+
+      Vertically Integrated   Total C&I Sales        Vertically Integrated   Total C&I Revenues
+           C&I Sales                                   C&I Revenues
+
+
+
+
+                                                                                        1 Load figures are billed retail sales excluding firm wholesale load and are not weather normalized.
+ 22   Q1-26 Earnings Presentation
+                                                                                        2 Reflects non-fuel revenues.
+2026-2030 Annual Operating Earnings Growth
+Rate of 7%-9%
+Delivering 7%-9% annual operating earnings growth rate with an expected CAGR of now greater than 9%1
+through 2030; growth is projected in the lower half of the range for 2026 and 2027 and above the high end of the
+range in 2028, 2029 and 2030.
+
+
+
+
+                                                                                   Accelerated growth
+                                                                                  aligns with the 2028
+                               $6.15-$6.45                                       capital peak driven by
+             $5.85            Operating EPS                                      transmission buildout,
+                                                                                   generation project
+         Operating EPS                                                             advancement and
+                                  ~8% growth                                       positive legislative
+           2025 Guidance            off 2025                                          developments
+           Midpoint (Base)     guidance midpoint
+
+
+               2025           2026 Guidance        2027 Outlook                     2028 Outlook                          2029 Outlook                           2030 Outlook
+                                                         1 CAGR reflects the current $78B capital plan through 2030.
+ 23   Q1-26 Earnings Presentation
+                                                         Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+2026-2030 High-Growth Transmission
+Expected $55B transmission rate base in our existing plan through 2030 delivers significant holder value.
+
+                                                              Transmission Rate Base ($ in billions)
+
+                                                                                                                                                                                               $55
+                                                                                                                                                               $49
+                                                                                                                        $43
+                                                                                  $38                                                                                                          $29
+                                                $34                                                                                                            $26
+                  $32
+                                                                                                                        $23
+                                                                                  $20
+                  $17                           $18
+
+
+
+                                                                                                                                                               $23                             $26
+                                                                                  $18                                   $20
+                  $15                           $16
+
+
+                2025A                          2026E                           2027E                                  2028E                                   2029E                          2030E
+               Rate base of transmission investments in AEP operating companies         Rate base of AEP Transmission Holdco
+
+
+
+                                     EPS Contributions ($/Share)                                                                   2025A                                        2026E
+                                       AEP Transmission Holdco1                                                                     $1.51                                        $1.55
+                     Transmission Investments in AEP Operating Companies                                                            $1.67                                        $1.79
+                                                      Total                                                                         $3.18                                        $3.34
+                                                                    1 Reflects the Ohio and I&M Transcos minority interest transaction closed in June 2025.
+24   Q1-26 Earnings Presentation
+                                                                    Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+2026-2030 Capital Forecast by Subsidiary
+Capital plan is fueled by transmission buildout and generation project advancements.
+
+($ in millions, excludes AFUDC)       2026E     2027E     2028E     2029E     2030E           Total                              4%
+                                                                                                                           9%                                    AEP Texas
+                                                                                                                                             28%                 AEP Ohio
+AEP Texas Inc.                        $2,351    $2,599    $3,738    $3,781    $4,333         $16,802
+                                                                                                                     11%                                         APCo1
+                                                                                                                              Distribution
+                                                                                                                                                                 PSO
+AEP Transmission Holdco                1,615     2,065     2,909     3,125     3,141          12,855                             $17B
+                                                                                                                     13%                                         I&M
+                                                                                                                                                                 SWEPCO
+Indiana Michigan Power Company         2,218     2,718     2,548     3,239     1,086          11,809                                        20%                  Other (includes KPCo and KGPCo)
+                                                                                                                              15%
+Appalachian Power Company1             1,608     1,282     3,027     1,722     1,840          9,479
+                                                                                                                                6%
+                                                                                                                           5%
+Southwestern Electric Power Company    1,302     1,387     1,850     2,225     2,178          8,942                    6%                                        AEP Texas
+                                                                                                                                              34%                AEP Transmission Holdco
+Public Service Company of Oklahoma     1,697     2,329     1,999     1,129     1,367          8,521                 10%     Transmission                         SWEPCO
+                                                                                                                                $33B                             AEP Ohio
+AEP Ohio                               1,203     1,192     1,136     1,193     1,011          5,735                                                              APCo1
+                                                                                                                                                                 Other (includes PSO, I&M,
+Kentucky Power Company                 314       341       404       517       408            1,984                             39%                              KPCo and KGPCo)
+
+                                                                                                                                 4%
+Kingsport Power Company                 23        25        25        25        22              120
+                                                                                                                        16%                                       I&M
+AEP Generating Company                  13        8         3          -         -               24                                            37%                PSO
+                                                                                                                              Generation                          APCo1
+Other                                  493       352       279       279       263            1,666                             $24B                              SWEPCO
+                                                                                                                    21%
+                                                                                                                                                                  Other (includes KPCo and AEG)
+Total Capital Contributions           $12,837   $14,298   $17,918   $17,235   $15,649        $77,937
+                                                                                                                                    22%
+
+
+ 25   Q1-26 Earnings Presentation                                                       1 Includes Wheeling Power Company..
+
+                                                                                        Capital plans are continuously optimized which may result in redeployment between timing, functions and companies.
+Demand Driving Generation Diversity
+Significant generation is required to meet new demand.
+
+                                AR – FEB                                                      WV – OCT                                                                    VA VCEA – MAY                                  MI – 4Q
+                                Completed                                                     Completed
+  IRP Filings                                                                                                          2025 | 2026
+                                         IN – MAR         VA VCEA – MAY
+                                         Completed        Completed
+
+
+
+2,208,753
+
+       2026-20351 Projected Resource Needs                                                                                                        RFPs In Progress4
+      Nameplate MW2   Nat. Gas3 Solar   Wind Storage        Total                             Company                                APCo                            I&M                     PSO                            PSO
+
+      I&M              6,690    2,959   3,100   50         12,799                             RFPs Issued                           May-25                        Sep-24                   Nov-23                       Jan-26
+                                                                                              All Source                           800 MW
+      APCo             3,071    1,926   605     252         5,854                                                                                                                   1,500 MW of SPP 4,000 MW of SPP
+                                                                                              (Renewables and                     Renewable                     4,000 MW
+                                                                                                                                                                                   accredited capacity accredited capacity
+      SWEPCO           3,113     600    598      -          4,311                             Natural Gas)                        Resources
+                                                                                              Reg. Filings and
+      PSO              1,975     893    753     200         3,821                                                              Q1-26 - Q4-26                 Q2-25 - Q4-26            Q3-25 - Q2-26                Q3-26 - Q3-27
+                                                                                              Approvals
+      KPCo              450       -         -    -           450                              Projected In-
+                                                                                                                                2028 or 2029                  2028 or 2029             2027 or 2028                         2029
+                                                                                              service Dates
+      Total            15,299   6,378   5,056   502        27,235
+
+
+
+
+                                                      1 Resource additions are from Integrated Resource Plans (IRP) filings based on current regulations; alternative forms of generation may be added based on specific customer requests.
+                                                      2 Investments in new generation resources will be subject to market availability of economic projects, regulatory preferences and approvals, and RTO capacity requirements.
+                                                      3 Natural gas additions may include peaking units and fuel switching to provide reliable, affordable and flexible power.
+ 26     Q1-26 Earnings Presentation                   4 RFPs represent up-to MW capacity values; related regulatory filings will take into consideration commission preferences including owned and contracted resources.
+Appendix 2
+Legislative and
+Regulatory Progress
+We are deepening relationships
+with regulators, policymakers,
+customers and suppliers to
+a d v a n c e a ff o r d a b i l i t y, r e l i a b i l i t y
+and resiliency
+Regulated Earned Returns
+Forecasted Regulated ROE is expected to improve to approximately 9.5% by 2030.
+
+
+  Historical and Projected                                            9.3% earned ROE1,2 as of twelve months ended 3/31/2026
+  Regulated ROE Trend                                           14%
+
+
+                                                                                               12.6%
+                                                                12%
+
+
+                                                        9.5%
+                                                                10%           10.0%
+                                                                                                                   9.5%
+                                                                                                                                     9.2%
+                                                                                                                                                                                         9.3% Earned ROE1,2
+
+                        9.2%                                    8%                                                                                      7.9%
+                 9.1%                                                                                                                                                      7.2%           7.2%
+         9.05%
+                                                                6%
+
+
+
+                                                                4%                                                                                                                                      4.2%
+  8.8%
+
+                                                                2%
+                                                                          Transmission           I&M            AEP Ohio3          AEP Texas         SWEPCO3              APCo3           PSO3         KPCo3
+                                                                             Holdco
+ 2023     2024   2025   2026E   2027E   2028E   2029E   2030E
+                                                                              1 Calculated based on non-GAAP operating earnings, not weather normalized.
+                                                                              2 Calculated based on adjusted equity. Refer to Appendix for the GAAP to adjusted equity reconciliation.
+                                                                              3 Base rate cases pending/order recently received.
+
+ 28     Q1-26 Earnings Presentation                                           Sphere size is based on each company’s relative equity balance.
+                                                                              Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+Current Rate Case Activity
+Achieve positive regulatory outcomes to advance affordability, system reliability, resiliency and security.
+                   AEP Ohio                                               APCo – West Virginia2                                                                                             KPCo
+Docket #                        25-392-EL-AIR               Docket #                                                 24-0854-E-42T                     Docket #                                                     2025-00257
+Filing Date                          5/30/2025              Filing Date                                                      11/1/2024                 Filing Date                                                     8/29/2025
+Requested Rate Base                     $5.1B               Requested Rate Base                                                   $5.3B                Requested Rate Base                                                   $1.9B
+Requested ROE                           10.9%               Requested ROE                                                         10.8%                Requested ROE                                                        10.0%
+Cap Structure                 49.1%D / 50.9%E               Cap Structure                                        52.3%D / 47.7%E                       Cap Structure                                        53.9%D / 46.1%E
+Net Revenue Increase                    $97M                Gross Revenue Increase                                               $250M                                                                                       $75M
+                                                                                                                                                       Gross Revenue Increase4                                        (Less $1M D&A)
+Test Year                           11/30/2025              Test Year                                                      12/31/2023
+Commission Order Summary                                    Commission Order Summary                                                                   Net Revenue Increase                                                  $74M
+
+Commission Order                      4/1/2026              Commission Order                                                 2/20/2026                 Test Year                                                       5/31/2025
+Effective Date                      April 2026              Effective Date3                                                  2/20/2026                 Commission Order Summary
+ROE                                     9.84%               ROE                                                                   9.75%                Commission Order                                                2/28/2026
+Cap Structure                 49.1%D / 50.9%E               Cap Structure                                              56%D / 44%E                     Effective Date                                                    3/1/2026
+Net Revenue Increase1                   $11M                Gross Revenue Increase                                                 $91M                ROE                                                                  9.75%
+                                                                                                                                                       Cap Structure                                        53.9%D / 46.1%E
+                                                                                                                                                       Net Revenue Increase                                                  $36M
+
+
+
+
+                                        1 Settlement utilized a $70M annual credit related to deferred income taxes to reduce customer rates which is not earnings-related and directly supports affordability. The settlement sets new
+
+                                        revenue caps for the Distribution Investment Rider which are not included in the net revenue increase.
+                                        2 Filing also included securitization for customer rate mitigation which received approval under Docket 25-0310-E-PC.
+                                        3 The commission approved using the current Expanded Net Energy Charge to defer the base rate increase until securitization is completed.
+ 29   Q1-26 Earnings Presentation       4 Does not include $20M moving from base rates to rider recovery.
+Current Rate Case Activity
+Achieve positive regulatory outcomes to advance affordability, system reliability, resiliency and security.
+
+                          PSO                                        SWEPCO – Arkansas                                                                         SWEPCO – Texas
+
+Docket #                         PUD 2025-000075        Docket #                                                  25-003-U                 Docket #                                                            58819
+Filing Date                               1/2/2026      Filing Date                                              3/28/2025                 Filing Date                                                  10/14/2025
+Requested Rate Base                           $7.2B     Requested Rate Base                                            $2.2B               Requested Rate Base                                                 $2.4B
+Requested ROE                                10.5%      Requested ROE                                                 10.9%                Requested ROE                                                     10.75%
+Cap Structure                   50.15%D / 49.85%E       Cap Structure                                 52.3%D / 47.7%E                      Cap Structure                                            48%D / 52%E
+                                            $299M       Gross Revenue Increase                                        $114M                Gross Revenue Increase3                                              $95M
+Gross Revenue Increase1              (Less $118M D&A)                                                                                                                                                 (Less $11M D&A)
+                                                        Test Year2                                             12/31/2024
+Net Revenue Increase                        $181M                                                                                          Net Revenue Increase                                                 $84M
+                                                        Commission Order Summary
+Test Year                                7/31/2025                                                                                         Test Year                                                     3/31/2025
+                                                        Commission Order                                         1/23/2026
+Procedural Schedule                                                                                                                        Procedural Schedule4
+                                                        Effective Date                                           1/30/2026
+Intervenor Testimony                      5/1/2026                                                                                         Expected Effective Date                                     March 2026
+                                                        ROE                                                           9.65%
+Rebuttal Testimony                       5/29/2026                                                                                         Expected Commission Order                                       Q4 2026
+                                                        Cap Structure                                      56%D / 44%E
+Hearing                                  6/29/2026
+                                                        Gross Revenue Increase                                         $85M
+Expected Effective Date                  July 2026
+Expected Commission Order                 Q3 2026
+
+
+
+
+                                                                           1 Does not include $298M moving from rider recovery to base rates and production tax credits.
+                                                                           2 Filing allows for adjustments to expected capital additions through 12/31/2025.
+                                                                           3 Does not include $69M moving from rider recovery to base rates.
+  30   Q1-26 Earnings Presentation                                         4 Reached a settlement in principle and filed a motion to abate the hearing on 4/28/2026. Settlement details have not yet been publicly filed.
+Appendix 3
+First Quarter Financial
+Metrics
+We delivered on 1Q 2026
+financial commitments driving
+value for customers and
+investors
+First Quarter Liquidity and Credit Metrics
+       Liquidity Summary 3/31/2026                                 Credit Metrics Trailing 12 Months as of 3/31/2026
+($ in millions)                Amount       Maturity                                                                     S&P                              Moody’s                               Fitch
+
+Revolving Credit Facility1      $ 5,000    March 2029           Rating / Outlook                                    BBB / Stable                       Baa2 / Stable                      BBB / Stable
+
+
+Revolving Credit Facility1       1,000     March 2027           Credit Metric                                     FFO/Debt: 14.7%2                 FFO/Debt: 13.9%2                 FFO Leverage: 5.4x
+
+
+Plus                                                            Targeted Range                                                       14%-15%                                                 5.0x-5.5x
+
+Cash and Cash Equivalents            306                        Downgrade Threshold                                              13% Sustained                                          5.8x Sustained
+
+Less
+
+
+Commercial Paper Outstanding     (651)
+
+
+Net Available Liquidity         $ 5,655
+
+
+
+
+                                                        1 Revolving Credit Facilities were renewed in April 2026 and expanded to a total of $8B, composed of a $1.5B 3-year tranche and a $6.5B 5-year tranche.
+                                                        2 Refer to Appendix for the FFO to debt reconciliation.
+
+ 32    Q1-26 Earnings Presentation                      Rating agency views as calculated by AEP and may not include all adjustments that could be made by the rating agencies.
+                                                        Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+First Quarter FFO to Total Debt – S&P
+S&P FFO to Debt as of 3/31/2026 was 14.7%.
+
+
+RECONCILIATION OF OPERATING                                                                   RECONCILIATION OF TOTAL DEBT
+INCOME TO FFO                                                                                 TO ADJUSTED TOTAL DEBT
+                                                            12 Months
+ ($ in millions)                                                                                ($ in millions)
+                                                          Ended 3/31/2026                                                                                                     As of 3/31/2026
+Operating Income (GAAP)                                       $5,396                        Total Debt (incl. current maturities) (GAAP)                                             $ 51,109
+
+       Depreciation and Amortization                           3,454                                Junior Subordinated Debentures (50%)                                              (2,375)
+       Cash Paid for Interest, net                            (1,994)                               Accessible Cash and Investments                                                    (515)
+       Operating Lease Interest                                 (26)                                Securitization Bonds                                                               (955)
+       Cash Paid for Income Taxes                               118
+                                                                                                    Spent Nuclear Fuel Trust                                                           (333)
+       Capitalized Interest                                    (157)
+                                                                                                    Finance Lease Obligations                                                           155
+       Nuclear Fuel Amortization                                114
+                                                                                                    Operating Leases                                                                    667
+       Securitization Debt Amortization and Interest            (37)
+       Operating Lease Payments                                 114                                 Asset Retirement Obligations                                                       1,336
+
+       Hybrid Interest Expense                                  90                                  OVEC Debt                                                                           379
+
+       Asset Retirement Obligations - Accretion Expense         170                         Adjusted Total Debt (non-GAAP)                                                           $ 49,468
+
+       Stock Compensation                                       53
+Funds Flow from Operations (FFO) (non-GAAP)                   $ 7,295
+
+
+  33    Q1-26 Earnings Presentation                                     S&P’s view as calculated by AEP and may not include all adjustments that could be made by the rating agency.
+                                                                        Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+First Quarter FFO to Total Debt – Moody’s
+Moody’s FFO to Debt as of 3/31/2026 was 13.9%.
+
+
+
+RECONCILIATION OF CASH FLOW                                                         RECONCILIATION OF TOTAL DEBT
+FROM OPERATIONS TO FFO                                                              TO ADJUSTED TOTAL DEBT
+                                                  12 Months                          ($ in millions)
+($ in millions)                                                                                                                                                    As of 3/31/2026
+                                                Ended 3/31/2026
+Cash Flow from Operations (GAAP)                    $ 7,011                      Total Debt (incl. current maturities) (GAAP)                                             $51,109
+
+      Changes in Working Capital                      (75)                              Junior Subordinated Debentures (50%)                                               (2,375)
+
+      Operating Lease Depreciation                    114                               Operating Leases                                                                     667
+
+      Capitalized Interest                           (157)                              Finance Lease Obligations                                                            155
+
+      Junior Subordinated Debentures Interest         90                                Pension                                                                               85
+
+      Deferred Fuel Recoveries                        (85)
+                                                                                 Adjusted Total Debt (non-GAAP)                                                           $49,641
+Funds Flow from Operations (FFO) (non-GAAP)         $ 6,898
+
+
+
+
+ 34    Q1-26 Earnings Presentation                           Moody’s view as calculated by AEP and may not include all adjustments that could be made by the rating agency.
+                                                             Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+Adjusted Average Equity
+13-Month Average Equity Ending 3/31/2026.
+
+
+
+RECONCILIATION OF AVERAGE EQUITY
+GAAP TO NON-GAAP
+
+ ($ in millions)                                              13-Month Average Ending 3/31/2026
+
+
+
+ Average Equity (GAAP)                                                               $ 37,081
+
+
+      13-Month Average Paid In Capital Associated
+      with the 2025 Midwest Transmission Holdings                                     (1,377)
+      Noncontrolling-Interest Transaction
+
+
+ Adjusted Average Equity (non-GAAP)                                                  $ 35,704
+
+
+
+
+ 35   Q1-26 Earnings Presentation
+                                            Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+First Quarter Earnings Reconciliation
+Weighted average number of shares outstanding: 542M Q1 2026 and 533M Q1 2025.
+                                                                                 $ in millions                                       Earnings Per Share
+                                                                   Q1-25                 Q1-26        Change              Q1-25               Q1-26               Change
+
+
+                   Reported GAAP Earnings                           $800                 $874            $74              $1.50                $1.61                $0.11
+
+
+                   Non-Operating Items:
+
+                   Impact of the West Virgina
+                                                                       -                 (28)            (28)                 -                (0.05)               (0.05)
+                   Commission MRBC Order1
+
+                   Impact of Pirkey Disallowance1                      -                  25              25                  -                 0.05                 0.05
+
+
+                   Mark-to-Market Impact of
+                                                                     (14)                 20              34              (0.03)                0.03                 0.06
+                   Commodity Hedging Activities2
+
+                   Impact of Ohio Legislation3                        28                    -            (28)              0.05                   -                 (0.05)
+
+
+                   Sale of AEP OnSite Partners4                        9                    -             (9)              0.02                   -                 (0.02)
+
+
+                   AEP Operating Earnings                           $823                 $891            $68              $1.54                $1.64                $0.10
+
+
+                                            1 Items recorded mainly or entirely in the VIU segment.
+                                            2 Items recorded across multiple segments.
+                                            3 Items recorded mainly or entirely in the T&D segment.
+                                            4 Items recorded mainly or entirely in the G&M segment.
+ 36   Q1-26 Earnings Presentation
+                                            Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+Vertically Integrated Utilities
+First Quarter Performance
+           RATE CHANGES                          WEATHER IMPACT                                                                  NORMALIZED SALES
+                     Rate Performance,                                 Weather Impact                                                                          Retail Load1
+                       net of offsets                                   ($ in millions)                                                                    (weather normalized)
+                       ($ in millions)                              Q1-26 vs.     Q1-26 vs.
+                                                                                                                                                                Q1-26 vs. Q1-25
+                      Q1-26 vs. Q1-25                                Q1-25         Normal
+     APCo2                  $26          APCo2                           ($3)                    $5                             APCo2                                   (1.5%)
+
+     I&M                    $5           I&M                             ($2)                   ($2)                            I&M                                     18.7%
+
+     KPCo                   $1           KPCo                               -                      -                            KPCo                                    (6.5%)
+
+     PSO                    $53          PSO                             ($6)                   ($1)                            PSO                                      0.2%
+
+     SWEPCO                 $42          SWEPCO                          ($10)                  ($5)                            SWEPCO                                   1.1%
+
+     Total                 $127          Total                           ($21)                  ($3)                            Total                                    2.9%
+
+     Impact on                           Impact on                                                 -                            Impact on
+                          $0.20          Operating EPS
+                                                                        $0.03                                                   Operating EPS3                          $0.08
+     Operating EPS
+
+
+
+
+                                                         1 Includes load on a billed basis only, excludes firm wholesale load and accrued sales.
+                                                         2 APCo also includes WPCo and KGPCo.
+                                                         3 Includes EPS impact of accrued revenues.
+37     Q1-26 Earnings Presentation
+                                                         Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+Transmission and Distribution Utilities
+First Quarter Performance
+         RATE CHANGES                         WEATHER IMPACT                                                                NORMALIZED SALES
+                  Rate Performance,                                  Weather Impact                                                                       Retail Load1
+                    net of offsets                                    ($ in millions)                                                                 (weather normalized)
+                    ($ in millions)                            Q1-26 vs.              Q1-26 vs.
+                                                                                                                                                          Q1-26 vs. Q1-25
+                   Q1-26 vs. Q1-25                              Q1-25                  Normal
+                                      AEP Ohio                     ($15)                    $1                               AEP Ohio                              20.4%
+ AEP Ohio                $9
+                                      AEP Texas                    ($13)                    $1                               AEP Texas                             10.1%
+ AEP Texas               $10
+
+ Total                   $19          Total                        ($28)                    $2                               Total                                 15.8%
+
+
+ Impact on                            Impact on                                                                              Impact on
+                        $0.03                                     $0.04                      -                                                                     $0.03
+ Operating EPS                        Operating EPS                                                                          Operating EPS2
+
+
+
+
+                                                  1 Includes load on a billed basis only, excludes firm wholesale load and accrued sales.
+                                                  2 Includes EPS impact of accrued revenues.
+38   Q1-26 Earnings Presentation
+                                                  Operating earnings, operating EPS, adjusted equity and FFO to total debt are non-GAAP measures. Refer to “Non-GAAP Financial Measures”.
+
