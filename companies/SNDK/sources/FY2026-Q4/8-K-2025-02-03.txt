@@ -1,0 +1,87 @@
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, D.C. 20549
+
+FORM 8-K
+
+CURRENT REPORT
+
+Pursuant to Section 13 or 15(d)
+
+of the Securities Exchange Act of 1934
+
+Date of Report (Date of earliest event reported): January 31, 2025
+
+Sandisk Corporation
+
+(Exact Name of Registrant as Specified in its Charter)
+
+Delaware | 001-42420 | 99-1508671
+(State or Other Jurisdiction of Incorporation) | (Commission File Number) | (I.R.S. Employer Identification No.)
+
+951 Sandisk Drive
+Milpitas , California | 95035
+(Address of Principal Executive Offices) | (Zip Code)
+
+(408) 801-1000
+
+(Registrant’s Telephone Number, Including Area Code)
+
+Not applicable
+
+(Former Name or Former Address, if Changed Since Last Report)
+
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):
+
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act: None
+
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+
+Emerging growth company ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+
+Item 8.01. | Other Events
+
+On January 31, 2025, the U.S. Securities and Exchange Commission (the “SEC”) declared effective Amendment No. 3 to the Registration Statement on Form 10 (the “Registration Statement”) filed with the SEC on January 27, 2025, by Sandisk Corporation (the “Company”), a wholly owned subsidiary of Western Digital Corporation (“WDC”), in connection with WDC’s previously announced separation of its flash business from its remaining hard disk drive business pursuant to a spin-off transaction (the “Spin-Off”). The Spin-Off will be effected through a distribution of 80.1% of the outstanding shares of the Company’s common stock owned by WDC on a pro rata basis to existing stockholders of WDC (the “Distribution”). Upon consummation of the Spin-Off, the Company will be an independent, publicly traded company.
+
+The Registration Statement includes an information statement that describes the Distribution and the Spin-Off and provides important information regarding the Company, including its business and management, certain risks related to an investment in the Company and certain other matters. The final information statement, dated January 31, 2025 is attached hereto as Exhibit 99.1. The Company expects to commence mailing of the final information statement to WDC’s stockholders on or about January 31, 2025.
+
+The Company expects that shares of the Company’s common stock will commence trading on a “when-issued” basis on The Nasdaq Stock Market LLC (the “Nasdaq”) under the symbol “SNDK” one business day following February 12, 2025, the record date for the Distribution. The Distribution is expected to be effective at 11:59 p.m. Pacific time on February 21, 2025. “Regular-way” trading of the Company’s common stock on the Nasdaq is expected to begin on February 24, 2025, under the symbol “SNDK.” Following the Distribution, WDC will continue to trade on the Nasdaq under the symbol “WDC.” Completion of the Distribution is subject to the satisfaction or waiver of certain conditions described in the final information statement attached hereto as Exhibit 99.1 and in the form of Separation and Distribution Agreement, which is filed as an exhibit to the Registration Statement.
+
+Item 9.01. | Financial Statements and Exhibits
+
+(d) Exhibits
+
+Exhibit | Description
+99.1 | Information Statement of Sandisk Corporation, dated January 31, 2025.
+104 | Cover Page Interactive Data File (embedded within the Inline XBRL document)
+
+Forward-Looking Statements
+
+This Current Report on Form 8-K contains forward-looking statements within the meaning of federal securities laws, including statements regarding expectations about the Spin-Off. These forward-looking statements are based on management’s current expectations and are subject to risks and uncertainties that could cause actual results to differ materially from those expressed or implied in the forward-looking statements. Key risks and uncertainties that could cause actual results to differ materially from those expressed or implied in the forward-looking statements include: operational, financial and legal challenges and difficulties inherent in implementing the Spin-Off; the future operating results of the stand-alone business; value creation associated with the separation and stand-alone business; the anticipated qualification of the Spin-Off as a tax-free transaction for U.S. federal income tax purposes; the expected relationship of the two businesses post-separation; whether the Spin-Off will be completed on the expected terms and on the anticipated timeline or at all, including the possibility that the conditions to the Spin-Off may not be satisfied, including that a governmental entity may prohibit, delay or refuse to grant a necessary approval; the expected benefits and costs of the Spin-Off, including that the expected benefits will not be realized within the expected time frame, in full or at all; potential adverse reactions or changes to the Company’s business relationships with their respective customers, suppliers or other partners resulting from the announcement and completion of the Spin-Off; competitive responses to the announcement or completion of the Spin-Off; potential adverse effects on the Company’s stock prices resulting from the announcement or completion of the Spin-Off; unexpected costs, liabilities, charges or expenses resulting from the Spin-Off; litigation relating to the Spin-Off; the inability to retain key personnel of the Company as a result of the Spin-Off, disruption of management time from ongoing business operations due to the Spin-Off; business impact of geopolitical conflicts; and any changes in general economic and/or industry-specific conditions; other economic, competitive, legal, governmental, technological and other factors that may affect the Spin-Off and the Company’s plans, results or stock price and which are set forth in the final information statement attached hereto as Exhibit 99.1. You should not place undue reliance on these forward-looking statements, which speak only as of the date hereof, and the Company undertakes no obligation to update or revise these forward-looking statements to reflect new information or events, except as required by law.
+
+2
+
+Signatures
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+
+SANDISK CORPORATION
+By: | /s/ Bernard Shek
+Name: | Bernard Shek
+Title: | Secretary
+
+Date: February 3, 2025
+
+3
