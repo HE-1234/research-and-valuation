@@ -1,0 +1,642 @@
+<<<< SOURCE: https://www.sec.gov/Archives/edgar/data/1318605/000110465925073263/tm2522385d1_8k.htm >>>>
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, DC 20549
+
+FORM 8-K
+
+CURRENT REPORT
+
+Pursuant to Section 13 or 15(d) of the
+
+Securities Exchange Act of 1934
+
+Date of report (Date of earliest event reported):
+August 3, 2025
+
+Tesla, Inc.
+
+(Exact Name of Registrant as Specified in Charter)
+
+Texas | 001-34756 | 91-2197729
+(State or Other Jurisdiction of Incorporation) | (Commission File Number) | (I.R.S. Employer Identification No.)
+
+1 Tesla Road
+
+Austin, Texas 78725
+
+(Address of Principal Executive Offices, and
+Zip Code)
+
+(512) 516-8177
+
+Registrant’s Telephone Number, Including
+Area Code
+
+Check the appropriate box below if the Form 8-K filing is intended
+to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction
+A.2. below):
+
+¨ | Written communication pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+
+¨ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+
+¨ | Pre-commencement communication pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+
+¨ | Pre-commencement communication pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common stock | TSLA | The Nasdaq Global Select Market
+
+Indicate by check mark whether the registrant
+is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (17 CFR §230.405) or Rule 12b-2 of the Securities
+Exchange Act of 1934 (17 CFR §240.12b-2).
+
+Emerging growth company ¨
+
+If an emerging growth company, indicate by check mark if the registrant
+has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant
+to Section 13(a) of the Exchange Act. ¨
+
+Item 5.02 | Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.
+
+(e)
+
+As previously disclosed in
+its quarterly report on Form 10-Q for the three months ended March 31, 2025, the board of directors (the “Board”)
+of Tesla, Inc., a Texas corporation (the “Company”) established a special committee (the “Special Committee”)
+to consider certain compensation matters involving Elon Musk, the Company’s Chief Executive Officer. The Special Committee is comprised
+of disinterested directors Robyn Denholm and Kathleen Wilson-Thompson.
+
+On August 3, 2025, the
+Company approved an award of 96 million shares of restricted stock (the “2025 CEO Interim Award”) to Mr. Musk
+under the Company’s 2019 Equity Incentive Plan (the “2019 Plan”). The shares underlying the 2025 CEO Interim
+Award will be issued upon termination or expiration of the waiting period or periods under the Hart-Scott-Rodino Antitrust Improvements
+Act of 1976, as amended (the “HSR Act”). The 2025 CEO Interim Award was recommended by the Special Committee on August 1,
+2025, and approved by the Board, with Mr. Musk and Kimbal Musk recusing, on August 3, 2025.
+
+Summary of the 2025 CEO Interim Award
+
+The 2025 CEO Interim Award
+consists of the following key terms:
+
+· | Number of Shares : 96 million shares of common stock.
+
+· | Vesting Schedule : The 2025 CEO Interim Award will vest upon the second anniversary of August 3, 2025 (the “ Date of Grant ”), subject to Mr. Musk remaining in continuous service as CEO or as an executive officer responsible for product development or operations (as approved by the Board’s disinterested directors) through such second anniversary (“ Eligible Service ”).
+
+· | Early Forfeiture : The 2025 CEO Interim Award will be immediately forfeited and returned to the Company if, prior to vesting, there is a final, non-appealable judgment, order or decision of the Delaware courts with respect to the action captioned Tornetta v. Elon Musk et al., C.A. No. 2018-0408-KSJM (Del. Ch.), or any pending or future appeal, including In re Tesla, Inc. Derivative Litigation, Nos. 10, 2025, 11, 2025 (Del.) (a “ Tornetta Decision Event ”) that results in Mr. Musk becoming able to exercise in full the performance-based stock option award he was granted in January 2018 (the “ 2018 CEO Award ”).
+
+· | Purchase Price : Mr. Musk must pay the Company $23.34 per share of restricted stock that vests (the “ Purchase Price ”), which is equal to the exercise price per share of the 2018 CEO Award.
+
+· | Holding Period : Mr. Musk will not sell, transfer or dispose of the shares covered by the 2025 CEO Interim Award until after the fifth anniversary of the Date of Grant, except (i) as required to satisfy taxes due in respect to vesting of the 2025 CEO Interim Award, pay the Purchase Price or both, (ii) in transactions that involve merely a change of form in which Mr. Musk owns the shares covered by the 2025 CEO Interim Award or (iii) as may be permitted by the disinterested directors of the Board acting as administrator, consistent with the Company’s internal policies (with any sales for the purposes described in (i) and (ii) to be conducted through an orderly disposition in coordination with the Company).
+
+· | No Double Dip : If there is a Tornetta Decision Event that results in Mr. Musk becoming able to exercise options covered by the 2018 CEO Award, but does not result in Early Forfeiture, then: (i) if the Tornetta Decision Event occurs prior to vesting, shares covered by the 2025 CEO Interim Award will be reduced to the extent that (a) the sum of the 2025 CEO Interim Award shares and any amount of options exercisable under the 2018 CEO Award exceeds (b) the total number of options subject to the 2018 CEO Award in full (the “ Excess Amount ”); and (ii) if the Tornetta Decision Event occurs after vesting, Mr. Musk will return or otherwise repay the Company for shares issued under the 2025 CEO Interim Award equal to the Excess Amount and the Company will return or otherwise repay the Purchase Price. Alternatively, rather than returning or repaying as contemplated in clause (ii), Mr. Musk may elect to forfeit the number of options underlying the 2018 CEO Award equal to the Excess Amount.
+
+· | Limited Pledging : Solely in order to satisfy payment of the Purchase Price and taxes due in respect of the vesting of the 2025 CEO Interim Award, Mr. Musk may pledge any shares he beneficially owns (including, without limitation, the 2025 CEO Interim Award and the 2018 CEO Award).
+
+· | Additional Vesting Provisions : The 2025 CEO Interim Award will vest on an accelerated basis prior to the second anniversary of the Date of Grant if Mr. Musk is in continued Eligible Service upon a Change in Control (as defined in the 2019 Plan) or his death.
+
+The foregoing summary of the
+terms of the 2025 CEO Interim Award does not purport to be complete and is qualified in its entirety by reference to both the 2019 Plan,
+a copy of which was attached as Exhibit 10.8 to the Company’s Annual Report on Form 10-K filed with the Securities and
+Exchange Commission (the “SEC”) on January 31, 2025, as amended by Amendment No. 1 to the Company’s
+Annual Report on Form 10-K/A filed with the SEC on April 30, 2025, and the restricted stock award agreement pursuant to which
+the 2025 CEO Interim Award was granted (the “Award Agreement”), a copy of which is attached as Exhibit 10.1 hereto,
+each of which is incorporated by reference herein.
+
+Accounting Consequences of the 2025 CEO
+Interim Award
+
+The Company expects to account for the 2025 CEO
+Interim Award as a grant of restricted stock with a performance condition in accordance with ASC Topic 718, which for purposes of the
+2025 CEO Interim Award is based upon the probability of certain conditions being met. Restricted stock with a performance condition is
+accounted for by recognizing compensation expense over the requisite service period, based on the accounting grant-date fair value, but
+only if and when the vesting of the award becomes probable. For accounting purposes, the accounting grant-date fair value of the 2025
+CEO Interim Award will be determined on the date that the shares of restricted stock are delivered to Mr. Musk, which will be subject
+to the termination or expiration of the waiting period or periods under the HSR Act as described above. The accounting grant-date fair
+value is expected to be based upon the prevailing market price of the Company’s common stock on such date less the Purchase Price,
+adjusted to take into account an illiquidity discount due to the required holding period. The expense is adjusted for changes to the estimated
+likelihood of vesting based on the performance condition.
+
+As of the date of this report, the Company expects
+that the performance condition of the 2025 CEO Interim Award will not be deemed to be probable of being met. As a result, the Company
+currently expects that it will not recognize a compensation expense upon the issuance of the award. However, the Company will reassess
+the probability of the performance condition being met at least quarterly. If the Company determines that it is probable that the performance
+condition will be met, at that date, the Company will record a cumulative catch-up expense based on the accounting grant-date fair value
+of the award (which reflects an illiquidity discount due to transfer and holding restrictions), ratably for the amount of time that has
+passed since the beginning of the two-year requisite service period and amounting to the remaining portion of the accounting grant-date
+fair value over the two-year requisite service period. If the performance condition remains not probable as of the end of the two-year
+requisite service period, such that the 2025 CEO Interim Award remains subject to forfeiture or cancellation, the Company may not recognize
+the compensation expense at such time. If, at any time following the two-year vesting period, the performance condition becomes probable,
+the Company will be required to recognize the related compensation expense at that time.
+
+The Company is unable to predict whether a compensation
+expense will be recognized at any time during the two-year requisite service period, or thereafter.
+
+For illustrative purposes only, if the approvals
+had been obtained on August 1, 2025, based on the closing stock price on such date, the accounting grant-date fair value of the 2025
+CEO Interim Award would have been approximately $23.7 billion. This amount is based on such assumptions and is provided only for
+illustrative purposes. It does not reflect the accounting grant-date fair value of the 2025 CEO Interim Award that will be calculated
+in the future and disclosed in the Company’s future financial statements, nor is it indicative of the timing of recognizing any
+compensation expenses.
+
+-2-
+
+Item 7.01 | Regulation FD Disclosure.
+
+The Company made a post
+on X containing a letter to shareholders from Robyn Denholm, Chair of Tesla's Board of Directors, and Kathleen Wilson-Thompson, a
+Director of Tesla’s Board, the members of the Special Committee, announcing the grant of the 2025 CEO Interim Award on
+August 4, 2025. A copy of the letter is attached hereto as Exhibit 99.1 and is incorporated herein by reference.
+
+This information is intended
+to be furnished under Item 7.01 of Form 8-K and shall not be deemed “filed” for purposes of Section 18 of the Securities
+Exchange Act of 1934, as amended (the “Exchange Act”), or incorporated by reference in any filing under the Securities
+Act of 1933, as amended, or the Exchange Act as shall be expressly set forth by specific reference in such a filing.
+
+Forward-Looking Statements
+
+The discussions in this Current
+Report on Form 8-K contain forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995.
+
+Forward-looking statements
+are based on assumptions with respect to the future and management’s current expectations, involve certain risks and uncertainties
+and are not guarantees.
+
+These forward-looking statements
+include, but are not limited to, (1) statements concerning our plans and expectations regarding the 2025 CEO Interim Award; (2) statements
+regarding continued CEO retention and incentivization from the 2025 CEO Interim Award; (3) statements regarding the potential benefits,
+implications, risks or costs of the 2025 CEO Interim Award; (4) statements regarding the anticipated accounting treatment or tax
+effects of the 2025 CEO Interim Award, including the impact of volatility of markets; and (5) statements regarding our strategy,
+competition, future operations, future financial position, projected costs, profitability, expectations regarding demand and acceptance
+for our technologies, growth opportunities and trends in the markets in which we operate, prospects and plans and objectives of management.
+
+The words “anticipates,”
+“believes,” “could,” “estimates,” “expects,” “intends,” “may,”
+“plans,” “projects,” “will,” “would,” “predicts” and similar expressions are
+intended to identify forward-looking statements, although not all forward-looking statements contain these identifying words.
+
+We may not actually achieve
+the plans, intentions or expectations disclosed in our forward-looking statements and you should not place undue reliance on our forward-looking
+statements. Future results may differ materially from the plans, intentions and expectations disclosed in the forward-looking statements
+that we make.
+
+These forward-looking statements
+involve risks and uncertainties that could cause our actual results to differ materially from those in the forward-looking statements,
+including, without limitation, the risks set forth in Part I, Item 1A, “Risk Factors” of the Annual Report on Form 10-K
+for the fiscal year ended December 31, 2024, in Part II, Item 1A, “Risk Factors” of the Quarterly Report on
+Form 10-Q for the fiscal quarter ended March 31, 2025, in Part II, Item 1A, “Risk Factors” of the Quarterly
+Report on Form 10-Q for the fiscal quarter ended June 30, 2025, and that are otherwise described or updated from time to time
+in our other filings with the SEC. The discussion of such risks is not an indication that any such risks have occurred at the time of
+this filing. We do not assume any obligation to update any forward-looking statements.
+
+Item 9.01 | Financial Statements and Exhibits.
+
+(d) Exhibits.
+
+Exhibit No. | Description
+10.1 | 2025 CEO Interim Restricted Stock Agreement, dated August 3, 2025.
+99.1 | Shareholder Letter, dated August 4, 2025
+104 | Cover Page Interactive Data File (embedded within the Inline XBRL document).
+
+-3-
+
+SIGNATURES
+
+Pursuant to the requirements of the Securities Exchange Act of 1934,
+the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+
+TESLA, INC.
+By: | /s/ Brandon Ehrhart
+Brandon Ehrhart General Counsel and Corporate Secretary
+
+Date: August 4, 2025
+
+
+<<<< SOURCE: https://www.sec.gov/Archives/edgar/data/1318605/000110465925073263/tm2522385d1_ex10-1.htm >>>>
+
+EX-10.1
+2
+tm2522385d1_ex10-1.htm
+EXHIBIT 10.1
+
+Exhibit 10.1
+
+EXECUTION
+VERSION
+
+TESLA, INC.
+
+2019 EQUITY INCENTIVE PLAN
+
+2025 CEO INTERIM RESTRICTED STOCK AGREEMENT
+
+Unless otherwise defined herein,
+terms defined in the Tesla, Inc. 2019 Equity Incentive Plan (the “Plan”) will have the same defined meanings in this
+2025 CEO Interim Restricted Stock Agreement, which includes this Notice of 2025 CEO Interim Restricted Stock Grant (this “Notice
+of Grant”) and the Terms and Conditions of 2025 CEO Interim Restricted Stock Grant attached hereto as Exhibit A (together
+with this Notice of Grant, this “Award Agreement”).
+
+The Company is granting this
+Award Agreement due to Elon Musk being unable to acquire any Shares earned under the 2018 Award (as defined below) as a result of the
+continuing litigation with respect to Tornetta v. Elon Musk et al., C.A. No. 2018-0408-KSJM (Del. Ch.). Participant
+may earn the economic benefit of a number of Shares subject to this Award of Restricted Stock only (i) if Participant satisfies the
+vesting conditions described herein and (ii) to the extent (if any) Participant does not receive the economic benefit intended by
+the 2018 Award through having met the performance goals thereunder to acquire up to 303,960,630 Shares at $23.34 per Share. This Award
+of Restricted Stock is not in settlement or in lieu of the 2018 Award.
+
+NOTICE OF 2025 CEO INTERIM RESTRICTED STOCK
+GRANT
+
+Participant has been awarded
+a grant of Restricted Stock, subject to the terms, conditions and restrictions of this Award Agreement and the Plan, as follows:
+
+Participant : | Elon Musk
+Address : | Address on file with the Company
+Number of Shares : | Ninety-six million (96,000,000)
+Date of Grant : | August 3, 2025
+Issuance : | The Shares of Restricted Stock will be issued in accordance with this Award Agreement and the Plan, automatically and without further action or approval, on the termination or expiration of the waiting period (and any extension thereof) applicable to the issuance of such Shares to Participant under the HSR Act. For the avoidance of doubt, all Shares so issued will be Restricted Stock subject to the terms, conditions and restrictions of this Award Agreement, including Sections 3, 4, 9 and 13 of Exhibit A .
+
+Service Vesting : | The Restricted Stock will vest on the second (2 nd ) anniversary of the Date of Grant (the “Scheduled Vesting Date”) subject to Participant being in continuous Eligible Service through the Scheduled Vesting Date. The Restricted Stock will vest on an accelerated basis if Participant is in continued Eligible Service upon a Change in Control (as defined under the Plan) prior to the Scheduled Vesting Date.
+The Shares of Restricted Stock will immediately be forfeited and returned to the Company if Participant ceases Eligible Service before the Scheduled Vesting Date (except to the limited extent set forth in Section 4 of Exhibit A ).
+Early Forfeiture : | The Shares of Restricted Stock will immediately be forfeited and returned to the Company if, before Participant vests in the Restricted Stock, there is a final and non-appealable judgment, order or decision with respect to the action captioned Tornetta v. Elon Musk et al. , C.A. No. 2018-0408-KSJM (Del. Ch.), or any pending or future appeal, including In re Tesla, Inc. Derivative Litigation , Nos. 10, 2025, 11, 2025 (Del.) (a “ Tornetta Decision Event”) that results in Participant becoming able to exercise in full the performance-based stock option award granted to Participant in January 2018 (the “2018 Award”).
+Purchase Price : | Participant shall pay the Company $23.34 per Share of Restricted Stock that vests in accordance with this Award Agreement (which is equal to the exercise price per Share of the 2018 Award and shall be subject to adjustment on the same basis as the 2018 Award) (the “Purchase Price”). The Purchase Price shall be paid by Participant to the Company in accordance with Section 7 of Exhibit A .
+Holding Period : | During Participant’s lifetime, except as required to satisfy taxes due in respect of the vesting of this Award of Restricted Stock (including without limitation withholding required by Section 7 of Exhibit A ) and payment of the Purchase Price or otherwise required as part of a Change in Control, Participant shall not sell, transfer or in any other way dispose of the Shares of Restricted Stock until after the fifth (5 th ) anniversary of the Date of Grant; provided , however , Participant may conduct transactions that involve merely a change in the form in which Participant owns such Shares ( e.g ., transfer Shares to an inter vivos trust for which Participant is the beneficiary during Participant’s lifetime) or as may be permitted by the Administrator consistent with the Company’s internal policies. Participant shall have no right to require the Company to withhold Shares to either pay the Purchase Price or applicable tax withholding. Participant shall sell Shares during the Holding Period only for purposes of satisfying any obligations with respect to taxes and/or paying the Purchase Price, each through orderly disposition in coordination with the Company in accordance with Section 7 of Exhibit A .
+
+2
+
+No Double Dip : | If there is a Tornetta Decision Event that results in Participant becoming able to exercise the 2018 Award (but that does not result in Early Forfeiture), then:
+(i) | If the Tornetta Decision Event occurs before Participant vests in the Restricted Stock, the number of Shares subject to this Award of Restricted Stock will be reduced by the Excess Amount; and
+(ii) | If the Tornetta Decision Event occurs on or after Participant vests in the Restricted Stock, Participant shall deliver to, or otherwise repay, within thirty (30) days, the Company for, Shares issued under this Award Agreement equal to the Excess Amount. The Company will thereafter promptly return or otherwise repay the Purchase Price per Share delivered or repaid.
+For purposes of this Award Agreement, the “Excess Amount” will equal the extent to which (if any) the sum of the Shares otherwise subject to this Award of Restricted Stock and the number of options Participant becomes able to exercise under the 2018 Award exceeds the total number of Shares subject to the 2018 Award in full before any reduction or invalidation (as such number may be adjusted from time to time in accordance with the terms thereof and it being understood that the number of options currently subject to the 2018 Award is three hundred three million, nine hundred sixty thousand and six hundred thirty (303,960,630)).
+Participant may, in lieu of the actions described in clause (ii) with respect to this Award of Restricted Stock, elect to forfeit a number of options underlying the 2018 Award equal to the Excess Amount by notifying the Administrator in a writing delivered within thirty (30) days of the Tornetta Decision Event giving rise to such amount.
+The Administrator will have full authority to give effect to the intent of this Section such that Participant receives the economic benefits from the Shares of Restricted Stock under this Award only to the extent that Participant does not receive the economic benefits intended by the 2018 Award (and Participant otherwise satisfies the vesting conditions described herein).
+
+3
+
+Limited Pledging : | The Company agrees that, solely in order to satisfy taxes due in respect of the vesting of this Award of Restricted Stock (including without limitation the withholding required by Section 7 of Exhibit A ) and payment of the Purchase Price, Participant may pledge any Shares beneficially owned by him (including without limitation any Shares issued under this Award of Restricted Stock and any Shares issued on exercise of the 2018 Award).
+Additional Definitions: | For purposes of this Award Agreement:
+“2018 Award” has the meaning assigned under “Early Forfeiture” in this Notice of Grant.
+“Administrator” means the Board or a committee thereof, in either case, by an action approved by a majority of its Disinterested Directors voting thereon satisfying Applicable Laws.
+“Applicable Laws” means the legal and regulatory requirements relating to the administration of equity-based awards and the related issuance of Shares of Common Stock, including but not limited to Texas state corporate laws, U.S. federal and state securities laws and regulations promulgated thereunder, the Code, the rules of any stock exchange or quotation system on which the Common Stock is listed or quoted and the laws of any non-U.S. country or jurisdiction applicable to this Award of Restricted Stock.
+“Disinterested Director” means a Director who is a “disinterested director” under Section 21.418 of the Texas Business Organizations Code (or its successor).
+“Eligible Service” means providing services as either of the following: (i) Chief Executive Officer of the Company or (ii) an executive officer responsible for the Company’s product development or operations, as approved by Disinterested Directors.
+“Excess Amount” has the meaning assigned under “No Double Dip” in this Notice of Grant.
+“HSR Act” means the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended, and the rules and regulations promulgated thereunder.
+“Purchase Price” has the meaning assigned under “Purchase Price” in this Notice of Grant.
+
+4
+
+“Tax Obligations” means any federal, state or local withholding taxes of any type whatsoever imposed on the Company with respect to the issuance or vesting of the Restricted Stock or any other Company tax obligations which Participant has agreed to bear with respect to the Restricted Stock. For the avoidance of doubt, “Tax Obligations” includes, without limitation, all federal, state and local taxes (including Participant’s Federal Insurance Contributions Act (FICA) obligation) that are required to be paid or withheld by the Company with respect to the Restricted Stock that are attributable to Participant’s tax obligations.
+“ Tornetta Decision Event” has the meaning assigned under “Early Forfeiture” in this Notice of Grant.
+[ Remainder of page intentionally blank ]
+
+5
+
+By Participant’s signature
+and the signature of the representative of the Company below, Participant and the Company agree that this Award of Restricted Stock is
+granted under and governed by the terms, conditions and restrictions of this Award Agreement, including the Terms and Conditions of 2025
+CEO Interim Restricted Stock Grant, attached hereto as Exhibit A, and the Plan, all of which are made a part of this document.
+Participant acknowledges and agrees that by accepting this Award Agreement either electronically through the electronic acceptance procedure
+established by the Company or through written acceptance delivered to the Company in a form satisfactory to the Company, such acceptance
+will constitute Participant’s acceptance of and agreement with all of the terms and conditions of this Award Agreement and the Plan.
+Participant has reviewed this Award Agreement and the Plan in their entirety, has had an opportunity to obtain the advice of counsel prior
+to executing this Award Agreement and fully understands all provisions of this Award Agreement and the Plan. Participant hereby agrees
+to accept as binding, conclusive and final all decisions or interpretations of the Administrator upon any questions relating to this Award
+Agreement and the Plan.
+
+PARTICIPANT: | TESLA, INC.
+/s/ Elon Musk | /s/ Brandon Ehrhart
+Elon Musk | By: Brandon Ehrhart
+Title: General Counsel and Corporate Secretary
+
+6
+
+EXHIBIT A
+
+TERMS AND CONDITIONS OF 2025 CEO INTERIM RESTRICTED
+STOCK GRANT
+
+1.           Grant.
+The Company hereby grants to the individual named in the Notice of Grant (“Participant”) under the Plan an Award of Restricted
+Stock, subject to all of the terms and conditions in the Notice of Grant, this Award Agreement and the Plan, which are incorporated herein
+by reference.
+
+2.           Issuance;
+HSR Act Approval. The Restricted Stock awarded by this Award Agreement will be issued in accordance with the issuance provisions set
+forth in the Notice of Grant. Each of Participant and the Company shall file with the Federal Trade Commission (the “FTC”)
+and the Antitrust Division of the United States Department of Justice (the “DOJ”) all necessary applications, notices, reports
+and other filings to obtain as promptly as practicable all consents, clearances, registrations, approvals, permits and other authorizations
+necessary and advisable to be obtained pursuant to the HSR Act for the consummation of the transactions contemplated by this Award Agreement.
+Without limiting the foregoing, Participant and the Company shall make their respective filings no later than 5:00 p.m., New York City
+time, on August 5, 2025 (unless a later date is mutually agreed upon between Participant and the Company in writing). Each of Participant
+and the Company shall (i) cooperate and coordinate with the other in the making of such filings, (ii) promptly supply the other
+with any information and documentary material that may be required in order to make such filings, (iii) promptly supply any additional
+information that reasonably may be required or requested by the FTC or the DOJ and (iv) cooperate and coordinate with each other
+regarding a response to any legal proceeding, regulatory action or order, whether temporary, preliminary or permanent, that prohibits,
+prevents or restricts consummation of the transactions contemplated by this Award Agreement.
+
+3.           Vesting
+Schedule. The Restricted Stock awarded by this Award Agreement will vest in accordance with the vesting provisions set forth in the
+Notice of Grant.
+
+4.           Forfeiture
+upon Cessation of Eligible Service. Notwithstanding any contrary provision of this Award Agreement, if the Restricted Stock has not
+vested as of the time of Participant’s cessation of Eligible Service for any or no reason, the Restricted Stock will immediately
+be forfeited and returned to the Company; provided, however, that if cessation of Eligible Service is due to Participant’s
+death, the Restricted Stock will immediately vest.
+
+5.           No
+Double Dip. Notwithstanding any vesting of the Restricted Stock awarded by this Award Agreement, the Shares subject to this Award
+Agreement will continue at all times, including but not limited to after Participant’s cessation of Eligible Service, to be subject
+to the reduction, delivery and repayment provisions set forth under “No Double Dip” in the Notice of Grant.
+
+7
+
+6.           Leave
+of Absence. Unless the Administrator provides otherwise, vesting of the Restricted Stock will be suspended during any unpaid leave
+of absence.
+
+7.           Tax
+Matters and Payment of Purchase Price.
+
+7.1         Payment
+of Purchase Price and Tax Withholdings. Pursuant to such procedures as the Administrator may specify from time to time, the Company
+shall require the prompt payment of any Purchase Price and Tax Obligations when the Restricted Stock becomes vested under this Award Agreement
+(or, in the case of vesting on account of death, as soon as practicable thereafter). The Administrator, in its sole discretion and pursuant
+to such procedures as it may specify from time to time, may permit Participant to satisfy the Purchase Price and any Tax Obligations,
+in whole or in part (without limitation), if permissible by Applicable Laws, by (i) paying cash, or (ii) selling a sufficient
+number of such Shares in coordination with the Company through such means as the Company may determine in its sole discretion (whether
+through a broker or otherwise) equal to the minimum amount that is necessary to meet the withholding requirement for such Tax Obligations
+(or such greater amount as Participant may elect if permitted by the Administrator, if such greater amount would not result in adverse
+financial accounting consequences). Participant must pay the Purchase Price if the Restricted Stock becomes vested under the Award Agreement,
+subject to adjustment in accordance with the “No Double Dip” provisions in the Notice of Grant.
+
+7.2         Tax
+Obligations. Participant acknowledges that, regardless of any action taken or not taken by the Company, the ultimate liability for
+any Tax Obligations is and remains Participant’s responsibility and may exceed the amount actually withheld by the Company. Participant
+further acknowledges that the Company (A) makes no representations or undertakings regarding the tax treatment of any aspect of the
+Restricted Stock, including, but not limited to, the grant, vesting or subsequent sale of Shares and the receipt of any dividends or other
+distributions, and (B) does not commit to and is under no obligation to structure the terms of the grant or any aspect of the Restricted
+Stock to reduce or eliminate Participant’s tax liability or to achieve any particular tax result. Further, if Participant is subject
+to Tax Obligations in more than one jurisdiction between the Date of Grant and the date of any relevant taxable or tax withholding event,
+as applicable, Participant acknowledges that the Company may be required to withhold or account for Tax Obligations in more than one jurisdiction.
+
+7.3         Exemption
+from Section 409A. It is intended that the Restricted Stock shall be exempt from Section 409A of the Code pursuant to Treas.
+Reg. Sect. 1.409A-1(b)(6) and shall be interpreted consistent with this intention.
+
+7.4         Tax
+Consequences. Participant has reviewed with Participant’s own tax advisors the U.S. federal, state, local and non-U.S. tax consequences
+of the transactions contemplated by this Award Agreement. With respect to such matters, Participant relies solely on such advisors and
+not on any statements or representations of the Company or any of its agents, written or oral. Participant understands that Participant
+(and not the Company) shall be responsible for Participant’s own tax obligations and any other tax-related liabilities that may
+arise as a result of the transactions contemplated by this Award Agreement.
+
+8.           No
+Section 83(b) Election. Participant may not file an election under Section 83(b) of the Code with respect to the
+Restricted Stock.
+
+8
+
+9.           Rights
+as Holder of Restricted Stock. From and after the issuance of the Shares in respect of this Award of Restricted Stock in accordance
+with the Notice of Grant, Participant may exercise full voting rights with respect to the Shares issued pursuant to this Award of Restricted
+Stock.
+
+All dividends and other distributions
+paid with respect to the Shares issued pursuant to this Award of Restricted Stock, whether paid in Shares or cash, will, in accordance
+with the terms of the Plan, be subject to the same restrictions on transferability and forfeitability as the Shares of Restricted Stock
+with respect to which they were paid, and if such Shares of Restricted Stock are forfeited to the Company, such dividends or other distributions
+shall also be forfeited.
+
+10.          No
+Guarantee of Continued Eligible Service. PARTICIPANT ACKNOWLEDGES AND AGREES THAT THE VESTING OF SHARES PURSUANT TO THE VESTING PROVISIONS
+HEREOF IS EARNED ONLY BY CONTINUING IN ELIGIBLE SERVICE AT THE WILL OF THE COMPANY AND NOT THROUGH THE ACT OF BEING GRANTED THE RESTRICTED
+STOCK. PARTICIPANT FURTHER ACKNOWLEDGES AND AGREES THAT THIS AWARD AGREEMENT, THE TRANSACTIONS CONTEMPLATED HEREUNDER AND THE VESTING
+PROVISIONS SET FORTH HEREIN DO NOT CONSTITUTE AN EXPRESS OR IMPLIED PROMISE OF CONTINUED ENGAGEMENT AS THE CEO OR OTHERWISE IN ELIGIBLE
+SERVICE FOR ANY PERIOD, OR AT ALL, AND WILL NOT INTERFERE IN ANY WAY WITH PARTICIPANT’S RIGHT OR THE RIGHT OF THE COMPANY (OR THE
+PARENT OR SUBSIDIARY EMPLOYING OR RETAINING PARTICIPANT) TO TERMINATE PARTICIPANT’S RELATIONSHIP AS THE CEO OR TO REMAIN IN ELIGIBLE
+SERVICE OR AS A SERVICE PROVIDER OF THE COMPANY OR ANY PARENT OR SUBSIDIARY OF THE COMPANY AT ANY TIME, WITH OR WITHOUT CAUSE.
+
+11.         Clawback
+Policy. Notwithstanding any provisions to the contrary under this Award Agreement, the Restricted Stock shall be subject to any clawback
+policy of the Company that may be established and/or amended from time to time that applies to this Restricted Stock (the “Clawback
+Policy”), provided that the Clawback Policy does not discriminate against Participant except as required by Applicable Laws, and
+provided further that if there is a conflict between the terms of this Award Agreement and the Clawback Policy, the more stringent terms,
+as determined by the Administrator in good faith, shall apply. The Administrator may require Participant to forfeit, return or reimburse
+the Company all or a portion of the Restricted Stock and any amounts paid thereunder pursuant to the terms of the Clawback Policy or as
+necessary or appropriate to comply with Applicable Laws.
+
+12.         Address
+for Notices. Any notice to be given to the Company under the terms of this Award Agreement will be addressed to the Company at Tesla, Inc.
+Attention: Stock Administration, 1 Tesla Road, Austin, Texas 78725, or at such other address as the Company may hereafter designate in
+writing.
+
+9
+
+13.         Shares
+of Restricted Stock Are Not Transferable. The Restricted Stock will not be transferred, assigned, pledged or hypothecated in any way
+(whether by operation of law or otherwise) other than by the laws of descent and distribution and will not be subject to sale under execution,
+attachment or similar process unless and until the Shares become vested pursuant to this Award Agreement. Any attempt to transfer, assign,
+pledge, hypothecate or otherwise dispose of the Restricted Stock in violation of this Award Agreement, or upon any attempted sale under
+any execution, attachment or similar process in violation of this Award Agreement, will be null and void.
+
+14.         Binding
+Agreement. Subject to the limitation on the transferability of this grant contained herein, this Award Agreement will be binding upon
+and inure to the benefit of the heirs, legatees, legal representatives, successors and assigns of the parties hereto.
+
+15.         Successors
+and Assigns. The Company may assign any of its rights under this Award Agreement to single or multiple assignees. and this Award Agreement
+shall inure to the benefit of the successors and assigns of the Company. Subject to the restrictions on transfer herein set forth, this
+Award Agreement shall be binding upon Participant and Participant’s heirs, legatees, legal representatives. executors, administrators,
+successors and assigns. The rights and obligations of Participant under this Agreement may be assigned only with the prior written consent
+of the Administrator.
+
+16.         Additional
+Conditions to Vesting. If at any time the Company will determine, in its discretion, that the listing, registration, qualification
+or rule compliance of the Shares upon any securities exchange or under any state, federal or non-U.S. law, the Code and related regulations
+or under the rulings or regulations of the SEC or any other governmental regulatory body or the clearance, consent or approval of the
+SEC or any other governmental regulatory authority (together, the “Legal Requirements”) is necessary or desirable as a condition
+to the vesting of Shares of Restricted Stock hereunder, such vesting will not occur unless and until such Legal Requirements will have
+been completed, effected or obtained free of any conditions not acceptable to the Company. Shares will remain subject to the restrictions
+on transfer set forth in Section 13 unless the vesting of such Shares will comply with Applicable Laws and, to the extent the Company
+determines to be appropriate, will be further subject to the approval of counsel for the Company with respect to such compliance. The
+Company will make all reasonable efforts to meet the Legal Requirements. The inability of the Company to meet the Legal Requirements deemed
+by the Company’s counsel to be necessary or advisable for the vesting of any Shares hereunder, will relieve the Company of any liability
+in respect of the failure of such Shares to vest as to which such Legal Requirements will not have been met.
+
+17.         Administrator Authority.
+The Administrator will have the power and authority to construe and interpret the Plan and this Award Agreement and to adopt such rules for
+the administration, interpretation and application of the Plan and this Award Agreement as are consistent therewith and to interpret or
+revoke any such rules (including, but not limited to, the determination of whether or not any Shares subject to this Award Agreement
+have vested, whether there shall be early forfeiture or required repayment of the Shares of Restricted Stock due to a Tornetta
+Decision Event and whether any Change in Control has occurred). All actions taken and all interpretations and determinations made by the
+Administrator in good faith will be final and binding upon Participant, the Company and all other interested persons. No member of the
+Administrator will be personally liable for any action, determination or interpretation made in good faith with respect to the Plan or
+this Award Agreement.
+
+10
+
+18.         Electronic
+Delivery. The Company may, in its sole discretion, decide to deliver any documents related to the Restricted Stock awarded under this
+Award Agreement by electronic means or request Participant’s consent to participate in any equity-based compensation plan or program
+maintained by the Company by electronic means. Participant hereby consents to receive such documents by electronic delivery and agrees
+to participate in such plan or program through any on-line or electronic system established and maintained by the Company or another third
+party designated by the Company.
+
+19.         Captions.
+Captions provided herein are for convenience only and are not to serve as a basis for interpretation or construction of this Award Agreement.
+
+20.         Agreement
+Severable. If any provision in this Award Agreement will be held invalid or unenforceable, such provision will be severable from,
+and such invalidity or unenforceability will not be construed to have any effect on, the remaining provisions of this Award Agreement.
+
+21.         Modifications
+to this Award Agreement. This Award Agreement constitutes the entire understanding of the parties on the subjects covered. Participant
+expressly warrants he is in no way relying on any promises, representations, or inducements other than those contained herein. Modifications
+to this Award Agreement can be made only in an express written contract executed by a duly authorized officer of the Company acting on
+the direction of the Board by action of its Disinterested Directors and Participant.
+
+22.         No
+Waiver. Either party’s failure to enforce any provision or provisions of this Award Agreement shall not in any way be construed
+as a waiver of any such provision or provisions, nor prevent that party from thereafter enforcing each and every other provision of this
+Award Agreement. The rights granted both parties herein are cumulative and shall not constitute a waiver of either party’s right
+to assert all other legal remedies available to it under the circumstances.
+
+23.         No
+Advice Regarding Grant. The Company is not providing any tax, legal or financial advice, nor is the Company making any recommendations
+regarding this Award Agreement, or Participant’s acquisition or sale of the Shares. Participant is hereby advised to consult with
+Participant’s own tax, legal and financial advisors regarding this Award Agreement before taking any action related to this Award
+Agreement.
+
+24.         Governing
+Law and Venue. This Award Agreement will be governed by the laws of the State of Texas, without giving effect to the conflict of law
+principles thereof. For purposes of litigating any dispute that arises under this Award of Restricted Stock or this Award Agreement, the
+parties hereby submit to and consent to the jurisdiction of the State of Texas, and agree that such litigation will be conducted in the
+courts of Travis County, Texas, or the federal court for the United States District Court for the Western District of Texas, Austin Division,
+and no other courts, where this Award of Restricted Stock is made and/or to be performed.
+
+11
+
+25.         Errors.
+The Administrator at any time may take any action it deems equitable, in good faith, to correct any manifest error made under this Award
+Agreement without prejudice to the Company.
+
+26.        Plan Governs. This
+Award Agreement is subject to all terms and provisions of the Plan. In the event of a conflict between one or more provisions of this
+Award Agreement and one or more provisions of the Plan, the provisions of the Plan will govern.
+
+12
+
+
+<<<< SOURCE: https://www.sec.gov/Archives/edgar/data/1318605/000110465925073263/tm2522385d1_ex99-1.htm >>>>
+
+EX-99.1
+3
+tm2522385d1_ex99-1.htm
+EXHIBIT 99.1
+
+Exhibit 99.1
+
+A Letter to Our Shareholders on the 2025 CEO
+Interim Award
+
+Dear Fellow Tesla Shareholders,
+
+Today we announce an important first step in compensating Elon Musk
+for his extraordinary work at Tesla. As you know, Elon has not received meaningful compensation for eight years since the 2012 CEO Performance
+Award was last earned in 2017. Despite overwhelming support from you in 2018 and again in 2024, our legal efforts continue in the Delaware
+courts to reinstate the 2018 CEO Performance Award. Despite these legal challenges, we can all agree that Elon has delivered the transformative
+and unprecedented growth that was required to earn all milestones of the 2018 CEO Performance Award. This growth has translated into immense
+value generated for Tesla and all our shareholders.
+
+To recognize what Elon has accomplished and the extraordinary value
+he delivered to Tesla and our shareholders, we believe we must take action to honor the bargain that was struck in 2018. After all, “a
+deal is a deal.” Thus, as evidence that Tesla is committed to honoring its promises in the 2018 CEO Performance Award and intends
+to compensate its CEO for his future services commensurate with his contributions to our company and shareholders, we have recommended
+this award as a first step, “good faith” payment to Elon.
+
+Delaware litigation continues to loom over us after seven years.
+
+As we told you last year, the 2018 CEO Performance Award resulted in
+a $2.3 billion stock-based compensation charge to Tesla but brought about $735 billion of increased market capitalization. Despite delivering
+such extraordinary returns, that award continues to be in legal limbo despite two separate shareholder votes supporting it by large margins.
+Furthermore, we have no clear timeline for resolution, as we are still waiting not only for a ruling, but a hearing date to be heard in
+front of the Delaware Supreme Court. Rewarding Elon for what he has done and continues to do for Tesla is the right thing to do.
+
+Retaining
+Elon Is More Important Than Ever Before
+
+Today,
+Tesla is at a critical inflection point that has the potential to create continued extraordinary value for you, the shareholders.
+Through Elon’s unique vision and leadership, Tesla is transitioning from its role as a leader in the electric vehicle and renewable
+energy industries to grow towards becoming a leader in AI, robotics and related services. To succeed, it requires a leader who combines
+strategic foresight, adaptability, and relentless execution to outperform competition and inspire the team. Elon has demonstrated these
+unmatched leadership abilities time and time again with his unparalleled track record of delivering shareholder value since he joined
+as a founding figure and spearheaded the transformation of our extraordinary company.
+
+And
+while these impending changes are exciting, the outcomes are not guaranteed. It is imperative to retain and motivate
+our extraordinary talent, beginning with Elon. The war for AI talent is intensifying, with recent months including multi-billion-dollar
+acquisitions of companies and nine-figure cash compensation packages for non-founder, individual AI engineers. Even among this group of
+highly talented individuals, no one matches Elon’s remarkable combination of leadership experience, technical expertise, and, arguably
+most importantly, decades-long proven track record of building the most revolutionary and profitable businesses across different industries.
+While we recognize that Elon’s business ventures, interests and other potential demands on his time and attention are extensive
+and wide-ranging, including his leadership roles at xAI, SpaceX, Neuralink, X Corp., and The Boring Company as well as his other interests,
+we are confident that this award will incentivize Elon to remain at Tesla and focus his unmatched leadership abilities on further creating
+shareholder value for Tesla shareholders and attracting and retaining talent at Tesla. To be clear, losing Elon would not only mean the
+loss of his talents but also the loss of a leader who is a magnet for hiring and retaining talent at Tesla.
+
+The Special Committee believes now is the right time to take decisive
+action to recognize the extraordinary value that Elon created for Tesla shareholders. As such, the Board (with Elon and Kimbal Musk recusing
+themselves), has unanimously approved a recommendation from the Special Committee of the Board to grant Elon an award of restricted stock
+equal to approximately one-third of the compensation he earned under the 2018 CEO Performance Award.
+
+The award provides the following provisions:
+
+· | 96 million restricted shares of stock, subject to Elon paying a purchase price upon meeting a two-year vesting term, to be delivered after receipt of antitrust regulatory approval;
+
+· | The purchase price will be equal to the split adjusted exercise price of the stock options awarded to Elon under the 2018 CEO Performance Award ($23.34 per share);
+
+· | A requirement that Elon serve continuously in a senior leadership role at Tesla during the two-year vesting term;
+
+· | A pledging allowance to cover tax payments or the purchase price;
+
+· | A mandatory holding period of five years from the grant date, except to cover tax payments or the purchase price (with any sales for such purposes to be conducted through an orderly disposition in coordination with Tesla); and
+
+· | If the Delaware courts fully reinstate the 2018 CEO Performance Award, this interim award will be forfeited or returned or a portion of the 2018 CEO Performance Award will be forfeited. To put it simply, there cannot be any “double dip.” Elon will not be able to keep this new award in addition to the options he will be awarded under the 2018 CEO Performance Award should the courts rule in our favor.
+
+The Special Committee, consisting of the two of us, was formed earlier
+this year to consider how best to retain and incentivize Elon in a manner that aligned with the best interests of the Company. The Special
+Committee and the Board deliberated carefully over the decision to grant this interim award against the backdrop of the ever-intensifying
+AI talent war and Tesla’s position at a critical inflection point. We believe it directly addresses a top concern and priority for
+shareholders and the Board alike: energizing and focusing Elon on Tesla so he can propel Tesla into its next era of growth, while we continue
+the legal campaign to have the 2018 CEO Performance Award reinstated. This interim award is structured to incrementally increase his voting
+rights upon grant, which he has repeatedly told us—and shareholders have confirmed—is an important part of incentivizing him
+to stay focused on the critical work we are doing here at Tesla. We believe this is a vital consideration, and we used the tools currently
+available to us—our existing equity incentive plan—to grant this award.
+
+We would also like to stress that prior to recommending this award,
+we reviewed your letters, read your X posts, and considered the direct feedback we have received from many of you in order to align our
+recommendation with your expressed views. From those communications, we know that one of your top concerns is keeping Elon’s energies
+focused on Tesla. This award is a critical first step toward achieving that goal, although it is limited by the capacity of our current
+equity incentive plan. As such, we are also working on next steps to address that issue. Still, while our work remains ongoing, we feel
+it is important to communicate directly and transparently with you all, our shareholders and Tesla’s owners.
+
+The Special Committee continues our work to address a longer-term CEO
+compensation strategy, which we plan to put to a shareholder vote at the November 6 annual meeting.
+
+Thank you for your continued support of Tesla and stay tuned for more
+information as we get closer to our shareholder meeting.
+
+Very truly yours,
+
+Robyn Denholm & Kathleen Wilson-Thompson
+
+Members of the Special Committee of the Board of Directors
