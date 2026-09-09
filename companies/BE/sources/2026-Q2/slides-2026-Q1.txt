@@ -1,0 +1,417 @@
+SOURCE: Bloom Energy "Q1'26 Earnings" Supplemental Financial Information deck, April 28, 2026 (20 PDF pages; PowerPoint for Microsoft 365, PDF created 2026-04-28 17:31 UTC; PDF metadata title still reads "Q4'25 Earnings"). Cached as the PRIOR-quarter deck.
+ORIGIN: https://s29.q4cdn.com/452919417/files/doc_financials/2026/q1/Q1-26-Supplemental-financial-information.pdf — "Q1 Supplemental Financial Information" under "First Quarter 2026" in the Q4 Inc. financial-report feed and attachment of the "Bloom Energy Q1 2026 Earnings Conference Call" event (04/28/2026). Also filed as 8-K Exhibit 99.2 (ex992_q126supplementalde.htm, accession 0001628280-26-027913; not cached).
+FETCHED: 2026-09-09 by the IR gatherer | pdftotext -layout; real text layer on every page; no OCR. [SLIDE PAGE N] = Nth PDF page; printed numbers match PDF pages on 2-8 and 10-19; pages 1, 9 (Appendix divider) and 20 (Thank You) unnumbered. Chart pages 6, 7, 8 carry [GATHERER VISUAL READ] blocks confirmed from rendered images.
+====================================================================================================
+[SLIDE PAGE 1]
+Q1’26 Earnings
+April 28, 2026
+
+[SLIDE PAGE 2]
+Forward-looking Statements and Non-GAAP Financial Measures
+
+This presentation may contain certain forward-looking statements relating to future events and expectations, including estimates and projections for our business outlook for the 2026 fiscal year, each of
+which is based on current expectations, estimates, and projections about our industry, management’s beliefs, and certain assumptions made by management based on information currently available to
+management at the time they are made. These forward-looking statements are made pursuant to the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995 and relate to the
+Company’s performance on a going forward basis.
+
+Readers are cautioned that these forward-looking statements are only predictions and may differ materially from actual results, performance, and/or trends. In addition to general industry and global
+economic conditions, factors that could cause actual results, performance, and/or trends to differ materially from those discussed in the forward-looking statements made in this press release include, but
+are not limited to: (1) the emerging nature of distributed energy generation and rapidly evolving market trends; (2) the significant upfront costs of the Bloom Energy Energy Servers and Bloom Energy’s
+ability to secure financing for its products; (3) Bloom Energy ability to drive cost reductions and to successfully mitigate against potential price increases; (4) Bloom Energy’s ability to service its existing
+debt obligations; (5) Bloom Energy’s ability to be successful in new markets; (6) the risk of manufacturing defects; (7) the accuracy of Bloom Energy’s estimates regarding the useful life of its Energy
+Servers, (8) delays in the development and introduction of new products or updates to existing products; (9) supply constraints; (10) the availability of rebates, tax credits and other tax benefits; (11) the
+impact of the Inflation Reduction Act of 2022 and the One Big Beautiful Bill Act; (12) changes in the regulatory landscape; (13) Bloom Energy’s lengthy sales and installation cycle, construction, utility
+interconnection and other delays related to the installation of its Energy Servers; (14) business and economic conditions and growth trends in commercial and industrial energy markets; (15) trade policies
+including tariffs; (16) the overall electricity generation market; (17) our ability to increase production capacity for our products in a timely and cost-effective manner; (18) any actual or perceived
+slowdown in the adoption of AI resulting in a slower expansion of AI data centers; (19) Bloom Energy’s ability to protect its intellectual property; (20) the ability of current product and service backlog to
+ultimately be recognizable as revenue and/or (21) the risks relating to forward-looking statements and other “Risk Factors” identified from time to time in our filings with the Securities Exchange
+Commission (the “SEC”), including our Annual Report on Form 10-K for the fiscal year ended December 31, 2025, and subsequently filed reports, including on Form 10-Q, which filings are available
+from the SEC. Bloom Energy assumes no obligation to, and does not currently intend to, update information contained in these forward-looking statements, whether as a result of new information, future
+events or developments, or otherwise.
+
+Please see GAAP to non-GAAP reconciliations at the end of this presentation. Refer to “Use of non-GAAP financial measures” in our earnings release for Q1'26 available under the Investor Relations
+section of our website at https://investor.bloomenergy.com.
+
+The Investor Relations section contains a significant amount of information about Bloom Energy, including financial and other information for investors. Bloom Energy encourages investors to visit this
+website from time to time, as information is updated and new information is posted. The information contained on, or that may be accessed through Bloom Energy's website is not incorporated by
+reference into, and it not part of, this presentation.
+
+                                                                                                                                                                            Bloom Energy Proprietary & Confidential   2
+
+[SLIDE PAGE 3]
+Bloom’s Mission
+
+     To Make Clean, Reliable
+     Energy Affordable for
+     Everyone in the World.
+                               Bloom Energy Proprietary & Confidential   3
+
+[SLIDE PAGE 4]
+Financial Performance
+
+               $ in millions                                              Q1’26    Q1’25               YoY
+
+               Revenue                                                    $751.1   $326.0          130.4%
+
+               Non-GAAP Gross Margin1                                     31.5%    28.7%            2.8 pts
+
+               Non-GAAP Operating Income1                                 $129.7    $13.2           ~↑ 10x
+
+               Adjusted EBITDA1                                           $143.0    $25.2             ~↑ 6x
+
+               Non-GAAP EPS1                                               $0.44    $0.03           ~↑ 15x
+
+Note: Dollars in millions, except per share figures and YoY information
+1. Please reference appendix for GAAP to Non-GAAP reconciliations
+
+                                                                                            Bloom Energy Proprietary & Confidential   4
+
+[SLIDE PAGE 5]
+Raising 2026 Financial Guidance
+
+   Metric                                                                                                                       2026 Guidance                                          YoY
+
+   Revenue                                                                                                                       $3.4B - $3.8B                                     ~80%1
+
+   Non-GAAP Gross Margin2                                                                                                              ~34%                                        ~4 pts
+
+   Non-GAAP Operating Income2                                                                                                   $600M - $750M                                     ~↑ 3.1x
+
+   Non-GAAP EPS2                                                                                                                 $1.85 - $2.25                                    ~↑ 2.7x
+
+1. YoY change based on midpoint of range
+2. With respect to Bloom’s expectations regarding its 2026 Guidance, Bloom Energy is not able to provide a quantitative reconciliation of non-GAAP gross margin, non-GAAP operating expenses, non-GAAP
+   operating income, and non-GAAP EPS measures to the corresponding GAAP measures without unreasonable efforts due to the uncertainty regarding, and the potential variability of, reconciling items such
+   as stock-based compensation expense.
+
+                                                                                                                                                                       Bloom Energy Proprietary & Confidential   5
+
+[SLIDE PAGE 6]
+ Growing Revenue and Expanding Margins
+
+       Revenue ($ in billions)                                                                                                         Non-GAAP Gross Margin2
+                                                                                                  $3.4 - $3.8
+                                                                                                                                                                                                                                            34%
+
+                                                                                                                                                                                                                        30%
+                                                                                                                                                                                                    29%
+                                                                                     $2.0
+                                                                   $1.5                                                                                                         26%
+                              $1.2              $1.3
+           $1.0                                                                                                                                             23%
+                                                                                                                                        22%
+
+            2021                22                 23                24                 25             2026E                             2021                  22                  23                 24                  25               2026E
+
+                                              2026 Guidance: Revenue Growth ~80% 1, Gross Margin % +~4 pts
+1. YoY change based on midpoint of range
+2. Please reference appendix for GAAP to Non-GAAP reconciliations for 2025 and prior. With respect to Bloom’s expectations regarding its 2026 Guidance, Bloom Energy is not able to provide a quantitative reconciliation of non-GAAP gross margin, non-GAAP operating
+   expenses, non-GAAP operating income, and non-GAAP EPS measures to the corresponding GAAP measures without unreasonable efforts due to the uncertainty regarding, and the potential variability of, reconciling items such as stock-based compensation expense.
+
+                                                                                                                                                                                                                  Bloom Energy Proprietary & Confidential    6
+
+[GATHERER VISUAL READ] Page 6 rendered and read by the gatherer. Left, bar chart "Revenue ($ in billions)": 2021 $1.0 | 2022 $1.2 | 2023 $1.3 | 2024 $1.5 | 2025 $2.0 | 2026E $3.4 - $3.8 (grey dotted bar). Right, line chart "Non-GAAP Gross Margin": 2021 22% | 2022 23% | 2023 26% | 2024 29% | 2025 30% | 2026E 34% (dashed). Banner: "2026 Guidance: Revenue Growth ~80% (1), Gross Margin % +~4 pts".
+
+[SLIDE PAGE 7]
+Demonstrating Operating Leverage
+
+     Non-GAAP Operating Expenses as % of Revenue1                                                                                    Non-GAAP Operating Income1
+                                                                                                                                                                                                                                  $600 - $750
+
+          26%               26%
+                                               24%
+                                                                  21%
+                                                                                     19%                                                                                                                              $221
+                                                                                                                                                                                                  $108
+                                                                                                       15%                                                                      $19
+
+                                                                                                                                     $(38)                $(33)
+         2021                 22                23                 24                25              2026E                             2021                  22                  23                 24                  25               2026E
+
+1. Please reference appendix for GAAP to Non-GAAP reconciliations for 2025 and prior. With respect to Bloom’s expectations regarding its 2026 Guidance, Bloom Energy is not able to provide a quantitative reconciliation of non-GAAP gross margin, non-GAAP
+   Operating Expenses, non-GAAP operating income, and non-GAAP EPS measures to the corresponding GAAP measures without unreasonable efforts due to the uncertainty regarding, and the potential variability of, reconciling items such as stock-based
+   compensation expense. Non-GAAP Operating Expenses as % of revenue figure reflects midpoint of the guidance range
+
+                                                                                                                                                                                                                Bloom Energy Proprietary & Confidential        7
+
+[GATHERER VISUAL READ] Page 7 rendered and read by the gatherer. Left, line chart "Non-GAAP Operating Expenses as % of Revenue": 2021 26% | 2022 26% | 2023 24% | 2024 21% | 2025 19% | 2026E 15% (dashed). Right, bar chart "Non-GAAP Operating Income" ($ millions): 2021 $(38) | 2022 $(33) | 2023 $19 | 2024 $108 | 2025 $221 | 2026E $600 - $750 (grey dotted bar).
+
+[SLIDE PAGE 8]
+Driving Profitability and Generating Cash
+
+   Adjusted EBITDA1                                                                                                                            Cash Flow from Operating Activities
+                                                                                                        $650 - $800
+
+                                                                                          $272
+                                                                      $161                                                                                                                                                            > $200
+                                                    $82                                                                                                                                               $92              $114
+            $14                 $30
+
+                                                                                                                                                 $(61)
+                                                                                                                                                                $(192)
+
+                                                                                                                                                                                 $(372)
+
+           2021                  22                 23                   24                 25               2026E                              2021                  22               23               24               25            2026E
+1. Please reference appendix for GAAP to Non-GAAP reconciliations for 2025 and prior. With respect to Bloom’s expectations regarding its 2026 Guidance, Bloom Energy is not able to provide a quantitative reconciliation of Adjusted EBITDA measures to the
+   corresponding GAAP measures without unreasonable efforts due to the uncertainty regarding, and the potential variability of, reconciling items such as stock-based compensation expense.
+
+                                                                                                                                                                                                                 Bloom Energy Proprietary & Confidential       8
+
+[GATHERER VISUAL READ] Page 8 rendered and read by the gatherer. Left, bar chart "Adjusted EBITDA" ($ millions): 2021 $14 | 2022 $30 | 2023 $82 | 2024 $161 | 2025 $272 | 2026E $650 - $800 (grey dotted bar). Right, bar chart "Cash Flow from Operating Activities" ($ millions): 2021 $(61) | 2022 $(192) | 2023 $(372) | 2024 $92 | 2025 $114 | 2026E > $200 (grey dotted bar). This page does not exist in the Q2 2026 deck.
+
+[SLIDE PAGE 9]
+Appendix
+Q1 2026
+
+[SLIDE PAGE 10]
+GAAP to Non-GAAP Reconciliation:
+Gross Profit and Margin
+
+    $ in millions                            Q1’26               Q1’25
+
+    GAAP revenue                             $751.1             $326.0
+
+    GAAP cost of sales                        525.5               237.3
+    GAAP gross profit                        $225.5               $88.7
+    Non-GAAP adjustments:
+          Stock-based compensation expense     10.4                   4.8
+          Restructuring                         0.2                 (0.2)
+          Other                                 0.2                   0.2
+    Non-GAAP gross profit                    $236.3               $93.5
+
+    GAAP gross margin                        30.0%               27.2%
+    Non-GAAP adjustments                      1.5%                 1.5%
+    Non-GAAP gross margin                    31.5%               28.7%
+
+                                                      Bloom Energy Proprietary & Confidential   10
+
+[SLIDE PAGE 11]
+GAAP to Non-GAAP Reconciliation:
+Gross Profit and Margin
+ $ in millions                               2025       2024       2023       2022                           2021
+
+ GAAP revenue                             $2,024.0   $1,473.9   $1,333.5   $1,199.1                      $972.2
+
+ GAAP cost of sales                        1,436.6    1,069.2    1,135.7    1,050.8                        774.6
+ GAAP gross profit                         $587.4     $404.6     $197.8     $148.3                       $197.6
+ Non-GAAP adjustments:
+       Stock-based compensation expense      24.1       16.6       17.5       19.0                            13.8
+       Restructuring                           0.2      (0.4)        3.4            -                               -
+       Impairment of assets                      -          -     123.7      108.8                                  -
+       Other                                   0.7        2.0        1.6            -                               -
+ Non-GAAP gross profit                     $612.4     $422.8     $344.0     $276.1                       $211.4
+
+ GAAP gross margin                          29.0%      27.5%      14.8%      12.4%                        20.3%
+ Non-GAAP adjustments                        1.2%       1.2%      11.0%      10.7%                          1.4%
+ Non-GAAP gross margin                      30.3%      28.7%      25.8%      23.0%                        21.7%
+
+                                                                              Bloom Energy Proprietary & Confidential   11
+
+[SLIDE PAGE 12]
+GAAP to Non-GAAP Reconciliation:
+Operating Income (Loss) and Margin
+
+  $ in millions                            Q1’26                Q1’25
+
+  GAAP operating income (loss)              $72.2             ($19.1)
+
+  Non-GAAP adjustments:
+
+        Stock-based compensation expense     57.0                  32.2
+
+        Restructuring                         0.3                 (0.2)
+
+        Other                                 0.2                    0.2
+
+  Non-GAAP operating income                $129.7                $13.2
+
+  GAAP operating margin                     9.6%               (5.8)%
+
+  Non-GAAP adjustments                      7.7%                  9.9%
+
+  Non-GAAP operating margin                17.3%                 4.0%
+
+                                                    Bloom Energy Proprietary & Confidential   12
+
+[SLIDE PAGE 13]
+GAAP to Non-GAAP Reconciliation:
+Operating Income (Loss) and Margin
+
+  $ in millions                             2025     2024        2023       2022                          2021
+
+  GAAP operating income (loss)              $72.8    $22.9    ($208.9)   ($261.0)                   ($114.5)
+
+  Non-GAAP adjustments:
+
+        Stock-based compensation expense    145.0     83.0       87.1      114.0                           76.1
+
+        Restructuring                         2.4     (0.4)       9.2             -                              -
+
+        Impairment of assets                    -         -     130.1      113.3                                 -
+
+        Other                                 0.8      2.1        1.7         0.2                            0.0
+
+  Non-GAAP operating income (loss)         $221.0   $107.6      $19.2     ($33.5)                     ($38.4)
+
+  GAAP operating margin                     3.6%     1.6%     (15.7%)    (21.8%)                     (11.8%)
+
+  Non-GAAP adjustments                      7.3%     5.7%      17.1%      19.0%                           7.8%
+
+  Non-GAAP operating margin                10.9%     7.3%        1.4%     (2.8%)                       (3.9%)
+
+                                                                             Bloom Energy Proprietary & Confidential   13
+
+[SLIDE PAGE 14]
+GAAP to Non-GAAP Reconciliation:
+Non-GAAP Operating Expenses as % of Revenue
+  $ in millions                                    2025       2024       2023       2022                          2021
+
+  GAAP operating expenses                        $514.6     $381.7     $406.7     $409.3                       $312.1
+
+  Non-GAAP adjustments:
+
+        Stock-based compensation expense          120.9       66.4       69.6       95.0                           62.3
+
+        Restructuring                                2.1      (0.0)        5.7            -                              -
+
+        Other                                        0.1        0.1        6.6        4.8                                -
+
+  Non-GAAP operating expenses                    $391.4     $315.2     $324.8     $309.5                       $249.8
+
+  GAAP Revenue                                  $2,024.0   $1,473.9   $1,333.5   $1,199.1                      $972.2
+
+  Non-GAAP operating expenses as % of Revenue     19.3%      21.4%      24.4%      25.8%                        25.7%
+
+                                                                                     Bloom Energy Proprietary & Confidential   14
+
+[SLIDE PAGE 15]
+GAAP to Non-GAAP Reconciliation:
+Net Income (Loss) and EPS
+                                                               Dilutive earnings                      Dilutive earnings
+ $ in millions, except per share                     Q1’26                         Q1’25
+                                                                       per share                              per share
+
+ GAAP net income (loss) to common stockholders        $70.7               $0.23    ($23.8)                               ($0.10)
+
+ Non-GAAP adjustments:
+
+    Add back: Income for non-controlling interests      3.0                0.01       0.4                                    0.00
+
+    (Gain) loss on derivatives liabilities             (0.8)              (0.00)      0.1                                    0.00
+
+    Restructuring                                       0.3                0.00      (0.2)                                 (0.00)
+
+    Equity in loss of unconsolidated affiliates        17.0                0.05          -                                         -
+
+    Stock-based compensation expense                   57.0                0.18      32.2                                    0.14
+
+    Effects of assets buyout and repowering            (9.4)              (0.03)     (2.5)                                 (0.01)
+
+   Other                                                0.2                0.00       0.2                                    0.00
+
+ Non-GAAP net income to common stockholders          $138.1               $0.44      $6.4                                  $0.03
+
+                                                                                             Bloom Energy Proprietary & Confidential   15
+
+[SLIDE PAGE 16]
+GAAP to Non-GAAP Reconciliation:
+Adjusted EBITDA
+ $ in millions                                       Q1’26                        Q1’25
+ GAAP net income (loss) to common stockholders        $70.7                     ($23.8)
+
+ Non-GAAP adjustments:
+    Add back: Income for non-controlling interests      3.0                            0.4
+    Stock-based compensation expense                   57.0                          32.2
+    Restructuring                                       0.3                          (0.2)
+    (Gain) loss on derivative liabilities              (0.8)                           0.1
+
+    Effect of assets buyout and repowering             (9.4)                         (2.5)
+    Equity in loss of unconsolidated affiliates        17.0                                -
+    Depreciation & amortization                        13.3                          12.0
+    Income tax provision                                0.4                            0.4
+    Interest expense / other misc.                     (8.8)                           6.3
+    Other                                               0.2                            0.2
+ Adjusted EBITDA                                     $143.0                        $25.2
+
+                                                               Bloom Energy Proprietary & Confidential   16
+
+[SLIDE PAGE 17]
+GAAP to Non-GAAP Reconciliation:
+Adjusted EBITDA
+ $ in millions                                                         2025      2024       2023          2022                      2021
+ GAAP net loss to common stockholders                                ($88.4)   ($29.2)   ($302.1)    ($301.4)                 ($164.4)
+ Non-GAAP adjustments:
+    Add back: Income (loss) for non-controlling interests               1.3       2.0       (5.8)        (13.7)                   (28.9)
+    Equity in loss of unconsolidated affiliates                        40.4          -          -                -                            -
+    Stock-based compensation expense                                  145.0      83.0       87.1         114.0                       76.1
+    Restructuring                                                       2.4      (0.4)       9.2                 -                            -
+    Loss (gain) on derivative liabilities                               0.5       0.7        1.6           (0.6)                     15.0
+    Effects of assets buyout and repowering                            (2.6)    (21.0)       0.4                 -                            -
+
+    Loss on debt extinguishment and conversion inducement expenses     98.6      27.2        4.3             9.0                              -
+
+    Depreciation & amortization                                        50.6      53.0       62.6           61.6                      53.5
+    Impairment charge (PPA V, PPA IIIa, PPA IV and Goodwill)               -         -     130.1         115.3                      (1.1)
+    Income tax provision                                                2.7       0.8        1.9             1.1                       1.0
+    Interest expense / other misc.                                     20.2      42.2       90.8           43.2                      55.6
+    Other                                                               0.8       2.3        1.7             1.6                       7.3
+ Adjusted EBITDA                                                     $271.6    $160.7      $81.8         $30.1                    $14.0
+                                                                                                    Bloom Energy Proprietary & Confidential       17
+
+[SLIDE PAGE 18]
+GAAP to Non-GAAP Reconciliation:
+Diluted Earnings (Loss) Per Share
+ $ and count in millions, except per share                         Q1’26                          Q1’25
+ Numerator for basic earnings per share:
+      GAAP Net income (loss) attributable to common stockholders    $70.7                        ($23.8)
+      Non-GAAP Net income attributable to common stockholders      $138.1                           $6.4
+
+ Numerator for diluted earnings per share:
+      GAAP Net income (loss), adjusted numerator                    $74.9                        ($15.3)
+      Non-GAAP Net income, adjusted numerator                      $142.3                          $14.9
+
+ Denominator for GAAP and non-GAAP basic earnings per share:
+     Weighted average common shares outstanding                     281.7                          230.2
+ Denominator for GAAP and non-GAAP diluted earnings per share:
+     Weighted average common shares outstanding                     319.7                          230.2
+
+ GAAP net loss per share
+     Basic                                                          $0.25                        ($0.10)
+     Diluted                                                        $0.23                        ($0.10)
+
+ Non-GAAP net earnings (loss) per share
+     Basic                                                          $0.49                          $0.03
+     Diluted                                                        $0.44                          $0.03
+
+                                                                        Bloom Energy Proprietary & Confidential   18
+
+[SLIDE PAGE 19]
+GAAP to Non-GAAP Reconciliation:
+Gross Profit (Loss) and Margin
+
+                                                            Q1’26                                                                                       Q1’25
+
+                             GAAP                        Other Non- Non-GAAP           GAAP        Non-GAAP                                            Other Non- Non-GAAP           GAAP          Non-GAAP
+ $ in             Revenue gross profit         SBC1        GAAP gross profit           gross         gross
+                                                                                                                             GAAP
+                                                                                                                  Revenue gross                          GAAP gross profit           gross           gross
+                                                                                                                                profit         SBC1
+ Millions                    (loss)                         Adj 1     (loss)           margin       margin                                                Adj 1                      margin         margin
+
+ Product          $653.3       $224.1          $6.2          $0.1        $230.4        34.3%         35.3%         $211.9        $72.3         $1.9      $0.0       $74.2           34.1%            35.0%
+
+ Install            25.9         (9.1)          1.4          0.1          (7.6)       (35.3%)       (29.4%)          33.7         0.3           1.0       0.0         1.3            1.0%                 3.8%
+
+ Service            61.9          8.2           2.8          0.2          11.2         13.3%         18.0%           53.5         0.7           1.9       0.0         2.6            1.3%                 4.8%
+
+ Electricity         9.9          2.4           0.0          0.0           2.4         23.9%         24.5%           27.0         15.4          0.0       0.0        15.4           57.1%            57.1%
+
+ Total            $751.1       $225.5         $10.4          $0.4        $236.3        30.0%         31.5%         $326.0        $88.7         $4.8      $0.0       $93.5           27.2%            28.7%
+
+1. Please reference section “GAAP to Non-GAAP reconciliation: Gross profit and margin” of the appendix for detailed GAAP to Non-GAAP reconciliations
+
+                                                                                                                                                                Bloom Energy Proprietary & Confidential    19
+
+[SLIDE PAGE 20]
+Thank You
