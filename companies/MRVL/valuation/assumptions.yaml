@@ -1,82 +1,80 @@
-# Marvell Technology (MRVL) — DCF assumptions, drafted per AGENTS.md §18.4.
-# Working notes live in each cell's `detail`; the tag-to-file map is the `sources:` list at the end.
-
 schema: 1
 ticker: MRVL
 company: Marvell Technology, Inc.
 as_of_quarter: FY2027-Q2
 as_of_date: 2026-08-28
-drafted: 2026-09-08
+drafted: 2026-09-09
 currency: USD
 units: millions
-horizon: 10                      # five explicit years judged here; years 6-10 follow the rule
+horizon: 10
 
 base_year:
   period: "the twelve months ending August 1, 2026 (Q3 FY2026 to Q2 FY2027)"
   revenue:
     value: 9450.3
     source: "[10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]"
-    reason: "The base year is the twelve months to August 1, 2026, so the model starts from the sales Marvell has just made rather than a fiscal year that ended last January (business.md section 2). It is the last annual report with the newest six months swapped in for the year-earlier six months."
+    reason: "The base year is the twelve months to August 1, 2026, so the model starts from the sales Marvell has just made rather than from a fiscal year that ended last January (business.md section 2). It is the last annual report with the newest six months swapped in for the year-earlier six months."
     detail: |
-      Base year = FY2026 (10-K) + six months ended 2026-08-01 minus six months ended 2025-08-02 (10-Q Q2 FY2027): 8,194.6 + 5,157.1 minus 3,901.4 = 9,450.3 [10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]. Cross-check: the four quarters Q3 FY2026 to Q2 FY2027 in the eight-quarter table sum to 2,074.5 + 2,218.7 + 2,417.8 + 2,739.3 = 9,450.3 [Q2 FY2027 supplemental, p.5].
+      Base year = FY2026 (10-K) + six months ended 2026-08-01 minus six months ended 2025-08-02 (10-Q Q2 FY2027): 8,194.6 + 5,157.1 minus 3,901.4 = 9,450.3 [10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]. Cross-check: the four quarters Q3 FY2026 to Q2 FY2027 in the eight-quarter table sum to 2,074.5 + 2,218.7 + 2,417.8 + 2,739.3 = 9,450.3 [Q2 FY2027 supplemental, p.5]. The year-earlier twelve months were 1,516.1 + 1,817.4 + 1,895.3 + 2,006.1 = 7,234.9, so the trailing year is up 31% and the latest quarter is up 37% [Q2 FY2027 supplemental, p.5].
   operating_income_gaap:
     value: 1561.3
     source: "[10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]"
-    reason: "Operating profit for the same twelve months exactly as reported, which is 16.5% of revenue (business.md section 3). Nothing is stripped out as one-off: Marvell has booked restructuring every year since FY2024 and closed acquisitions in four of the last six fiscal years, so the method counts both as recurring. The big divestiture gain and the earn-out revaluation sit below operating profit, so they never touch this line."
+    reason: "Operating profit for the same twelve months exactly as reported, which is 16.5% of revenue (business.md section 3). Nothing is stripped out as one-off: Marvell has booked restructuring every year since FY2024 and closed acquisitions in four of the last six fiscal years, so the method counts both as recurring. The divestiture gain and the earn-out revaluation sit below operating profit, so they never touch this line."
     detail: |
-      Trailing twelve months = FY2026 GAAP operating income 1,322.9 + six months FY2027 of 799.1 minus six months FY2026 of 560.7 = 1,561.3 [10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]; 1,561.3 / 9,450.3 = 16.5% (computed).
-      Left inside operating income, which is why the one-time items list is empty. Restructuring inside the trailing twelve months = 16.0 (FY2026) plus 5.7 (H1 FY2027) plus the 3.6 credit booked in H1 FY2026, which is taken back out, = 25.3; the yearly series FY2024–FY2026 is 131.1, 711.8, 16.0 [10-K FY2026, Note 4; 10-Q Q2 FY2027, Note 8]. The 'other' non-GAAP items inside the trailing twelve months (acquisition and divestiture costs, legal matters, investment gains) = COGS 1.9 + R&D 22.7 + SG&A 62.2 = 86.8 over Q3 FY2026–Q2 FY2027, of which 30.1 were Celestial transaction costs [Q2 FY2027 supplemental, p.8; 10-Q Q2 FY2027, Note 4].
+      Trailing twelve months = FY2026 GAAP operating income 1,322.9 + six months FY2027 of 799.1 minus six months FY2026 of 560.7 = 1,561.3 [10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]; 1,561.3 / 9,450.3 = 16.5% (computed). The FY2026 figure is the sum of the four quarters 270.6 + 290.1 + 357.8 + 404.4 [Q2 FY2027 supplemental, p.5].
+      Left inside operating income, which is why the one-time items list is empty. Restructuring inside the trailing twelve months = 16.0 (FY2026) plus 5.7 (H1 FY2027) plus the 3.6 credit booked in H1 FY2026, which is taken back out, = 25.3; the yearly series FY2024 to FY2026 is 131.1, 711.8, 16.0 [10-K FY2026, Note 4; Q2 FY2027 release]. The 'other' non-GAAP items inside the trailing twelve months (acquisition and divestiture costs, legal matters, investment gains) = cost of goods sold 1.9 + research 22.7 + selling and administrative 62.2 = 86.8 over Q3 FY2026 to Q2 FY2027 [Q2 FY2027 supplemental, p.8].
       Below operating income and therefore untouched: the 1,830.4 divestiture gain and the 433.7 earn-out revaluation [10-K FY2026, Note 1; 10-Q Q2 FY2027, Note 6].
   one_time_items: []
   amortization_of_acquired_intangibles:
     value: 892.7
     source: "[10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]"
-    reason: "The yearly write-down of technology and customer relationships bought in past acquisitions, worth 9.4 points of revenue in the base year. It stays as a cost by rule, but it falls away fast, and every margin path here builds that roll-off in (business.md section 3)."
+    reason: "The yearly write-down of technology and customer relationships bought in past acquisitions, worth 9.4 points of revenue in the base year. It stays as a cost by the method, but it falls away fast on a schedule already in the accounts, and every margin path below builds that roll-off in (business.md section 3)."
     detail: |
-      Cash-flow statement line 'Amortization of acquired intangible assets', trailing twelve months = FY2026 942.0 + H1 FY2027 440.1 minus H1 FY2026 489.4 = 892.7; 892.7 / 9,450.3 = 9.4 points of revenue (computed) [10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]. Roll-off schedule as of August 1, 2026: 385.3 for the rest of FY2027, 292.7 for FY2028, 139.6 for FY2029, 117.2 for FY2030, 60.8 for FY2031; the 10-K's January schedule read 814.0 / 284.8 / 131.8 / 109.5 [10-Q Q2 FY2027, Note 5; 10-K FY2026, Note 5]. On top of that, the balance sheet carries 1,297.0 of acquired in-process R&D that is not amortized until the underlying products ship and then runs over useful lives of 6 to 13 years, a further 100 to 216 a year once it starts [10-Q Q2 FY2027, Note 5]. That total is 997.0 from Celestial and XConn (951.0 and 46.0) plus 300.0 already on the books before those deals; the figure was corrected from 997.0 in the first draft of this file, so that it matches Note 5 and the margin bridges in the scenarios below. Memo row; stays deducted.
+      Cash-flow statement line 'Amortization of acquired intangible assets', trailing twelve months = FY2026 942.0 + H1 FY2027 440.1 minus H1 FY2026 489.4 = 892.7; 892.7 / 9,450.3 = 9.4 points of revenue (computed) [10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]. Roll-off schedule as of August 1, 2026: 385.3 for the rest of FY2027, 292.7 for FY2028, 139.6 for FY2029, 117.2 for FY2030, 60.8 for FY2031 and 54.0 after that, total 1,049.6; the 10-K's January schedule read 814.0 / 284.8 / 131.8 / 109.5 [10-Q Q2 FY2027, Note 5; 10-K FY2026, Note 5]. On top of that the balance sheet carries 1,297.0 of acquired research not yet in use (951.0 from Celestial, 46.0 from XConn, 300.0 already on the books at January 31, 2026), which is not amortized until the products ship and then runs over useful lives of 6 to 13 years, a further 100 to 216 a year once all of it is running [10-Q Q2 FY2027, Note 5]. Memo row; stays deducted.
   stock_based_compensation:
     value: 828.9
     source: "[10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]"
-    reason: "Pay handed out as shares, 8.8 points of revenue in the base year and running at roughly double last year's rate. The method keeps it inside operating profit, because it is a real cost to existing owners; this cell is only a memo (business.md section 4)."
+    reason: "Pay handed out as shares, 8.8 points of revenue in the base year and running at roughly double last year's rate. The method keeps it inside operating profit because it is a real cost to existing owners; this cell is only a memo (business.md section 4)."
     detail: |
-      Trailing twelve months = FY2026 590.8 + H1 FY2027 533.8 minus H1 FY2026 295.7 = 828.9; 828.9 / 9,450.3 = 8.8 points of revenue (computed) [10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]. Run rate: 326.2 in Q2 FY2027 against 153.6 a year earlier, with 190.1 of assumed Celestial awards still to be expensed [Q2 FY2027 supplemental, p.5; 10-Q Q2 FY2027, Note 10]. Memo row; never added back.
+      Trailing twelve months = FY2026 590.8 + H1 FY2027 533.8 minus H1 FY2026 295.7 = 828.9; 828.9 / 9,450.3 = 8.8 points of revenue (computed) [10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]. Run rate: 326.2 in Q2 FY2027 against 153.6 a year earlier, with 190.1 of assumed Celestial awards still to be expensed [Q2 FY2027 supplemental, p.5; 10-Q Q2 FY2027, Note 10]. Five-year history as a share of revenue: 10.3% FY2022, 9.3% FY2023, 11.1% FY2024, 10.4% FY2025, 7.2% FY2026 (computed from business.md section 4). Memo row; never added back.
   rnd_expense:
     value: 2441.9
     source: "[10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]"
-    reason: "What Marvell spent on chip design in the base year, 25.8% of revenue: the fixed bill that makes its profits swing so hard with volume (business.md section 3). Memo row only, since the switch that would treat research as an investment is off."
+    reason: "What Marvell spent on chip design in the base year, 25.8% of revenue: the fixed bill that makes its profits swing so hard with volume, and the biggest piece of spending for future revenue inside today's costs (business.md section 3). Memo row only, since the switch that would treat research as an investment is off."
     detail: |
-      Trailing twelve months = FY2026 2,075.2 + H1 FY2027 1,393.4 minus H1 FY2026 1,026.7 = 2,441.9; 2,441.9 / 9,450.3 = 25.8% (computed) [10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]. The five-year history recorded in the switches block above, oldest first, is FY2022–FY2026: 1,424.2, 1,784.3, 1,896.2, 1,950.4, 2,075.2, used only if the research-capitalisation switch is turned on [10-K FY2024, Item 8 (FY2022–FY2023); 10-K FY2026, Item 8 (FY2024–FY2026)].
+      Trailing twelve months = FY2026 2,075.2 + H1 FY2027 1,393.4 minus H1 FY2026 1,026.7 = 2,441.9; 2,441.9 / 9,450.3 = 25.8% (computed) [10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]. The US semiconductor industry spends 15.4% of sales on research, so about ten points of today's revenue is design spending running ahead of the sales it is meant to produce, which is the first offset in every margin path below [Damodaran margin.xls, Semiconductor, 2026-01-05]. The five-year history in the switches block, oldest first, is FY2022 to FY2026: 1,424.2, 1,784.3, 1,896.2, 1,950.4, 2,075.2 [10-K FY2024, Item 8; 10-K FY2026, Item 8].
   effective_tax_rate:
     value: 0.13
     source: "[Q2 FY2027 call; Q2 FY2027 release]"
-    reason: "The model starts from management's own estimate of tax on ongoing profits, approximately 13% for FY2028, because the official (GAAP) rates Marvell reports are distorted by a huge divestiture gain in one year and a charge that gets no tax relief in the next (business.md section 4). Management's version, which it labels non-GAAP, leaves those one-off items out. The FY2028 figure is used rather than FY2027's 11%, because model year 1 already runs into FY2028 and the rate rises with earnings."
+    reason: "The model starts from management's own estimate of tax on ongoing profits, approximately 13% for FY2028, because the official rates Marvell reports are distorted by a huge divestiture gain in one year and a charge that gets no tax relief in the next (business.md section 4). The FY2028 figure is used rather than FY2027's 11% because model year 1 already runs into FY2028 and the rate rises with earnings."
     detail: |
-      Why the GAAP rate is unusable: FY2026 shows 12.4%, but that year's pretax income was dominated by the 1.8 billion divestiture gain; the six months of FY2027 show 25.8% (119.1 on 461.6) because the 433.7 earn-out charge is not tax-deductible [10-K FY2026, Note 12; 10-Q Q2 FY2027, Note 11]. Management guides a non-GAAP tax rate of 11% for FY2027 and 'approximately 13% in fiscal 2028' [Q2 FY2027 call; Q2 FY2027 release].
+      Why the reported rate is unusable: FY2026 shows 12.4%, but that year's pretax income was dominated by the 1.8 billion divestiture gain; the six months of FY2027 show 25.8% (119.1 on 461.6) because the 433.7 earn-out charge is not tax-deductible [10-K FY2026, Note 12; 10-Q Q2 FY2027, Note 11]. Management guides a non-GAAP tax rate of 11% for FY2027 and 'approximately 13% in fiscal 2028' [Q2 FY2027 call; Q2 FY2027 release]. The US semiconductor industry's average effective rate among profitable companies is 15.8% [Damodaran taxrate.xls, Semiconductor, 2026-01-05].
   invested_capital:
     value: 19884.9
     source: "[10-Q Q2 FY2027, Item 1; Note 14]"
-    reason: "The capital the business has been handed: what shareholders and lenders put in, less its cash. It is used only for the return-on-capital check, and it will read low, because most of it is the price paid for past acquisitions rather than money behind today's chip designs (business.md section 4)."
+    reason: "The capital the business has been handed: what shareholders and lenders put in, less its cash. It is used only for the return-on-capital check, and it reads low because most of it is the price paid for past acquisitions rather than money behind today's chip designs (business.md section 4)."
     detail: |
-      At August 1, 2026: book equity 18,531.6 + debt 4,962.9 + operating lease liabilities 323.2 (59.3 current + 263.9 non-current) minus cash 3,932.8 = 19,884.9 [10-Q Q2 FY2027, Item 1; Note 14]. About 13.9 billion of that is goodwill and 2.3 billion acquired intangibles, so the ratio measures the return on everything ever paid for acquisitions, not on new R&D.
+      At August 1, 2026: book equity 18,531.6 + debt 4,962.9 + operating lease liabilities 323.2 (59.3 current + 263.9 non-current) minus cash 3,932.8 = 19,884.9 [10-Q Q2 FY2027, Item 1; Note 14]. Goodwill is 13,873.9 and acquired intangibles 2,346.6 of that [10-Q Q2 FY2027, Item 1]. After-tax operating profit of 1,358.3 (1,561.3 at the 13% rate) is a 6.8% return on the whole figure and a 22.6% return on the 6,011.0 left once goodwill is set aside (computed); both figures are used in the terminal cells below.
 switches:
   addback_acquired_amortization: false
   capitalize_rnd: false
   rnd_amortization_years: 5
   rnd_history: [1424.2, 1784.3, 1896.2, 1950.4, 2075.2]
+  reinvestment_lag: 1
 
 bridge:
   cash_and_marketable_securities:
     value: 3932.8
     source: "[10-Q Q2 FY2027, Item 1]"
-    reason: "The money Marvell can spend at once, added to the value of the business. There is no separate investments line to add: the balance sheet and the MD&A show only cash and cash equivalents."
+    reason: "The money Marvell can spend at once, added to the value of the business. There is no separate investments line to add: the balance sheet and the management discussion show only cash and cash equivalents."
     detail: |
-      Cash and cash equivalents 3,932.8 at August 1, 2026; the MD&A describes only 'cash and cash equivalents' of 3.9 billion [10-Q Q2 FY2027, Item 1; Item 2]. Time deposits of 194.0 are already inside cash equivalents [10-Q Q2 FY2027, Note 6].
+      Cash and cash equivalents 3,932.8 at August 1, 2026; the management discussion describes only 'cash and cash equivalents' of 3.9 billion [10-Q Q2 FY2027, Item 1; Item 2]. Time deposits of 194.0 are already inside cash equivalents [10-Q Q2 FY2027, Note 6].
   debt:
     value: 4962.9
     source: "[10-Q Q2 FY2027, Note 7]"
     reason: "All of Marvell's borrowing at the value the accounts carry it at, subtracted from the value of the business: eight series of unsecured bonds, with no bank loans left and the revolving credit line untouched (business.md section 7)."
     detail: |
-      Net carrying amount at August 1, 2026 = face value 4,999.9 less 37.0 of unamortized discount and issuance cost = 4,962.9 [10-Q Q2 FY2027, Note 7]. The last term loan was repaid in FY2026 and the 1.5 billion revolver is undrawn. Left out as operating items: technology-license payment obligations of 220.0 (96.2 + 123.8) [10-Q Q2 FY2027, Note 14].
+      Net carrying amount at August 1, 2026 = face value 4,999.9 less 37.0 of unamortized discount and issuance cost = 4,962.9 [10-Q Q2 FY2027, Note 7]. The last term loan was repaid in FY2026 and the 1.5 billion revolver is undrawn [10-Q Q2 FY2027, Note 7]. Left out as operating items: technology-license payment obligations of 220.0 (96.2 + 123.8) [10-Q Q2 FY2027, Note 14].
   operating_lease_liabilities:
     value: 323.2
     source: "[10-Q Q2 FY2027, Note 14]"
@@ -87,17 +85,17 @@ bridge:
     - name: "Forward stock purchase contract (cash-settled hedge of the Celestial earn-out)"
       value: 131.0
       source: "[10-Q Q2 FY2027, Note 6]"
-      reason: "A twelve-month contract Marvell bought in April 2026 to hedge the shares it may owe on the Celestial earn-out: it pays out in cash if the share price rises, offsetting the part of the earn-out that is settled in shares rather than cash. It is an asset, so it is added to the value of the business."
+      reason: "A twelve-month contract Marvell bought in April 2026 to hedge the shares it may owe on the Celestial earn-out: it pays out in cash if the share price rises, offsetting the part of the earn-out that is settled in shares. It is an asset, so it is added to the value of the business."
       detail: |
-        Notional 300.0, meaning the contract is written on that much stock even though no shares change hands; it is carried at 131.0 of fair value, the price it would fetch today, inside prepaid expenses, the line for money paid in advance [10-Q Q2 FY2027, Note 6]. It partly offsets the earn-out claim listed below.
+        Notional 300.0, meaning the contract is written on that much stock even though no shares change hands; it is carried at 131.0 of fair value inside prepaid expenses [10-Q Q2 FY2027, Note 6]. It partly offsets the earn-out claim listed below.
     - name: "Marketable equity investments"
       value: 25.5
       source: "[10-Q Q2 FY2027, Note 6]"
-      reason: "Shares in listed companies held among Marvell's longer-term assets and valued at the price quoted on the market that day, which accountants call a Level 1 measurement. Added to value separately because they are not part of the chip business."
+      reason: "Shares in listed companies held among Marvell's longer-term assets and valued at the quoted market price, which accountants call a Level 1 measurement. Added to value separately because they are not part of the chip business."
     - name: "Non-marketable equity investments"
       value: 156.2
       source: "[10-Q Q2 FY2027, Note 14]"
-      reason: "Stakes in private companies, added to value separately because they are not part of the chip business. They are carried at what Marvell paid, less any write-down where the value has clearly fallen, rather than at a market price, so the figure is softer than it looks."
+      reason: "Stakes in private companies, added to value separately because they are not part of the chip business. They are carried at what Marvell paid, less any write-down where the value has clearly fallen, so the figure is softer than it looks."
   minority_interests:
     value: 0
     source: "[10-Q Q2 FY2027, Item 1]"
@@ -111,19 +109,19 @@ bridge:
         Fair value 749.5 at August 1, 2026, up from 315.8 at closing; payable in up to 233.0 of cash plus about 22.4 million shares if Celestial hits revenue milestones through FY2029 [10-Q Q2 FY2027, Note 6; Note 14].
   probability_of_failure:
     value: 0.0
-    reason: "Zero: Marvell holds plenty of cash against investment-grade bonds with nothing to repay for years, its operations throw off cash every quarter, and its credit line is untouched (business.md section 4)."
+    reason: "Zero, as the method sets it for a large profitable company: Marvell holds 3.9 billion of cash against investment-grade bonds with nothing to repay before FY2029, its operations produced 1.2 billion of cash in six months, and its 1.5 billion credit line is untouched (business.md section 4). Failure risk therefore stays out of the cost of capital as well."
     detail: |
-      3.9 billion of cash against 5.0 billion of investment-grade notes with nothing due before FY2029; 1.2 billion of operating cash flow in six months; an undrawn 1.5 billion revolver [10-Q Q2 FY2027, Note 7; Item 1; Item 2].
+      3,932.8 of cash against 4,999.9 face value of notes with nothing due before FY2029; 1,244.3 of operating cash flow in the six months to August 1, 2026; an undrawn 1.5 billion revolver [10-Q Q2 FY2027, Note 7; Item 1; Item 2].
   distress_proceeds:
     value: 0
-    reason: "Not needed with probability of failure at zero."
+    reason: "Not needed with the probability of failure at zero."
   diluted_shares:
     value: 921.2
     source: "[10-Q Q2 FY2027, Item 1; Note 12]"
-    reason: "The share count the per-share value is divided by: the latest quarter's average as the accountants compute it, including shares owed on employee awards and vested customer warrants, and the NVIDIA preferred shares counted as if they had already been swapped for ordinary shares. Management guides the same count for the next quarter."
+    reason: "The share count the per-share value is divided by: the latest quarter's average as the accountants compute it, including shares owed on employee awards and vested customer warrants, and the NVIDIA preferred shares counted as if already swapped for ordinary shares. Management guides the same count for the next quarter."
     detail: |
       Q2 FY2027 diluted weighted-average shares 921.2 = 875.6 basic common + 21.8 NVIDIA convertible preferred counted as if converted + 23.8 from stock awards and vested customer warrants [10-Q Q2 FY2027, Item 1; Note 12]. Management guides 921 million for Q3 [Q2 FY2027 release].
-  dilution_note: "Not in the 921.2: the August 2026 Google warrant for up to 58,970,907 shares at $206.58 (1,360,867 time-based shares vesting quarterly in year one, about 340,217 a quarter, and 57,610,040 performance shares in 240 tranches of about 240,042, one per $500 million of custom-product revenue from Q3 FY2027 through FY2033; arithmetic from outlook.md section 5, claim 12), two earlier customer warrants for 4.2 million shares at $87.77 (1.2 million vested) and 1.0 million at $87.00, the 22.4–24.4 million Celestial earn-out shares already valued in the other claims above, and stock pay running at 326.2 a quarter (190.1 of Celestial awards still to expense), against which management 'intend[s] to continue repurchasing shares to manage dilution' [8-K 2026-08-19; 10-Q Q2 FY2027, Note 3; Note 10; Note 15; Q2 FY2027 supplemental, p.5; Q2 FY2027 call]."
+  dilution_note: "Not in the 921.2: the August 2026 Google warrant for up to 58,970,907 shares at 206.58 USD each (1,360,867 time-based shares vesting quarterly in year one, about 340,217 a quarter, and 57,610,040 performance shares in 240 tranches of about 240,042, one per 500 million USD of custom-product revenue from Q3 FY2027 through FY2033; arithmetic from outlook.md section 5, claim 12), two earlier customer warrants for 4.2 million shares at 87.77 USD (1.2 million vested) and 1.0 million at 87.00 USD, the 22.4 to 24.4 million Celestial earn-out shares already valued in the other claims above, and stock pay running at 326.2 a quarter (190.1 of Celestial awards still to expense), against which management 'intend[s] to continue repurchasing shares to manage dilution' [8-K 2026-08-19; 10-Q Q2 FY2027, Note 3; Note 10; Note 15; Q2 FY2027 supplemental, p.5; Q2 FY2027 call]."
 
 market:
   price: auto
@@ -138,191 +136,306 @@ cost_of_capital:
   build:
     damodaran_industry:
       value: "Semiconductor"
-      reason: "Marvell is a fabless chip designer, meaning it designs chips and pays outside factories to make them, and all its revenue is chips sold into data-center and communications equipment (business.md sections 1 and 2)."
+      reason: "Marvell is a fabless chip designer, meaning it designs chips and pays outside factories to make them, and all its revenue is chips sold into data-center and communications equipment (business.md sections 1 and 2). The rate this builds is checked against Damodaran's own semiconductor row and his band of US costs of capital in the terminal cell below."
     unlevered_beta:
       value: 1.505
       source: "[Damodaran betas.xls, Semiconductor, dataset dated 2026-01-05, cached tools/valuation/data/damodaran/betas.csv]"
       reason: "Damodaran's 66-company US semiconductor group has an unlevered beta, corrected for cash, of 1.5046. A beta above 1 means chip earnings swing more than the market's, which is what Marvell's own history shows (business.md section 3)."
-
     debt_to_equity_market:
-      value: 0.0257
-      source: "[10-Q Q2 FY2027, Note 7; Note 14] [Yahoo price 223.55 on 2026-09-04]"
-      reason: "Marvell carries very little debt next to what the market says its shares are worth, so borrowing barely moves the cost of capital (business.md section 4). This ratio is what levers the industry beta up."
+      value: 0.0255
+      source: "[10-Q Q2 FY2027, Note 7; Note 14] [Yahoo price 225.41 on 2026-09-08 16:00 EDT; runner re-check 2026-09-09]"
+      reason: "Marvell carries very little debt next to what the market says its shares are worth, so borrowing barely moves the cost of capital (business.md section 4). This ratio is what levers the industry beta up; the runner refreshes it with the price of the day."
       detail: |
-        Debt 4,962.9 plus operating leases 323.2 = 5,286.1, divided by market capitalisation of 205,934 (223.55 times 921.2 diluted shares) = 0.0257 [10-Q Q2 FY2027, Note 7; Note 14] [Yahoo price 223.55 on 2026-09-04].
-
+        Debt 4,962.9 plus operating leases 323.2 = 5,286.1, divided by market capitalisation of 207,648 (225.41 times 921.2 diluted shares) = 0.0255 [10-Q Q2 FY2027, Note 7; Note 14] [Yahoo price 225.41 on 2026-09-08 16:00 EDT, the price the engine fetched when the runner re-checked this cell on 2026-09-09]. The industry's own market debt-to-equity is 0.026, so Marvell is typical [Damodaran betas.xls, Semiconductor, 2026-01-05].
     pretax_cost_of_debt:
       value: 0.053
       source: "[10-Q Q2 FY2027, Note 7]"
-      reason: "5.3% is what ten-year money costs Marvell today, taken from the coupon on its most recent bond sale. It is deliberately the conservative choice, because the average coupon across all its bonds is lower."
+      reason: "5.3% is what ten-year money costs Marvell today, taken from the coupon on its most recent bond sale, which is the rate new borrowing would carry. The average coupon across all eight series is lower because older bonds were sold when rates were lower."
       detail: |
-        The most recent issue is the 5.300% Senior Notes due 2036, sold April 15, 2026, with an effective rate of 5.358% [10-Q Q2 FY2027, Note 7]. The face-weighted average coupon on all eight series is 4.55% (computed).
+        The most recent issue is the 5.300% Senior Notes due 2036, sold April 15, 2026, with an effective rate of 5.358% [10-Q Q2 FY2027, Note 7]. The face-weighted average coupon on all eight series is 4.55% (computed). The industry row uses a 5.29% pre-tax cost of debt [Damodaran wacc.xls, Semiconductor, 2026-01-05].
   terminal:
     method: mature
     value: null
-    reason: "Default: after year 5 the firm is discounted at the risk-free rate plus the mature-market premium, so no company-specific edge is assumed in perpetuity."
+    reason: "Default: after year 10 the firm is discounted at the risk-free rate plus the mature-market premium of 4.5 points, so no company-specific edge is assumed in perpetuity. The built rate for the explicit years sits in the upper part of Damodaran's US band and next to his semiconductor row, and it carries neither failure risk nor a view on management (both are handled elsewhere in this file)."
+    detail: |
+      The build at the market data the runner re-verified on 2026-09-09 (bond rate 4.78%, equity risk premium 4.09%): levered beta 1.505 times (1 + 0.75 times 0.0255) = 1.534; cost of equity 4.78% + 1.534 times 4.09% = 11.05%; cost of capital 97.5% of that plus 2.5% of 5.3% after tax = 10.88% (computed). Damodaran's semiconductor row reads 10.55% and his whole-market row 6.96% [Damodaran wacc.xls, Semiconductor and Total Market, 2026-01-05]; his published US band runs from about 6% at the tenth percentile to about 12% at the ninetieth with the median near 8%, so Marvell sits in the upper part of the band, where a cyclical chip designer with a beta of 1.5 belongs, and next to its own industry. The terminal rate is the bond rate plus 4.5 points, about 9.28% at today's rates, reached by a straight-line fade over years 6 to 10. The rate is shared by all three cases: the cases differ in the business, not in the market's price of risk.
 
 diagnostics:
   final_year_market_size:
-    value: null
-    source: "[Q1 FY2027 call]"
-    reason: "Left empty on purpose. The only market size anywhere in the sources is a 55 billion custom silicon market for fiscal 2029, which covers one of Marvell's four data-center product groups in a year seven years before the last model year, so it cannot stand as the size of the market in that last year. The size test is done instead inside each case's revenue reasoning, where the year-5 and year-10 arithmetic is shown against that fiscal 2029 figure, and management promised a fuller long-range sizing at the October 6, 2026 Investor Day (business.md section 6)."
+    value: 126100
+    source: "[Q1 FY2027 call] [Damodaran histgr.xls, Semiconductor, 2026-01-05]"
+    reason: "An inference, not a management figure: the only market management has sized is a 55 billion custom data-center silicon market for fiscal 2029, and this cell carries it forward seven and a half years to the last model year at the 11.7% a year that analysts expect the US semiconductor industry to grow. It covers only Marvell's custom line, so the engine's share reading overstates the company's true share; each case's growth notes give the custom-only comparison."
     detail: |
-      The wording was 'a $55 billion TAM' for fiscal 2029, of which Marvell aims for a 20% share (Q&A with Vivek Arya; third-party machine transcript, wording not corrected) [Q1 FY2027 call]. It covers only the custom group, not interconnect, switching or storage, and refers to FY2029 rather than the last model year, which is the twelve months to about August 2036 (fiscal 2036).
-      Why this cell is empty rather than filled with an estimate. Putting a number here would need three stacked inferences: a growth rate for the custom market after fiscal 2029, which no source gives; a size for the interconnect, switching and storage markets, which no source gives at all; and a communications market size. Rather than present that as a market figure, each computed case now states its own year-5 and year-10 revenue, the custom part of it, and the growth the fiscal 2029 market would have to deliver for Marvell's share to stay near the 20% management aims for. The owner can fill this cell after the Investor Day and the engine will then compare the last model year with it [Q2 FY2027 call].
+      The sourced figure. Asked to confirm the fiscal 2029 custom target, the chief executive said: 'It was a 55 billion TAM. 20% on that is 11 billion. So call it in that range' (dollar signs in the quote written as words; the June 2025 sizing, raised from a market that implied about 8 billion at a 20% share when it was set in April 2024) [Q1 FY2027 call]. No other market is sized anywhere in the cached filings, releases, slides, supplementals or transcripts: the scale-up interconnect and switching markets are called 'a massive new TAM' and each scale-up switch engagement 'a multibillion-dollar lifetime revenue opportunity', the pluggable data-center-interconnect market is projected 'to grow significantly', and nothing is said about the size of the optical DSP, switch, storage or communications markets [Q2 FY2027 call; Q1 FY2027 call; Q2 FY2027 notes]. Searched: every file in sources/FY2027-Q1 and sources/FY2027-Q2 for 'TAM', 'addressable', 'market opportunity' and 'billion market'.
+      The carry-forward. Fiscal 2029 runs from about February 2028 to January 2029, midpoint about August 2028; model year 10 is the twelve months to about August 2036, midpoint about February 2036; the gap is 7.5 years. At 11.7% a year, the growth analysts expect for the US semiconductor industry over the next five years, 55,000 times 1.117 to the power 7.5 = 126,113, written as 126,100 [Damodaran histgr.xls, Semiconductor, 'Expected Growth in Revenues - Next 5 years', 2026-01-05]. Alternatives: at the industry's own five-year history of 11.2% a year, 121,900; at 15% a year, 156,900; at the bond rate of 4.78%, 78,100 (computed). The industry rate is chosen because a custom AI-chip market seven years out is a maturing part of the chip industry, not a permanent outgrower of it, and because management itself raised the sizing by about a third in fourteen months, so the near-term rate is likely higher and the far-term rate lower than this average.
+      What it covers. Custom processors and the companion chips sold to the same customers, which are 23% of Marvell's revenue today on the inference used in the segment builds. It does not cover optical interconnect, switching, storage or the communications end market, which are the other 77% of today's revenue, so the engine's comparison of total year-10 revenue with this figure reads as a share of a market Marvell only partly sells into. The custom-only readings: bear about 4,500 of custom revenue in year 10, a 3.6% share; base about 31,400, a 25% share against the 20% management targets for fiscal 2029; bull about 53,000, a 42% share, which is why the bull needs this market to grow faster than the industry (at 15% a year it would be a 34% share) (computed from each case's segment build).
   historical_revenue_cagr:
     value: 0.164
     source: "[10-K FY2024, Item 7; Item 8] [10-K FY2026, Item 7; Item 8]"
-    reason: "Marvell's own revenue grew about 16.4% a year over the five fiscal years FY2022–FY2026, which is the yardstick the scenario growth paths should be judged against (business.md sections 2 and 3). Almost all of it came in the last of those years, when the AI orders arrived."
+    reason: "Marvell's own revenue grew about 16.4% a year over the five fiscal years FY2022 to FY2026, shown as context and not as an anchor: data center was 40% of revenue for most of that period and is 79% now, so the old mix tells little about the new one (business.md sections 2 and 3). Almost all of the growth came in the last of those years, when the AI orders arrived."
     detail: |
-      From the five-year table in business.md section 3: revenue 4,462.4 in FY2022 and 8,194.6 in FY2026, which is four years of compounding. Taking 8,194.6 divided by 4,462.4, then the power of 1/4, then subtracting 1, gives 0.164 (computed). The path was uneven, not a steady climb: 5,919.6 (FY2023), 5,507.7 (FY2024), 5,767.3 (FY2025), then 8,194.6, a 42% jump in FY2026. Sources as given by that table: FY2022–FY2023 [10-K FY2024, Item 7; Item 8]; FY2024–FY2026 [10-K FY2026, Item 7; Item 8].
+      From the five-year table in business.md section 3: revenue 4,462.4 in FY2022 and 8,194.6 in FY2026, which is four years of compounding. Taking 8,194.6 divided by 4,462.4, then the power of 1/4, then subtracting 1, gives 0.164 (computed). The path was uneven: 5,919.6 (FY2023), 5,507.7 (FY2024), 5,767.3 (FY2025), then 8,194.6, a 42% jump in FY2026. The US semiconductor industry grew 11.2% a year over its last five years and analysts expect 40.9% over the next two and 11.7% a year over the next five [Damodaran histgr.xls, Semiconductor, 2026-01-05]. Sources as given by the business.md table: FY2022 to FY2023 [10-K FY2024, Item 7; Item 8]; FY2024 to FY2026 [10-K FY2026, Item 7; Item 8].
   historical_operating_margin:
     value: -0.021
     source: "[10-K FY2024, Item 7; Item 8] [10-K FY2026, Item 7; Item 8]"
-    reason: "Averaged over the same five fiscal years, Marvell's reported operating margin was slightly negative, so every scenario here assumes a business that looks nothing like its own recent history (business.md sections 3 and 4). The red ink came mostly from writing down the price of past acquisitions and from share-based pay rather than from the chips themselves."
+    reason: "Averaged over the same five fiscal years, Marvell's reported operating margin was slightly negative, so every case here assumes a business that looks nothing like its own recent history (business.md sections 3 and 4). The red ink came mostly from writing down the price of past acquisitions and from share-based pay rather than from the chips themselves, which is why the margin paths are built from a bridge rather than from this average."
     detail: |
-      GAAP operating margins from the five-year table in business.md section 3, with losses in brackets: (7.8)% FY2022, 4.0% FY2023, (10.3)% FY2024, (12.5)% FY2025, 16.1% FY2026. Simple average: minus 7.8 plus 4.0 minus 10.3 minus 12.5 plus 16.1, divided by 5, is minus 2.1% (computed). Only FY2026 was clearly profitable on GAAP, and FY2026 non-GAAP operating margin was 35.3% (business.md section 3) [Q1 FY2027 supplemental, p.8]. Sources as given by that table: FY2022–FY2023 [10-K FY2024, Item 7; Item 8] (FY2022 percentages computed); FY2024–FY2026 [10-K FY2026, Item 7; Item 8].
+      Reported operating margins from the five-year table in business.md section 3, with losses in brackets: (7.8)% FY2022, 4.0% FY2023, (10.3)% FY2024, (12.5)% FY2025, 16.1% FY2026. Simple average: minus 7.8 plus 4.0 minus 10.3 minus 12.5 plus 16.1, divided by 5, is minus 2.1% (computed). Only FY2026 was clearly profitable as reported, and FY2026's adjusted operating margin was 35.3% (business.md section 3) [Q1 FY2027 supplemental, p.8]. Sources as given by that table: FY2022 to FY2023 [10-K FY2024, Item 7; Item 8]; FY2024 to FY2026 [10-K FY2026, Item 7; Item 8].
 
 scenarios:
   bear:
     weight: 0.25
     story: |
-      The orders Marvell has already taken carry it through the next two years, and then the
-      AI building boom pauses. The cloud companies that make up most of its sales digest what they
-      have bought, and the one custom processor program that was due to reach volume production is
-      not renewed for its next generation, so revenue falls for two years in the middle of the
-      forecast. The fixed chip-design bill and the doubled share-based pay stay in place, so profit
-      margins stall around a fifth of sales instead of climbing. Marvell has to buy companies again
-      to refill the product roadmap, so each new dollar of sales costs more capital than it does today.
+      The AI building boom cools once the years management has already put numbers on are behind it,
+      and Marvell turns out to be a parts supplier rather than a partner: the cloud giants keep the chip
+      designs that matter in-house, the flagship custom processor is not renewed for its next generation,
+      and the Google agreement vests only its early slices, so custom silicon shrinks back to the smaller
+      companion chips. Optics stays a good business, but a rival is first to the next speed step, so it
+      grows with cloud spending rather than faster than it; the factory deposits already promised are
+      paid up front, and then sales fall for a stretch in the middle of the decade. Marvell at the end of
+      the forecast is a merchant chip company, one that sells standard parts to anyone rather than designs
+      made for one customer, about twice today's size and earning about a quarter of sales as profit,
+      because the design bill and share-based pay stay fixed while sales do not, and it pays tax at the
+      low rate management guides until it is taxed like any mature company. To refill its roadmap it
+      goes back to buying small companies, so each new dollar of sales costs about as much capital as it
+      does for an average chip company, and nothing above the cost of capital survives into the long run.
+    story_to_numbers:
+      - says: "The AI building boom cools once the years management has already put numbers on are behind it"
+        drives: "revenue growth, years 1 and 2 (the guided quarter and the two guided years taken at the bottom of their ranges)"
+        number: "0.43, 0.21"
+        source: "[Q2 FY2027 release; Q2 FY2027 call]"
+      - says: "the flagship custom processor is not renewed for its next generation, and the Google agreement vests only its early slices, so custom silicon shrinks back to the smaller companion chips"
+        drives: "revenue growth, years 3 and 4 (the custom line of the segment build falls from fiscal 2030)"
+        number: "-0.04, -0.10"
+        source: "[10-K FY2026, Item 1A; 8-K 2026-08-19]"
+      - says: "a rival is first to the next speed step, so it grows with cloud spending rather than faster than it"
+        drives: "revenue growth, year 5 and the fade years (interconnect at a normal chip-industry pace)"
+        number: "0.05"
+        source: "[Q1 FY2027 call]"
+      - says: "Marvell at the end of the forecast is a merchant chip company, one that sells standard parts to anyone rather than designs made for one customer, about twice today's size"
+        drives: "the end state the growth path is backed out from (year-10 revenue against the market size and the sector)"
+        number: "about 18,800 of revenue in year 10 against a custom market of about 126,100"
+        source: "[Q1 FY2027 call; Damodaran capex.xls, Semiconductor, 2026-01-05]"
+      - says: "earning about a quarter of sales as profit, because the design bill and share-based pay stay fixed while sales do not"
+        drives: "operating margin, years 1 to 5"
+        number: "0.23, 0.26, 0.24, 0.23, 0.25"
+        source: "[Q2 FY2027 release; Q2 FY2027 supplemental, p.5; 10-Q Q2 FY2027, Note 5]"
+      - says: "it pays tax at the low rate management guides until it is taxed like any mature company"
+        drives: "tax rate, start and terminal"
+        number: "0.13, 0.25"
+        source: "[Q2 FY2027 call]"
+      - says: "the factory deposits already promised are paid up front, and then sales fall for a stretch in the middle of the decade"
+        drives: "reinvestment override, years 1 to 3 (the guided capacity prepayments plus working capital in year 1; no capital handed back in the falling years)"
+        number: "2200, 200, 150"
+        source: "[Q2 FY2027 call; 10-Q Q2 FY2027, Note 9; 10-K FY2024, Item 8]"
+      - says: "To refill its roadmap it goes back to buying small companies, so each new dollar of sales costs about as much capital as it does for an average chip company"
+        drives: "sales to capital, years 1 to 5 and years 6 to 10"
+        number: "1.5, 1.2"
+        source: "[Damodaran capex.xls, Semiconductor, 2026-01-05; 10-K FY2024, Item 8]"
+      - says: "nothing above the cost of capital survives into the long run"
+        drives: "terminal return-on-capital premium, and terminal growth at the bond rate"
+        number: "0.0; riskfree"
+        source: "[business.md section 5; 10-K FY2026, Item 1A]"
     revenue_growth:
-      values: [0.40, 0.25, -0.07, -0.04, 0.05]
-      reason: "Year 1 holds because the coming quarter is guided and the following year's orders are largely placed, but at the low end of the guided range rather than the middle (outlook.md section 4). Growth then slows sharply as cloud customers digest, and revenue falls in years 3 and 4 because the new custom processor program is not renewed, the risk business.md section 6 ranks second."
-      source: "[Q2 FY2027 release; Q2 FY2027 call; Q1 FY2027 call; 10-K FY2026, Item 1A]"
+      values: [0.43, 0.21, -0.04, -0.10, 0.05]
+      reason: "Year 1 is above the 37% just reported only because the guided quarter and the two guided years are named items, taken here at the bottom of their ranges rather than the middle (outlook.md section 4). Growth then slows sharply as cloud customers digest what they have bought, and revenue falls in years 3 and 4 because the flagship custom program is not renewed and the Google programs vest only their early slices, the risk business.md section 6 ranks second."
+      source: "[Q2 FY2027 release; Q2 FY2027 call; Q1 FY2027 call; 10-K FY2026, Item 1A; 8-K 2026-08-19]"
       detail: |
-        How the year windows are built. Each model year is a twelve-month window ending in early
-        August, so it holds the second half of one fiscal year and the first half of the next. The
-        second half of fiscal 2027 in this case is 6,393: the guided third quarter at the bottom of
-        its range (2,993, being 3,150 less 5%) plus a fourth quarter of 3,400, which grows 14% on the
-        quarter instead of the 17% needed for the 'roughly 12 billion' full year [Q2 FY2027 release;
-        Q2 FY2027 call]. First halves are taken at 45% of the fiscal year while growth is still
-        rising and 50% once it flattens, against the 43% the first half of fiscal 2027 actually was
-        [Q2 FY2027 supplemental, p.5].
+        The run-rate the path starts from: the latest quarter is up 37% (2,739.3 against 2,006.1) and the
+        trailing twelve months up 31% (9,450.3 against 7,234.9) [Q2 FY2027 supplemental, p.5]. What moves
+        year 1 off it: the third quarter is guided to 3,150 plus or minus 5%, the fourth to accelerate
+        again, fiscal 2027 to roughly 12 billion and fiscal 2028 to approximately 18 billion
+        [Q2 FY2027 release; Q2 FY2027 call]. This case takes the third quarter at the bottom of its range
+        (2,993), a fourth quarter of 3,400 that grows 14% on the quarter instead of the 17% the full-year
+        figure needs, so fiscal 2027 is 11,550, and a fiscal 2028 of 15,450 in which custom grows 80%
+        rather than 'more than double' because the second large processor program slips (computed)
+        [Q2 FY2027 call].
 
-        | Fiscal year | Custom compute | Electro-optics | Switching | Storage and other data center | Data center | Communications and other | Company |
+        How the year windows are built. Each model year is a twelve-month window ending in early August,
+        so it holds the second half of one fiscal year and the first half of the next. Each line's
+        first-half share of a fiscal year is set by its own growth pace (steady quarter-on-quarter growth
+        gives a first half of 1 divided by 1 plus the square root of 1 plus the year's growth); the
+        reported halves of fiscal 2026 and fiscal 2027 are used where they exist [Q2 FY2027 supplemental,
+        p.5; p.10].
+
+        The fiscal-year build under the current two-segment definition. Marvell reports only data center
+        and communications and other [10-Q Q2 FY2027, Note 3]. Inside data center, two lines have a
+        sourced anchor and a growth engine of their own, so they are carried separately and labelled as
+        our inference: custom (program wins at a few customers, sized top-down from management's target
+        and market) and switching (share gain in an established market plus the new scale-up switch
+        market); everything else in data center (optical DSPs, TIAs and drivers, DCI modules, scale-up
+        optics, storage, cables and retimers, all merchant parts that follow cloud spending and speed
+        transitions) is one residual line. Anchors: custom in fiscal 2026 is set at 2,000 so that the
+        'more than 20%' fiscal 2027 growth and the 'more than double' fiscal 2028 land where analysts on
+        the calls put the business, 'around 5 billion to 6 billion in calendar 27' and 'a little over 4
+        billion' for the processors alone, neither disputed by the chief executive [Q1 FY2027 call;
+        Q2 FY2027 call]; switching in fiscal 2026 is 300 because the fiscal 2027 target was 'exceed 600
+        million, doubling from fiscal 2026' [Q1 FY2027 call]; the residual is data center's 6,100.3 less
+        those two [10-K FY2026, Note 3].
+
+        | Fiscal year | Custom | Switching | Interconnect and other data center | Data center | Communications and other | Company | Company growth |
         |---|---|---|---|---|---|---|---|
-        | FY2026 actual | 2,000 | 2,900 | 300 | 900 | 6,100 | 2,094 | 8,195 |
-        | FY2027 | 2,600 | 4,900 | 650 | 1,100 | 9,250 | 2,300 | 11,550 |
-        | FY2028 | 4,600 | 6,300 | 900 | 1,100 | 12,900 | 2,350 | 15,250 |
-        | FY2029 | 5,200 | 6,600 | 1,000 | 1,100 | 13,900 | 2,400 | 16,300 |
-        | FY2030 | 3,900 | 6,300 | 950 | 1,050 | 12,200 | 2,400 | 14,600 |
-        | FY2031 | 4,100 | 6,600 | 1,000 | 1,050 | 12,750 | 2,450 | 15,200 |
-        | FY2032 | 4,400 | 7,000 | 1,100 | 1,100 | 13,600 | 2,500 | 16,100 |
-
-        Marvell discloses only the two end markets, data center and communications and other; the four
-        product groups inside data center are our inference, built the same way in all three computed
-        cases and described in the base case above; the trailing figures for the two reported end
-        markets come from the eight-quarter table [10-Q Q2 FY2027, Note 3; Q2 FY2027 supplemental,
-        p.10].
+        | FY2026 actual | 2,000 | 300 | 3,800 | 6,100 | 2,094 | 8,195 | 42% |
+        | FY2027 | 2,500 | 600 | 6,250 | 9,350 | 2,200 | 11,550 | 41% |
+        | FY2028 | 4,500 | 850 | 7,850 | 13,200 | 2,250 | 15,450 | 34% |
+        | FY2029 | 5,000 | 950 | 8,200 | 14,150 | 2,300 | 16,450 | 7% |
+        | FY2030 | 3,800 | 850 | 7,500 | 12,150 | 2,250 | 14,400 | minus 12% |
+        | FY2031 | 3,500 | 900 | 7,800 | 12,200 | 2,350 | 14,550 | 1% |
+        | FY2032 | 3,700 | 1,000 | 8,300 | 13,000 | 2,450 | 15,450 | 6% |
 
         | Part of the business | Trailing revenue | Latest reported growth | Year 1 growth | Year 3 growth | Year 5 growth |
         |---|---|---|---|---|---|
-        | Custom compute | 2,151 | dollars not disclosed | up 63% | down 11% | up 6% |
-        | Electro-optics | 3,615 | dollars not disclosed | up 54% | down 5% | up 5% |
-        | Switching | 446 | dollars not disclosed | up 72% | down 2% | up 8% |
-        | Storage and other data center | 962 | dollars not disclosed | up 15% | down 7% | up 2% |
-        | Data center, as reported | 7,173 | up 46% in the quarter | up 52% | down 7% | up 6% |
-        | Communications and other, as reported | 2,277 | up 10% in the quarter | up 2% | down 4% | up 2% |
-        | Company | 9,450 | up 37% in the quarter | up 40% | down 7% | up 5% |
+        | Custom (inference) | 2,110 | dollars not disclosed | up 59% | down 8% | flat |
+        | Switching (inference) | 413 | dollars not disclosed | up 77% | flat | up 10% |
+        | Interconnect and other data center (residual) | 4,651 | dollars not disclosed | up 56% | down 3% | up 7% |
+        | Data center, as reported | 7,173 | up 46% in the quarter, up 33% on the year | up 58% | down 5% | up 5% |
+        | Communications and other, as reported | 2,277 | up 10% in the quarter, up 24% on the year | down 5% | up 1% | up 5% |
+        | Company | 9,450 | up 37% in the quarter, up 31% on the year | up 43% | down 4% | up 5% |
 
-        Company revenue in the five windows: 13,230; 16,538; 15,380; 14,765; 15,503 (computed); the
-        build sums to within one percent of them, the difference being the rounding of the growth rates
-        to whole percentage points.
+        Trailing figures for the two reported segments come from the eight-quarter table; the three
+        inferred lines are the fiscal build read over the same window [Q2 FY2027 supplemental, p.10].
+        Company revenue in the five windows: 13,514; 16,352; 15,698; 14,128; 14,834 (computed); the build
+        sums to within one percent of them, the difference being growth rounded to whole points.
 
-        Drivers of each step down of more than three points. Year 1 to year 2, 40% to 25%: the custom
-        business grows 77% rather than the 'more than double' management expects for fiscal 2028, so
-        the second large processor program contributes less than planned [Q2 FY2027 call]. Year 2 to
-        year 3, 25% to minus 7%: that program is not renewed for its next generation, which the
-        10-K says can mean 'foregoing revenues from a given customer's product line for the life of
-        that product', and cloud customers stop adding capacity [10-K FY2026, Item 1A]. Year 4 to
-        year 5, minus 4% to plus 5%: the next speed step in optics and the scale-up transition
-        restart growth at a normal chip-industry rate.
+        Drivers of each step down of more than three points. Year 1 to year 2, 43% to 21%: fiscal 2027's
+        guided surge leaves the window and custom grows 80% rather than doubling [Q2 FY2027 call]. Year
+        2 to year 3, 21% to minus 4%: the flagship processor program is not renewed for its next
+        generation, which the 10-K says can mean 'foregoing revenues from a given customer's product line
+        for the life of that product', and the Google agreement vests only its first slices
+        [10-K FY2026, Item 1A; 8-K 2026-08-19]. Year 3 to year 4, minus 4% to minus 10%: cloud customers
+        digest what they have bought and data center falls 14% in fiscal 2030, as it fell in fiscal 2024
+        when revenue dropped 7% [10-K FY2026, Item 7]. Year 4 to year 5, minus 10% to plus 5%: the next
+        optical speed step and scale-up switching restart growth at a normal chip-industry pace, then the
+        fade carries it to the bond rate by year 10.
 
-        Is it possible: year-5 revenue of 15,503 is under a third of the 55,000 custom silicon market
-        management sized for fiscal 2029, and by year 10, the twelve months to about August 2036, it
-        reaches only about 19,600 at the fade the rule applies, of which custom at its year-5 share of
-        27% is about 5,300, a tenth of that fiscal 2029 market; size never binds in this case
-        [Q1 FY2027 call]. Is it
-        plausible: Marvell has done this before, revenue falling 7% in fiscal 2024 with data center
-        down as customers worked off inventory [10-K FY2026, Item 7]. Is it probable: most sales are
-        on purchase orders customers can change 'with relatively short notice', ten customers are 82%
-        of revenue, and this quarter management dropped the numbers from its product-line targets
+        The end state and its tests. Year-10 revenue is about 18,800, twice today's 9,450 and about 4% of
+        the 460,000 to 510,000 that the 66 US semiconductor companies in Damodaran's dataset sell today
+        (an inference: their net capital spending of 22,421 divided by the row's net capital spending of
+        4.4% of sales, or by its 14.5% of after-tax operating profit at a 33.5% after-tax margin)
+        [Damodaran capex.xls and margin.xls, Semiconductor, 2026-01-05]. Custom at its year-5 share of
+        24% is about 4,500 in year 10, a 3.6% share of the custom market carried forward in the
+        diagnostics, against the 20% management targets; size never binds in this case [Q1 FY2027 call].
+        Growth agrees with margin: a company losing its custom programs sells more merchant parts at
+        merchant margins, so gross margin recovers a little while the total shrinks. Is it plausible:
+        Marvell has done this before, revenue falling 7% in fiscal 2024 with data center down as customers
+        worked off inventory [10-K FY2026, Item 7]. Is it probable: most sales are on purchase orders
+        customers can change 'with relatively short notice', ten customers were 82% of fiscal 2026
+        revenue, and this quarter management dropped the numbers from its product-line targets
         (outlook.md section 6) [10-K FY2026, Item 1A].
     operating_margin:
-      values: [0.21, 0.25, 0.20, 0.20, 0.22]
-      reason: "Margins improve on today's 16.5% even here, because the yearly write-down of past acquisitions runs off whatever happens to sales (business.md section 3). What the bear takes away is the climb: a shrinking business cannot cover a fixed design bill, so the margin stalls near a fifth of sales instead of reaching a third."
-      source: "[Q2 FY2027 release; Q2 FY2027 call; 10-Q Q2 FY2027, Note 5; Q2 FY2027 supplemental, p.5]"
+      values: [0.23, 0.26, 0.24, 0.23, 0.25]
+      reason: "Margins improve on today's 16.5% even here, because the yearly write-down of past acquisitions runs off whatever happens to sales (business.md section 3). What the bear takes away is the climb: a shrinking business cannot spread a fixed design bill and 1.3 billion a year of share pay, so the reported margin settles near a quarter of sales, between the telecom-equipment and semiconductor-equipment industry averages and well below the semiconductor average."
+      source: "[Q2 FY2027 release; Q2 FY2027 call; 10-Q Q2 FY2027, Note 5; Q2 FY2027 supplemental, p.5; Damodaran margin.xls, Semiconductor, 2026-01-05]"
       detail: |
-        Built the same way as the base case: the company's own adjusted margin first, then the three
-        costs it leaves out, all as a share of revenue.
+        Where the target sits. Damodaran's US semiconductor row earns a 35.3% operating margin after share
+        pay and amortization (40.4% before share pay) on a 59.0% gross margin; the neighbouring rows read
+        26.2% for semiconductor equipment, 22.5% for computers and peripherals, 20.7% for telecom
+        equipment and 12.8% for the whole market [Damodaran margin.xls, 2026-01-05]. Marvell's own best
+        reported year was 16.1% (FY2026) and its worst minus 12.5% (FY2025); its adjusted margin was 35.3%
+        in FY2026 and 36.6% in the latest quarter (business.md section 3) [Q2 FY2027 release]. A 25%
+        reported margin therefore places the bear between the equipment and telecom rows: a merchant
+        chip company without scale advantages, still far above Marvell's own history because the
+        amortization is gone. Named comparables from business.md (Broadcom as competitor) carry no margin
+        figure in the cached sources, so the industry rows stand in for them.
 
-        | Model year | Adjusted operating margin | Less share-based pay | Less acquisition write-downs | Less restructuring and deal costs | Official margin | Used |
+        The bridge, first at fiscal-year level (the company's own adjusted margin), then converted to the
+        model's windows and reduced to the reported margin.
+
+        | Fiscal year | Adjusted gross margin | Adjusted operating expenses | Expenses over revenue | Adjusted operating margin | Share-based pay | Custom share of revenue |
         |---|---|---|---|---|---|---|
-        | 1 | 36.3% | 10.6 | 4.4 | 0.5 | 20.8% | 21% |
-        | 2 | 37.0% | 9.7 | 2.0 | 0.5 | 24.8% | 25% |
-        | 3 | 33.5% | 10.7 | 1.8 | 1.0 | 20.0% | 20% |
-        | 4 | 33.7% | 10.8 | 1.6 | 0.8 | 20.5% | 20% |
-        | 5 | 34.9% | 10.3 | 1.3 | 0.5 | 22.8% | 22% |
+        | FY2027 | 58.3% | 2,550 | 22.1% | 36.2% | 1,164 | 22% |
+        | FY2028 | 57.0% | 3,000 | 19.4% | 37.6% | 1,350 | 29% |
+        | FY2029 | 56.0% | 3,150 | 19.1% | 36.9% | 1,400 | 30% |
+        | FY2030 | 55.0% | 3,000 | 20.8% | 34.2% | 1,350 | 26% |
+        | FY2031 | 55.0% | 2,900 | 19.9% | 35.1% | 1,300 | 24% |
+        | FY2032 | 55.5% | 2,950 | 19.1% | 36.4% | 1,300 | 24% |
 
-        What drags. Gross margin falls to 55.0% by year 3 against 58.9% today, because custom silicon
-        is a bigger share of a smaller total and factories are less full; the chief financial officer
-        named mix as 'the primary driver' of the guided step down this quarter [Q2 FY2027 call].
-        Share-based pay stays near 1,600 a year and so rises to almost 11 points of revenue when
-        revenue falls; it was 326.2 in the latest quarter alone, with 190.1 of acquired-company awards
-        still to be charged [Q2 FY2027 supplemental, p.5; 10-Q Q2 FY2027, Note 10]. Operating
-        expenses keep rising to 3,300 through year 3 because chip designs already started cannot be
-        stopped, and only then are cut back.
+        | Model year | Adjusted operating margin | Less share-based pay | Less acquisition write-downs | Less write-down of acquired research | Less restructuring and deal costs | Reported margin | Used |
+        |---|---|---|---|---|---|---|---|
+        | 1 | 37.2% | 9.3 | 3.9 | 0.2 | 0.3 | 23.4% | 23% |
+        | 2 | 37.1% | 8.6 | 1.3 | 0.5 | 0.6 | 26.1% | 26% |
+        | 3 | 35.6% | 8.9 | 0.8 | 0.8 | 1.2 | 23.8% | 24% |
+        | 4 | 34.6% | 9.1 | 0.6 | 1.0 | 1.2 | 22.6% | 23% |
+        | 5 | 35.7% | 8.7 | 0.3 | 1.0 | 0.7 | 25.0% | 25% |
 
-        What offsets. The write-down of acquired technology and customer relationships falls from 9.4
-        points of revenue in the base year to under 2, on the schedule in the accounts: 385.3 for the
-        rest of fiscal 2027, 292.7 in fiscal 2028, 139.6 in fiscal 2029, 117.2 in fiscal 2030, 60.8 in
-        fiscal 2031 and 54.0 after that; the 1,297.0 of research bought but not yet in use starts
-        being written off over 6 to 13 years as those products ship, adding 100 to 216 a year
-        [10-Q Q2 FY2027, Note 5]. Restructuring returns in the down years; Marvell has booked it every
-        year since fiscal 2024 [10-K FY2026, Note 4].
+        Each row is rounded to the nearest whole point, in whichever direction it falls.
+
+        What drags. Gross margin falls to 55.0% by fiscal 2030 against 58.9% today: custom is a bigger
+        share of a smaller total through fiscal 2029, the chief financial officer named mix as 'the
+        primary driver' of the guided step down this quarter, and after that unused capacity reservations
+        and the 'significant pricing pressures' the 10-K expects take over [Q2 FY2027 call; 10-K FY2026,
+        Item 1A]. Share-based pay stays near 1,300 to 1,400 a year, because grants already made vest over
+        four years and 190.1 of acquired-company awards are still to be charged, so it rises to almost
+        nine points of a shrinking revenue; it was 326.2 in the latest quarter alone [Q2 FY2027
+        supplemental, p.5; 10-Q Q2 FY2027, Note 10]. Adjusted operating expenses keep rising to 3,150 in
+        fiscal 2029 because chip designs already started cannot be stopped, and are cut only afterwards.
+        Restructuring returns in the down years, as it has every year since fiscal 2024 [10-K FY2026,
+        Note 4].
+
+        What offsets. Growth spending inside today's costs: research is 25.8% of revenue against the
+        industry's 15.4%, so even a shrinking Marvell can cut design spending on programs that are not
+        renewed [Damodaran margin.xls, Semiconductor, 2026-01-05]. The write-down of acquired technology
+        falls on the schedule in the accounts, from 9.4 points of revenue to 0.3 by year 5: 385.3 for the
+        rest of fiscal 2027, 292.7, 139.6, 117.2, 60.8 and 54.0 after that [10-Q Q2 FY2027, Note 5]. The
+        1,297.0 of acquired research not yet in use starts being written off over 6 to 13 years as
+        products ship, taken here at 60 in fiscal 2028 rising to 150 a year by fiscal 2031, an inference
+        placed inside the 100 to 216 range the useful lives imply [10-Q Q2 FY2027, Note 5]. Depreciation
+        is a small offset: it is 443 in year 1, the same as in the other cases because it reflects
+        spending already made, and then grows 12% a year rather than the 20% of the growth cases because
+        capital spending on a flat revenue base adds less to the asset base, so it runs 443 to 697 a year,
+        3.0% to 4.7% of revenue against 3.9% today, and neither helps nor hurts much (computed)
+        [10-Q Q2 FY2027, Item 1].
     sales_to_capital:
-      value: 1.4
-      value_late: 0.9
-      reason: "Each dollar of investment supports 1.40 of new sales in this case and 0.90 later, against about 2.00 in the base case, because growth has to be bought by acquisition again as it was in fiscal 2022 and fiscal 2027 (business.md sections 1 and 4). Buying a company is the most expensive way to add revenue Marvell has used."
-      source: "[10-K FY2024, Item 8; 10-K FY2026, Item 7; Item 8; 10-Q Q2 FY2027, Item 1; Note 4]"
+      value: 1.5
+      value_late: 1.2
+      reason: "Each dollar of investment supports 1.50 of new sales in this case and 1.20 later, against 2.20 in the base case, because growth has to be bought by acquisition again as it was in fiscal 2022 and fiscal 2027, and 1.20 is exactly what the average US semiconductor company gets (business.md sections 1 and 4). Buying a company is the most expensive way to add revenue Marvell has used."
+      source: "[10-K FY2024, Item 8; 10-K FY2026, Item 8; 10-Q Q2 FY2027, Note 4; Damodaran capex.xls, Semiconductor, 2026-01-05]"
       detail: |
-        The measured record is in the base case, which also explains why it is measured with a
-        one-year lag. What differs here is the assumption that deals are needed again. Fiscal 2022
-        cost 3,555.0 of cash for Inphi and Innovium, and the first half of fiscal 2027 cost 1,270.9 of
-        cash plus about 2,500 in shares for Celestial and XConn, whose revenue is still 'not material'
-        [10-K FY2024, Item 8; 10-Q Q2 FY2027, Note 4; Item 1]. Counting those deals, the ratio in an
-        acquisition year has been between 0.3 and 0.6, so 1.40 sits between the acquisition years and
-        the organic record, and 0.90 in the fade years assumes the pattern continues.
+        The three candidates, measured the way the model spends (money spent in one year buys the next
+        year's growth), are tabled in the base case. In short: Marvell's own lagged record is 2.6 and 3.4
+        in the two organic years that can be read and 1.3 over the five years including acquisitions;
+        last year's marginal ratio is 3.4 without deals, or about 0.95 if the Celestial and XConn
+        purchases in fiscal 2027 are counted against the fiscal 2028 guide; the industry figure is 1.21
+        [10-K FY2024, Item 8; 10-K FY2026, Item 8; 10-Q Q2 FY2027, Note 4; Damodaran capex.xls,
+        Semiconductor, 2026-01-05]. What differs here is the assumption that deals are needed again:
+        fiscal 2022 cost 3,555.0 of cash for Inphi and Innovium, and the first half of fiscal 2027 cost
+        1,270.9 of cash plus about 2,500 in shares for Celestial and XConn, whose revenue is still 'not
+        material' [10-K FY2024, Item 8; 10-Q Q2 FY2027, Note 4]. Counting those deals, the ratio in an
+        acquisition year has been between 0.3 and 1.0, so 1.50 sits between the acquisition years and the
+        organic record, and 1.20 in the fade years is the industry figure, the ratio of an average chip
+        company. The year-10 implied return on capital from the dry run at these settings is about 13.5%,
+        above the 9.28% cost of capital the case ends at and far below the 40.5% the industry earns today
+        (after-tax margin 33.5% times sales to capital 1.21), which is what a company that has lost its
+        edge should show [Damodaran margin.xls and capex.xls, Semiconductor, 2026-01-05].
     reinvestment_override:
-      values: [2500, 300, 100, null, null]
-      reason: "The first three years are set in dollars because the ratio would hand cash back in the shrinking years, which Marvell has never managed to do on that scale, and because the factory prepayments management has committed to are contractual (outlook.md section 4). All three figures are after subtracting depreciation, and none is negative."
-      source: "[Q2 FY2027 call; 10-Q Q2 FY2027, Note 9; Note 14; Item 1]"
+      values: [2200, 200, 150, null, null]
+      reason: "Year 1 is set in dollars because management has named a spending level the ratio does not cover, about 1 billion of factory prepayments this fiscal year with deposits running into next (outlook.md section 4). Years 2 and 3 are set to small positive amounts because the ratio would hand cash back in the shrinking years, which Marvell's own record says does not happen. All three figures are after subtracting depreciation."
+      source: "[Q2 FY2027 call; 10-Q Q2 FY2027, Note 9; Note 14; 10-Q Q1 FY2027, Note 9; 10-K FY2024, Item 8]"
       detail: |
-        Year 1 is 2,500: about 1,320 of extra working capital on the following year's revenue increase
-        of 3,308 at the 40% rate the base case explains, plus about 780 of the 'approximately 1
-        billion of capacity prepayments' management is on pace to pay in fiscal 2027 that falls after
-        the second quarter, plus about 390 of capital spending net of depreciation [Q2 FY2027 call;
-        10-Q Q2 FY2027, Note 14]. The ratio alone would have given 2,363, so the difference is the
-        prepayments.
-        Years 2 and 3 are 300 and 100 rather than the minus 827 and minus 439 the ratio would produce,
+        Year 1 = about 990 of extra working capital on the following year's revenue increase of 2,838 at
+        the 35 cents per dollar the base case derives, plus about 1,000 of capacity prepayments falling
+        inside the window, plus about 165 of capital spending net of depreciation (608 at 4.5% of revenue
+        less 443, the same year-1 depreciation as the other cases because it reflects spending already
+        made), which is 2,158, taken as 2,200 (computed) [Q2 FY2027 call; 10-Q Q2 FY2027, Note 14].
+        The prepayments: management is 'on pace to make approximately 1 billion of capacity prepayments to
+        suppliers in fiscal 2027' (dollar sign written as a word), the balance rose 223.9 in the second
+        quarter, and the 870.0 of deposits agreed in May are 'payable in quarterly installments from the
+        second quarter of fiscal 2027 through the second quarter of fiscal 2028', so the year-1 window
+        holds the roughly 776 left of the fiscal 2027 figure plus two more quarterly installments of about
+        174, less an allowance of about 125 for prepayments applied against wafer purchases before the
+        window ends: about 1,000 (computed) [Q2 FY2027 call; 10-Q Q2 FY2027, Note 14; 10-Q Q1 FY2027,
+        Note 9]. The ratio alone would have charged 1,892.
+        Years 2 and 3 are 200 and 150 rather than the minus 436 and minus 1,047 the ratio would produce,
         because unconditional commitments to foundries and test partners stood at 8,518.9 at August 1,
-        2026 and cannot be unwound at will, and because when revenue last fell, in fiscal 2024,
-        working capital released only 57.8 on a 411.9 revenue decline [10-Q Q2 FY2027, Note 9;
+        2026 and cannot be unwound at will, so wafers keep arriving into inventory when demand falls, and
+        because when revenue last fell, in fiscal 2024, working capital released only 57.8 on a 411.9
+        revenue decline while capital spending ran 36.5 above depreciation [10-Q Q2 FY2027, Note 9;
         10-K FY2024, Item 8]. Years 4 and 5 use the ratio, which is positive because revenue is rising
-        again: about 528 and 536 (computed).
+        again: about 471 and 490 (computed).
     tax_rate:
       start: 0.13
       terminal: 0.25
-      reason: "Starts at management's own estimate of tax on continuing profits for fiscal 2028, approximately 13%, the figure explained in the base-year tax cell above, and rises to the 25% rate the model uses for a mature company. In this case profits are lower, so the low start matters less."
+      reason: "Starts at management's own estimate of tax on continuing profits for fiscal 2028, approximately 13%, the figure explained in the base-year tax cell, and rises to the 25% rate the model uses for a mature company. In this case profits are lower, so the low start matters less."
       source: "[Q2 FY2027 call]"
     cost_of_capital_override: null
     terminal:
@@ -333,261 +446,419 @@ scenarios:
       roic_premium:
         value: 0.0
         allow_large_premium: false
-        reason: "Nothing above the cost of capital: in this case the moat is gone, a customer has taken a program away and the next speed step in optics went to a rival, so Marvell ends up earning exactly what its investors require."
+        reason: "Nothing above the cost of capital: in this case the moat is gone, a customer has taken a program away and the next speed step in optics went to a rival, so Marvell ends up earning exactly what its investors require, which is the method's setting for the pessimistic case."
         detail: |
-          This is the rule for the pessimistic case, and it has a mechanical consequence worth naming.
-          With no premium, the perpetual reinvestment the model charges is growth divided by the cost
-          of capital, which at today's rates is more than half of after-tax operating profit, against
-          about a third in the last modelled year, so cash flow steps down about a quarter into the
-          terminal year. The step
-          cannot be removed without giving this case a premium, which the method forbids here; it is a
-          property of assuming the advantage is completely gone.
+          Reference points: the perpetual cost of capital is the bond rate plus 4.5 points, about 9.28%
+          at today's rates; the return the accounts show today is 6.8% on all capital and 22.6% once
+          goodwill is set aside; this case's own year 10 earns about 13.5% (computed; dry run). With no
+          premium the perpetual reinvestment the model charges is growth divided by the cost of capital,
+          about half of after-tax operating profit at today's rates, against about a fifth in the last
+          modelled year, so cash flow steps down by about a third into the terminal year. The step cannot
+          be removed without giving this case a premium, which the method forbids here; the engine reports
+          it for the bear and does not flag it, because it is a property of assuming the advantage is
+          completely gone.
   base:
     weight: 0.50
     story: |
-      Marvell delivers the two years management has already put numbers on: sales reach about 18
-      billion next fiscal year, with custom chips for cloud companies more than doubling and the
-      optical parts business growing by half again. The custom target management has repeated for two
-      years, more than 10 billion of custom revenue the year after that, arrives a little late rather
-      than on time. After that growth halves twice as the first wave of
-      programs reaches full volume, but it stays well above a normal chip company's because the
-      scale-up part of the market is only starting. Profit margins roughly double, mostly because the
-      write-down of old acquisitions ends and costs grow at about half the rate of sales, while the
-      shift toward lower-margin custom silicon takes some of that back.
+      Marvell delivers the two years management has put numbers on, about 18 billion of sales next fiscal
+      year, and then its custom chips for cloud companies pass the target management set for the year
+      after as the Google programs behind the summer warrant begin to ship, while its optics and switches
+      keep growing with AI data-center spending and the new market for optics inside the rack. Growth
+      slows each year after that as the first wave of programs reaches full volume and customers build to
+      their capacity plans rather than in a rush, so that by the end of the forecast Marvell is a chip
+      company about seven times today's size, holding a leading share of the custom silicon market and a
+      leading place in the optics that connect AI computers. Profit margins roughly double, because the
+      write-down of old acquisitions runs off and costs grow far more slowly than sales, while the shift
+      toward lower-margin custom chips gives part of that back; tax starts at the low rate management
+      guides and rises to a mature company's. Most of the money growth needs is tied up in inventory and
+      unpaid customer bills rather than in factories, so growth is cheap to fund in the ramp years and
+      dearer later, when Marvell returns to buying small technology companies to refill its roadmap. Its
+      custom designs lock a customer in for a chip generation and its optics have led each speed step,
+      but its customers are a handful of giants who design chips themselves and press on price, so in the
+      long run its return on capital settles at about half the level it reaches at the end of the
+      forecast: well above its cost of capital, below what its designs earn today.
+    story_to_numbers:
+      - says: "Marvell delivers the two years management has put numbers on, about 18 billion of sales next fiscal year"
+        drives: "revenue growth, years 1 and 2"
+        number: "0.58, 0.47"
+        source: "[Q2 FY2027 call; Q2 FY2027 release]"
+      - says: "its custom chips for cloud companies pass the target management set for the year after as the Google programs behind the summer warrant begin to ship"
+        drives: "revenue growth, year 3 (the custom line of the segment build in fiscal 2029)"
+        number: "0.39"
+        source: "[Q1 FY2027 call; Q2 FY2027 call; 8-K 2026-08-19]"
+      - says: "Growth slows each year after that as the first wave of programs reaches full volume and customers build to their capacity plans rather than in a rush"
+        drives: "revenue growth, years 4 and 5, then the fade to the bond rate by year 10"
+        number: "0.20, 0.15"
+        source: "[Q1 FY2027 call; Q2 FY2027 call]"
+      - says: "by the end of the forecast Marvell is a chip company about seven times today's size, holding a leading share of the custom silicon market"
+        drives: "the end state the growth path is backed out from (year-10 revenue against the market size and the sector)"
+        number: "about 64,300 of revenue in year 10, of which custom about 31,400, a 25% share of a custom market of about 126,100"
+        source: "[Q1 FY2027 call; Damodaran histgr.xls and capex.xls, Semiconductor, 2026-01-05]"
+      - says: "Profit margins roughly double, because the write-down of old acquisitions runs off and costs grow far more slowly than sales"
+        drives: "operating margin, years 1 to 5"
+        number: "0.27, 0.32, 0.34, 0.35, 0.35"
+        source: "[10-Q Q2 FY2027, Note 5; Q2 FY2027 call]"
+      - says: "while the shift toward lower-margin custom chips gives part of that back"
+        drives: "operating margin, years 3 to 5 (gross margin carried from 58.9% to 55.5% inside the bridge, so the path flattens)"
+        number: "0.35"
+        source: "[Q2 FY2027 call; DEF 14A 2026, CD&A]"
+      - says: "tax starts at the low rate management guides and rises to a mature company's"
+        drives: "tax rate, start and terminal"
+        number: "0.13, 0.25"
+        source: "[Q2 FY2027 call]"
+      - says: "Most of the money growth needs is tied up in inventory and unpaid customer bills rather than in factories"
+        drives: "reinvestment override, year 1 (working capital on next year's growth plus the guided capacity prepayments, net of depreciation)"
+        number: "3700"
+        source: "[Q2 FY2027 call; 10-Q Q2 FY2027, Note 14; 10-K FY2026, Item 8]"
+      - says: "so growth is cheap to fund in the ramp years"
+        drives: "sales to capital, years 1 to 5 (the forward component build: 35 cents of working capital per new dollar plus capital spending at 4.5% of revenue)"
+        number: "2.2"
+        source: "[10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1]"
+      - says: "and dearer later, when Marvell returns to buying small technology companies to refill its roadmap"
+        drives: "sales to capital, years 6 to 10 (the acquisitions take the organic fade-year figure down to about 1.3; 1.1 is set with the eight-point terminal premium as a pair so that year 10 earns about twice the perpetual return, as the last sentence says)"
+        number: "1.1"
+        source: "[10-K FY2024, Item 8; 10-Q Q2 FY2027, Note 4; Damodaran capex.xls, Semiconductor, 2026-01-05]"
+      - says: "in the long run its return on capital settles at about half the level it reaches at the end of the forecast: well above its cost of capital, below what its designs earn today"
+        drives: "terminal return-on-capital premium (set with the late sales-to-capital ratio as a pair so that year 10 earns about twice the perpetual return), and terminal growth at the bond rate"
+        number: "0.08; riskfree"
+        source: "[10-Q Q2 FY2027, Item 1; business.md section 5]"
     revenue_growth:
-      values: [0.58, 0.41, 0.29, 0.18, 0.14]
-      reason: "Years 1 and 2 come from the two revenue figures management has given, roughly 12 billion this fiscal year and approximately 18 billion next, plus its custom target of more than 10 billion in the year after (outlook.md section 4). Years 3 to 5 keep the custom and optics ramps going but slow them as the first programs reach full volume, so growth is still four times the economy's in year 5 rather than back to it."
-      source: "[Q2 FY2027 call; Q2 FY2027 release; Q2 FY2027 slides, p.8; Q1 FY2027 call]"
+      values: [0.58, 0.47, 0.39, 0.20, 0.15]
+      reason: "Years 1 and 2 come from the two revenue figures management has given, roughly 12 billion this fiscal year and approximately 18 billion next, and year 3 from its custom target of over 10 billion in fiscal 2029, which the chief executive says now carries 'a lot of upside bias' (outlook.md section 4). Years 4 and 5 slow the custom and optics ramps as the first programs reach full volume, so growth is still three times the economy's in year 5 rather than back to it."
+      source: "[Q2 FY2027 call; Q2 FY2027 release; Q2 FY2027 slides, p.8; Q1 FY2027 call; 8-K 2026-08-19]"
       detail: |
-        How the year windows are built. Each model year is a twelve-month window ending in early
-        August, so it holds the second half of one fiscal year and the first half of the next. The
-        second half of fiscal 2027 is 6,843, which is the 'roughly 12 billion' full year less the
-        5,157.1 already reported, and the guided third quarter of 3,150 is 46% of it [Q2 FY2027 call;
-        Q2 FY2027 release; Q2 FY2027 supplemental, p.5]. First halves of later years are taken at 45%
-        of the fiscal year, because management says growth accelerates through fiscal 2028 and the
-        first half of fiscal 2027 was 43% of its year [Q2 FY2027 call; Q2 FY2027 supplemental, p.5].
-        Year 1 is therefore 6,843 plus 8,100, or 14,943, which is 58% above the base year (computed).
+        The run-rate the path starts from: the latest quarter is up 37% (2,739.3 against 2,006.1) and the
+        trailing twelve months up 31% (9,450.3 against 7,234.9) [Q2 FY2027 supplemental, p.5]. What moves
+        year 1 above it, each a named item in the latest filings: the third quarter is guided to 3,150,
+        15% above the second and more than 50% above a year earlier; the fourth is expected 'to further
+        accelerate'; fiscal 2027 is 'roughly 12 billion', so its second half is 12,000 less the 5,157.1
+        already reported, or 6,843; and fiscal 2028 is 'approximately 18 billion', up about 50%
+        [Q2 FY2027 release; Q2 FY2027 call]. Year 1 is that second half plus the first half of fiscal
+        2028, built line by line below, 14,904, which is 58% above the base year (computed).
 
-        The fiscal-year build. Marvell discloses only two end markets, so the four product groups
-        inside data center are our inference from the growth rates and dollar targets management has
-        given, and only the growth rates drive the path; the trailing figures for the two reported end
-        markets come from the eight-quarter table [10-Q Q2 FY2027, Note 3; Q2 FY2027 supplemental,
-        p.10]. Custom revenue for
-        fiscal 2026 is set at 2,000 so that a 35% rise this year and a doubling next year land where
-        analysts on the call put the business, 'around 5 billion to 6 billion in calendar 27' and 'a
-        little over 4 billion' for the processors alone, neither of which the chief executive disputed
-        [Q2 FY2027 call; Q1 FY2027 call]. Switching for fiscal 2026 is 300, because the fiscal 2027
-        target was 'exceed 600 million, doubling from fiscal 2026' [Q1 FY2027 call; Q1 FY2027 slides,
-        p.14]. Electro-optics is the residual and stays the largest group, which matches 'the largest
-        portion of our data center business' [Q1 FY2027 call]. Storage and other holds storage
-        controllers, retimers, active cables and memory expansion, none of it sized anywhere.
+        How the year windows are built. Each model year is a twelve-month window ending in early August,
+        so it holds the second half of one fiscal year and the first half of the next. Each line's
+        first-half share of a fiscal year is set by its own growth pace (steady quarter-on-quarter growth
+        gives a first half of 1 divided by 1 plus the square root of 1 plus the year's growth, which is
+        45% of a year growing 50%); the reported halves of fiscal 2026 and fiscal 2027 are used where they
+        exist, and the first half of fiscal 2027 was 43% of its year [Q2 FY2027 supplemental, p.5; p.10].
 
-        | Fiscal year | Custom compute | Electro-optics | Switching | Storage and other data center | Data center | Communications and other | Company |
-        |---|---|---|---|---|---|---|---|
-        | FY2026 actual | 2,000 | 2,900 | 300 | 900 | 6,100 | 2,094 | 8,195 |
-        | FY2027 | 2,700 | 5,100 | 700 | 1,200 | 9,700 | 2,300 | 12,000 |
-        | FY2028 | 5,700 | 7,600 | 1,100 | 1,200 | 15,600 | 2,400 | 18,000 |
-        | FY2029 | 9,200 | 10,000 | 1,550 | 1,350 | 22,100 | 2,600 | 24,700 |
-        | FY2030 | 12,000 | 11,800 | 1,950 | 1,400 | 27,150 | 2,700 | 29,850 |
-        | FY2031 | 14,400 | 13,600 | 2,300 | 1,450 | 31,750 | 2,800 | 34,550 |
-        | FY2032 | 16,600 | 15,000 | 2,650 | 1,500 | 35,750 | 2,900 | 38,650 |
+        The end state, set before the path. In year 10 (the twelve months to about August 2036) Marvell
+        sells about 64,300, 6.8 times today's revenue. That is 13% to 14% of the 460,000 to 510,000 that
+        the 66 US semiconductor companies in Damodaran's dataset sell today (an inference from the row's
+        net capital spending of 22,421, its 4.4% net capital spending to sales and its 14.5% of after-tax
+        operating profit at a 33.5% after-tax margin); no competitor revenue figure exists in the cached
+        reports or sources, so the sector aggregate stands in for the largest companies [Damodaran
+        capex.xls and margin.xls, Semiconductor, 2026-01-05]. Of that revenue, custom at its year-5 share
+        of 49% is about 31,400, a 25% share of the custom market carried to year 10 in the diagnostics,
+        against the 20% management targets for fiscal 2029; at a market growing 15% a year the share
+        would be 20% (computed) [Q1 FY2027 call]. Why this company takes that share against this
+        competition: it has 'custom engagements across the board at all the US' hyperscalers (the machine transcript
+        truncates the last word), the Google agreement
+        covers 'a comprehensive range' of chips that attach to that customer's own processor, and
+        management says its attach programs have 'all ... sized up significantly since we won them', while the competition
+        is Broadcom and the customers' own design teams, which is why the share is a quarter and not a
+        half [Q1 FY2027 call; 8-K 2026-08-19; 10-K FY2026, Item 1]. The path below is backed out from
+        that end state through the fiscal-year build.
 
-        Checks on that table against what management said: the company grows 46% in fiscal 2027 against
-        'approximately 45%' and 50% in fiscal 2028 against 'approximately 50%'; data center grows 59%
-        and 61% against 'approximately 60%' and 'more than 60%'; custom doubles in fiscal 2028 against
-        'more than double'; communications and other grows 10% then 4%, against a target it expects to
-        'approach' this year and low single digits next; and custom reaches 9,200 in fiscal 2029
-        against management's 'over 10 billion', the one place this case is deliberately below the
-        company [Q2 FY2027 call; Q1 FY2027 call].
+        The fiscal-year build under the current two-segment definition. Marvell reports only data center
+        and communications and other [10-Q Q2 FY2027, Note 3]. Inside data center, two lines have a
+        sourced anchor and a growth engine of their own, so they are carried separately and labelled as
+        our inference: custom (program wins at a few customers with two-year development cycles, sized
+        top-down from management's target and market) and switching (share gain in an established
+        Ethernet market plus the new scale-up switch market); everything else in data center (optical
+        DSPs, TIAs and drivers, DCI modules, scale-up optics, storage, cables and retimers, merchant parts
+        that follow cloud spending and speed transitions and share one engine) is one residual line, so
+        that no line is split without a basis. Anchors: custom in fiscal 2026 is set at 2,000 so that the
+        'more than 20%' fiscal 2027 growth and the 'more than double' fiscal 2028 land where analysts on
+        the calls put the business, 'around 5 billion to 6 billion in calendar 27' and 'a little over 4
+        billion' for the processors alone, neither disputed by the chief executive [Q1 FY2027 call;
+        Q2 FY2027 call]; fiscal 2029 custom is 11,500, management's own arithmetic of 20% of a 55 billion
+        market ('11 billion. So call it in that range') with the Google programs contributing 'much more
+        significantly in fiscal 29' [Q1 FY2027 call; Q2 FY2027 call]; switching in fiscal 2026 is 300
+        because the fiscal 2027 target was 'exceed 600 million, doubling from fiscal 2026', tracking to
+        'more than 1 billion in annualized revenue in fiscal 2028' [Q1 FY2027 call]; the residual is data
+        center's 6,100.3 less those two, and it includes the DCI modules that did 'roughly 500 million' in
+        fiscal 2026 with 'line of sight to a 1 billion annualized revenue during fiscal 28' [10-K FY2026,
+        Note 3; Q1 FY2027 call].
+
+        | Fiscal year | Custom | Switching | Interconnect and other data center | Data center | Data center growth | Communications and other | Company | Company growth |
+        |---|---|---|---|---|---|---|---|---|
+        | FY2026 actual | 2,000 | 300 | 3,800 | 6,100 | 46% | 2,094 | 8,195 | 42% |
+        | FY2027 | 2,700 | 650 | 6,410 | 9,760 | 60% | 2,250 | 12,010 | 47% |
+        | FY2028 | 5,700 | 1,000 | 9,000 | 15,700 | 61% | 2,350 | 18,050 | 50% |
+        | FY2029 | 11,500 | 1,400 | 11,300 | 24,200 | 54% | 2,450 | 26,650 | 48% |
+        | FY2030 | 15,500 | 1,850 | 13,500 | 30,850 | 28% | 2,550 | 33,400 | 25% |
+        | FY2031 | 19,000 | 2,300 | 15,500 | 36,800 | 19% | 2,650 | 39,450 | 18% |
+        | FY2032 | 22,000 | 2,700 | 17,200 | 41,900 | 14% | 2,750 | 44,650 | 13% |
+
+        Checks on that table against what management said: the company grows 47% in fiscal 2027 against
+        'approximately 45%' to 'roughly 12 billion', and 50% in fiscal 2028 against 'approximately 50%'
+        to 'approximately 18 billion'; data center grows 60% and 61% against 'approximately 60%' and
+        'more than 60%'; custom grows 35% then 111% against 'more than 20%' and 'more than double', and
+        reaches 11,500 in fiscal 2029 against 'over 10 billion' with 'upside bias'; the residual grows
+        69% in fiscal 2027 against the 'more than 70%' interconnect target that was not restated;
+        communications and other grows 7% then 4% against a target it expects to 'approach' this year and
+        low single digits next [Q2 FY2027 call; Q1 FY2027 call]. The cumulative custom revenue from
+        fiscal 2028 to fiscal 2033 in this build is about 98,500 from all customers, against the 120,000
+        of purchases from Google alone that would vest every warrant slice, so this case has Google buying
+        at roughly half the pace the warrant allows, the middle of the range the chief executive framed
+        when he called full performance 'a monster number' (computed) [8-K 2026-08-19; Q2 FY2027 call].
 
         | Part of the business | Trailing revenue | Latest reported growth | Year 1 growth | Year 3 growth | Year 5 growth |
         |---|---|---|---|---|---|
-        | Custom compute | 2,151 | dollars not disclosed | up 91% | up 44% | up 18% |
-        | Electro-optics | 3,615 | dollars not disclosed | up 75% | up 25% | up 13% |
-        | Switching | 446 | dollars not disclosed | up 100% | up 33% | up 17% |
-        | Storage and other data center | 962 | dollars not disclosed | up 27% | up 8% | up 4% |
-        | Data center, as reported | 7,173 | up 46% in the quarter, up 33% on the year | up 75% | up 32% | up 15% |
-        | Communications and other, as reported | 2,277 | up 10% in the quarter, up 24% on the year | up 5% | up 6% | up 4% |
-        | Company | 9,450 | up 37% in the quarter, up 31% on the year | up 58% | up 29% | up 14% |
+        | Custom (inference) | 2,147 | dollars not disclosed | up 82% | up 71% | up 19% |
+        | Switching (inference) | 423 | dollars not disclosed | up 96% | up 36% | up 21% |
+        | Interconnect and other data center (residual) | 4,604 | dollars not disclosed | up 72% | up 22% | up 13% |
+        | Data center, as reported | 7,173 | up 46% in the quarter, up 33% on the year | up 76% | up 43% | up 16% |
+        | Communications and other, as reported | 2,277 | up 10% in the quarter, up 24% on the year | down 1% | up 4% | up 4% |
+        | Company | 9,450 | up 37% in the quarter, up 31% on the year | up 58% | up 39% | up 15% |
 
-        The trailing figures for the four product groups are the fiscal-year build read over the same
-        twelve-month window, 52% of fiscal 2026 plus 43% of fiscal 2027, scaled so the four sum to the
-        7,173.4 of data center revenue actually reported [Q2 FY2027 supplemental, p.10]. Company revenue
-        in the five windows: 14,931; 21,053; 27,159; 32,048; 36,534 (computed). The build sums to within
-        half a percent of those figures in every year, the difference being the growth rates above
-        rounded to whole percentage points. The
-        year-1 rate of 58% is above the 37% just reported because every one of the next four quarters
-        is guided or signalled higher: the third quarter at 3,150 is 15% above the second, management
-        expects the fourth to accelerate again, and the following year is guided to grow about 50%
-        [Q2 FY2027 release; Q2 FY2027 call].
+        Trailing figures for the two reported segments come from the eight-quarter table; the three
+        inferred lines are the fiscal build read over the same window, scaled so they sum to the 7,173.4
+        of data center revenue actually reported [Q2 FY2027 supplemental, p.10]. Company revenue in the
+        five windows: 14,904; 21,932; 30,462; 36,553; 42,182, and the rounded path the engine runs gives
+        14,931; 21,949; 30,509; 36,611; 42,103, within a quarter of a percent in every year (computed).
 
-        Drivers of each step down of more than three points. Year 1 to year 2, 58% to 41%: the doubling
-        of custom silicon as the second large processor program and the first attach programs for the
-        named cloud customer reach volume happens once, and the 1.6 terabit optical step is inside
-        year 1 as well [Q2 FY2027 call; 8-K 2026-08-19]. Year 2 to year 3, 41% to 29%: fiscal 2029 is
-        the last year with a target from management, and the custom step it implies, about 60%, is
-        smaller than the doubling before it because the first programs are then at full volume
-        [Q1 FY2027 call]. Year 3 to year 4, 29% to 18%: the cluster build-out those programs serve is
-        complete, so the business grows with its customers' capacity plans rather than with a ramp, and
-        management's own planning assumption a quarter earlier was cloud capital spending growth
-        'moderating into the 30%-plus range' [Q1 FY2027 call]. Year 4 to year 5, 18% to 14%: the 1.6
-        terabit optical generation matures and the shift of scale-up links from copper to light, which
-        management says will 'take several years with both technologies coexisting', is by then priced
-        into the base [Q2 FY2027 call].
+        Drivers of each step down of more than three points. Year 1 to year 2, 58% to 47%: fiscal 2027's
+        guided second-half surge leaves the window and the doubling of custom in fiscal 2028 is a
+        one-time step as the second large processor program and the first attach programs reach volume,
+        with the 1.6 terabit optical step inside year 1 as well [Q2 FY2027 call; 8-K 2026-08-19]. Year 2
+        to year 3, 47% to 39%: fiscal 2029 is the last year with a custom target, its step from 5,700 to
+        11,500 is smaller in proportion than the doubling before it, and interconnect moderates to 26%
+        as cloud capital spending growth eases into 'the 30%-plus range' management planned for a
+        quarter earlier [Q1 FY2027 call; Q2 FY2027 call]. Year 3 to year 4, 39% to 20%: the first wave
+        of programs (the flagship processor, the new top-tier processor and the Google attach chips) is
+        at full volume by fiscal 2030, so the business grows with its customers' capacity plans rather
+        than with a ramp [Q1 FY2027 call]. Year 4 to year 5, 20% to 15%: the 1.6 terabit optical
+        generation matures and the shift of scale-up links from copper to light, which management says
+        will 'take several years with both technologies coexisting', is by then priced into the base,
+        while custom slows to 16% as its share of its market nears a quarter [Q2 FY2027 call]. After year
+        5 the engine fades growth in a straight line to the bond rate by year 10.
 
-        Is it possible: the only market figure in the sources is the 55,000 custom silicon market
-        management sized for fiscal 2029, of which this case takes 9,200 in that year, a 17% share
-        against the 20% management aims for. By year 5 custom is about 15,400, or 28% of that same
-        fiscal 2029 market. By year 10, the twelve months to about August 2036, company revenue reaches
-        54,729 at the fade the rule applies, and custom, if it keeps its year-5 share of 42%, is about
-        23,000; for that to be a fifth of its market the custom market has to grow about 11% a year
-        from the fiscal 2029 figure, and for a quarter of it about 8% a year (computed) [Q1 FY2027
-        call]. The other 21,100 of year-5 revenue sells into optics, switching, storage and
-        communications markets the sources do not size, so the company-level test cannot be completed
-        from what is cached, which is why the market-size cell above is left empty. Is it plausible: the margin
-        and reinvestment paths below are built from the cost structure in business.md sections 3 and 4,
-        where the design bill is fixed and most of the investment is working capital. Is it probable:
-        the scorecard shows 10 of 12 claims met last quarter and both full-year figures raised twice
-        in a row; the fiscal 2029 custom figure of more than 10 billion dates from June 2025, and the
-        April 2024 version of the same target was about 8 billion, so the target has been raised once
-        and repeated since, not held unchanged (scorecard.md; outlook.md section 6) [Q2 FY2027 call;
-        Q1 FY2027 call].
+        Growth agrees with margin: half of year-5 revenue is custom silicon, which carries a lower gross
+        margin than merchant parts, so the margin path below flattens rather than climbing toward the top
+        of the industry; a niche-margin story is not being asked to carry mass-market revenue. Is it
+        plausible: the margin and reinvestment paths below are built from the cost structure in
+        business.md sections 3 and 4, where the design bill is fixed and most of the investment is
+        working capital. Is it probable: the scorecard shows 10 of 12 claims met last quarter and both
+        full-year figures raised twice in a row; the fiscal 2029 custom figure dates from June 2025 and
+        the April 2024 version of the same target was about 8 billion, so the target has been raised once
+        and repeated since, and this quarter the chief executive added that custom numbers for fiscal
+        2029 and beyond 'definitely go higher' than anything modelled before the warrant (scorecard.md;
+        outlook.md section 6) [Q2 FY2027 call; Q1 FY2027 call].
     operating_margin:
-      values: [0.25, 0.30, 0.32, 0.33, 0.33]
-      reason: "The official margin roughly doubles from today's 16.5%, and both halves of that come out of the accounts rather than out of optimism: the yearly write-down of past acquisitions falls from 9.4 points of revenue to under one, and operating expenses grow at about half the rate of revenue, which is what management has told investors to expect (business.md section 3; outlook.md section 4). The shift toward lower-margin custom silicon takes about three points back off gross margin by year 5, which is why the path flattens instead of climbing all the way."
-      source: "[Q2 FY2027 call; Q2 FY2027 release; 10-Q Q2 FY2027, Note 5; Q2 FY2027 supplemental, p.5]"
+      values: [0.27, 0.32, 0.34, 0.35, 0.35]
+      reason: "The reported margin roughly doubles from today's 16.5% to 35%, which is the average operating margin of the US semiconductor industry, and both halves of the climb come out of the accounts: the yearly write-down of past acquisitions falls from 9.4 points of revenue to almost nothing, and operating expenses grow at about half the rate of revenue, which is what management has told investors to expect (business.md section 3; outlook.md section 4). The shift toward lower-margin custom silicon takes about three points off gross margin by year 5, which is why the path flattens at the industry average instead of climbing past it."
+      source: "[Q2 FY2027 call; Q2 FY2027 release; 10-Q Q2 FY2027, Note 5; Q2 FY2027 supplemental, p.5; Damodaran margin.xls, Semiconductor, 2026-01-05]"
       detail: |
-        The bridge in two steps: first the company's own adjusted margin, then the three costs that
-        version leaves out but this model keeps.
+        Where the target sits. Damodaran's US semiconductor row earns a 35.3% operating margin after
+        share pay and amortization, 40.4% before share pay, on a 59.0% gross margin with research at
+        15.4% of sales and share pay at 5.0%; the neighbouring rows read 33.0% for system and application
+        software, 26.2% for semiconductor equipment and 12.8% for the whole market [Damodaran margin.xls,
+        2026-01-05]. Marvell's own best reported year was 16.1% (FY2026) and the latest quarter 16.8%;
+        its worst was minus 12.5% (FY2025); its adjusted margin was 35.3% in FY2026 and 36.6% in the
+        latest quarter, and management's target is 38% to 40% adjusted, 'likely to enter' that range
+        this quarter, at 'the upper end' through fiscal 2028, and about to be 'reset' at the October 6
+        Investor Day (business.md section 3) [Q2 FY2027 release; Q2 FY2027 call]. The year-5 reported
+        margin of 35% therefore places the base case at the industry average on the reported measure and,
+        at 42% adjusted, just above the industry's 40.4% before share pay and above management's current
+        38% to 40%: Marvell becomes an average-margin US semiconductor company, not a top-decile one,
+        because half its sales are custom chips at thinner gross margins. Named comparables from
+        business.md (Broadcom) carry no margin figure in the cached sources, so the industry rows stand
+        in for them.
 
-        | Fiscal year | Adjusted gross margin | Operating expenses | Expenses over revenue | Adjusted operating margin |
-        |---|---|---|---|---|
-        | FY2027 | 58.5% | 2,550 | 21.3% | 37.2% |
-        | FY2028 | 58.0% | 3,190 | 17.7% | 40.3% |
-        | FY2029 | 57.0% | 3,924 | 15.9% | 41.1% |
-        | FY2030 | 56.5% | 4,510 | 15.1% | 41.4% |
-        | FY2031 | 56.0% | 5,000 | 14.5% | 41.5% |
-        | FY2032 | 55.5% | 5,400 | 14.0% | 41.5% |
+        Growth spending inside today's costs, named before the path is set: research is 25.8% of revenue
+        against the industry's 15.4%, and new custom chips take 'approximately 2 years' to reach revenue,
+        so roughly ten points of today's costs are design work for sales that have not arrived; the path
+        below has adjusted operating expenses falling from 21.2% of revenue to 13.4% by fiscal 2032, at
+        which point research plus selling costs including share pay are about 20% of revenue against the
+        industry's 21.5% [Damodaran margin.xls, Semiconductor, 2026-01-05; Q1 FY2027 call].
+
+        The bridge in two steps: first the company's own adjusted margin by fiscal year, then the three
+        costs that version leaves out but this model keeps, converted to the model's windows.
+
+        | Fiscal year | Adjusted gross margin | Adjusted operating expenses | Expenses over revenue | Adjusted operating margin | Share-based pay | Custom share of revenue |
+        |---|---|---|---|---|---|---|
+        | FY2027 | 58.5% | 2,550 | 21.2% | 37.3% | 1,164 | 22% |
+        | FY2028 | 58.0% | 3,190 | 17.7% | 40.3% | 1,450 | 32% |
+        | FY2029 | 57.0% | 4,200 | 15.8% | 41.2% | 1,850 | 43% |
+        | FY2030 | 56.5% | 4,900 | 14.7% | 41.8% | 2,200 | 46% |
+        | FY2031 | 56.0% | 5,500 | 13.9% | 42.1% | 2,500 | 48% |
+        | FY2032 | 55.5% | 6,000 | 13.4% | 42.1% | 2,750 | 49% |
 
         Fiscal 2027 expenses are management's own 'approximately 2.55 billion' and the quarters check
-        out: 576.9 reported in the first, 611 in the second, 655 guided for the third, leaving 707 for
-        the fourth, which puts the fourth-quarter adjusted operating margin at 38.9%, matching 'likely
-        to enter our 38% to 40% long-term target range in Q4' [Q1 FY2027 release; Q2 FY2027 call].
-        Fiscal 2028 expenses grow 25%, half the guided 50% revenue growth, exactly as management said
-        they would; from fiscal 2029 they grow at two-thirds of revenue growth instead, because
-        nothing beyond fiscal 2028 is guided and design teams have to be added to hold this share
-        [Q2 FY2027 call].
+        out: 576.9 reported in the first, 610.8 in the second, 655 guided for the third, leaving about 707
+        for the fourth, which puts the fourth-quarter adjusted operating margin near 39%, matching 'likely
+        to enter our 38% to 40% long-term target range in Q4' [Q2 FY2027 release; Q2 FY2027 call]. Fiscal
+        2028 expenses grow 25%, half the guided 50% revenue growth, exactly as management said they would;
+        from fiscal 2029 they grow at about two-thirds of revenue growth, because nothing beyond fiscal
+        2028 is guided and design teams have to be added to hold a quarter of the custom market
+        [Q2 FY2027 call]. Gross margin: the first half of fiscal 2027 was 59.0%, the third quarter is
+        guided to 57.5% to 58.5%, the fourth 'in this range' and fiscal 2028 'in a similar range', so
+        58.5% and 58.0%; after that it is carried down half a point a year as custom rises to half of
+        revenue, which is what a mix of merchant parts at about 61% and custom at about 50% produces
+        (an inference: 22% custom gives 58.6%, 49% gives 55.6%) [Q2 FY2027 release; Q2 FY2027 call].
 
-        | Model year | Adjusted operating margin | Less share-based pay | Less acquisition write-downs | Less restructuring and deal costs | Official margin | Used |
-        |---|---|---|---|---|---|---|
-        | 1 | 38.9% | 9.6 | 3.9 | 0.4 | 25.0% | 25% |
-        | 2 | 40.7% | 8.1 | 1.6 | 0.3 | 30.7% | 30% |
-        | 3 | 41.2% | 7.2 | 1.0 | 0.3 | 32.7% | 32% |
-        | 4 | 41.4% | 6.7 | 0.8 | 0.3 | 33.6% | 33% |
-        | 5 | 41.5% | 6.4 | 0.5 | 0.3 | 34.3% | 33% |
+        | Model year | Adjusted operating margin | Less share-based pay | Less acquisition write-downs | Less write-down of acquired research | Less restructuring and deal costs | Reported margin | Used |
+        |---|---|---|---|---|---|---|---|
+        | 1 | 39.6% | 8.6 | 3.6 | 0.2 | 0.3 | 26.9% | 27% |
+        | 2 | 40.9% | 7.4 | 1.0 | 0.4 | 0.3 | 31.8% | 32% |
+        | 3 | 41.4% | 6.7 | 0.4 | 0.4 | 0.3 | 33.6% | 34% |
+        | 4 | 41.9% | 6.5 | 0.2 | 0.4 | 0.3 | 34.5% | 35% |
+        | 5 | 42.1% | 6.2 | 0.1 | 0.4 | 0.3 | 35.0% | 35% |
 
-        Each year is rounded down where the arithmetic fell between two numbers.
+        Each row is rounded to the nearest whole point, in whichever direction it falls; the previous
+        draft rounded every row down, which the method treats as a bias rather than caution. The target
+        is reached in year 4 and held, so nothing is still moving in year 5, and the engine holds 35%
+        through year 10.
 
-        What drags on the margin. Custom silicon carries a lower gross margin than the standard parts,
-        which the chief financial officer confirmed this quarter when he named mix as 'the primary
-        driver' of a guided step down to 57.5% to 58.5% from 58.9%; custom rises from 23% of company
-        revenue in fiscal 2027 to 43% in fiscal 2032 in the table above, and gross margin is carried
-        down three points to match [Q2 FY2027 call]. Share-based pay is the largest single deduction
-        and it is not guided: it was 326.2 in the latest quarter alone, more than double a year
-        earlier, with 190.1 of acquired-company awards still to be charged, and this path assumes it
-        grows about 13% a year from that run rate, so it falls from 11.9% of revenue today to 6.4% in
-        year 5 [Q2 FY2027 supplemental, p.5; 10-Q Q2 FY2027, Note 10]. Research bought in acquisitions
-        but not yet in use, 1,297.0, starts being written off over 6 to 13 years as those products
-        ship, which adds 100 to 216 a year and is included above [10-Q Q2 FY2027, Note 5].
+        What drags. Custom silicon carries a lower gross margin than the standard parts: the chief
+        financial officer named mix as 'the primary driver' of the guided step down to 57.5% to 58.5%
+        from 58.9%, and the board cut the fiscal 2026 gross-margin bonus target for 'the expected
+        near-term product mix shift' to support 'competitive pricing, volume commitments, and start-up
+        investments to capture share in the data center AI market' [Q2 FY2027 call; DEF 14A 2026, CD&A].
+        Share-based pay is the largest single deduction and it is not guided: it was 326.2 in the latest
+        quarter, more than double a year earlier, with 190.1 of acquired-company awards still to be
+        charged; this path grows it with operating expenses, from 1,164 in fiscal 2027 to 2,750 in fiscal
+        2032, so it falls from 8.8% of revenue today to 6.2%, still above the industry's 5.0%
+        [Q2 FY2027 supplemental, p.5; 10-Q Q2 FY2027, Note 10; Damodaran margin.xls, Semiconductor,
+        2026-01-05]. Research bought in acquisitions but not yet in use, 1,297.0, starts being written off
+        over 6 to 13 years as those products ship, taken at 60 in fiscal 2028 rising to 150 a year by
+        fiscal 2031 (an inference inside the 100 to 216 range), and restructuring and deal costs run at
+        0.3% of revenue, their trailing rate [10-Q Q2 FY2027, Note 5; Q2 FY2027 supplemental, p.8].
 
-        What offsets it. Operating leverage is already visible: the adjusted operating margin was 36.6%
-        in the latest quarter, up 1.8 points on the year and 1.6 on the quarter, on the same gross
+        What offsets. Operating leverage is already visible: the adjusted operating margin was 36.6% in
+        the latest quarter, up 1.8 points on the year and 1.6 on the quarter on an unchanged gross
         margin, and management expects revenue to keep 'growing substantially faster than operating
-        expenses' [Q2 FY2027 call]. The write-down of acquired technology and customer relationships
-        falls on a schedule already in the accounts: 385.3 for the rest of fiscal 2027, then 292.7,
-        139.6, 117.2, 60.8 and 54.0 after that, so it drops from 9.4 points of revenue in the base
-        year to about half a point by year 5 [10-Q Q2 FY2027, Note 5]. Deducting a full 1,297.0 of
-        not-yet-started write-downs and holding share-based pay at 13% growth are the two places this
-        path is deliberately harder on the margin than the company's own presentation.
+        expenses' [Q2 FY2027 call]. The write-down of acquired technology falls on a schedule already in
+        the accounts: 385.3 for the rest of fiscal 2027, then 292.7, 139.6, 117.2, 60.8 and 54.0 after
+        that, so it drops from 9.4 points of revenue in the base year to 0.1 by year 5 [10-Q Q2 FY2027,
+        Note 5]. Depreciation is a tailwind, not a drag: at capital spending of 4.5% of revenue it runs
+        443, 531, 637, 765 and 918 over years 1 to 5, falling from 3.9% of revenue today to 2.2%, worth
+        about 1.7 points inside the operating-expense line (computed from the reinvestment table)
+        [10-Q Q2 FY2027, Item 1]. Mix within the merchant lines helps too: scale-up optics and switching
+        are merchant products at merchant margins, and management expects gross margin 'in a similar
+        range' next year even as custom doubles [Q2 FY2027 call].
     sales_to_capital:
-      value: 2.0
-      value_late: 1.0
-      reason: "Each dollar Marvell invests supports about two dollars of new sales, because most of its investment is money tied up in stock and in bills customers have not paid yet rather than in factories, which belong to someone else (business.md section 3). The later figure of 1.00 assumes growth in the fade years is bought partly by acquisition, as the last two growth pushes were."
-      source: "[10-K FY2024, Item 8; 10-K FY2026, Item 7; Item 8; 10-Q Q2 FY2027, Item 1; Note 4; Note 14]"
+      value: 2.2
+      value_late: 1.1
+      reason: "Each dollar Marvell invests supports about 2.20 of new sales through year 5, which is what the forward arithmetic gives when most of the investment is money tied up in stock and unpaid customer bills rather than in factories, and it sits below Marvell's own lagged organic record and above the industry's 1.21 (business.md section 3). The later figure of 1.10 sits a little below the 1.3 the fade-year arithmetic gives once the story's acquisitions are counted, and it is chosen as a pair with the eight-point terminal premium: together they make the year-10 return about twice the perpetual return, which is what the story's last sentence says and what the method's transition test requires, whereas at 1.3 the pair would need a nine-point premium and an exception to the method's ceiling."
+      source: "[10-K FY2024, Item 8; 10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1; Note 4; Note 14; Damodaran capex.xls, Semiconductor, 2026-01-05]"
       detail: |
         Measured the way the model spends the money. This model assumes what is spent in one year buys
         the next year's growth, so the record below divides each year's investment into the following
         year's revenue increase. Investment is capital spending less depreciation, plus the increase in
-        working capital, plus cash paid for acquisitions.
+        working capital (the six operating lines of the cash-flow statement), plus cash paid for
+        acquisitions.
 
-        | Fiscal year of spending | Capital spending | Depreciation | Working capital increase | Cash for acquisitions | Investment, with deals | Investment, without deals | Next year's revenue increase | Ratio, lagged, without deals | Same-year ratio, for contrast |
+        | Fiscal year of spending | Capital spending | Depreciation | Working capital increase | Cash for acquisitions | Investment, with deals | Investment, without deals | Next year's revenue increase | Lagged ratio, with deals | Lagged ratio, without deals |
         |---|---|---|---|---|---|---|---|---|---|
-        | FY2022 | 169.2 | 265.9 | 662.9 | 3,555.0 | 4,121.2 | 566.2 | 1,457.2 | 2.6 | not computable |
-        | FY2023 | 206.2 | 304.9 | 649.8 | 112.3 | 663.4 | 551.1 | -411.9 | not meaningful | 2.2 |
-        | FY2024 | 336.3 | 299.8 | -57.8 | 0 | -21.3 | -21.3 | 259.6 | not meaningful | not meaningful |
-        | FY2025 | 284.6 | 304.3 | -129.1 | 10.4 | -138.4 | -148.8 | 2,427.3 | not meaningful | not meaningful |
-        | FY2026 | 354.1 | 348.6 | 1,108.3 | 0 | 1,113.8 | 1,113.8 | 3,805.4 | 3.4 | 2.2 |
+        | FY2022 | 169.2 | 265.9 | 662.9 | 3,555.0 | 4,121.2 | 566.2 | 1,457.2 | 0.35 | 2.6 |
+        | FY2023 | 206.2 | 304.9 | 649.8 | 112.3 | 663.4 | 551.1 | minus 411.9 | not meaningful | not meaningful |
+        | FY2024 | 336.3 | 299.8 | minus 57.8 | 0 | minus 21.3 | minus 21.3 | 259.6 | not meaningful | not meaningful |
+        | FY2025 | 284.6 | 304.3 | minus 129.1 | 10.4 | minus 138.4 | minus 148.8 | 2,427.3 | not meaningful | not meaningful |
+        | FY2026 | 354.1 | 348.6 | 1,108.3 | 0 | 1,113.8 | 1,113.8 | 3,805.4 | 3.4 | 3.4 |
+        | Five years together | 1,350.4 | 1,523.5 | 2,234.1 | 3,677.7 | 5,738.7 | 2,061.0 | 7,537.6 | 1.3 | 3.7 |
 
-        Sources for the table: fiscal 2022 and 2023 [10-K FY2024, Item 8]; fiscal 2024 to 2026
-        [10-K FY2026, Item 8]; the fiscal 2027 revenue increase uses the 'roughly 12 billion' guide
-        [Q2 FY2027 call]. Working capital is the sum of the receivable, inventory, prepaid, payable and
-        accrual lines in the cash-flow statement.
+        Sources for the table: fiscal 2022 and 2023 [10-K FY2024, Item 8]; fiscal 2024 to 2026 [10-K
+        FY2026, Item 8]; the fiscal 2027 revenue increase uses the 'roughly 12 billion' guide [Q2 FY2027
+        call]. Reading it: in the two years where Marvell invested a positive amount and revenue then
+        rose, the lagged ratio was 2.6 and 3.4; two years show investment below zero because capital
+        spending was under depreciation and working capital came back, and revenue then rose anyway,
+        which is the mark of a company that invested ahead of its growth in fiscal 2022 and 2023; over the
+        five years together the ratio is 3.7 without deals and 1.3 with them.
 
-        Reading it: in the two years where Marvell invested a positive amount and revenue then rose,
-        the lagged ratio was 2.6 and 3.4, above the 2.2 the same year's figures show, which is what a
-        one-year lag does to a company whose spending runs ahead of its sales. Two of the five years
-        show investment below zero, because capital spending was under depreciation and working capital
-        came back, so no ratio can be read from them.
+        The three candidates and where the numbers land.
 
-        Why 2.00 rather than the 2.6 to 3.4 the record shows. Working out the same arithmetic forwards:
-        each new dollar of revenue has recently taken 34 to 55 cents of extra working capital, 40 cents
-        on the balance sheet last year and 46 on the cash-flow measure, and on top of that Marvell now
-        pays cash to reserve factory capacity, about 1 billion this fiscal year, which the old record
-        does not contain [10-K FY2026, Item 7; Q2 FY2027 call; Q2 FY2027 supplemental, p.4]. At 40
-        cents of working capital and capital spending of 4% to 5% of revenue, the ratio comes out near
-        2.00, so the forward arithmetic rather than the history sets the number.
+        | Candidate | Figure | Where it comes from |
+        |---|---|---|
+        | Marvell's own lagged record | 2.6 and 3.4 organic; 1.3 over five years with acquisitions | the table above |
+        | Last year's marginal lagged ratio | 3.4 for fiscal 2026 spending against the fiscal 2027 guide; about 0.95 for fiscal 2027 spending including Celestial and XConn against the fiscal 2028 guide, or 2.35 without those deals | the table above; fiscal 2027 spending estimated as 1,332 of working capital, 220 of capital spending net of depreciation, 1,000 of prepayments, 1,270.9 of deal cash and about 2,500 of deal shares [10-Q Q2 FY2027, Note 4; Q2 FY2027 call] |
+        | The industry average | 1.21 | [Damodaran capex.xls, Semiconductor, 'Sales/ Invested Capital (LTM)', 2026-01-05] |
+        | Chosen, years 1 to 5 | 2.2 | at the forward component build below; below the organic record, above the industry |
+        | Chosen, years 6 to 10 | 1.1 | just below the 1.3 the fade-year arithmetic with acquisitions gives; set as a pair with the eight-point premium so that year 10 earns about twice the perpetual return |
+
+        The forward arithmetic that sets 2.2. Each new dollar of revenue has recently taken 31 to 46
+        cents of working capital: 34 cents on the balance-sheet measure in fiscal 2026 (working capital
+        of 1,101.1 against 274.7 a year earlier on 2,427.3 of added revenue), 31 cents from then to the
+        latest quarter (1,487.0 on 1,255.7 of added revenue) and 46 cents on the cash-flow measure in
+        fiscal 2026, which also carries non-working-capital items; 35 cents is used [10-K FY2026, Item 8;
+        10-Q Q2 FY2027, Item 1]. Capital spending has run 3.5% to 6.1% of revenue over five fiscal years
+        and 5.0% in the trailing year (470.2), with 351.6 of commitments mostly due within a year, so 4.5%
+        is used; depreciation is 368.8 in the trailing year and is grown 20% a year as that spending
+        accumulates [10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1; Note 9].
+
+        | Model year | Revenue | Next year's revenue increase | Working capital at 35 cents | Capital spending at 4.5% | Depreciation | Capital spending net of depreciation | Factory prepayments | Forward investment | Forward ratio |
+        |---|---|---|---|---|---|---|---|---|---|
+        | 1 | 14,931 | 7,018 | 2,456 | 672 | 443 | 229 | 1,000 | 3,686 | 1.9 |
+        | 2 | 21,949 | 8,560 | 2,996 | 988 | 531 | 457 | none guided | 3,453 | 2.5 |
+        | 3 | 30,509 | 6,102 | 2,136 | 1,373 | 637 | 736 | none guided | 2,871 | 2.1 |
+        | 4 | 36,611 | 5,492 | 1,922 | 1,648 | 765 | 883 | none guided | 2,805 | 2.0 |
+        | 5 | 42,103 | 5,455 | 1,909 | 1,895 | 918 | 977 | none guided | 2,886 | 1.9 |
+
+        Years 2 to 5 average 2.1, so 2.2 is the forward build, not a discount to the record; year 1 is
+        handled by the override below. In the fade years the same arithmetic gives 1.6 to 1.8 organically
+        (revenue increases shrink toward the bond rate while capital spending stays at 4.5% of a larger
+        base); adding technology acquisitions at Marvell's own pace, about 3.5 billion every five years
+        against revenue increases of 3,000 to 5,000 a year, takes about 0.17 more per new dollar and
+        brings the ratio to about 1.3 (computed). The late ratio is set at 1.1 rather than 1.3 as a pair
+        with the eight-point terminal premium, and that pairing, not convergence to the industry, is what
+        drives it: at 1.3 the year-10 return is about 35% and a perpetual return of about 17.3% would fall
+        below half of it, which the engine flags as a cliff; at 1.1 the year-10 return is 33.5% and the
+        pair holds, with cash flow stepping down about 9% into the terminal year. The alternative, 1.3
+        with a nine-point premium (about 18.3%), also holds, with a step of about 10%, but it needs an
+        exception to the method's eight-point ceiling for the base case; that choice is left to the owner
+        (computed; dry run).
+
+        What the chosen ratio implies for capital spending, the test that matters because a ratio can
+        quietly demand more equipment than the company has ever bought: charging 3,891, 2,774, 2,496 and
+        2,479 in years 2 to 5 and taking off working capital at 35 cents and adding back depreciation
+        leaves gross capital spending of 1,426, 1,275, 1,339 and 1,488, or 6.5%, 4.2%, 3.7% and 3.5% of
+        revenue, inside the 3.5% to 6.1% record except year 2, which sits at its top because revenue
+        growth is slowing while spending is still catching up (computed) [10-K FY2026, Item 8].
+
+        The implied return on capital check, from the dry run at these settings. The return on all
+        invested capital rises from 17.6% in year 1 to about 39% in year 5 and 40% in year 6, then falls
+        to about 33.5% in year 10 as the fade-year investment at 1.1 accumulates, against a cost of
+        capital falling from 10.9% to 9.3%. The US semiconductor industry earns about 40.5% today
+        (after-tax margin 33.5% times sales to capital 1.21) and Marvell earns 22.6% on its capital
+        excluding goodwill, so a year-10 return in the low to mid thirties sits below the industry's
+        return at any late ratio between 1.1 and 1.5 (33.5%, 35.1% and 36%); convergence therefore does
+        not separate those choices, and the terminal pairing above does (computed; dry run) [Damodaran
+        margin.xls and capex.xls, Semiconductor, 2026-01-05].
 
         One caveat for the owner. The model assumes a one-year gap between spending and sales; the
         capacity reservations run 4 to 10 years and unconditional commitments to foundries tripled to
         8,518.9 in one quarter, so some of today's cash is buying revenue two or three years out
-        [10-Q Q2 FY2027, Note 9; business.md section 3]. The record above is measured on the same
-        one-year basis as the model, so the two are consistent; a longer gap would raise both.
-
-        What the path implies for capital spending, which is the test that matters, since a ratio can
-        quietly demand more equipment than the company has ever bought:
-
-        | Year of the model | Revenue | Next year's revenue increase | Investment charged | Working capital at 40 cents | Factory prepayments | Depreciation added back | Capital spending implied | Share of revenue |
-        |---|---|---|---|---|---|---|---|---|
-        | 1 | 14,931 | 6,122 | 3,700 | 2,449 | 780 | 540 | 1,011 | 6.8% |
-        | 2 | 21,053 | 6,106 | 3,053 | 2,442 | none guided | 620 | 1,231 | 5.8% |
-        | 3 | 27,159 | 4,889 | 2,445 | 1,956 | none guided | 750 | 1,239 | 4.6% |
-        | 4 | 32,048 | 4,486 | 2,243 | 1,794 | none guided | 850 | 1,299 | 4.1% |
-        | 5 | 36,534 | 4,399 | 2,200 | 1,760 | none guided | 950 | 1,390 | 3.8% |
-
-        Capital spending has run between 3.5% and 6.1% of revenue across the five fiscal years FY2022
-        to FY2026, and reached 6.4% in the first quarter of fiscal 2027 alone, so every year except the
-        first sits inside the five-year record, and year 1 is above it only because the capacity prepayments
-        management has committed to are counted there [10-K FY2026, Item 8; Q2 FY2027 call]. At the
-        higher 46-cent working-capital rate the implied spending falls to between 3.1% and 4.3% of
-        revenue. The last row uses a bond rate near 4.2% to set the growth beyond year 5, so it moves a
-        little with the rate fetched on the day.
+        [10-Q Q2 FY2027, Note 9; 10-K FY2026, Note 8]. The record above is measured on the same one-year
+        basis as the model, so the two are consistent; a longer gap would raise both.
     reinvestment_override:
       values: [3700, null, null, null, null]
-      reason: "Year 1 is set in dollars because management has named a spending level the ratio does not cover: about 1 billion of factory prepayments this fiscal year, of which roughly 780 falls inside the year-1 window (outlook.md section 4). The figure is after subtracting depreciation, and later years go back to the ratio because no spending beyond this year is guided."
-      source: "[Q2 FY2027 call; 10-Q Q2 FY2027, Note 14; Item 1]"
+      reason: "Year 1 is set in dollars because management has named a spending level the ratio does not cover: about 1 billion of factory prepayments this fiscal year, with deposits running in quarterly installments into the first half of next (outlook.md section 4). The figure is after subtracting depreciation, and later years go back to the ratio because no spending beyond this year is guided."
+      source: "[Q2 FY2027 call; 10-Q Q2 FY2027, Note 14; Item 1; 10-Q Q1 FY2027, Note 9]"
       detail: |
-        Year 1 = extra working capital of about 2,449, being 40 cents on each dollar of the following
-        year's revenue increase of 6,122, plus about 780 of capacity prepayments still to be paid after
-        the second quarter, plus about 460 of capital spending net of depreciation, which is 3,689,
-        taken as 3,700 (computed) [Q2 FY2027 call; 10-Q Q2 FY2027, Note 14]. The prepayment balance
-        rose 223.9 in the second quarter alone, to 487.0 from 263.1 [10-Q Q2 FY2027, Note 14;
-        10-Q Q1 FY2027, Note 14]. The ratio on its own would have charged 3,061, so the override adds
-        639 to year 1 and lowers the value; without it the model would spend less in the one year
-        management has told us what it is spending.
+        Year 1 = extra working capital of about 2,456, being 35 cents on each dollar of the following
+        year's revenue increase of 7,018, plus about 1,000 of capacity prepayments falling inside the
+        window, plus about 229 of capital spending net of depreciation (672 at 4.5% of revenue less 443),
+        which is 3,686, taken as 3,700 (computed) [Q2 FY2027 call; 10-Q Q2 FY2027, Note 14]. The
+        prepayments: management is 'on pace to make approximately 1 billion of capacity prepayments to
+        suppliers in fiscal 2027' (dollar sign written as a word), the balance rose 223.9 in the second
+        quarter to 487.0, and the 870.0 of deposits agreed in May are 'payable in quarterly installments
+        from the second quarter of fiscal 2027 through the second quarter of fiscal 2028', so the year-1
+        window holds the roughly 776 left of the fiscal 2027 figure plus two more quarterly installments
+        of about 174, less an allowance of about 125 for prepayments applied against wafer purchases
+        before the window ends: about 1,000, an expected figure rather than the upper bound the previous
+        draft used (computed) [Q2 FY2027 call; 10-Q Q2 FY2027, Note 14; 10-Q Q1 FY2027, Note 9]. The
+        ratio on its own would have charged 3,190, so the override adds about 500 to year 1; without it
+        the model would spend less in the one year management has told us what it is spending. Because
+        prepayments are later applied against purchases, part of this cash comes back as lower working
+        capital in years 2 and 3; the effect is small next to 6,000 to 8,500 of yearly revenue growth and
+        is left inside the ratio.
     tax_rate:
       start: 0.13
       terminal: 0.25
-      reason: "Starts at management's own estimate of tax on continuing profits for fiscal 2028, approximately 13%, the figure explained in the base-year tax cell above, and rises to the 25% rate the model uses once a company is mature. The rise is a real cost in this case, because it lands when profits are largest."
+      reason: "Starts at management's own estimate of tax on continuing profits for fiscal 2028, approximately 13%, the figure explained in the base-year tax cell, and rises to the 25% rate the model uses once a company is mature. The rise is a real cost in this case, because it lands when profits are largest."
       source: "[Q2 FY2027 call]"
     cost_of_capital_override: null
     terminal:
@@ -596,157 +867,268 @@ scenarios:
         allow_above_riskfree: false
         reason: "The ten-year government bond rate fetched for the run, as the method requires: no company outgrows the economy forever."
       roic_premium:
-        value: 0.07
+        value: 0.08
         allow_large_premium: false
-        reason: "Seven points above the cost of capital, so Marvell keeps earning a return in the mid-teens forever: custom designs lock a customer in for a whole chip generation, the optical business has been first to each speed step, and the largest custom customer is now tied in by a warrant that only pays off if it keeps buying through 2033 (business.md section 5; outlook.md section 3). That is well below what the business earns today on the capital behind its designs and well above what its investors require, which is where a company with real but shared advantages belongs."
+        reason: "Eight points above the cost of capital, so Marvell keeps earning a return in the high teens forever: custom designs lock a customer in for a whole chip generation, the optical business has been first to each speed step, and the largest custom customer is now tied in by a warrant that only pays off if it keeps buying through 2033 (business.md section 5; outlook.md section 3). That is about half of what the business earns at the end of the forecast, below what it earns today on the capital behind its designs, and a quarter of the way from the cost of capital toward the return the US semiconductor industry earns now, which is where a company with real but shared advantages in a high-return industry belongs."
         detail: |
-          Where the number sits. The cost of capital in perpetuity is whatever ten-year government
-          bonds yield on the day plus the mature market premium of 4.5 points, so seven points on top
-          puts the perpetual return about 11.5 points above the bond rate, which is roughly 16% at
-          today's rates. Three reference points, in order: the return the accounts show today is
-          only 6.8%, being after-tax operating profit of 1,358.3 on invested capital of 19,884.9, but
-          13,873.9 of that capital is goodwill from past deals, and business.md section 4 makes exactly
-          this point, that the return that matters is on each new design dollar; excluding goodwill the
-          same profit is a 23% return; and this case's own last modelled year earns about 29%. So the
-          perpetual return sits below both of the returns that describe the operating business and above
-          the cost of capital. It sits above the 6.8% the accounts show, which is the one comparison the method
-          would normally want the other way round, and it is flagged here rather than left buried: the
-          judgment is whether a balance sheet three-quarters made of past acquisition prices is the
-          right yardstick for the return on tomorrow's designs.
-          Against it: ten customers were 82% of revenue in fiscal 2026, one distributor 44% of the
-          latest quarter, and the 10-K warns that 'some large customers may begin developing and making
-          their own semiconductor solutions' [10-K FY2026, Item 1A; 10-Q Q2 FY2027, Item 2]. That is
-          why this is seven points and not the eleven the method allows for the optimistic case.
-          Transition into perpetuity: the perpetual reinvestment charge is growth divided by that
-          return, about 29% of after-tax operating profit, against about 19% in the last modelled year,
-          so cash flow steps down about 8% in the terminal year. A step of that size is normal
-          for this method; a much larger one would mean these terminal settings disagree with the last
-          modelled year, which was the fault in the previous version of this file.
+          Where the number sits. The cost of capital in perpetuity is the bond rate plus the 4.5-point
+          mature-market premium, about 9.28% at today's rates, so eight points on top puts the perpetual
+          return at the bond rate plus 12.5 points, about 17.3% today. Reference points: the return the
+          accounts show today is 6.8%, being after-tax operating profit of 1,358.3 on invested capital of
+          19,884.9, but 13,873.9 of that capital is goodwill from past deals and business.md section 4
+          makes exactly this point, that the return that matters is on each new design dollar; excluding
+          goodwill the same profit is a 22.6% return; this case's own year 10 earns about 33.5% on the
+          engine's measure, which includes the goodwill and every dollar reinvested; and the US
+          semiconductor industry earns about 40.5% today (after-tax margin 33.5% times sales to capital
+          1.21) [10-Q Q2 FY2027, Item 1; Damodaran margin.xls and capex.xls, Semiconductor,
+          2026-01-05]. So the perpetual return sits below both returns that describe the operating
+          business and above the cost of capital; it sits above the 6.8% the accounts show on all capital,
+          the one comparison the method would normally want the other way round, and it is flagged here
+          rather than left buried: the judgment is that a balance sheet three-quarters made of past
+          acquisition prices is not the right yardstick for the return on tomorrow's designs.
+          Why eight and not the seven the previous draft used, or the eleven the bull case carries: Damodaran gave Alphabet, Amazon and Apple seven points in industries that earn
+          in the twenties on book capital; semiconductor designers earn twice that on book capital because
+          the factories belong to someone else, so an eight-point premium is a modest position in this
+          industry's distribution; against it, ten customers were 82% of fiscal 2026 revenue, one
+          distributor 44% of the latest quarter, and the 10-K warns that 'some large customers may begin
+          developing and making their own semiconductor solutions', which is why it is not the eleven
+          the bull case carries [10-K FY2026, Item 1A; 10-Q Q2 FY2027, Item 2]. Seven points would put the
+          terminal return below half of year 10's and the engine would flag a cliff; the playbook says
+          that is an error, not caution. The late sales-to-capital ratio of 1.1 is chosen with this
+          premium as a pair, as that cell explains.
+          Transition into perpetuity: the perpetual reinvestment charge is growth divided by that return,
+          about 28% of after-tax operating profit, against about 17% in the last modelled year, so cash
+          flow steps down about 9% in the terminal year and the terminal return of about 17.3% is just
+          above half of year 10's 33.5%, so the engine's cliff test passes on both counts (computed; dry
+          run). A step of that size is normal for this method.
   bull:
     weight: 0.25
     story: |
-      Marvell becomes the outside design house cloud companies go to when they build their own AI
-      chips, and the agreement signed with one of them last July turns out to be the size the warrant
-      implies: full vesting needs about 120 billion of custom purchases from that one customer,
-      arithmetic the chief executive was invited to correct and did not. Optics moves
-      inside the rack as well, so the light-emitting parts placed next to the processor become a second
-      large business on top of the cables between racks. Sales pass five times today's level within
-      five years and the profit margin passes the target management is about to replace, because the
-      design bill is spread over a business several times larger. Growth is paid for out of cash flow,
-      with no more acquisitions needed.
+      Marvell becomes the design house the cloud giants turn to when they build their own AI chips: the
+      Google agreement runs close to the pace its warrant implies, with most of its revenue slices vesting
+      before it expires, and the new top-tier processor program becomes a franchise that renews generation
+      after generation. Optics moves inside the rack, so the light-emitting parts placed next to the
+      processor and the switches that go with them grow into a second business as large as all of Marvell
+      today. By the end of the forecast Marvell is one of the largest chip companies in the world, more
+      than ten times today's size, with a profit margin above its industry's average during the build-out
+      that drifts back toward that average as growth slows and its giant customers press on price; tax
+      starts at the low rate management guides and rises to a mature company's. Growth is paid for out of
+      cash flow, since the factory capacity is already reserved and most of the investment is inventory
+      and unpaid bills, with no large acquisitions needed, and as growth slows its returns settle to what
+      the chip industry earns today. Because Marvell then owns both ends of the optical link, the switch
+      and the customer's own chip design, the advantage proves durable and it keeps earning a return of
+      around twenty percent on its capital for the long run, still below what its designs earn today.
+    story_to_numbers:
+      - says: "the Google agreement runs close to the pace its warrant implies, with most of its revenue slices vesting before it expires, and the new top-tier processor program becomes a franchise that renews generation after generation"
+        drives: "revenue growth, years 1 to 3 (the custom line of the segment build)"
+        number: "0.68, 0.56, 0.55"
+        source: "[8-K 2026-08-19; Q2 FY2027 call; Q1 FY2027 call]"
+      - says: "Optics moves inside the rack, so the light-emitting parts placed next to the processor and the switches that go with them grow into a second business as large as all of Marvell today"
+        drives: "revenue growth, years 4 and 5 (the interconnect and switching lines of the segment build)"
+        number: "0.34, 0.20"
+        source: "[Q2 FY2027 call; Q1 FY2027 call]"
+      - says: "By the end of the forecast Marvell is one of the largest chip companies in the world, more than ten times today's size"
+        drives: "the end state the growth path is backed out from (year-10 revenue against the sector and the market size)"
+        number: "about 103,000 of revenue in year 10 against a sector selling 460,000 to 510,000 today and a custom market of about 126,100"
+        source: "[Damodaran capex.xls and margin.xls, Semiconductor, 2026-01-05; Q1 FY2027 call]"
+      - says: "with a profit margin above its industry's average during the build-out"
+        drives: "operating margin, years 1 to 5"
+        number: "0.29, 0.34, 0.38, 0.40, 0.40"
+        source: "[Q2 FY2027 call; Damodaran margin.xls, Semiconductor, 2026-01-05]"
+      - says: "that drifts back toward that average as growth slows and its giant customers press on price"
+        drives: "operating margin, years 6 to 10 (the fade years, written out because the story moves them)"
+        number: "0.39, 0.38, 0.38, 0.37, 0.36"
+        source: "[10-K FY2026, Item 1A; Damodaran margin.xls, Semiconductor, 2026-01-05]"
+      - says: "tax starts at the low rate management guides and rises to a mature company's"
+        drives: "tax rate, start and terminal"
+        number: "0.13, 0.25"
+        source: "[Q2 FY2027 call]"
+      - says: "Growth is paid for out of cash flow, since the factory capacity is already reserved and most of the investment is inventory and unpaid bills, with no large acquisitions needed"
+        drives: "sales to capital, years 1 to 5, and the reinvestment override for year 1 (working capital plus the guided prepayments, net of depreciation)"
+        number: "2.2; 4400"
+        source: "[10-Q Q2 FY2027, Note 9; Note 14; Q2 FY2027 call]"
+      - says: "as growth slows its returns settle to what the chip industry earns today"
+        drives: "sales to capital, years 6 to 10 (set where the year-10 implied return meets the industry's)"
+        number: "1.3"
+        source: "[Damodaran capex.xls and margin.xls, Semiconductor, 2026-01-05]"
+      - says: "it keeps earning a return of around twenty percent on its capital for the long run"
+        drives: "terminal return-on-capital premium, and terminal growth at the bond rate"
+        number: "0.11; riskfree"
+        source: "[10-Q Q2 FY2027, Item 1; business.md section 5]"
     revenue_growth:
-      values: [0.67, 0.48, 0.40, 0.28, 0.18]
-      reason: "This case takes both guided years at the top of their ranges and then lets the custom target management set in June 2025 and has repeated since be beaten rather than missed, with the warrant customer alone buying at the rate its own contract implies (outlook.md sections 3 and 6). Growth still halves over the five years, because even here the first wave of programs reaches full volume."
+      values: [0.68, 0.56, 0.55, 0.34, 0.20]
+      reason: "This case takes both guided years at the top of their ranges and then lets the custom business run near the pace the Google warrant implies, with the fiscal 2029 target beaten rather than met and scale-up optics and switching becoming a second business the size of today's company (outlook.md sections 3 and 6). Growth still falls by two-thirds over the five years, because even here the first wave of programs reaches full volume and custom becomes a third of its market."
       source: "[Q2 FY2027 call; Q2 FY2027 release; 8-K 2026-08-19; Q1 FY2027 call; Q2 FY2027 supplemental, p.10]"
       detail: |
-        Windows are built as in the base case: each model year is the second half of one fiscal year
-        plus the first half of the next, first halves taken at 45% of the year. The four product groups
-        inside data center are our inference, built the same way as in the base case, and the trailing
-        figures for the two reported end markets come from the eight-quarter table [10-Q Q2 FY2027,
-        Note 3; Q2 FY2027 supplemental, p.10]. The second half of
-        fiscal 2027 is 7,143 here, which is the guided third quarter near the top of its range and a
-        fourth quarter above the pace implied by 'roughly 12 billion' [Q2 FY2027 release; Q2 FY2027
-        call].
+        The run-rate the path starts from is the same as in the base case: up 37% in the latest quarter
+        and 31% on the trailing twelve months [Q2 FY2027 supplemental, p.5]. What moves year 1: the
+        guided third quarter taken near the top of its range (3,308) and a fourth quarter of 3,985, so
+        fiscal 2027 is 12,450 against 'roughly 12 billion', and a fiscal 2028 of 19,600 against
+        'approximately 18 billion', the case where management under-calls again as it has 'to date'
+        [Q2 FY2027 release; Q2 FY2027 call]. Windows and the three inferred data-center lines are built
+        exactly as in the base case, whose notes give the anchors and the method; the trailing figures for
+        the two reported segments come from the eight-quarter table [10-Q Q2 FY2027, Note 3; Q2 FY2027
+        supplemental, p.10].
 
-        | Fiscal year | Custom compute | Electro-optics | Switching | Storage and other data center | Data center | Communications and other | Company |
-        |---|---|---|---|---|---|---|---|
-        | FY2026 actual | 2,000 | 2,900 | 300 | 900 | 6,100 | 2,094 | 8,195 |
-        | FY2027 | 2,800 | 5,250 | 750 | 1,200 | 10,000 | 2,300 | 12,300 |
-        | FY2028 | 6,200 | 8,100 | 1,250 | 1,300 | 16,850 | 2,450 | 19,300 |
-        | FY2029 | 11,500 | 11,000 | 1,900 | 1,450 | 25,850 | 2,700 | 28,550 |
-        | FY2030 | 17,000 | 14,000 | 2,700 | 1,550 | 35,250 | 2,850 | 38,100 |
-        | FY2031 | 22,000 | 16,500 | 3,400 | 1,650 | 43,550 | 3,000 | 46,550 |
-        | FY2032 | 26,000 | 18,500 | 4,000 | 1,750 | 50,250 | 3,150 | 53,400 |
+        The end state, set before the path. In year 10 Marvell sells about 103,000, 10.9 times today's
+        revenue, which is 20% to 22% of the 460,000 to 510,000 that the 66 US semiconductor companies in
+        Damodaran's dataset sell today (the inference explained in the base case): one of the two or three
+        largest chip companies in the world by today's yardstick [Damodaran capex.xls and margin.xls,
+        Semiconductor, 2026-01-05]. Custom at its year-5 share of 52% is about 53,000, a 42% share of the
+        custom market carried forward at the industry rate in the diagnostics, or 34% if that market grows
+        15% a year; either way this case only works if the custom market turns out much larger than the
+        June 2025 sizing, which is what the chief executive claims when he says 'all of our projections
+        to date have been under called' (computed) [Q2 FY2027 call; Q1 FY2027 call]. The cumulative custom
+        revenue from fiscal 2028 to fiscal 2033 in this build is about 144,500 from all customers against
+        the 120,000 of purchases that would vest every Google warrant slice, so this is the case where
+        Google runs near full performance and the other customers add a fifth on top: the 'monster number'
+        the chief executive was invited to correct and did not (computed) [8-K 2026-08-19; Q2 FY2027 call].
+
+        | Fiscal year | Custom | Switching | Interconnect and other data center | Data center | Data center growth | Communications and other | Company | Company growth |
+        |---|---|---|---|---|---|---|---|---|
+        | FY2026 actual | 2,000 | 300 | 3,800 | 6,100 | 46% | 2,094 | 8,195 | 42% |
+        | FY2027 | 2,800 | 700 | 6,700 | 10,200 | 67% | 2,250 | 12,450 | 52% |
+        | FY2028 | 6,200 | 1,250 | 9,750 | 17,200 | 69% | 2,400 | 19,600 | 57% |
+        | FY2029 | 13,500 | 2,000 | 13,500 | 29,000 | 69% | 2,550 | 31,550 | 61% |
+        | FY2030 | 22,000 | 3,000 | 17,500 | 42,500 | 47% | 2,700 | 45,200 | 43% |
+        | FY2031 | 29,000 | 4,000 | 21,000 | 54,000 | 27% | 2,850 | 56,850 | 26% |
+        | FY2032 | 34,000 | 5,000 | 24,000 | 63,000 | 17% | 3,000 | 66,000 | 16% |
 
         | Part of the business | Trailing revenue | Latest reported growth | Year 1 growth | Year 3 growth | Year 5 growth |
         |---|---|---|---|---|---|
-        | Custom compute | 2,151 | dollars not disclosed | up 105% | up 63% | up 24% |
-        | Electro-optics | 3,615 | dollars not disclosed | up 85% | up 31% | up 15% |
-        | Switching | 446 | dollars not disclosed | up 124% | up 47% | up 22% |
-        | Storage and other data center | 962 | dollars not disclosed | up 33% | up 9% | up 6% |
-        | Data center, as reported | 7,173 | up 46% in the quarter | up 87% | up 44% | up 19% |
-        | Communications and other, as reported | 2,277 | up 10% in the quarter | up 7% | up 8% | up 5% |
-        | Company | 9,450 | up 37% in the quarter | up 67% | up 40% | up 18% |
+        | Custom (inference) | 2,138 | dollars not disclosed | up 96% | up 93% | up 23% |
+        | Switching (inference) | 431 | dollars not disclosed | up 123% | up 54% | up 28% |
+        | Interconnect and other data center (residual) | 4,605 | dollars not disclosed | up 84% | up 34% | up 17% |
+        | Data center, as reported | 7,173 | up 46% in the quarter, up 33% on the year | up 90% | up 60% | up 21% |
+        | Communications and other, as reported | 2,277 | up 10% in the quarter, up 24% on the year | flat | up 6% | up 5% |
+        | Company | 9,450 | up 37% in the quarter, up 31% on the year | up 68% | up 55% | up 20% |
 
-        Company revenue in the five windows: 15,782; 23,357; 32,700; 41,856; 49,390 (computed); the
-        build sums to within half a percent of them, the difference being the rounding of the growth
-        rates to whole percentage points.
+        Company revenue in the five windows: 15,920; 24,767; 38,282; 51,458; 61,831, against the rounded
+        path's 15,877; 24,767; 38,389; 51,442; 61,730, within a third of a percent in every year
+        (computed). The interconnect residual and switching lines together are about 29,000 in
+        fiscal 2032 against a whole company of 9,450 today, which is the story's 'second business as large
+        as all of Marvell today' (computed).
 
-        Drivers of each step down of more than three points. Year 1 to year 2, 67% to 48%: the first
-        doubling of custom silicon is in year 1 and cannot repeat, and the optical step to 1.6 terabits
-        is largely inside it too [Q2 FY2027 call]. Year 2 to year 3, 48% to 40%: the fiscal 2029 custom
-        step is the last one management has sized, and the attach programs under the new agreement
-        start only 'in FY 29 and beyond' [Q2 FY2027 call]. Year 3 to year 4, 40% to 28%: the first
-        generation of scale-up optical links is by then installed, so growth follows customers' capacity
-        plans. Year 4 to year 5, 28% to 18%: the custom business is above 23 billion and is a large
-        share of the market management has sized, so it can no longer grow much faster than that market.
+        Drivers of each step down of more than three points. Year 1 to year 2, 68% to 56%: the first
+        doubling of custom is inside year 1 and the 1.6 terabit optical step largely is too
+        [Q2 FY2027 call]. Year 3 to year 4, 55% to 34%: the fiscal 2029 custom step, the one management
+        says will 'accelerate significantly' as the Google programs 'contribute much more significantly
+        in fiscal 29', is the largest and cannot repeat, and from fiscal 2030 growth follows the scale-up
+        optics and switching ramp rather than a processor ramp [Q2 FY2027 call]. Year 4 to year 5, 34% to
+        20%: custom is above 30 billion and about a third of its market, so it can no longer grow much
+        faster than that market, and the first generation of scale-up optical links is installed
+        [Q1 FY2027 call]. After year 5 the engine fades growth to the bond rate by year 10.
 
-        Is it possible: year-5 revenue of 49,390 includes about 23,800 of custom silicon, which is 43%
-        of the 55,000 market management sized for fiscal 2029, so this case only works if that market is
-        materially bigger by then. By year 10, the twelve months to about August 2036, company revenue
-        reaches 79,494 at the fade the rule applies, and custom at its year-5 share of 48% is about
-        38,200; for that to be a fifth of its market the custom market has to grow about 20% a year from
-        the fiscal 2029 figure, and even for three-tenths of it about 13% a year (computed)
-        [Q1 FY2027 call]. The one support in the sources is the
-        warrant arithmetic: 120 billion of purchases from one customer over about six and a half years
-        for full vesting, put to the chief executive as 'about 18 billion a year' and answered 'your
-        math is not wrong', with custom revenue from fiscal 2029 'definitely' higher than anything
-        modelled before [8-K 2026-08-19; Q2 FY2027 call]. That is the weakest link in this case and the
-        reason it carries only a quarter of the weight. Is it plausible: the margin path below stays
-        inside the cost structure in business.md section 3. Is it probable: management has raised both
-        full-year figures twice running and 10 of 12 claims were met last quarter, but it has never
-        published a number this large (scorecard.md).
+        Growth agrees with margin: this case carries mass-market revenue, half of it custom at thinner
+        gross margins, and its margin path below peaks above the industry average and then drifts back
+        toward it rather than staying at a niche level. Is it plausible: the margin path stays inside the
+        cost structure in business.md section 3 and converges to the industry. Is it probable: management
+        has raised both full-year figures twice running and 10 of 12 claims were met last quarter, but it
+        has never published a number this large, which is why this case carries a quarter of the weight
+        (scorecard.md).
     operating_margin:
-      values: [0.27, 0.32, 0.35, 0.36, 0.37]
-      reason: "Margins pass the 38% to 40% target management is about to replace, reaching the low forties on the company's own measure, because a fixed design bill is spread over a business five times larger and the chief financial officer says he intends to 'reset that long-term target model' (outlook.md sections 2 and 4). Share-based pay and the write-down of old acquisitions shrink to about six points of revenue between them."
-      source: "[Q2 FY2027 call; 10-Q Q2 FY2027, Note 5; Q2 FY2027 supplemental, p.5]"
+      values: [0.29, 0.34, 0.38, 0.40, 0.40, 0.39, 0.38, 0.38, 0.37, 0.36]
+      reason: "Margins pass the 38% to 40% adjusted target management is about to replace, reaching the mid-forties adjusted and 40% reported by year 4, above the US semiconductor industry's 35.3% average, because a design bill that grows at half the rate of sales is spread over a business six times larger (outlook.md sections 2 and 4). The fade years are written out because the story moves them: a margin above the industry average invites entry and price pressure from customers who design their own chips, so it drifts back to 36% by year 10, just above the industry average, and share-based pay and the write-down of old acquisitions shrink to about five points of revenue between them."
+      source: "[Q2 FY2027 call; 10-Q Q2 FY2027, Note 5; Q2 FY2027 supplemental, p.5; 10-K FY2026, Item 1A; Damodaran margin.xls, Semiconductor, 2026-01-05]"
       detail: |
-        | Model year | Adjusted operating margin | Less share-based pay | Less acquisition write-downs | Less restructuring and deal costs | Official margin | Used |
-        |---|---|---|---|---|---|---|
-        | 1 | 40.3% | 9.2 | 3.7 | 0.4 | 27.0% | 27% |
-        | 2 | 41.3% | 7.5 | 1.4 | 0.3 | 32.1% | 32% |
-        | 3 | 42.9% | 6.1 | 0.9 | 0.3 | 35.6% | 35% |
-        | 4 | 43.4% | 5.5 | 0.6 | 0.3 | 37.0% | 36% |
-        | 5 | 43.2% | 5.3 | 0.4 | 0.3 | 37.2% | 37% |
+        Where the target sits. The industry rows are given in the base case: 35.3% for US semiconductors
+        after share pay and amortization, 40.4% before share pay, 33.0% for software, 26.2% for
+        semiconductor equipment [Damodaran margin.xls, 2026-01-05]. A 40% reported margin (45.6%
+        adjusted) puts this case above the semiconductor average and above management's current target,
+        in the upper part of the industry's distribution though far from the leader's, which the cached
+        sources do not quantify; Marvell's own best adjusted margin was 36.6% in the latest quarter
+        [Q2 FY2027 release]. The business-model argument: a fabless designer's cost of the next chip is
+        the factory invoice alone, so once the design bill is spread over ten times the revenue the
+        operating margin approaches the gross margin less a shrinking expense ratio; the argument against
+        a higher figure is that the customers are a handful of giants who 'may begin developing and making
+        their own semiconductor solutions' and press on 'average unit selling prices', which is why the
+        margin drifts back after year 5 [10-K FY2026, Item 1A].
 
-        What drags. The same custom-mix effect as the base case, but softer: gross margin falls from
-        58.9% to 56.0% by year 5 rather than 55.5%, because the scale-up optical parts sold here carry
-        standard-product economics rather than custom economics, which is the case's central claim
-        [Q2 FY2027 call]. Share-based pay still grows about 13% a year from the 326.2 quarterly run
-        rate, and the 1,297.0 of research bought but not yet in use still starts being written off
-        [Q2 FY2027 supplemental, p.5; 10-Q Q2 FY2027, Note 5].
-        What offsets. Operating expenses grow at half the rate of revenue in fiscal 2028 as guided and
-        at 60% of it afterwards, which on this revenue path takes them from 21% of sales to under 12%
-        [Q2 FY2027 call]. The adjusted operating margin was already 36.6% in the latest quarter, up 1.8
-        points on the year, and management expects the fourth quarter to enter the target range
-        [Q2 FY2027 call].
+        | Fiscal year | Adjusted gross margin | Adjusted operating expenses | Expenses over revenue | Adjusted operating margin | Share-based pay | Custom share of revenue |
+        |---|---|---|---|---|---|---|
+        | FY2027 | 58.5% | 2,550 | 20.5% | 38.0% | 1,164 | 22% |
+        | FY2028 | 58.0% | 3,315 | 16.9% | 41.1% | 1,510 | 32% |
+        | FY2029 | 57.0% | 4,300 | 13.6% | 43.4% | 1,960 | 43% |
+        | FY2030 | 56.5% | 5,200 | 11.5% | 45.0% | 2,370 | 49% |
+        | FY2031 | 56.0% | 5,900 | 10.4% | 45.6% | 2,680 | 51% |
+        | FY2032 | 55.5% | 6,500 | 9.8% | 45.7% | 2,950 | 52% |
+
+        | Model year | Adjusted operating margin | Less share-based pay | Less acquisition write-downs | Less write-down of acquired research | Less restructuring and deal costs | Reported margin | Used |
+        |---|---|---|---|---|---|---|---|
+        | 1 | 40.5% | 8.2 | 3.3 | 0.2 | 0.3 | 28.6% | 29% |
+        | 2 | 42.4% | 6.9 | 0.9 | 0.3 | 0.3 | 34.0% | 34% |
+        | 3 | 44.2% | 5.7 | 0.3 | 0.3 | 0.3 | 37.5% | 38% |
+        | 4 | 45.3% | 5.0 | 0.2 | 0.3 | 0.3 | 39.6% | 40% |
+        | 5 | 45.6% | 4.6 | 0.1 | 0.2 | 0.3 | 40.4% | 40% |
+        | 6 to 10 | drifting to about 41% | about 4.5 | none | about 0.2 | 0.3 | 39%, 38%, 38%, 37%, 36% | as listed |
+
+        Each explicit year is rounded to the nearest whole point. Operating expenses grow at half the
+        rate of revenue in fiscal 2028 as guided and at about half of it afterwards too, because in this
+        case the programs are already won and the design teams already hired, which on this revenue path
+        takes them from 21% of sales to under 10% [Q2 FY2027 call]. Gross margin follows the same mix
+        rule as the base case: custom rises to half of revenue and the merchant scale-up optics and
+        switches hold the rest at merchant margins, so 55.5% by fiscal 2032 [Q2 FY2027 call].
+
+        What drags. The same custom-mix effect as the base case; share-based pay grows with operating
+        expenses from 1,164 to 2,950, falling from 8.8% of revenue to 4.6%, roughly the industry's 5.0%,
+        and the 1,297.0 of acquired research not yet in use starts being written off as products ship
+        [Q2 FY2027 supplemental, p.5; 10-Q Q2 FY2027, Note 5; Damodaran margin.xls, Semiconductor,
+        2026-01-05]. In the fade years the drag is competition: with the reported margin above the
+        industry average and growth slowing, customers who design their own chips press on price, so the
+        path gives back four points by year 10 [10-K FY2026, Item 1A].
+        What offsets. The adjusted operating margin was already 36.6% in the latest quarter, up 1.8
+        points on the year, management expects the fourth quarter to enter the target range and the
+        upper end of it through fiscal 2028, and the write-down of acquired technology runs off on the
+        schedule in the accounts, from 9.4 points of revenue to nothing that matters [Q2 FY2027 call;
+        10-Q Q2 FY2027, Note 5]. Depreciation at 4.5% capital spending falls from 3.9% of revenue to 1.5%
+        by year 5 on this revenue path, a tailwind of more than two points inside the expense line
+        (computed from the reinvestment arithmetic in the base case).
     sales_to_capital:
       value: 2.2
-      value_late: 1.2
-      reason: "Each dollar of investment supports 2.20 of new sales here, a little above the base case, because this growth comes from programs Marvell has already won and is paid for out of its own cash flow rather than by buying companies (business.md section 5). The later figure of 1.20 still allows for capital getting heavier as growth slows."
-      source: "[10-K FY2024, Item 8; 10-K FY2026, Item 7; Item 8; 10-Q Q2 FY2027, Item 1]"
+      value_late: 1.3
+      reason: "Each dollar of investment supports 2.20 of new sales here as in the base case, because the forward arithmetic is the same (35 cents of working capital and 4.5% of revenue in capital spending) and the growth comes from programs already won on capacity already reserved, paid for out of cash flow rather than by buying companies (business.md section 5). The later figure of 1.30 sits between the organic fade-year arithmetic and the industry's 1.21, and it is the level at which the year-10 implied return meets the 40.5% the US semiconductor industry earns today rather than running past it."
+      source: "[10-K FY2024, Item 8; 10-K FY2026, Item 8; 10-Q Q2 FY2027, Item 1; Note 9; Damodaran capex.xls, Semiconductor, 2026-01-05]"
       detail: |
-        The measured record and the way it is measured are in the base case: with a one-year lag it
-        reads 2.6 and 3.4 in the two usable years, so 2.20 is still below it. The forward check matters
-        more. In year 3 the model charges 4,162 of investment against a following-year revenue increase
-        of 9,156; taking 40 cents of working capital on each new dollar leaves about 500 of capital
-        spending net of depreciation, or roughly 1,300 gross, which is 4.0% of that year's revenue and
-        inside the 3.5% to 6.1% Marvell has spent across the five fiscal years FY2022 to FY2026
-        (computed) [10-K FY2026, Item 8].
+        The three candidates and the measured record are in the base case: organic lagged ratios of 2.6
+        and 3.4, 1.3 over five years including deals, a marginal ratio of 3.4 (2.35 for fiscal 2027
+        spending without deals), and an industry figure of 1.21. The forward arithmetic on this case's
+        revenue path gives 2.5, 2.3, 2.0 and 1.9 in years 2 to 5 (working capital of 4,768, 4,568, 3,601
+        and 3,663 at 35 cents, capital spending of 1,115 to 2,778 at 4.5% of revenue, depreciation of 531
+        to 918), an average of 2.2, and 1.1 to 1.8 in the fade years as revenue increases shrink toward
+        the bond rate, an average of 1.4 (computed). No acquisitions are added because the story does not
+        need them: capacity is reserved under commitments of 8,518.9 and agreements of 4 to 10 years
+        [10-Q Q2 FY2027, Note 9; 10-K FY2026, Note 8].
+        The implied return on capital check, from the dry run at these settings. The return on all
+        invested capital climbs to about 52% in years 5 and 6, then falls to about 40% in year 10 as the
+        fade-year investment at 1.3 accumulates and the margin drifts back toward the industry average;
+        that year-10 figure is the 40.5% the US semiconductor industry earns today (after-tax margin 33.5%
+        times sales to capital 1.21), so the bull converges to the industry's return rather than staying
+        above it, which is what the playbook asks of the ratio; at a late ratio of 1.9 the year-10 return
+        would be about 45%, above the industry's 40.5%, and the terminal step would fail the engine's
+        cliff test (computed; dry run) [Damodaran margin.xls and capex.xls, Semiconductor, 2026-01-05].
+        The gross capital spending the flat 2.2 ratio implies in years 2 to 5 is 1,955, 2,002, 1,840 and
+        2,013 (the ratio's charge of 6,192, 5,933, 4,676 and 4,758 less working capital at 35 cents plus
+        depreciation), or 7.9%, 5.2%, 3.6% and 3.3% of revenue: year 2 sits above the 3.5% to 6.1% record
+        because a flat ratio over-charges the year with the largest revenue increase, which the forward
+        arithmetic puts at 2.5, and under-charges years 4 and 5, which it puts at 2.0 and 1.9; over years 2
+        to 5 together the ratio charges about 21,560 against about 21,690 from the component build, so
+        the two agree in total and the year-2 excess is timing rather than extra equipment (computed)
+        [10-K FY2026, Item 8].
     reinvestment_override:
-      values: [4300, null, null, null, null]
-      reason: "Year 1 is set in dollars for the same reason as the base case: management has named about 1 billion of factory prepayments this fiscal year, and on this faster revenue path working capital takes more as well (outlook.md section 4). The figure is after subtracting depreciation."
-      source: "[Q2 FY2027 call; 10-Q Q2 FY2027, Note 14; Item 1]"
+      values: [4400, null, null, null, null]
+      reason: "Year 1 is set in dollars for the same reason as the base case: management has named about 1 billion of factory prepayments this fiscal year with deposits running into next, and on this faster revenue path working capital takes more as well (outlook.md section 4). The figure is after subtracting depreciation."
+      source: "[Q2 FY2027 call; 10-Q Q2 FY2027, Note 14; Item 1; 10-Q Q1 FY2027, Note 9]"
       detail: |
-        Year 1 = about 3,030 of extra working capital, being 40 cents on each dollar of the following
-        year's revenue increase of 7,575, plus about 780 of capacity prepayments falling after the
-        second quarter, plus about 490 of capital spending net of depreciation, which is 4,300
-        (computed) [Q2 FY2027 call; 10-Q Q2 FY2027, Note 14]. The ratio alone would have charged 3,443,
-        so the override adds about 860 and lowers this case's value.
+        Year 1 = about 3,112 of extra working capital, being 35 cents on each dollar of the following
+        year's revenue increase of 8,891, plus about 1,000 of capacity prepayments falling inside the
+        window (the arithmetic is in the base case), plus about 272 of capital spending net of
+        depreciation (714 at 4.5% of revenue less 443), which is 4,384, taken as 4,400 (computed)
+        [Q2 FY2027 call; 10-Q Q2 FY2027, Note 14; 10-Q Q1 FY2027, Note 9]. The ratio alone would have
+        charged 4,041 (8,891 divided by 2.2), so the override adds about 360 to year 1.
     tax_rate:
       start: 0.13
       terminal: 0.25
-      reason: "Starts at management's own estimate of tax on continuing profits for fiscal 2028, approximately 13%, the figure explained in the base-year tax cell above, and rises to the 25% rate the model uses once a company is mature."
+      reason: "Starts at management's own estimate of tax on continuing profits for fiscal 2028, approximately 13%, the figure explained in the base-year tax cell, and rises to the 25% rate the model uses once a company is mature."
       source: "[Q2 FY2027 call]"
     cost_of_capital_override: null
     terminal:
@@ -757,47 +1139,63 @@ scenarios:
       roic_premium:
         value: 0.11
         allow_large_premium: false
-        reason: "Eleven points above the cost of capital, so the perpetual return is near 20%: in this case the lock-in described in business.md section 5 proves durable, the warrant keeps the largest custom customer buying into the 2030s, and Marvell holds the leading position in both the optics and the switches that sit next to the processors. It is still below what the business earns today on the capital behind its designs, and it is the most the method allows without a special exception."
+        reason: "Eleven points above the cost of capital, so the perpetual return is around 20% at today's rates: in this case the lock-in described in business.md section 5 proves durable, the warrant keeps the largest custom customer buying into the 2030s, and Marvell holds the leading position in both the optics and the switches that sit next to the processors. It is still below what the business earns today on the capital behind its designs and about half of what it earns in year 10, and it matches the eleven points Damodaran gave Nvidia, the strongest chip franchise he has valued, which is as far as a case that still rests on the customers' own chip designs should go."
         detail: |
-          Reference points: the perpetual cost of capital is the bond rate of the day plus 4.5 points,
-          so eleven points on top puts the perpetual return around 20% at today's rates. The comparison
-          that matters is the return on the capital actually behind the products, about 23% today once
-          the 13,873.9 of goodwill from past deals is set aside, and about 38% in this case's last
-          modelled year, so the perpetual figure is below both [10-Q Q2 FY2027, Item 1; Note 14]. The
-          return the accounts show on all capital including goodwill is 6.8%, which this figure is
-          above; the base case cell explains why that comparison is not the useful one here. This is
-          the level the method's own reference valuations used for the strongest chip franchise, and
-          Marvell is not that franchise, so it sits at the top of the allowed range and no further
-          [10-K FY2026, Item 1A].
+          Reference points: the perpetual cost of capital is the bond rate of the day plus 4.5 points, so
+          eleven points on top puts the perpetual return at the bond rate plus 15.5 points, around 20.3%
+          at today's rates. The comparison that matters is the return on the capital actually behind the
+          products, about 22.6% today once the 13,873.9 of goodwill from past deals is set aside, and about
+          40% in this case's year 10 on the engine's measure, so the perpetual figure is below both
+          [10-Q Q2 FY2027, Item 1; Note 14]. The return the accounts show on all capital including
+          goodwill is 6.8%, which this figure is above; the base case cell explains why that comparison
+          is not the useful one here. Why eleven: Damodaran's own Nvidia workbooks used 11.2 to 11.5
+          points for the strongest chip franchise he has valued, and this case does not claim more than
+          that, because even here the customers own the architecture and 'may begin developing and making
+          their own semiconductor solutions'; the method's ceiling of twelve was considered and not taken
+          for that reason [10-K FY2026, Item 1A].
           Transition into perpetuity: the perpetual reinvestment charge is about 24% of after-tax
-          operating profit against about 14% in the last modelled year, so cash flow steps down about
-          6% into the terminal year, which is normal for this method.
+          operating profit against about 14% in the last modelled year, so cash flow steps down about 7%
+          into the terminal year, and the terminal return of about 20.3% sits just above half of year
+          10's 40%, a margin of a quarter of a point that moves with the bond rate; the owner should
+          expect the engine's cliff note to appear if the bond rate falls (computed; dry run).
   management:
     computable: false
-    reason: "Management has met the requirement of at least one multi-year revenue or margin target, giving revenue targets for two years and a margin target, but it has given nothing numeric beyond FY2028, which is only model year 2. Years 3 to 5 would therefore be guesswork rather than filling in between guided points, so this case is left uncomputable."
+    story: |
+      Management's numbers on record: roughly 12 billion of revenue this fiscal year and approximately
+      18 billion next, data center up about 60% this year and more than 60% next, custom more than
+      doubling in fiscal 2028 and over 10 billion in fiscal 2029, operating expenses growing at half the
+      rate of revenue next year, an adjusted operating margin entering 38% to 40% this quarter and reaching
+      the upper end of that range through fiscal 2028, gross margin holding in a 57.5% to 58.5% range,
+      about 1 billion of capacity prepayments this year and a tax rate of about 13% next year. Nothing
+      numeric reaches beyond fiscal 2029, so the case cannot be computed; the October 6, 2026 Investor Day
+      promises revenue 'out until the end of the decade' and a reset of the margin model. The base case
+      tracks these figures for two years and then judges the rest; the bull takes them at the top of their
+      ranges and the bear at the bottom.
+    reason: "Management has met the requirement of at least one multi-year revenue or margin target, giving revenue figures for two years and a margin target, but it has given nothing numeric beyond FY2028, which is only model year 2, except a custom target for FY2029 that covers one product line. Years 3 to 5 would therefore be guesswork rather than filling in between guided points, so this case is left uncomputable. Dollar signs inside the quotations below are written as USD because the app reads a dollar sign as a formula."
     detail: |
-      The guided points: FY2027 revenue roughly 12 billion, FY2028 approximately 18 billion, and a non-GAAP operating margin at the upper end of 38–40% in FY2028 [Q2 FY2027 call]. Because FY2028 is model year 2, years 3–5 would be extrapolation rather than interpolation between guided points. GAAP margins beyond the Q3 guide also need a share-based-pay assumption management does not give, and sales-to-capital is not guided at all. The October 6, 2026 Investor Day promises revenue 'out until the end of the decade' and a new margin model, after which the owner can complete this case.
+      The guided points: FY2027 revenue roughly 12 billion, FY2028 approximately 18 billion, custom over 10 billion in FY2029, and a non-GAAP operating margin at the upper end of 38% to 40% in FY2028 [Q2 FY2027 call; Q1 FY2027 call]. Because FY2028 is model year 2, years 3 to 5 would be extrapolation rather than interpolation between guided points. Official (GAAP) margins beyond the Q3 guide also need a share-based-pay assumption management does not give, and sales to capital is not guided at all. The October 6, 2026 Investor Day promises revenue 'out until the end of the decade' and a new margin model, after which the owner can complete this case. Where the computed cases sit against these promises: the base case meets both revenue figures and passes the custom target; the bull beats them; the bear falls short of both.
     guidance:
-      - {item: "Q3 FY2027 revenue", quote: "Net revenue is expected to be $3.150 billion +/- 5%.", source: "[Q2 FY2027 release]", used_as: "revenue growth year 1 (anchors the second half of FY2027 inside the year-1 window)"}
+      - {item: "Q3 FY2027 revenue", quote: "Net revenue is expected to be USD 3.150 billion +/- 5%.", source: "[Q2 FY2027 release]", used_as: "revenue growth year 1 (anchors the second half of FY2027 inside the year-1 window)"}
       - {item: "Q3 FY2027 GAAP gross margin", quote: "GAAP gross margin is expected to be 52.9% to 53.9%.", source: "[Q2 FY2027 release]", used_as: "operating margin year 1 (midpoint 53.4%)"}
       - {item: "Q3 FY2027 non-GAAP gross margin", quote: "Non-GAAP gross margin is expected to be 57.5% to 58.5%.", source: "[Q2 FY2027 release]", used_as: "not numeric (non-GAAP; GAAP figure used instead)"}
-      - {item: "Q3 FY2027 GAAP operating expenses", quote: "GAAP operating expenses are expected to be approximately $1.015 billion.", source: "[Q2 FY2027 release]", used_as: "operating margin year 1"}
-      - {item: "Q3 FY2027 non-GAAP operating expenses", quote: "Non-GAAP operating expenses are expected to be approximately $655 million.", source: "[Q2 FY2027 release]", used_as: "not numeric (non-GAAP)"}
+      - {item: "Q3 FY2027 GAAP operating expenses", quote: "GAAP operating expenses are expected to be approximately USD 1.015 billion.", source: "[Q2 FY2027 release]", used_as: "operating margin year 1"}
+      - {item: "Q3 FY2027 non-GAAP operating expenses", quote: "Non-GAAP operating expenses are expected to be approximately USD 655 million.", source: "[Q2 FY2027 release]", used_as: "not numeric (non-GAAP)"}
       - {item: "Q3 FY2027 share count", quote: "Diluted weighted-average shares outstanding are expected to be 921 million.", source: "[Q2 FY2027 release]", used_as: "not numeric (confirms the diluted share count)"}
-      - {item: "Q3 FY2027 GAAP EPS", quote: "GAAP diluted net income per share is expected to be $0.53 +/- $0.05 per share.", source: "[Q2 FY2027 release]", used_as: "not numeric (below the operating line)"}
-      - {item: "Q3 FY2027 non-GAAP EPS", quote: "Non-GAAP diluted net income per share is expected to be $1.10 +/- $0.05 per share.", source: "[Q2 FY2027 release]", used_as: "not numeric (non-GAAP, below the operating line)"}
+      - {item: "Q3 FY2027 GAAP EPS", quote: "GAAP diluted net income per share is expected to be USD 0.53 +/- USD 0.05 per share.", source: "[Q2 FY2027 release]", used_as: "not numeric (below the operating line)"}
+      - {item: "Q3 FY2027 non-GAAP EPS", quote: "Non-GAAP diluted net income per share is expected to be USD 1.10 +/- USD 0.05 per share.", source: "[Q2 FY2027 release]", used_as: "not numeric (non-GAAP, below the operating line)"}
       - {item: "Q3 FY2027 data center", quote: "data center revenue forecasted to grow more than 20% sequentially and roughly 75% year-over-year.", source: "[Q2 FY2027 call]", used_as: "not numeric (segment)"}
       - {item: "Q3 FY2027 communications and other", quote: "we expect revenue to decline in the low to mid-teens percentage range both sequentially and year-over-year, followed by a solid sequential recovery in the fourth quarter.", source: "[Q2 FY2027 call]", used_as: "not numeric (segment)"}
       - {item: "Q3 FY2027 non-GAAP tax rate", quote: "We expect a non-GAAP tax rate of 11%.", source: "[Q2 FY2027 call]", used_as: "not numeric (FY2027 rate; superseded by the FY2028 rate used as the starting tax rate)"}
       - {item: "Q3 FY2027 gross-margin driver", quote: "the forecasted acceleration of our custom business creating ... the sequential headwind in the fiscal third quarter", source: "[Q2 FY2027 call]", used_as: "not numeric (the machine transcript first garbles 'headwind' as 'headroom' and then corrects itself; the corrected phrase is quoted, as in outlook.md section 4)"}
       - {item: "Q4 FY2027 gross margin", quote: "We currently expect to maintain gross margin in this range in the fourth fiscal quarter.", source: "[Q2 FY2027 call]", used_as: "not numeric"}
       - {item: "Q4 FY2027 non-GAAP operating margin", quote: "non-GAAP operating margin likely to enter our 38% to 40% long-term target range in Q4 of this fiscal year.", source: "[Q2 FY2027 call]", used_as: "not numeric (non-GAAP; converting to GAAP needs a stock-pay assumption management does not give)"}
-      - {item: "FY2027 revenue", quote: "we now expect overall Marvell revenue in fiscal 2027 to grow approximately 45% year-over-year to roughly $12 billion, up from our prior outlook of approximately $11.5 billion just 1 quarter ago.", source: "[Q2 FY2027 call]", used_as: "revenue growth year 1 (interpolation anchor)"}
+      - {item: "FY2027 revenue", quote: "we now expect overall Marvell revenue in fiscal 2027 to grow approximately 45% year-over-year to roughly USD 12 billion, up from our prior outlook of approximately USD 11.5 billion just 1 quarter ago.", source: "[Q2 FY2027 call]", used_as: "revenue growth year 1 (interpolation anchor)"}
       - {item: "FY2027 data center", quote: "which we now expect to grow by approximately 60% this fiscal year, up from our prior expectation of approximately 50%.", source: "[Q2 FY2027 call]", used_as: "not numeric (segment)"}
       - {item: "FY2027 communications and other", quote: "we currently expect fiscal 2027 growth to approach our 10% target.", source: "[Q2 FY2027 call]", used_as: "not numeric (segment)"}
-      - {item: "FY2027 non-GAAP operating expenses", quote: "For fiscal 2027, we expect non-GAAP operating expenses of approximately $2.55 billion, slightly above our prior expectation of $2.45 billion", source: "[Q2 FY2027 call]", used_as: "not numeric (non-GAAP)"}
-      - {item: "FY2027 capacity prepayments", quote: "We remain on pace to make approximately $1 billion of capacity prepayments to suppliers in fiscal 2027.", source: "[Q2 FY2027 call]", used_as: "not numeric (one component of reinvestment; no capex or working-capital guidance to complete net reinvestment)"}
-      - {item: "FY2028 revenue", quote: "we now expect fiscal 2028 revenue of approximately $18 billion, up $1.5 billion from the $16.5 billion outlook we provided just 1 quarter ago.", source: "[Q2 FY2027 call]", used_as: "revenue growth year 1 (interpolation anchor) and year 2 (nearest-year mapping)"}
+      - {item: "FY2027 non-GAAP operating expenses", quote: "For fiscal 2027, we expect non-GAAP operating expenses of approximately USD 2.55 billion, slightly above our prior expectation of USD 2.45 billion", source: "[Q2 FY2027 call]", used_as: "not numeric (non-GAAP)"}
+      - {item: "FY2027 capacity prepayments", quote: "We remain on pace to make approximately USD 1 billion of capacity prepayments to suppliers in fiscal 2027.", source: "[Q2 FY2027 call]", used_as: "not numeric (one component of reinvestment; no capex or working-capital guidance to complete net reinvestment)"}
+      - {item: "Capacity deposits schedule", quote: "we committed to pay deposits totaling USD 870.0 million, payable in quarterly installments from the second quarter of fiscal 2027 through the second quarter of fiscal 2028.", source: "[10-Q Q1 FY2027, Note 9]", used_as: "not numeric (timing of the prepayments inside the year-1 window)"}
+      - {item: "FY2028 revenue", quote: "we now expect fiscal 2028 revenue of approximately USD 18 billion, up USD 1.5 billion from the USD 16.5 billion outlook we provided just 1 quarter ago.", source: "[Q2 FY2027 call]", used_as: "revenue growth year 1 (interpolation anchor) and year 2 (nearest-year mapping)"}
       - {item: "FY2028 data center", quote: "we now expect Marvell's Data Center revenue to grow more than 60% year-over-year in fiscal 2028", source: "[Q2 FY2027 call]", used_as: "not numeric (segment)"}
       - {item: "FY2028 custom", quote: "We remain confident that this business will more than double year-over-year in fiscal 2028 and accelerate significantly in fiscal 2029.", source: "[Q2 FY2027 call]", used_as: "not numeric (segment; the FY2029 phrase is qualitative)"}
       - {item: "FY2028 operating expenses", quote: "We currently expect non-GAAP operating expenses to grow at roughly half the rate of revenue growth in percentage terms.", source: "[Q2 FY2027 call]", used_as: "not numeric"}
@@ -806,15 +1204,18 @@ scenarios:
       - {item: "FY2028 gross margin", quote: "My preliminary view is gross margins next year are going to be in a similar range, same range as we're exiting this year.", source: "[Q2 FY2027 call]", used_as: "not numeric"}
       - {item: "Long-term model", quote: "we're going to reset that long-term target model here in the coming weeks at the Analyst Day.", source: "[Q2 FY2027 call]", used_as: "not numeric"}
       - {item: "Google warrant arithmetic (FY2029 and beyond)", quote: "you should assume starting in FY '29 and beyond whatever you've modeled previously prior to the warrant for custom numbers definitely goes higher", source: "[Q2 FY2027 call]", used_as: "not numeric"}
-      - {item: "Scale-out switching FY2027", quote: "Within scale-out switching, our business remains on track to more than double this year", source: "[Q2 FY2027 call; Q2 FY2027 slides, p.18]", used_as: "not numeric (segment; Q1 form was 'exceed $600 million, doubling from fiscal 2026', tracking to 'more than $1 billion in annualized revenue in fiscal 2028' [Q1 FY2027 call])"}
+      - {item: "Custom FY2029 upside", quote: "clearly, there's a lot of upside bias in those numbers in fiscal '29 and beyond in custom.", source: "[Q2 FY2027 call]", used_as: "not numeric (informs the base-case fiscal 2029 custom figure)"}
+      - {item: "Scale-out switching FY2027", quote: "Within scale-out switching, our business remains on track to more than double this year", source: "[Q2 FY2027 call; Q2 FY2027 slides, p.18]", used_as: "not numeric (segment; Q1 form was 'exceed USD 600 million, doubling from fiscal 2026', tracking to 'more than USD 1 billion in annualized revenue in fiscal 2028' [Q1 FY2027 call])"}
       - {item: "Interconnect FY2027 (Q1 target, not restated in Q2)", quote: "we have increased our fiscal 27 revenue growth expectations for this business to more than 70% year over year", source: "[Q1 FY2027 call; Q1 FY2027 slides, p.7]", used_as: "not numeric (segment; scorecard.md grades it Partial)"}
       - {item: "Custom FY2027 (Q1 target, not restated in Q2)", quote: "Custom revenue remains on track to grow more than 20% year over year in fiscal 27", source: "[Q1 FY2027 call; Q1 FY2027 slides, p.14]", used_as: "not numeric (segment)"}
-      - {item: "Custom FY2029 target and market", quote: "We remain confident in achieving our target model for our custom business to deliver on over $10 billion in revenue in fiscal 29.", source: "[Q1 FY2027 call]", used_as: "not numeric (segment target; the '$55 billion TAM' behind it feeds the final-year market size in the diagnostics)"}
-      - {item: "Scale-up optics FY2028 (Q1 figure, superseded)", quote: "scale up optics which you know, we are effectively calling at this point to be about $300 million", source: "[Q1 FY2027 call]", used_as: "not numeric (Q2: 'much larger than we thought just a quarter ago', no new figure)"}
-      - {item: "Cloud capex planning assumption FY2028 (Q1, dropped in Q2)", quote: "we are planning for the rate of cloud CapEx growth to moderate into the 30%-plus range", source: "[Q1 FY2027 call]", used_as: "not numeric (informs the base-case fade)"}
+      - {item: "Custom FY2029 target and market", quote: "We remain confident in achieving our target model for our custom business to deliver on over USD 10 billion in revenue in fiscal 29.", source: "[Q1 FY2027 call]", used_as: "not numeric (segment target; the 'USD 55 billion TAM' behind it feeds the final-year market size in the diagnostics)"}
+      - {item: "DCI modules", quote: "Giving us line of sight to a USD 1 billion annualized revenue during fiscal 28. This would represent approximately double the revenue we achieved in fiscal 26 when the business generated roughly USD 500 million in revenue.", source: "[Q1 FY2027 call]", used_as: "not numeric (segment anchor inside the interconnect residual)"}
+      - {item: "Scale-up optics FY2028 (Q1 figure, superseded)", quote: "scale up optics which you know, we are effectively calling at this point to be about USD 300 million", source: "[Q1 FY2027 call]", used_as: "not numeric (Q2: 'much larger than we thought just a quarter ago', no new figure)"}
+      - {item: "Cloud capex planning assumption FY2028 (Q1, dropped in Q2)", quote: "we are planning for the rate of cloud CapEx growth to moderate into the 30%-plus range", source: "[Q1 FY2027 call]", used_as: "not numeric (informs the base-case step down in year 3)"}
+      - {item: "Communications FY2028 (Q1)", quote: "we continue to expect low single digit percentage revenue growth in fiscal 28, consistent with our prior view.", source: "[Q1 FY2027 call]", used_as: "not numeric (segment)"}
     revenue_growth:
       values: [0.587, 0.20, null, null, null]
-      reason: "Management's two revenue figures turned into growth rates. Its fiscal years do not line up with the twelve-month windows this model uses, so year 1 takes the midpoint of the two guided years and year 2 takes the later one, both approximations noted below; years 3 to 5 have no guidance of any kind."
+      reason: "Management's two revenue figures turned into growth rates. Its fiscal years do not line up with the twelve-month windows this model uses, so year 1 takes the midpoint of the two guided years and year 2 takes the later one, both approximations noted below; years 3 to 5 have no company-level guidance of any kind."
       source: "[Q2 FY2027 call; Q2 FY2027 slides, p.8]"
       detail: |
         Year 1 covers the six months after fiscal 2027 ends and the six months before fiscal 2028 ends,
@@ -822,9 +1223,9 @@ scenarios:
         by 9,450.3 less one is 0.587 (computed) [Q2 FY2027 call; Q2 FY2027 slides, p.8]. Year 2 takes
         fiscal 2028's 18,000 as the nearest guided point: 18,000 over 15,000 less one is 0.20. That
         understates year 2, because the window also holds the first half of fiscal 2029, which
-        management says will 'accelerate significantly' in custom without giving a number
+        management says will 'accelerate significantly' in custom without giving a company figure
         [Q2 FY2027 call]. The other guided item that could be turned into a number is the custom target
-        of 'over 10 billion in revenue in fiscal 29', but it covers one product group, so it cannot fill
+        of 'over 10 billion in revenue in fiscal 29', but it covers one product line, so it cannot fill
         a company revenue line on its own [Q1 FY2027 call].
     operating_margin:
       values: [0.212, null, null, null, null]
@@ -860,17 +1261,24 @@ scenarios:
         allow_large_premium: false
         reason: "Management gives no return-on-capital target."
 sources:
-  - {tag: "[10-K FY2026, …]", file: "sources/FY2027-Q1/10-K-FY2026.txt", date: "2026-03-11", note: "10-K for the fiscal year ended 2026-01-31; the date is the filing date"}
-  - {tag: "[10-K FY2024, …]", file: "sources/FY2027-Q1/10-K-FY2024.txt", date: "2024-03-13", note: "10-K for the fiscal year ended 2024-02-03; the date is the filing date"}
-  - {tag: "[10-Q Q2 FY2027, …]", file: "sources/FY2027-Q2/10-Q-FY2027-Q2.txt", date: "2026-08-28", note: "quarter ended 2026-08-01; the date is the filing date"}
-  - {tag: "[10-Q Q1 FY2027, …]", file: "sources/FY2027-Q1/10-Q-FY2027-Q1.txt", date: "2026-05-28", note: "quarter ended 2026-05-02; the date is the filing date"}
+  - {tag: "[10-K FY2026, ...]", file: "sources/FY2027-Q1/10-K-FY2026.txt", date: "2026-03-11", note: "10-K for the fiscal year ended 2026-01-31; the date is the filing date"}
+  - {tag: "[10-K FY2024, ...]", file: "sources/FY2027-Q1/10-K-FY2024.txt", date: "2024-03-13", note: "10-K for the fiscal year ended 2024-02-03; the date is the filing date"}
+  - {tag: "[10-Q Q2 FY2027, ...]", file: "sources/FY2027-Q2/10-Q-FY2027-Q2.txt", date: "2026-08-28", note: "quarter ended 2026-08-01; the date is the filing date"}
+  - {tag: "[10-Q Q1 FY2027, ...]", file: "sources/FY2027-Q1/10-Q-FY2027-Q1.txt", date: "2026-05-28", note: "quarter ended 2026-05-02; the date is the filing date"}
+  - {tag: "[DEF 14A 2026, ...]", file: "sources/FY2027-Q1/DEF14A-2026.txt", date: "2026-05-13", note: "proxy statement; the bonus-target discussion that supports the custom gross-margin inference"}
   - {tag: "[8-K 2026-08-19]", file: "sources/FY2027-Q2/8-K-2026-08-19.txt", date: "2026-08-19", note: "Google commercial agreement and warrant"}
   - {tag: "[Q2 FY2027 release]", file: "sources/FY2027-Q2/press-release.txt", date: "2026-08-27", note: "8-K Exhibit 99.1"}
   - {tag: "[Q2 FY2027 supplemental, p.N]", file: "sources/FY2027-Q2/supplemental.txt", date: "2026-08-27", note: "eight-quarter tables"}
   - {tag: "[Q2 FY2027 slides, p.N]", file: "sources/FY2027-Q2/slides.txt", date: "2026-08-27"}
-  - {tag: "[Q2 FY2027 call]", file: "sources/FY2027-Q2/transcript.txt", date: "2026-08-27", note: "third-party Motley Fool machine transcript, tier 3; numbers taken from the release"}
+  - {tag: "[Q2 FY2027 call]", file: "sources/FY2027-Q2/transcript.txt", date: "2026-08-27", note: "third-party Motley Fool machine transcript, tier 3; numbers taken from the release where they exist"}
+  - {tag: "[Q2 FY2027 notes]", file: "sources/FY2027-Q2/notes-transcript.md", date: "2026-09-07", note: "gatherer's notes on the Q2 call and IR documents; cited only for the absence of market-size figures"}
   - {tag: "[Q1 FY2027 call]", file: "sources/FY2027-Q1/transcript.txt", date: "2026-05-27", note: "Motley Fool machine transcript, tier 3"}
   - {tag: "[Q1 FY2027 slides, p.N]", file: "sources/FY2027-Q1/slides.txt", date: "2026-05-27"}
   - {tag: "[Q1 FY2027 release]", file: "sources/FY2027-Q1/press-release.txt", date: "2026-05-27", note: "8-K Exhibit 99.1; quarterly non-GAAP operating expenses"}
   - {tag: "[Q1 FY2027 supplemental, p.N]", file: "sources/FY2027-Q1/supplemental.txt", date: "2026-05-27", note: "eight-quarter tables; cited by the historical-margin diagnostic"}
-  - {tag: "[Damodaran betas.xls, …]", file: "tools/valuation/data/damodaran/", date: "2026-01-05", note: "engine-cached dataset, dated as cited in the source tags; not read by the analyst"}
+  - {tag: "[Damodaran betas.xls, ...]", file: "tools/valuation/data/damodaran/betas.csv", date: "2026-01-05", note: "engine-cached dataset; Semiconductor row, unlevered beta corrected for cash 1.5046, market debt to equity 0.026"}
+  - {tag: "[Damodaran wacc.xls, ...]", file: "tools/valuation/data/damodaran/wacc.csv", date: "2026-01-05", note: "engine-cached dataset; Semiconductor cost of capital 10.55%, Total Market 6.96%"}
+  - {tag: "[Damodaran capex.xls, ...]", file: "tools/valuation/data/damodaran/capex.csv", date: "2026-01-05", note: "engine-cached dataset; Semiconductor sales to invested capital 1.21, capital spending 53,610, depreciation 42,301, acquisitions 5,235, net research 5,877, net capital spending to sales 4.4% and to after-tax operating profit 14.5%"}
+  - {tag: "[Damodaran margin.xls, ...]", file: "tools/valuation/data/damodaran/margin.csv", date: "2026-01-05", note: "engine-cached dataset; Semiconductor pre-tax unadjusted operating margin 35.3%, pre-share-pay 40.4%, after-tax 33.5%, gross margin 59.0%, research 15.4% and share pay 5.0% of sales; neighbouring rows as cited"}
+  - {tag: "[Damodaran histgr.xls, ...]", file: "tools/valuation/data/damodaran/histgr.csv", date: "2026-01-05", note: "engine-cached dataset; Semiconductor revenue growth 11.2% a year over the last five years, expected 11.7% a year over the next five and 40.9% over the next two"}
+  - {tag: "[Damodaran taxrate.xls, ...]", file: "tools/valuation/data/damodaran/taxrate.csv", date: "2026-01-05", note: "engine-cached dataset; Semiconductor average effective tax rate among profitable companies 15.8%"}
