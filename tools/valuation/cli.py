@@ -1,4 +1,4 @@
-"""``value <TICKER> [--validate] [--dry-run] [--set path=value ...] [--json] [--refresh-data] [--no-fetch] [--render-assumptions]``.
+"""``value <TICKER> [--validate] [--dry-run] [--diagnostics-only] [--set path=value ...] [--json] [--refresh-data] [--no-fetch] [--render-assumptions]``.
 
 The normal run (fetch, compute, archive, write ``valuation.md`` and ``assumptions.md``) lives in
 :func:`run_and_write` so the app can call the very same code path.
@@ -20,6 +20,7 @@ from . import (
     load, render, write_assumptions_md,
 )
 from . import datasets
+from .analysis import transition_check
 from .engine import MarketInputs, ValuationResult
 from .market import MarketError
 from .render import results_text
@@ -35,6 +36,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("ticker", nargs="?", help="ticker (folder under companies/) or a path to an assumptions.yaml")
     p.add_argument("--validate", action="store_true", help="validate the assumptions file only; exit 0 or 1")
     p.add_argument("--dry-run", action="store_true", help="compute and print, but write nothing")
+    p.add_argument("--diagnostics-only", action="store_true",
+                   help="print draft-review diagnostics as JSON, without valuation results or file writes")
     p.add_argument("--set", action="append", default=[], metavar="PATH=VALUE",
                    help="override a YAML cell in memory, e.g. scenarios.base.operating_margin.values.4=0.34")
     p.add_argument("--json", action="store_true", help="print the full result as JSON instead of the table")
@@ -123,9 +126,44 @@ def _json_default(obj: Any) -> Any:
     return str(obj)
 
 
+def diagnostics_payload(result: ValuationResult) -> dict[str, Any]:
+    """Allowlist draft-review fields; never serialize the full valuation result.
+
+    The engine still computes normally. Its asset/equity/per-share values, present
+    values, reference valuations, sensitivities and reverse DCF stay internal.
+    """
+    fields = ("revenue", "growth", "margin", "ebit_after_tax", "reinvestment", "fcff", "wacc", "roic")
+    scenarios = {}
+    for name, scenario in result.scenarios.items():
+        scenarios[name] = {
+            "years": [{"year": row.year, **{key: getattr(row, key) for key in fields}}
+                      for row in scenario.rows],
+            "terminal": {"year": scenario.inputs.horizon + 1,
+                         **{key: getattr(scenario.terminal, key) for key in fields}},
+        }
+    return {
+        "ticker": result.ticker,
+        "as_of_quarter": result.as_of_quarter,
+        "computed_at": result.computed_at,
+        "engine_version": result.engine_version,
+        "market": dataclasses.asdict(result.market),
+        "base_year": dataclasses.asdict(result.base_year),
+        "cost_of_capital": dataclasses.asdict(result.cost_of_capital),
+        "industry": dataclasses.asdict(result.analysis.industry) if result.analysis.industry else None,
+        "scenarios": scenarios,
+        "transition_check": dataclasses.asdict(transition_check(result)),
+        "stopped": result.stopped,
+        "skipped": result.skipped,
+        "warnings": result.warnings,
+    }
+
+
 def main(argv: list[str] | None = None) -> int:
     out, err = sys.stdout, sys.stderr
-    args = build_parser().parse_args(argv)
+    parser = build_parser()
+    args = parser.parse_args(argv)
+    if args.diagnostics_only and (args.validate or args.refresh_data or args.render_assumptions):
+        parser.error("--diagnostics-only cannot be combined with --validate, --refresh-data or --render-assumptions")
     if args.refresh_data:
         try:
             return refresh_data(out)
@@ -163,7 +201,7 @@ def main(argv: list[str] | None = None) -> int:
         _print_validation(validation, err)
         return 1
     try:
-        if args.json or args.dry_run:
+        if args.json or args.dry_run or args.diagnostics_only:
             result = compute(doc, fetch=not args.no_fetch, company_dir=company_dir_for(path))
         else:
             run_and_write(path, doc, fetch=not args.no_fetch, out=out)
@@ -174,6 +212,9 @@ def main(argv: list[str] | None = None) -> int:
     except (SchemaError, EngineError) as exc:
         print(f"error: {exc}", file=err)
         return 1
+    if args.diagnostics_only:
+        print(json.dumps(diagnostics_payload(result), indent=2, default=_json_default), file=out)
+        return 0
     if args.json:
         payload = dataclasses.asdict(result)
         payload.pop("assumptions", None)

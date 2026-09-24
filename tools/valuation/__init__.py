@@ -27,11 +27,13 @@ from .analysis import run_analysis  # noqa: E402
 from .render import render as _render  # noqa: E402
 from .render_assumptions import render_assumptions, write_assumptions_md  # noqa: E402
 from . import market as _market  # noqa: E402
+from .simulation import SimulationError, SimulationResult, SimulationSettings, Triangle, simulate  # noqa: E402
 
 __all__ = [
     "__version__", "load", "compute", "render", "render_assumptions", "write_assumptions_md",
     "find_repo_root", "assumptions_path", "company_dir_for",
     "SchemaError", "EngineError", "MarketInputs", "ValuationResult", "validate", "validate_or_raise",
+    "simulate", "SimulationError", "SimulationResult", "SimulationSettings", "Triangle",
 ]
 
 

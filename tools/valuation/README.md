@@ -1,6 +1,6 @@
 # valuation
 
-The free-cash-flow-to-the-firm engine described in `AGENTS.md` section 18. It reads one
+The free-cash-flow-to-the-firm engine described in the [model specification](../../.claude/skills/draft-valuation/references/model-spec.md). It reads one
 file, `companies/<TICKER>/valuation/assumptions.yaml`, and writes one file,
 `companies/<TICKER>/valuation/valuation.md`. The owner's judgment lives in the YAML; the
 engine only does arithmetic and reports numbers.
@@ -11,6 +11,7 @@ engine only does arithmetic and reports numbers.
 uv sync                                  # once; creates .venv with pyyaml, ruamel.yaml, openpyxl, xlrd, pytest
 uv run value MRVL --validate             # schema check only, exit 0 or 1
 uv run value MRVL --dry-run              # compute and print the results table; write nothing
+uv run value MRVL --diagnostics-only     # draft-review JSON, no valuation results; write nothing
 uv run value MRVL                        # compute, archive the previous pair to history/, write valuation.md and assumptions.md
 uv run value MRVL --set scenarios.base.operating_margin.values.4=0.34 --set market.price=71.2
 uv run value MRVL --json                 # the full result as JSON on stdout
@@ -30,11 +31,38 @@ directory). A path to a YAML file works too.
 |---|---|
 | `--validate` | Validate only. Prints every error with its dotted path, every warning, every null that stops a scenario. Exit 1 on errors or when no scenario can be computed. |
 | `--dry-run` | Compute everything and print the results table and warnings; write nothing. |
+| `--diagnostics-only` | Compute internally and print only draft-review JSON: market inputs/dates, base year, cost of capital, industry comparisons, operating cash flows and returns by year, transition checks, stopped/skipped cases, and warnings. No valuation results or file writes. |
 | `--set PATH=VALUE` | Override a YAML cell in memory (repeatable). Dotted paths with list indices: `scenarios.base.sales_to_capital.value=2.0`, `scenarios.base.operating_margin.values.4=0.34`. Values are coerced: `null`, `true`/`false`, numbers, otherwise strings (`riskfree`, `auto`). |
 | `--json` | Print the result as JSON instead of the table (assumptions omitted). |
 | `--refresh-data` | Download the seven Damodaran files, rewrite the CSVs and `MANIFEST.md`, exit. |
 | `--no-fetch` | No network. `auto` price and risk-free cells must then be given with `--set`; the ERP `auto` still reads the cached dataset. |
 | `--render-assumptions` | Write `companies/<TICKER>/valuation/assumptions.md` from the YAML and nothing else: no market fetch, no compute, `--set` ignored. |
+
+Use `--diagnostics-only` during drafting. Its output excludes computed asset/equity/per-share
+values, present values, terminal-value share, price-relative valuation ratios, reference
+valuations, sensitivities and reverse DCF. `--set` and `--no-fetch` still work. Adding
+`--json` or `--dry-run` keeps the restricted output; combinations with `--validate`,
+`--refresh-data`, or `--render-assumptions` are rejected before any file access or fetch.
+Ordinary `--dry-run` and full `--json` expose valuation results and belong after owner review.
+For a requested compute dry run, `--dry-run --json` provides the current result and market
+metadata without requiring a saved `valuation.md`. Validation applies supplied `--set`
+overrides before checking inputs; it never saves those overrides.
+
+Rate units follow [the assumptions specification](../../.claude/skills/draft-valuation/references/assumptions-spec.md#section-18-4): YAML and `--set` use decimal fractions
+(`0.12` = 12%, `1.20` = 120%); the app's percentage fields convert for display and entry.
+A return premium of `0.08` adds 8 percentage points to the cost of capital.
+Finite premiums at or above `1.0` require `allow_large_premium: true` and a reason,
+just like other premiums above the case's warning threshold. The warning remains;
+other rate bounds are unchanged. Bear may retain a supported positive terminal premium;
+its large-premium warning threshold is 8 points, the same as base. Zero remains allowed,
+and all scenarios receive the same transition diagnostics. Existing inputs are not migrated.
+
+To fetch a price while drafting before the valuation inputs are ready, call the market
+API directly (the output is a price and timestamp, not a valuation):
+
+```sh
+uv run python -c 'import sys; from valuation.market import fetch_price; print(fetch_price(sys.argv[1]))' MRVL
+```
 
 On a normal run, if `valuation.md` already exists it and `assumptions.yaml` are copied to
 `valuation/history/<YYYY-MM-DD-HHMM>/` before the new file is written. The run also rewrites
@@ -76,7 +104,10 @@ the writer saves (tested).
 - `diff_against_file(path, current_plain_dict)` lists changed paths with the file value and
   the current value; the app's unsaved-changes list and Save are built on it.
 
-Analysts never write `owner_edited` or `changelog`; the app maintains them. Where ruamel
+Analysts never write `owner_edited` or `changelog`; the app maintains them. An authorized
+redraft copies the active files byte-for-byte to a unique history directory, prepares a
+separate candidate, and promotes it only after PASS and a check for intervening owner edits
+([§18.7](../../.claude/skills/draft-valuation/references/workflow-contracts.md#section-18-7)). Copying snapshots does not rewrite YAML. Where ruamel
 cannot keep a layout exactly (column-aligned flow mappings, flow mappings split over two
 lines) it writes the same mapping on one line; nothing else changes.
 
@@ -100,21 +131,30 @@ The engine never needs streamlit: `uv run value ...` and `uv run pytest -q` work
 (routing), `app_core.py` (state, widgets, callbacks, charts), `app_pages.py` (one function per
 page), `impact.py` (the factor ranking, engine-side and tested).
 
-**Shape (section 18.10).** Ten pages, one factor per page, Back and Next at the bottom of
-every page, a progress line at the top ("Step 3 of 10: Revenue growth"), and a clickable step
-list in the sidebar that marks the steps already visited. Results appear only on the last
-page. Every edit recomputes at once through the engine; the sidebar shows the current bear /
-base / bull / weighted values on every page. Switching company returns to Start.
+**Shape (section 18.10).** Fifteen focused pages in a Mercury-inspired workspace: white canvas, quiet sidebar, indigo accents and readable text. Choose any page from grouped sidebar navigation, or follow Back and Next. The company picker is always available. From the factor pages onward, a compact live-value strip keeps the selected case, change since load, market price and quick review/save nearby. Edits persist across navigation and reach disk only when explicitly saved.
 
-| Page | What it shows and asks |
+| Page | Purpose |
 |---|---|
-| 1. Start | Company picker; as-of quarter and file; a paragraph saying the forecast runs ten years, five set and five eased toward the economy by rule; the price (Yahoo Finance), risk-free rate (FRED; if unreachable, the cached Damodaran T-bond rate with a note) and equity risk premium (cached Damodaran row), each as a box with the fetched value, date and source under it (a failed price fetch leaves the box empty and asks for a value); the length of the forecast (5 or 10 years, 10 being the default) in an expander; the factor ranking for this company as a small table with one row per factor page (Factor, What we nudged, Change in base value per share); a glossary of the words used in the walk. |
-| 2. The stories | Bear, base and bull side by side, each headed by its weight and a two-row table of its revenue growth and operating margin paths (years as columns), with the story in an editable text box (equal heights); the management summary and computable status below. Asks the owner to agree with the shape of each case before touching numbers. |
-| 3. Revenue growth | Explanation; the company's own five-year growth when `diagnostics.historical_revenue_cagr` is given; one bordered block per case with the analyst's reason in full, the source tags, and five (or ten) number boxes labelled Year 1..Year 5 in percent (20 means 20%). |
-| 4. Operating margin | Same layout for the margin path; the history line uses `diagnostics.historical_operating_margin` and the base-year adjusted margin. |
-| 5-8. Reinvestment, Cost of capital, Terminal value, Taxes and weights | In the order of the ranking (largest impact first). Reinvestment: sales-to-capital for years 1-5 and 6-10, and the per-year spending figures in whole USD millions (empty = the rule), echoed under the boxes in words ("Year 1 173,970; years 3-5 by the sales-to-capital rule"). Cost of capital: one block with the build inputs (method as "Built from parts" or "One number", industry, unlevered beta, debt to equity, pre-tax cost of debt, the risk-free rate and equity risk premium from Start read-only) and the resulting levered beta, cost of equity, cost of capital and terminal cost of capital in a small table, then one compact row of per-case override boxes (bear / base / bull; empty = shared). Terminal value: the shared terminal cost-of-capital method in short words ("Mature company rate", "Hold the company's rate", "A number I set"; the long form is the help text), then per case a checkbox "Equal to the risk-free rate (x% today)" for terminal growth (unchecked reveals a percentage box and the allow switch) and the return-on-capital premium in points with an "Allow a large premium" switch whose help names that case's ceiling (8 points base, 12 bull; zero in the bear case). Taxes and weights: forecast-year and terminal tax rate per case, the weight per case, and the sum of the weights. |
-| 9. Facts check | Base year, bridge and cost-of-capital build as read-only wrapped tables (Item, Value, Source; a "Show reasons" toggle adds the Reason column), and the derived numbers (adjusted operating income, invested capital, the bridge for the base case, levered beta, cost of equity, cost of capital, terminal cost of capital). An "Edit facts" toggle reveals number boxes with the reasons beside them. No judgment is asked. |
-| 10. Results | Three action buttons in three columns ("Save", "Write the report", "Record in the repository"), all three disabled while the assumptions file has changed on disk, each with a caption saying why. The section 18.5 results table (one row per case plus the weighted row, cases named; the reference column headed "5-year stop per share" or "10-year fade per share" after the file's horizon), a bar chart with the value per share on top of each bar, that same reference as a lighter label at the foot and a sentence saying what it is, then expanders: Sensitivity (two heatmaps, base cell outlined), Year by year (case selector; nine wrapped columns, the years the rule built marked "(by rule)"), Reverse DCF, Diagnostics (Damodaran's six plus the transition check), Warnings, Unsaved changes (each change named in words, values as the pages show them). Under "What to do now": Save (primary, with the note box above it), Write the report (disabled while changes are unsaved, with a caption saying why), Record in the repository (with a caption naming the files and the commit message), and Start over in its own expander with a confirmation when changes are unsaved. |
+| Overview | As-of dates, market inputs and sources, forecast length, impact ranking and glossary. |
+| Scenarios | Three compact path comparisons followed by full-width stories, story-to-number links and expandable editors; management case below. |
+| Revenue growth | History, full analyst reasons, annual inputs, automatic fade and scoped reset. |
+| Operating margin | The same layout for the margin path. |
+| Reinvestment, Cost of capital, Terminal value, Taxes and weights | Four dedicated factor pages in the company's computed impact order. |
+| Source facts | Source-linked base-year figures and bridge, with an explicit Edit facts control. |
+| Valuation | Case comparison, weighted value and chart against market price, with the other forecast horizon as reference. |
+| Analysis | Sensitivity grids and the growth or margin implied by the market price. |
+| Cash flow forecast | Case selection and year-by-year results, split into readable sales/profit and cash-flow tables. |
+| Simulation | Existing Monte Carlo settings, run, results and reproducible export. |
+| Model checks | Diagnostics, transition checks and warnings. |
+| Review & save | Unsaved changes, note, Save, Write the report, Record in the repository and guarded Start over. |
+
+**Scenario values.** Each story has current input matrices with one variable per row and up to five year columns, followed by case/terminal settings. Rates are percentages, reinvestment and calculated sales are USD millions, and capital efficiency is a ratio. The matrices read the working assumptions and resolved model path, so owner edits update them. Narrative reasons and sources remain visible; saved free-text number annotations are retained in a clearly labelled reference expander. Management guidance is presented separately with its original classification and coverage limits.
+
+**Weights and sources.** Scenarios has editable bear/base/bull weights and a reset to 25/50/25. Saved choices are preserved; both weight pages share the same edits and require a 100% total. Use Review & save to keep changes. Citation links open a separate evidence view with highlighted exact quotations or retained citation locators. The original document, complete cached text and download remain available. Document-only references state their precision limit and provide phrase search; ambiguous headings remain candidates. Cached file paths open the whole document. Unknown or missing evidence is never given a guessed destination.
+
+**ROIC comparison.** Reinvestment and Operating margin show historical returns and the return implied by each case. The quick identity combines each year's after-tax margin and sales-to-capital ratio; because the model uses that ratio for new investment, it is a diagnostic rather than the forecast's return on total capital. The forecast column reuses the engine's opening-capital calculation and respects spending overrides. Historical evidence lives in each company's optional `valuation/historical-roic.yaml`, separately from owner assumptions; incomplete or future-dated evidence is labelled unavailable. See [the calculation note](damodaran-notes/2026-09-11-roic-comparison.md).
+
+**Motion.** Navigation uses one brief fade and lift, buttons respond to hover and press, and explanations fade in when opened. Input recalculation leaves the page and financial figures steady. Reduced-motion preferences disable these effects.
 
 **Every factor page, top to bottom:** (a) a two-to-four-sentence explanation for the
 16-year-old (what the factor is, why it moves the value, how Damodaran treats it) and a
@@ -158,7 +198,7 @@ thousands separators; shares in millions with one decimal; value per share and p
 cent. Summary tables use `st.table` (they wrap and never scroll). Per-case blocks are bordered
 containers; nothing is hidden behind a hover.
 
-**Buttons on Results.**
+**Buttons on Review & save.**
 
 - **Save to the assumptions file** writes only the changed cells through the ruamel writer,
   appends one `changelog` entry per cell (with the optional one-line note typed above the
@@ -185,9 +225,86 @@ page never shows a stack trace.
 Environment variables for tests and scripts: `VALUATION_REPO_ROOT` points the app at another
 repository root; `VALUATION_APP_NO_FETCH=1` turns fetching off.
 
+## Monte Carlo simulation
+
+Open **Simulation** in the sidebar, choose one computable case, enter your
+ranges and their reasons, set the draw count and seed, then click **Run simulation**. This
+uses the current working assumptions, including unsaved edits. Nothing is fetched or saved
+by a simulation. Changing assumptions, market inputs, the case or settings hides the old
+distribution until you rerun. Settings survive page navigation in the session; reloading the
+company resets them. **Download simulation and all draws** preserves the settings, reasons,
+full starting snapshot, every attempted draw, errors and summary in JSON. Save and Write the
+report continue to apply only to the deterministic valuation.
+
+The three triangular distributions are **user judgments, not calibrated company models**.
+Minimum and maximum are hard support bounds; most likely is the mode, not the mean or
+median. The initial shifts are all zero and the multiplier is one, so the first run exactly
+reproduces the chosen case. No nonzero spread or correlation is supplied or inferred from
+the bear/base/bull cases. Record support from relevant operating evidence, comparable
+definitions, forecast errors or explicit exploratory judgment in the reason fields.
+
+| Uncertain input | Transformation in each draw |
+|---|---|
+| Revenue-growth shift | One percentage-point shift across the authored growth path. A five-year path's automatic years 6–10 are rebuilt to reach the original terminal growth. A written ten-year growth path keeps its shape. |
+| Year-5 margin shift | One fifth of the shift in year 1, rising to the whole shift in year 5 and later. A separately shaped ten-year margin path is preserved. Terminal margin follows the final forecast margin, as in the existing engine. |
+| Capital-efficiency multiplier | Multiplies early and late sales-to-capital together. The engine derives reinvestment from sampled revenue and these ratios using the original lag. Absolute spending overrides stay fixed and are identified in the UI. |
+
+Each driver is drawn once for the entire forecast, expressing persistent operating
+uncertainty rather than annual noise. Margin and capital efficiency can use independent
+draws, the same rank as growth, or the opposite rank. Independence is an explicit model
+choice; rank links impose perfect positive/negative rank dependence, not fitted Pearson
+correlations. Two drivers linked to growth are also dependent on one another. Rank links
+require nondegenerate growth uncertainty, avoiding a hidden common factor when growth is
+fixed. Pick dependencies for a business mechanism, or vary one driver at a time.
+
+Taxes, financing, terminal growth, terminal ROIC premium, base-year facts, bridge and
+distress adjustment stay fixed. Terminal ROIC remains terminal WACC plus the premium, and
+positive terminal growth still incurs reinvestment at growth divided by ROIC. The simulation
+does not independently sample cash flows, reinvestment, ROIC, terminal value, share price or
+default events. Fixed commitments and broad software bounds cannot guarantee that a draw
+fits a company's capacity, market size or competitive story; those remain owner judgments.
+
+The histogram, mean, median, 10th/90th percentiles, population standard deviation, observed
+extremes and frequency above current price are conditional on **valid draws and the selected
+assumptions**. Percentiles use linear interpolation at `(n - 1) * p` (inclusive/type 7).
+These are assumption-based valuation ranges, not statistical confidence intervals, forecasts
+of traded share prices, or probabilities of making money. An asymmetric triangle can change
+expected inputs, and a nonlinear DCF's mean need not equal the deterministic value. More draws
+reduce Monte Carlo noise, not model uncertainty.
+
+The simulator attempts exactly the requested draw count (1–20,000). Known model/arithmetic
+failures and nonfinite results are recorded with inputs and reasons; there is no clipping,
+silent omission or replacement sampling. Valid-only summaries can be biased when some draws
+fail, so counts and this limitation appear beside results. All-invalid runs show no statistics.
+Finite negative equity residuals remain in the distribution with an explanation. Existing
+terminal-transition warnings are counted for every case, including bear, without
+rejecting flagged observations. JSON represents any nonfinite failed input as an explicit
+`nonfinite:...` string; valid numerical outputs are always finite.
+
+The reusable API takes an already computed valuation, so its market snapshot and existing
+engine logic are reused:
+
+```python
+from valuation import compute, load, simulate, SimulationSettings, Triangle
+
+valuation = compute(load("GOOGL"))  # normal existing compute/market workflow
+run = simulate(valuation, SimulationSettings(scenario="base", draws=2000, seed=42))
+# All ranges above are initially fixed; set Triangle(minimum, mode, maximum, reason)
+# for growth_shift / margin_shift (decimal shifts) and capital_multiplier (unit multiplier).
+print(run.summary)
+payload = run.to_json()            # no implicit write
+```
+
+`valuation.simulation.sample_inputs` transforms a resolved path; `simulate` calls the
+existing `engine.run_scenario` for every valid candidate. It uses a local seeded Python RNG
+and inverse triangular CDFs. Reproducibility requires the same input snapshot, settings and
+model/runtime version. The result records the engine and simulation model versions, input
+fingerprint and timestamp. `histogram(run)` exposes the chart's bin counts for reconciliation.
+See [method findings and primary references](damodaran-notes/2026-09-10-monte-carlo.md).
+
 ## The YAML
 
-The schema is AGENTS.md section 18.4; `tests/fixtures/example_assumptions.yaml` is a complete,
+The schema is [the assumptions specification](../../.claude/skills/draft-valuation/references/assumptions-spec.md#section-18-4); `tests/fixtures/example_assumptions.yaml` is a complete,
 valid example with made-up numbers and comments on every block. Notes beyond section 18.4:
 
 - `scenarios.<name>.terminal.growth.value` may be the string `riskfree`, meaning "the
@@ -323,19 +440,16 @@ Convention differences found by reading his formulas cell by cell:
   notch downwards is normal, because the terminal year reinvests `g / ROIC` whatever the last
   explicit year spent (his own Alphabet February 2024 sheet is 10.7% down, Microsoft 21%), so the
   check flags only a fall of more than 15% or a terminal return below half the last year's
-  implied return. A flagged case also gets a line in the run's warnings. The **bear case is
-  reported but never flagged**: rule 5 fixes its terminal return at its terminal cost of capital,
-  so its step is large by construction, and its cash-flow row carries "(expected: the bear's
-  terminal return equals its cost of capital by rule)" instead. Every diagnostic names its cases as
+  implied return. A flagged case also gets a line in the run's warnings. **All cases, including
+  bear, receive the same transition checks**; a flag calls for economic review rather than
+  changing inputs merely to clear a threshold. Every diagnostic names its cases as
   "Bear case", "Base case", ... and marks a flagged row "(flagged)".
-- Terminal return-on-capital premiums (section 18.4 rule 5): the bear case must be 0, and the
-  soft ceilings are 8 points for the base case and 12 for the bull, above which
-  `allow_large_premium` and a reason are required and the engine warns. Damodaran's own choices
-  for wide moats were 4 points (Alphabet 2018) and 11.5 (Nvidia 2023). The engine also warns,
-  without stopping, when the resulting terminal return on capital is at or above the base-year
-  return **as reported**: a book carrying goodwill from acquisitions understates the return the
-  operating business earns, so the warning asks the analyst's `detail` to say what the return is
-  without it rather than treating the comparison as settled.
+- Terminal return-on-capital premiums (section 18.4 rule 5): bear may use zero or a supported
+  positive premium. The house warning thresholds are 8 points for bear/base and 12 for bull;
+  above them `allow_large_premium` and a reason are required and the warning remains.
+  These thresholds and old worked examples are not economic targets. Compare mature returns
+  with normalized company/peer evidence on consistent capital and profit definitions;
+  retained or lost advantage must follow the business outcome, not its case label.
 - Implied ROIC divides the year's after-tax operating income by invested capital at the start
   of the year, rolled forward with reinvestment (row 40). Base-year invested capital includes
   the R&D asset when `capitalize_rnd` is on (row 39).

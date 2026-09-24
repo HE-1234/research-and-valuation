@@ -31,7 +31,9 @@ Run it from the project with `uv run --extra app valuation-app`.
 # Defaults passed to `streamlit run` unless the caller gives the same option.
 DEFAULTS = (("--server.address", "127.0.0.1"),        # local only: never bind to every interface by default
             ("--server.headless", "false"),            # open the browser
-            ("--browser.gatherUsageStats", "false"))   # no usage-statistics prompt or upload
+            ("--browser.gatherUsageStats", "false"),
+            ("--theme.base", "light"),
+            ("--theme.primaryColor", "#575be7"))   # no usage-statistics prompt or upload
 
 
 def _given(args: list[str], option: str) -> bool:

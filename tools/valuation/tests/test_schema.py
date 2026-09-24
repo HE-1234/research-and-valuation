@@ -151,7 +151,7 @@ def test_growth_written_as_percent_is_rejected_and_large_growth_warned(doc):
 
 
 def test_large_roic_premium_thresholds_are_eight_for_base_and_twelve_for_bull(doc):
-    """Section 18.4 rule 5: soft ceilings of 8 and 12 points, Damodaran's own choices being 4 and 11.5."""
+    """House warning thresholds need an explicit override; they are not economic targets."""
     bull = doc["scenarios"]["bull"]["terminal"]["roic_premium"]
     bull["value"] = 0.11                                        # inside the bull ceiling of 12 points
     assert validate(doc).ok
@@ -172,15 +172,35 @@ def test_large_roic_premium_thresholds_are_eight_for_base_and_twelve_for_bull(do
     assert errors_mentioning(validate(doc), "0.09 is above 0.08 for the base case; set allow_large_premium")
 
 
-def test_bear_premium_must_be_zero(doc):
+@pytest.mark.parametrize("premium", [0.0, 0.01, 0.08])
+def test_bear_premium_may_retain_a_supported_advantage(doc, premium):
     bear = doc["scenarios"]["bear"]["terminal"]["roic_premium"]
-    bear["value"] = 0.01
-    assert errors_mentioning(validate(doc), "must be 0 in the bear case, where the moat is gone")
-    bear["allow_large_premium"] = True
-    bear["reason"] = "a reason does not help here"
-    assert errors_mentioning(validate(doc), "must be 0 in the bear case")
-    bear["value"] = 0.0
+    bear.update(value=premium, reason="Customer switching costs persist despite weaker demand.")
     assert validate(doc).ok
+
+
+@pytest.mark.parametrize("reason", [None, "", "  ", 123])
+def test_positive_bear_premium_needs_a_textual_reason(doc, reason):
+    bear = doc["scenarios"]["bear"]["terminal"]["roic_premium"]
+    bear.update(value=0.01, reason=reason)
+    assert errors_mentioning(validate(doc), "positive bear premium needs a reason")
+
+
+def test_bear_large_premium_threshold_requires_override_and_warns(doc):
+    bear = doc["scenarios"]["bear"]["terminal"]["roic_premium"]
+    bear.update(value=0.09, reason="Supported retained advantage in the adverse outcome.")
+    assert errors_mentioning(validate(doc), "0.09 is above 0.08 for the bear case; set allow_large_premium")
+    bear["allow_large_premium"] = True
+    result = validate(doc)
+    assert result.ok, result.errors
+    assert any("bear: terminal ROIC premium 0.090 is above 0.08" in w for w in result.warnings)
+
+
+@pytest.mark.parametrize("allow_large", [False, True])
+def test_bear_premium_remains_nonnegative(doc, allow_large):
+    bear = doc["scenarios"]["bear"]["terminal"]["roic_premium"]
+    bear.update(value=-0.01, allow_large_premium=allow_large, reason="Negative return premium.")
+    assert errors_mentioning(validate(doc), "roic_premium.value: must be >= 0.0")
 
 
 def test_allow_above_riskfree_needs_a_reason(doc):
@@ -403,3 +423,64 @@ def test_story_to_numbers_must_be_a_list_of_mappings(doc):
     assert errors_mentioning(validate(doc), "scenarios.bear.story_to_numbers.0: each row must be a mapping")
     doc["scenarios"]["bear"]["story_to_numbers"] = [{"says": "Flat margins.", "drives": "operating margin", "number": 0.16}]
     assert validate(doc).ok                                     # a numeric number is fine
+
+
+@pytest.mark.parametrize("premium", [1.0, 1.0456])
+@pytest.mark.parametrize("scenario", ["bear", "base", "bull", "management"])
+def test_explicit_large_premium_override_allows_decimal_returns_above_one(doc, premium, scenario):
+    cell = doc["scenarios"][scenario]["terminal"]["roic_premium"]
+    cell.update(value=premium, allow_large_premium=True,
+                reason="Supported supplier-accounting return; full funding bridge supplied.")
+    result = validate(doc)
+    assert result.ok, result.errors
+    assert any("terminal ROIC premium" in warning for warning in result.warnings)
+
+
+@pytest.mark.parametrize("scenario", ["bear", "bull"])
+def test_above_one_premium_still_requires_override_and_reason(doc, scenario):
+    cell = doc["scenarios"][scenario]["terminal"]["roic_premium"]
+    cell.update(value=1.0456, allow_large_premium=False)
+    assert errors_mentioning(validate(doc), "roic_premium")
+    cell.update(allow_large_premium=True, reason="")
+    assert errors_mentioning(validate(doc), "no reason")
+
+
+def test_large_premium_override_does_not_relax_market_rate_guard(doc):
+    cell = doc["scenarios"]["bull"]["terminal"]["roic_premium"]
+    cell.update(value=1.0456, allow_large_premium=True,
+                reason="Explicitly supported large return.")
+    doc["market"]["risk_free_rate"] = 1.1
+    assert errors_mentioning(validate(doc), "market.risk_free_rate")
+
+
+def test_large_positive_premium_override_keeps_negative_rate_guard(doc):
+    cell = doc["scenarios"]["bull"]["terminal"]["roic_premium"]
+    cell.update(value=-1.1, allow_large_premium=True,
+                reason="The positive large-return option must not permit this.")
+    assert errors_mentioning(validate(doc), "roic_premium")
+
+
+@pytest.mark.parametrize("premium", [float("inf"), float("-inf"), float("nan")])
+@pytest.mark.parametrize("allow_large", [False, True])
+@pytest.mark.parametrize("scenario", ["bear", "bull"])
+def test_terminal_premium_rejects_nonfinite_values(doc, premium, allow_large, scenario):
+    cell = doc["scenarios"][scenario]["terminal"]["roic_premium"]
+    cell.update(value=premium, allow_large_premium=allow_large,
+                reason="A return input must still be finite.")
+    assert errors_mentioning(validate(doc), "must be finite")
+
+
+@pytest.mark.parametrize("premium", ["104.56%", "1.0456", True])
+@pytest.mark.parametrize("scenario", ["bear", "bull"])
+def test_large_premium_override_still_requires_a_numeric_decimal(doc, premium, scenario):
+    cell = doc["scenarios"][scenario]["terminal"]["roic_premium"]
+    cell.update(value=premium, allow_large_premium=True, reason="An explicit large return.")
+    assert errors_mentioning(validate(doc), "expected a number")
+
+
+@pytest.mark.parametrize("flag", [False, "true", 1])
+@pytest.mark.parametrize("scenario", ["bear", "bull"])
+def test_above_one_premium_requires_an_explicit_boolean_override(doc, flag, scenario):
+    cell = doc["scenarios"][scenario]["terminal"]["roic_premium"]
+    cell.update(value=1.0456, allow_large_premium=flag, reason="An explicit large return.")
+    assert errors_mentioning(validate(doc), "roic_premium")

@@ -25,11 +25,6 @@ from .schema import case_label, get_path
 HISTORY_GAP = 0.05      # points of growth beyond which the "history is context" note is printed (rule 11)
 TRANSITION_DROP = 0.15  # a terminal-year cash flow this far below the last explicit year's is a cliff
 TRANSITION_ROIC = 0.5   # a terminal return below this share of the last year's implied return is a cliff
-# The bear case gives up the moat by rule (section 18.4 rule 5: its terminal return on capital equals its
-# terminal cost of capital), so its step into the terminal year is large by construction and is reported
-# without being checked.
-EXEMPT_FROM_TRANSITION = "bear"
-BEAR_EXPECTED = " (expected: the bear's terminal return equals its cost of capital by rule)"
 FLAGGED = " (flagged)"       # one spelling of the marker in every diagnostic row
 WACC_STEPS = (-0.02, -0.01, 0.0, 0.01, 0.02)
 TERMINAL_GROWTH_STEPS = (-0.01, -0.005, 0.0, 0.005, 0.01)
@@ -311,9 +306,7 @@ def transition_check(result: ValuationResult, warnings: list[str] | None = None)
     year's, and flags a cliff when the step is bigger than the normal notch.  A flagged case also
     gets a line in the run's warnings, because the reviewer must resolve it.
 
-    The bear case is reported but never flagged: section 18.4 rule 5 fixes its terminal return on
-    capital at its terminal cost of capital, so a large step is what the rule asks for, not a
-    disagreement between the inputs.
+    Every case uses the same economic checks, including bear cases with no excess return.
     """
     rows: list[tuple[str, str]] = []
     flag = False
@@ -321,31 +314,34 @@ def transition_check(result: ValuationResult, warnings: list[str] | None = None)
     for name, sc in result.scenarios.items():
         last, term = sc.rows[-1], sc.terminal
         change = fcff_change(last.fcff, term.fcff)
-        checked = name != EXEMPT_FROM_TRANSITION
-        hit = checked and transition_flag(last.fcff, term.fcff, last.roic, term.roic)
+        hit = transition_flag(last.fcff, term.fcff, last.roic, term.roic)
         flag = flag or hit
         last_year = last.year
         rows.append((f"{case_label(name)}, free cash flow (USD millions)",
                      f"year {last.year} {last.fcff:,.0f} to terminal year {term.fcff:,.0f}"
                      + ("" if change is None else f", a change of {change * 100:+.1f}%")
-                     + (FLAGGED if hit else "")
-                     + ("" if checked else BEAR_EXPECTED)))
+                     + (FLAGGED if hit else "")))
         rows.append((f"{case_label(name)}, return on capital",
                      f"year {last.year} {_pct(last.roic)} to terminal year {_pct(term.roic)}"))
         if hit and warnings is not None:
-            warnings.append(
-                f"{name}: the terminal year's free cash flow ({term.fcff:,.0f}) is far below the year-{last.year} "
-                f"free cash flow ({last.fcff:,.0f}); the terminal settings and the year-{last.year} inputs disagree")
+            reasons = []
+            if change is not None and change < -TRANSITION_DROP:
+                reasons.append(f"the terminal year's free cash flow ({term.fcff:,.0f}) is more than "
+                               f"{TRANSITION_DROP * 100:.0f}% below the year-{last.year} free cash flow "
+                               f"({last.fcff:,.0f})")
+            if last.roic is not None and last.roic > 0 and term.roic < TRANSITION_ROIC * last.roic:
+                reasons.append(f"terminal return on capital ({_pct(term.roic)}) is below half of the "
+                               f"year-{last.year} return ({_pct(last.roic)})")
+            warnings.append(f"{name}: " + "; ".join(reasons) +
+                            "; review the economic reasons for the transition")
     note = ("A small drop is normal, because the terminal year reinvests growth divided by the return on capital. "
             f"Flagged when the terminal year's cash flow is more than {TRANSITION_DROP * 100:.0f}% below the year-"
-            f"{last_year} figure, or when the terminal return on capital is below half of that year's. The bear "
-            "case is shown but not checked, because its terminal return equals its cost of capital by rule.")
+            f"{last_year} figure, or when the terminal return on capital is below half of that year's. "
+            "The same checks apply to every case; these thresholds are review triggers, not economic bounds.")
     if flag:
-        note = ("A small drop is normal, because the terminal year reinvests growth divided by the return on "
-                "capital; a drop this large means the terminal settings and the last explicit year disagree. "
-                "Revisit the terminal "
-                "return on capital or the shape of the last years, rather than accepting the step. The bear case is "
-                "shown but not checked, because its terminal return equals its cost of capital by rule.")
+        note += (" Explain flagged transitions using growth, margins, taxes, reinvestment and capital definitions. "
+                 "A supported discontinuity may remain; change inputs only for economic reasons, "
+                 "never just to clear a flag.")
     return Diagnostic("7. The step from the last explicit year into the terminal year", rows, flag=flag, note=note)
 
 
@@ -362,7 +358,8 @@ def transition_flag(last_fcff: float, terminal_fcff: float, last_roic: float | N
 
     Damodaran's own published sheets carry a small terminal-year notch (Alphabet February 2024 is
     10.7% below year 10, Microsoft 21%) because the terminal year reinvests ``g / ROIC`` whatever the
-    last explicit year spent.  Only a bigger step means the two sets of inputs disagree.
+    last explicit year spent. The thresholds prompt review; a flagged discontinuity can have a
+    supported economic reason.
     """
     change = fcff_change(last_fcff, terminal_fcff)
     if change is not None and change < -TRANSITION_DROP:

@@ -6,6 +6,8 @@ import json
 import shutil
 from pathlib import Path
 
+import pytest
+
 from valuation.cli import main
 
 FIXTURE = Path(__file__).resolve().parent / "fixtures" / "example_assumptions.yaml"
@@ -139,3 +141,88 @@ def test_five_year_file_keeps_the_ten_year_fade_as_its_reference(capsys):
     out = capsys.readouterr().out
     assert "| 10-year fade value per share |" in out
     assert "5-year stop" not in out
+
+
+@pytest.mark.parametrize("extra", [[], ["--json"], ["--dry-run", "--json"]])
+def test_draft_diagnostics_match_engine_without_values_or_writes(tmp_path, capsys, monkeypatch, extra):
+    target = tmp_path / "assumptions.yaml"
+    shutil.copy(FIXTURE, target)
+    # A stale report must neither be read as the current result nor archived/overwritten.
+    (tmp_path / "valuation.md").write_text("previous valuation", encoding="utf-8")
+    (tmp_path / "assumptions.md").write_text("previous readable inputs", encoding="utf-8")
+    before = {p.name: p.read_bytes() for p in tmp_path.iterdir()}
+    assert main([str(target), "--json", *OFFLINE]) == 0
+    full = json.loads(capsys.readouterr().out)
+
+    def no_report(*args, **kwargs):
+        pytest.fail("draft diagnostics must not render a valuation report")
+
+    monkeypatch.setattr("valuation.cli.render", no_report)
+    assert main([str(target), "--diagnostics-only", *extra, *OFFLINE]) == 0
+    captured = capsys.readouterr()
+    payload = json.loads(captured.out)
+    assert not captured.err
+    assert payload["market"] == full["market"]
+    assert payload["warnings"] == full["warnings"]
+    assert payload["transition_check"]["flag"] is True
+    for name, case in payload["scenarios"].items():
+        for row, original in zip(case["years"], full["scenarios"][name]["rows"], strict=True):
+            assert row["fcff"] == original["fcff"]
+            assert row["roic"] == original["roic"]
+            assert row["wacc"] == original["wacc"]
+        assert case["terminal"]["fcff"] == full["scenarios"][name]["terminal"]["fcff"]
+        assert case["terminal"]["roic"] == full["scenarios"][name]["terminal"]["roic"]
+
+    forbidden = {"per_share", "equity", "enterprise_value", "operating_assets", "pv", "pv_terminal",
+                 "sum_pv_fcff", "terminal_share", "reference", "reference_per_share", "weighted",
+                 "reverse", "grids", "upside", "assumptions"}
+
+    def check_fields(value):
+        if isinstance(value, dict):
+            assert not forbidden.intersection(value)
+            for child in value.values():
+                check_fields(child)
+        elif isinstance(value, list):
+            for child in value:
+                check_fields(child)
+
+    check_fields(payload)
+    assert set(payload["scenarios"]["base"]["terminal"]) == {
+        "year", "revenue", "growth", "margin", "ebit_after_tax", "reinvestment", "fcff", "wacc", "roic"}
+    assert {p.name: p.read_bytes() for p in tmp_path.iterdir()} == before
+
+
+def test_draft_diagnostics_report_stopped_and_skipped_cases(capsys):
+    assert main([str(FIXTURE), "--diagnostics-only", *OFFLINE,
+                 "--set", "scenarios.base.sales_to_capital.value=null",
+                 "--set", "scenarios.management.computable=false"]) == 0
+    payload = json.loads(capsys.readouterr().out)
+    assert set(payload["scenarios"]) == {"bear", "bull"}
+    assert "sales_to_capital.value is null" in payload["stopped"]["base"][0]
+    assert "management" in payload["skipped"]
+    assert any("base scenario not computed" in warning for warning in payload["warnings"])
+
+
+@pytest.mark.parametrize("mode", ["--render-assumptions", "--refresh-data", "--validate"])
+def test_draft_diagnostics_reject_conflicting_modes_before_side_effects(tmp_path, capsys, monkeypatch, mode):
+    def forbidden(*args, **kwargs):
+        pytest.fail("a conflicting mode must fail before file access or fetching")
+
+    monkeypatch.setattr("valuation.cli.load", forbidden)
+    monkeypatch.setattr("valuation.cli.refresh_data", forbidden)
+    with pytest.raises(SystemExit) as exc:
+        main([str(tmp_path / "missing.yaml"), "--diagnostics-only", mode])
+    assert exc.value.code == 2
+    assert "cannot be combined" in capsys.readouterr().err
+    assert not list(tmp_path.iterdir())
+
+
+def test_validation_accepts_user_override_that_repairs_input_without_saving(tmp_path, capsys):
+    target = tmp_path / "assumptions.yaml"
+    target.write_text(FIXTURE.read_text().replace("weight: 0.50", "weight: 0.60"), encoding="utf-8")
+    before = target.read_bytes()
+    assert main([str(target), "--validate"]) == 1
+    capsys.readouterr()
+    assert main([str(target), "--validate", "--set", "scenarios.base.weight=0.50"]) == 0
+    assert "validates" in capsys.readouterr().out
+    assert target.read_bytes() == before

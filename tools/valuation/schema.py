@@ -15,6 +15,7 @@ error.
 from __future__ import annotations
 
 import copy
+import math
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -30,15 +31,18 @@ CASE_LABELS = {"bear": "Bear", "base": "Base", "bull": "Bull", "management": "Ma
 def case_label(name: str) -> str:
     """"bear" -> "Bear case": one spelling of a case name for every table and message."""
     return f"{CASE_LABELS.get(str(name), str(name).capitalize())} case"
-# Section 18.4 rule 5: the bear case gives up the moat entirely, so its premium must be zero; the base
-# and bull cases carry soft ceilings (Damodaran's own choices were 4 points for Alphabet 2018 and 11.5
-# for Nvidia 2023).  Above the ceiling the engine still computes, but only with `allow_large_premium`.
-LARGE_PREMIUM = {"base": 0.08, "bull": 0.12, "management": 0.08}
+# Assumptions rule 5: these house warning thresholds are review triggers, not forecast targets.
+# A supported bear case may retain an advantage; zero remains a valid choice.
+# Above the threshold the engine computes only with `allow_large_premium` and a reason.
+LARGE_PREMIUM = {"bear": 0.08, "base": 0.08, "bull": 0.12, "management": 0.08}
 DEFAULT_LARGE_PREMIUM = 0.08
 WEIGHT_TOLERANCE = 1e-6
 HORIZONS = (5, 10)
 DEFAULT_HORIZON = 10           # five explicit years plus five faded by rule (section 18.2)
 EXPLICIT_YEARS = 5             # the years the analyst judges when the horizon is 10
+# Shared software bounds for authored and simulated operating paths; not economic forecasts.
+GROWTH_BOUNDS = (-0.99, 5.0)
+MARGIN_BOUNDS = (-5.0, 0.99)
 RISKFREE = "riskfree"          # terminal.growth.value may be this string: "equal to the run's risk-free rate"
 # switches.reinvestment_lag: year t reinvests (Rev_{t+lag} - Rev_{t+lag-1}) / sales-to-capital, as his
 # ginzu sheet does.  1 is the default (this year's spending buys next year's growth); he used 3 for
@@ -539,12 +543,10 @@ def terminal_growth_rule(scenario: str, growth: float, risk_free: float,
 
 
 def large_premium_ceiling(scenario: str) -> float:
-    """Section 18.4 rule 5: the soft ceiling on a scenario's terminal return-on-capital premium.
+    """Assumptions rule 5: the house warning threshold for a terminal ROIC premium.
 
-    Damodaran's own choices for wide moats were 4 points (Alphabet 2018) and 11.5 points
-    (Nvidia 2023), so the base case is capped at 8 points and the bull at 12; above the cap the
-    engine still computes, but only with ``allow_large_premium`` and a reason.  The bear case
-    must be 0 (checked separately).
+    Above it, the engine computes only with ``allow_large_premium`` and a reason.
+    The threshold is not evidence for the selected return or an economic upper bound.
     """
     return LARGE_PREMIUM.get(scenario, DEFAULT_LARGE_PREMIUM)
 
@@ -574,17 +576,24 @@ def _check_terminal(v: Validation, doc: Any, sp: str, scenario: str) -> None:
             if warning:
                 v.warnings.append(warning)
     p_path = f"{sp}.terminal.roic_premium"
-    prem = _check_number(v, f"{p_path}.value", _cell_value(v, doc, p_path), rate=True)
-    _require(v, f"{p_path}.value", prem, scenario)
     pnode = get_path(doc, p_path) or {}
+    # An explicitly justified large return can exceed 100%; it is not a probability.
+    # Keep the decimal/percent guard unless the existing large-premium override is on.
+    raw_prem = _cell_value(v, doc, p_path)
+    if _is_number(raw_prem) and not math.isfinite(raw_prem):
+        v.errors.append(f"{p_path}.value: must be finite, got {raw_prem}")
+        prem = None
+    else:
+        large_override = (isinstance(pnode, dict) and pnode.get("allow_large_premium") is True
+                          and _is_number(raw_prem) and raw_prem >= 1.0)
+        prem = _check_number(v, f"{p_path}.value", raw_prem, rate=not large_override,
+                             lo=0.0 if scenario == "bear" else None)
+    _require(v, f"{p_path}.value", prem, scenario)
     if isinstance(pnode, dict) and prem is not None:
         ceiling = large_premium_ceiling(scenario)
         flag = pnode.get("allow_large_premium", False)
         if not isinstance(flag, bool):
             v.errors.append(f"{p_path}.allow_large_premium: must be true or false")
-        elif scenario == "bear" and prem != 0.0:
-            v.errors.append(f"{p_path}.value: {prem} must be 0 in the bear case, where the moat is gone "
-                            "(section 18.4 rule 5)")
         elif prem > ceiling and not flag:
             v.errors.append(f"{p_path}.value: {prem} is above {ceiling} for the {scenario} case; set "
                             "allow_large_premium: true and give a reason (section 18.4 rule 5)")
@@ -593,6 +602,9 @@ def _check_terminal(v: Validation, doc: Any, sp: str, scenario: str) -> None:
                 v.errors.append(f"{p_path}.allow_large_premium is true but no reason is given")
             v.warnings.append(f"{scenario}: terminal ROIC premium {prem:.3f} is above {ceiling} "
                               f"(allow_large_premium is true; reason: {pnode.get('reason', '')})")
+        if scenario == "bear" and prem > 0 and not (
+                isinstance(pnode.get("reason"), str) and pnode["reason"].strip()):
+            v.errors.append(f"{p_path}.reason: a positive bear premium needs a reason for the lasting advantage")
         if prem < 0:
             v.warnings.append(f"{p_path}.value: negative premium means terminal ROIC below cost of capital")
 
@@ -653,8 +665,10 @@ def _check_scenario(v: Validation, doc: dict[str, Any], name: str, horizon: int)
     if name != "management" and (not isinstance(s.get("story"), str) or not s.get("story", "").strip()):
         v.warnings.append(f"{sp}.story: missing; the stories section will be blank for this case")
     _check_story_to_numbers(v, s, sp)
-    _check_year_list(v, doc, f"{sp}.revenue_growth", horizon, name, required=True, lo=-0.99, hi=5.0, warn_hi=1.0)
-    _check_year_list(v, doc, f"{sp}.operating_margin", horizon, name, required=True, lo=-5.0, hi=0.99)
+    _check_year_list(v, doc, f"{sp}.revenue_growth", horizon, name, required=True,
+                     lo=GROWTH_BOUNDS[0], hi=GROWTH_BOUNDS[1], warn_hi=1.0)
+    _check_year_list(v, doc, f"{sp}.operating_margin", horizon, name, required=True,
+                     lo=MARGIN_BOUNDS[0], hi=MARGIN_BOUNDS[1])
     if get_path(doc, f"{sp}.reinvestment_override") is not None:
         _check_year_list(v, doc, f"{sp}.reinvestment_override", horizon, name, required=False,
                          lo=-1e9, hi=1e9)

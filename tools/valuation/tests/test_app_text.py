@@ -124,7 +124,7 @@ def test_warning_lines_read_like_the_notes():
 
 
 def test_the_new_terminal_and_transition_messages_read_as_sentences():
-    """Section 18.2 and 18.4 rule 5: the premium ceilings, the bear rule, and the transition flag."""
+    """Premium thresholds, retained bear advantage, and transition warnings use readable messages."""
     assert plain_message("scenarios.bull.terminal.roic_premium.value: 0.15 is above 0.12 for the bull case; set "
                          "allow_large_premium: true and give a reason (section 18.4 rule 5)") == (
         "Bull case, terminal return-on-capital premium 15.00% is above 12 points; tick 'Allow a large premium' on "
@@ -136,10 +136,12 @@ def test_the_new_terminal_and_transition_messages_read_as_sentences():
                          "a durable moat)") == (
         "Bull case: the terminal return-on-capital premium 15.00% is above 12 points, allowed with the reason: "
         "a durable moat.")
-    assert plain_message("scenarios.bear.terminal.roic_premium.value: 0.02 must be 0 in the bear case, where the "
-                         "moat is gone (section 18.4 rule 5)") == (
-        "Bear case, terminal return-on-capital premium is 2.00% and must be zero: the bear case assumes the "
-        "advantage is gone, so the return on capital falls to the cost of capital.")
+    assert plain_message("scenarios.bear.terminal.roic_premium.reason: a positive bear premium needs a reason "
+                         "for the lasting advantage") == (
+        "Bear case, terminal return-on-capital premium needs a reason explaining the lasting advantage.")
+    assert plain_message("scenarios.bear.terminal.roic_premium.value: 0.09 is above 0.08 for the bear case; set "
+                         "allow_large_premium: true and give a reason (section 18.4 rule 5)").startswith(
+        "Bear case, terminal return-on-capital premium 9.00% is above 8 points;")
     assert plain_message("base: terminal return on capital 11.75% is at or above the base-year return on capital "
                          "of 6.83% as reported; if that figure is depressed by goodwill from acquisitions, the "
                          "analyst's detail should say what the return is without it") == (

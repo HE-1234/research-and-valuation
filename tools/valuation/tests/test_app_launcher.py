@@ -10,7 +10,8 @@ def test_defaults_bind_to_localhost_open_the_browser_and_silence_usage_stats():
     assert cmd[:5] == ["py", "-m", "streamlit", "run", str(APP_PATH)]
     assert APP_PATH.name == "app.py"
     tail = cmd[5:]
-    assert tail == ["--server.address", "127.0.0.1", "--server.headless", "false", "--browser.gatherUsageStats", "false"]
+    assert tail == ["--server.address", "127.0.0.1", "--server.headless", "false", "--browser.gatherUsageStats", "false",
+                    "--theme.base", "light", "--theme.primaryColor", "#575be7"]
 
 
 def test_callers_own_options_replace_the_defaults_and_pass_through():
@@ -21,7 +22,8 @@ def test_callers_own_options_replace_the_defaults_and_pass_through():
     assert "--server.headless" in tail and "--browser.gatherUsageStats" in tail
     cmd = build_command(["--server.headless=true", "--browser.gatherUsageStats=true"], python="py")
     tail = cmd[5:]
-    assert tail == ["--server.address", "127.0.0.1", "--server.headless=true", "--browser.gatherUsageStats=true"]
+    assert tail == ["--server.address", "127.0.0.1", "--theme.base", "light", "--theme.primaryColor", "#575be7",
+                    "--server.headless=true", "--browser.gatherUsageStats=true"]
 
 
 def test_help_prints_usage_and_exits_zero(capsys):

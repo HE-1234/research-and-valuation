@@ -71,6 +71,26 @@ def hand_inputs(**kw) -> ScenarioInputs:
 
 # --------------------------------------------------------------------------- #
 
+@pytest.mark.parametrize("scenario", ["bear", "bull"])
+def test_large_decimal_rates_reach_formulas_without_rescaling(scenario):
+    doc = load_yaml(FIXTURE)
+    original = copy.deepcopy(doc)
+    inputs = doc["scenarios"][scenario]
+    inputs["revenue_growth"]["values"][0] = 1.2
+    inputs["operating_margin"]["values"][0] = 0.3
+    inputs["terminal"]["roic_premium"].update(
+        value=1.0456, allow_large_premium=True, reason="Synthetic high-return unit check.")
+    before = copy.deepcopy(doc)
+    result = compute(doc, MarketInputs(price=70.0, risk_free_rate=0.0425, equity_risk_premium=0.045))
+    case = result.scenarios[scenario]
+    assert case.rows[0].revenue == pytest.approx(original["base_year"]["revenue"]["value"] * 2.2)
+    assert case.rows[0].ebit == pytest.approx(case.rows[0].revenue * 0.3)
+    assert case.inputs.roic_premium == 1.0456
+    assert case.terminal.roic == pytest.approx(case.inputs.terminal_wacc + 1.0456)
+    assert case.terminal.reinvestment_rate == pytest.approx(case.terminal.growth / case.terminal.roic)
+    assert doc == before
+
+
 def test_hand_worked_five_year_case():
     res = run_scenario(hand_inputs(), base_year(), bridge(), price=200.0)
     pvs = [r.pv for r in res.rows]

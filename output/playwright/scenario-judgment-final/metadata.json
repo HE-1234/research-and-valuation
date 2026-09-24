@@ -1,0 +1,35 @@
+{
+  "result": "PASS",
+  "company": "EXMP synthetic audit only",
+  "input": "/private/tmp/scenario-judgment-audit-x5hcb0e8/companies/EXMP/valuation/assumptions.yaml",
+  "input_sha256": "9de05669ba095d21191b66c7a9478be317e5d20c6df57af6024e3fe3bc03ba02",
+  "input_unchanged_in_final_audit": true,
+  "server_pid": 24506,
+  "url": "http://127.0.0.1:8597",
+  "server_started": "2026-09-19 11:02:39 America/Los_Angeles",
+  "browser_session": "synthetic-scenario-final",
+  "viewport": [
+    1440,
+    900
+  ],
+  "app_manifest_sha256": "4a86aa020d3d643855c5680d061621ae8123622cc5a9a8023b00f7b23663572e",
+  "missing_rate_probe_pid": 26582,
+  "missing_rate_probe_url": "http://127.0.0.1:8598",
+  "missing_rate_probe_started": "2026-09-19 11:10:52 America/Los_Angeles",
+  "missing_rate_probe": "An isolated wrapper sets only the synthetic company market_values.rf session entry to None before running the unchanged app.py. No assumptions are modified.",
+  "fresh_pages": 15,
+  "png_count": 18,
+  "audited_sources_unchanged": true,
+  "checks": {
+    "bear_2_accepted": true,
+    "bear_9_gate": true,
+    "bear_9_override_warning": true,
+    "all_case_diagnostics": true,
+    "reset_premium_to_loaded_2": true,
+    "reset_override_off": true,
+    "unsaved_zero": true,
+    "save_disabled": true,
+    "missing_rf_controls_unavailable_and_disabled": 4,
+    "missing_rf_instruction": true
+  }
+}

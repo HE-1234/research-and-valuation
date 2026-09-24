@@ -22,18 +22,21 @@ from typing import Any
 import pandas as pd
 import streamlit as st
 
-from valuation import MarketInputs
+from valuation import MarketInputs, validate
 from valuation.app_core import (
     _WIDE, CASE_LABELS, METHOD_HELP, METHOD_WORDS, NA, STALE_BANNER, TERMINAL_METHOD_HELP, TERMINAL_METHOD_WORDS,
     _commit_cb, _restart_cb, _save_cb, _write_cb, changes_table, fade_clauses, fade_line, file_changed_on_disk, heatmap,
     horizon_control, market_boxes, md, money, num, path_list, pct, pct2, pending_commit, per_share, plain_message,
-    plain_clause, ranking_for, ranking_table, reason_block, result_notes, results_table, shares, static_table,
-    stop_sentence,
+    plain_clause, ranking_for, ranking_table, reason_block, result_notes, results_table, review_only, shares, static_table,
+    stop_sentence, concept_label,
     unsaved_changes, value_chart, w_bool, w_choice, w_line, w_number, w_pct, w_text, w_terminal_growth,
     warning_sentence, working_notes, year_boxes,
 )
-from valuation.engine import ValuationResult
-from valuation.render_assumptions import story_to_numbers_rows
+from valuation.app_workspace import case_value, factor_reset, saved_comparison
+from valuation.app_simulation import simulation_panel
+from valuation.engine import ValuationResult, build_base_year
+from valuation.roic import load_return_history, return_comparisons
+from valuation.app_scenarios import scenario_weights, story_assumptions, weight_status
 from valuation.schema import EXPLICIT_YEARS, WEIGHTED_SCENARIOS, get_path, is_riskfree, large_premium_ceiling
 
 
@@ -84,7 +87,7 @@ EXPLANATIONS = {
         "costs less, so more cash is left for the people who fund the company. Damodaran sizes each year's "
         "reinvestment as the coming year's revenue increase divided by this ratio, unless a specific spending "
         "figure (a capital-spending plan management has announced) overrides it for that year. How far ahead the "
-        "spending is credited is a setting on the Facts check page: one year by default, which is what his own "
+        "spending is credited is a setting on the Source facts page: one year by default, which is what his own "
         "template does, and up to three for a business whose factories take that long to earn anything. Watch the "
         "pairing with the growth page: fast growth at a low ratio eats most of the cash it creates."
     ),
@@ -104,12 +107,13 @@ EXPLANATIONS = {
         "is usually the largest part of the value, which is why its rules are strict: Damodaran caps growth at "
         "the risk-free rate (no company outgrows the economy forever) and by default assumes the return on "
         "capital drops to the cost of capital, meaning the company's advantage has faded and growth adds nothing "
-        "extra. A return-on-capital premium above zero says part of the moat lasts forever, so it needs a reason, "
-        "it has to be zero in the bear case, and it should leave the terminal return below the return the company "
-        "earns today. Above 8 points in the base case, or 12 in the bull, it also needs the switch ticked: "
-        "Damodaran's own choices for wide moats were 4 points for Alphabet in 2018 (a 12% return against an 8% cost "
-        "of capital) and 11.5 for Nvidia in 2023 (20% against 8.85%). The terminal cost of capital moves to the rate "
-        "a mature company pays, and the share of value that comes from the terminal value is shown on the Results "
+        "extra. A return-on-capital premium above zero says part of the moat lasts forever, so it needs evidence "
+        "for that lasting advantage. The bear case may retain an advantage when its adverse business story supports "
+        "one; zero is also allowed. Choose the mature return from the business economics, allowing for differences "
+        "in how capital is measured. Above 8 points in the bear or base case, or 12 in the bull, the premium also "
+        "needs the switch ticked and a reason. These are house warning thresholds, not targets. The terminal "
+        "cost of capital moves to the rate "
+        "a mature company pays, and the share of value that comes from the terminal value is shown on the Valuation "
         "page as a check on how much rests on this page."
     ),
     "taxes_weights": (
@@ -135,17 +139,17 @@ INSTRUCTIONS = {
 }
 
 PAGE_TITLES = {
-    "start": "Start", "stories": "The stories", "revenue_growth": "Revenue growth",
+    "start": "Overview", "stories": "Scenarios", "revenue_growth": "Revenue growth",
     "operating_margin": "Operating margin", "reinvestment": "Reinvestment", "cost_of_capital": "Cost of capital",
-    "terminal": "Terminal value", "taxes_weights": "Taxes and weights", "facts": "Facts check", "results": "Results",
+    "terminal": "Terminal value", "taxes_weights": "Taxes and weights", "facts": "Source facts", "results": "Valuation",
+    "analysis": "Analysis", "forecast": "Cash flow forecast", "simulation": "Simulation",
+    "checks": "Model checks", "review": "Review & save",
 }
 
 START_TEXT = (
-    "This walk takes you through the assumptions behind the valuation, one factor per page, in the order of how "
-    "much each one moves the value for this company. On every page you read a short explanation, see the "
-    "analyst's proposal and reasons for each case, and either accept the number or type your own. The value is "
-    "recomputed after every change and appears in full on the last page, where you can save your edits back to "
-    "the assumptions file."
+    "Start with the stories, then adjust one assumption at a time. Click a question mark for a short definition. "
+    "From the factor pages onward, your selected case's value stays in view as you edit. "
+    "Compare it with the value at load, check the analyst's reasons, and use Review & save when you are ready."
 )
 HORIZON_TEXT = {
     10: ("The forecast runs ten years: five you set year by year, and five that ease toward the economy by rule, "
@@ -236,8 +240,21 @@ def management_note(doc: dict[str, Any], *, with_guidance: bool) -> None:
                 guidance_table(doc)
 
 
+QUICK_EXPLANATIONS = {
+    "revenue_growth": ("How fast can sales grow?", "Set the annual increase in sales. More sales can create more profit, but also require more investment."),
+    "operating_margin": ("How much of each sale becomes profit?", "A 20% margin means 20 cents of operating profit per dollar of sales, before interest and taxes. Higher margins generally increase value."),
+    "reinvestment": ("What will growth cost?", "Sales-to-capital tells us how efficiently new investment creates sales. A higher ratio needs less spending for the same growth, leaving more cash."),
+    "cost_of_capital": ("What return does the investment need to earn?", "This is the rate used to translate future cash into today's money. A higher rate reduces the value of future cash flows."),
+    "terminal": ("What happens after the forecast ends?", "Set the growth and returns of the mature business. These assumptions can account for a large share of today's value."),
+    "taxes_weights": ("How much tax, and how likely is each case?", "Taxes reduce the cash left for investors. Case weights describe your confidence in each story and determine the weighted average value."),
+}
+
+
 def explanation(page: str) -> None:
-    with st.container(border=True):
+    question, brief = QUICK_EXPLANATIONS[page]
+    st.markdown(f"**{question}**")
+    st.markdown(brief)
+    with st.expander("How this works in the model"):
         st.markdown(EXPLANATIONS[page])
     st.caption(INSTRUCTIONS[page])
 
@@ -282,22 +299,14 @@ def paths_table(doc: dict[str, Any], name: str, T: int) -> pd.DataFrame:
 
 def page_start(ctx: Ctx, tickers: list[str], on_company_change) -> None:
     doc = ctx.doc
-    left, right = st.columns([1, 2])
-    with left:
-        st.selectbox("Company", tickers, index=tickers.index(ctx.ticker), key="company_pick", on_change=on_company_change)
-    with right:
-        st.markdown(f"**{md(doc.get('company') or ctx.ticker)}**, as of {md(doc.get('as_of_quarter'))} "
-                    f"(cutoff {md(doc.get('as_of_date'))}); drafted {md(doc.get('drafted'))}"
-                    + (f"; owner edited {md(doc.get('owner_edited'))}" if doc.get("owner_edited") else "") + ".")
-        try:
-            shown = ctx.path.relative_to(ctx.root)
-        except ValueError:
-            shown = ctx.path
-        st.caption(f"Assumptions file: {shown}")
-    st.markdown(START_TEXT + " " + HORIZON_TEXT.get(ctx.T, ""))
+    st.markdown(START_TEXT)
+    st.caption(f"As of {md(doc.get('as_of_quarter'))} · Information through {md(doc.get('as_of_date'))} · "
+               f"Drafted {md(doc.get('drafted'))}"
+               + (f" · Owner edited {md(doc.get('owner_edited'))}" if doc.get("owner_edited") else ""))
     st.subheader("Market inputs")
     market_boxes(doc, ctx.ticker)
-    with st.expander("Length of the forecast (advanced; ten years is the default)"):
+    with st.expander("Forecast length and method"):
+        st.markdown(HORIZON_TEXT.get(ctx.T, ""))
         horizon_control(doc)
     st.subheader("What moves the value for this company")
     ranking, error = ranking_for(doc, ctx.market)
@@ -343,51 +352,155 @@ def _path_clauses(doc: dict[str, Any], name: str, ctx: Ctx) -> None:
 def page_stories(ctx: Ctx) -> None:
     doc = ctx.doc
     st.markdown(STORIES_TEXT)
-    stories = {name: get_path(doc, f"scenarios.{name}.story") or "" for name in WEIGHTED_SCENARIOS}
-    height = max(_story_height(s) for s in stories.values())          # equal heights, so the columns end together
+    scenario_weights(ctx)
+    st.subheader("Three views of the business")
     cols = st.columns(3)
     for name, c in zip(WEIGHTED_SCENARIOS, cols):
-        p = f"scenarios.{name}"
         with c, st.container(border=True):
-            st.markdown(f"#### {CASE_LABELS[name]} case, {pct(get_path(doc, f'{p}.weight'), 0)}")
+            st.markdown(f"#### {CASE_LABELS[name]} case")
+            st.caption(f"Weight {pct(get_path(doc, f'scenarios.{name}.weight'), 0)}")
             static_table(paths_table(doc, name, ctx.explicit))
             _path_clauses(doc, name, ctx)
-            w_text(doc, f"{p}.story", "Story (three to five plain sentences)", height=height,
-                   convert=lambda x: (x or "").rstrip() + "\n" if (x or "").strip() else "")
-    tail = (f" Years {ctx.explicit + 1} to {ctx.T} follow the rule quoted under each table."
+    tail = (f" Years {ctx.explicit + 1} to {ctx.T} follow the rule shown under each table."
             if ctx.explicit < ctx.T else "")
-    st.caption(f"Y1 to Y{ctx.explicit} are the forecast years 1 to {ctx.explicit}.{tail}")
+    st.caption(f"Y1 to Y{ctx.explicit} are forecast years 1 to {ctx.explicit}.{tail}")
     for name in WEIGHTED_SCENARIOS:
-        rows = get_path(doc, f"scenarios.{name}.story_to_numbers")
-        if isinstance(rows, list) and rows:
-            st.markdown(f"**How the {CASE_LABELS[name].lower()} story becomes numbers.** Each sentence of the story "
-                        "and the input it sets; the pages that follow ask you for those inputs.")
-            headers, body = story_to_numbers_rows(rows)
-            static_table(pd.DataFrame(body, columns=headers))
+        p = f"scenarios.{name}"
+        story = get_path(doc, f"{p}.story") or ""
+        with st.container(border=True):
+            st.markdown(f"### The {CASE_LABELS[name].lower()} story")
+            st.markdown(md(story) if story else "No story has been recorded yet.")
+            with st.expander(f"Edit the {CASE_LABELS[name].lower()} story"):
+                w_text(doc, f"{p}.story", "Story (three to five plain sentences)",
+                       height=_story_height(story, 105),
+                       convert=lambda x: (x or "").rstrip() + "\n" if (x or "").strip() else "")
+            story_assumptions(ctx, name)
     with st.container(border=True):
         computable = management_computable(doc)
         status = ("computed as a fourth, unweighted case" if computable else "not computed, recorded only")
         st.markdown(f"#### Management case ({status})")
-        if get_path(doc, "scenarios.management.story") is not None:
-            text = get_path(doc, "scenarios.management.story") or ""
-            w_text(doc, "scenarios.management.story", "What management has said, in a few sentences",
-                   height=_story_height(text, 150),
-                   convert=lambda x: (x or "").rstrip() + "\n" if (x or "").strip() else "")
-        text = get_path(doc, "scenarios.management.reason") or ""
-        label = "Why the management case is computed" if computable else "Why the management case is not computed"
-        w_text(doc, "scenarios.management.reason", label, height=_story_height(text, 150))
+        st.markdown("Management guidance is evidence for the scenarios, not a probability-weighted bull case. "
+                    "Bear, base and bull also include analyst judgments about execution, timing and long-term economics.")
+        text = get_path(doc, "scenarios.management.story") or ""
+        st.markdown(md(text) if text else "No management story recorded.")
+        reason = get_path(doc, "scenarios.management.reason") or ""
+        st.markdown("**Why this case is " + ("computed" if computable else "not computed") + "**")
+        st.markdown(md(reason))
+        with st.expander("Guidance, targets and how they are used"):
+            guidance_table(doc)
+        with st.expander("Edit the management summary"):
+            if get_path(doc, "scenarios.management.story") is not None:
+                w_text(doc, "scenarios.management.story", "What management has said, in a few sentences",
+                       height=_story_height(text, 150),
+                       convert=lambda x: (x or "").rstrip() + "\n" if (x or "").strip() else "")
+            w_text(doc, "scenarios.management.reason", "Why the management case is computed" if computable
+                   else "Why the management case is not computed", height=_story_height(reason, 150))
         if computable:
-            static_table(paths_table(doc, "management", ctx.explicit))
+            story_assumptions(ctx, "management")
             _path_clauses(doc, "management", ctx)
+
 
 
 # --------------------------------------------------------------------------- #
 # 3. Revenue growth   4. Operating margin
 # --------------------------------------------------------------------------- #
 
+def historical_roic(ctx: Ctx) -> None:
+    """Source-backed annual history stays separate from owner-edited scenario inputs."""
+    st.subheader("Historical ROIC")
+    st.markdown("ROIC is the after-tax operating profit earned for each dollar invested in the business. "
+                "The history below uses capital at the start of each year, so it can be compared with the "
+                "forecast's return on total capital.")
+    history = load_return_history(ctx.path.parent.parent, ctx.ticker, ctx.doc.get("as_of_date"))
+    if history.error:
+        st.info(history.error)
+    elif history.years:
+        static_table(pd.DataFrame([{
+            "Period": r.period, "Historical ROIC": pct(r.roic) if r.roic is not None else "Unavailable",
+        } for r in reversed(history.years)]))
+        st.caption("Calculated from reported operating profit and effective tax rates; this is a tax-adjusted "
+                   "comparison, not a company-reported ROIC measure. Losses receive no assumed tax benefit.")
+        if history.summary:
+            st.caption(md(history.summary))
+        missing = [r.period for r in history.years if r.roic is None]
+        if missing:
+            st.caption("Unavailable: " + ", ".join(missing) + ". See the source details for the missing inputs.")
+        with st.expander("Historical inputs, sources and comparability"):
+            st.markdown(md(history.method))
+            for note in history.notes:
+                st.caption(md(note))
+            st.markdown("**Capital definition:** " + md(history.capital_definition))
+            static_table(pd.DataFrame([{
+                "Period": r.period, "Operating profit": money(r.operating_income),
+                "Effective tax": pct(r.tax_rate), "After-tax profit": money(r.after_tax_income),
+                "Opening capital": money(r.opening_capital),
+            } for r in history.years]))
+            st.caption("Amounts in USD millions. Goodwill stays in invested capital; no acquisition or research addbacks "
+                       "are applied to this reported-accounting history.")
+            for row in history.years:
+                st.markdown("**" + md(row.period) + "** " + md(row.source))
+                if row.note:
+                    st.caption(md(row.note))
+                for source_path in row.source_paths:
+                    st.caption("Cached source: " + md(source_path))
+    else:
+        st.info("No annual ROIC observations are available at this valuation's information cutoff.")
+    saved = st.session_state.get("loaded_doc", ctx.doc)
+    try:
+        base = build_base_year(saved)
+        value = base.roic if base.invested_capital is not None and base.invested_capital > 0 else None
+        st.markdown("**Saved starting-period ROIC: " + (pct(value) if value is not None else "Unavailable")
+                    + "** · " + md(get_path(saved, "base_year.period") or "period not recorded"))
+        st.caption("This uses the saved model's adjusted operating profit and capital at the end of its starting "
+                   "period. Its timing and any model adjustments differ from the annual history above.")
+        tags = [get_path(saved, f"base_year.{key}.source") for key in
+                ("operating_income_gaap", "effective_tax_rate", "invested_capital")]
+        st.caption("Sources: " + md("; ".join(dict.fromkeys(str(t) for t in tags if t)) or "not recorded"))
+    except (KeyError, TypeError, ValueError):
+        st.caption("Starting-period ROIC is unavailable until its profit, tax and capital inputs are complete.")
+
+
+def scenario_roic(ctx: Ctx, name: str) -> None:
+    st.markdown("**ROIC implied by this case**")
+    scenario = ctx.result.scenarios.get(name) if ctx.result else None
+    if scenario is None:
+        st.caption("ROIC comparison is unavailable until this case computes. Check the input message for this case.")
+        return
+    rows = return_comparisons(scenario)
+    key_years = {1, 5, ctx.T}
+    static_table(pd.DataFrame([{
+        "Year": str(r.year), "Operating margin": pct(r.margin), "Ratio-implied ROIC": pct(r.ratio_implied),
+        "Forecast ROIC": pct(r.forecast_roic) if r.forecast_roic is not None else "Unavailable",
+        "Cost of capital": pct(r.cost_of_capital),
+    } for r in rows if r.year in key_years]))
+    st.caption("Ratio-implied ROIC = operating margin times (1 minus tax rate) times sales-to-capital. "
+               "It is a constant-margin check on new investment, not the return on all capital already invested. "
+               "Losses receive no assumed tax benefit.")
+    st.caption("Forecast ROIC uses the model's after-tax profit divided by accumulated capital at the start of "
+               "each year. Compare this with the historical returns above and the cost of capital; a higher "
+               "return than history needs support from the business story.")
+    overrides = [str(r.year) for r in rows if r.overridden]
+    if overrides:
+        st.caption("Spending overrides replace the ratio in years " + ", ".join(overrides)
+                   + ". The ratio-implied check remains visible, but those cash flows and forecast ROIC follow "
+                   "the spending amounts you entered.")
+    if any(r.forecast_roic is None for r in rows):
+        st.caption("Forecast ROIC is unavailable where opening invested capital is missing, zero or negative.")
+    with st.expander("Full annual ROIC calculation"):
+        static_table(pd.DataFrame([{
+            "Year": str(r.year), "Operating margin": pct(r.margin), "Tax rate": pct(r.tax_rate),
+            "Sales-to-capital": num(r.sales_to_capital), "Ratio-implied ROIC": pct(r.ratio_implied),
+            "Forecast ROIC": pct(r.forecast_roic) if r.forecast_roic is not None else "Unavailable",
+        } for r in rows]))
+        st.caption("Uses each year's resolved assumptions, including the later-year margin path and tax fade. "
+                   "The terminal return is set separately on Terminal value.")
+
+
 def _per_year_page(ctx: Ctx, page: str, cell: str, label: str) -> None:
     doc = ctx.doc
     explanation(page)
+    if page == "operating_margin":
+        historical_roic(ctx)
     if page == "revenue_growth":
         history_line(doc, "historical_revenue_cagr", "the company's own revenue grew {value} a year over the last five years.")
         if ctx.result is not None:
@@ -403,12 +516,18 @@ def _per_year_page(ctx: Ctx, page: str, cell: str, label: str) -> None:
             continue
         with st.container(border=True):
             st.markdown(f"#### {case_header(doc, name)}")
-            reason_block(doc, f"scenarios.{name}.{cell}")
-            st.markdown(f"**{label}**")
+            case_value(ctx, name)
+            concept_label(label, cell)
             year_boxes(doc, f"scenarios.{name}.{cell}", ctx.T)
+            saved_comparison(f"scenarios.{name}.{cell}.values")
             line = fade_line(doc, name, cell, ctx.T, ctx.market)
             if line:
                 st.caption(line)
+            if page == "operating_margin":
+                scenario_roic(ctx, name)
+            st.markdown("**Why the analyst chose this path**")
+            reason_block(doc, f"scenarios.{name}.{cell}")
+            factor_reset(f"scenarios.{name}.{cell}.values")
             case_stop_note(ctx, name)
 
 
@@ -442,6 +561,7 @@ def _override_echo(values: list[Any] | None, T: int) -> str:
 def page_reinvestment(ctx: Ctx) -> None:
     doc = ctx.doc
     explanation("reinvestment")
+    historical_roic(ctx)
     for name in cases_in(doc):
         if name == "management" and not management_computable(doc):
             management_note(doc, with_guidance=True)
@@ -449,18 +569,26 @@ def page_reinvestment(ctx: Ctx) -> None:
         p = f"scenarios.{name}"
         with st.container(border=True):
             st.markdown(f"#### {case_header(doc, name)}")
-            reason_block(doc, f"{p}.sales_to_capital", title="Sales-to-capital")
-            c1, c2, _c3, _c4 = st.columns(4)
-            w_number(doc, f"{p}.sales_to_capital.value", "Years 1-5", container=c1, step=0.1,
-                     help="Dollars of extra yearly revenue that one dollar of reinvestment buys, in the forecast years.")
-            w_number(doc, f"{p}.sales_to_capital.value_late", "Years 6-10", container=c2, step=0.1,
-                     help=("The same ratio for years 6 to 10." if ctx.T > EXPLICIT_YEARS else
-                           "The same ratio for years 6 to 10 of the ten-year reference value."))
+            case_value(ctx, name)
+            controls, evidence = st.columns([1, 1.25], gap="large")
+            with controls:
+                concept_label("Sales-to-capital ratio", "sales_to_capital")
+                c1, c2 = st.columns(2)
+                w_number(doc, f"{p}.sales_to_capital.value", "Years 1-5", container=c1, step=0.1)
+                w_number(doc, f"{p}.sales_to_capital.value_late", "Years 6-10", container=c2, step=0.1)
+                saved_comparison(f"{p}.sales_to_capital.value")
+                saved_comparison(f"{p}.sales_to_capital.value_late")
+                factor_reset(f"{p}.sales_to_capital")
+            with evidence:
+                st.markdown("**Why the analyst chose this ratio**")
+                reason_block(doc, f"{p}.sales_to_capital")
+            scenario_roic(ctx, name)
             reason_block(doc, f"{p}.reinvestment_override", title="Per-year spending figures")
-            st.markdown("**Net reinvestment by year, USD millions (empty = use the sales-to-capital rule)**")
+            concept_label("Net reinvestment by year, USD millions (empty = use the ratio)", "reinvestment_override")
             year_boxes(doc, f"{p}.reinvestment_override", ctx.T, percent=False, fmt="%.0f", step=1000.0,
                        placeholder="rule")
             st.caption(_override_echo(get_path(doc, f"{p}.reinvestment_override.values"), ctx.T))
+            factor_reset(f"{p}.reinvestment_override.values")
             case_stop_note(ctx, name)
 
 
@@ -543,7 +671,9 @@ def page_cost_of_capital(ctx: Ctx) -> None:
 def page_terminal(ctx: Ctx) -> None:
     doc = ctx.doc
     explanation("terminal")
-    rf = ctx.market.risk_free_rate if ctx.market is not None else 0.0
+    # A missing quote can prevent a complete MarketInputs even when the rate is known.
+    rf = (ctx.market.risk_free_rate if ctx.market is not None else
+          st.session_state.get("market_values", {}).get(ctx.ticker, {}).get("rf"))
     with st.container(border=True):
         st.markdown("#### Terminal cost of capital (shared by every case)")
         term = get_path(doc, "cost_of_capital.terminal") or {}
@@ -566,6 +696,7 @@ def page_terminal(ctx: Ctx) -> None:
         p = f"scenarios.{name}"
         with st.container(border=True):
             st.markdown(f"#### {case_header(doc, name)}")
+            case_value(ctx, name)
             left, right = st.columns(2)
             with left:
                 reason_block(doc, f"{p}.terminal.growth", title="Terminal growth")
@@ -576,22 +707,20 @@ def page_terminal(ctx: Ctx) -> None:
             with right:
                 reason_block(doc, f"{p}.terminal.roic_premium", title="Terminal return on capital")
                 w_pct(doc, f"{p}.terminal.roic_premium.value",
-                      "Points above the terminal cost of capital (%; 0 = the moat is gone)", step=0.5,
-                      help=("Zero in the bear case, where the advantage is gone." if name == "bear" else
+                      "Points above the terminal cost of capital (%; 0 = no excess return)", step=0.5,
+                      help=("Choose a return supported by the lasting advantage in this case. "
                             f"Above {large_premium_ceiling(name) * 100:g} points this case needs the switch below "
-                            "and a reason. Damodaran used 4 points for Alphabet in 2018 and 11.5 for Nvidia in 2023."))
-                if name == "bear":
-                    st.caption("The bear case stays at zero by rule, so there is nothing to allow here.")
-                else:
-                    w_bool(doc, f"{p}.terminal.roic_premium.allow_large_premium", "Allow a large premium",
-                           help=(f"Needed above {large_premium_ceiling(name) * 100:g} points in this case, with a "
-                                 "reason in the file; the engine then computes and warns."))
+                            "and a reason; that threshold is not a target."))
+                w_bool(doc, f"{p}.terminal.roic_premium.allow_large_premium", "Allow a large premium",
+                       help=(f"Needed above {large_premium_ceiling(name) * 100:g} points in this case, with a "
+                             "reason in the file; the engine then computes and warns."))
             if ctx.result is not None and name in ctx.result.scenarios:
                 sc = ctx.result.scenarios[name]
                 t = sc.terminal
                 st.caption(f"This case: terminal growth {pct2(t.growth)}, terminal return on capital {pct2(t.roic)}, "
                            f"terminal cost of capital {pct2(t.wacc)}; the terminal value is {pct(sc.terminal_share)} "
                            "of operating assets.")
+            factor_reset(f"{p}.terminal")
             case_stop_note(ctx, name)
 
 
@@ -612,6 +741,7 @@ def page_taxes_weights(ctx: Ctx) -> None:
         p = f"scenarios.{name}"
         with st.container(border=True):
             st.markdown(f"#### {case_header(doc, name)}")
+            case_value(ctx, name)
             reason_block(doc, f"{p}.tax_rate", title="Tax rate")
             c1, c2, c3, _c4 = st.columns(4)
             w_pct(doc, f"{p}.tax_rate.start", "Tax rate, forecast years (%)", container=c1, step=0.5)
@@ -619,15 +749,12 @@ def page_taxes_weights(ctx: Ctx) -> None:
             if name != "management":
                 w_pct(doc, f"{p}.weight", "Weight (%)", container=c3, step=5.0,
                       help="Your probability for this case; bear + base + bull must add up to 100%.")
+            factor_reset(f"{p}.tax_rate")
+            if name != "management":
+                saved_comparison(f"{p}.weight")
+                factor_reset(f"{p}.weight")
             case_stop_note(ctx, name)
-    weights = [get_path(doc, f"scenarios.{n}.weight") for n in WEIGHTED_SCENARIOS]
-    if all(isinstance(w, (int, float)) for w in weights):
-        total = sum(float(w) for w in weights)
-        line = f"Weights add up to {pct(total, 0)}."
-        if abs(total - 1.0) > 1e-6:
-            st.error(line + " They must add up to 100% before the model computes.")
-        else:
-            st.markdown(f"**{line}**")
+    weight_status(doc)
 
 
 # --------------------------------------------------------------------------- #
@@ -833,9 +960,13 @@ def sources_table(doc: dict[str, Any]) -> None:
     if not entries:
         return
     with st.expander(f"Where the numbers come from ({len(entries)} sources)"):
-        st.markdown("Every source tag shown on these pages, the cached file it points to (inside the company's "
-                    "folder) and the document date.")
-        static_table(pd.DataFrame([{"Tag": e.get("tag") or "", "Cached file": e.get("file") or "",
+        st.markdown("Click a source tag to see the cited passage when a quote or location is recorded. "
+                    "The evidence view also has document search, the original link and the full cached text. "
+                    "Sources open in a separate tab, keeping your edits here.")
+        index = st.session_state.get("source_index")
+        available = {source.file for source in index.sources} if index else set()
+        static_table(pd.DataFrame([{"Tag": e.get("tag") or "", "Cached file": (e.get("file") or "Not recorded") +
+                                    ("" if e.get("file") in available else " (not cached)"),
                                     "Date": e.get("date") or "", "Note": e.get("note") or ""} for e in entries]))
 
 
@@ -861,7 +992,11 @@ def _year_by_year(result: ValuationResult) -> None:
     rows.append({"Year": "Terminal", "Revenue": money(t.revenue), "Growth": pct(t.growth), "Margin": pct(t.margin),
                  "After-tax profit": money(t.ebit_after_tax), "Reinvestment": money(t.reinvestment),
                  "Free cash flow": money(t.fcff), "Present value": money(t.pv), "Return on capital": pct(t.roic)})
-    static_table(pd.DataFrame(rows))
+    frame = pd.DataFrame(rows)
+    st.subheader("Sales and operating profit")
+    static_table(frame[["Year", "Revenue", "Growth", "Margin", "After-tax profit"]])
+    st.subheader("From profit to cash flow")
+    static_table(frame[["Year", "Reinvestment", "Free cash flow", "Present value", "Return on capital"]])
     waccs = sorted({pct2(r.wacc) for r in sc.rows})
     marked = (f" Years 1 to {explicit} come from the assumptions; years {explicit + 1} to {sc.inputs.horizon} are "
               "marked 'by rule' and are built from the year-" + str(explicit) + " numbers."
@@ -937,51 +1072,108 @@ def _cancel_restart() -> None:
 
 
 def page_results(ctx: Ctx) -> None:
-    doc, result = ctx.doc, ctx.result
+    """The valuation overview; detailed investigations have their own pages."""
+    result = ctx.result
+    st.markdown("Compare the value of each story with today's share price. These results use your current "
+                "inputs, including any edits you have not saved yet.")
     if result is None:
-        st.error("Not computed: " + (ctx.error or "the model has no result") + ".")
+        (st.info if review_only() else st.error)("Not computed: " + (ctx.error or "the model has no result") + ".")
+        return
+    st.subheader("Value across the cases")
+    chart = value_chart(result)
+    if chart is not None:
+        st.altair_chart(chart, **_WIDE)
+        st.caption("Each bar shows value per share. The lighter label is the "
+                   + (result.reference_label or "reference") + " reference, using the other forecast length.")
+    st.subheader("The valuation in numbers")
+    static_table(results_table(result))
+    for note in result_notes(result):
+        st.caption(md(note))
+    st.caption("Money in USD millions; value per share and price in USD. Operating assets is what the forecast "
+               "cash flows are worth today; enterprise value is what the market pays for the same thing.")
+    st.info("Explore Analysis to test the assumptions, Cash flow forecast to follow the calculation, "
+            "or Review & save to keep your changes.")
+
+
+def page_analysis(ctx: Ctx) -> None:
+    """Sensitivity and the assumptions implied by the price, without editing inputs."""
+    result = ctx.result
+    st.markdown("See which assumptions matter most, then work backward from the market price. "
+                "These comparisons help you judge how much the conclusion depends on your chosen inputs.")
+    st.subheader("How the value changes")
+    if result is None or result.analysis is None:
+        st.info("Sensitivity grids appear once the model computes.")
     else:
-        static_table(results_table(result))
-        for note in result_notes(result):
-            st.caption(md(note))
-        st.caption("Money in USD millions; value per share and price in USD. Operating assets is what the forecast "
-                   "cash flows are worth today; enterprise value is what the market pays for the same thing.")
-        chart = value_chart(result)
-        if chart is not None:
-            st.altair_chart(chart, **_WIDE)
-            st.caption("The number on each bar is the value per share. The lighter label at the foot is the "
-                       + (result.reference_label or "reference") + " reference: the same case with the other "
-                       "forecast length, shown so the cost of the choice is visible.")
+        case = CASE_LABELS.get(result.analysis.scenario, result.analysis.scenario)
+        st.caption(f"Both grids move the {case} case. The outlined cell is the case as entered.")
+        for grid in result.analysis.grids:
+            st.altair_chart(heatmap(grid), **_WIDE)
+            st.caption(grid.note)
+    st.subheader("What today's price assumes")
+    st.markdown("Reverse DCF asks what growth or profit margin would make the business worth its market price, "
+                "while holding the other assumptions fixed.")
+    if result is None or result.analysis is None or result.analysis.reverse is None:
+        st.info("The reverse DCF appears once the model computes.")
+    else:
+        _reverse(result)
+
+
+def page_forecast(ctx: Ctx) -> None:
+    """A dedicated view of the yearly cash flows and terminal calculation."""
+    st.markdown("Follow one case from sales to profit, investment, and cash left for investors. "
+                "Present value translates each future cash flow into today's money.")
+    if ctx.result is None or not ctx.result.scenarios:
+        st.info("The year-by-year table appears once the model computes.")
+    else:
+        _year_by_year(ctx.result)
+
+
+def page_simulation(ctx: Ctx) -> None:
+    """Run the existing simulation on its own page, with its state and controls intact."""
+    stale = file_changed_on_disk(ctx.path)
+    if stale:
+        st.warning(STALE_BANNER)
+    simulation_panel(ctx, stale=stale)
+
+
+def page_checks(ctx: Ctx) -> None:
+    """Keep the economic checks and warnings readable outside the results overview."""
+    st.markdown("Check whether the stories, spending plans, and mature-business assumptions fit together. "
+                "These checks flag questions to investigate before you rely on the valuation.")
+    st.subheader("Warnings to review")
+    if review_only():
+        # Structural and completeness checks do not need prices or a DCF calculation.
+        checks = validate({k: v for k, v in ctx.doc.items() if k != "_path"})
+        for message in checks.errors:
+            st.error(plain_message(message))
+        incomplete = list(checks.shared_nulls)
+        for messages in checks.stopped.values():
+            incomplete.extend(messages)
+        for message in dict.fromkeys(incomplete):
+            st.warning(plain_message(message))
+        for message in checks.warnings:
+            if "(ignored)" not in message:
+                st.warning(md(warning_sentence(message)))
+        if not checks.errors and not incomplete:
+            st.success("Input structure is valid and required values are present. Valuation results are deferred.")
+    else:
+        _warnings(ctx.result, ctx.error)
+    st.subheader("Model and industry checks")
+    if ctx.result is None or ctx.result.analysis is None:
+        st.info("Diagnostics appear once the model computes.")
+    else:
+        _diagnostics(ctx.result)
+
+
+def page_review(ctx: Ctx) -> None:
+    """Review and persist changes through the existing guarded write callbacks."""
+    doc = ctx.doc
+    st.markdown("Review the difference between your working inputs and the saved assumptions. "
+                "Save your changes when you are ready, then generate a report from the saved version.")
     stale = file_changed_on_disk(ctx.path)
     diff = [] if stale else unsaved_changes(doc, ctx.path)
     if stale:
         st.warning(STALE_BANNER)
-    with st.expander("Sensitivity"):
-        if result is None or result.analysis is None:
-            st.info("Sensitivity grids appear once the model computes.")
-        else:
-            case = CASE_LABELS.get(result.analysis.scenario, result.analysis.scenario)
-            st.caption(f"Both grids move the {case} case. The outlined cell is the case as entered.")
-            for grid in result.analysis.grids:
-                st.altair_chart(heatmap(grid), **_WIDE)
-                st.caption(grid.note)
-    with st.expander("Year by year"):
-        if result is None or not result.scenarios:
-            st.info("The year-by-year table appears once the model computes.")
-        else:
-            _year_by_year(result)
-    with st.expander("Reverse DCF"):
-        if result is None or result.analysis is None or result.analysis.reverse is None:
-            st.info("The reverse DCF appears once the model computes.")
-        else:
-            _reverse(result)
-    with st.expander("Diagnostics"):
-        if result is None or result.analysis is None:
-            st.info("Diagnostics appear once the model computes.")
-        else:
-            _diagnostics(result)
-    with st.expander("Warnings", expanded=bool(result and result.warnings)):
-        _warnings(result, ctx.error)
     with st.expander("Unsaved changes" if stale else f"Unsaved changes ({len(diff)})", expanded=bool(diff)):
         if stale:
             st.caption("Not listed: the file on disk is newer than the copy you loaded. Start over to reload it.")
@@ -990,7 +1182,7 @@ def page_results(ctx: Ctx) -> None:
         else:
             st.caption("None. The working copy matches the file.")
 
-    st.subheader("What to do now")
+    st.subheader("Save your work")
     st.markdown("**Save** keeps your numbers in the assumptions file, with a note in its change log. **Write the "
                 "report** produces valuation.md from the saved file. **Record in the repository** commits both files "
                 "so the history keeps them.")
@@ -1002,7 +1194,7 @@ def page_results(ctx: Ctx) -> None:
     c1, c2, c3 = st.columns(3)
     c1.button("Save", key="save_btn", type="primary", disabled=stale or not diff,
               on_click=_save_cb, args=(ctx.root, ctx.ticker, ctx.path, note_key), **_WIDE)
-    c2.button("Write the report", key="write_btn", disabled=stale or bool(diff), on_click=_write_cb,
+    c2.button("Write the report", key="write_btn", disabled=stale or bool(diff) or ctx.result is None or review_only(), on_click=_write_cb,
               args=(ctx.path,), **_WIDE)
     files, message = pending_commit(ctx.root, ctx.ticker)
     # a stale file disables all three: a commit from this screen would record somebody else's edits under a
@@ -1019,7 +1211,12 @@ def page_results(ctx: Ctx) -> None:
             c2.caption("Disabled until you save, so the report always matches the file.")
         else:
             c1.caption("Nothing to save; the file matches what you see.")
-            c2.caption("Archives the previous report and writes a new one from the saved file.")
+            if review_only():
+                c2.caption("Deferred in draft review mode. Review the assumptions before computing a valuation.")
+            elif ctx.result is None:
+                c2.caption("Unavailable until at least one scenario can be computed. Review Model checks for missing inputs.")
+            else:
+                c2.caption("Archives the previous report and writes a new one from the saved file.")
         if message:
             names = ", ".join(sorted({Path(f).name for f in files}))
             c3.caption(f"Will commit {names} with the message '{message}'. Never pushes.")
@@ -1033,13 +1230,13 @@ def page_results(ctx: Ctx) -> None:
             st.code(st.session_state["git_output"])
     with st.expander("Start over", expanded=stale):
         if stale:
-            st.markdown("The assumptions file changed on disk. Start over reloads it and returns to Start; edits made in "
+            st.markdown("The assumptions file changed on disk. Start over reloads it and returns to Overview; edits made in "
                         "this session are dropped.")
             st.button("Start over and reload the file", key="restart_btn", type="primary", on_click=_restart_cb,
                       args=(ctx.root, ctx.ticker))
         elif diff:
             st.markdown(f"Start over reloads the assumptions file from disk, drops your {len(diff)} unsaved change(s), and "
-                        "returns to Start.")
+                        "returns to Overview.")
             if st.session_state.get("confirm_restart"):
                 st.warning("Are you sure? The unsaved changes listed above will be lost.")
                 y, n, _a, _b = st.columns(4)
@@ -1049,5 +1246,5 @@ def page_results(ctx: Ctx) -> None:
             else:
                 st.button("Start over", key="restart_btn", on_click=_confirm_restart)
         else:
-            st.markdown("Start over reloads the assumptions file from disk and returns to Start. Nothing is unsaved.")
+            st.markdown("Start over reloads the assumptions file from disk and returns to Overview. Nothing is unsaved.")
             st.button("Start over", key="restart_btn", on_click=_restart_cb, args=(ctx.root, ctx.ticker))
