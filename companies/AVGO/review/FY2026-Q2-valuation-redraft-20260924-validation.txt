@@ -1,0 +1,10 @@
+warning: base: terminal ROIC premium 0.086 is above 0.08 (allow_large_premium is true; reason: The mature return is chosen from Broadcom’s normalized history and the peer range, with continued research and renewals needed to sustain it. Its premium exceeds a house warning threshold and is retained for that business reason, not to clear a diagnostic. [Mature benchmark evidence])
+warning: bull: terminal ROIC premium 0.126 is above 0.12 (allow_large_premium is true; reason: The mature return is chosen from Broadcom’s normalized history and the peer range, with continued research and renewals needed to sustain it. Its premium exceeds a house warning threshold and is retained for that business reason, not to clear a diagnostic. [Mature benchmark evidence])
+warning: management: terminal ROIC premium 0.086 is above 0.08 (allow_large_premium is true; reason: The mature return is chosen from Broadcom’s normalized history and the peer range, with continued research and renewals needed to sustain it. Its premium exceeds a house warning threshold and is retained for that business reason, not to clear a diagnostic. [Mature benchmark evidence])
+null: bridge.non_operating_assets.0.value (stops every scenario)
+null: bridge.other_claims.0.value (stops every scenario)
+null: bear scenario stopped: scenarios.bear.sales_to_capital.value_late is null
+null: base scenario stopped: scenarios.base.sales_to_capital.value_late is null
+null: bull scenario stopped: scenarios.bull.sales_to_capital.value_late is null
+null: management scenario stopped: scenarios.management.sales_to_capital.value_late is null
+error: no scenario can be computed (see nulls above)
