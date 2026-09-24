@@ -1,0 +1,9 @@
+# Intel — source guide
+
+Company-specific fetch and disclosure notes, migrated from the source-path catalog labelled verified 2026-09-07. Read alongside the [shared sourcing rules](../../docs/sources.md). Preserve source dates and recheck a hint when a fetch fails or disclosures change; quarter evidence belongs in the dated source cache and manifest.
+
+**Intel (INTC, CIK 0000050863)**
+- `https://www.intc.com/financial-info/financial-results` is fetchable with a Mozilla-style UA; each quarter's results box links an earnings release PDF, an earnings deck PDF, a "Prepared Remarks" PDF and the webcast, all on `d1io3yog0oux5.cloudfront.net/_88b01b330621eb4afbd070d5caa4f035/intel/db/887/<id>/...`. The 8-K Exhibit 99.1 (`q<Q><YY>earningsrelease.htm`) is the cleanest press-release source. Neither the deck nor the remarks have printed page numbers (use PDF-page tags).
+- Transcript: tier 1 prepared remarks only (scripted portion); Intel never publishes Q&A, and Motley Fool did not carry Q2 2026. Header form: `company-published (prepared remarks only; Q&A not available)`. The remarks contain a "$0.38 cents" slip, so guidance numbers come from the release table.
+- Three incompatible segment series across the FY2023, FY2024 and FY2025 10-Ks (NEX folded into CCG/DCAI in Q1 2025; CCG renamed "Client Computing and Physical AI Group (CCPG)" in the Q2 2026 release with no restatement). Intel Products = CCPG + DCAI only; Intel Foundry revenue is mostly intersegment, so track external Foundry revenue separately. 10-Ks after FY2023 anonymize customers (Customer A/B/C) and 10-Qs give no concentration; segment gross margin disappears after the FY2024 10-K. The FY2024 and FY2025 10-Ks give different 2023 Foundry external revenue with no reconciliation.
+- Fiscal year is 52/53 weeks ending the last Saturday of December (FY2025 ended 2025-12-27).

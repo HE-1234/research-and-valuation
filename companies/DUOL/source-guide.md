@@ -1,0 +1,7 @@
+# Duolingo — source guide
+
+Company-specific fetch and disclosure notes, migrated from the source-path catalog labelled verified 2026-09-07. Read alongside the [shared sourcing rules](../../docs/sources.md). Preserve source dates and recheck a hint when a fetch fails or disclosures change; quarter evidence belongs in the dated source cache and manifest.
+
+**Duolingo (DUOL, CIK 0001562088)**
+- `investors.duolingo.com` (Q4 Inc. on an Akamai edge) returns 403 on every path including both `/feed/*.svc` JSON feeds, with any UA, after full backoff; no q4cdn path is discoverable. Treat like Broadcom: release and shareholder letter via the earnings 8-K (EX-99.1 release, EX-99.2 letter, exhibit names like `q2fy26duolingo6-30x26xpres.htm` / `...share.htm`), transcript tier 3 only (Motley Fool, posted a week after the call).
+- No slide deck; the ~23-page shareholder letter is the slides-equivalent, keeps "DUOLINGO Q2 2026 N" page footers in its HTML text (so `p.N` tags equal printed pages), and embeds no data charts. Headcount appears only in each 10-K for its own year. The 10-Q prints percentages as split cells ("26.9 | %"), which defeats a literal grep. Filing-agent prefix changed from 0001562088 to 0001628280 in mid-2025. Non-GAAP definitions changed (free cash flow in Q1 2025, Adjusted EBITDA in Q3 2025) and MAU was demoted to a supplementary metric in 2026. Fiscal year = calendar year.

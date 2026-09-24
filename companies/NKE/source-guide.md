@@ -1,0 +1,7 @@
+# Nike — source guide
+
+Company-specific fetch and disclosure notes, migrated from the source-path catalog labelled verified 2026-09-07. Read alongside the [shared sourcing rules](../../docs/sources.md). Preserve source dates and recheck a hint when a fetch fails or disclosures change; quarter evidence belongs in the dated source cache and manifest.
+
+**Nike (NKE, CIK 0000320187)**
+- `investors.nike.com` HTML returns 403, but both Q4 Inc. feeds open with the standard UA ([shared feed pattern](../../docs/sources.md#section-12-3)). Documents on `s1.q4cdn.com/806093406/files/doc_financials/<YYYY>/q<N>/`: release PDF, a "Combined Tables" schedules PDF, and an "OFFICIAL Transcript" PDF (tier 1 with Q&A, no printed page numbers, posted the day after the call). No slides or earnings deck exist. Fiscal Q1/Q2 documents sit under the fiscal-year folder but their events appear in the prior calendar year's Event feed.
+- The 8-K EX-99.1 (`q4fy26exhibit991er.htm`) is the cleanest release text; the release has no cash-flow statement and no channel table, so the 10-K/10-Q are the source for both. Nike's filings use ASCII apostrophes, so a curly-apostrophe grep finds nothing. Transcripts hyphenate across line ends, which breaks literal greps. Men's/women's/kids' revenue was dropped from the FY2026 10-K and "wholesale equivalent" revenue was discontinued in FY2025. Fiscal year ends May 31; Q4 is reported at the end of June with the 10-K in mid-July.

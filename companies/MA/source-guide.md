@@ -1,0 +1,8 @@
+# Mastercard — source guide
+
+Company-specific fetch and disclosure notes, migrated from the source-path catalog labelled verified 2026-09-07. Read alongside the [shared sourcing rules](../../docs/sources.md). Preserve source dates and recheck a hint when a fetch fails or disclosures change; quarter evidence belongs in the dated source cache and manifest.
+
+**Mastercard (MA, CIK 0001141391)**
+- `investor.mastercard.com` is Q4 Inc.-hosted; both JSON feeds open with the standard UA ([shared feed pattern](../../docs/sources.md#section-12-3)); event-detail HTML returns 403. Documents at `s25.q4cdn.com/479285134/files/doc_financials/<YYYY>/q<N>/` named `<N>Q<YY>-Mastercard-Earnings-Release.pdf`, `-Earnings-Presentation.pdf`, `-Supplemental-Operational-Performance-Data.pdf` (nine quarters of volume, transaction and card levels by region). Printed page numbers equal PDF pages in all of them.
+- No transcript on IR or in 8-Ks; tier 3 (Motley Fool), posted about eight days after the call. Guidance lives only in the deck's appendices (full year, prior vs updated; next quarter), all in words such as "high end of low double digits"; the release has none, so the prior quarter's deck is needed for the "what management had said to expect" column.
+- Mastercard reports no gross profit. 10-Qs give KPI growth rates only; levels come from the supplemental. Growth rates get revised between filings (Q1 2026 KPIs were restated in the Q2 supplemental). Debt-offering 8-Ks carry DFIN's prefix 0001193125; the 2025-11-10 8-K is the revised U.S. merchant interchange settlement. Fiscal year = calendar year.

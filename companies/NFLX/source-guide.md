@@ -1,0 +1,8 @@
+# Netflix — source guide
+
+Company-specific fetch and disclosure notes, migrated from the source-path catalog labelled verified 2026-09-07. Read alongside the [shared sourcing rules](../../docs/sources.md). Preserve source dates and recheck a hint when a fetch fails or disclosures change; quarter evidence belongs in the dated source cache and manifest.
+
+**Netflix (NFLX, CIK 0001065280)**
+- HTML on `ir.netflix.net` returns 403; the Q4 feeds work with the standard UA ([shared feed pattern](../../docs/sources.md#section-12-3), host `ir.netflix.net`). Documents on `https://s22.q4cdn.com/959853165/files/doc_financials/<YYYY>/q<N>/`: `FINAL-Q<N>-<YY>-Shareholder-Letter.pdf`, `Q<N>-<YY>-Website-Financials.xlsx` (statements, regional revenue, FX-neutral bridge) and `Netflix-Inc-_Earnings-Call_<YYYY-MM-DD>T00_00_00_English-1.pdf`; conference transcripts under `doc_events/`.
+- No press release and no slides exist; the shareholder letter is the release (also 8-K Exhibit 99.1) and carries the operating-margin, free-cash-flow, advertising and content-spend statements, so the ir gatherer is load-bearing for guidance. The "call" is a recorded interview in which an IR executive reads written analyst questions; the company posts an S&P Global transcript of it (tier 1, printed page numbers equal PDF pages).
+- Paid memberships and ARM stopped being disclosed after FY2024; advertising revenue is never broken out in filings. Netflix reports no gross profit. A 10-for-1 split took effect 2025-11-14, so earlier per-share figures are adjusted and labelled computed. The FY2022 10-K is needed for the end-2021 balance sheet. Fiscal year = calendar year.

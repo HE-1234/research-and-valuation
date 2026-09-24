@@ -1,0 +1,7 @@
+# Amazon — source guide
+
+Company-specific fetch and disclosure notes, migrated from the source-path catalog labelled verified 2026-09-07. Read alongside the [shared sourcing rules](../../docs/sources.md). Preserve source dates and recheck a hint when a fetch fails or disclosures change; quarter evidence belongs in the dated source cache and manifest.
+
+**Amazon (AMZN, CIK 0001018724)**
+- `ir.aboutamazon.com` is Q4 Inc.-hosted; both JSON feeds open with the standard UA ([shared feed pattern](../../docs/sources.md#section-12-3)). Documents on `s2.q4cdn.com/299287126/files/doc_earnings/<YYYY>/q<N>/earnings-result/AMZN-Q<N>-<YYYY>-Earnings-Release.pdf` and `.../presentation/Webslides_Q<N><YY>.pdf`; the annual shareholder letter under `doc_financials/<YYYY>/ar/`. The event feed lists release, slides and MP3 only: no transcript, so tier 3 (Motley Fool), posted about a week after the call. The earnings 8-K carries ex99.1 (release) and ex99.2 (a non-GAAP note, not remarks).
+- Slides label only the first and last bars of each chart and pie labels scramble; every figure is in the release, so tag the release. Agent-filed 8-Ks use prefix 0001104659 (debt offerings, proxy, shareholder letter). The Q2 10-Q's legal note incorporates the Q1 10-Q by reference, so cache both. Amazon reports no gross margin and no customer concentration; capex guidance appears only in the shareholder letter and on the call. Fiscal year = calendar year.

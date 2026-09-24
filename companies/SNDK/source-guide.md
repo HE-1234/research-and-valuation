@@ -1,0 +1,7 @@
+# Sandisk — source guide
+
+Company-specific fetch and disclosure notes, migrated from the source-path catalog labelled verified 2026-09-07. Read alongside the [shared sourcing rules](../../docs/sources.md). Preserve source dates and recheck a hint when a fetch fails or disclosures change; quarter evidence belongs in the dated source cache and manifest.
+
+**Sandisk (SNDK, CIK 0002023554)**
+- `investor.sandisk.com` is a Drupal site behind Akamai, not Q4 Inc.: the `/feed/*.svc` URLs return 403 and Q4-style paths 404. A UA change alone still gets 403; the full browser header set (Accept, Accept-Language, Upgrade-Insecure-Requests, Sec-Fetch-*) gets 200. Decks live at `/static-files/<uuid>` (filename in Content-Disposition), listed at `/news-events/presentations`; event pages at `/events/event-details/<slug>`. Press release via 8-K EX-99.1 (`sndkq<N>-<YY>ex991xpressrelease.htm` or DFIN `d<n>dex991.htm`). Sandisk posts webcasts and decks, never transcripts: tier 3 (Motley Fool), posted a week after the call, slugs inconsistent.
+- Spun off from Western Digital in February 2025: pre-spin history is carve-out; the Form 10 information statement (EX-99.1 to the 10-12B/A) is the sole FY2022 source and gives only FY2023/FY2024 balance sheets. Filing-agent prefixes vary (DFIN 0001193125, 0001628280, own 0002023554). Fiscal year ends the Friday nearest June 30; FY2026 was a 53-week year (the FY2025 10-K wrongly said 52). End markets were relabelled Datacenter/Edge/Consumer in FY2026. Q4 is reported in early August with the 10-K in mid-August.

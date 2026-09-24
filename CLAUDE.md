@@ -1,3 +1,3 @@
 # finance
 
-Read `AGENTS.md` first. It is the single source of truth for how company research reports are produced, refreshed, and reviewed in this repository.
+Read [AGENTS.md](AGENTS.md) first, then the skill and authoritative guides it routes to for the requested work.

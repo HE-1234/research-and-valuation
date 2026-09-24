@@ -1,0 +1,7 @@
+# Uber — source guide
+
+Company-specific fetch and disclosure notes, migrated from the source-path catalog labelled verified 2026-09-07. Read alongside the [shared sourcing rules](../../docs/sources.md). Preserve source dates and recheck a hint when a fetch fails or disclosures change; quarter evidence belongs in the dated source cache and manifest.
+
+**Uber (UBER, CIK 0001543151)**
+- `investor.uber.com` HTML is 403 but the Q4 Inc. feeds work with the standard UA ([shared feed pattern](../../docs/sources.md#section-12-3)); documents on `s23.q4cdn.com/407969754/...`. Each quarter has a press release, a chart-heavy "Supplemental Data" deck (no separate slides), a prepared-remarks PDF and a FactSet corrected call transcript under `doc_events/<YYYY>/<Mon>/<DD>/`, so tier 1 with Q&A; printed page numbers equal PDF pages.
+- The supplemental deck has a text layer but chart labels extract scrambled; `pdftotext -bbox` x-position re-association, cross-checked to its tabular pages, works. Segment measure changed: Segment Adjusted EBITDA through FY2025, Segment Operating Income (after D&A and stock compensation) from Q1 2026, with a recast 8-K on 2026-01-12; never share a column. A UK gross-to-net revenue change from 2026-01-02 cuts reported revenue with no profit effect, so Gross Bookings and Revenue Margin are the comparable series. Net income is distorted by equity-stake revaluations and valuation-allowance releases. Material 8-Ks split between Uber's own prefix, agent prefix 0001552781 and (proxy) 0001308179. Fiscal year = calendar year.

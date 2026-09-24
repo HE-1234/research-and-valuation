@@ -1,0 +1,1382 @@
+Valuing Companies with Intangible Assets
+Author: Aswath Damodaran
+URL: https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/intangibles.pdf
+Fetched: 2026-09-09T05:55:32.922352+00:00
+Extraction: pdftotext -layout; explicit PDF page markers; printed page numbers may differ
+
+=== PDF PAGE 1 ===
+1
+
+
+
+
+Valuing Companies with intangible assets
+
+
+            September 2009
+
+
+
+
+          Aswath Damodaran
+        Stern School of Business
+         adamodar@stern.nyu.edu
+
+=== PDF PAGE 2 ===
+2
+
+
+
+
+                   Valuing Companies with intangible assets
+As we move from manufacturing to service based economies, an increasing large
+proportion of the firms that we value derive their value from intangible assets ranging
+from technological patents to human capital. In this paper, we focus on a few variables
+that make valuing these service companies different from conventional manufacturing
+firms. The first is that accountants routinely miscategorize operating and capital
+expenses, when firms invest in intangible assets. Thus, R&D expenses, which are really
+capital expenses, are treated as operating expenses, thus skewing both reported profit and
+capital values. The second is that firms with intangible assets are more likely to use
+options and restricted stock to compensate employees and the accounting treatment of
+this compensation can also affect earnings and cash flows. In this paper, we look at how
+best to correct for the accounting errors and the consequences for valuation.
+
+=== PDF PAGE 3 ===
+3
+
+       In the last twenty years, we have seen a shift away from manufacturing firms to
+service and technology firms in the global economy, with the magnitude of the change
+greatest in the United States. As we value more and more pharmaceutical, technology and
+service companies, we are faced with two realities. The first is that the assets of these
+firms are often intangible and invisible – patents, know-how and human capital. The
+second is that the way in which accounting has dealt with investments in these assets is
+inconsistent with its treatment of investments in tangible assets at manufacturing firms.
+As a result, many of the basic inputs that we use in valuation – earnings, cash flows and
+return on capital – are contaminated.
+       In this paper, we begin by looking at the characteristics shared by firms with
+intangible assets and the valuation issues that follow. We then look at the dark side of
+valuation, as it manifests itself in these companies, and some remedies. In particular, we
+focus on two issues: the corrections for accounting inconsistencies in these firms and the
+how best to deal with the fact that many of these firms are also heavy users of employee
+options as compensation.
+
+Firms with intangible assets
+       Looking at publicly traded firms, it is obvious that many firms derive the bulk of
+their value from intangible assets. From consumer product companies, dependent upon
+brand names, to pharmaceutical companies, with blockbuster drugs protected by patent,
+to technology companies that draw on their skilled technicians and know-how, these
+firms range the spectrum. In this section, we will begin by looking at their place in the
+market and how it has shifted over time and follow up by identifying characteristics that
+they share.
+
+Intangible assets in the overall economy
+       The simplest measure of how much intangible assets represent of the economy
+comes from the market values of firms that derive the bulk of their value from these
+assets as a proportion of the overall market. While technology firms have fallen back
+from their peak numbers in 2000, they still represented 14% of the overall S&P 500
+index at the end of 2008. If we add pharmaceutical and consumer product companies to
+this mix, the proportion becomes even higher.
+
+=== PDF PAGE 4 ===
+4
+
+        There have been other attempts to capture the importance of intangible assets in th
+economy. In one study, Leonard Nakamura of the Federal Reserve Bank of Philadelphia
+provided three different measures of the magnitude of intangible assets in today’s
+economy – an accounting estimate of the value of the investments in R&D, software,
+brand development and other intangibles; the wages and salaries paid to the researchers,
+technicians and other creative workers who generate these intangible assets; and the
+improvement in operating margins that he attributes to improvements to intangible
+factors.1 With all three approaches, he estimated the investments in intangible assets to be
+in excess of $ 1 trillion in 2000 and the capitalized value of these intangible assets to be
+in excess of $ 6 trillion in the same year.
+
+Characteristics of firms with intangible assets
+        While firms with intangible assets are diverse, there are some characteristics that
+they do have in common. In this section, we will highlight those shared factors, with the
+intent of expanding on the consequences for valuation in the next section.
+    1. Inconsistent accounting for investments made in intangible assets: Accounting
+        first principles suggests a simple rule to separate capital expenses from operating
+        expenses. Any expense that creates benefits over many years is a capital expense
+        whereas expenses that generate benefits only in the current year are operating
+        expenses. Accountants hew to this distinction with manufacturing firms, putting
+        investments in plant, equipment and buildings in the capital expense column and
+        labor and raw material expenses in the operating expense column. However, they
+        seem to ignore these first principles when it comes to firms with intangible assets.
+        The most significant capital expenditures made by technology and pharmaceutical
+        firms is in R&D, by consumer product companies in brand name advertising and
+        by consulting firms in training and recruiting personnel. Using the argument that
+        the benefits are too uncertain, accountants have treated these expenses as
+        operating expenses. As a consequence, firms with intangible assets report small
+        capital expenditures, relative to both their size and growth potential.
+
+
+1 Nakamura, L., 1999,. Intangibles: What put the new in the new economy? Federal Reserve Bank of
+Philadephia Business Review July/August: 3—16.
+
+=== PDF PAGE 5 ===
+5
+
+    2. Generally borrow less money: While this may be a generalization that does not
+       hold up for some sub-categories of firms with intangible assets, many of them
+       tend to use debt sparingly and have low debt ratios, relative to firms in other
+       sectors with similar earnings and cash flows. Some of the low financial leverage
+       can be attributed to the bias that bankers have towards lending against tangible
+       assets and some of it may reflect the fact that technology and pharmaceutical
+       firms are either in or have just emerged from the growth phase in the life cycle.
+    3. Equity Options: While the use of equity options in management compensation is
+       not unique to firms with intangible assets, they seem to be much heavier users of
+       options and other forms of equity compensation. Again, some of this behavior can
+       be attributed to where these firms are in the life cycle (closer to growth than
+       mature), but some of it has to be related to how dependent these firms are on
+       retaining human capital.
+
+Valuation Consequences
+       The miscategorization of capital expenses, the sparing use of debt and equity-
+based compensation (options and restricted stocks) can create problems when we value
+these firms. In this section, we will lay out some of the issues that arise in both
+discounted cash flow and relative valuation.
+•   We generally draw on the current earnings and current book value of a firm to derive
+    a value for existing assets. The flawed accounting treatment of intangible assets
+    renders both numbers unreliable, since the reported earnings for a technology firm
+    represent the earnings after reinvestment in R&D, rather than true operating earnings
+    and the book value of assets (and equity) will be understated because the biggest assts
+    for these firms are off the books; if you expense an item, you cannot show it as an
+    asset. This has consequences not only for discounted cash flows valuation, where
+    these numbers become the base from which we forecast, but also in relative valuation,
+    where we compare multiples of accounting earnings and book values across
+    companies.
+•   If growth is a function of how much firms reinvest and the quality of that
+    reinvestment, the accounting treatment of expenditures on intangible assets makes it
+
+=== PDF PAGE 6 ===
+6
+
+    difficult to gauge either number. The reinvestment made by the firm is often buried in
+    the operating expenses (rather than showing up separately as capital expenditures)
+    and the failure to record the book values of intangible assets makes measures like
+    return on equity and capital, widely used to determine the quality of a firm’s
+    investments, unreliable.
+•   In addition to all of the standard variables that affect risk in a company, firms with
+    intangible assets are susceptible to an additional risk. Lenders are wary of lending to
+    firms with intangible assets, since monitoring these assets can be difficult to do. In
+    addition, the values of some intangible assets, like human capital, can dissipate
+    overnight, if a firm gets into trouble or has its reputation besmirched.
+•   Estimating when a firm with intangible assets gets to steady state can range from
+    simple to complex. Consider the simple scenario first: a biotechnology firm that
+    derives almost all of its growth from a single blockbuster drug, with a patent expiring
+    in 7 years. Having a competitive advantage that comes with a time expiration stamp
+    does make the judgment on when the company will hit stable growth very simple. A
+    more complex scenario is a firm with a well-regarded brand name. Given the
+    durability of consumer brand name as a competitive advantage, analysts face a much
+    tougher task estimating when to put the firm into stable growth. The final and most
+    difficult scenario is a firm, whose biggest intangible asset is human capital –
+    consultants at McKinsey or traders at a private equity fund. Since it is very difficult to
+    lock in human capital, these firms can lose their best assets overnight to the highest
+    bidder. Figuring out how or why these firms manage to hold on to their best personnel
+    is a central component to valuing them correctly.
+The defense offered by some analysts is that the rules, flawed though they might be, are
+the same for all firms within a sector. As we will see in the next section, that does not
+neutralize the problem.
+
+The Dark Side of Valuation
+       How do analysts deal with the valuation issues that characterize firms with
+intangible assets? In many cases, they ignore them and trust historical data or
+management provided forecasts of the numbers. In some cases, they fall back on the
+
+=== PDF PAGE 7 ===
+7
+
+defense that all of the firms in a sector should be equally impacted by these accounting
+rules and that comparisons across the firms should therefore not be affected.
+
+Exogenous Growth
+       The biggest problem with treating capital expenses (such as R&D, training and
+brand advertising expenses) as operating expenses is that we lose the most potent tool
+that we have for not only estimating growth but also for checking for internal
+consistency; the growth rates we use for a firm have to be consistent with our estimates of
+reinvestment and return on capital for that firm. If we use conventional accounting
+measures of capital expenditures and capital invested for firms with intangible assets, we
+will get measures of the reinvestment rate and return on capital that are meaningless. In
+fact, these conventional measures can result in negative reinvestment rates (since the
+biggest reinvestment is missed) and overstated returns on equity and capital (because the
+biggest assets are off the books).
+       When confronted by these numbers, analysts decide that fundamentals no longer
+matter, at least for these types of companies, and make their own judgments on future
+growth, based either on history or conversations with the managers of the company. Not
+surprisingly, there is a tendency to over estimate growth during good times and under
+estimate growth in bad times. The history of booms and busts in stock prices at these
+firms is a testimonial to the consequences of this behavior.
+
+Sector comparison
+       Analysts who stick with relative valuation often argue that they are unaffected by
+accounting inconsistencies, since all firms in their sector are affected by these
+inconsistencies. Thus, they argue that comparing the PE ratio of a software firm to the PE
+ratio of a steel company is difficult to do, but that comparing PE ratios across software
+companies is fine. After all, if every software company has R&D expenses and these
+expenses are all treated (incorrectly) as operating expenses, all of the companies should
+have earnings and returns that are skewed by the treatment. The problem with this
+argument is that the effect of the accounting miscategorization of capital expenditures at
+firms can vary widely across firms within the same sector. As a general rule, the effect
+will be much greater at younger firm, with growing investments, than at mature firms.
+
+=== PDF PAGE 8 ===
+8
+
+The consequences for earnings and capital will also vary depending upon the time lag
+between making the investment and earnings; firms with shorter time lags will be less
+affected than firms with longer time lags.
+
+Simplistic adjustments
+       Some analysts, recognizing the danger of trusting the accounting numbers at firms
+where expenses have been systematically miscategorized, try to look for easy solutions to
+the problem. For instance, rather than compare the PE ratios across technology
+companies, some analysts compare the multiples of market capitalization to earnings
+before R&D expenses at which firms trade. Similarly, with equity options, there are many
+variants of diluted earnings per share that purport to capture the effect of options
+outstanding.
+       While the motivation for a simple fix is understandable, it can lull analysts into a
+false sense of complacency. Adding back R&D to the net income or operating income
+will not nullify the effects of R&D on the remaining variables. Adjusting the number of
+shares for options outstanding is a very sloppy way of dealing with these options, not
+reflecting the probability of exercise or the price at which they will be exercised.
+
+The Light Side of Valuation
+       To value firms with intangible assets, it would seem to us that we have to deal
+with the two big problems that they share. First, we have to clean up the financial
+statements (income statement and balance sheet) and re-categorize operating and capital
+expenses. The intent is not just to get a better measure of earnings, though that is a side
+benefit, but to get a clearer sense of what the firm is investing to generate future growth.
+Second, we need to deal more effectively with equity options – the ones that have been
+granted in the past as well the ones that we expect to be granted in the future.
+
+Regaining Accounting Consistency
+       While, in theory, income is not computed after capital expenses, the reality is that
+there are a number of capital expenses that are treated as operating expenses. A
+significant shortcoming of accounting statements is the way in which they treat research
+and development expenses. Under the rationale that the products of research are too
+
+=== PDF PAGE 9 ===
+9
+
+
+uncertain and difficult to quantify, accounting standards have generally required that all
+R&D expenses to be expensed in the period in which they occur. This has several
+consequences, but one of the most profound is that the value of the assets created by
+research does not show up on the balance sheet as part of the total assets of the firm. This,
+in turn, creates ripple effects for the measurement of capital and profitability ratios for the
+firm. We will consider how to capitalize R&D expenses in the first part of the section and
+extend the argument to other capital expenses in the second part of the section.
+
+Capitalizing R&D Expenses
+          Research expenses, notwithstanding the uncertainty about future benefits, should
+be capitalized. To capitalize and value research assets, we have to make an assumption
+about how long it takes for research and development to be converted, on average, into
+commercial products. This is called the amortizable life of these assets. This life will vary
+across firms and reflect the commercial life of the products that emerge from the
+research. To illustrate, research and development expenses at a pharmaceutical company
+should have fairly long amortizable lives, since the approval process for new drugs is
+long. In contrast, research and development expenses at a software firm, where products
+tend to emerge from research much more quickly should be amortized over a shorter
+period.
+          Once the amortizable life of research and development expenses has been
+estimated, the next step is to collect data on R&D expenses over past years ranging back
+to the amortizable life of the research asset. Thus, if the research asset has an amortizable
+life of 5 years, the R&D expenses in each of the five years prior to the current one have to
+be obtained. For simplicity, it can be assumed that the amortization is uniform over time,
+which leads to the following estimate of the residual value of research asset today.
+                                                       t =0
+                                                                   (n + t)
+                     Value of the Research Asset = ∑ R & D t
+                                                     t = -(n-1)       n
+Thus, in the case of the research asset with a five-year life, you cumulate 1/5 of the R&D
+expenses from four years ago, 2/5 of the R & D expenses from three years ago, 3/5 of the
+R&D expenses from two years ago, 4/5 of the R&D expenses from last year and this
+year’s entire R&D expense to arrive at the value of the research asset. This augments the
+value of the assets of the firm, and by extension, the book value of equity.
+
+=== PDF PAGE 10 ===
+10
+
+
+ Adjusted Book Value of Equity = Book Value of Equity + Value of the Research Asset
+        Finally, the operating income is adjusted to reflect the capitalization of R&D
+expenses. First, the R&D expenses that were subtracted out to arrive at the operating
+income are added back to the operating income, reflecting their re-categorization as
+capital expenses. Next, the amortization of the research asset is treated the same way that
+depreciation is and netted out to arrive at the adjusted operating income.
+        Adjusted Operating Income = Operating Income + R & D expenses –
+        Amortization of Research Asset
+The adjusted operating income will generally increase for firms that have R&D expenses
+that are growing over time. The net income will also be affected by this adjustment:
+Adjusted Net Income = Net Income + R & D expenses – Amortization of Research Asset
+While we would normally consider only the after-tax portion of this amount, the fact that
+R&D is entirely tax deductible eliminates the need for this adjustment.2
+
+Illustration 1: Capitalizing R&D expenses: Amgen in February 2009
+        Amgen is a biotechnology/ pharmaceutical firm. Like most such firms, it has a
+substantial amount of R&D expenses and we will attempt to capitalize it in this example.
+The first step in this conversion is determining an amortizable life for R & D expenses.
+How long will it take, on an expected basis, for research to pay off at Amgen? Given the
+length of the approval process for new drugs by the Food and Drugs Administration, we
+will assume that this amortizable life is 10 years.
+        The second step in the analysis is collecting research and development expenses
+from prior years, with the number of years of historical data being a function of the
+amortizable life. Table 1 provides this information for the firm.
+                       Table 1: Historical R& D Expenses (in millions)
+                                 Year                R& D Expenses
+                                Current                 3030.00
+
+
+2 If only amortization were tax deductible, the tax benefit from R&D expenses would be:
+Amortization * tax rate
+This extra tax benefit we get from the entire R&D being tax deductible is as follows:
+(R&D – Amortization) * tax rate
+If we subtract out (R&D – Amortization) (1- tax rate) and add the differential tax benefit, which is
+computed above, (1- tax rate) drops out of the equation.
+
+=== PDF PAGE 11 ===
+11
+
+
+                                  -1                3266.00
+                                  -2                3366.00
+                                  -3                2314.00
+                                  -4                2028.00
+                                  -5                1655.00
+                                  -6                1117.00
+                                  -7                 864.00
+                                  -8                 845.00
+                                  -9                 823.00
+                                 -10                 663.00
+
+The current year’s information reflects the R&D in the most recent financial year (which
+was calendar year 2008 in this example).
+       The portion of the expenses in prior years that would have been amortized already
+and the amortization this year from each of these expenses is considered. To make
+estimation simpler, these expenses are amortized linearly over time; with a 10-year life,
+10% is amortized each year. This allows us to estimate the value of the research asset
+created at each of these firms and the amortization of R&D expenses in the current year.
+The procedure is illustrated in table 2:
+                                 Table 2: Value of Research Asset
+             Year R&D Expense Unamortized portion Amortization this year
+            Current 3030.00   1.00    3030.00
+              -1    3266.00   0.90    2939.40           $326.60
+              -2    3366.00   0.80    2692.80           $336.60
+              -3    2314.00   0.70    1619.80           $231.40
+              -4    2028.00   0.60    1216.80           $202.80
+              -5    1655.00   0.50     827.50           $165.50
+              -6    1117.00   0.40     446.80           $111.70
+              -7     864.00   0.30     259.20            $86.40
+              -8     845.00   0.20     169.00            $84.50
+              -9     823.00   0.10      82.30            $82.30
+             -10     663.00   0.00       0.00            $66.30
+                                    $13283.60          $1,694.10
+
+Note that none of the current year’s expenditure has been amortized because it is assumed
+to occur at the end of the most recent year (which effectively makes it today). The sum of
+the dollar values of unamortized R&D from prior years is $13.284 billion. This can be
+viewed as the value of Amgen’s research asset and would be also added to the book value
+
+=== PDF PAGE 12 ===
+12
+
+
+of equity for computing return on equity and capital measures. The sum of the
+amortization in the current year for all prior year expenses is $1,694 million.
+        The final step in the process is the adjustment of the operating income to reflect
+the capitalization of research and development expenses. We make the adjustment by
+adding back R&D expenses to the operating income (to reflect its reclassification as a
+capital expense) and subtracting out the amortization of the research asset, estimated in
+the last step. For Amgen, which reported operating income of $5,594 million in its
+income statement for 2008, the adjusted operating earnings would be:
+Adjusted Operating Earnings
+= Operating Earnings + Current year’s R&D expense – Amortization of Research Asset
+= 5,594 + 3030 – 1694 = $ 6.930 million
+The stated net income of $4,196 million can be adjusted similarly.
+Adjusted Net Income
+= Net Income + Current year’s R&D expense – Amortization of Research Asset
+= 4,196 + 3030 – 1694 = $ 5,532 million
+Both the book value of equity and capital are augmented by the value of the research
+asset. Since measures of return on capital and equity are based upon the prior year’s
+values, we computed the value of the research asset at the end of 2007, using the same
+approach that we used in 2008 and obtained a value of $ 11,948 million.3
+Value of Research Asset2007 = $ 11,948 million
+Adjusted Book Value of Equity2007
+        = Book Value of Equity2007 + Value of Research Asset2007
+        = 17,869 million + 11,948 million = $29,817 million
+Adjusted Book Value of Capital2007
+        = Book Value of Capital2007 + Value of Research Asset2007
+        = $ 21,985 million + 11,948 million = $ 33,933 million
+
+
+
+
+3 Note that you can arrive at this value using the table above and shifting the amortization numbers by one
+row. Thus, $ 822.80 million will become the current year’s R&D, $ 663.3 million will become the R&D for
+year –1 and 90% of it will be unamortized and so on.
+
+=== PDF PAGE 13 ===
+13
+
+
+The returns on equity and capital are estimated by dividing the earnings in 2008 by the
+capital invested at the end of 2007 and are reported with both the unadjusted and adjusted
+numbers below:
+                              Unadjusted                     Adjusted for R&D
+Return on Equity                4,196                          5,532
+                                      = 23.48%                       = 18.55%
+                               17,869                         29,817
+Pre-tax Return on Capital      5,594                          6,930
+                                      = 25.44%                       = 20.42%
+                               21,985                         33,933
+                    €                              €
+While the profitability ratios for Amgen remain impressive even after the adjustment,
+                     € from the unadjusted numbers.
+they decline significantly                       €
+
+Capitalizing Other Operating Expenses
+       While R&D expenses are the most prominent example of capital expenses being
+treated as operating expenses, there are other operating expenses that arguably should be
+treated as capital expenses. Consumer product companies such as Gillette and Coca Cola
+could make a case that a portion of advertising expenses should be treated as capital
+expenses, since they are designed to augment brand name value. For a consulting firm
+like KPMG or McKinsey, the cost of recruiting and training its employees could be
+considered a capital expense, since the consultants who emerge are likely to be the heart
+of the firm’s assets and provide benefits over many years. For many new technology
+firms, including online retailers such as Amazon.com, the biggest operating expense item
+is selling, general and administrative expenses (SG&A). These firms could argue that a
+portion of these expenses should be treated as capital expenses since they are designed to
+increase brand name awareness and bring in new presumably long term customers.
+       While this argument has some merit, we should remain wary about using it to
+justify capitalizing these expenses. For an operating expense to be capitalized, there
+should be substantial evidence that the benefits from the expense accrue over multiple
+periods. Does a customer who is enticed to buy from Amazon, based upon an
+advertisement or promotion, continue as a customer for the long term? There are some
+analysts who claim that this is indeed the case and attribute significant value added to
+
+=== PDF PAGE 14 ===
+14
+
+
+each new customer. It would be logical, under those circumstances, to capitalize these
+expenses using a procedure similar to that used to capitalize R&D expenses.
+   •    Determine the period over which the benefits from the operating expense (such as
+        SG&A) will flow.
+   •    Estimate the value of the asset (similar to the research asset) created by these
+        expenses. This amount will be added to the book value of equity/capital and used
+        to estimate the returns on equity and capital.
+   •    Adjust the operating income for the expense and the amortization of the created
+        asset.
+The net effects of the capitalization will be seen most visibly in the reinvestment rates
+and returns on capital that we estimate for these firms.
+
+Illustration 2: Capitalizing Brand Name Advertising – Coca Cola in 2009
+        Coca Cola is widely regarded as possessing one of the most valuable brand names
+in the world. We know that the company has always spent liberally on advertising, partly
+directed at building up the brand name. In table 3, we report on selling and advertising
+expenditures at Coca Cola every year for the last 25 years, which we will assume is the
+amortizable life for brand name. (In truth, we should be going back a lot longer, but data
+limitations get in the way).
+                 Table 3: Advertising Expenditures at Coca Cola: 1984-2008
+                 SG&A         Selling and        Brand Name         Amortization        Unamortized
+ Year   Year     Expense      Advertising        Advertising        this year           Expense
+ 1984      1         $2,314             $1,543               $771              $30.85             $0.00
+ 1985      2         $2,368             $1,579               $789              $31.57            $31.57
+ 1986      3         $2,446             $1,631               $815              $32.61            $65.23
+ 1987      4         $2,665             $1,777               $888              $35.53           $106.60
+ 1988      5         $3,038             $2,025             $1,013              $40.51           $162.03
+ 1989      6         $3,348             $2,232             $1,116              $44.64           $223.20
+ 1990      7         $4,076             $2,717             $1,359              $54.35           $326.08
+ 1991      8         $4,604             $3,069             $1,535              $61.39           $429.71
+ 1992      9         $5,249             $3,499             $1,750              $69.99           $559.89
+ 1993     10         $5,695             $3,797             $1,898              $75.93           $683.40
+ 1994     11         $6,297             $4,198             $2,099              $83.96           $839.60
+ 1995     12         $6,986             $4,657             $2,329              $93.15         $1,024.61
+ 1996     13         $8,020             $5,347             $2,673             $106.93         $1,283.20
+ 1997     14         $7,852             $5,235             $2,617             $104.69         $1,361.01
+ 1998     15         $8,284             $5,523             $2,761             $110.45         $1,546.35
+ 1999     16         $9,814             $6,543             $3,271             $130.85         $1,962.80
+
+=== PDF PAGE 15 ===
+15
+
+
+ 2000      17        $8,551              $5,701              $2,850             $114.01          $1,824.21
+ 2001      18        $6,149              $4,099              $2,050              $81.99          $1,393.77
+ 2002      19        $7,001              $4,667              $2,334              $93.35          $1,680.24
+ 2003      20        $7,488              $4,992              $2,496              $99.84          $1,896.96
+ 2004      21        $8,146              $5,431              $2,715             $108.61          $2,172.27
+ 2005      22        $8,739              $5,826              $2,913             $116.52          $2,446.92
+ 2006      23        $9,431              $6,287              $3,144             $125.75          $2,766.43
+ 2007      24       $10,945              $7,297              $3,648             $145.93          $3,356.47
+ 2008      25       $11,774              $7,849              $3,925             $156.99          $3,767.68
+ Total                                                                        $2,150.40         $31,910.23
+
+
+We assume that two-thirds of the S,G and A expenses are for selling and advertising and
+that 50% of the selling and advertising expenses each year are associated with building
+up brand name, with the balance used to generate revenues in the current year. In the
+second-to-last column, we compute the amortization this year of prior year’s expenditure,
+using straight-line amortization over 25 years. In the last column, we keep track of the
+unamortized portion of prior year’s expenditures. The cumulated value of this column
+($31.9 billion) can be considered the capital invested in the brand name.
+         There are potential refinements that will improve this estimate. One is to use a
+longer amortizable life and to go back further in time to obtain advertising expenses. The
+other is to convert the past expenditures into current dollar expenditures, based upon
+inflation. In other words, an expenditure of $ 771 million in 1984 is really much larger if
+stated in 2008 dollars.4 Both of these will increase the capital value of the brand name.
+         The adjustments to operating income, net income and capital invested, in table 4,
+mirror those made for Amgen for R&D expenses:
+                  Table 4: Capitalizing Brand Name Advertising- Coca Cola
+                                  Conventional Accounting Capitalized Brand Name
+          Operating Income                $8,446                  $10,220
+          Net Income                      $5,807                   $7,581
+          Equity invested                $21,744                  $53,654
+          Capital Invested               $31,073                  $62,983
+          ROE                             26.71%                   14.13%
+          Pre-tax ROC                     27.18%                   16.23%
+
+
+
+
+4 When we use inflation adjusted values, the value of brand name increases to almost $ 40 billion.
+
+=== PDF PAGE 16 ===
+16
+
+Capitalizing brand name advertising substantially decreases both the return on equity and
+capital invested for Coca Cola.
+
+Illustration 3: Capitalizing Recruitment and Training Expenses: Cyber Health
+Consulting
+         Cyber Health Consulting (CHC) is a firm that specializes in offering management
+consulting services to health care firms. CHC reported operating income (EBIT) of $51.5
+million and net income of $23 million in the most recent year. However, the firm’s
+expenses include the cost of recruiting new consultants ($ 5.5 million) and the cost of
+training ($8.5 million). A consultant who joins CHC stays with the firm, on average, 4
+years.
+         To capitalize the cost of recruiting and training, we obtained these costs from each
+of the prior four years. Table 5 reports on these expenses and amortizes each of these
+expenses over four years.
+                          Table 5: Human Capital Expenses: CHC
+ Year Training & Recruiting Expenses Unamortized Portion Amortization this year
+Current             $ 14.00           100%     $ 14.00
+  -1                $ 12.00            75%      $ 9.00          $ 3.00
+  -2                $ 10.40            50%      $ 5.20          $ 2.60
+  -3                 $ 9.10            25%      $ 2.28          $ 2.28
+  -4                 $ 8.30              -      $ 0.00          $ 2.08
+Value of Human Capital Asset =                 $ 30.48
+Amortization this year =                                        $9.95
+
+The adjustments to operating and net income are as follows:
+Adjusted Operating Income = Operating Income + Training and Recruiting expenses –
+Amortization of Expense this year = $ 51.5 + $ 14 - $ 9.95 = $ 55.55 million
+Net Income = Net Income + + Training and Recruiting expenses – Amortization of
+Expense this year = $ 23 million + $ 14 million - $ 9.95 million = $ 27.05 million
+These adjusted earnings numbers in conjunction with the value of the human capital
+asset, estimated in table 6, are used to compute the returns on equity and capital.
+          Table 6: Returns on Equity and Capital – Conventional versus Adjusted
+                      Conventional accounting Capitalized Training Expenses
+     Net Income               $23.00                      $27.05
+     Operating Income         $51.50                      $55.55
+
+=== PDF PAGE 17 ===
+17
+
+
+     Book Equity                    $125.00                       $155.48
+     Book Capital                   $250.00                       $280.48
+     ROE                            18.40%                        17.40%
+     Pre-tax ROC                    20.60%                        19.81%
+
+As with Amgen and Coca Cola, capitalizing training expenses decreases the returns on
+equity and capital for the company.
+
+Consequences for valuation
+         When we capitalize R&D, brand name advertising and training expenses, there
+are significant consequences for both discounted cash flow and relative valuation. In
+discounted cash flow valuation, our estimates of cash flows and growth can be
+dramatically altered by the use of the adjusted numbers. In relative valuation,
+comparisons of firms within the same sector can be skewed by where they are in the life
+cycle.
+
+a. Discounted Cashflow Valuation
+   When we capitalize the expenses associated with creating intangible assets, we are in
+effect redoing the financial statements of the firm and restating numbers that are
+fundamental inputs into valuation – earnings, reinvestment and measures of returns.
+   a. Earnings: As we have noted with all three examples of capitalization (R&D,
+         brand name advertising and training/recruiting expenses), the operating and net
+         income of a firm will change as a consequence. Since the adjustment involves
+         adding back the current year’s expense and subtracting out the amortization of
+         past expenses, the effect on earnings will be non-existent if the expenses have
+         been unchanged over time, and positive, if expenses have risen over time. With
+         Amgen, for instance, where R&D expenses increased from $663 million at the
+         start of the amortization period to $3.03 billion in the current year, the earnings
+         increased by more than $1.3 billion as a result of the R&D adjustment.
+   b. Reinvestment: The effect on reinvestment is identical to the effect on earnings,
+         with reinvestment increasing or decreasing by exactly the same amount as
+         earnings.
+
+=== PDF PAGE 18 ===
+18
+
+   c. Free Cash flow to the equity(firm): Since free cash flow is computed by netting
+       reinvestment from earnings, and the two items change by the same magnitude,
+       there will be no effect on free cash flows.
+   d. Reinvestment Rate: While the free cash flow is unaffected by capitalization of
+       these expenses, the reinvestment rate will change. In general, if earnings and
+       reinvestment both increase as a consequence of the capitalization of R&D or
+       advertising expenses, the reinvestment rate will increase.
+   e. Capital Invested: Since the unamortized portion of prior year’s expenses is treated
+       as an asset, it adds to the estimated equity or capital invested in the firm. The
+       effect will increase with the amortizable life and should thererfore be higher for
+       pharmaceutical firms (where amortizable lives tend to be longer) than for
+       software firms (where research pays off far more quickly as commercial
+       products).
+   f. Return on equity (capital): Since both earnings and capital invested are both
+       affected by capitalization, the net effects on return on equity and capital are
+       unpredictable. If the return on equity (capital) increases after the recapitalization,
+       it can be considered a rough indicator that the returns earned by the firm on its
+       R&D or advertising investments is greater than its returns on traditional
+       investments.
+   g. Expected growth rates: Since the expected growth rate is a function of the
+       reinvestment rate and the return on capital, and both change as a result of
+       capitalization, the expected growth rate will also change. While the higher
+       reinvestment rate will work in favor of higher growth, it may be more than offset
+       by a drop in the return on equity or capital.
+In summary, the variables that are most noticeably affected by capitalization are the
+return on equity/capital and the reinvestment rate. Since the cost of equity/capital is
+unaffected by capitalization, any change in the return on capital will translate into a
+change in excess returns at the firm, a key variable determining the value of growth. In
+addition to providing us with more realistic estimates of what these firms are investing in
+their growth assets and the quality of these assets, the capitalization process also restores
+consistency to valuations by ensuring that growth rates are in line with reinvestment and
+
+=== PDF PAGE 19 ===
+19
+
+return on capital assumptions. Thus, technology or pharmaceutical firms that want to
+continue to grow have to keep investing in R&D, while ensuring that these investments,
+at least collectively, generate high returns for the firm.
+
+Illustration 4: Valuing Amgen
+          In illustration 1, we capitalized R&D expenses for Amgen and computed the
+adjusted operating income, reinvestment and return on capital at the firm. We used the
+restated numbers to estimate the value of the firm and equity per share. The valuation,
+where we assume ten years of high growth, is summarized in Figure 1:
+                                     Figure 1: Valuing Amgen – March 2009
+     Cap Ex = Acc net Cap Ex(-401) +
+     Acquisitions (974) + Net R&D (1336)             Figure 15.1: Valuing Amgen
+                                                                                                 Return on Capital
+     Current Cashflow to Firm              Reinvestment Rate                                     17.41%
+     EBIT(1-t)= :6967(1-.20)= 6041         33.23%
+                                                                    Expected Growth
+     - Nt CpX=                  1933                                in EBIT (1-t)                                  Stable Growth
+     - Chg WC                     75                                                                               g = 3%; Beta = 1.10;
+     = FCFF                     4033                                .3323*.1741=.0578
+                                                                    5.78%                                          Debt Ratio= 20%; Tax rate=35%
+     Reinvestment Rate = 2008/6041                                                                                 Cost of capital = 8.67%
+                          =33.23%                                                                                  ROC= 10.00%;
+     Return on capital = 17.41%                                                                                    Reinvestment Rate=3/10=30%
+                                                                     Growth decreases       Terminal Value10 = 5734/(.0867-.03) = 101,081
+                                     First 5 years                   gradually to 3%
+  Op. Assets 66602          Year           1         2      3      4      5        6    7       8       9       10                  Term Yr
+  + Cash:       9552        EBIT           7988      8450   8939   9456 10003 10526     11017   11470   11878   12235               12602
+  - Debt       10578        EBIT (1-t)     6390      6760   7151   7565 8002 8420       8814    9176    9503    9788                 8191
+  =Equity      87226        - Reinvestment 2124      2247   2377   2514 2659 2744       2815    2872    2912    2936                 2457
+  -Options        464       = FCFF         4267      4513   4774   5051 5343 5677       5999    6305    6590    6851                 5734
+  Value/Share $ 62.97
+                           Cost of Capital (WACC) = 13.36% (0.824) + 2.76% (0.176) = 11.80%
+                                                                                                                   Debt ratio increases to 20%
+                                                                                                                   Beta decreases to 1.10
+
+                                                                                                                        On March 5, 2009,
+                                                                                                                        Amgen was trading
+          Cost of Equity               Cost of Debt
+                                                                                 Weights                                at $ 47.47/share
+          13.36%                       (3%+1.25%)(1-.35)
+                                       = 2.76%                                   E = 82.4% D = 17.6%
+
+
+
+
+     Riskfree Rate:                                                      Risk Premium
+     Riskfree rate = 3%                       Beta                       6.5%
+                                 +            1.65                  X
+
+
+
+                                   Unlevered Beta for
+                                   Sectors: 1.41                   D/E=21.35%
+
+
+
+
+Our estimate of value of equity per share is $62.97 a share, well above the prevailing
+stock price of $ 47.47.
+          An intriguing question is how the capitalization of R&D expenses affected value.
+To investigate, we compared the valuation fundamentals for Amgen, with conventional
+accounting, and with R&D treated as capital expenses in table 7:
+
+=== PDF PAGE 20 ===
+20
+
+       Table 7: Valuation Fundamentals – With and Without R&D Capitalization
+                                       Conventional Capitalized R&D
+                  After-tax ROC          14.91%         17.41%
+                  Reinvestment Rate      19.79%         33.23%
+                  Growth Rate             2.95%          5.78%
+                  Value per share        $43.63          $62.97
+
+We then revalued the firm, using both sets of fundamentals. As the table indicates, the
+value per share would have been $43.63, if we had used conventional accounting
+numbers. Clearly, capitalization matters and the degree to which it matters will vary
+across firms. In general, the effect will be negative for firms that invest large amounts in
+R&D, with little to show (yet) in terms of earnings and cash flows in subsequent periods.
+It can be positive for firms that reinvest large amounts in R&D and report large increases
+in earnings in subsequent periods. In the case of Amgen, capitalizing R&D has a positive
+effect on value per share, because of its track record of successful R&D.
+
+b. Relative Valuation
+       It is true that all technology and pharmaceutical companies operate under the
+same flawed accounting rules, expensing R&D, rather than capitalizing it. That does not
+mean, though, that there are no consequences for relative valuation. As we noted in the
+last section, the effect of capitalizing R&D on earnings and book value can vary widely
+across firms and will depend upon the following:
+   a. Age of the firm and stage in life cycle: Generally speaking, the effects of
+       capitalization will be much greater at young firms than at more mature firms.
+       Consider, for instance, the capitalization of R&D expenses. Capitalizing these
+       expenses will increase earnings far more at young firms for two reasons: (a) R&D
+       expenses will comprise a much larger proportion of the total expenses at these
+       firms and (b) R&D expenses are more likely to have increased significantly over
+       time.
+   b. Amortizable life: The effect of capitalizing expenses will be much greater as we
+       extend the amortizable life of R&D, especially on capital invested. If we assume
+       that all firms in a sector share the same amortizable life for R&D, this will not be
+       an issue, but to the extent that different firms within the same business may
+
+=== PDF PAGE 21 ===
+21
+
+       convert research into commercial products at different speeds, the effect on
+       earnings of capitalizing R&D can vary across firms
+If we ignore accounting inconsistencies and use the reported earnings and book values of
+firms in the computation of multiples, we are likely to find that younger firms or firms
+that have R&D with longer gestation periods are overvalued. Their earnings and book
+value will be understated, leading to much higher PE, EV/EBITDA and book value
+multiples for these firms.
+       There are two ways we can incorporate these factors into relative valuation. The
+first is to capitalize the expenses associated with investing in intangible assets for each
+firm and to compute consistent measures of earnings and book value to use in multiples.
+This approach, while yielding the most precision, is also the most time and data intensive.
+The second is to stick with the reported accounting values for earnings and book value,
+which controlling for the factors listed above.
+
+Illustration 5: Valuing large pharmaceutical firms with PE ratios
+       To examine the effect of R&D, we estimated the PE ratios, in February 2009, for
+pharmaceutical firms, using several measures of net income in table 8:
+           Table 8: PE Ratios for Pharmaceutical Companies – February 2009
+                   Market                                                                  P/(E+
+                   Cap $       Net        R&D        R&D net of                            Net
+Company Name       (Mil)       Income     expense    amortization     PE      P/(E+R&D)    R&D)
+Merck & Co.          $46,702     $7,804     $4,805             $302   5.98          3.70     5.76
+AstraZeneca PLC      $44,366     $6,130     $5,179             $650   7.24          3.92     6.54
+GlaxoSmithKline
+ADR                  $77,596   $10,619     $6,707             $225    7.31          4.48    7.16
+Lilly (Eli)          $31,232    $3,863     $3,840             $410    8.08          4.05    7.31
+Sanofi-Aventis       $67,924    $7,068     $4,575             $450    9.61          5.83    9.03
+Novartis AG
+ADR                  $79,954    $8,163     $1,834              $76     9.79         8.00     9.70
+Pfizer Inc.          $85,433    $8,104     $7,945             $550    10.54         5.32     9.87
+Biogen Idec Inc.     $12,732      $783     $1,072             $415    16.26         6.86    10.63
+Wyeth                $54,391    $4,417     $3,373             $155    12.31         6.98    11.90
+Bristol-Myers
+Squibb               $35,019    $2,165     $3,585             $710    16.18         6.09    12.18
+Schering-Plough      $26,475    $1,903       $850             $135    13.91         9.62    12.99
+Allergan Inc.        $10,901      $577       $798             $255    18.89         7.93    13.10
+Teva Pharmac.
+(ADR)                $34,279    $2,374       $786             $221    14.44        10.85    13.21
+Genzyme Corp.        $14,348      $421     $1,308             $622    34.08         8.30    13.76
+Novo Nordisk         $28,165    $1,681     $1,368             $355    16.76         9.24    13.83
+
+=== PDF PAGE 22 ===
+22
+
+
+Abbott Labs.         $71,357   $4,881    $2,689          $250   14.62         9.43   13.91
+Gilead Sciences      $40,310   $2,011      $721          $375   20.04        14.75   16.89
+Celgene Corp.        $18,302     $226      $399          $215   80.84        29.26   41.46
+
+
+To contrast with the conventional PE ratio, which is based on reported net income, we
+computed two alternative measures of earnings. In the first, we use the simplistic
+adjustment of adding back R&D expenses to net income to arrive at a multiple of the
+market price to earnings before R&D expenses. In the second, we make the full
+adjustment for R&D, adding back the R&D and subtracting out the amortization of R&D
+to arrive at an adjusted net income.
+       The results are revealing. On all three measures of PE, Merck looks like it is the
+most undervalued company in the group. As we add back R&D, the differences between
+the earnings multiples decreases, with Celgene remaining the outlier. Finally, when we
+compute the multiple of earnings with net R&D added back, the more mature
+pharmaceutical companies with less attractive growth prospects emerge with lower PE
+ratios, whereas the smaller, higher growth companies trade at higher multiples of
+earnings.
+
+Dealing with Equity Options
+       In the last two decades, firms have increasing turned to compensating managers
+using equity, with options being a key component, for several reasons. The first is to
+align management interests with stockholders, i.e, to make managers think like
+stockholders by giving them an equity stake. The second is it allowed cash-poor firms
+with significant growth prospects to compete for employee talent against deep-pocketed
+rivals; young technology firms are prime users of options. The third is that the accounting
+for options woefully understated the true cost of these options, allowing these firms to
+report much positive earnings, even as they gave away big chunks of equity to managers.
+       Firms that pay managers and others with equity options create a second claim on
+the equity on top of the claim that common stockholders have. Since we are called up to
+estimate the value of equity per common share, we have to consider how to allocate the
+aggregate equity value across the two claimholders. In this section, we will first examine
+how to deal with options that a firm may have granted to managers in the past, that have
+
+=== PDF PAGE 23 ===
+23
+
+not been exercised yet; this is the option overhang. In the second section, we will extend
+the analysis to look at how best to deal with options that may be granted in the future to
+employees and how to bring the consequences of such grants into the value of equity per
+share today.
+
+The Option Overhang
+       There are three approaches that are widely used to deal with outstanding options,
+issued in prior periods. The crudest way is to assume that all or some of the options will
+be exercised in the future, adjust the number of shares outstanding and divide the value of
+equity by this number to arrive at value per share; this is the diluted shares approach. The
+second and slightly more tempered approach is to incorporate the exercise proceeds from
+the options in the numerator and then divide by the number of shares that would be
+outstanding after exercise; this is the treasury stock approach. The third and preferred
+approach for dealing with options is to estimate the value of the options today, given
+today’s value per share and the time premium on the option. Once this value has been
+estimated, it is subtracted from the estimated equity value, and the remaining amount is
+divided by the number of shares outstanding to arrive at value per share.
+
+I. Use fully diluted number of shares to estimate per-share value
+    The simplest way to incorporate the effect of outstanding options on value per share
+is to divide the estimated value of equity from a discounted cash flow model by the
+number of shares that will be outstanding if all options are exercised today – the fully
+diluted number of shares. While this approach has the virtue of simplicity, it will lead to
+too low of an estimate of value per share for three reasons:
+•   It considers all options outstanding, not just ones that are in the money and vested. To
+    be fair, there are variants of this approach where the shares outstanding are adjusted
+    to reflect only in-the-money and vested options.
+•   It does not incorporate the expected proceeds from exercise, which will comprise a
+    cash inflow to the firm.
+•   Finally, this approach does not build in the time premium on the options into the
+    valuation.
+
+=== PDF PAGE 24 ===
+24
+
+    Illustration 6: Fully Diluted Approach to estimating Value per Share
+                To apply the fully diluted approach to estimate the per share value, we will value
+    a company with a significant option overhang –Google. We begin by valuing equity in
+    the aggregate, capitalizing R&D along the way (we used a four year amortizable life for
+    Google’s R&D) and using a ten-year high growth period. Figure 2 summarizes the value
+    of equity.
+                                     Figure 2 Valuing Google’s Equity – March 2009
+                                                              Reinvestment:
+        Figure 15.*: Valuing Google Equity - March 2009       Cap ex includes acquisitions
+                                                                                                                        Stable Growth
+                Current            Current
+                Revenue            Margin:                                                                                 Stable     Stable
+                                                                                                             Stable        Operating ROC=12%
+                $ 21.796           38.71%                                                                    Revenue
+                                                 Sales Turnover         Competitive                                        Margin:    Reinvest 25%
+                                                                                                             Growth: 3%    30%        of EBIT(1-t)
+                                                 Ratio: 1.20            Advantages
+                           EBIT
+                           $8,438m                  Compounded            Expected
+                                                    Revenue               Margin:                               Terminal Value= 10140(.0895-.03)
+                                                    Growth:               -> 30%
+                                                    12.47%                                                      =$ 170,415
+
+                                                                                                                                          Term. Year
+                                    Revenues          $28,335 $35,419 $42,502 $48,878 $53,765 $58,067 $61,841 $64,933 $67,855 $70,569       $72,686
+                                    EBIT              $9,941 $11,676 $13,486 $15,156 $16,446 $17,619 $18,676 $19,556 $20,403 $21,199        $21,806
+                                    EBIT(1-t)         $6,163 $7,239 $8,361 $9,397 $10,197 $10,924 $11,579 $12,125 $12,650 $13,143           $13,520
+                                     - Reinvestment   $5,449 $5,903 $5,903 $5,313 $4,073 $3,584 $3,145 $2,577 $2,435 $2,262                 $ 3,380
+                                    FCFF              $714    $1,336 $2,458 $4,084 $6,123 $7,340 $8,434 $9,548 $10,215 $10,881
+                                                                                                                                            $ 10,140
+    Value of Op Assets   $ 95,748
+    + Cash & Non-op      $ 8,931                      1      2       3         4       5      6     7       8       9       10
+    = Value of Firm      $104,679                                                                                                           Forever
+    - Value of Debt      $ 2,334    Debt Ratio        2.22% 2.22% 2.22% 2.22% 2.22% 3.77% 4.16% 4.81% 6.11%                  10.00%
+    = Value of Equity    $102,345   Beta              1.30   1.30   1.30   1.30   1.30   1.26   1.22   1.18   1.14           1.10
+                                    Cost of Equity    10.80% 10.80% 10.80% 10.80% 10.80% 10.56% 10.32% 10.08% 9.84%          9.60%
+                                    Cost of debt      2.64% 2.64% 2.64% 2.64% 2.64% 2.73% 2.75% 2.79% 2.87%                  3.10%
+                                    Cost of Capital   10.62% 10.62% 10.62% 10.62% 10.62% 10.26% 10.00% 9.73% 9.41%           8.95%
+
+
+
+                             Cost of Equity                        Cost of Debt                              Weights
+                             10.8%                                 3%+1.25%=4.25%                            Debt= 2.22% -> 10%
+                                                                   4.25% (1-.38)= 2.64%
+
+
+           Riskfree Rate:
+           T. Bond rate = 3%                                                                                                            Google
+                                                                                   Risk Premium
+                                               Beta                                6%                                                   March 2009
+                                        +      1.30> 1.10                    X                                                          Trading @ $327
+
+
+                                          Internet/       Operating        Current           Base Equity         Country Risk
+                                          Retail          Leverage         D/E: 2.3%         Premium             Premium
+
+
+    In February 2009, Google had 315.29 million shares outstanding and 13.97 millioin in
+    options outstanding. To estimate the value of equity per share, we divide the aggregate
+    value of equity estimated in figure 2 by the total number of shares outstanding.
+    Diluted value of equity per share
+         Aggregate Value of Equity         102345
+    =                                 =                 = $310.83/share
+        Fully diluted number of shares (315.29 + 13.97)
+
+
+
+€
+
+=== PDF PAGE 25 ===
+25
+
+    This value, however, ignores both the proceeds from the exercise of the options as well as
+    the time value inherent in the options. At Google, for example, a significant number of
+    the options issued in past years are out-of-the-money and may never be exercised.
+             A modified version of this approach counts only in-the-money options when
+    computing diluted shares. Of Google’s 13.97 options outstanding, 4.75 million were in-
+    the-money, with an exercise price < stock price. If we count only these shares
+    outstanding, the value of equity per share is $319.79:
+    Partially diluted valued of equity per share
+         Aggregate Value of Equity        102345
+    =                                 =                = $319.79 /share
+        Fully diluted number of shares (315.29 + 4.75)
+
+    II. Treasury Stock Approach
+€        This approach is a variant of the fully diluted approach. Here, the number of shares is
+    adjusted to reflect options that are outstanding, but the expected proceeds from the
+    exercise (the product of the exercise price and the number of options) are added to the
+    value of equity. The limitations of this approach are that, like the fully diluted approach,
+    it does not consider the time premium on the options and there is no effective way of
+    dealing with vesting. Generally, this approach, by under estimating the value of options
+    granted, will over estimate the value of equity per share.
+         The biggest advantage of this approach is that it does not require a value per share (or
+    stock price) to incorporate the option value into per-share value. As we will see with the
+    last (and recommended) approach, there is a circularity that is created when the stock
+    price is an input into the process of estimating option value which, in turn, is needed to
+    obtain the value per share.
+    Illustration 7: Treasury Stock Approach
+             To use the treasury stock approach with Google, we first estimated the average
+    exercise price across all options outstanding and added the exercise proceeds to the
+    estimated value of equity, before dividing by the fully diluted number of shares
+    outstanding. (We used the average exercise price of $391.40 across all options in making
+    this estimate.)
+    Treasury stock value of equity per share
+
+=== PDF PAGE 26 ===
+26
+
+        Value of Equity + Options outstanding * Average Exercise Price
+    =
+                         Fully diluted number of shares
+        $102,345 + 13.97 * $391.40
+    =                              = $327.44 /share
+              (315.29 +13.97)
+€
+            As with the diluted approach, there are modified versions of this approach where
+    only in-the-money options are considered. This will reduce the value per share for
+€
+    Google considerably since the average exercise price for the in-the-money options, at
+    $185, is much lower than the weighted average exercise price of $391.40.
+    Treasury stock value of equity per share (based on in-the-money options)
+        Value of Equity + Options outstanding * Average Exercise Price
+    =
+                         Fully diluted number of shares
+        $102,345 + 4.75 * $185
+    =                          = $314.45 /share
+            (315.29 + 4.75)
+€
+    III. Valuing Options
+€           The problem with both the diluted stock and the treasury stock approaches is that
+    they miss the essence of options. After all, the value of an option should include not only
+    the current exercise value (recognized by the treasury stock approach) but also the time
+    premium, reflecting the fact that the option still has life and the underlying stock is
+    volatile. Much of the debate on dealing with options has raged around how well option
+    pricing models work in valuing employee options. In this section, we will review some of
+    this discussion and examine how to adapt conventional option pricing models to value
+    these options.
+
+    Measurement Issues
+            Option pricing models have been widely used, to good effect, for almost four
+    decades now for valuing listed and traded options on the option exchanges. In valuing
+    employee options, however, there are five measurement issues that we have to confront.
+    a. Vesting: Firms granting employee options usually require that the employee receiving
+    the options stay with the firm for a specified period, to be able to exercise the option (at
+    which point they are vested). When we examine the options outstanding at a firm, we are
+    looking at a mix of vested and non-vested options. The non-vested options should be
+
+=== PDF PAGE 27 ===
+27
+
+worth less than the vested options, but the probability of vesting will depend upon how
+in-the-money the options are and the period left for an employee to vest.
+b. Illiquidity: Employee options cannot be traded. As a result, employee options are often
+exercised before maturity, making them less valuable than otherwise similar traded
+options that are marketable. In a comprehensive study of 262,931 option exercises of
+employee options between 1996 and 2003 by U.S. companies, Brooks, Chance and Cline
+(cited above) note that 92.3% exercise early. On average, they find that exercise takes
+place 2.69 years after vesting, with 4.71 years left to expiration. Put another way, an
+employee option with a stated maturity of 10 years is usually exercised in 5.29 years.
+c. Stock price or stock value: While conventional option pricing models are built around
+using the current market price as a key input, we do come up with estimates of value per
+share when we value companies, and these estimates can be very different from current
+stock prices. We have to consider whether we want to use our estimates of value per
+share, rather than the market prices, to preserve valuation consistency.
+d. Dilution: Unlike listed options on exchanges, where the exercise of the option has no
+impact on the number of shares outstanding or the share price, the exercise of employee
+options can alter both.
+e. Tax consequences: Firms are allowed to deduct the difference between the stock and
+the exercise price of an option at exercise and there is potential tax saving at the time of
+option exercise. This potential tax benefit reduces the drain on value created by having
+options outstanding.
+f. Unobservable inputs: The final issue relates to options granted at private firms or firms
+on the verge of a public offering. Key inputs to the option-pricing model, including the
+stock price and the variance, cannot be obtained for these firms, but the options have to
+be valued nevertheless.
+
+Modifying Option Pricing Models
+       With all of these issues affecting valuation, how do we adapt conventional option
+pricing models to value employee options? This question has been addressed both by
+academics who value options and by FASB, in its attempts to give guidance to firms that
+have to value these options for expensing.
+
+=== PDF PAGE 28 ===
+28
+
+Modified Black Scholes
+        The conventional Black Scholes model is designed to value European options on
+traded assets and does not explicitly factor in the dilution inherent in employee options or
+the illiquidity/vesting issues specific to these options. However, adaptations of the model
+provide reasonable estimates of value:
+1. Build in expected dilution into the stock price: One of the inputs into the Black
+    Scholes is the current stock price. To the extent that the exercise of options increases
+    the number of shares outstanding (at a price less than the current stock price), the
+    stock price will drop on exercise. A simple adjustment to the stock price can
+    incorporate this effect:
+                                                          ⎡        n shares outstanding           ⎤
+    Adjusted Stock Price = Current Stock Price ⎢                                                  ⎥
+                                                          ⎢⎣ (n shares outstanding + n options ) ⎥⎦
+
+    The resulting lower adjusted stock price will also reduce the option value.5
+    2. Reduce the life of the option to reflect
+                                        €       illiquidity and early exercise: Earlier in this
+        paper, we noted that employees often exercise options well before maturity
+        because these options are illiquid. Typically, options are exercised about half way
+        through their stated lives. Using a reduced life for the option will reduce its value.
+    3. Adjust option value for probability of vesting: The vesting adjustment can be
+        made in the process of calculating of the option value. If we can assess the
+        probability of vesting, multiplying this probability by the option value will yield
+        an expected value for the option.
+While purist would still resist, the model has provided remarkably resilient even in
+environments where its basic assumptions are violated.
+Binomial Models
+        The possibility of early exercise and non-vesting, which is substantial in
+employee options, leads many practitioners to argue for the use of Binomial lattice
+models to value employee options. Unlike the Black-Scholes, these models not only can
+
+
+5 A modified version of the adjustment allocates the overall value of equity across all potential shares
+outstanding:
+                       ⎡Share Price * n shares outstanding + Value per Option * n options ⎤
+Adjusted Stock Price = ⎢                                                                  ⎥
+                       ⎣                 (n shares outstanding + n options )              ⎦
+
+
+
+           €
+
+=== PDF PAGE 29 ===
+29
+
+model for early exercise, but can be modified to allow for other special features specific
+to employee options, including vesting. In addition, binomial models allow for more
+flexibility on inputs, with volatility changing from period to period rather than remaining
+constant (which is the assumption in the Black-Scholes model). The limitation of the
+binomial models is that they are more information intensive, requiring the user to input
+prices at each branch of the binomial model. In any realistic version of the model, where
+the time intervals are short, this could translate into hundreds of potential prices.
+        The primary benefit of binomial models comes from the flexibility that they offer
+users to model the interaction between the stock price and early exercise. One example is
+the Hull-White Model, which proposes reducing the life used to value employee options
+to a more realistic level.6 This model take into account the employee exit rate during the
+vesting period (thus taking into account the probability that options will end up unvested
+and worthless) and the expected life of the option after they get vested. To estimate the
+latter, the model assumes that there will be exercise if the stock price reaches a pre-
+specified multiple of the exercise price, thus making exercise an endogenous component
+of the model, rather than an exogenous component. The resulting option values are
+usually lower than those estimated using the Black-Scholes model.
+Simulation Models
+        The third choice for valuing employee options is Monte Carlo simulation models.
+These models begin with a distribution for stock prices and a pre-specified exercise
+strategy. The stock prices are then simulated to arrive at the probabilities that employee
+options will be exercised and an expected value for the options based upon the exercise.
+The advantage of simulations is that they offer the most flexibility for building in the
+conditions that may affect the value of employee options. In particular, the interplay
+between vesting, the stock price and early exercise can all be built into the simulation
+rather than specified as assumptions. The disadvantage is that simulations require far
+more information than other models.
+
+
+
+
+6 J. Hull and A. White, How to Value Employee Stock Options, Financial Analysts Journal 60 (1) (2004),
+114{119.
+
+=== PDF PAGE 30 ===
+30
+
+How much does the model matter?
+         How much does the model used to value employee options matter? Are there
+significant differences in values when we use alternative models to value employee
+options? For the most part, the biggest single component determining employee option
+value is the life of the option. Using the stated life of employee options in the Black-
+Scholes models yields too high a value for these options. If we use an expected life for
+the option (which takes into account early exercise and vesting probabilities), the values
+that we arrive at are not dissimilar using different models. Ammann and Seiz (2003)
+show that the employee option pricing models in use (the binomial, Black Scholes with
+adjusted life and Hull White) all yield similar values.7 As a consequence, they argue we
+should steer away from models that require difficult to estimate inputs (such as risk
+aversion coefficients) and towards simpler models.
+
+Illustration 8: Option Value Approach
+         In Table 9, we begin by estimating the value of the options outstanding at Google,
+using the Black-Scholes model, adjusted for dilution and using half the stated maturity (to
+allow for early exercise). To estimate the value of the options, we first estimate the
+standard deviation of 50% in stock prices8 over the previous 2 years. Weekly stock prices
+are used to make this estimate, and this estimate is annualized9. All options, vested as
+well as non-vested, are valued and there is no adjustment for non-vesting.
+                        Table 9: Estimated Value of Options Outstanding
+                                                                Google
+                       Number of Options Outstanding              13.97
+                       Average Exercise Price                   $391.41
+                       Estimated Standard Deviation (Volatility) 50%
+                       Average stated maturity                     7.00
+                       Maturity adjusted for early exercise        3.50
+                       Stock Price at time of analysis           $326.6
+                       Value per option                         $ 103.6
+
+
+7 Ammann, M., and R. Seiz, 2003, Does the Model Matter? A Valuation Analysis of Employee Stock
+Options, Working Ppaer, SSRN.
+8 The variance estimate is actually on the natural log of the stock prices. This allows you us to cling to at
+least the possibility of a normal distribution. Neither stock prices nor stock returns can be normally
+distributed since prices cannot fall below zero and returns cannot be lower than –100%.
+9 All of the inputs to the Black Scholes model have to be in annual terms. To annualize a weekly variance,
+we multiply by 52.
+
+=== PDF PAGE 31 ===
+31
+
+
+                    Value of options outstanding               $ 1,447
+                    Tax Rate                                   38.00%
+                    After-tax Value of options outstanding      $ 897
+
+In estimating the after-tax value of the options at these companies, we have used the
+marginal tax rate of 38%. Since the tax law allows for tax deductions only at exercise and
+only for the exercise value, we are potentially overstating the possible tax benefits (and
+understating the costs).
+       The value per share is computed by subtracting the value of the options
+outstanding from the value of equity and then dividing by the primary number of shares
+outstanding:
+                                   Value of equity - Value of options
+Value of equity per share      =
+                                      Primary shares outstanding
+                                   102,345 - 897
+                               =                 = $321.76
+                                       315.29
+                     € to earlier is clear when we compare the value per share that we
+The inconsistency averred
+have estimated in this table to the price per share that we used in the previous one to
+                     €
+estimate the value of the options. For instance, Google’s value per share is $321.76,
+whereas the price per share used in the option valuation is $ 326.60. If we choose to
+iterate, we would revalue the options using the estimated value, which would lower the
+value of the options (to $1,406 million) and increase the value per share, leading to a
+second iteration and a third one and so on. The values converge to yield a consistent
+estimate of $321.84, close to our original estimate. That is because we estimated a value
+per share close to the current price; as the difference widens, the effect of doing the
+iterative process on value per share will also increase.
+
+Future Option Grants and Effect on Value
+       Just as options outstanding represent potential dilution or cash outflows to
+existing equity investors, expected option grants in the future will affect value per share
+by increasing the number of shares outstanding in future periods. The simplest way of
+considering why future option grants affect value is to treat them as employee
+compensation. The resulting increase in operating expenses will decrease operating
+
+=== PDF PAGE 32 ===
+32
+
+income and after-tax cash flows in future years, thus reducing the value that we would
+attach to the firm today.
+         There are two things to note here. The first is that this process is on top of the
+adjustment made to equity value per share for the option overhang. It does not represent
+double counting, because it captures two different drains on equity value per share, one
+from past option grants and one from expected future grants. However, if we do this, we
+should not also increase the number of shares outstanding to reflect future option
+exercise. That would be double counting. The second is that making this estimate has
+become immeasurably easier, now that the accounting rules have changed to require
+firms to show option grants as expenses. The operating and net income for most firms
+now should be after the option expense, and if we forecast future values based on these
+numbers we are incorporating the expenses associated with future grants into our cash
+flows. The only note of caution that we would add is that as firms become larger, the
+option grants as a percent of revenues or value will tend to become smaller. Thus, we
+should move option grants for firms towards industry averages or mature firm practices
+as we forecast out further into the future. 10
+
+Illustration 9: Valuing with expected option issues
+    When valuing Google, the current operating income was a key input. The way the
+firm has dealt with employee option expenses will play a key role in what operating
+income we will use in valuation. Over the past three years, the firm has shifted to
+expensing employee options. In its 2008 annual report, for instance, the firm highlights
+employee option expenses as a proportion of total revenues and table 10 summarizes the
+numbers:
+                         Table 10: Employee Option Expenses – Google
+                Year Value of Employee options granted As % of Revenues
+                2006                          $458.10            4.30%
+                2007                          $868.60            5.20%
+
+10 If the firm is not expensing options, the current earnings of the firm may already include the expenses
+associated with option exercises in the current period. If the effect on operating income of option exercise
+in the current period is less than the expected value of new option issues, we have to allow for an additional
+expense associated with option issues. Conversely, if a disproportionately large number of options were
+exercised in the last period, we have to reduce the operating expenses to allow for the fact that the expected
+effect of option issues in future periods will be smaller.
+
+=== PDF PAGE 33 ===
+33
+
+
+             2008                               $1,119.80                5.10%
+
+Note that the expense associated with employee options is a significant drain on income
+and shows no signs of abating as Google becomes larger as a company.
+
+Relative Valuation
+       Just as options affect intrinsic valuations, they also affect relative valuations. In
+particular, comparing multiples across companies is complicated by the fact that firms
+often have varying numbers of employee options outstanding and these options can have
+very different values. A failure to explicitly factor these options into analysis will result
+in companies with unusually large or small (relative to the peer group) numbers of
+options outstanding looking misvalued on a relative basis.
+       To see the effect of options on earnings multiples, consider the most widely used
+one, which is the PE ratio. The numerator is usually the current price per share and the
+denominator is earnings per share. Analysts who use primary earnings per share are
+clearly biasing their analysis towards finding companies with higher option overhang to
+be undervalued. To see why, note that the price per share should incorporate the effect of
+options outstanding – the market price will be lower when there are more employee
+options outstanding, but the denominator does not since it reflects actual shares
+outstanding and does not capture potential dilution. Note that this bias will not disappear
+when firms switch to expensing options.
+       To counter this, analysts often use fully diluted earnings per share to incorporate
+the effect of outstanding options, thus penalizing companies with large numbers of
+options outstanding. The problem with this approach is that it treats all options
+equivalently, with the number of shares increasing by the same unit whether the option is
+out-of-the-money and has three weeks left to expiration or deep in-the-money and has
+five years left to maturity. Clearly, firms that have more of the latter should trade at lower
+market values (for any given level of earnings) and will look cheaper on a diluted basis.
+       What is the solution? The only way to incorporate the effect of options into
+earnings multiples is to value the options at fair value, using the current stock price as the
+basis, and add this value on to the market capitalization to arrive at the total market value
+
+=== PDF PAGE 34 ===
+34
+
+of equity.11 This total market value of equity can be divided by aggregate net income to
+arrive at a PE ratio that incorporates (correctly) the existence of options. This will allow
+analysts to consider all options outstanding and incorporate their characteristics into the
+value.
+                             (Market Capitalization + Estimated value of options oustanding)
+Option corrected PE =
+                                                      Net Income
+The net income used should be the earnings estimated on the assumption that employee
+options are €
+           compensation and operating expenses. With the adoption of 123R, this has
+become a little easier to do, though many companies still reports net income before and
+after these expenses.
+         Everything that we have said about earnings multiples can also be said about book
+value multiples. Failing to incorporate the value of equity options into the market value
+of equity will make option-heavy companies look cheaper, relative to companies that
+have fewer options outstanding. The solution is the same as it was for earnings multiples.
+Estimating the value of employee options and adding them to market capitalization will
+almost always eliminate the bias in the comparison process.
+
+Illustration 10: Adjusting PE ratio for options outstanding
+         To examine the effects of options outstanding on relative valuation, we will
+compare Google and Cisco, two technology firms with a history of using employee
+options. In table 11, we estimate the conventional PE ratio and contrast it with the
+adjusted PE ratio, using the approach described above:
+                Table 11: PE ratio versus Adjusted PE ratio: Google and Cisco
+                                                              Google       Cisco
+            Stock price                                           $326.60        $16.23
+            Primary Shares outstanding                             315.29       5986.00
+            Number of options outstanding                            13.97      1199.00
+            Primary EPS                                            $13.40         $1.47
+            Diluted EPS                                            $12.83         $1.23
+            Primary PE                                               24.37        11.04
+            Diluted PE                                               25.45        13.25
+            Market Capitalization                                $102,975       $97,153
+
+
+11 Harking back to the last section, the value of options used should be calculated based upon the current
+stock price (rather than an estimated value) and on a pre-tax basis.
+
+=== PDF PAGE 35 ===
+35
+
+
+          Value of Options                                $1,406          $3,477
+          Market Value of Equity (Market
+          capitalization + Value of options)           $104,381        $100,630
+          Net Income before option expensing             $5,347          $8,802
+          Net Income after option expensing              $4,227          $8,052
+          Adjusted PE (Market value of
+          Equity/ Net income after option exp)             24.69           12.50
+
+Note that for Google, the effects of incorporating options into the market value of equity
+and using net income after option expensing does not have a material impact on the PE
+ratio. For Cisco, the effects are much stronger with the PE ranging from 11 to 13.25,
+depending on how we deal with options.
+
+Conclusion
+       In this paper, we examine the two key issues that we face when valuing firms with
+substantial intangible assets. The first is that the accounting treatment of what comprises
+capital expenditures at these firms is inconsistent with the accounting treatment of capital
+expenditures at manufacturing firms. R&D expenses, brand name advertising and
+employee recruitment and training expenses are treated as operating, rather than capital
+expenses. As a result, both the earnings and book value numbers at these firms are
+skewed and using them in valuation can lead to poor estimates of value. We examined
+ways of correcting for this accounting inconsistency and the resulting effect on value. In
+general, firms that can convert R&D expenditures more efficiently and profitably into
+commercial products will see their estimated values increase, as a result of the correction,
+whereas firms that spend significant amounts on acquiring intangible assets with little to
+show for it in terms of higher earnings will see their estimated values decrease.
+       The second issue that we consider is the use of equity options to compensate
+employees. We look at two traditional approaches for dealing with these options – the
+diluted stock and treasury stock approaches – and discard them. Instead, we argue for
+valuing these options using modified option pricing models and adjusting the value of
+common shares today both for options that have been granted in the past (the option
+overhang) and expected future option grants.
+
+=== PDF PAGE 36 ===
+36
+

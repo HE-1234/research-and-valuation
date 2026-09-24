@@ -1,0 +1,8 @@
+# Microsoft — source guide
+
+Company-specific fetch and disclosure notes, migrated from the source-path catalog labelled verified 2026-09-07. Read alongside the [shared sourcing rules](../../docs/sources.md). Preserve source dates and recheck a hint when a fetch fails or disclosures change; quarter evidence belongs in the dated source cache and manifest.
+
+**Microsoft (MSFT, CIK 0000789019)**
+- `https://www.microsoft.com/en-us/Investor/earnings/FY-<YYYY>-Q<N>/press-release-webcast` is fetchable with a browser UA; documents sit on `cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/` as `TranscriptFY<YY>Q<N>.docx`, `SlidesFY<YY>Q<N>.pptx`, `OutlookFY<YY>Q<N>.pptx` (the only written guidance; the release has none) and `FinancialStatementFY<YY>Q<N>.xlsx` (recast segment history, KPI growth rates including Azure, capex including finance leases). Older quarters link through `aka.ms` short links and object names are inconsistent (the Q3 FY2026 transcript is `TranscriptQandAFY26Q3` with no extension). Slides and outlook decks are image-only PPTX: unzip the PNGs and OCR with tesseract, then verify against the release and workbook. `pandoc` converts the transcript docx; LibreOffice could not open it.
+- Transcript: tier 1, full Q&A, no page numbers (tag by section and speaker); posted the day after the call. The 8-K EX-99.1 is the cleanest release text.
+- Segments were recast at the start of FY2025 (FY2023–FY2026 recast in the FY2026 10-K; FY2022 original). Azure revenue in dollars is not disclosed; Azure growth, Microsoft Cloud revenue and margin, and commercial bookings are management-stated KPIs (some "excluding OpenAI"). Fiscal year ends June 30; Q4 is reported with a 10-K in late July.

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "financial-firms",
+    "title": "Valuing Financial Service Firms",
+    "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/finfirm09.pdf",
+    "publication_date": "2009-04",
+    "fetched_at": "2026-09-09T05:55:31.418049+00:00",
+    "file": "financial-firms.txt",
+    "extraction": "pdftotext -layout; explicit PDF page markers; printed page numbers may differ",
+    "original_sha256": "2e1b2d45a8d04ab14b8ed48825b64e7765dd896d59e1db34cce32ded23d07472",
+    "text_sha256": "6dc796cbb8e5aa5603e9e8d5263b86029dc37bc654978cf84ea01dfb38a3dbd7",
+    "bytes": 81717
+  },
+  {
+    "id": "intangibles",
+    "title": "Valuing Companies with Intangible Assets",
+    "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/intangibles.pdf",
+    "publication_date": "2009-09",
+    "fetched_at": "2026-09-09T05:55:32.922352+00:00",
+    "file": "intangibles.txt",
+    "extraction": "pdftotext -layout; explicit PDF page markers; printed page numbers may differ",
+    "original_sha256": "088782d249d8ed54d7b83186252fe3e28b0ba7c10db4dadef5fe7fc9384f6298",
+    "text_sha256": "b5ed054004e43bec501aa13b1c4cec3dcde3744651393ad801684c099dd0d7d4",
+    "bytes": 89440
+  },
+  {
+    "id": "cyclical-companies",
+    "title": "Valuing Cyclical and Commodity Companies",
+    "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/commodity.pdf",
+    "publication_date": "2009-09",
+    "fetched_at": "2026-09-09T05:55:34.458296+00:00",
+    "file": "cyclical-companies.txt",
+    "extraction": "pdftotext -layout; explicit PDF page markers; printed page numbers may differ",
+    "original_sha256": "16c80720551749bcb08cfc06de0f94ce46a3162fe0e9a7cf9b3abf097c433d40",
+    "text_sha256": "b5214b769b0896429ba639ec69740a926de8c8ac32c9c02860b236af3fe8a2fa",
+    "bytes": 87806
+  },
+  {
+    "id": "decline-and-distress",
+    "title": "Valuing Declining and Distressed Companies",
+    "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/NewDistress.pdf",
+    "publication_date": "2009-06",
+    "fetched_at": "2026-09-09T05:55:38.018226+00:00",
+    "file": "decline-and-distress.txt",
+    "extraction": "pdftotext -layout; explicit PDF page markers; printed page numbers may differ",
+    "original_sha256": "bde6bad1ff1fee2a095641d9f79429db780397f465253ffff50473b874e3a957",
+    "text_sha256": "e92691837c36b9753005b434fef05790b78bdf45ea9d215b5b3b578f4c067679",
+    "bytes": 168925
+  },
+  {
+    "id": "terminal-value",
+    "title": "Terminal Value (Investment Valuation chapter)",
+    "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/termvalue.pdf",
+    "publication_date": "undated chapter; historical examples",
+    "fetched_at": "2026-09-09T05:55:40.030622+00:00",
+    "file": "terminal-value.txt",
+    "extraction": "pdftotext -layout; explicit PDF page markers; printed page numbers may differ",
+    "original_sha256": "0839feb015a94e3118507767d3f973995ff41e5588cfbecfdb567838cbac702f",
+    "text_sha256": "a950246c175825cbea58065dcd1398ae8a7c368e5361fc8a22e3f5096eb5ca3d",
+    "bytes": 57374
+  },
+  {
+    "id": "narrative-and-numbers",
+    "title": "Numbers and Narrative: Modeling, Story Telling and Investing",
+    "url": "https://aswathdamodaran.blogspot.com/2014/06/numbers-and-narrative-modeling-story.html",
+    "publication_date": "2014-06-24",
+    "fetched_at": "2026-09-09T05:55:40.331332+00:00",
+    "file": "narrative-and-numbers.txt",
+    "extraction": "HTML post-body text only; navigation and comments excluded; images not transcribed",
+    "original_sha256": "73275221723d12bd83c874e0eb05c842e9af29f6d03f10aca0e17b75a17054e7",
+    "text_sha256": "7fd709efb4682526f4eef7d0970547a79faf6851609a08419a213d17050d8b72",
+    "bytes": 16886
+  },
+  {
+    "id": "growth-and-value",
+    "title": "Myth 5.3: Growth is good, more growth is better!",
+    "url": "https://aswathdamodaran.blogspot.com/2016/11/myth-53-growth-is-good-more-growth-is.html",
+    "publication_date": "2016-11-30",
+    "fetched_at": "2026-09-09T05:55:40.742466+00:00",
+    "file": "growth-and-value.txt",
+    "extraction": "HTML post-body text only; navigation and comments excluded; images not transcribed",
+    "original_sha256": "1f08b6d25e8ee861441fd927e1fdb1e362122aca68e9ff903ee2a1a09fd96a19",
+    "text_sha256": "17c081d1ae4c38117c1c1a88b4262ab86d0c185fcba8d2b012f0bb97b38fe1ca",
+    "bytes": 8943
+  },
+  {
+    "id": "uncertainty",
+    "title": "DCF Myth 3: You cannot do a valuation, when there is too much uncertainty!",
+    "url": "https://aswathdamodaran.blogspot.com/2016/05/dcf-myth-3-you-cannot-do-valuation-when.html",
+    "publication_date": "2016-05-02",
+    "fetched_at": "2026-09-09T05:55:41.227596+00:00",
+    "file": "uncertainty.txt",
+    "extraction": "HTML post-body text only; navigation and comments excluded; images not transcribed",
+    "original_sha256": "038d16d69c4b02d1a2311ec0d01dbfa34b68e5ac9ca529ae321f47eaf4014095",
+    "text_sha256": "7dbb1b31fd4090c56f01dae58f7edaf4c2e39ecee8f0236b20bc97bd72c6401d",
+    "bytes": 16845
+  }
+]
