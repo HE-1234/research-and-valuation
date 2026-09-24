@@ -27,6 +27,7 @@ Use this index when locating a rule or following an old AGENTS.md section citati
 | §12.3 | [docs/sources.md](sources.md#section-12-3) |
 | §12.4 | [docs/sources.md](sources.md#section-12-4) |
 | §12.5 | [docs/sources.md](sources.md#section-12-5) |
+| §12.6 (valuation consensus) | [docs/sources.md](sources.md#section-12-6) |
 | §18.1 | [.claude/skills/draft-valuation/references/model-spec.md](../.claude/skills/draft-valuation/references/model-spec.md#section-18-1) |
 | §18.2 | [.claude/skills/draft-valuation/references/model-spec.md](../.claude/skills/draft-valuation/references/model-spec.md#section-18-2) |
 | §18.3 | [.claude/skills/draft-valuation/references/model-spec.md](../.claude/skills/draft-valuation/references/model-spec.md#section-18-3) |

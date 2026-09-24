@@ -1,6 +1,6 @@
 # Research and valuation review
 
-Read for research, refresh and valuation drafting. The gathering and report checks below apply to research; valuation uses its skill and review checklist for valuation-specific checks. The independent-review, correction, two-pass, evidence-gap and completion rules apply to both. They do not impose a report pipeline on repository maintenance.
+Read for research, refresh and valuation drafting. The gathering and report checks below apply to research; valuation uses its skill and review checklist for valuation-specific checks. For valuation, the [draft review checklist](../.claude/skills/draft-valuation/references/review-checklist.md) includes consensus provenance, its use in the base case, and later-year/scenario checks. The independent-review, correction, two-pass, evidence-gap and completion rules apply to both. They do not impose a report pipeline on repository maintenance.
 
 <a id="section-13"></a>
 

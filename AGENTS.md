@@ -35,7 +35,7 @@ The skills explicitly name their required reads. If delegating within a workflow
 | Report purpose, style, skeletons, indicators, claims, flags, and refresh requirements | [Research guide](docs/research.md) |
 | Source priority, transcript fallback, caching, and information cutoff | [Sourcing guide](docs/sources.md) |
 | Gathering roles, independent review, correction permissions, two-pass limit, and completion | [Review guide](docs/review.md) |
-| Valuation method and input requirements | The focused specifications linked above; the [analyst playbook](.claude/skills/draft-valuation/references/analyst-playbook.md) routes practical teaching references. |
+| Valuation method and input requirements | The focused specifications linked above, including [assumptions rule 10](.claude/skills/draft-valuation/references/assumptions-spec.md#section-18-4) for consensus-led near-term drafting and [consensus collection](docs/sources.md#section-12-6); the [analyst playbook](.claude/skills/draft-valuation/references/analyst-playbook.md) routes practical teaching references. |
 | Redraft protection, draft-review boundary, owner editing, and computation contracts | [Valuation workflow contracts](.claude/skills/draft-valuation/references/workflow-contracts.md) |
 | Company-specific fetch paths, fiscal-calendar and disclosure quirks | `companies/<TICKER>/source-guide.md`; read it before fetching for that company, if present. |
 | Quarter evidence and provenance | `companies/<TICKER>/sources/<QLABEL>/`, including its manifest |

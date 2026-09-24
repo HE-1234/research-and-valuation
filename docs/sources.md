@@ -53,3 +53,28 @@ Everything the agents read is saved as extracted text under `companies/<TICKER>/
 A report "as of Q1" must not use information that became available after its cutoff. The default cutoff is the later of the quarter's earnings call (or earnings announcement if no call was held) and the corresponding financial filing. Use the company's own fiscal labels and applicable filings: 10-Q/10-K for domestic issuers, or the financial-statements 6-K/20-F for foreign issuers. Respect an explicitly supplied cutoff; do not silently advance it to include a later filing or amendment.
 
 Gatherers use documents published on or before the cutoff, with the transcript-posting exception in [§12.2](#section-12-2): a later-posted transcript may supply only content spoken during a pre-cutoff call. Record both dates and exclude subsequent editorial material. Writers must not use knowledge of later events. Missing transcripts or calls use the documented fallback; they are not reasons to wait indefinitely or choose an older otherwise eligible quarter.
+
+<a id="section-12-6"></a>
+
+### 12.6 Analyst consensus for valuation drafting
+
+Before an initial valuation draft or authorized redraft, the runner gathers outside analyst consensus under [assumptions rules 3, 10 and 16](../.claude/skills/draft-valuation/references/assumptions-spec.md#section-18-4). Consensus means a provider's summary of outside analysts' estimates; the repository's **analyst** is the AI drafting role. This collection belongs to valuation evidence, not standalone business research or routine refresh.
+
+Use one reputable provider's already aggregated table as the default, keeping the forecast series on a consistent basis. Collect revenue and, where available, EBIT/operating profit for roughly the next three available fiscal years; record the actual coverage rather than requiring three years. Use the provider's published consensus **mean (average)** as the starting estimate. Record the statistic actually supplied; if the mean is unavailable and another statistic is used, name it and explain the substitution. Do not calculate a new average by collecting individual analysts. A published median, range and analyst count can help assess outliers when available; they do not require additional research on each analyst. Koyfin is an example, not a required vendor. Use legitimate accessible sources or owner-provided exports; this workflow does not authorize a purchase, subscription or new integration.
+
+Try another source only for material gaps, stale data, incompatible definitions or discrepancies that need resolution. Record why it was needed and reconcile any combined series. Do not routinely fetch each analyst's estimates or read broker reports one by one. An individual report is an exceptional, targeted source for a material unresolved question, or work the owner explicitly requests; it is not consensus by itself.
+
+Cache the table and its metric definitions as extracted text under `sources/<QLABEL>/`, with source tags and manifest entries. Preserve each dated snapshot rather than replacing it with a later revision. Record:
+
+| Field | Required record |
+|---|---|
+| Origin and timing | Provider and underlying source if named, URL or owner export identifier, retrieval date, snapshot/as-of date, and estimate/update date where known. |
+| Period and status | Exact fiscal label and period start/end, annual/quarterly basis, actual versus forecast status, and any actual portions included in an in-progress-year estimate. |
+| Definition | Units, currency, revenue reporting basis, profit metric and GAAP/adjusted treatment, including known exclusions; identify the selected mean/median. |
+| Coverage | Analyst count and low/high or other spread by metric and period when available; mark missing fields as unavailable. |
+
+A download today is not evidence of what was forecast at a historical cutoff. Verify that the estimates were available by [§12.5](#section-12-5)'s cutoff; a later retrieval is usable only with a documented historical snapshot. Never substitute today's revised estimates or backdate them. Assess whether an eligible older snapshot still fits the information available at the cutoff, and flag material staleness.
+
+EBIT means earnings before interest and taxes. Provider-adjusted EBIT can differ from the model's operating income through stock compensation, acquired amortization or other adjustments. Keep raw estimates distinct from management guidance and the selected forecast. The analyst reconciles accounting and fiscal periods using [the consensus-to-model procedure](../.claude/skills/draft-valuation/references/business-drivers.md#from-consensus-to-model-inputs); a shared label is not proof of comparability.
+
+If meaningful eligible consensus is unavailable, document the sources checked, missing periods/metrics and reason. Use the supported company-specific fallback in rule 10; retain usable revenue coverage even if profit coverage is absent. Missing consensus alone does not block a draft, but unsupported material inputs still follow [the evidence-gap rules](review.md#section-13). Do not invent coverage or stop unrelated work.
