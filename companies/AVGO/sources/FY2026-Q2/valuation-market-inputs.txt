@@ -1,0 +1,15 @@
+AVGO valuation market inputs — runner source record
+Fetched 2026-09-18 America/Los_Angeles. This is an analytical source record, not a company disclosure.
+
+Information cutoff for operating evidence: 2026-06-09. Current market inputs are separately dated under AGENTS.md §18.8 and do not update the operating cutoff.
+
+Repository direct price-fetch utility: uv run python -c 'import sys; from valuation.market import fetch_price; print(fetch_price(sys.argv[1]))' AVGO
+Observed result: (357.61, '2026-09-18 16:00 EDT')
+Source: Yahoo chart regularMarketPrice; https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=1d&interval=1d (utility supports documented query2 fallback).
+
+Repository utility: from valuation.market import risk_free_with_fallback; print(risk_free_with_fallback())
+Observed result: rate 0.0494, date 2026-09-17, source FRED DGS10, no fallback.
+Source: https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+
+Cached Damodaran implied equity-risk premium: 0.0409, latest monthly row 2026-09-01; T-bond in that row 0.0475. Cache fetched 2026-09-07; see tools/valuation/data/damodaran/MANIFEST.md and ERPbymonth.csv. The current FRED observation supersedes that T-bond fallback for this draft's restricted diagnostics.
+Industry data: January 5, 2026 observations, cached September 7, 2026, original URLs listed in the same manifest. These precede the operating cutoff. Latest ERP is a current market input.

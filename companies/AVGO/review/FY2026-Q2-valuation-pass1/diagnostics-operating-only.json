@@ -1,0 +1,665 @@
+{
+  "ticker": "AVGO",
+  "as_of_quarter": "FY2026-Q2",
+  "computed_at": "2026-09-19 05:11 UTC",
+  "engine_version": "0.1.0",
+  "market": {
+    "price": 357.61,
+    "risk_free_rate": 0.0494,
+    "equity_risk_premium": 0.0409,
+    "price_date": "2026-09-18 16:00 EDT",
+    "risk_free_date": "2026-09-18",
+    "erp_date": "2026-09-18",
+    "price_source": "Yahoo chart",
+    "risk_free_source": "assumptions.yaml (manual)",
+    "erp_source": "assumptions.yaml (manual)",
+    "warnings": [
+      "market.risk_free_rate is a manual value (0.0494) from assumptions.yaml or --set, not fetched",
+      "market.equity_risk_premium is a manual value (0.0409) from assumptions.yaml or --set, not fetched"
+    ]
+  },
+  "base_year": {
+    "revenue": 75465.0,
+    "operating_income_gaap": 32746.0,
+    "one_time_items": 0,
+    "amortization_memo": 8014.0,
+    "amortization_addback": 0.0,
+    "stock_based_compensation_memo": 8785.0,
+    "rnd_expense_memo": 11991.0,
+    "rnd_adjustment": 0.0,
+    "rnd_asset": 0.0,
+    "rnd_amortization": 0.0,
+    "adjusted_operating_income": 32746.0,
+    "margin": 0.43392301066719674,
+    "effective_tax_rate": 0.038124610387479906,
+    "invested_capital_reported": 132970.0,
+    "invested_capital": 132970.0,
+    "roic": 0.23687727689141597
+  },
+  "cost_of_capital": {
+    "method": "build",
+    "risk_free": 0.0494,
+    "equity_risk_premium": 0.0409,
+    "marginal_tax": 0.25,
+    "mature_market_erp": 0.045,
+    "wacc": 0.11014936818279296,
+    "terminal_method": "mature",
+    "terminal_wacc": 0.0944,
+    "unlevered_beta": 1.5046492754744247,
+    "debt_to_equity": 0.037223583906638956,
+    "pretax_cost_of_debt": 0.057,
+    "levered_beta": 1.546655604391189,
+    "cost_of_equity": 0.11265821421959962,
+    "after_tax_cost_of_debt": 0.04275,
+    "weight_equity": 0.9641122854472334,
+    "weight_debt": 0.03588771455276654,
+    "industry": "Semiconductor",
+    "unlevered_beta_note": null,
+    "debt_to_equity_note": null,
+    "warnings": []
+  },
+  "industry": {
+    "industry": "Semiconductor",
+    "unlevered_beta_cash_corrected": {
+      "value": 1.5046492754744247,
+      "dataset": "betas",
+      "dataset_date": "2026-01-05",
+      "matched_name": "Semiconductor",
+      "column": "Unlevered beta corrected for cash",
+      "note": null
+    },
+    "cost_of_capital": {
+      "value": 0.10550619089928288,
+      "dataset": "wacc",
+      "dataset_date": "2026-01-05",
+      "matched_name": "Semiconductor",
+      "column": "Cost of Capital",
+      "note": null
+    },
+    "sales_to_capital": {
+      "value": 1.206668138058751,
+      "dataset": "capex",
+      "dataset_date": "2026-01-05",
+      "matched_name": "Semiconductor",
+      "column": "Sales/ Invested Capital (LTM)",
+      "note": null
+    },
+    "pretax_operating_margin": {
+      "value": 0.35327791914252643,
+      "dataset": "margin",
+      "dataset_date": "2026-01-05",
+      "matched_name": "Semiconductor",
+      "column": "Pre-tax Unadjusted Operating Margin",
+      "note": null
+    },
+    "revenue_cagr_5y": {
+      "value": 0.11177130434782612,
+      "dataset": "histgr",
+      "dataset_date": "2026-01-05",
+      "matched_name": "Semiconductor",
+      "column": "CAGR in Revenues- Last 5 years",
+      "note": null
+    },
+    "effective_tax_rate": {
+      "value": 0.15790418212542343,
+      "dataset": "taxrate",
+      "dataset_date": "2026-01-05",
+      "matched_name": "Semiconductor",
+      "column": "Average across only money-making companies",
+      "note": null
+    }
+  },
+  "scenarios": {
+    "bear": {
+      "years": [
+        {
+          "year": 1,
+          "revenue": 107999.9999983125,
+          "growth": 0.4311270125,
+          "margin": 0.47075,
+          "ebit_after_tax": 40672.79999936449,
+          "reinvestment": -2609.0,
+          "fcff": 43281.79999936449,
+          "wacc": 0.11014936818279296,
+          "roic": 0.30587952169184396
+        },
+        {
+          "year": 2,
+          "revenue": 114299.99999461406,
+          "growth": 0.0583333333,
+          "margin": 0.4484820647,
+          "ebit_after_tax": 41009.199994235605,
+          "reinvestment": -5456.55,
+          "fcff": 46465.74999423561,
+          "wacc": 0.11014936818279296,
+          "roic": 0.31458181506919713
+        },
+        {
+          "year": 3,
+          "revenue": 112299.9999916683,
+          "growth": -0.0174978128,
+          "margin": 0.4148975957,
+          "ebit_after_tax": 37274.39999492256,
+          "reinvestment": -4564.0,
+          "fcff": 41838.39999492256,
+          "wacc": 0.11014936818279296,
+          "roic": 0.2984233147411687
+        },
+        {
+          "year": 4,
+          "revenue": 111399.99998625508,
+          "growth": -0.0080142476,
+          "margin": 0.3954308797,
+          "ebit_after_tax": 35240.799994515866,
+          "reinvestment": -1946.333,
+          "fcff": 37187.132994515865,
+          "wacc": 0.11014936818279296,
+          "roic": 0.29284251466997063
+        },
+        {
+          "year": 5,
+          "revenue": 113599.99998588364,
+          "growth": 0.0197486535,
+          "margin": 0.3928785211,
+          "ebit_after_tax": 35704.799993131186,
+          "reinvestment": -254.333,
+          "fcff": 35959.132993131185,
+          "wacc": 0.11014936818279296,
+          "roic": 0.3015757953001262
+        },
+        {
+          "year": 6,
+          "revenue": 116099.99999085299,
+          "growth": 0.0220070423,
+          "margin": 0.3877906977,
+          "ebit_after_tax": 35567.774999544075,
+          "reinvestment": 1363.833,
+          "fcff": 34203.94199954408,
+          "wacc": 0.10699949454623436,
+          "roic": 0.30106517715949166
+        },
+        {
+          "year": 7,
+          "revenue": 118599.99999436602,
+          "growth": 0.0215331611,
+          "margin": 0.3814924115,
+          "ebit_after_tax": 35291.100001365536,
+          "reinvestment": 1878.333,
+          "fcff": 33412.76700136554,
+          "wacc": 0.10384962090967577,
+          "roic": 0.29531407406158705
+        },
+        {
+          "year": 8,
+          "revenue": 121099.99999304727,
+          "growth": 0.021079258,
+          "margin": 0.3750247729,
+          "ebit_after_tax": 34969.93499659857,
+          "reinvestment": 2390.833,
+          "fcff": 32579.10199659857,
+          "wacc": 0.10069974727311719,
+          "roic": 0.28809831277713505
+        },
+        {
+          "year": 9,
+          "revenue": 123599.99999428375,
+          "growth": 0.0206440958,
+          "margin": 0.3717799353,
+          "ebit_after_tax": 34923.52000072566,
+          "reinvestment": 2701.333,
+          "fcff": 32222.18700072566,
+          "wacc": 0.09754987363655859,
+          "roic": 0.2821583158611345
+        },
+        {
+          "year": 10,
+          "revenue": 126099.99999208811,
+          "growth": 0.0202265372,
+          "margin": 0.3611022998,
+          "ebit_after_tax": 34151.25000144225,
+          "reinvestment": 2732.167,
+          "fcff": 31419.083001442246,
+          "wacc": 0.0944,
+          "roic": 0.2700256074645523
+        }
+      ],
+      "terminal": {
+        "year": 11,
+        "revenue": 128621.99999192987,
+        "growth": 0.02,
+        "margin": 0.3611022998,
+        "ebit_after_tax": 34834.2750014711,
+        "reinvestment": 7380.14300878625,
+        "fcff": 27454.13199268485,
+        "wacc": 0.0944,
+        "roic": 0.0944
+      }
+    },
+    "base": {
+      "years": [
+        {
+          "year": 1,
+          "revenue": 122799.9999968235,
+          "growth": 0.6272444179,
+          "margin": 0.5254641694,
+          "ebit_after_tax": 51621.600000520695,
+          "reinvestment": 6025.0,
+          "fcff": 45596.600000520695,
+          "wacc": 0.11014936818279296,
+          "roic": 0.38821989922930505
+        },
+        {
+          "year": 2,
+          "revenue": 154699.99999959834,
+          "growth": 0.259771987,
+          "margin": 0.5521557854,
+          "ebit_after_tax": 68334.80000092658,
+          "reinvestment": 6040.0,
+          "fcff": 62294.80000092658,
+          "wacc": 0.11014936818279296,
+          "roic": 0.4916349509041806
+        },
+        {
+          "year": 3,
+          "revenue": 183499.99999920354,
+          "growth": 0.1861667744,
+          "margin": 0.5568228883,
+          "ebit_after_tax": 81741.60000208522,
+          "reinvestment": 5072.0,
+          "fcff": 76669.60000208522,
+          "wacc": 0.11014936818279296,
+          "roic": 0.5635991312585598
+        },
+        {
+          "year": 4,
+          "revenue": 206699.99999705286,
+          "growth": 0.1264305177,
+          "margin": 0.5479095307,
+          "ebit_after_tax": 90602.3199952602,
+          "reinvestment": 4103.5,
+          "fcff": 86498.8199952602,
+          "wacc": 0.11014936818279296,
+          "roic": 0.6035849093996962
+        },
+        {
+          "year": 5,
+          "revenue": 224299.99998736192,
+          "growth": 0.0851475568,
+          "margin": 0.5399331253,
+          "ebit_after_tax": 96885.59999837304,
+          "reinvestment": 4752.5,
+          "fcff": 92133.09999837304,
+          "wacc": 0.11014936818279296,
+          "roic": 0.6282685031069418
+        },
+        {
+          "year": 6,
+          "revenue": 239599.99999043986,
+          "growth": 0.0682122158,
+          "margin": 0.5367579299,
+          "ebit_after_tax": 101599.68799913775,
+          "reinvestment": 6348.0,
+          "fcff": 95251.68799913775,
+          "wacc": 0.10699949454623436,
+          "roic": 0.6391404792255918
+        },
+        {
+          "year": 7,
+          "revenue": 252499.99999276514,
+          "growth": 0.0538397329,
+          "margin": 0.5303683168,
+          "ebit_after_tax": 104456.03999076704,
+          "reinvestment": 6264.5,
+          "fcff": 98191.53999076704,
+          "wacc": 0.10384962090967577,
+          "roic": 0.63187591866704
+        },
+        {
+          "year": 8,
+          "revenue": 264100.00000268273,
+          "growth": 0.0459405941,
+          "margin": 0.5228303673,
+          "ebit_after_tax": 106321.21500410611,
+          "reinvestment": 5672.5,
+          "fcff": 100648.71500410611,
+          "wacc": 0.10069974727311719,
+          "roic": 0.6196759735749341
+        },
+        {
+          "year": 9,
+          "revenue": 273399.9999985872,
+          "growth": 0.0352139341,
+          "margin": 0.5135588881,
+          "ebit_after_tax": 106709.32000441899,
+          "reinvestment": 5467.0,
+          "fcff": 101242.32000441899,
+          "wacc": 0.09754987363655859,
+          "roic": 0.6020339863040428
+        },
+        {
+          "year": 10,
+          "revenue": 281599.9999955248,
+          "growth": 0.0299926847,
+          "margin": 0.5032954545,
+          "ebit_after_tax": 106295.99998871076,
+          "reinvestment": 5632.0,
+          "fcff": 100663.99998871076,
+          "wacc": 0.0944,
+          "roic": 0.5817584762537873
+        }
+      ],
+      "terminal": {
+        "year": 11,
+        "revenue": 290047.9999953906,
+        "growth": 0.03,
+        "margin": 0.5032954545,
+        "ebit_after_tax": 109484.8799883721,
+        "reinvestment": 18247.479998062016,
+        "fcff": 91237.39999031008,
+        "wacc": 0.0944,
+        "roic": 0.18
+      }
+    },
+    "bull": {
+      "years": [
+        {
+          "year": 1,
+          "revenue": 138999.999998457,
+          "growth": 0.8419134698,
+          "margin": 0.547381295,
+          "ebit_after_tax": 60868.800003324315,
+          "reinvestment": 12179.333,
+          "fcff": 48689.46700332432,
+          "wacc": 0.11014936818279296,
+          "roic": 0.4577634053043868
+        },
+        {
+          "year": 2,
+          "revenue": 195499.99999172983,
+          "growth": 0.4064748201,
+          "margin": 0.5746112532,
+          "ebit_after_tax": 89869.19999667829,
+          "reinvestment": 10224.0,
+          "fcff": 79645.19999667829,
+          "wacc": 0.11014936818279296,
+          "roic": 0.6191499343416086
+        },
+        {
+          "year": 3,
+          "revenue": 241999.99998896275,
+          "growth": 0.2378516624,
+          "margin": 0.5879938017,
+          "ebit_after_tax": 113835.60000392814,
+          "reinvestment": 9917.833,
+          "fcff": 103917.76700392814,
+          "wacc": 0.11014936818279296,
+          "roic": 0.7326585444616042
+        },
+        {
+          "year": 4,
+          "revenue": 283499.99998567003,
+          "growth": 0.1714876033,
+          "margin": 0.5889241623,
+          "ebit_after_tax": 133568.00000288858,
+          "reinvestment": 7514.167,
+          "fcff": 126053.83300288858,
+          "wacc": 0.11014936818279296,
+          "roic": 0.8080770632526638
+        },
+        {
+          "year": 5,
+          "revenue": 313699.9999863435,
+          "growth": 0.1065255732,
+          "margin": 0.5844437361,
+          "ebit_after_tax": 146672.00000527085,
+          "reinvestment": 7912.833,
+          "fcff": 138759.16700527084,
+          "wacc": 0.11014936818279296,
+          "roic": 0.8487701013560203
+        },
+        {
+          "year": 6,
+          "revenue": 340199.99997150985,
+          "growth": 0.0844756136,
+          "margin": 0.5818412698,
+          "ebit_after_tax": 156374.49597581275,
+          "reinvestment": 11264.636,
+          "fcff": 145109.85997581275,
+          "wacc": 0.10699949454623436,
+          "roic": 0.865294836910932
+        },
+        {
+          "year": 7,
+          "revenue": 364099.99997800833,
+          "growth": 0.0702527925,
+          "margin": 0.5760711343,
+          "ebit_after_tax": 163603.0499890498,
+          "reinvestment": 9795.227,
+          "fcff": 153807.82298904978,
+          "wacc": 0.10384962090967577,
+          "roic": 0.8521755505425417
+        },
+        {
+          "year": 8,
+          "revenue": 383399.9999603926,
+          "growth": 0.0530074155,
+          "margin": 0.5672274387,
+          "ebit_after_tax": 167455.74998083749,
+          "reinvestment": 9209.909,
+          "fcff": 158245.84098083747,
+          "wacc": 0.10069974727311719,
+          "roic": 0.8299008113556182
+        },
+        {
+          "year": 9,
+          "revenue": 400099.99993980734,
+          "growth": 0.0435576421,
+          "margin": 0.5577793052,
+          "ebit_after_tax": 169607.29998247878,
+          "reinvestment": 9045.955,
+          "fcff": 160561.3449824788,
+          "wacc": 0.09754987363655859,
+          "roic": 0.8038720203165299
+        },
+        {
+          "year": 10,
+          "revenue": 415599.99992896547,
+          "growth": 0.0387403149,
+          "margin": 0.5475697786,
+          "ebit_after_tax": 170677.49996044772,
+          "reinvestment": 7745.273,
+          "fcff": 162932.22696044773,
+          "wacc": 0.0944,
+          "roic": 0.7756873163192531
+        }
+      ],
+      "terminal": {
+        "year": 11,
+        "revenue": 428067.9999268344,
+        "growth": 0.03,
+        "margin": 0.5475697786,
+        "ebit_after_tax": 175797.82495926117,
+        "reinvestment": 23972.43067626289,
+        "fcff": 151825.39428299828,
+        "wacc": 0.0944,
+        "roic": 0.21999999999999997
+      }
+    },
+    "management": {
+      "years": [
+        {
+          "year": 1,
+          "revenue": 129099.999999555,
+          "growth": 0.710726827,
+          "margin": 0.5281603408,
+          "ebit_after_tax": 54548.39999763598,
+          "reinvestment": 8176.5,
+          "fcff": 46371.89999763598,
+          "wacc": 0.11014936818279296,
+          "roic": 0.41023087912789336
+        },
+        {
+          "year": 2,
+          "revenue": 166299.9999967168,
+          "growth": 0.2881487219,
+          "margin": 0.5540499098,
+          "ebit_after_tax": 73710.79999833675,
+          "reinvestment": 7138.0,
+          "fcff": 66572.79999833675,
+          "wacc": 0.11014936818279296,
+          "roic": 0.5222290315263698
+        },
+        {
+          "year": 3,
+          "revenue": 197700.00000166686,
+          "growth": 0.1888153939,
+          "margin": 0.5578958017,
+          "ebit_after_tax": 88236.79999761595,
+          "reinvestment": 6023.0,
+          "fcff": 82213.79999761595,
+          "wacc": 0.11014936818279296,
+          "roic": 0.5950507301681291
+        },
+        {
+          "year": 4,
+          "revenue": 223099.99999235102,
+          "growth": 0.1284774911,
+          "margin": 0.5483850291,
+          "ebit_after_tax": 97875.75999041233,
+          "reinvestment": 4825.5,
+          "fcff": 93050.25999041233,
+          "wacc": 0.11014936818279296,
+          "roic": 0.6342903617154858
+        },
+        {
+          "year": 5,
+          "revenue": 242300.00000237278,
+          "growth": 0.0860600628,
+          "margin": 0.5397730087,
+          "ebit_after_tax": 104629.60000743261,
+          "reinvestment": 5362.5,
+          "fcff": 99267.10000743261,
+          "wacc": 0.11014936818279296,
+          "roic": 0.6574978163387394
+        },
+        {
+          "year": 6,
+          "revenue": 258899.99999475532,
+          "growth": 0.0685101114,
+          "margin": 0.5361483198,
+          "ebit_after_tax": 109658.95199479237,
+          "reinvestment": 7044.5,
+          "fcff": 102614.45199479237,
+          "wacc": 0.10699949454623436,
+          "roic": 0.6666380052633195
+        },
+        {
+          "year": 7,
+          "revenue": 272999.9999883797,
+          "growth": 0.0544611819,
+          "margin": 0.5296190476,
+          "ebit_after_tax": 112777.07999114362,
+          "reinvestment": 6917.0,
+          "fcff": 105860.07999114362,
+          "wacc": 0.10384962090967577,
+          "roic": 0.6574389646213339
+        },
+        {
+          "year": 8,
+          "revenue": 285699.99998233916,
+          "growth": 0.0465201465,
+          "margin": 0.5219583479,
+          "ebit_after_tax": 114825.09498907506,
+          "reinvestment": 6180.5,
+          "fcff": 108644.59498907506,
+          "wacc": 0.10069974727311719,
+          "roic": 0.6434328437050666
+        },
+        {
+          "year": 9,
+          "revenue": 295799.9999850348,
+          "growth": 0.0353517676,
+          "margin": 0.5125862069,
+          "ebit_after_tax": 115233.47999494527,
+          "reinvestment": 5929.0,
+          "fcff": 109304.47999494527,
+          "wacc": 0.09754987363655859,
+          "roic": 0.6241065872043614
+        },
+        {
+          "year": 10,
+          "revenue": 304699.9999763446,
+          "growth": 0.0300878972,
+          "margin": 0.5023055464,
+          "ebit_after_tax": 114789.37498214832,
+          "reinvestment": 6094.0,
+          "fcff": 108695.37498214832,
+          "wacc": 0.0944,
+          "roic": 0.6023586253730236
+        }
+      ],
+      "terminal": {
+        "year": 11,
+        "revenue": 313840.9999756349,
+        "growth": 0.03,
+        "margin": 0.5023055464,
+        "ebit_after_tax": 118233.05623161278,
+        "reinvestment": 19705.509371935463,
+        "fcff": 98527.54685967731,
+        "wacc": 0.0944,
+        "roic": 0.18
+      }
+    }
+  },
+  "transition_check": {
+    "title": "7. The step from the last explicit year into the terminal year",
+    "rows": [
+      [
+        "Bear case, free cash flow (USD millions)",
+        "year 10 31,419 to terminal year 27,454, a change of -12.6% (expected: the bear's terminal return equals its cost of capital by rule)"
+      ],
+      [
+        "Bear case, return on capital",
+        "year 10 27.0% to terminal year 9.4%"
+      ],
+      [
+        "Base case, free cash flow (USD millions)",
+        "year 10 100,664 to terminal year 91,237, a change of -9.4% (flagged)"
+      ],
+      [
+        "Base case, return on capital",
+        "year 10 58.2% to terminal year 18.0%"
+      ],
+      [
+        "Bull case, free cash flow (USD millions)",
+        "year 10 162,932 to terminal year 151,825, a change of -6.8% (flagged)"
+      ],
+      [
+        "Bull case, return on capital",
+        "year 10 77.6% to terminal year 22.0%"
+      ],
+      [
+        "Management case, free cash flow (USD millions)",
+        "year 10 108,695 to terminal year 98,528, a change of -9.4% (flagged)"
+      ],
+      [
+        "Management case, return on capital",
+        "year 10 60.2% to terminal year 18.0%"
+      ]
+    ],
+    "flag": true,
+    "note": "A small drop is normal, because the terminal year reinvests growth divided by the return on capital; a drop this large means the terminal settings and the last explicit year disagree. Revisit the terminal return on capital or the shape of the last years, rather than accepting the step. The bear case is shown but not checked, because its terminal return equals its cost of capital by rule."
+  },
+  "stopped": {},
+  "skipped": {},
+  "warnings": [
+    "base: terminal ROIC premium 0.086 is above 0.08 (allow_large_premium is true; reason: The mature return is chosen from Broadcom\u2019s normalized history and the peer range, with continued research and renewals needed to sustain it. Its premium exceeds a house warning threshold and is retained for that business reason, not to clear a diagnostic. [Mature benchmark evidence])",
+    "bull: terminal ROIC premium 0.126 is above 0.12 (allow_large_premium is true; reason: The mature return is chosen from Broadcom\u2019s normalized history and the peer range, with continued research and renewals needed to sustain it. Its premium exceeds a house warning threshold and is retained for that business reason, not to clear a diagnostic. [Mature benchmark evidence])",
+    "management: terminal ROIC premium 0.086 is above 0.08 (allow_large_premium is true; reason: The mature return is chosen from Broadcom\u2019s normalized history and the peer range, with continued research and renewals needed to sustain it. Its premium exceeds a house warning threshold and is retained for that business reason, not to clear a diagnostic. [Mature benchmark evidence])",
+    "market.risk_free_rate is a manual value (0.0494) from assumptions.yaml or --set, not fetched",
+    "market.equity_risk_premium is a manual value (0.0409) from assumptions.yaml or --set, not fetched",
+    "base: the terminal year's free cash flow (91,237) is far below the year-10 free cash flow (100,664); the terminal settings and the year-10 inputs disagree",
+    "bull: the terminal year's free cash flow (151,825) is far below the year-10 free cash flow (162,932); the terminal settings and the year-10 inputs disagree",
+    "management: the terminal year's free cash flow (98,528) is far below the year-10 free cash flow (108,695); the terminal settings and the year-10 inputs disagree"
+  ]
+}

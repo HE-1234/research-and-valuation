@@ -115,3 +115,19 @@ Format: filename | origin URL | fetch date | word count | HTTP status
 - 8-K-2026-04-06-google-anthropic.txt: accession 0001193125-26-144028, filed 2026-04-06, Item 8.01. Long Term Agreement with Google LLC for custom TPUs and a Supply Assurance Agreement through up to 2031; expanded Broadcom/Google/Anthropic collaboration (~3.5 GW beginning 2027). Tag: [8-K 2026-04-06].
 - 8-K-2026-01-13-notes-offering.txt: accession 0001193125-26-011731, filed 2026-01-13, Item 8.01. $4.5B senior notes in four tranches (2031, 2033, 2036, 2056). Tag: [8-K 2026-01-13].
 - Not cached: 8-K filed 2026-03-02 (accession 0001193125-26-085656, Item 5.02, director Eddy Hartenstein retiring at the 2026 annual meeting; board reduced to eight) — read by the orchestrator, judged minor. 8-Ks filed 2026-06-11, 2026-06-18, 2026-07-06 and 2026-09-02 are after the cutoff and were not opened.
+
+## Valuation research additions — September 18, 2026
+
+The operating cutoff remains June 9, 2026. These targeted sources support the initial valuation draft and do not refresh or rewrite the business report.
+
+See [runner source manifest](MANIFEST-valuation-runner.md) for original URLs, publication dates, retrieval method and exclusions for:
+
+- `apollo-platform-release-2026-06-09.txt`
+- `apollo-financing-release-2026-06-09.txt`
+- `wsts-spring-2026.txt`
+- `sec-bridge-facts-precutoff.txt`
+- `valuation-market-inputs.txt`
+
+See [peer source manifest](MANIFEST-valuation-peers.md) for the Qualcomm and Cisco FY2025 filings and the eligible Microsoft FY2025 cache reused by exact path. Agent-authored analytical notes are `notes-valuation-evidence.md`, `notes-valuation-base.md` and `notes-valuation-peers.md`; their own Sources lists route to the underlying disclosures.
+
+Further targeted analyst requests, detailed in `MANIFEST-valuation-runner.md`: `fred-treasury-debt-proxy.txt`, `NVDA-release-FY2027-Q1.txt` (May 20, 2026) and `NVDA-release-FY2026-Q4.txt` (February 25, 2026). NVIDIA is a current scale comparison, not a mature-return anchor.

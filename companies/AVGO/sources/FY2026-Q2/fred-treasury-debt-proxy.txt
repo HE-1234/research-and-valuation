@@ -1,0 +1,7 @@
+Source: https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+Fetched: 2026-09-18
+Historical January rates for same-tenor note-coupon spread proxy; September rate is current market input.
+observation_date,DGS10
+2026-01-06,4.18
+2026-01-13,4.18
+2026-09-17,4.94

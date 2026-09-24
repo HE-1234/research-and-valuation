@@ -1,0 +1,71 @@
+San Jose, California - June 2, 2026, 06:00 UTC
+
+
+Global Semiconductor Market Surges Beyond USD 1.5 Trillion in 2026
+Driven by Extraordinary Memory Expansion
+The World Semiconductor Trade Statistics (WSTS) organization has released its
+Spring 2026 semiconductor market forecast, significantly raising the industry outlook
+for both 2026 and 2027.
+
+2026: Semiconductor Market Surpasses USD 1.5 Trillion Driven by Extraordinary
+Memory Expansion
+Following exceptionally strong results in late 2025 and early 2026, the global semiconductor
+market is now projected to grow 90 percent in 2026, reaching USD 1.51 trillion.
+
+
+
+
+The sharp upward acceleration is overwhelmingly driven by the Memory segment, which is
+forecast to surge by around 250 percent year over year, reaching more than USD 800 billion
+in 2026. Continued strong demand for AI infrastructure, high-bandwidth memory (HBM), and
+accelerated computing platforms remains the primary growth catalyst for the semiconductor
+industry. Logic is expected to remain another major contributor, growing 37 percent in 2026.
+Other product categories are forecast to expand at more moderate rates, reflecting a broader
+industry growth: Microprocessors 20 percent, Analog 10 percent, Discrete Semiconductors 8
+percent, Sensors and Optoelectronics with 3 percent.
+Regionally, all major markets are projected to show strong growth. The Americas are
+expected to more than double in 2026 with 112 percent growth, driven by the concentration
+of AI-related semiconductor demand and cloud infrastructure investments. Asia Pacific is
+forecast to grow 87 percent, while Europe and Japan are projected to grow 58 percent and
+28 percent respectively.
+
+2027 Outlook: Growth Continues Above Historical Industry Trends
+For 2027, WSTS forecasts the global semiconductor market to grow a further 27 percent,
+reaching approximately USD 1.9 trillion.
+Memory is again expected to lead market expansion with projected growth of 32 percent,
+while Logic is forecast to increase by 27 percent. Continued deployment of AI systems,
+advanced computing infrastructure, and expanding semiconductor content across end
+markets are expected to support ongoing industry momentum.
+All geographic regions are projected to continue growing in 2027, led by the Americas and
+Asia Pacific.
+
+
+WSTS Forecast Summary
+                                         Amounts in US$M         Year on Year Growth in %
+          Spring 2026
+                                    2025      2026       2027     2025     2026    2027
+Americas                            256,476   543,654    701,439    31.4    112.0      29.0
+Europe                               54,694    86,643    101,587      6.7     58.4     17.2
+Japan                                44,723    57,050     67,332     -4.3     27.6     18.0
+Asia Pacific                        439,747   823,900 1,043,326     30.3      87.4     26.6
+Total World - $M                    795,640 1,511,248 1,913,683     26.2      89.9     26.6
+Discrete Semiconductors              30,728    33,188     35,712     -1.0      8.0      7.6
+Optoelectronics                      43,042    44,218     46,436      4.7      2.7      5.0
+Sensors                              20,894    21,516     23,002    10.4       3.0      6.9
+Integrated Circuits                 700,975 1,412,326 1,808,533     29.9    101.5      28.1
+  Analog                             86,519    95,358    101,662      8.7     10.2      6.6
+  Micro                              84,867   101,655    121,966      7.9     19.8     20.0
+  Logic                             299,547   411,371    522,820    38.8      37.3     27.1
+  Memory                            230,042   803,941 1,062,085     39.0    249.5      32.1
+Total Products - $M                 795,640 1,511,248 1,913,683     26.2      89.9     26.6
+
+Note: Numbers in the table are rounded to whole millions of dollars, which may cause totals by region and
+totals by product group to differ slightly.
+
+About WSTS:
+World Semiconductor Trade Statistics (WSTS) was founded in 1986 as a non-profit organization of
+semiconductor product companies and is the industry’s only source for monthly industry shipment statistics.
+
+For more information, please visit the WSTS web site at www.wsts.org or contact the WSTS Administrator and
+CEO – Tobias Pröttel (tp@wsts.org).
+
